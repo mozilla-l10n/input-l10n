@@ -1,0 +1,1317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-28 14:18-0700\n"
+"PO-Revision-Date: 2012-01-07 23:14+0200\n"
+"Last-Translator: Peter <petercpg@mail.moztw.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.1.6\n"
+
+#: apps/feedback/forms.py:96
+msgid "We already got your feedback! Thanks."
+msgstr "我們已經收到您的回饋！感謝您。"
+
+#: apps/feedback/forms.py:108
+msgid "Please describe what you liked."
+msgstr "請描述您喜歡什麼地方。"
+
+#: apps/feedback/forms.py:125
+msgid "Please describe your problem below."
+msgstr "請在下面描述您的問題。"
+
+#: apps/feedback/forms.py:142
+msgid "Describe your idea below."
+msgstr "請在下面描述您的點子。"
+
+#: apps/feedback/helpers.py:16 apps/search/forms.py:42 apps/search/forms.py:45 apps/search/forms.py:50 apps/search/templates/search/devices.html:8 apps/search/templates/search/manufacturers.html:9
+#: apps/search/templates/search/mobile/devices.html:8 apps/search/templates/search/mobile/manufacturers.html:9
+msgid "Unknown"
+msgstr "未知"
+
+#. Formerly called "happy"
+#: apps/feedback/helpers.py:36 apps/input/__init__.py:33 apps/search/forms.py:33 apps/search/views.py:273 apps/search/templates/search/overview.html:13
+#: apps/search/templates/search/mobile/overview.html:9 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
+#: apps/website_issues/templates/website_issues/includes/single_site.html:12
+msgid "Praise"
+msgstr "讚"
+
+#: apps/feedback/helpers.py:39 apps/input/__init__.py:40 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
+msgid "Issue"
+msgstr "有問題"
+
+#: apps/feedback/validators.py:43
+msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+msgstr "您的意見包含不雅字詞（%s）。為了協助改進產品，請回饋建設性的內容，以利我們採取行動或歸納待完成項目。感謝！"
+
+#: apps/feedback/validators.py:52
+msgid "Feedback must not contain HTML."
+msgstr "回饋內容不得包含 HTML。"
+
+#: apps/feedback/validators.py:59
+msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "您的回饋內容似乎包含電子郵件地址。請將電子郵件地址和其他類似的個人資訊從內容中移除，然後再試一次。感謝！"
+
+#: apps/feedback/validators.py:68
+msgid "URLs with IP addresses must contain public IP addresses."
+msgstr "必須使用公開的 IP 位置作為網址使用。"
+
+#: apps/feedback/validators.py:75
+msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+msgstr "您的回饋內容似乎包含網址。請將包含網址的所有個人資訊從內容中移除，然後再試一次。感謝！"
+
+#: apps/feedback/views.py:40
+msgid "User-Agent request header must be set."
+msgstr "Request Header 中需設定 User-Agent。"
+
+#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:69 apps/feedback/templates/feedback/feedback-form.html:73
+#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
+#: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
+#: apps/feedback/templates/feedback/mobile/index.html:3
+msgid "Submit Feedback"
+msgstr "傳送意見回饋"
+
+#: apps/feedback/templates/feedback/beta_index.html:7
+msgid "It's great to hear you want to help Mozilla make your experience better!"
+msgstr "能聽到您想要幫助 Mozilla 讓您的體驗變得更好，這真棒！"
+
+#: apps/feedback/templates/feedback/beta_index.html:9
+msgid "Please choose one of the following types of feedback that you would like to submit to us:"
+msgstr "請從下列的使用者回饋類型當中挑出一個您想要回報給我們的種類："
+
+#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
+msgid "Firefox makes me happy because ..."
+msgstr "Firefox 讓我覺得高興，因為…"
+
+#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
+msgid "Firefox makes me sad because ..."
+msgstr "Firefox 讓我覺得不高興，因為…"
+
+#: apps/feedback/templates/feedback/beta_index.html:24
+msgid "Firefox Logo"
+msgstr "Firefox 圖示"
+
+#: apps/feedback/templates/feedback/beta_index.html:25
+msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+msgstr "若您有跟 Firefox 有關的問題需要幫助，請看看我們的 <a href=\"%(support_url)s\">技術支援頁面</a>。"
+
+#: apps/feedback/templates/feedback/download.html:3
+msgid "Download Firefox"
+msgstr "下載 Firefox"
+
+#: apps/feedback/templates/feedback/download.html:8
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "喔，您似乎想要回報對 Firefox 的意見。感謝您的支持，但您必須使用最新版本才能回報。"
+
+#: apps/feedback/templates/feedback/download.html:14
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox</a> 即可！"
+
+#: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
+msgid "Firefox Made Me Happy"
+msgstr "Firefox 讓我覺得高興"
+
+#: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
+msgid "Firefox Made Me Sad"
+msgstr "Firefox 讓我覺得不高興"
+
+#: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
+msgid "I Have an Idea for Firefox"
+msgstr "我有個 Firefox 的點子"
+
+#: apps/feedback/templates/feedback/feedback-form.html:15
+msgid "Super! It's great to hear that you like our browser."
+msgstr "太棒了！真高興您喜歡我們的瀏覽器。"
+
+#: apps/feedback/templates/feedback/feedback-form.html:17
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
+
+#: apps/feedback/templates/feedback/feedback-form.html:19
+msgid "Have an idea how Firefox could be better? Let us know."
+msgstr "有什麼能讓 Firefox 變得更好的點子嗎？請讓我們知道。"
+
+#: apps/feedback/templates/feedback/feedback-form.html:23
+msgid "Go Back"
+msgstr "回到上一頁"
+
+#: apps/feedback/templates/feedback/feedback-form.html:42
+msgid "Include the URL of a site that worked better."
+msgstr "這個網站在新版本當中表現得更好。"
+
+#: apps/feedback/templates/feedback/feedback-form.html:44
+msgid "Include the URL of the site with the problem."
+msgstr "包含有問題的網站的網址。"
+
+#: apps/feedback/templates/feedback/feedback-form.html:55
+msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+msgstr "為了保護您的隱私，請確定您要送出的回饋當中沒有可供識別的個人資訊。"
+
+#: apps/feedback/templates/feedback/feedback-form.html:68
+msgid "Submitting Feedback"
+msgstr "正在傳送意見回饋"
+
+#: apps/feedback/templates/feedback/feedback-form.html:81
+msgid "If you have an idea to offer us instead, please use our"
+msgstr "若您如果有什麼點子可以提供給我們，請使用我們的"
+
+#: apps/feedback/templates/feedback/feedback-form.html:82
+msgid "suggestion box"
+msgstr "意見箱"
+
+#: apps/feedback/templates/feedback/feedback.html:19
+msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
+msgstr "太棒了！真高興您喜歡我們的瀏覽器。請寫下您特別喜愛的地方吧！"
+
+#: apps/feedback/templates/feedback/feedback.html:24
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
+msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
+
+#: apps/feedback/templates/feedback/feedback.html:29
+msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
+msgstr "所以您想要給我們一些關於怎麼讓 Firefox 變得更好的建議？真棒！請在下面列出要給我們的建議:"
+
+#: apps/feedback/templates/feedback/feedback.html:47
+msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
+msgstr "您知道哪個網站在這個版本中表現得比之前的版本更好嗎？請附上網址，這樣我們就能繼續追蹤！"
+
+#: apps/feedback/templates/feedback/feedback.html:55
+msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+msgstr "在特定網站上出現問題？請填寫網址，讓我們更快發現問題！"
+
+#: apps/feedback/templates/feedback/feedback.html:76 apps/feedback/templates/feedback/mobile/feedback.html:58
+msgid "Please ensure that there is no personally identifiable information here."
+msgstr "請確定內容中沒有可供識別的個人資訊。"
+
+#: apps/feedback/templates/feedback/feedback.html:85
+msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
+msgstr "若您如果有什麼點子可以提供給我們，請直接透過 <a href=\"%(url_idea)s\">意見箱</a> 告訴我們！"
+
+#: apps/feedback/templates/feedback/index.html:15
+msgid "Submit Your Feedback"
+msgstr "傳送您的意見回饋"
+
+#: apps/feedback/templates/feedback/index.html:16
+msgid "Your feedback helps us improve Firefox."
+msgstr "您所送出的回饋可以幫助我們改進 Firefox。"
+
+#: apps/feedback/templates/feedback/index.html:29
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+msgstr "若您有 Firefox 的相關問題需要幫助，請看看 <a href=\"%(support_url)s\"> Firefox 技術支援</a>。"
+
+#: apps/feedback/templates/feedback/thanks.html:6
+msgid "Thanks"
+msgstr "感謝！"
+
+#: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
+msgid "Thanks for Your Feedback"
+msgstr "感謝您的回饋"
+
+#: apps/feedback/templates/feedback/thanks.html:17
+msgid "Your feedback will be used to create a"
+msgstr "您的回饋將會在未來的 Firefox 版本當中"
+
+#: apps/feedback/templates/feedback/thanks.html:18
+msgid "better experience in future releases of Firefox."
+msgstr "被用來建立更優秀的體驗。"
+
+#: apps/feedback/templates/feedback/thanks.html:25
+msgid "Share your feedback."
+msgstr "分享您回饋的意見。"
+
+#: apps/feedback/templates/feedback/thanks.html:31
+msgid "Tweet feedback to your followers"
+msgstr "把意見推給您的訂閱者"
+
+#: apps/feedback/templates/feedback/thanks.html:37 apps/feedback/templates/feedback/mobile/thanks.html:42
+msgid "Shape the future of Firefox."
+msgstr "打造未來的 Firefox。"
+
+#: apps/feedback/templates/feedback/thanks.html:39
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "下載 <a href=\"%(download_url)s\">適合您的 Firefox 版本</a>。"
+
+#: apps/feedback/templates/feedback/thanks.html:47
+msgid "Contribute to Mozilla."
+msgstr "貢獻給 Mozilla。"
+
+#: apps/feedback/templates/feedback/thanks.html:49
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+msgstr "了解您能如何 <a href=\"%(url)s\">讓 Firefox 與 Mozilla 變得更好</a>"
+
+#: apps/feedback/templates/feedback/thanks.html:56
+msgid "Want to see where your feedback goes?"
+msgstr "想看看您所回饋的東西跑到哪了嗎？"
+
+#: apps/feedback/templates/feedback/thanks.html:58
+msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "看看 <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
+
+#: apps/feedback/templates/feedback/thanks.html:65
+msgid "Find the latest news about Firefox."
+msgstr "閱讀 Firefox 的最新消息。"
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:8
+msgid "Thanks for helping Mozilla make your experience better!"
+msgstr "感謝您幫助 Mozilla 讓您的使用體驗變得更好！"
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:10
+msgid "Please choose the type of feedback that you would like to submit to us:"
+msgstr "請選擇您想要回報給我們的種類："
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
+msgid "Firefox makes me happy ..."
+msgstr "Firefox 讓我覺得高興…"
+
+#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
+msgid "Firefox makes me sad ..."
+msgstr "Firefox 讓我覺得不高興…"
+
+#: apps/feedback/templates/feedback/mobile/download.html:3
+msgid "Download Beta"
+msgstr "下載 Beta 版"
+
+#: apps/feedback/templates/feedback/mobile/download.html:9
+msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+msgstr "喔，您似乎想要給我們一些回應，但您需要最新的 Beta 測試版！請直接到我們的 Beta 頁面並且 <a href=\"%(url)s\">下載安裝！</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
+msgid "Back to Dashboard"
+msgstr "回到 Dashboard"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
+msgid "Give Feedback"
+msgstr "提供意見回饋"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
+msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+msgstr "真高興 Firefox 行動版讓您覺得高興！請告訴我們您喜歡什麼東西。"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
+msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+msgstr "很抱歉，Firefox 行動版沒能帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
+msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+msgstr "我們喜歡收到有關 Firefox 行動版的點子！請在下面描述您的想法。"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
+msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+msgstr "有點子嗎？<a href=\"%(url)s\">送出意見回饋。</a>"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
+msgid "Include your last visited site?"
+msgstr "包含最後開啟網頁的網址？"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
+msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+msgstr "為了保護您的隱私，請確定您要送出的回饋當中沒有可供識別的個人資訊。"
+
+#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
+msgid "Send Feedback"
+msgstr "送出意見回饋"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:24
+msgid "Super! Please tell us more!"
+msgstr "太棒了！請再多告訴我們一些東西！"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:26
+msgid "Ack! Please tell us what to fix!"
+msgstr "啊，請告訴我們要修正什麼！"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:28
+msgid "Awesome! Please enter your idea below:"
+msgstr "真棒！請在下面輸入您的點子:"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:39
+msgid "Add URL of last visited page?"
+msgstr "新增最後開啟網頁的網址？"
+
+#: apps/feedback/templates/feedback/mobile/feedback.html:67
+msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
+msgstr "或是透過我們的 <a href=\"%(url_idea)s\">意見箱</a> 送出您的點子！"
+
+#: apps/feedback/templates/feedback/mobile/index.html:26
+msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+msgstr "我們喜歡聽到關於 Firefox 行動版的意見回饋！您想要告訴我們什麼東西？"
+
+#: apps/feedback/templates/feedback/mobile/index.html:36
+msgid "Firefox made me happy"
+msgstr "Firefox 讓我覺得高興"
+
+#: apps/feedback/templates/feedback/mobile/index.html:41
+msgid "Firefox made me sad"
+msgstr "Firefox 讓我覺得不高興"
+
+#: apps/feedback/templates/feedback/mobile/index.html:46
+msgid "I have an idea for Firefox"
+msgstr "我有個關於 Firefox 的點子"
+
+#: apps/feedback/templates/feedback/mobile/index.html:54
+msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
+msgstr ""
+"若您有 Firefox 的相關問題需要幫助，請看看 <a id=\"sumo-url\" href=\"%(url)s/\">Firefox 技術支援</a>。"
+
+#: apps/feedback/templates/feedback/mobile/opinion.html:9 templates/base_mobile.html:22
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. Link to Google Translator
+#: apps/feedback/templates/feedback/mobile/opinion.html:43 apps/search/templates/search/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
+msgid "Translate Message"
+msgstr "翻譯訊息"
+
+#: apps/feedback/templates/feedback/mobile/opinion.html:48 apps/search/templates/search/message_list.html:38
+msgid "Tweet This"
+msgstr "推一下"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:29
+msgid "Thanks for sharing your feedback!"
+msgstr "感謝您傳送回饋給我們！"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+msgstr "想要知道 Firefox 行動版接下來會怎樣嗎？我們有些方式可以讓您保持聯繫:"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:36
+msgid "See where your feedback goes."
+msgstr "想看看您所回饋的東西跑到哪了嗎？"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:37
+msgid "Feedback Dashboard"
+msgstr "Feedback Dashboard"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:44
+msgid "Download the beta and give us feedback!"
+msgstr "請下載 Beta 測試版並給我們一些意見！"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:51
+msgid "Follow us on Twitter."
+msgstr "在 Twitter 追蹤我們。"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:58
+msgid "Let's be friends."
+msgstr "交個朋友吧！"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:59
+msgid "Firefox on Facebook"
+msgstr "Facebook 上的 Firefox"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:65
+msgid "Get the latest news on Firefox."
+msgstr "取得 Firefox 的最新消息。"
+
+#: apps/feedback/templates/feedback/mobile/thanks.html:66
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
+
+#: apps/input/__init__.py:47 apps/themes/templates/themes/theme_list.html:10
+msgid "Idea"
+msgstr "點子"
+
+#: apps/input/__init__.py:54
+msgid "Rating"
+msgstr "評分"
+
+#: apps/input/__init__.py:61
+msgid "Broken Website"
+msgstr "壞掉的網站"
+
+#: apps/input/__init__.py:78
+msgid "Firefox"
+msgstr "Firefox"
+
+#: apps/input/__init__.py:102
+msgid "Mobile"
+msgstr "Mobile"
+
+#: apps/input/__init__.py:156
+msgid "Windows XP"
+msgstr "Windows XP"
+
+#: apps/input/__init__.py:163
+msgid "Windows 7"
+msgstr "Windows 7"
+
+#: apps/input/__init__.py:170
+msgid "Windows Vista"
+msgstr "Windows Vista"
+
+#: apps/input/__init__.py:177
+msgid "Mac OS X"
+msgstr "Mac OS X"
+
+#: apps/input/__init__.py:184
+msgid "Maemo"
+msgstr "Maemo"
+
+#: apps/input/__init__.py:191
+msgid "Android"
+msgstr "Android"
+
+#: apps/input/__init__.py:198
+msgid "Linux"
+msgstr "Linux"
+
+#: apps/input/__init__.py:205
+msgid "Other"
+msgstr "其他"
+
+#: apps/input/helpers.py:87
+msgid "{0} day ago"
+msgid_plural "{0} days ago"
+msgstr[0] "{0} 天之前"
+
+#: apps/input/helpers.py:93
+msgid "{0} hour ago"
+msgid_plural "{0} hours ago"
+msgstr[0] "{0} 小時之前"
+
+#: apps/input/helpers.py:96
+msgid "{0} minute ago"
+msgid_plural "{0} minutes ago"
+msgstr[0] "{0} 分鐘之前"
+
+#. L10n: This means an event that happened only a few seconds ago.
+#: apps/input/helpers.py:100
+msgid "just now"
+msgstr "剛剛"
+
+#: apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:72
+msgid "&laquo; Older Messages"
+msgstr "&laquo; 更舊的訊息"
+
+#: apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:82
+msgid "Newer Messages &raquo;"
+msgstr "更新的訊息 &raquo;"
+
+#: apps/search/client.py:218
+msgid "Query has timed out."
+msgstr "查詢已經逾時。"
+
+#: apps/search/client.py:222
+msgid "Sphinx threw an unknown exception: %s"
+msgstr "Sphinx 傳出未知的意外: %s"
+
+#: apps/search/forms.py:24 apps/search/forms.py:27 apps/search/views.py:203 apps/search/views.py:206
+msgctxt "version_choice"
+msgid "-- all --"
+msgstr "-- 全部 --"
+
+#: apps/search/forms.py:32
+msgctxt "sentiment_choice"
+msgid "-- all --"
+msgstr "-- 全部 --"
+
+#. Formerly called "sad"
+#: apps/search/forms.py:34 apps/search/views.py:274 apps/search/templates/search/overview.html:27 apps/search/templates/search/mobile/overview.html:17 apps/themes/views.py:34
+#: apps/website_issues/templates/website_issues/sites.html:37
+msgid "Issues"
+msgstr "有問題"
+
+#: apps/search/forms.py:35 apps/search/views.py:275 apps/search/templates/search/overview.html:40 apps/search/templates/search/mobile/overview.html:25 apps/themes/views.py:38
+msgid "Ideas"
+msgstr "點子"
+
+#: apps/search/forms.py:39
+msgctxt "platform_choice"
+msgid "-- all --"
+msgstr "-- 全部 --"
+
+#: apps/search/forms.py:49
+msgctxt "locale_choice"
+msgid "-- all --"
+msgstr "-- 全部 --"
+
+#: apps/search/forms.py:56
+msgid "Search by keyword"
+msgstr "搜尋字詞"
+
+#: apps/search/forms.py:57 apps/website_issues/forms.py:58
+msgid "Product:"
+msgstr "產品："
+
+#: apps/search/forms.py:59 apps/website_issues/forms.py:61
+msgid "Version:"
+msgstr "版本:"
+
+#: apps/search/forms.py:61
+msgid "Sentiment:"
+msgstr "心情："
+
+#: apps/search/forms.py:63
+msgid "Locale:"
+msgstr "地區語言："
+
+#: apps/search/forms.py:65
+msgid "PLATFORM:"
+msgstr "平台:"
+
+#: apps/search/forms.py:71
+msgid "Date range:"
+msgstr "日期範圍："
+
+#. L10n: This indicates the second part of a date range.
+#: apps/search/forms.py:74
+msgid "to"
+msgstr "到"
+
+#: apps/search/views.py:99 apps/search/views.py:118
+msgid "Firefox Input"
+msgstr "Firefox Input"
+
+#: apps/search/views.py:100
+msgid "Search Results in Firefox Beta Feedback."
+msgstr "Firefox Beta 使用者回饋的搜尋結果。"
+
+#. L10n: This is the title to the Search ATOM feed.
+#: apps/search/views.py:117
+msgid "Firefox Input: '{query}'"
+msgstr "Firefox Input: '{query}'"
+
+#: apps/search/templates/includes/filter_box_toggle.html:4
+msgid "Show/Hide Options"
+msgstr "顯示/隱藏選項"
+
+#. Link text for showing/hiding options
+#: apps/search/templates/includes/filter_box_toggle.html:6
+msgid "Toggle"
+msgstr "開關"
+
+#: apps/search/templates/search/devices.html:15 apps/search/templates/search/mobile/devices.html:15
+msgid "Devices"
+msgstr "裝置"
+
+#: apps/search/templates/search/locales.html:17 apps/search/templates/search/mobile/locales.html:9
+msgid "Locale"
+msgstr "地區語言"
+
+#: apps/search/templates/search/locales.html:29
+msgid "More Locales"
+msgstr "更多地區語言"
+
+#: apps/search/templates/search/manufacturers.html:16 apps/search/templates/search/mobile/manufacturers.html:16
+msgid "Manufacturer"
+msgstr "製造商"
+
+#: apps/search/templates/search/message_list.html:26 apps/themes/templates/themes/theme_list.html:28
+msgid "More Options"
+msgstr "更多選項"
+
+#: apps/search/templates/search/message_list.html:29
+msgid "Copy User Agent"
+msgstr "複製使用者代理字串"
+
+#: apps/search/templates/search/message_list.html:48 apps/search/templates/search/mobile/message_list.html:32 apps/themes/templates/themes/theme_list.html:41
+msgid "No search results found."
+msgstr "沒有搜尋結果。"
+
+#: apps/search/templates/search/message_list.html:50 apps/search/templates/search/mobile/message_list.html:34
+msgid "You can adjust your search criteria or use fewer filters to find more opinions."
+msgstr "您可以調整您的搜尋條件，或使用更少的過濾器來找到更多意見。"
+
+#: apps/search/templates/search/message_list.html:52 apps/search/templates/search/mobile/message_list.html:36
+msgid "Note: Recently released versions of Firefox may have less feedback."
+msgstr "請注意: 剛剛釋出的 Firefox 版本所收到的回饋可能會比較少。"
+
+#. Title text for a complete message count.
+#: apps/search/templates/search/opinion_count.html:3
+msgid "Messages"
+msgstr "訊息"
+
+#: apps/search/templates/search/overview.html:2 apps/search/templates/search/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
+#: apps/website_issues/templates/website_issues/sites.html:32
+msgid "Type of Feedback"
+msgstr "使用者回饋類型"
+
+#: apps/search/templates/search/platforms.html:12 apps/search/templates/search/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
+msgid "Platform"
+msgstr "平台"
+
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/mobile/search.html:3 templates/base.html:5 templates/base_mobile.html:7
+msgid "Welcome"
+msgstr "歡迎"
+
+#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:3
+msgid "Search Results"
+msgstr "搜尋結果"
+
+#: apps/search/templates/search/search.html:10
+msgid "ATOM feed for this search"
+msgstr "此搜尋的 ATOM 消息來源"
+
+#: apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:101 apps/themes/templates/themes/index.html:10
+#: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
+msgid "Product"
+msgstr "產品："
+
+#: apps/search/templates/search/search.html:54
+msgid "Latest Feedback"
+msgstr "最新的意見回饋"
+
+#: apps/search/templates/search/search_form.html:19
+msgid "Search"
+msgstr "搜尋"
+
+#: apps/search/templates/search/search_form.html:28
+msgid "Advanced"
+msgstr "進階"
+
+#. Refers to sites that were reported in feedback.
+#: apps/search/templates/search/sites.html:3 apps/search/templates/search/mobile/sites.html:2
+msgid "While Visiting"
+msgstr "瀏覽網站"
+
+#. Refers to terms often mentioned in feedback.
+#: apps/search/templates/search/themes.html:3 apps/search/templates/search/mobile/themes.html:2
+msgid "Often Mentioned"
+msgstr "常常被提到的"
+
+#: apps/search/templates/search/unavailable.html:5
+msgid "Search Unavailable"
+msgstr "無法使用搜尋"
+
+#: apps/search/templates/search/unavailable.html:7
+msgid "I'm sorry, there was an error with your search."
+msgstr "很抱歉，搜尋時發生錯誤。"
+
+#: apps/search/templates/search/unavailable.html:10
+msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+msgstr "我們的搜尋引擎目前可能暫時無法使用。您可以從 <a href=\"%(url)s\">Dashboard</a> 重新開始，並稍候再試一次。"
+
+#: apps/search/templates/search/unavailable.html:17
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+msgstr "如果問題持續發生，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，並附上您欲瀏覽的網址。"
+
+#: apps/search/templates/search/unavailable.html:24
+msgid "Include the following error message in your bug report:"
+msgstr "也請在錯誤報告中附上以下的錯誤訊息："
+
+#: apps/search/templates/search/unavailable.html:28
+msgid "Thanks!"
+msgstr "感謝！"
+
+#: apps/search/templates/search/versions.html:3 apps/themes/views.py:26 apps/themes/views.py:50
+msgid "All"
+msgstr "全部"
+
+#. Title for a time-based search filter
+#: apps/search/templates/search/when.html:2
+msgid "When"
+msgstr "在"
+
+#. Tooltip for custom date range button
+#: apps/search/templates/search/when.html:9
+msgid "Custom"
+msgstr "自訂"
+
+#. Button text for setting a custom date range.
+#: apps/search/templates/search/when.html:17
+msgctxt "date_range_set"
+msgid "Set"
+msgstr "設定"
+
+#: apps/search/templates/search/includes/feedback_chart.html:4 apps/search/templates/search/includes/ratings_chart.html:4
+msgid "{num} opinions on {day}"
+msgstr " {day} 的 {num} 個意見"
+
+#. A quasi strftime string for a full date.
+#: apps/search/templates/search/includes/feedback_chart.html:6 apps/search/templates/search/includes/ratings_chart.html:6
+msgid "%e %B %Y"
+msgstr "%Y %B %e"
+
+#. A quasi strftime string for a short date (no year).
+#: apps/search/templates/search/includes/feedback_chart.html:8 apps/search/templates/search/includes/ratings_chart.html:8
+msgid "%e %b"
+msgstr "%b %e"
+
+#: apps/search/templates/search/includes/feedback_chart.html:10
+msgid "Loading feedback history..."
+msgstr "正在載入意見回饋歷史資訊..."
+
+#: apps/search/templates/search/includes/ratings_chart.html:12
+msgid "Loading ratings history..."
+msgstr "正在載入評等歷史資訊..."
+
+#. short for 1 day
+#: apps/search/templates/search/includes/when_selectors.html:3
+msgid "Last day"
+msgstr "最近 1 天"
+
+#: apps/search/templates/search/includes/when_selectors.html:3
+msgid "1d"
+msgstr "1 天"
+
+#. short for 7 days
+#: apps/search/templates/search/includes/when_selectors.html:6
+msgid "Last 7 days"
+msgstr "最近 7 天"
+
+#: apps/search/templates/search/includes/when_selectors.html:6
+msgid "7d"
+msgstr "7 天"
+
+#. short for 30 days
+#: apps/search/templates/search/includes/when_selectors.html:9
+msgid "Last 30 days"
+msgstr "最近 30 天"
+
+#: apps/search/templates/search/includes/when_selectors.html:9
+msgid "30d"
+msgstr "30 天"
+
+#. short for an indefinite date range
+#: apps/search/templates/search/includes/when_selectors.html:12
+msgid "No date limit"
+msgstr "無日期限制"
+
+#: apps/search/templates/search/includes/when_selectors.html:12
+msgid "&infin;"
+msgstr "&infin;"
+
+#: apps/search/templates/search/mobile/locales.html:22
+msgid "Show More Locales"
+msgstr "顯示更多地區語言"
+
+#: apps/search/templates/search/mobile/opinion_count.html:2
+msgid "<strong>%(cnt)s</strong> message"
+msgid_plural "<strong>%(cnt)s</strong> messages"
+msgstr[0] "%(cnt)s 條訊息"
+
+#: apps/search/templates/search/mobile/platforms.html:22
+msgid "Show More Platforms"
+msgstr "顯示更多平台"
+
+#: apps/search/templates/search/mobile/search.html:15
+msgid "Clear Search"
+msgstr "清除搜尋"
+
+#: apps/search/templates/search/mobile/search.html:22
+msgid "Feed"
+msgstr "消息來源 (Feed)"
+
+#: apps/search/templates/search/mobile/search.html:25
+msgid "Statistics"
+msgstr "統計"
+
+#: apps/search/templates/search/mobile/search.html:28
+msgid "Trends"
+msgstr "趨勢"
+
+#: apps/search/templates/search/mobile/search.html:31
+msgid "Settings"
+msgstr "設定值"
+
+#: apps/search/templates/search/mobile/search.html:45
+msgid "&laquo; Newer Feedback"
+msgstr "&laquo; 更新的回饋"
+
+#: apps/search/templates/search/mobile/search.html:55
+msgid "Older Feedback &raquo;"
+msgstr "更舊的回饋 &raquo;"
+
+#: apps/search/templates/search/mobile/search.html:107
+msgid "Version"
+msgstr "版本"
+
+#: apps/search/templates/search/mobile/search.html:116
+msgid "Switch to Desktop Dashboard"
+msgstr "切換到桌面版主控台"
+
+#. refers to time-based search filters (e.g., "for last: 1d")
+#: apps/search/templates/search/mobile/when.html:3
+msgid "For last:"
+msgstr "在最近:"
+
+#: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
+msgid "All feedback"
+msgstr "全部的使用者回饋"
+
+#: apps/themes/views.py:31 apps/website_issues/templates/website_issues/sites.html:36
+msgid "Praise only"
+msgstr "只有讚"
+
+#: apps/themes/views.py:35 apps/website_issues/templates/website_issues/sites.html:37
+msgid "Issues only"
+msgstr "只有問題"
+
+#: apps/themes/views.py:39
+msgid "Ideas only"
+msgstr "只有點子"
+
+#: apps/themes/views.py:50
+msgid "All Platforms"
+msgstr "所有平台"
+
+#: apps/themes/templates/themes/index.html:2 templates/base.html:37
+msgid "Themes"
+msgstr "常見問題"
+
+#: apps/themes/templates/themes/index.html:35
+msgid "Common Themes"
+msgstr "常見類型"
+
+#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
+msgid "Theme"
+msgstr "常見問題"
+
+#: apps/themes/templates/themes/theme.html:15
+msgid "Back to all themes &raquo;"
+msgstr "回到所有網站 &raquo;"
+
+#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
+msgid "&laquo; Previous Page"
+msgstr "&laquo; 上一頁"
+
+#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:12
+msgid "Next Page &raquo;"
+msgstr "下一頁 &raquo;"
+
+#: apps/themes/templates/themes/theme_list.html:14
+msgid "See all opinions"
+msgstr "看看所有意見"
+
+#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
+msgid "%(count)s similar message"
+msgid_plural "%(count)s similar messages"
+msgstr[0] "%(count)s 個類似的訊息"
+
+#: apps/website_issues/forms.py:39
+msgctxt "website_issues_search"
+msgid "Search for domain"
+msgstr "搜尋網域"
+
+#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14
+msgid "Broken Sites"
+msgstr "壞掉的網站"
+
+#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
+#: templates/base.html:38 templates/includes/nav_buttons.html:4
+msgid "Sites"
+msgstr "網站"
+
+#: apps/website_issues/templates/website_issues/sites.html:35
+msgctxt "sites_search_all_feedback"
+msgid "All"
+msgstr "全部"
+
+#: apps/website_issues/templates/website_issues/sites.html:44
+msgid "Platforms"
+msgstr "平台"
+
+#: apps/website_issues/templates/website_issues/sites.html:47
+msgctxt "sites_search_all_platforms"
+msgid "All"
+msgstr "全部"
+
+#: apps/website_issues/templates/website_issues/sites.html:47
+msgid "All platforms"
+msgstr "所有平台"
+
+#: apps/website_issues/templates/website_issues/sites.html:72
+msgid "Uncommon Sites"
+msgstr "不尋常的網站"
+
+#: apps/website_issues/templates/website_issues/sites.html:77
+msgid "More sites..."
+msgstr "更多網站..."
+
+#: apps/website_issues/templates/website_issues/theme.html:17
+msgid "Back to {domain} &raquo;"
+msgstr "回到 {domain} &raquo;"
+
+#: apps/website_issues/templates/website_issues/theme.html:22
+msgid "Theme for {domain}"
+msgstr "{domain} 的常見問題"
+
+#: apps/website_issues/templates/website_issues/includes/single_site.html:1
+msgid "Back to all sites &raquo;"
+msgstr "回到所有網站 &raquo;"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
+msgid "Sites with only one message"
+msgstr "只有一個訊息的網站"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
+msgid "No results found!"
+msgstr "找不到任何結果。"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
+msgid "reset my search"
+msgstr "重設我的搜尋"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:46
+msgid "%(count)s message"
+msgid_plural "%(count)s messages"
+msgstr[0] "%(count)s 條訊息"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:55
+msgid "{percentage}% praise"
+msgstr "{percentage}% 覺得很讚"
+
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:57
+msgid "{percentage}% issues"
+msgstr "{percentage}% 覺得有問題"
+
+#. "similar" refers to "similar messages".
+#: apps/website_issues/templates/website_issues/includes/sites_list.html:70
+msgid "%(count)s similar"
+msgid_plural "%(count)s similar"
+msgstr[0] "%(count)s 個類似的訊息"
+
+#: templates/404.html:4
+msgid "Not Found"
+msgstr "找不到頁面"
+
+#: templates/404.html:6
+msgid "I'm sorry, I could not find what you were looking for."
+msgstr "很抱歉，但我找不到您想找的東西。"
+
+#: templates/404.html:9 templates/500.html:14
+msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
+msgstr "請從 <a href=\"%(dashboard_url)s\">dashboard</a> 重新開始。"
+
+#: templates/404.html:14
+msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "如果您是從損壞的頁面鏈結連到此頁，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
+
+#: templates/500.html:4
+msgid "Internal Server Error"
+msgstr "伺服器內部錯誤"
+
+#: templates/500.html:7
+msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+msgstr "應用程式發生一個未知的錯誤。這個錯誤已被記錄，管理員將收到通知。抱歉造成您的不便！"
+
+#: templates/500.html:20
+msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "如果您擁有重現問題的相關資訊，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
+
+#: templates/about.html:3 templates/includes/footer.html:11
+msgid "About Firefox Input"
+msgstr "關於 Firefox Input"
+
+#: templates/about.html:7
+msgid "Hello!"
+msgstr "哈囉！"
+
+#: templates/about.html:9
+msgid ""
+"<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
+"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+msgstr ""
+"<strong>Firefox Input</strong> 是 Mozilla 主要使用的使用者回饋機制。這是一種讓您可以回報在使用 Firefox 使用過程當中的體驗，以及 Mozilla 可以如何讓這個體驗變得更好的單向溝通方式。此系統於三個主要發行"
+"類型當中有多種不同的回報機制可用。"
+
+#: templates/about.html:18
+msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
+msgstr "要送出您所使用的版本的 Firefox 的回饋，請到 <a href=\"%(feedback_url)s\">回饋頁面</a>！"
+
+#: templates/about.html:24
+msgid "Open Data"
+msgstr "開放式的資料"
+
+#: templates/about.html:27
+msgid ""
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please <a href=\"%(data_url)s\">contact us</a>!"
+msgstr "我們想要對此系統上的資料做更多實驗，但我們只有一點點人。所以，我們需要你們提供在所有資料當中最想知道的問題！請 <a href=\"%(data_url)s\">聯絡我們</a>！"
+
+#: templates/about.html:34
+msgid "Source Code"
+msgstr "原始碼"
+
+#: templates/about.html:37
+msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
+msgstr "可以在 <a href=\"%(source_url)s\">GitHub</a> 找到 Firefox Input 網頁應用程式的原始碼！"
+
+#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
+msgid "Proceed to main content"
+msgstr "跳轉到主要內容"
+
+#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
+msgid "Proceed to footer"
+msgstr "跳轉到頁尾"
+
+#: templates/base.html:30
+msgid "<strong>Firefox</strong> Input Dashboard"
+msgstr "<strong>Firefox</strong> Input Dashboard"
+
+#: templates/base.html:36
+msgid "Feedback"
+msgstr "意見回饋"
+
+#: templates/base_mobile_old.html:5 templates/base_old.html:5
+msgid "Welcome!"
+msgstr "歡迎！"
+
+#: templates/base_mobile_old.html:30 templates/base_old.html:35
+msgid "Input Dashboard"
+msgstr "Input Dashboard"
+
+#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
+msgid "Privacy Policy"
+msgstr "隱私權政策"
+
+#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
+msgid "Legal Notices"
+msgstr "法律聲明"
+
+#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
+msgid "Report Trademark Abuse"
+msgstr "回報商標濫用"
+
+#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
+msgid ""
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
+msgstr "除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<br/> <a href=\"%(license_url)s\">創用 CC 姓名標示 - 相同方式分享條款 3.0</a> 或更新版本授權使用。"
+
+#: templates/csrf_error.html:5
+msgid "CSRF Protection Error"
+msgstr "CSRF 保護錯誤"
+
+#: templates/csrf_error.html:8
+msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
+msgstr "驗證您的 CSRF token 時發生錯誤。無法執行您的請求。抱歉造成您的不便！"
+
+#: templates/csrf_error.html:15
+msgid ""
+"The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
+"in Firefox, then try again."
+msgstr "通常最可能造成此問題的原因是您的瀏覽器設定了 <strong>不接受我們的 Cookies</strong>。請看看 <a href=\"%(cookies_url)s\">以下步驟</a> 以在 Firefox 啟用 Cookies，然後再試一次。"
+
+#: templates/csrf_error.html:24
+msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+msgstr "如果問題持續發生，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，感謝您！"
+
+#: templates/elasticutils/501.html:4
+msgid "Not Implemented"
+msgstr "尚未實作"
+
+#: templates/includes/footer_feedback.html:5 templates/includes/lang_switcher.html:2
+msgid "Other languages:"
+msgstr "其他語言："
+
+#: templates/includes/footer_feedback.html:16 templates/includes/lang_switcher.html:10
+msgid "Go"
+msgstr "前往"
+
+#: templates/includes/nav_buttons.html:2
+msgid "Clusters"
+msgstr "意見群"
+
+#: templates/includes/ua_overlay.html:3
+msgid "User Agent"
+msgstr "使用者代理字串"
+
+#: templates/includes/ua_overlay.html:7
+msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
+msgstr "請按下 Ctrl+C (Mac 上的 Cmd+C) 以複製並關閉。"
+
+#: templates/includes/ua_overlay.html:9
+msgid "User agent copied"
+msgstr "已複製使用者代理字串"
+
+#: templates/includes/ua_overlay.html:10
+msgid "Close"
+msgstr "關閉"
+
+#: templates/includes/welcome.html:2
+msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+msgstr "<strong>歡迎使用 Firefox Input！</strong> 這是 Mozilla 主要使用的使用者回饋機制。 <a href=\"%(about_url)s\">了解更多資訊…</a>"
+
+#~ msgid "Have more to say?"
+#~ msgstr "還有東西想告訴我們嗎？"
+
+#~ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
+#~ msgstr "歡迎 <a href=\"%(fb_url)s\">送出更多意見回饋</a>"
+
+#~ msgid "&laquo; Newer Messages"
+#~ msgstr "&laquo; 更新的訊息"
+
+#~ msgid "Older Messages &raquo;"
+#~ msgstr "更舊的訊息 &raquo;"
+
+#~ msgid "Back to Feedback"
+#~ msgstr "回到意見回饋"
+
+#~ msgid "Invalid feedback type"
+#~ msgstr "無效的使用者回饋類型"
+
+#~ msgid "Find out the latest news from Mozilla:"
+#~ msgstr "閱讀 Mozilla 的最新消息："
+
+#~ msgid "<strong>Firefox Release</strong> Input Dashboard"
+#~ msgstr "<strong>Firefox Release</strong> Input Dashboard"
+
+#~ msgid "@MozMobile"
+#~ msgstr "@MozMobile"
+
+#~ msgid "Average Ratings Over Time"
+#~ msgstr "平均評等"
+
+#~ msgid "Beta Channel"
+#~ msgstr "Beta 頻道"
+
+#~ msgid "Describe the problem with the site."
+#~ msgstr "請描述網站的問題。"
+
+#~ msgid "Describe the problem with the website."
+#~ msgstr "請描述網站的問題。"
+
+#~ msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
+#~ msgstr "您常用的網站在 Firefox for Mobile 當中也能正常運作嗎？請提供我們一些關於問題的詳情，我們會試著修復。"
+
+#~ msgid "Does a website look or behave incorrectly in Firefox?"
+#~ msgstr "是否有網站在 Firefox 當中看起來不正常，或是用起來怪怪的？"
+
+#~ msgid "Don't Care"
+#~ msgstr "普通"
+
+#~ msgid "Enter your feedback here."
+#~ msgstr "在此輸入您的回饋。"
+
+#~ msgid "Enter your ideas here."
+#~ msgstr "在此輸入您的點子。"
+
+#~ msgid "Example: Images were not loading, but the rest of the page was."
+#~ msgstr "例如: 網頁有顯示出來，但圖片卻沒有被載入。"
+
+#~ msgid "Excellent"
+#~ msgstr "非常滿意"
+
+#~ msgid "Experience"
+#~ msgstr "體驗"
+
+#~ msgid "Experience Ratings"
+#~ msgstr "體驗評等"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Fair"
+#~ msgstr "不滿意"
+
+#~ msgid "Features"
+#~ msgstr "功能"
+
+#~ msgid "Frequent Ideas"
+#~ msgstr "常見的點子"
+
+#~ msgid "Good"
+#~ msgstr "滿意"
+
+#~ msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
+#~ msgstr "有什麼能讓 Firefox for Mobile 變得更好的點子嗎？請讓我們知道！"
+
+#~ msgid "How frequently Firefox crashes or loses data"
+#~ msgstr "Firefox 多常發生錯誤或失去資料"
+
+#~ msgid "How long Firefox takes to start running"
+#~ msgstr "Firefox 需要多久才能開始執行"
+
+#~ msgid "How long it takes for web pages to load"
+#~ msgstr "需要多久才能載入網頁"
+
+#~ msgid "How quickly web pages respond once they have loaded"
+#~ msgstr "在網頁載入後需要多久才能有反應"
+
+#~ msgid "How well Firefox's built-in features serve your needs"
+#~ msgstr "Firefox 的內建功能多符合您的需求"
+
+#~ msgid "How would you rate these aspects of Firefox for Mobile?"
+#~ msgstr "您覺得 Firefox for Mobile 在以下各項目的表現如何？"
+
+#~ msgid "How would you rate these aspects of Firefox?"
+#~ msgstr "您覺得 Firefox 在以下各項目的表現如何？"
+
+#~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+#~ msgstr "如果想知道您的回饋送往何方，可以看看 <a href=\"%(url)s\">Firefox Input Dashboard</a>。"
+
+#~ msgid "Loading chart data."
+#~ msgstr "正在載入圖表資料。"
+
+#~ msgid "Nightly Channel"
+#~ msgstr "Nightly Channel"
+
+#~ msgid "No results found"
+#~ msgstr "沒有搜尋結果。"
+
+#~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
+#~ msgstr "喔，您似乎想要回報對下一版 Firefox 的意見。感謝您的支持，但您必須參與 Beta 計畫才能回報。"
+
+#~ msgid "Page Load Time"
+#~ msgstr "頁面載入時間"
+
+#~ msgid "Please rate at least one item."
+#~ msgstr "請至少幫一個項目打分數。"
+
+#~ msgid "Poor"
+#~ msgstr "非常不滿意"
+
+#~ msgid "Provide us some details about the problem and we'll try to fix it."
+#~ msgstr "請提供我們關於這個問題的更多資訊，我們會試著把它修好。"
+
+#~ msgid "Rate Your Experience"
+#~ msgstr "幫您的使用體驗打分數"
+
+#~ msgid "Release Channel"
+#~ msgstr "Release 頻道"
+
+#~ msgid "Report a Site Issue"
+#~ msgstr "回報壞掉的網站"
+
+#~ msgid "Responsiveness"
+#~ msgstr "回應度"
+
+#~ msgid "Share an Idea"
+#~ msgstr "分享點子"
+
+#~ msgid "Stability"
+#~ msgstr "穩定度"
+
+#~ msgid "Start-Up Time"
+#~ msgstr "啟動時間"
+
+#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+#~ msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox Beta 測試版本</a>即可！"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "What is the URL of the broken site?"
+#~ msgstr "壞掉的網站的網址是什麼？"
+
+#~ msgid "What is the URL of the site?"
+#~ msgstr "壞掉的網站的網址是什麼？"
+
+#~ msgid "{day}<br/>Average of {num}"
+#~ msgstr "{day}<br/>平均 {num}"
+
+#~ msgctxt "os_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- 全部 --"
+
+#~ msgid "Enter your suggestions here."
+#~ msgstr "在此輸入您的建議。"
+
+#~ msgid "OS:"
+#~ msgstr "作業系統："
+
+#~ msgid "Submitted User Agent is not the latest beta version."
+#~ msgstr "送出的使用者代理字串並非最新的 Beta 版本。"
+
+#~ msgid "Suggestions"
+#~ msgstr "建議"
+
+#~ msgid "Suggestions only"
+#~ msgstr "只有建議"
+
+#~ msgid "User agent string was not recognizable."
+#~ msgstr "無法辨識使用者代理字串。"
