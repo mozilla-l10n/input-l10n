@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-28 14:18-0700\n"
+"POT-Creation-Date: 2012-09-20 11:28-0700\n"
 "PO-Revision-Date: 2012-01-27 19:55+0200\n"
 "Last-Translator: Sasa <sale@ubuntu-hr.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,1221 +10,934 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: apps/feedback/forms.py:96
-msgid "We already got your feedback! Thanks."
-msgstr "Već smo zaprimili vaše povratne informacije! Hvala."
-
-#: apps/feedback/forms.py:108
-msgid "Please describe what you liked."
-msgstr "Molimo Vas, opišite što vam se svidjelo."
-
-#: apps/feedback/forms.py:125
-msgid "Please describe your problem below."
-msgstr "Opišite svoj problem u nastavku."
-
-#: apps/feedback/forms.py:142
-msgid "Describe your idea below."
-msgstr "Opišite svoju ideju u nastavku."
-
-#: apps/feedback/helpers.py:16 apps/search/forms.py:42 apps/search/forms.py:45 apps/search/forms.py:50 apps/search/templates/search/devices.html:8 apps/search/templates/search/manufacturers.html:9
-#: apps/search/templates/search/mobile/devices.html:8 apps/search/templates/search/mobile/manufacturers.html:9
-msgid "Unknown"
-msgstr "Nepoznat"
-
-#. Formerly called "happy"
-#: apps/feedback/helpers.py:36 apps/input/__init__.py:33 apps/search/forms.py:33 apps/search/views.py:273 apps/search/templates/search/overview.html:13
-#: apps/search/templates/search/mobile/overview.html:9 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
-#: apps/website_issues/templates/website_issues/includes/single_site.html:12
-msgid "Praise"
-msgstr "Pohvala"
-
-#: apps/feedback/helpers.py:39 apps/input/__init__.py:40 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
-msgid "Issue"
-msgstr "Problem"
-
-#: apps/feedback/validators.py:43
-msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-msgstr ""
-"Vaš komentar sadrži psovke (%s). Da biste nam pomogli unaprijediti naše "
-"proizvode, molimo vas da koristite riječi koje će nam pomoći u stvaranju "
-"akcija ili zadataka iz vašeg konstruktivnog komentara. Hvala!"
-
-#: apps/feedback/validators.py:52
-msgid "Feedback must not contain HTML."
-msgstr "Povratna informacija ne smije sadržavati HTML."
-
-#: apps/feedback/validators.py:59
-msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Izgleda da vaše povratne informacije sadrže adresu e-pošte. Molimo vas da je "
-"uklonite, kao i sve slične informacije, te pokušate ponovno. Hvala!"
-
-#: apps/feedback/validators.py:68
-msgid "URLs with IP addresses must contain public IP addresses."
-msgstr "URL-ovi s IP adresom moraju sadržavati javne IP adrese."
-
-#: apps/feedback/validators.py:75
-msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"Čini se da da vaša povratna informacija sadrži URL. Molimo vas da ga "
-"uklonite zajedno s bilo kakvim privatnim informacijama, te pokušate ponovno. "
-"Hvala!"
-
-#: apps/feedback/views.py:40
-msgid "User-Agent request header must be set."
-msgstr "User-Agent zaglavlje zahtjeva mora biti postavljeno."
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:69 apps/feedback/templates/feedback/feedback-form.html:73
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
-#: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: apps/feedback/templates/feedback/mobile/index.html:3
-msgid "Submit Feedback"
-msgstr "Pošalji povratnu informaciju"
-
-#: apps/feedback/templates/feedback/beta_index.html:7
-msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr "Super je što želite pomoći Mozilli da vaš doživljaj učini još boljim!"
-
-#: apps/feedback/templates/feedback/beta_index.html:9
-msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr ""
-"Molimo vas da odaberete jednu od sljedećih vrsta povratne informacije koju "
-"nam želite poslati:"
-
-#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
-msgid "Firefox makes me happy because ..."
-msgstr "Firefox me razveselio jer ..."
-
-#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
-msgid "Firefox makes me sad because ..."
-msgstr "Firefox me rastužio jer ..."
-
-#: apps/feedback/templates/feedback/beta_index.html:24
-msgid "Firefox Logo"
-msgstr "Firefox Logo"
-
-#: apps/feedback/templates/feedback/beta_index.html:25
-msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr "Ukoliko trebate pomoć ili imate problema s Firefoxom, molimo posjetite našu <a href=\"%(support_url)s\">stranicu podrške</a>."
-
-#: apps/feedback/templates/feedback/download.html:3
-msgid "Download Firefox"
-msgstr "Preuzmite Firefox"
-
-#: apps/feedback/templates/feedback/download.html:8
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
-"Uh! Ddakle, želite nam ponuditi povratne informacije za Firefox. Hvala, ali "
-"trebate koristiti najnoviju inačicu."
-
-#: apps/feedback/templates/feedback/download.html:14
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Da biste to uradili, jednostavno posjetite našu stranicu preuzimanja i "
-"instalirajte/ažurirajte na <a href=\"%(url)s\">najnoviju inačicu Firefoxa!</a>"
-
-#: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
-msgid "Firefox Made Me Happy"
-msgstr "Firefox me usrećio"
-
-#: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
-msgid "Firefox Made Me Sad"
-msgstr "Firefox me rastužio"
-
-#: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
-msgid "I Have an Idea for Firefox"
-msgstr "Imam ideju za Firefox"
-
-#: apps/feedback/templates/feedback/feedback-form.html:15
-msgid "Super! It's great to hear that you like our browser."
-msgstr "Super! Sjajno je čuti da vam se sviđa naš web preglednik."
-
-#: apps/feedback/templates/feedback/feedback-form.html:17
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr ""
-"Žao nam je što ste imali negativna iskustva s našim preglednikom. Molimo "
-"vas, recite nam zašto, da bi to mogli popraviti."
-
-#: apps/feedback/templates/feedback/feedback-form.html:19
-msgid "Have an idea how Firefox could be better? Let us know."
-msgstr "Imate ideju kako Firefox može biti bolji? Javite nam!"
-
-#: apps/feedback/templates/feedback/feedback-form.html:23
-msgid "Go Back"
-msgstr "Natrag"
-
-#: apps/feedback/templates/feedback/feedback-form.html:42
-msgid "Include the URL of a site that worked better."
-msgstr "Uključite URL stranice koja je radila bolje."
-
-#: apps/feedback/templates/feedback/feedback-form.html:44
-msgid "Include the URL of the site with the problem."
-msgstr "Uključite URL stranice s problemom."
-
-#: apps/feedback/templates/feedback/feedback-form.html:55
-msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr ""
-"Da biste zaštitili vašu privatnost, molimo provjerite da informacije koje "
-"vas osobno mogu identificirati nisu sadržane u vašoj povratnoj informaciji."
-
-#: apps/feedback/templates/feedback/feedback-form.html:68
-msgid "Submitting Feedback"
-msgstr "Slanje povratne informacije"
-
-#: apps/feedback/templates/feedback/feedback-form.html:81
-msgid "If you have an idea to offer us instead, please use our"
-msgstr "Ako imate ideju koju želite podijeliti s nama, upotrijebite naš"
-
-#: apps/feedback/templates/feedback/feedback-form.html:82
-msgid "suggestion box"
-msgstr "pretinac za prijedloge"
-
-#: apps/feedback/templates/feedback/feedback.html:19
-msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
-msgstr ""
-"Super! Sjajno je čuti da vam se sviđa naš preglednik. Molimo pojasnite što "
-"vam se posebno sviđa!"
-
-#: apps/feedback/templates/feedback/feedback.html:24
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr ""
-"Žao nam je što ste imali negativna iskustva s našim preglednikom. Molimo "
-"vas, recite nam zašto kako bismo to mogli popraviti!"
-
-#: apps/feedback/templates/feedback/feedback.html:29
-msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr ""
-"Dakle, želite predložiti kako možemo poboljšati Firefox? Izvrsno! Molimo "
-"upišite svoju ideju ispod:"
-
-#: apps/feedback/templates/feedback/feedback.html:47
-msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
-"Znate web stranicu koja radi bolje u ovoj beti nego što je radila u ranijim "
-"inačicama Firefoxa? Molimo vas da dodate URL da možemo pratiti napredak!"
-
-#: apps/feedback/templates/feedback/feedback.html:55
-msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr ""
-"Imali ste problema s određenim web stranicama? Molimo vas, dodajte URL da "
-"možemo brže pronaći problem!"
-
-#: apps/feedback/templates/feedback/feedback.html:76 apps/feedback/templates/feedback/mobile/feedback.html:58
-msgid "Please ensure that there is no personally identifiable information here."
-msgstr ""
-"Molimo vas, provjerite da ovdje nisu navedeni osobni identifikacijski "
-"podaci."
-
-#: apps/feedback/templates/feedback/feedback.html:85
-msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr ""
-"Ukoliko nam radije želite ponuditi ideju, molimo vas da je pošaljite pomoću "
-"naše <a href=\"%(url_idea)s\">kutije za prijedloge</a>!"
-
-#: apps/feedback/templates/feedback/index.html:15
-msgid "Submit Your Feedback"
-msgstr "Pošaljite vaše povratne informacije"
-
-#: apps/feedback/templates/feedback/index.html:16
-msgid "Your feedback helps us improve Firefox."
-msgstr "Vaše povratne informacije nam pomažu da unaprijedimo Firefox."
-
-#: apps/feedback/templates/feedback/index.html:29
-msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr ""
-"Ukoliko trebate pomoć ili imate problema s Firefoxom, molimo Vas da "
-"posjetite <a href=\"%(support_url)s\">Firefox podršku</a>."
-
-#: apps/feedback/templates/feedback/thanks.html:6
-msgid "Thanks"
-msgstr "Hvala"
-
-#: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
-msgid "Thanks for Your Feedback"
-msgstr "Hvala na povratnoj informaciji"
-
-#: apps/feedback/templates/feedback/thanks.html:17
-msgid "Your feedback will be used to create a"
-msgstr "Vaše povratne informacije će se koristiti za stvaranje"
-
-#: apps/feedback/templates/feedback/thanks.html:18
-msgid "better experience in future releases of Firefox."
-msgstr "boljeg iskustva u budućim izdanjima Firefoxa."
-
-#: apps/feedback/templates/feedback/thanks.html:25
-msgid "Share your feedback."
-msgstr "Podijelite svoje povratne informacije"
-
-#: apps/feedback/templates/feedback/thanks.html:31
-msgid "Tweet feedback to your followers"
-msgstr "Tweet-ajte povratne informacije Vašim sljedbenicima"
-
-#: apps/feedback/templates/feedback/thanks.html:37 apps/feedback/templates/feedback/mobile/thanks.html:42
-msgid "Shape the future of Firefox."
-msgstr "Oblikujte budućnost Firefoxa."
-
-#: apps/feedback/templates/feedback/thanks.html:39
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr ""
-"Preuzmite <a href=\"%(download_url)s\">izdanje koje vam najbolje odgovara</a>."
-
-#: apps/feedback/templates/feedback/thanks.html:47
-msgid "Contribute to Mozilla."
-msgstr "Doprinesite Mozilli."
-
-#: apps/feedback/templates/feedback/thanks.html:49
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
-msgstr ""
-"Saznajte kako možete <a href=\"%(url)s\">učiniti Mozillu i Firefox boljim</a>"
-
-#: apps/feedback/templates/feedback/thanks.html:56
-msgid "Want to see where your feedback goes?"
-msgstr "Želite vidjeti gdje idu vaše povratne informacije?"
-
-#: apps/feedback/templates/feedback/thanks.html:58
-msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Posjetite <a href=\"%(dash_url)s\">nadzornu ploču Firefox povratnih informacija</a>"
-
-#: apps/feedback/templates/feedback/thanks.html:65
-msgid "Find the latest news about Firefox."
-msgstr "Saznajte najnovije vijesti vezane za Firefox."
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:8
-msgid "Thanks for helping Mozilla make your experience better!"
-msgstr "Hvala Vam što pomažete Mozilli da Vaš doživljaj učini boljim!"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:10
-msgid "Please choose the type of feedback that you would like to submit to us:"
-msgstr "Molimo odaberite vrstu povratne informacije koju nam želite poslati:"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
-msgid "Firefox makes me happy ..."
-msgstr "Firefox me čini sretnim/sretnom ..."
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
-msgid "Firefox makes me sad ..."
-msgstr "Firefox me čini tužnim/tužnom ..."
-
-#: apps/feedback/templates/feedback/mobile/download.html:3
-msgid "Download Beta"
-msgstr "Preuzmite Beta verziju"
-
-#: apps/feedback/templates/feedback/mobile/download.html:9
-msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
-"Oh! Dakle, želite nam ponuditi povratne informacije. Trebat će vam najnovija "
-"Beta verzija! Posjetite našu stranicu za betu i <a href=\"%(url)s\">preuzmite "
-"je!</a>"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
-msgid "Back to Dashboard"
-msgstr "Natrag na nadzornu ploču"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
-msgid "Give Feedback"
-msgstr "Pošaljite povratnu informaciju"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
-msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
-msgstr ""
-"Drago nam je da Vas je Firefox za mobilne uređaje razveselio! Molimo Vas, "
-"recite nam što Vam se svidjelo."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
-msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr ""
-"Žao nam je što vas je Firefox za mobitel rastužio. Molimo vas, javite nam "
-"što se dogodilo kako bismo mogli ispraviti problem."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
-msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
-msgstr ""
-"Volimo Vaše ideje za unaprijeđivanje Firefox-a za mobilne uređaje! Molimo "
-"Vas, opišite svoju ideju u nastavku."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
-msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr "Imate ideju? <a href=\"%(url)s\">Pošaljite je.</a>"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
-msgid "Include your last visited site?"
-msgstr "Uključiti posljednju posjećenu stranicu?"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
-msgid "For your privacy, please don't include any personally identifiable information in your feedback."
-msgstr "Zbog vaše privatnosti, molimo provjerite da osobne informacije nisu uvrštene u vaše povratne informacije."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
-msgid "Send Feedback"
-msgstr "Pošalji povratnu informaciju"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:24
-msgid "Super! Please tell us more!"
-msgstr "Super! Molimo recite nam više!"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:26
-msgid "Ack! Please tell us what to fix!"
-msgstr "Zaprimljeno! Molimo recite nam što treba popraviti!"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:28
-msgid "Awesome! Please enter your idea below:"
-msgstr "Super! Molimo unesite vašu ideju ispod:"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:39
-msgid "Add URL of last visited page?"
-msgstr "Dodati URL zadnje posjećene stranice?"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:67
-msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr ""
-"Ili pošaljite Vaše ideje s našom <a href=\"%(url_idea)s\">kutijom za "
-"prijedloge</a>!"
-
-#: apps/feedback/templates/feedback/mobile/index.html:26
-msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
-msgstr ""
-"Volimo povratne informacije o Firefox-u za mobilne uređaje! Što biste nam "
-"htjeli predložiti?"
-
-#: apps/feedback/templates/feedback/mobile/index.html:36
-msgid "Firefox made me happy"
-msgstr "Firefox me razveselio"
-
-#: apps/feedback/templates/feedback/mobile/index.html:41
-msgid "Firefox made me sad"
-msgstr "Firefox me rastužio"
-
-#: apps/feedback/templates/feedback/mobile/index.html:46
-msgid "I have an idea for Firefox"
-msgstr "Imam ideju za Firefox"
-
-#: apps/feedback/templates/feedback/mobile/index.html:54
-msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
-msgstr ""
-"Ukoliko trebate pomoć ili imate problema s Firefoxom, molimo posjetite <a id"
-"=\"sumo-url\" href=\"%(url)s/\">Firefox podršku</a>."
-
-#: apps/feedback/templates/feedback/mobile/opinion.html:9 templates/base_mobile.html:22
-msgid "Dashboard"
-msgstr "Nadzorna ploča"
-
-#. Link to Google Translator
-#: apps/feedback/templates/feedback/mobile/opinion.html:43 apps/search/templates/search/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
-msgid "Translate Message"
-msgstr "Prevedi poruku"
-
-#: apps/feedback/templates/feedback/mobile/opinion.html:48 apps/search/templates/search/message_list.html:38
-msgid "Tweet This"
-msgstr "Objavi na Twitteru"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:29
-msgid "Thanks for sharing your feedback!"
-msgstr "Hvala što ste poslali povratnu informaciju!"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:30
-msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
-msgstr ""
-"Želite znati što se novog događa sa Firefox-om za mobilne uređaje? Mnogo je "
-"načina kako da ostanete u kontaktu:"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:36
-msgid "See where your feedback goes."
-msgstr "Pogledajte gdje idu Vaše povratne informacije."
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:37
-msgid "Feedback Dashboard"
-msgstr "Nadzorna ploča povratnih informacija"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:44
-msgid "Download the beta and give us feedback!"
-msgstr "Preuzmite beta inačicu i javite nam svoje mišljenje!"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:51
-msgid "Follow us on Twitter."
-msgstr "Pratite nas na Twitteru."
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:58
-msgid "Let's be friends."
-msgstr "Budimo prijatelji!"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:59
-msgid "Firefox on Facebook"
-msgstr "Firefox na Facebooku"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:65
-msgid "Get the latest news on Firefox."
-msgstr "Saznajte najnovije vijesti o Firefoxu."
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:66
-msgid "Planet Mozilla"
-msgstr "Planet Mozilla"
-
-#: apps/input/__init__.py:47 apps/themes/templates/themes/theme_list.html:10
-msgid "Idea"
-msgstr "Ideja"
-
-#: apps/input/__init__.py:54
-msgid "Rating"
-msgstr "Ocjena"
-
-#: apps/input/__init__.py:61
-msgid "Broken Website"
-msgstr "Neispravna stranica"
-
-#: apps/input/__init__.py:78
-msgid "Firefox"
-msgstr "Firefox"
-
-#: apps/input/__init__.py:102
-msgid "Mobile"
-msgstr "Mobilni"
-
-#: apps/input/__init__.py:156
-msgid "Windows XP"
-msgstr "Windows XP"
-
-#: apps/input/__init__.py:163
-msgid "Windows 7"
-msgstr "Windows 7"
-
-#: apps/input/__init__.py:170
-msgid "Windows Vista"
-msgstr "Windows Vista"
-
-#: apps/input/__init__.py:177
-msgid "Mac OS X"
-msgstr "Mac OS X"
-
-#: apps/input/__init__.py:184
-msgid "Maemo"
-msgstr "Maemo"
-
-#: apps/input/__init__.py:191
-msgid "Android"
-msgstr "Android"
-
-#: apps/input/__init__.py:198
-msgid "Linux"
-msgstr "Linux"
-
-#: apps/input/__init__.py:205
-msgid "Other"
-msgstr "Ostali"
-
-#: apps/input/helpers.py:87
-msgid "{0} day ago"
-msgid_plural "{0} days ago"
-msgstr[0] "prije {0} dan"
-msgstr[1] "prije {0} dana"
-msgstr[2] "prije {0} dana"
-
-#: apps/input/helpers.py:93
-msgid "{0} hour ago"
-msgid_plural "{0} hours ago"
-msgstr[0] "prije {0} sat"
-msgstr[1] "prije {0} sata"
-msgstr[2] "prije {0} sati"
-
-#: apps/input/helpers.py:96
-msgid "{0} minute ago"
-msgid_plural "{0} minutes ago"
-msgstr[0] "prije {0} minutu"
-msgstr[1] "prije {0} minute"
-msgstr[2] "prije {0} minuta"
-
-#. L10n: This means an event that happened only a few seconds ago.
-#: apps/input/helpers.py:100
-msgid "just now"
-msgstr "upravo sada"
-
-#: apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:72
-msgid "&laquo; Older Messages"
-msgstr "&laquo; Starije poruke"
-
-#: apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:82
-msgid "Newer Messages &raquo;"
-msgstr "Novije poruke &raquo;"
-
-#: apps/search/client.py:218
-msgid "Query has timed out."
-msgstr "Upit je istekao."
-
-#: apps/search/client.py:222
-msgid "Sphinx threw an unknown exception: %s"
-msgstr "Sphinx je izbacio nepoznatu iznimku: %s"
-
-#: apps/search/forms.py:24 apps/search/forms.py:27 apps/search/views.py:203 apps/search/views.py:206
-msgctxt "version_choice"
-msgid "-- all --"
-msgstr "-- sve --"
-
-#: apps/search/forms.py:32
-msgctxt "sentiment_choice"
-msgid "-- all --"
-msgstr "-- sve --"
-
-#. Formerly called "sad"
-#: apps/search/forms.py:34 apps/search/views.py:274 apps/search/templates/search/overview.html:27 apps/search/templates/search/mobile/overview.html:17 apps/themes/views.py:34
-#: apps/website_issues/templates/website_issues/sites.html:37
-msgid "Issues"
-msgstr "Problemi"
-
-#: apps/search/forms.py:35 apps/search/views.py:275 apps/search/templates/search/overview.html:40 apps/search/templates/search/mobile/overview.html:25 apps/themes/views.py:38
-msgid "Ideas"
-msgstr "Ideje"
-
-#: apps/search/forms.py:39
-msgctxt "platform_choice"
-msgid "-- all --"
-msgstr "-- sve --"
-
-#: apps/search/forms.py:49
-msgctxt "locale_choice"
-msgid "-- all --"
-msgstr "-- sve --"
-
-#: apps/search/forms.py:56
-msgid "Search by keyword"
-msgstr "Traži po ključnoj riječi"
-
-#: apps/search/forms.py:57 apps/website_issues/forms.py:58
-msgid "Product:"
-msgstr "Proizvod:"
-
-#: apps/search/forms.py:59 apps/website_issues/forms.py:61
-msgid "Version:"
-msgstr "Inačica:"
-
-#: apps/search/forms.py:61
-msgid "Sentiment:"
+#: fjord/analytics/views.py:130
+#, fuzzy
+msgid "Sentiment"
 msgstr "Sentiment:"
 
-#: apps/search/forms.py:63
-msgid "Locale:"
-msgstr "Jezik:"
-
-#: apps/search/forms.py:65
-msgid "PLATFORM:"
-msgstr "PLATFORMA:"
-
-#: apps/search/forms.py:71
-msgid "Date range:"
-msgstr "Vremenski period:"
-
-#. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:74
-msgid "to"
-msgstr "do"
-
-#: apps/search/views.py:99 apps/search/views.py:118
-msgid "Firefox Input"
-msgstr "Firefox unos"
-
-#: apps/search/views.py:100
-msgid "Search Results in Firefox Beta Feedback."
-msgstr "Rezultati pretrage u Firefox Beta povratnim informacijama."
-
-#. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:117
-msgid "Firefox Input: '{query}'"
-msgstr "Firefox unos: '{query}'"
-
-#: apps/search/templates/includes/filter_box_toggle.html:4
-msgid "Show/Hide Options"
-msgstr "Prikaži/sakrij mogućnosti"
-
-#. Link text for showing/hiding options
-#: apps/search/templates/includes/filter_box_toggle.html:6
-msgid "Toggle"
-msgstr "Prebaci"
-
-#: apps/search/templates/search/devices.html:15 apps/search/templates/search/mobile/devices.html:15
-msgid "Devices"
-msgstr "Uređaji"
-
-#: apps/search/templates/search/locales.html:17 apps/search/templates/search/mobile/locales.html:9
-msgid "Locale"
-msgstr "Jezik"
-
-#: apps/search/templates/search/locales.html:29
-msgid "More Locales"
-msgstr "Ostali jezici"
-
-#: apps/search/templates/search/manufacturers.html:16 apps/search/templates/search/mobile/manufacturers.html:16
-msgid "Manufacturer"
-msgstr "Proizvođač"
-
-#: apps/search/templates/search/message_list.html:26 apps/themes/templates/themes/theme_list.html:28
-msgid "More Options"
-msgstr "Više mogućnosti"
-
-#: apps/search/templates/search/message_list.html:29
-msgid "Copy User Agent"
-msgstr "Kopiraj User Agent"
-
-#: apps/search/templates/search/message_list.html:48 apps/search/templates/search/mobile/message_list.html:32 apps/themes/templates/themes/theme_list.html:41
-msgid "No search results found."
-msgstr "Nema pronađenih rezultata pretraživanja."
-
-#: apps/search/templates/search/message_list.html:50 apps/search/templates/search/mobile/message_list.html:34
-msgid "You can adjust your search criteria or use fewer filters to find more opinions."
-msgstr ""
-"Možete prilagoditi kriterije pretraživanja ili koristiti manji broj filtera "
-"kako biste pronašli dodatna mišljenja."
-
-#: apps/search/templates/search/message_list.html:52 apps/search/templates/search/mobile/message_list.html:36
-msgid "Note: Recently released versions of Firefox may have less feedback."
-msgstr ""
-"Napomena: Nedavno objavljena inačica Firefox-a može imati manje povratnih "
-"informacija."
-
-#. Title text for a complete message count.
-#: apps/search/templates/search/opinion_count.html:3
-msgid "Messages"
-msgstr "Poruke"
-
-#: apps/search/templates/search/overview.html:2 apps/search/templates/search/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/sites.html:32
-msgid "Type of Feedback"
-msgstr "Vrsta povratnih informacija"
-
-#: apps/search/templates/search/platforms.html:12 apps/search/templates/search/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
+#: fjord/analytics/views.py:133
 msgid "Platform"
 msgstr "Platforma"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/mobile/search.html:3 templates/base.html:5 templates/base_mobile.html:7
-msgid "Welcome"
-msgstr "Dobrodošli"
+#: fjord/analytics/views.py:135
+msgid "Locale"
+msgstr "Jezik"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:3
-msgid "Search Results"
-msgstr "Rezultati pretraživanja"
+#: fjord/analytics/templates/analytics/dashboard.html:14 fjord/feedback/models.py:44
+msgid "Happy"
+msgstr ""
 
-#: apps/search/templates/search/search.html:10
-msgid "ATOM feed for this search"
-msgstr "ATOM kanal za ovu pretragu"
+#: fjord/analytics/templates/analytics/dashboard.html:16 fjord/feedback/models.py:45
+msgid "Sad"
+msgstr ""
 
-#: apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:101 apps/themes/templates/themes/index.html:10
-#: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-msgid "Product"
-msgstr "Proizvod"
-
-#: apps/search/templates/search/search.html:54
+#: fjord/analytics/templates/analytics/dashboard.html:67
 msgid "Latest Feedback"
 msgstr "Najnovija povratna informacija"
 
-#: apps/search/templates/search/search_form.html:19
-msgid "Search"
-msgstr "Traži"
-
-#: apps/search/templates/search/search_form.html:28
-msgid "Advanced"
-msgstr "Napredno"
-
-#. Refers to sites that were reported in feedback.
-#: apps/search/templates/search/sites.html:3 apps/search/templates/search/mobile/sites.html:2
-msgid "While Visiting"
-msgstr "Dok posjećujete"
-
-#. Refers to terms often mentioned in feedback.
-#: apps/search/templates/search/themes.html:3 apps/search/templates/search/mobile/themes.html:2
-msgid "Often Mentioned"
-msgstr "Često spomenuto"
-
-#: apps/search/templates/search/unavailable.html:5
-msgid "Search Unavailable"
-msgstr "Tražilica nije dostupna"
-
-#: apps/search/templates/search/unavailable.html:7
-msgid "I'm sorry, there was an error with your search."
-msgstr "Žao nam je, došlo je do greške s vašim pretraživanjem."
-
-#: apps/search/templates/search/unavailable.html:10
-msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr "Moguće je da je naša tražilica trenutno nedostupna. Možete ponovno započeti na <a href=\"%(url)s\">nadzornoj ploči</a> i pokušati ponovno kasnije."
-
-#: apps/search/templates/search/unavailable.html:17
-msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr ""
-"Ako se problem nastavi, molimo vas da <a href=\"%(bug_url)s\">prijavite "
-"grešku</a>, navodeći URL kojem ste pristupali."
-
-#: apps/search/templates/search/unavailable.html:24
-msgid "Include the following error message in your bug report:"
-msgstr "Uključite sljedeću poruku o pogrešci u svom izvještaju greške:"
-
-#: apps/search/templates/search/unavailable.html:28
-msgid "Thanks!"
-msgstr "Hvala!"
-
-#: apps/search/templates/search/versions.html:3 apps/themes/views.py:26 apps/themes/views.py:50
-msgid "All"
-msgstr "Sve"
-
-#. Title for a time-based search filter
-#: apps/search/templates/search/when.html:2
-msgid "When"
-msgstr "Kada"
-
-#. Tooltip for custom date range button
-#: apps/search/templates/search/when.html:9
-msgid "Custom"
-msgstr "Uobičajeno"
-
-#. Button text for setting a custom date range.
-#: apps/search/templates/search/when.html:17
-msgctxt "date_range_set"
-msgid "Set"
-msgstr "Postavi"
-
-#: apps/search/templates/search/includes/feedback_chart.html:4 apps/search/templates/search/includes/ratings_chart.html:4
-msgid "{num} opinions on {day}"
-msgstr "{num} mišljenja na {day}"
-
-#. A quasi strftime string for a full date.
-#: apps/search/templates/search/includes/feedback_chart.html:6 apps/search/templates/search/includes/ratings_chart.html:6
-msgid "%e %B %Y"
-msgstr "%e %B %Y"
-
-#. A quasi strftime string for a short date (no year).
-#: apps/search/templates/search/includes/feedback_chart.html:8 apps/search/templates/search/includes/ratings_chart.html:8
-msgid "%e %b"
-msgstr "%e %b"
-
-#: apps/search/templates/search/includes/feedback_chart.html:10
-msgid "Loading feedback history..."
-msgstr "Učitavam povijest povratnih informacija..."
-
-#: apps/search/templates/search/includes/ratings_chart.html:12
-msgid "Loading ratings history..."
-msgstr "Učitavanje povijesti ocjena..."
-
-#. short for 1 day
-#: apps/search/templates/search/includes/when_selectors.html:3
-msgid "Last day"
-msgstr "Posljednji dan"
-
-#: apps/search/templates/search/includes/when_selectors.html:3
-msgid "1d"
-msgstr "1d"
-
-#. short for 7 days
-#: apps/search/templates/search/includes/when_selectors.html:6
-msgid "Last 7 days"
-msgstr "Posljednjih 7 dana"
-
-#: apps/search/templates/search/includes/when_selectors.html:6
-msgid "7d"
-msgstr "7d"
-
-#. short for 30 days
-#: apps/search/templates/search/includes/when_selectors.html:9
-msgid "Last 30 days"
-msgstr "Posljednjih 30 dana"
-
-#: apps/search/templates/search/includes/when_selectors.html:9
-msgid "30d"
-msgstr "30d"
-
-#. short for an indefinite date range
-#: apps/search/templates/search/includes/when_selectors.html:12
-msgid "No date limit"
-msgstr "Nema datumskog ograničenja"
-
-#: apps/search/templates/search/includes/when_selectors.html:12
-msgid "&infin;"
-msgstr "&infin;"
-
-#: apps/search/templates/search/mobile/locales.html:22
-msgid "Show More Locales"
-msgstr "Ostali jezici"
-
-#: apps/search/templates/search/mobile/opinion_count.html:2
-msgid "<strong>%(cnt)s</strong> message"
-msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "<strong>%(cnt)s</strong> poruka"
-msgstr[1] "<strong>%(cnt)s</strong> poruke"
-msgstr[2] "<strong>%(cnt)s</strong> poruka"
-
-#: apps/search/templates/search/mobile/platforms.html:22
-msgid "Show More Platforms"
-msgstr "Ostale platforme"
-
-#: apps/search/templates/search/mobile/search.html:15
-msgid "Clear Search"
-msgstr "Očisti pretraživanje"
-
-#: apps/search/templates/search/mobile/search.html:22
-msgid "Feed"
-msgstr "Kanal"
-
-#: apps/search/templates/search/mobile/search.html:25
-msgid "Statistics"
-msgstr "Statistika"
-
-#: apps/search/templates/search/mobile/search.html:28
-msgid "Trends"
-msgstr "Trendovi"
-
-#: apps/search/templates/search/mobile/search.html:31
-msgid "Settings"
-msgstr "Postavke"
-
-#: apps/search/templates/search/mobile/search.html:45
-msgid "&laquo; Newer Feedback"
-msgstr "&laquo; Novije povratne informacije"
-
-#: apps/search/templates/search/mobile/search.html:55
-msgid "Older Feedback &raquo;"
-msgstr "Starije povratne informacije &raquo;"
-
-#: apps/search/templates/search/mobile/search.html:107
-msgid "Version"
-msgstr "Inačica:"
-
-#: apps/search/templates/search/mobile/search.html:116
-msgid "Switch to Desktop Dashboard"
-msgstr "Prebaci na radnu površinu"
-
-#. refers to time-based search filters (e.g., "for last: 1d")
-#: apps/search/templates/search/mobile/when.html:3
-msgid "For last:"
-msgstr "Zadnjih:"
-
-#: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
-msgid "All feedback"
-msgstr "Sve povratne informacije"
-
-#: apps/themes/views.py:31 apps/website_issues/templates/website_issues/sites.html:36
-msgid "Praise only"
-msgstr "Samo pohvale"
-
-#: apps/themes/views.py:35 apps/website_issues/templates/website_issues/sites.html:37
-msgid "Issues only"
-msgstr "Samo problemi"
-
-#: apps/themes/views.py:39
-msgid "Ideas only"
-msgstr "Samo ideje"
-
-#: apps/themes/views.py:50
-msgid "All Platforms"
-msgstr "Sve platforme"
-
-#: apps/themes/templates/themes/index.html:2 templates/base.html:37
-msgid "Themes"
-msgstr "Teme"
-
-#: apps/themes/templates/themes/index.html:35
-msgid "Common Themes"
-msgstr "Zajedničke teme"
-
-#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
-msgid "Theme"
-msgstr "Tema"
-
-#: apps/themes/templates/themes/theme.html:15
-msgid "Back to all themes &raquo;"
-msgstr "Natrag na sve teme &raquo;"
-
-#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
-msgid "&laquo; Previous Page"
-msgstr "&laquo; Prethodna stranica"
-
-#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:12
-msgid "Next Page &raquo;"
-msgstr "Sljedeća stranica &raquo;"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "See all opinions"
-msgstr "Pogledajte sva mišljenja"
-
-#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
-msgid "%(count)s similar message"
-msgid_plural "%(count)s similar messages"
-msgstr[0] "%(count)s slična poruka"
-msgstr[1] "%(count)s slične poruke"
-msgstr[2] "%(count)s sličnih poruka"
-
-#: apps/website_issues/forms.py:39
-msgctxt "website_issues_search"
-msgid "Search for domain"
-msgstr "Traži za domenu"
-
-#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14
-msgid "Broken Sites"
-msgstr "Neispravne stranice"
-
-#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
-#: templates/base.html:38 templates/includes/nav_buttons.html:4
-msgid "Sites"
-msgstr "Stranice"
-
-#: apps/website_issues/templates/website_issues/sites.html:35
-msgctxt "sites_search_all_feedback"
-msgid "All"
-msgstr "Sve"
-
-#: apps/website_issues/templates/website_issues/sites.html:44
-msgid "Platforms"
-msgstr "Platforme"
-
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgctxt "sites_search_all_platforms"
-msgid "All"
-msgstr "Sve"
-
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgid "All platforms"
-msgstr "Sve platforme"
-
-#: apps/website_issues/templates/website_issues/sites.html:72
-msgid "Uncommon Sites"
-msgstr "Neuobičajene stranice"
-
-#: apps/website_issues/templates/website_issues/sites.html:77
-msgid "More sites..."
-msgstr "Više web stranica..."
-
-#: apps/website_issues/templates/website_issues/theme.html:17
-msgid "Back to {domain} &raquo;"
-msgstr "Natrag na {domain} &raquo;"
-
-#: apps/website_issues/templates/website_issues/theme.html:22
-msgid "Theme for {domain}"
-msgstr "Tema za {domain}"
-
-#: apps/website_issues/templates/website_issues/includes/single_site.html:1
-msgid "Back to all sites &raquo;"
-msgstr "Natrag na sve web stranice &raquo;"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
-msgid "Sites with only one message"
-msgstr "Stranice samo s jednom porukom"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
-msgid "No results found!"
-msgstr "Nije pronađen nijedan rezultat!"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
-msgid "reset my search"
-msgstr "resetiraj moju pretragu"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:46
-msgid "%(count)s message"
-msgid_plural "%(count)s messages"
-msgstr[0] "%(count)s poruka"
-msgstr[1] "%(count)s poruke"
-msgstr[2] "%(count)s poruka"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:55
-msgid "{percentage}% praise"
-msgstr "{percentage}% pohvala"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:57
-msgid "{percentage}% issues"
-msgstr "{percentage}% problema"
-
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:70
-msgid "%(count)s similar"
-msgid_plural "%(count)s similar"
-msgstr[0] "%(count)s slična"
-msgstr[1] "%(count)s slične"
-msgstr[2] "%(count)s sličnih"
-
-#: templates/404.html:4
-msgid "Not Found"
+#: fjord/analytics/templates/analytics/dashboard.html:77
+#, fuzzy
+msgid "Older Messages"
+msgstr "&laquo; Starije poruke"
+
+#: fjord/analytics/templates/analytics/dashboard.html:82
+#, fuzzy
+msgid "Newer Messages"
+msgstr "Novije poruke &raquo;"
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
+msgid "Messages"
+msgstr "Poruke"
+
+#: fjord/base/helpers.py:37
+msgid "Unknown"
+msgstr "Nepoznat"
+
+#: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8 fjord/base/templates/500.html:8
+#, fuzzy
+msgid "Page not found"
 msgstr "Nije pronađeno"
 
-#: templates/404.html:6
-msgid "I'm sorry, I could not find what you were looking for."
+#: fjord/base/templates/404.html:10
+#, fuzzy
+msgid "Sorry, but we couldn't find the page you're looking for."
 msgstr "Žao nam je, nije moguće pronaći ono što ste tražili."
 
-#: templates/404.html:9 templates/500.html:14
-msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "Molimo započnite ponovno na <a href=\"%(dashboard_url)s\">nadzornoj ploči</a>."
-
-#: templates/404.html:14
-msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#: fjord/base/templates/500.html:5
+msgid "Something went wrong!"
 msgstr ""
-"Ako ste slijedili neispravan link, molimo vas da <a href=\"%"
-"(bug_url)s\">prijavite grešku.</a> Hvala!"
 
-#: templates/500.html:4
-msgid "Internal Server Error"
-msgstr "Interna greška poslužitelja"
-
-#: templates/500.html:7
-msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+#: fjord/base/templates/500.html:10
+msgid "Sorry, but something went wrong."
 msgstr ""
-"Došlo je do greške u aplikaciji. Greška je prijavljena i administrator je "
-"obaviješten. Ispričavamo se zbog neugodnosti!"
 
-#: templates/500.html:20
-msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
-"Ukoliko imate dodatne informacije o tome kako reproducirati ovaj problem, "
-"molimo vas da <a href=\"%(bug_url)s\">prijavite grešku.</a> Hvala!"
+#: fjord/base/templates/base.html:4
+msgid "Welcome"
+msgstr "Dobrodošli"
 
-#: templates/about.html:3 templates/includes/footer.html:11
-msgid "About Firefox Input"
-msgstr "O Firefox Inputu"
-
-#: templates/about.html:7
-msgid "Hello!"
-msgstr "Bok!"
-
-#: templates/about.html:9
-msgid ""
-"<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
-"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-msgstr ""
-"<strong>Firefox Input</strong> je Mozillin primarni mehanizam povratnih "
-"informacija. Podešen je kao metoda jednosmjerne komunikacije o vašim "
-"iskustvima s upotrebom Firefoxa, Interneta kojemu ste pristupili putem njega "
-"i što Mozilla može učiniti da to iskustvo učini još boljim. Sustav je "
-"dostupan preko široke ponude mehanizama za slanje za sva tri glavna izdanja."
-
-#: templates/about.html:18
-msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr ""
-"Da biste poslali povratne informacije za vašu verziju Firefoxa, molimo vas "
-"da posjetite <a href=\"%(feedback_url)s\">stranicu za slanje povratnih "
-"informacija</a>!"
-
-#: templates/about.html:24
-msgid "Open Data"
-msgstr "Otvori podatke"
-
-#: templates/about.html:27
-msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-"please <a href=\"%(data_url)s\">contact us</a>!"
-msgstr ""
-"Željeli bismo više eksperimentirati s ovim podacima, ali nažalost samo "
-"nekoliko osoba čini naš tim. Zbog toga nam treba vaš zahtjev s pitanjima na "
-"koje želite odgovore! Ukoliko želite eksperimentirati s našim podacima "
-"molimo vas da nam se <a href=\"%(data_url)s\">javite</a>!"
-
-#: templates/about.html:34
-msgid "Source Code"
-msgstr "Izvorni kôd"
-
-#: templates/about.html:37
-msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
-"Kôd za Firefox Input web aplikaciju možete pronaći <a href=\"%"
-"(source_url)s\">na GitHubu</a>!"
-
-#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
+#: fjord/base/templates/base.html:20
 msgid "Proceed to main content"
 msgstr "Nastavite na glavni sadržaj"
 
-#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
+#: fjord/base/templates/base.html:21
 msgid "Proceed to footer"
 msgstr "Nastavite do podnožja"
 
-#: templates/base.html:30
+#: fjord/base/templates/base.html:28
 msgid "<strong>Firefox</strong> Input Dashboard"
 msgstr "<strong>Firefox</strong> Input nadzorna ploča"
 
-#: templates/base.html:36
-msgid "Feedback"
-msgstr "Povratna informacija"
+#: fjord/base/templates/base.html:34
+msgid "Dashboard"
+msgstr "Nadzorna ploča"
 
-#: templates/base_mobile_old.html:5 templates/base_old.html:5
-msgid "Welcome!"
-msgstr "Dobrodošli!"
-
-#: templates/base_mobile_old.html:30 templates/base_old.html:35
-msgid "Input Dashboard"
-msgstr "Input nadzorna ploča"
-
-#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
+#: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "Politika privatnosti"
 
-#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
+#: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "Pravne napomene"
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
+#: fjord/base/templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "Prijavite zloporabu zaštitnog znaka"
 
-#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
+#: fjord/base/templates/includes/footer.html:10
+msgid "About Firefox Input"
+msgstr "O Firefox Inputu"
+
+#: fjord/base/templates/includes/footer.html:13
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Osim gdje je drugačije <a href=\"%(legal_url)s\">navedeno</a>, sadržaj na ovoj "
-"stranici je licenciran pod <br/> <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike licencom inačice 3.0</a> ili novijom."
+"Osim gdje je drugačije <a href=\"%(legal_url)s\">navedeno</a>, sadržaj na ovoj stranici je licenciran pod <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike licencom inačice "
+"3.0</a> ili novijom."
 
-#: templates/csrf_error.html:5
-msgid "CSRF Protection Error"
-msgstr "CSRF Protection Error"
-
-#: templates/csrf_error.html:8
-msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr "Dogodila se pogreška pri verifikaciji vašeg CSRF tokena. Vaš zahtjev nije mogao biti obrađen. Ispričavamo se zbog neugodnosti!"
-
-#: templates/csrf_error.html:15
-msgid ""
-"The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-"in Firefox, then try again."
-msgstr ""
-"Vjerojatni uzrok ove pogreške je da vaš preglednik je podešen da <strong>ne "
-"prihvaća naše kolačiće</strong>. Molimo vas da slijedite <a href=\"%"
-"(cookies_url)s\">upute</a> za omogućavanje kolačića u Firefoxu, te da nakon "
-"toga pokušate ponovno."
-
-#: templates/csrf_error.html:24
-msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
-"Ukoliko se problem nastavi javljati, <a href=\"%(bug_url)s\">prijavite "
-"grešku.</a> Hvala!"
-
-#: templates/elasticutils/501.html:4
-msgid "Not Implemented"
-msgstr "Nije implementirano"
-
-#: templates/includes/footer_feedback.html:5 templates/includes/lang_switcher.html:2
+#: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
 msgstr "Ostali jezici:"
 
-#: templates/includes/footer_feedback.html:16 templates/includes/lang_switcher.html:10
+#: fjord/base/templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "Idi"
 
-#: templates/includes/nav_buttons.html:2
-msgid "Clusters"
-msgstr "Klasteri"
+#: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
+msgid "Input Services Monitor"
+msgstr ""
 
-#: templates/includes/ua_overlay.html:3
-msgid "User Agent"
-msgstr "User Agent"
+#: fjord/base/templates/services/monitor.html:16
+msgid "List of components that Input uses and whether they are functioning correctly."
+msgstr ""
 
-#: templates/includes/ua_overlay.html:7
-msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr "Pritisnite Ctrl+C (Cmd+C na Mac) da kopirate i zatvorite."
+#: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
+msgid "Firefox Made Me Happy"
+msgstr "Firefox me usrećio"
 
-#: templates/includes/ua_overlay.html:9
-msgid "User agent copied"
-msgstr "User agent kopiran"
+#: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
+msgid "Firefox Made Me Sad"
+msgstr "Firefox me rastužio"
 
-#: templates/includes/ua_overlay.html:10
-msgid "Close"
-msgstr "Zatvori"
+#: fjord/feedback/templates/feedback/feedback-form.html:12
+msgid "Super! It's great to hear that you like our browser."
+msgstr "Super! Sjajno je čuti da vam se sviđa naš web preglednik."
 
-#: templates/includes/welcome.html:2
-msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-msgstr "<strong>Dobrodošli na Firefox Input!</strong> Ovo je Mozillina primarna aplikacija za povratne informacije korisnika. <a href=\"%(about_url)s\">Saznajte više...</a>"
+#: fjord/feedback/templates/feedback/feedback-form.html:14
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+msgstr "Žao nam je što ste imali negativna iskustva s našim preglednikom. Molimo vas, recite nam zašto, da bi to mogli popraviti."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:18
+msgid "Go Back"
+msgstr "Natrag"
+
+#: fjord/feedback/templates/feedback/feedback-form.html:28
+msgid "Please describe what you liked."
+msgstr "Molimo Vas, opišite što vam se svidjelo."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:30
+msgid "Please describe your problem below."
+msgstr "Opišite svoj problem u nastavku."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:40
+msgid "If your feedback is related to a website, you can include it here."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:48
+msgid ""
+"Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
+"the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:61
+msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+msgstr "Da biste zaštitili vašu privatnost, molimo provjerite da informacije koje vas osobno mogu identificirati nisu sadržane u vašoj povratnoj informaciji."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:76
+msgid "Submitting Feedback"
+msgstr "Slanje povratne informacije"
+
+#: fjord/feedback/templates/feedback/feedback-form.html:77 fjord/feedback/templates/feedback/feedback-form.html:81
+msgid "Submit Feedback"
+msgstr "Pošalji povratnu informaciju"
+
+#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20
+msgid "Submit Your Feedback"
+msgstr "Pošaljite vaše povratne informacije"
+
+#: fjord/feedback/templates/feedback/feedback.html:21
+msgid "Your feedback helps us improve Firefox."
+msgstr "Vaše povratne informacije nam pomažu da unaprijedimo Firefox."
+
+#: fjord/feedback/templates/feedback/feedback.html:33
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+msgstr "Ukoliko trebate pomoć ili imate problema s Firefoxom, molimo Vas da posjetite <a href=\"%(support_url)s\">Firefox podršku</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:14
+msgid "Thanks"
+msgstr "Hvala"
+
+#: fjord/feedback/templates/feedback/thanks.html:20
+msgid "Thanks for Your Feedback"
+msgstr "Hvala na povratnoj informaciji"
+
+#: fjord/feedback/templates/feedback/thanks.html:23
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of Firefox."
+msgstr "boljeg iskustva u budućim izdanjima Firefoxa."
+
+#: fjord/feedback/templates/feedback/thanks.html:32
+msgid "Share your feedback."
+msgstr "Podijelite svoje povratne informacije"
+
+#: fjord/feedback/templates/feedback/thanks.html:38
+msgid "Tweet feedback to your followers"
+msgstr "Tweet-ajte povratne informacije Vašim sljedbenicima"
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Shape the future of Firefox."
+msgstr "Oblikujte budućnost Firefoxa."
+
+#: fjord/feedback/templates/feedback/thanks.html:47
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "Preuzmite <a href=\"%(download_url)s\">izdanje koje vam najbolje odgovara</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:55
+msgid "Contribute to Mozilla."
+msgstr "Doprinesite Mozilli."
+
+#: fjord/feedback/templates/feedback/thanks.html:57
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+msgstr "Saznajte kako možete <a href=\"%(url)s\">učiniti Mozillu i Firefox boljim</a>"
+
+#: fjord/feedback/templates/feedback/thanks.html:64
+msgid "Want to see where your feedback goes?"
+msgstr "Želite vidjeti gdje idu vaše povratne informacije?"
+
+#: fjord/feedback/templates/feedback/thanks.html:66
+msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "Posjetite <a href=\"%(dash_url)s\">nadzornu ploču Firefox povratnih informacija</a>"
+
+#: fjord/feedback/templates/feedback/thanks.html:73
+msgid "Find the latest news about Firefox."
+msgstr "Saznajte najnovije vijesti vezane za Firefox."
+
+#~ msgid "We already got your feedback! Thanks."
+#~ msgstr "Već smo zaprimili vaše povratne informacije! Hvala."
+
+#~ msgid "Describe your idea below."
+#~ msgstr "Opišite svoju ideju u nastavku."
+
+#~ msgid "Praise"
+#~ msgstr "Pohvala"
+
+#~ msgid "Issue"
+#~ msgstr "Problem"
+
+#~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+#~ msgstr ""
+#~ "Vaš komentar sadrži psovke (%s). Da biste nam pomogli unaprijediti naše proizvode, molimo vas da koristite riječi koje će nam pomoći u stvaranju akcija ili zadataka iz vašeg konstruktivnog "
+#~ "komentara. Hvala!"
+
+#~ msgid "Feedback must not contain HTML."
+#~ msgstr "Povratna informacija ne smije sadržavati HTML."
+
+#~ msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+#~ msgstr "Izgleda da vaše povratne informacije sadrže adresu e-pošte. Molimo vas da je uklonite, kao i sve slične informacije, te pokušate ponovno. Hvala!"
+
+#~ msgid "URLs with IP addresses must contain public IP addresses."
+#~ msgstr "URL-ovi s IP adresom moraju sadržavati javne IP adrese."
+
+#~ msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+#~ msgstr "Čini se da da vaša povratna informacija sadrži URL. Molimo vas da ga uklonite zajedno s bilo kakvim privatnim informacijama, te pokušate ponovno. Hvala!"
+
+#~ msgid "User-Agent request header must be set."
+#~ msgstr "User-Agent zaglavlje zahtjeva mora biti postavljeno."
+
+#~ msgid "It's great to hear you want to help Mozilla make your experience better!"
+#~ msgstr "Super je što želite pomoći Mozilli da vaš doživljaj učini još boljim!"
+
+#~ msgid "Please choose one of the following types of feedback that you would like to submit to us:"
+#~ msgstr "Molimo vas da odaberete jednu od sljedećih vrsta povratne informacije koju nam želite poslati:"
+
+#~ msgid "Firefox makes me happy because ..."
+#~ msgstr "Firefox me razveselio jer ..."
+
+#~ msgid "Firefox makes me sad because ..."
+#~ msgstr "Firefox me rastužio jer ..."
+
+#~ msgid "Firefox Logo"
+#~ msgstr "Firefox Logo"
+
+#~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+#~ msgstr "Ukoliko trebate pomoć ili imate problema s Firefoxom, molimo posjetite našu <a href=\"%(support_url)s\">stranicu podrške</a>."
+
+#~ msgid "Download Firefox"
+#~ msgstr "Preuzmite Firefox"
+
+#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+#~ msgstr "Uh! Ddakle, želite nam ponuditi povratne informacije za Firefox. Hvala, ali trebate koristiti najnoviju inačicu."
+
+#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+#~ msgstr "Da biste to uradili, jednostavno posjetite našu stranicu preuzimanja i instalirajte/ažurirajte na <a href=\"%(url)s\">najnoviju inačicu Firefoxa!</a>"
+
+#~ msgid "I Have an Idea for Firefox"
+#~ msgstr "Imam ideju za Firefox"
+
+#~ msgid "Have an idea how Firefox could be better? Let us know."
+#~ msgstr "Imate ideju kako Firefox može biti bolji? Javite nam!"
+
+#~ msgid "Include the URL of a site that worked better."
+#~ msgstr "Uključite URL stranice koja je radila bolje."
+
+#~ msgid "Include the URL of the site with the problem."
+#~ msgstr "Uključite URL stranice s problemom."
+
+#~ msgid "If you have an idea to offer us instead, please use our"
+#~ msgstr "Ako imate ideju koju želite podijeliti s nama, upotrijebite naš"
+
+#~ msgid "suggestion box"
+#~ msgstr "pretinac za prijedloge"
+
+#~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
+#~ msgstr "Super! Sjajno je čuti da vam se sviđa naš preglednik. Molimo pojasnite što vam se posebno sviđa!"
+
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
+#~ msgstr "Žao nam je što ste imali negativna iskustva s našim preglednikom. Molimo vas, recite nam zašto kako bismo to mogli popraviti!"
+
+#~ msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
+#~ msgstr "Dakle, želite predložiti kako možemo poboljšati Firefox? Izvrsno! Molimo upišite svoju ideju ispod:"
+
+#~ msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
+#~ msgstr "Znate web stranicu koja radi bolje u ovoj beti nego što je radila u ranijim inačicama Firefoxa? Molimo vas da dodate URL da možemo pratiti napredak!"
+
+#~ msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+#~ msgstr "Imali ste problema s određenim web stranicama? Molimo vas, dodajte URL da možemo brže pronaći problem!"
+
+#~ msgid "Please ensure that there is no personally identifiable information here."
+#~ msgstr "Molimo vas, provjerite da ovdje nisu navedeni osobni identifikacijski podaci."
+
+#~ msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
+#~ msgstr "Ukoliko nam radije želite ponuditi ideju, molimo vas da je pošaljite pomoću naše <a href=\"%(url_idea)s\">kutije za prijedloge</a>!"
+
+#~ msgid "Your feedback will be used to create a"
+#~ msgstr "Vaše povratne informacije će se koristiti za stvaranje"
+
+#~ msgid "Thanks for helping Mozilla make your experience better!"
+#~ msgstr "Hvala Vam što pomažete Mozilli da Vaš doživljaj učini boljim!"
+
+#~ msgid "Please choose the type of feedback that you would like to submit to us:"
+#~ msgstr "Molimo odaberite vrstu povratne informacije koju nam želite poslati:"
+
+#~ msgid "Firefox makes me happy ..."
+#~ msgstr "Firefox me čini sretnim/sretnom ..."
+
+#~ msgid "Firefox makes me sad ..."
+#~ msgstr "Firefox me čini tužnim/tužnom ..."
+
+#~ msgid "Download Beta"
+#~ msgstr "Preuzmite Beta verziju"
+
+#~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+#~ msgstr "Oh! Dakle, želite nam ponuditi povratne informacije. Trebat će vam najnovija Beta verzija! Posjetite našu stranicu za betu i <a href=\"%(url)s\">preuzmite je!</a>"
+
+#~ msgid "Back to Dashboard"
+#~ msgstr "Natrag na nadzornu ploču"
+
+#~ msgid "Give Feedback"
+#~ msgstr "Pošaljite povratnu informaciju"
+
+#~ msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+#~ msgstr "Drago nam je da Vas je Firefox za mobilne uređaje razveselio! Molimo Vas, recite nam što Vam se svidjelo."
+
+#~ msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+#~ msgstr "Žao nam je što vas je Firefox za mobitel rastužio. Molimo vas, javite nam što se dogodilo kako bismo mogli ispraviti problem."
+
+#~ msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+#~ msgstr "Volimo Vaše ideje za unaprijeđivanje Firefox-a za mobilne uređaje! Molimo Vas, opišite svoju ideju u nastavku."
+
+#~ msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+#~ msgstr "Imate ideju? <a href=\"%(url)s\">Pošaljite je.</a>"
+
+#~ msgid "Include your last visited site?"
+#~ msgstr "Uključiti posljednju posjećenu stranicu?"
+
+#~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+#~ msgstr "Zbog vaše privatnosti, molimo provjerite da osobne informacije nisu uvrštene u vaše povratne informacije."
+
+#~ msgid "Send Feedback"
+#~ msgstr "Pošalji povratnu informaciju"
+
+#~ msgid "Super! Please tell us more!"
+#~ msgstr "Super! Molimo recite nam više!"
+
+#~ msgid "Ack! Please tell us what to fix!"
+#~ msgstr "Zaprimljeno! Molimo recite nam što treba popraviti!"
+
+#~ msgid "Awesome! Please enter your idea below:"
+#~ msgstr "Super! Molimo unesite vašu ideju ispod:"
+
+#~ msgid "Add URL of last visited page?"
+#~ msgstr "Dodati URL zadnje posjećene stranice?"
+
+#~ msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
+#~ msgstr "Ili pošaljite Vaše ideje s našom <a href=\"%(url_idea)s\">kutijom za prijedloge</a>!"
+
+#~ msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+#~ msgstr "Volimo povratne informacije o Firefox-u za mobilne uređaje! Što biste nam htjeli predložiti?"
+
+#~ msgid "Firefox made me happy"
+#~ msgstr "Firefox me razveselio"
+
+#~ msgid "Firefox made me sad"
+#~ msgstr "Firefox me rastužio"
+
+#~ msgid "I have an idea for Firefox"
+#~ msgstr "Imam ideju za Firefox"
+
+#~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
+#~ msgstr "Ukoliko trebate pomoć ili imate problema s Firefoxom, molimo posjetite <a id=\"sumo-url\" href=\"%(url)s/\">Firefox podršku</a>."
+
+#~ msgid "Translate Message"
+#~ msgstr "Prevedi poruku"
+
+#~ msgid "Tweet This"
+#~ msgstr "Objavi na Twitteru"
+
+#~ msgid "Thanks for sharing your feedback!"
+#~ msgstr "Hvala što ste poslali povratnu informaciju!"
+
+#~ msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+#~ msgstr "Želite znati što se novog događa sa Firefox-om za mobilne uređaje? Mnogo je načina kako da ostanete u kontaktu:"
+
+#~ msgid "See where your feedback goes."
+#~ msgstr "Pogledajte gdje idu Vaše povratne informacije."
+
+#~ msgid "Feedback Dashboard"
+#~ msgstr "Nadzorna ploča povratnih informacija"
+
+#~ msgid "Download the beta and give us feedback!"
+#~ msgstr "Preuzmite beta inačicu i javite nam svoje mišljenje!"
+
+#~ msgid "Follow us on Twitter."
+#~ msgstr "Pratite nas na Twitteru."
+
+#~ msgid "Let's be friends."
+#~ msgstr "Budimo prijatelji!"
+
+#~ msgid "Firefox on Facebook"
+#~ msgstr "Firefox na Facebooku"
+
+#~ msgid "Get the latest news on Firefox."
+#~ msgstr "Saznajte najnovije vijesti o Firefoxu."
+
+#~ msgid "Planet Mozilla"
+#~ msgstr "Planet Mozilla"
+
+#~ msgid "Idea"
+#~ msgstr "Ideja"
+
+#~ msgid "Rating"
+#~ msgstr "Ocjena"
+
+#~ msgid "Broken Website"
+#~ msgstr "Neispravna stranica"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobilni"
+
+#~ msgid "Windows XP"
+#~ msgstr "Windows XP"
+
+#~ msgid "Windows 7"
+#~ msgstr "Windows 7"
+
+#~ msgid "Windows Vista"
+#~ msgstr "Windows Vista"
+
+#~ msgid "Mac OS X"
+#~ msgstr "Mac OS X"
+
+#~ msgid "Maemo"
+#~ msgstr "Maemo"
+
+#~ msgid "Android"
+#~ msgstr "Android"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other"
+#~ msgstr "Ostali"
+
+#~ msgid "{0} day ago"
+#~ msgid_plural "{0} days ago"
+#~ msgstr[0] "prije {0} dan"
+#~ msgstr[1] "prije {0} dana"
+#~ msgstr[2] "prije {0} dana"
+
+#~ msgid "{0} hour ago"
+#~ msgid_plural "{0} hours ago"
+#~ msgstr[0] "prije {0} sat"
+#~ msgstr[1] "prije {0} sata"
+#~ msgstr[2] "prije {0} sati"
+
+#~ msgid "{0} minute ago"
+#~ msgid_plural "{0} minutes ago"
+#~ msgstr[0] "prije {0} minutu"
+#~ msgstr[1] "prije {0} minute"
+#~ msgstr[2] "prije {0} minuta"
+
+#~ msgid "just now"
+#~ msgstr "upravo sada"
+
+#~ msgid "Query has timed out."
+#~ msgstr "Upit je istekao."
+
+#~ msgid "Sphinx threw an unknown exception: %s"
+#~ msgstr "Sphinx je izbacio nepoznatu iznimku: %s"
+
+#~ msgctxt "version_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- sve --"
+
+#~ msgctxt "sentiment_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- sve --"
+
+#~ msgid "Issues"
+#~ msgstr "Problemi"
+
+#~ msgid "Ideas"
+#~ msgstr "Ideje"
+
+#~ msgctxt "platform_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- sve --"
+
+#~ msgctxt "locale_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- sve --"
+
+#~ msgid "Search by keyword"
+#~ msgstr "Traži po ključnoj riječi"
+
+#~ msgid "Product:"
+#~ msgstr "Proizvod:"
+
+#~ msgid "Version:"
+#~ msgstr "Inačica:"
+
+#~ msgid "Locale:"
+#~ msgstr "Jezik:"
+
+#~ msgid "PLATFORM:"
+#~ msgstr "PLATFORMA:"
+
+#~ msgid "Date range:"
+#~ msgstr "Vremenski period:"
+
+#~ msgid "to"
+#~ msgstr "do"
+
+#~ msgid "Firefox Input"
+#~ msgstr "Firefox unos"
+
+#~ msgid "Search Results in Firefox Beta Feedback."
+#~ msgstr "Rezultati pretrage u Firefox Beta povratnim informacijama."
+
+#~ msgid "Firefox Input: '{query}'"
+#~ msgstr "Firefox unos: '{query}'"
+
+#~ msgid "Show/Hide Options"
+#~ msgstr "Prikaži/sakrij mogućnosti"
+
+#~ msgid "Toggle"
+#~ msgstr "Prebaci"
+
+#~ msgid "Devices"
+#~ msgstr "Uređaji"
+
+#~ msgid "More Locales"
+#~ msgstr "Ostali jezici"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Proizvođač"
+
+#~ msgid "More Options"
+#~ msgstr "Više mogućnosti"
+
+#~ msgid "Copy User Agent"
+#~ msgstr "Kopiraj User Agent"
+
+#~ msgid "No search results found."
+#~ msgstr "Nema pronađenih rezultata pretraživanja."
+
+#~ msgid "You can adjust your search criteria or use fewer filters to find more opinions."
+#~ msgstr "Možete prilagoditi kriterije pretraživanja ili koristiti manji broj filtera kako biste pronašli dodatna mišljenja."
+
+#~ msgid "Note: Recently released versions of Firefox may have less feedback."
+#~ msgstr "Napomena: Nedavno objavljena inačica Firefox-a može imati manje povratnih informacija."
+
+#~ msgid "Type of Feedback"
+#~ msgstr "Vrsta povratnih informacija"
+
+#~ msgid "Search Results"
+#~ msgstr "Rezultati pretraživanja"
+
+#~ msgid "ATOM feed for this search"
+#~ msgstr "ATOM kanal za ovu pretragu"
+
+#~ msgid "Product"
+#~ msgstr "Proizvod"
+
+#~ msgid "Search"
+#~ msgstr "Traži"
+
+#~ msgid "Advanced"
+#~ msgstr "Napredno"
+
+#~ msgid "While Visiting"
+#~ msgstr "Dok posjećujete"
+
+#~ msgid "Often Mentioned"
+#~ msgstr "Često spomenuto"
+
+#~ msgid "Search Unavailable"
+#~ msgstr "Tražilica nije dostupna"
+
+#~ msgid "I'm sorry, there was an error with your search."
+#~ msgstr "Žao nam je, došlo je do greške s vašim pretraživanjem."
+
+#~ msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+#~ msgstr "Moguće je da je naša tražilica trenutno nedostupna. Možete ponovno započeti na <a href=\"%(url)s\">nadzornoj ploči</a> i pokušati ponovno kasnije."
+
+#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+#~ msgstr "Ako se problem nastavi, molimo vas da <a href=\"%(bug_url)s\">prijavite grešku</a>, navodeći URL kojem ste pristupali."
+
+#~ msgid "Include the following error message in your bug report:"
+#~ msgstr "Uključite sljedeću poruku o pogrešci u svom izvještaju greške:"
+
+#~ msgid "Thanks!"
+#~ msgstr "Hvala!"
+
+#~ msgid "All"
+#~ msgstr "Sve"
+
+#~ msgid "When"
+#~ msgstr "Kada"
+
+#~ msgid "Custom"
+#~ msgstr "Uobičajeno"
+
+#~ msgctxt "date_range_set"
+#~ msgid "Set"
+#~ msgstr "Postavi"
+
+#~ msgid "{num} opinions on {day}"
+#~ msgstr "{num} mišljenja na {day}"
+
+#~ msgid "%e %B %Y"
+#~ msgstr "%e %B %Y"
+
+#~ msgid "%e %b"
+#~ msgstr "%e %b"
+
+#~ msgid "Loading feedback history..."
+#~ msgstr "Učitavam povijest povratnih informacija..."
+
+#~ msgid "Loading ratings history..."
+#~ msgstr "Učitavanje povijesti ocjena..."
+
+#~ msgid "Last day"
+#~ msgstr "Posljednji dan"
+
+#~ msgid "1d"
+#~ msgstr "1d"
+
+#~ msgid "Last 7 days"
+#~ msgstr "Posljednjih 7 dana"
+
+#~ msgid "7d"
+#~ msgstr "7d"
+
+#~ msgid "Last 30 days"
+#~ msgstr "Posljednjih 30 dana"
+
+#~ msgid "30d"
+#~ msgstr "30d"
+
+#~ msgid "No date limit"
+#~ msgstr "Nema datumskog ograničenja"
+
+#~ msgid "&infin;"
+#~ msgstr "&infin;"
+
+#~ msgid "Show More Locales"
+#~ msgstr "Ostali jezici"
+
+#~ msgid "<strong>%(cnt)s</strong> message"
+#~ msgid_plural "<strong>%(cnt)s</strong> messages"
+#~ msgstr[0] "<strong>%(cnt)s</strong> poruka"
+#~ msgstr[1] "<strong>%(cnt)s</strong> poruke"
+#~ msgstr[2] "<strong>%(cnt)s</strong> poruka"
+
+#~ msgid "Show More Platforms"
+#~ msgstr "Ostale platforme"
+
+#~ msgid "Clear Search"
+#~ msgstr "Očisti pretraživanje"
+
+#~ msgid "Feed"
+#~ msgstr "Kanal"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistika"
+
+#~ msgid "Trends"
+#~ msgstr "Trendovi"
+
+#~ msgid "Settings"
+#~ msgstr "Postavke"
+
+#~ msgid "&laquo; Newer Feedback"
+#~ msgstr "&laquo; Novije povratne informacije"
+
+#~ msgid "Older Feedback &raquo;"
+#~ msgstr "Starije povratne informacije &raquo;"
+
+#~ msgid "Version"
+#~ msgstr "Inačica:"
+
+#~ msgid "Switch to Desktop Dashboard"
+#~ msgstr "Prebaci na radnu površinu"
+
+#~ msgid "For last:"
+#~ msgstr "Zadnjih:"
+
+#~ msgid "All feedback"
+#~ msgstr "Sve povratne informacije"
+
+#~ msgid "Praise only"
+#~ msgstr "Samo pohvale"
+
+#~ msgid "Issues only"
+#~ msgstr "Samo problemi"
+
+#~ msgid "Ideas only"
+#~ msgstr "Samo ideje"
+
+#~ msgid "All Platforms"
+#~ msgstr "Sve platforme"
+
+#~ msgid "Themes"
+#~ msgstr "Teme"
+
+#~ msgid "Common Themes"
+#~ msgstr "Zajedničke teme"
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "Back to all themes &raquo;"
+#~ msgstr "Natrag na sve teme &raquo;"
+
+#~ msgid "&laquo; Previous Page"
+#~ msgstr "&laquo; Prethodna stranica"
+
+#~ msgid "Next Page &raquo;"
+#~ msgstr "Sljedeća stranica &raquo;"
+
+#~ msgid "See all opinions"
+#~ msgstr "Pogledajte sva mišljenja"
+
+#~ msgid "%(count)s similar message"
+#~ msgid_plural "%(count)s similar messages"
+#~ msgstr[0] "%(count)s slična poruka"
+#~ msgstr[1] "%(count)s slične poruke"
+#~ msgstr[2] "%(count)s sličnih poruka"
+
+#~ msgctxt "website_issues_search"
+#~ msgid "Search for domain"
+#~ msgstr "Traži za domenu"
+
+#~ msgid "Broken Sites"
+#~ msgstr "Neispravne stranice"
+
+#~ msgid "Sites"
+#~ msgstr "Stranice"
+
+#~ msgctxt "sites_search_all_feedback"
+#~ msgid "All"
+#~ msgstr "Sve"
+
+#~ msgid "Platforms"
+#~ msgstr "Platforme"
+
+#~ msgctxt "sites_search_all_platforms"
+#~ msgid "All"
+#~ msgstr "Sve"
+
+#~ msgid "All platforms"
+#~ msgstr "Sve platforme"
+
+#~ msgid "Uncommon Sites"
+#~ msgstr "Neuobičajene stranice"
+
+#~ msgid "More sites..."
+#~ msgstr "Više web stranica..."
+
+#~ msgid "Back to {domain} &raquo;"
+#~ msgstr "Natrag na {domain} &raquo;"
+
+#~ msgid "Theme for {domain}"
+#~ msgstr "Tema za {domain}"
+
+#~ msgid "Back to all sites &raquo;"
+#~ msgstr "Natrag na sve web stranice &raquo;"
+
+#~ msgid "Sites with only one message"
+#~ msgstr "Stranice samo s jednom porukom"
+
+#~ msgid "No results found!"
+#~ msgstr "Nije pronađen nijedan rezultat!"
+
+#~ msgid "reset my search"
+#~ msgstr "resetiraj moju pretragu"
+
+#~ msgid "%(count)s message"
+#~ msgid_plural "%(count)s messages"
+#~ msgstr[0] "%(count)s poruka"
+#~ msgstr[1] "%(count)s poruke"
+#~ msgstr[2] "%(count)s poruka"
+
+#~ msgid "{percentage}% praise"
+#~ msgstr "{percentage}% pohvala"
+
+#~ msgid "{percentage}% issues"
+#~ msgstr "{percentage}% problema"
+
+#~ msgid "%(count)s similar"
+#~ msgid_plural "%(count)s similar"
+#~ msgstr[0] "%(count)s slična"
+#~ msgstr[1] "%(count)s slične"
+#~ msgstr[2] "%(count)s sličnih"
+
+#~ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
+#~ msgstr "Molimo započnite ponovno na <a href=\"%(dashboard_url)s\">nadzornoj ploči</a>."
+
+#~ msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "Ako ste slijedili neispravan link, molimo vas da <a href=\"%(bug_url)s\">prijavite grešku.</a> Hvala!"
+
+#~ msgid "Internal Server Error"
+#~ msgstr "Interna greška poslužitelja"
+
+#~ msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+#~ msgstr "Došlo je do greške u aplikaciji. Greška je prijavljena i administrator je obaviješten. Ispričavamo se zbog neugodnosti!"
+
+#~ msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "Ukoliko imate dodatne informacije o tome kako reproducirati ovaj problem, molimo vas da <a href=\"%(bug_url)s\">prijavite grešku.</a> Hvala!"
+
+#~ msgid "Hello!"
+#~ msgstr "Bok!"
+
+#~ msgid ""
+#~ "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
+#~ "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+#~ msgstr ""
+#~ "<strong>Firefox Input</strong> je Mozillin primarni mehanizam povratnih informacija. Podešen je kao metoda jednosmjerne komunikacije o vašim iskustvima s upotrebom Firefoxa, Interneta kojemu ste "
+#~ "pristupili putem njega i što Mozilla može učiniti da to iskustvo učini još boljim. Sustav je dostupan preko široke ponude mehanizama za slanje za sva tri glavna izdanja."
+
+#~ msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
+#~ msgstr "Da biste poslali povratne informacije za vašu verziju Firefoxa, molimo vas da posjetite <a href=\"%(feedback_url)s\">stranicu za slanje povratnih informacija</a>!"
+
+#~ msgid "Open Data"
+#~ msgstr "Otvori podatke"
+
+#~ msgid ""
+#~ "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+#~ "please <a href=\"%(data_url)s\">contact us</a>!"
+#~ msgstr ""
+#~ "Željeli bismo više eksperimentirati s ovim podacima, ali nažalost samo nekoliko osoba čini naš tim. Zbog toga nam treba vaš zahtjev s pitanjima na koje želite odgovore! Ukoliko želite "
+#~ "eksperimentirati s našim podacima molimo vas da nam se <a href=\"%(data_url)s\">javite</a>!"
+
+#~ msgid "Source Code"
+#~ msgstr "Izvorni kôd"
+
+#~ msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
+#~ msgstr "Kôd za Firefox Input web aplikaciju možete pronaći <a href=\"%(source_url)s\">na GitHubu</a>!"
+
+#~ msgid "Feedback"
+#~ msgstr "Povratna informacija"
+
+#~ msgid "Welcome!"
+#~ msgstr "Dobrodošli!"
+
+#~ msgid "Input Dashboard"
+#~ msgstr "Input nadzorna ploča"
+
+#~ msgid "CSRF Protection Error"
+#~ msgstr "CSRF Protection Error"
+
+#~ msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
+#~ msgstr "Dogodila se pogreška pri verifikaciji vašeg CSRF tokena. Vaš zahtjev nije mogao biti obrađen. Ispričavamo se zbog neugodnosti!"
+
+#~ msgid ""
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
+#~ msgstr ""
+#~ "Vjerojatni uzrok ove pogreške je da vaš preglednik je podešen da <strong>ne prihvaća naše kolačiće</strong>. Molimo vas da slijedite <a href=\"%(cookies_url)s\">upute</a> za omogućavanje "
+#~ "kolačića u Firefoxu, te da nakon toga pokušate ponovno."
+
+#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "Ukoliko se problem nastavi javljati, <a href=\"%(bug_url)s\">prijavite grešku.</a> Hvala!"
+
+#~ msgid "Not Implemented"
+#~ msgstr "Nije implementirano"
+
+#~ msgid "Clusters"
+#~ msgstr "Klasteri"
+
+#~ msgid "User Agent"
+#~ msgstr "User Agent"
+
+#~ msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
+#~ msgstr "Pritisnite Ctrl+C (Cmd+C na Mac) da kopirate i zatvorite."
+
+#~ msgid "User agent copied"
+#~ msgstr "User agent kopiran"
+
+#~ msgid "Close"
+#~ msgstr "Zatvori"
+
+#~ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+#~ msgstr "<strong>Dobrodošli na Firefox Input!</strong> Ovo je Mozillina primarna aplikacija za povratne informacije korisnika. <a href=\"%(about_url)s\">Saznajte više...</a>"
 
 #, fuzzy
 #~ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"

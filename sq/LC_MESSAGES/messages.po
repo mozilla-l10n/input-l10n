@@ -8,7 +8,7 @@ msgstr ""
 "Language-Team: \n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Translate Toolkit 1.6.0\n"
@@ -54,12 +54,9 @@ msgstr "E panjohur"
 msgid "Praise"
 msgstr "Vlerësim"
 
-#: apps/feedback/helpers.py:39
-#: apps/input/__init__.py:40
-#: apps/themes/templates/themes/theme_list.html:12
-#: apps/website_issues/templates/website_issues/includes/single_site.html:14
-msgid "Issue"
-msgstr "Problem"
+#: fjord/feedback/templates/feedback/thanks.html:66
+msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "Vizitoni <a href=\"%(dash_url)s\">Pultin e Përshtypjeve për Firefox-in</a>"
 
 #: apps/feedback/validators.py:43
 msgid ""
@@ -138,9 +135,8 @@ msgstr "Firefox-i më kënaq, ngaqë ..."
 msgid "Firefox makes me sad because ..."
 msgstr "Firefox-i më trishton, ngaqë ..."
 
-#: apps/feedback/templates/feedback/beta_index.html:24
-msgid "Firefox Logo"
-msgstr "Stema e Firefox-it"
+#~ msgid "More Options"
+#~ msgstr "Më tepër Mundësi"
 
 #: apps/feedback/templates/feedback/beta_index.html:25
 msgid ""
@@ -150,9 +146,8 @@ msgstr ""
 "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox-in, ju lutem, "
 "vizitoni <a href=\"%(support_url)s\">faqen tonë të asistencës</a>."
 
-#: apps/feedback/templates/feedback/download.html:3
-msgid "Download Firefox"
-msgstr "Shkarkoni Firefox-in"
+#~ msgid "Translate Message"
+#~ msgstr "Përkthejeni Mesazhin"
 
 #: apps/feedback/templates/feedback/download.html:8
 msgid ""
@@ -203,9 +198,9 @@ msgid "Have an idea how Firefox could be better? Let us know."
 msgstr ""
 "Keni ndonjë ide se si do të ishte më i mirë Firefox-i? Na e bëni të ditur."
 
-#: apps/feedback/templates/feedback/feedback-form.html:23
-msgid "Go Back"
-msgstr "Shko Mbrapsht"
+#~ msgctxt "date_range_set"
+#~ msgid "Set"
+#~ msgstr "Vendose"
 
 #: apps/feedback/templates/feedback/feedback-form.html:42
 msgid "Include the URL of a site that worked better."
@@ -307,9 +302,8 @@ msgstr ""
 "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox-in, ju lutem, "
 "vizitoni <a href=\"%(support_url)s\">Asistencën e Firefox-it</a>."
 
-#: apps/feedback/templates/feedback/thanks.html:6
-msgid "Thanks"
-msgstr "Faleminderit"
+#~ msgid "Older Feedback &raquo;"
+#~ msgstr "Prurjet Më të Vjetra &raquo;"
 
 #: apps/feedback/templates/feedback/thanks.html:15
 #: apps/feedback/templates/feedback/mobile/thanks.html:3
@@ -384,9 +378,8 @@ msgstr "Firefox-i më kënaq ..."
 msgid "Firefox makes me sad ..."
 msgstr "Firefox-i më trishton ..."
 
-#: apps/feedback/templates/feedback/mobile/download.html:3
-msgid "Download Beta"
-msgstr "Shkarkoni Beta-n"
+#~ msgid "User-Agent request header must be set."
+#~ msgstr "Titulli i kërkesës së Agjentit të Përdoruesit duhet caktuar."
 
 #: apps/feedback/templates/feedback/mobile/download.html:9
 msgid ""
@@ -569,9 +562,8 @@ msgstr "Vlerësim"
 msgid "Broken Website"
 msgstr "Site Web i Dëmtuar"
 
-#: apps/input/__init__.py:78
-msgid "Firefox"
-msgstr "Firefox"
+#~ msgid "Give Feedback"
+#~ msgstr "Jepni Përshtypjet"
 
 #: apps/input/__init__.py:102
 msgid "Mobile"
@@ -891,15 +883,13 @@ msgstr ""
 msgid "Include the following error message in your bug report:"
 msgstr "Përfshini te njoftimi juaj për të metën mesazhin vijues për gabimin:"
 
-#: apps/search/templates/search/unavailable.html:28
-msgid "Thanks!"
-msgstr "Faleminderit!"
+#~ msgid "Query has timed out."
+#~ msgstr "Kërkesës i skadoi koha."
 
 #: apps/search/templates/search/versions.html:3
-#: apps/themes/views.py:26
-#: apps/themes/views.py:50
-msgid "All"
-msgstr "Krejt"
+#~ msgctxt "version_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- krejt --"
 
 #. Title for a time-based search filter
 #: apps/search/templates/search/when.html:2
@@ -1052,14 +1042,11 @@ msgstr "Vetëm problemet"
 msgid "Ideas only"
 msgstr "Vetëm idea"
 
-#: apps/themes/views.py:50
-msgid "All Platforms"
-msgstr "Krejt Platformat"
+#~ msgid "Product:"
+#~ msgstr "Produkt:"
 
-#: apps/themes/templates/themes/index.html:2
-#: templates/base.html:37
-msgid "Themes"
-msgstr "Tema"
+#~ msgid "Version:"
+#~ msgstr "Version:"
 
 #: apps/themes/templates/themes/index.html:35
 msgid "Common Themes"
@@ -1071,9 +1058,8 @@ msgstr "Tema të Zakonshme"
 msgid "Theme"
 msgstr "Temë"
 
-#: apps/themes/templates/themes/theme.html:15
-msgid "Back to all themes &raquo;"
-msgstr "Mbrapsht te krejt temat &raquo;"
+#~ msgid "Date range:"
+#~ msgstr "Interval datash:"
 
 #: apps/themes/templates/themes/theme.html:28
 #: apps/website_issues/templates/website_issues/theme.html:30
@@ -1081,11 +1067,8 @@ msgstr "Mbrapsht te krejt temat &raquo;"
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Faqja e Mëparshme"
 
-#: apps/themes/templates/themes/theme.html:36
-#: apps/website_issues/templates/website_issues/theme.html:38
-#: apps/website_issues/templates/website_issues/includes/paginate_sites.html:12
-msgid "Next Page &raquo;"
-msgstr "Faqja Pasuese &raquo;"
+#~ msgid "Firefox Input"
+#~ msgstr "Firefox Input"
 
 #: apps/themes/templates/themes/theme_list.html:14
 msgid "See all opinions"
@@ -1108,31 +1091,20 @@ msgstr "Kërkim për përkatësi"
 msgid "Broken Sites"
 msgstr "Site-e Problematikë"
 
-#: apps/website_issues/templates/website_issues/sites.html:6
-#: apps/website_issues/templates/website_issues/theme.html:4
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:16
-#: templates/base.html:38
-#: templates/includes/nav_buttons.html:4
-msgid "Sites"
-msgstr "Site-e"
+#~ msgid "Product"
+#~ msgstr "Produkt"
 
-#: apps/website_issues/templates/website_issues/sites.html:35
-msgctxt "sites_search_all_feedback"
-msgid "All"
-msgstr "Krejt"
+#~ msgid "Search"
+#~ msgstr "Kërko"
 
-#: apps/website_issues/templates/website_issues/sites.html:44
-msgid "Platforms"
-msgstr "Platforma"
+#~ msgid "Advanced"
+#~ msgstr "Të mëtejshme"
 
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgctxt "sites_search_all_platforms"
-msgid "All"
-msgstr "Krejt"
+#~ msgid "Search Unavailable"
+#~ msgstr "Kërkim i Pamundur Hëpërhë"
 
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgid "All platforms"
-msgstr "Krejt platformat"
+#~ msgid "I'm sorry, there was an error with your search."
+#~ msgstr "Na ndjeni, pati një gabim te kërkimi juaj."
 
 #: apps/website_issues/templates/website_issues/sites.html:72
 msgid "Uncommon Sites"
@@ -1142,17 +1114,15 @@ msgstr "Site-e Jo të Zakonshëm"
 msgid "More sites..."
 msgstr "Më tepër site-e..."
 
-#: apps/website_issues/templates/website_issues/theme.html:17
-msgid "Back to {domain} &raquo;"
-msgstr "Mbrapsht te {domain} &raquo;"
+#~ msgid "Include the following error message in your bug report:"
+#~ msgstr "Përfshini te njoftimi juaj për të metën mesazhin vijues për gabimin:"
 
 #: apps/website_issues/templates/website_issues/theme.html:22
 msgid "Theme for {domain}"
 msgstr "Temë për {domain}"
 
-#: apps/website_issues/templates/website_issues/includes/single_site.html:1
-msgid "Back to all sites &raquo;"
-msgstr "Mbrapsht te krejt site-et &raquo;"
+#~ msgid "Loading ratings history..."
+#~ msgstr "Po ngarkohet historiku i vlerësimeve..."
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:12
 msgid "Sites with only one message"
@@ -1166,19 +1136,15 @@ msgstr "Nuk u gjetën përfundime!"
 msgid "reset my search"
 msgstr "rifilloje kërkimin tim"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:46
-msgid "%(count)s message"
-msgid_plural "%(count)s messages"
-msgstr[0] "%(count)s mesazh"
-msgstr[1] "%(count)s mesazhe"
+#~ msgid "Issues only"
+#~ msgstr "Vetëm problemet"
 
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:55
 msgid "{percentage}% praise"
 msgstr "{percentage}% vlerësim"
 
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:57
-msgid "{percentage}% issues"
-msgstr "{percentage}% probleme"
+#~ msgid "All Platforms"
+#~ msgstr "Krejt Platformat"
 
 #. "similar" refers to "similar messages".
 #: apps/website_issues/templates/website_issues/includes/sites_list.html:70
@@ -1187,9 +1153,8 @@ msgid_plural "%(count)s similar"
 msgstr[0] "%(count)s i ngjashëm"
 msgstr[1] "%(count)s të ngjashëm"
 
-#: templates/404.html:4
-msgid "Not Found"
-msgstr "Nuk u Gjet"
+#~ msgid "Common Themes"
+#~ msgstr "Tema të Zakonshme"
 
 #: templates/404.html:6
 msgid "I'm sorry, I could not find what you were looking for."
@@ -1229,14 +1194,12 @@ msgstr ""
 "Në paçi të dhëna shtesë rreth se si të riprodhohet problemi, ju lutem <a "
 "href=\"%(bug_url)s\">na i tregoni.</a> Faleminderit!"
 
-#: templates/about.html:3
-#: templates/includes/footer.html:11
-msgid "About Firefox Input"
-msgstr "Rreth Firefox Input"
+#~ msgctxt "website_issues_search"
+#~ msgid "Search for domain"
+#~ msgstr "Kërkim për përkatësi"
 
-#: templates/about.html:7
-msgid "Hello!"
-msgstr "Tungjatjeta!"
+#~ msgid "Broken Sites"
+#~ msgstr "Site-e Problematikë"
 
 #: templates/about.html:9
 msgid ""
@@ -1278,9 +1241,8 @@ msgstr ""
 "përgjigje! Nëse dëshironi të eksperimentoni me të dhënat tona, ju lutem, <a "
 "href=\"%(data_url)s\">lidhuni me ne</a>!"
 
-#: templates/about.html:34
-msgid "Source Code"
-msgstr "Kod Burim"
+#~ msgid "All platforms"
+#~ msgstr "Krejt platformat"
 
 #: templates/about.html:37
 msgid ""
@@ -1296,11 +1258,8 @@ msgstr ""
 msgid "Proceed to main content"
 msgstr "Kalo te lënda bazë"
 
-#: templates/base.html:23
-#: templates/base_mobile_old.html:20
-#: templates/base_old.html:23
-msgid "Proceed to footer"
-msgstr "Kalo te titulli"
+#~ msgid "Theme for {domain}"
+#~ msgstr "Temë për {domain}"
 
 #: templates/base.html:30
 msgid "<strong>Firefox</strong> Input Dashboard"
@@ -1315,10 +1274,10 @@ msgstr "Përshtypje"
 msgid "Welcome!"
 msgstr "Mirë se vini!"
 
-#: templates/base_mobile_old.html:30
-#: templates/base_old.html:35
-msgid "Input Dashboard"
-msgstr "Pulti i Input-eve"
+#~ msgid "%(count)s message"
+#~ msgid_plural "%(count)s messages"
+#~ msgstr[0] "%(count)s mesazh"
+#~ msgstr[1] "%(count)s mesazhe"
 
 #: templates/base_mobile_old.html:56
 #: templates/base_old.html:63
@@ -1350,9 +1309,8 @@ msgstr ""
 "<em>site</em> lejohet sipas <br/> <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> ose cilitdo version të mëvonshëm."
 
-#: templates/csrf_error.html:5
-msgid "CSRF Protection Error"
-msgstr "Gabim Mbrojtjeje CSRF"
+#~ msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "Po qe se po hapnit një lidhje e dëmtuar, ju lutem <a href=\"%(bug_url)s\">njoftojeni të metën.</a> Faleminderit!"
 
 #: templates/csrf_error.html:8
 msgid ""
@@ -1391,14 +1349,16 @@ msgstr ""
 msgid "Other languages:"
 msgstr "Gjuhë të tjera:"
 
-#: templates/includes/footer_feedback.html:16
-#: templates/includes/lang_switcher.html:10
-msgid "Go"
-msgstr "Jepi"
+#~ msgid ""
+#~ "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
+#~ "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+#~ msgstr ""
+#~ "<strong>Firefox Input</strong> është mekanizmi parësor i Mozilla-s për grumbullim përshtypjesh. Është ndërtuar që të jetë metodë komunikimi me një kah rreth përvojave tuaja gjatë përdorimit të "
+#~ "Firefox-it, Internetit të cilin shihni me të, dhe rreth se çfarë mund të bëjë Mozilla që ta bëjë më mirë. Sistemi funksionon për një numër mekanizmash parashtrimi për të tre rastet kryesore të "
+#~ "montimeve."
 
-#: templates/includes/nav_buttons.html:2
-msgid "Clusters"
-msgstr "Grupe"
+#~ msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
+#~ msgstr "Për të parashtruar përshtypjet për versionin tuaj të Firefox-it, ju lutem, shkoni te <a href=\"%(feedback_url)s\">faqja e parashtrimit të përshtypjeve</a>!"
 
 #: templates/includes/ua_overlay.html:3
 msgid "User Agent"
@@ -1412,9 +1372,8 @@ msgstr "Shtypni Ctrl+C (Cmd+C në Mac) që ta kopjoni dhe mbyllni."
 msgid "User agent copied"
 msgstr "Agjenti i përdoruesit u kopjua"
 
-#: templates/includes/ua_overlay.html:10
-msgid "Close"
-msgstr "Mbylle"
+#~ msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
+#~ msgstr "Kodi për zbatimin web Firefox Input mund të gjendet <a href=\"%(source_url)s\">te GitHub</a>!"
 
 #: templates/includes/welcome.html:2
 msgid ""
@@ -1633,6 +1592,7 @@ msgstr ""
 #~ msgstr "Jepni kÃ«tu kÃ«shillat tuaja."
 
 #~ msgctxt "os_choice"
+#~ msgctxt "os_choice"
 #~ msgid "-- all --"
 #~ msgstr "-- krejt --"
 
@@ -1681,9 +1641,11 @@ msgstr ""
 #~ msgstr "1 javÃ«"
 
 #~ msgctxt "dashboard_period"
+#~ msgctxt "dashboard_period"
 #~ msgid "1 month"
 #~ msgstr "1 muaj"
 
+#~ msgctxt "dashboard_period"
 #~ msgctxt "dashboard_period"
 #~ msgid "all"
 #~ msgstr "krejt"
@@ -1747,10 +1709,8 @@ msgstr ""
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "PÃ«rshkrim: <span class=\"opt\">\"%(query)s\"</span>;"
 
-#~ msgid ""
-#~ "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-#~ msgstr ""
-#~ "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+#~ msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+#~ msgstr "Data: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "GjuhÃ«: <span class=\"opt\">%(locale)s</span>;"
@@ -1779,14 +1739,8 @@ msgstr ""
 #~ msgid "Previous Page &raquo;"
 #~ msgstr "Faqja e MÃ«parshme &raquo;"
 
-#~ msgid "happy"
-#~ msgstr "i lumtur"
-
 #~ msgid "happy face"
 #~ msgstr "fytyrÃ« e lumtur"
-
-#~ msgid "sad"
-#~ msgstr "i trishtuar"
 
 #~ msgid "sad face"
 #~ msgstr "fytyrÃ« e trishtÃ«"

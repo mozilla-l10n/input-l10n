@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-28 14:18-0700\n"
+"POT-Creation-Date: 2012-09-20 11:28-0700\n"
 "PO-Revision-Date: 2012-03-17 13:08+0200\n"
 "Last-Translator: amire80 <amir.aharoni@mail.huji.ac.il>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,1189 +13,923 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: apps/feedback/forms.py:96
-msgid "We already got your feedback! Thanks."
-msgstr "כבר קיבלנו את המשוב שלך! תודה."
-
-#: apps/feedback/forms.py:108
-msgid "Please describe what you liked."
-msgstr "נא לתאר מה אהבת."
-
-#: apps/feedback/forms.py:125
-msgid "Please describe your problem below."
-msgstr "נא לתאר את הבעיה להלן."
-
-#: apps/feedback/forms.py:142
-msgid "Describe your idea below."
-msgstr "נא לתאר את הרעיון שלך להלן."
-
-#: apps/feedback/helpers.py:16 apps/search/forms.py:42 apps/search/forms.py:45 apps/search/forms.py:50 apps/search/templates/search/devices.html:8 apps/search/templates/search/manufacturers.html:9
-#: apps/search/templates/search/mobile/devices.html:8 apps/search/templates/search/mobile/manufacturers.html:9
-msgid "Unknown"
-msgstr "לא ידוע"
-
-#. Formerly called "happy"
-#: apps/feedback/helpers.py:36 apps/input/__init__.py:33 apps/search/forms.py:33 apps/search/views.py:273 apps/search/templates/search/overview.html:13
-#: apps/search/templates/search/mobile/overview.html:9 apps/themes/views.py:30 apps/themes/templates/themes/theme_list.html:8 apps/website_issues/templates/website_issues/sites.html:36
-#: apps/website_issues/templates/website_issues/includes/single_site.html:12
-msgid "Praise"
-msgstr "תשבוחות"
-
-#: apps/feedback/helpers.py:39 apps/input/__init__.py:40 apps/themes/templates/themes/theme_list.html:12 apps/website_issues/templates/website_issues/includes/single_site.html:14
-msgid "Issue"
-msgstr "תלונה"
-
-# 'swear' is a promise or a curse? I just want to make sure I'm not doing mistakes here.
-#: apps/feedback/validators.py:43
-msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-msgstr "התגובה שלך כוללת קללות (%s). כדי לסייע לנו להפיק את המיטב מהמוצרים שלנו, אנא השתמש במילים שיכולות לעזור לנו לבצע פעולה או רשימת משימות מהמשוב הבונה שלך. תודה!"
-
-#: apps/feedback/validators.py:52
-msgid "Feedback must not contain HTML."
-msgstr "המשוב אינו יכול להכיל HTML."
-
-#: apps/feedback/validators.py:59
-msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"נראה שהמשוב שלך כולל כתובת דואר אלקטרוני. נא להסיר כתובת זו ונתונים אישיים "
-"דומים מהמלל ולנסות שוב. תודה!"
-
-#: apps/feedback/validators.py:68
-msgid "URLs with IP addresses must contain public IP addresses."
-msgstr "כתובות רשת עם מספרי IP צריכים להיות נגישים לציבור."
-
-#: apps/feedback/validators.py:75
-msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-msgstr ""
-"נראה שהמשוב שלך כולל כתובת של אתר. נא להסיר אותה ונתונים אישיים דומים מהמלל "
-"ולנסות שוב. תודה!"
-
-#: apps/feedback/views.py:40
-msgid "User-Agent request header must be set."
-msgstr "חובה להגדיר כותר סוכן משתמש (User-Agent request header)."
-
-#: apps/feedback/templates/feedback/beta_index.html:3 apps/feedback/templates/feedback/feedback-form.html:69 apps/feedback/templates/feedback/feedback-form.html:73
-#: apps/feedback/templates/feedback/feedback.html:3 apps/feedback/templates/feedback/feedback.html:78 apps/feedback/templates/feedback/index.html:6
-#: apps/feedback/templates/feedback/mobile/beta_index.html:3 apps/feedback/templates/feedback/mobile/feedback.html:3 apps/feedback/templates/feedback/mobile/feedback.html:60
-#: apps/feedback/templates/feedback/mobile/index.html:3
-msgid "Submit Feedback"
-msgstr "שליחת משוב"
-
-#: apps/feedback/templates/feedback/beta_index.html:7
-msgid "It's great to hear you want to help Mozilla make your experience better!"
-msgstr "טוב לשמוע שרצית לעזור למוזילה לשפר את החוויה שלך!"
-
-#: apps/feedback/templates/feedback/beta_index.html:9
-msgid "Please choose one of the following types of feedback that you would like to submit to us:"
-msgstr "נא לבחור את סוג המשוב שברצונך לשלוח לנו:"
-
-#: apps/feedback/templates/feedback/beta_index.html:13 apps/feedback/templates/feedback/beta_index.html:15
-msgid "Firefox makes me happy because ..."
-msgstr "Firefox משמח אותי כי…"
-
-#: apps/feedback/templates/feedback/beta_index.html:19 apps/feedback/templates/feedback/beta_index.html:21
-msgid "Firefox makes me sad because ..."
-msgstr "Firefox מעציב אותי כי…"
-
-#: apps/feedback/templates/feedback/beta_index.html:24
-msgid "Firefox Logo"
-msgstr "לוגו של Firefox"
-
-#: apps/feedback/templates/feedback/beta_index.html:25
-msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-msgstr ""
-"אם דרושה לך עזרה או שי לך עם Firefox, נא לבקר ב<a href=\"%(support_url)s\">דף "
-"התמיכה</a> שלנו."
-
-#: apps/feedback/templates/feedback/download.html:3
-msgid "Download Firefox"
-msgstr "הורדת Firefox"
-
-#: apps/feedback/templates/feedback/download.html:8
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
-"הא! נראה שרצית לתת לנו משוב על Firefox. תודה לך, אבל לשם כך צריך להשתמש "
-"בגרסה החדשה ביותר."
-
-#: apps/feedback/templates/feedback/download.html:14
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"כדי להצטרף, יש לעבור לדף ההורדה ולהתקין את <a href=\"%(url)s\">הגרסה החדשה "
-"ביותר של Firefox!</a>"
-
-#: apps/feedback/templates/feedback/feedback-form.html:6 apps/feedback/templates/feedback/index.html:21
-msgid "Firefox Made Me Happy"
-msgstr "Firefox שימח אותי…"
-
-#: apps/feedback/templates/feedback/feedback-form.html:8 apps/feedback/templates/feedback/index.html:22
-msgid "Firefox Made Me Sad"
-msgstr "Firefox העציב אותי…"
-
-#: apps/feedback/templates/feedback/feedback-form.html:10 apps/feedback/templates/feedback/index.html:23
-msgid "I Have an Idea for Firefox"
-msgstr "יש לי רעיון עבור Firefox"
-
-#: apps/feedback/templates/feedback/feedback-form.html:15
-msgid "Super! It's great to hear that you like our browser."
-msgstr "מעולה! אנו שמחים לשמוע שנהנית מהדפדפן שלנו."
-
-#: apps/feedback/templates/feedback/feedback-form.html:17
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr ""
-"אנו מצטערים לשמוע שלא הייתה לך חוויית שימוש טובה עם הדפדפן שלנו. נא לספר לנו "
-"מדוע, כדי שנוכל לשפר אותו."
-
-#: apps/feedback/templates/feedback/feedback-form.html:19
-msgid "Have an idea how Firefox could be better? Let us know."
-msgstr "יש לך הצעה כיצד Firefox יכול להשתפר? נשמח לדעת על זה."
-
-#: apps/feedback/templates/feedback/feedback-form.html:23
-msgid "Go Back"
-msgstr "חזרה"
-
-#: apps/feedback/templates/feedback/feedback-form.html:42
-msgid "Include the URL of a site that worked better."
-msgstr "נא לציין את כתובת האתר שעבד טוב יותר בעבר."
-
-#: apps/feedback/templates/feedback/feedback-form.html:44
-msgid "Include the URL of the site with the problem."
-msgstr "נא לציין את כתובת האתר עם הבעיה."
-
-#: apps/feedback/templates/feedback/feedback-form.html:55
-msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "כדי להגן על פרטיותך, נא לוודא כי אין במשוב מידע אישי שניתן לזיהוי."
-
-#: apps/feedback/templates/feedback/feedback-form.html:68
-msgid "Submitting Feedback"
-msgstr "המשוב נשלח כעת"
-
-#: apps/feedback/templates/feedback/feedback-form.html:81
-msgid "If you have an idea to offer us instead, please use our"
-msgstr "אם יש לך רעיון להציע לנו, נא להשתמש ב"
-
-#: apps/feedback/templates/feedback/feedback-form.html:82
-msgid "suggestion box"
-msgstr "תיבת ההצעות שלנו"
-
-#: apps/feedback/templates/feedback/feedback.html:19
-msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
-msgstr "מעולה! אנו שמחים לשמוע שנהנית מהדפדפן שלנו. נשמח לדעת מה אהבת במיוחד."
-
-#: apps/feedback/templates/feedback/feedback.html:24
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-msgstr ""
-"אנו מצטערים לשמוע שלא הייתה לך חוויית שימוש טובה עם הדפדפן שלנו. נשמח לדעת "
-"מה הבעיה, כדי שנוכל לתקן אותה!"
-
-#: apps/feedback/templates/feedback/feedback.html:29
-msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-msgstr ""
-"אז, ברצונך להציע לנו איך לשפר את Firefox? מעולה! נא לרשום את הרעיון שלך "
-"להלן:"
-
-#: apps/feedback/templates/feedback/feedback.html:47
-msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-msgstr ""
-"שמעת על אתר שעובד בגרסת הבטא הזאת טוב יותר מאשר בגרסאות קודמות של Firefox? "
-"נא להזין כאן את כתובתו, כדי שנוכל לעקוב אחריו!"
-
-#: apps/feedback/templates/feedback/feedback.html:55
-msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-msgstr ""
-"הייתה לך בעיה עם אתר מסוים? נא להכניס את כתובתו את כתובתו, כדי שנוכל למצוא "
-"את המידע מהר יותר!"
-
-#: apps/feedback/templates/feedback/feedback.html:76 apps/feedback/templates/feedback/mobile/feedback.html:58
-msgid "Please ensure that there is no personally identifiable information here."
-msgstr "נא לוודא כי אין בטופס מידע אישי שניתן לזיהוי."
-
-#: apps/feedback/templates/feedback/feedback.html:85
-msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr ""
-"אם יש לך רעיון להציע לנו, נא לשלוח אותו דרך <a href=\"%(url_idea)s\">תיבת "
-"הרעיונות</a>!"
-
-#: apps/feedback/templates/feedback/index.html:15
-msgid "Submit Your Feedback"
-msgstr "שליחת משוב"
-
-#: apps/feedback/templates/feedback/index.html:16
-msgid "Your feedback helps us improve Firefox."
-msgstr "המשובים שלך יעזרו לנו לשפר את Firefox."
-
-#: apps/feedback/templates/feedback/index.html:29
-msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr ""
-"אם דרושה לך עזרה או שיש לך בעיה עם Firefox, נא לבקר באתר <a href=\"%"
-"(support_url)s\">Firefox Support</a>."
-
-#: apps/feedback/templates/feedback/thanks.html:6
-msgid "Thanks"
-msgstr "תודה"
-
-#: apps/feedback/templates/feedback/thanks.html:15 apps/feedback/templates/feedback/mobile/thanks.html:3
-msgid "Thanks for Your Feedback"
-msgstr "תודה על המשוב"
-
-#: apps/feedback/templates/feedback/thanks.html:17
-msgid "Your feedback will be used to create a"
-msgstr "המשובים שלך ישמשו"
-
-#: apps/feedback/templates/feedback/thanks.html:18
-msgid "better experience in future releases of Firefox."
-msgstr "אותנו ביצירה של חוויית שימוש טובה יותר בגרסאות עתידיות של Firefox."
-
-#: apps/feedback/templates/feedback/thanks.html:25
-msgid "Share your feedback."
-msgstr "שיתוף המשוב שלך."
-
-#: apps/feedback/templates/feedback/thanks.html:31
-msgid "Tweet feedback to your followers"
-msgstr "לצייץ את המשוב שלך בטוויטר לעוקבים שלך"
-
-#: apps/feedback/templates/feedback/thanks.html:37 apps/feedback/templates/feedback/mobile/thanks.html:42
-msgid "Shape the future of Firefox."
-msgstr "בואו לעצב את העתיד של Firefox."
-
-#: apps/feedback/templates/feedback/thanks.html:39
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "הורדת <a href=\"%(download_url)s\">הגרסה הנכונה עבורך</a>."
-
-#: apps/feedback/templates/feedback/thanks.html:47
-msgid "Contribute to Mozilla."
-msgstr "תרומה למוזילה."
-
-#: apps/feedback/templates/feedback/thanks.html:49
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
-msgstr ""
-"מידע נוסף על איך ביכולתך <a href=\"%(url)s\">לשפר את Firefox ואת מוזילה</a>"
-
-#: apps/feedback/templates/feedback/thanks.html:56
-msgid "Want to see where your feedback goes?"
-msgstr "רוצה לדעת לאן המשוב שלך הולך?"
-
-#: apps/feedback/templates/feedback/thanks.html:58
-msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "ר' את <a href=\"%(dash_url)s\">לוח הבקרה של המשובים</a>"
-
-#: apps/feedback/templates/feedback/thanks.html:65
-msgid "Find the latest news about Firefox."
-msgstr "חדשות אחרונות על Firefox."
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:8
-msgid "Thanks for helping Mozilla make your experience better!"
-msgstr "תודה שעזרת לנו לשפר את חוויית מוזילה עבורך!"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:10
-msgid "Please choose the type of feedback that you would like to submit to us:"
-msgstr "נא לבחור את סוג המשוב שברצונך לשלוח לנו:"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:13 apps/feedback/templates/feedback/mobile/beta_index.html:15
-msgid "Firefox makes me happy ..."
-msgstr "Firefox משמח אותי…"
-
-#: apps/feedback/templates/feedback/mobile/beta_index.html:18 apps/feedback/templates/feedback/mobile/beta_index.html:20
-msgid "Firefox makes me sad ..."
-msgstr "Firefox מעציב אותי…"
-
-#: apps/feedback/templates/feedback/mobile/download.html:3
-msgid "Download Beta"
-msgstr "הורדת גרסת הבטא"
-
-#: apps/feedback/templates/feedback/mobile/download.html:9
-msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-msgstr ""
-"אבוי! נראה שרצית להציע לנו משוב. כדי לעשות זאת יש להשתמש בגרסת הבטא האחרונה! "
-"מעבר לדף הבטא שלנו ו<a href=\"%(url)s\">הורדת גרסת הבטא</a>."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:9 apps/feedback/templates/feedback/mobile/thanks.html:16
-msgid "Back to Dashboard"
-msgstr "חזרה ללוח הבקרה של המשובים"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:15 apps/feedback/templates/feedback/mobile/index.html:18 apps/feedback/templates/feedback/mobile/thanks.html:22
-msgid "Give Feedback"
-msgstr "מתן משוב"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:25
-msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
-msgstr "אנו שמחים ש־Firefox לניידים שימח אותך! נא לספר לנו מה אהבת."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:27
-msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-msgstr ""
-"אנו מצטערים לשמוע שלא הייתה לך חוויית שימוש טובה עם הדפדפן שלנו. נא לספר לנו "
-"מדוע, כדי שנוכל לשפר אותו."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:29
-msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
-msgstr ""
-"אנחנו אוהבים רעיונות לגרסת Firefox למכשירם ניידים! נא לתאר את הרעיון שלך "
-"להלן."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:36
-msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
-msgstr "יש לך רעיון? <a href=\"%(url)s\">אפשר לשלוח אותו.</a>"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:57
-msgid "Include your last visited site?"
-msgstr "לכלול בזה את הכתובת של האתר האחרון שביקרת בו?"
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:67
-msgid "For your privacy, please don't include any personally identifiable information in your feedback."
-msgstr "למען פרטיותך, נא לוודא כי אין בטופס מידע אישי שניתן לזיהוי."
-
-#: apps/feedback/templates/feedback/mobile/feedback-form.html:81
-msgid "Send Feedback"
-msgstr "שליחת משוב"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:24
-msgid "Super! Please tell us more!"
-msgstr "מעולה! נשמח לשמוע עוד!"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:26
-msgid "Ack! Please tell us what to fix!"
-msgstr "רות, קיבלנו! נא לספר לנו מה לתקן!"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:28
-msgid "Awesome! Please enter your idea below:"
-msgstr "מעולה! נא לכתוב את ההצעה שלך להלן:"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:39
-msgid "Add URL of last visited page?"
-msgstr "להכניס את הכתובת של הדף האחרון שביקרת בו?"
-
-#: apps/feedback/templates/feedback/mobile/feedback.html:67
-msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-msgstr "או לשלוח את הרעיונות שלך בדרך <a href=\"%(url_idea)s\">תיבת הרעיונות</a>!"
-
-#: apps/feedback/templates/feedback/mobile/index.html:26
-msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
-msgstr ""
-"אנחנו אוהבים משוב על גרסת Firefox למכשירים ניידים! מה עוד רצית לספר לנו?"
-
-#: apps/feedback/templates/feedback/mobile/index.html:36
-msgid "Firefox made me happy"
-msgstr "Firefox שימח אותי…"
-
-#: apps/feedback/templates/feedback/mobile/index.html:41
-msgid "Firefox made me sad"
-msgstr "Firefox העציב אותי…"
-
-#: apps/feedback/templates/feedback/mobile/index.html:46
-msgid "I have an idea for Firefox"
-msgstr "יש לי רעיון בשביל Firefox"
-
-#: apps/feedback/templates/feedback/mobile/index.html:54
-msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
-msgstr ""
-"דרושה לך עזרה או שיש לך בעיה עם Firefox, נא לבקר באתר <a id=\"sumo-url\" "
-"href=\"%(url)s/\">Firefox Support</a>."
-
-#: apps/feedback/templates/feedback/mobile/opinion.html:9 templates/base_mobile.html:22
-msgid "Dashboard"
-msgstr "לוח בקרה"
-
-#. Link to Google Translator
-#: apps/feedback/templates/feedback/mobile/opinion.html:43 apps/search/templates/search/message_list.html:33 apps/themes/templates/themes/theme_list.html:31
-msgid "Translate Message"
-msgstr "תרגום הודעה"
-
-#: apps/feedback/templates/feedback/mobile/opinion.html:48 apps/search/templates/search/message_list.html:38
-msgid "Tweet This"
-msgstr "לצייץ (טוויטר)"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:29
-msgid "Thanks for sharing your feedback!"
-msgstr "תודה רבה על שליחת המשוב שלך אליו!"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:30
-msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
-msgstr ""
-"רצית לדעת מה קורה עם Firefox למכשירים ניידים? יש הרבה דרכים להישאר בקשר:"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:36
-msgid "See where your feedback goes."
-msgstr "לאן המשוב שלך הולך."
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:37
-msgid "Feedback Dashboard"
-msgstr "לוח בקרה של משובים"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:44
-msgid "Download the beta and give us feedback!"
-msgstr "להוריד גרסת בטא ולתת לנו משוב!"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:51
-msgid "Follow us on Twitter."
-msgstr "עִקבו אחרינו ב־Twitter."
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:58
-msgid "Let's be friends."
-msgstr "בואו ונהיה חברים."
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:59
-msgid "Firefox on Facebook"
-msgstr "Firefox ב־Facebook"
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:65
-msgid "Get the latest news on Firefox."
-msgstr "קבלת החדשות האחרונות על Firefox."
-
-#: apps/feedback/templates/feedback/mobile/thanks.html:66
-msgid "Planet Mozilla"
-msgstr "Planet Mozilla"
-
-#: apps/input/__init__.py:47 apps/themes/templates/themes/theme_list.html:10
-msgid "Idea"
-msgstr "רעיון"
-
-#: apps/input/__init__.py:54
-msgid "Rating"
-msgstr "דירוג"
-
-#: apps/input/__init__.py:61
-msgid "Broken Website"
-msgstr "אתר מקולקל"
-
-#: apps/input/__init__.py:78
-msgid "Firefox"
-msgstr "Firefox"
-
-#: apps/input/__init__.py:102
-msgid "Mobile"
-msgstr "Mobile (מכשירים ניידים)"
-
-#: apps/input/__init__.py:156
-msgid "Windows XP"
-msgstr "Windows XP"
-
-#: apps/input/__init__.py:163
-msgid "Windows 7"
-msgstr "Windows 7‎"
-
-#: apps/input/__init__.py:170
-msgid "Windows Vista"
-msgstr "Windows Vista"
-
-#: apps/input/__init__.py:177
-msgid "Mac OS X"
-msgstr "Mac OS X"
-
-#: apps/input/__init__.py:184
-msgid "Maemo"
-msgstr "Maemo"
-
-#: apps/input/__init__.py:191
-msgid "Android"
-msgstr "Android"
-
-#: apps/input/__init__.py:198
-msgid "Linux"
-msgstr "Linux"
-
-#: apps/input/__init__.py:205
-msgid "Other"
-msgstr "אחר"
-
-#: apps/input/helpers.py:87
-msgid "{0} day ago"
-msgid_plural "{0} days ago"
-msgstr[0] "אתמול"
-msgstr[1] "לפני {0} ימים"
-
-#: apps/input/helpers.py:93
-msgid "{0} hour ago"
-msgid_plural "{0} hours ago"
-msgstr[0] "לפני שעה"
-msgstr[1] "לפני {0} שעות"
-
-#: apps/input/helpers.py:96
-msgid "{0} minute ago"
-msgid_plural "{0} minutes ago"
-msgstr[0] "לפני דקה"
-msgstr[1] "לפני {0} דקות"
-
-#. L10n: This means an event that happened only a few seconds ago.
-#: apps/input/helpers.py:100
-msgid "just now"
-msgstr "זה עתה"
-
-#: apps/input/templates/input/pager.html:3 apps/search/templates/search/search.html:72
-msgid "&laquo; Older Messages"
-msgstr "&raquo; הודעות ישנות יותר"
-
-#: apps/input/templates/input/pager.html:11 apps/search/templates/search/search.html:82
-msgid "Newer Messages &raquo;"
-msgstr "הודעות חדשות יותר &laquo;"
-
-#: apps/search/client.py:218
-msgid "Query has timed out."
-msgstr "פג הזמן לשאילתה."
-
-#: apps/search/client.py:222
-msgid "Sphinx threw an unknown exception: %s"
-msgstr "Sphinx threw an unknown exception: %s"
-
-#: apps/search/forms.py:24 apps/search/forms.py:27 apps/search/views.py:203 apps/search/views.py:206
-msgctxt "version_choice"
-msgid "-- all --"
-msgstr "-- הכול --"
-
-#: apps/search/forms.py:32
-msgctxt "sentiment_choice"
-msgid "-- all --"
-msgstr "-- הכול --"
-
-#. Formerly called "sad"
-#: apps/search/forms.py:34 apps/search/views.py:274 apps/search/templates/search/overview.html:27 apps/search/templates/search/mobile/overview.html:17 apps/themes/views.py:34
-#: apps/website_issues/templates/website_issues/sites.html:37
-msgid "Issues"
-msgstr "תלונות"
-
-#: apps/search/forms.py:35 apps/search/views.py:275 apps/search/templates/search/overview.html:40 apps/search/templates/search/mobile/overview.html:25 apps/themes/views.py:38
-msgid "Ideas"
-msgstr "רעיונות"
-
-#: apps/search/forms.py:39
-msgctxt "platform_choice"
-msgid "-- all --"
-msgstr "-- הכול --"
-
-#: apps/search/forms.py:49
-msgctxt "locale_choice"
-msgid "-- all --"
-msgstr "-- הכול --"
-
-#: apps/search/forms.py:56
-msgid "Search by keyword"
-msgstr "חיפוש לפי מילות מפתח"
-
-#: apps/search/forms.py:57 apps/website_issues/forms.py:58
-msgid "Product:"
-msgstr "מוצר:"
-
-#: apps/search/forms.py:59 apps/website_issues/forms.py:61
-msgid "Version:"
-msgstr "גרסה:"
-
-#: apps/search/forms.py:61
-msgid "Sentiment:"
+#: fjord/analytics/views.py:130
+#, fuzzy
+msgid "Sentiment"
 msgstr "הרגשה:"
 
-# locale -> language, because of lack of better translation.
-#: apps/search/forms.py:63
-msgid "Locale:"
-msgstr "שפה:"
-
-#: apps/search/forms.py:65
-msgid "PLATFORM:"
-msgstr "פלטפורמה:"
-
-#: apps/search/forms.py:71
-msgid "Date range:"
-msgstr "טווח תאריכים:"
-
-#. L10n: This indicates the second part of a date range.
-#: apps/search/forms.py:74
-msgid "to"
-msgstr "עד"
-
-#: apps/search/views.py:99 apps/search/views.py:118
-msgid "Firefox Input"
-msgstr "Firefox Input"
-
-#: apps/search/views.py:100
-msgid "Search Results in Firefox Beta Feedback."
-msgstr "תוצאות חיפוש במשובים עבור Firefox Beta."
-
-#. L10n: This is the title to the Search ATOM feed.
-#: apps/search/views.py:117
-msgid "Firefox Input: '{query}'"
-msgstr "Firefox Input: '{query}'"
-
-#: apps/search/templates/includes/filter_box_toggle.html:4
-msgid "Show/Hide Options"
-msgstr "הצגה או הסתרה של אפשרויות"
-
-#. Link text for showing/hiding options
-#: apps/search/templates/includes/filter_box_toggle.html:6
-msgid "Toggle"
-msgstr "מתג"
-
-#: apps/search/templates/search/devices.html:15 apps/search/templates/search/mobile/devices.html:15
-msgid "Devices"
-msgstr "מכשירים"
-
-#: apps/search/templates/search/locales.html:17 apps/search/templates/search/mobile/locales.html:9
-msgid "Locale"
-msgstr "שפה"
-
-#: apps/search/templates/search/locales.html:29
-msgid "More Locales"
-msgstr "שפות נוספות"
-
-#: apps/search/templates/search/manufacturers.html:16 apps/search/templates/search/mobile/manufacturers.html:16
-msgid "Manufacturer"
-msgstr "יצרן"
-
-#: apps/search/templates/search/message_list.html:26 apps/themes/templates/themes/theme_list.html:28
-msgid "More Options"
-msgstr "אפשרויות נוספות"
-
-#: apps/search/templates/search/message_list.html:29
-msgid "Copy User Agent"
-msgstr "העתקת מחרוזת סוכן משתמש (User Agent)"
-
-#: apps/search/templates/search/message_list.html:48 apps/search/templates/search/mobile/message_list.html:32 apps/themes/templates/themes/theme_list.html:41
-msgid "No search results found."
-msgstr "לא נמצאו תוצאות חיפוש."
-
-#: apps/search/templates/search/message_list.html:50 apps/search/templates/search/mobile/message_list.html:34
-msgid "You can adjust your search criteria or use fewer filters to find more opinions."
-msgstr "אפשר לכוונן מילות חיפוש או להשתמש בפחות מסננים כדי למצוא עוד דעות."
-
-#: apps/search/templates/search/message_list.html:52 apps/search/templates/search/mobile/message_list.html:36
-msgid "Note: Recently released versions of Firefox may have less feedback."
-msgstr "לתשומת לבך: ייתכן שיש פחות משוב על גרסאות של Firefox שיצאו לאחרונה."
-
-#. Title text for a complete message count.
-#: apps/search/templates/search/opinion_count.html:3
-msgid "Messages"
-msgstr "הודעות"
-
-#: apps/search/templates/search/overview.html:2 apps/search/templates/search/mobile/overview.html:2 apps/themes/templates/themes/index.html:16
-#: apps/website_issues/templates/website_issues/sites.html:32
-msgid "Type of Feedback"
-msgstr "סוג משוב"
-
-#: apps/search/templates/search/platforms.html:12 apps/search/templates/search/mobile/platforms.html:8 apps/themes/templates/themes/index.html:24
+#: fjord/analytics/views.py:133
 msgid "Platform"
 msgstr "פלטפורמה"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/mobile/search.html:3 templates/base.html:5 templates/base_mobile.html:7
-msgid "Welcome"
-msgstr "‫ברוכים הבאים"
+#: fjord/analytics/views.py:135
+msgid "Locale"
+msgstr "שפה"
 
-#: apps/search/templates/search/search.html:5 apps/search/templates/search/search.html:56 apps/search/templates/search/mobile/search.html:3
-msgid "Search Results"
-msgstr "תוצאות חיפוש"
+#: fjord/analytics/templates/analytics/dashboard.html:14 fjord/feedback/models.py:44
+#, fuzzy
+msgid "Happy"
+msgstr "שמח"
 
-#: apps/search/templates/search/search.html:10
-msgid "ATOM feed for this search"
-msgstr "הזנת ATOM לחיפוש זה"
+#: fjord/analytics/templates/analytics/dashboard.html:16 fjord/feedback/models.py:45
+#, fuzzy
+msgid "Sad"
+msgstr "עצוב"
 
-#: apps/search/templates/search/search.html:20 apps/search/templates/search/mobile/search.html:101 apps/themes/templates/themes/index.html:10
-#: apps/website_issues/templates/website_issues/sites.html:22 templates/includes/filters.html:6
-msgid "Product"
-msgstr "מוצר"
-
-#: apps/search/templates/search/search.html:54
+#: fjord/analytics/templates/analytics/dashboard.html:67
 msgid "Latest Feedback"
 msgstr "משוב אחרון"
 
-#: apps/search/templates/search/search_form.html:19
-msgid "Search"
-msgstr "חיפוש"
-
-#: apps/search/templates/search/search_form.html:28
-msgid "Advanced"
-msgstr "מתקדם"
-
-#. Refers to sites that were reported in feedback.
-#: apps/search/templates/search/sites.html:3 apps/search/templates/search/mobile/sites.html:2
-msgid "While Visiting"
-msgstr "כאשר מבקרים באתר"
-
-#. Refers to terms often mentioned in feedback.
-#: apps/search/templates/search/themes.html:3 apps/search/templates/search/mobile/themes.html:2
-msgid "Often Mentioned"
-msgstr "מוזכרים לעיתים קרובות"
-
-#: apps/search/templates/search/unavailable.html:5
-msgid "Search Unavailable"
-msgstr "חיפוש אינו זמין"
-
-#: apps/search/templates/search/unavailable.html:7
-msgid "I'm sorry, there was an error with your search."
-msgstr "מצטערים, אירעה שגיאה עם חיפוש שלך."
-
-#: apps/search/templates/search/unavailable.html:10
-msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-msgstr ""
-"ייתכן שמנוע החיפוש שלנו אינו זמין כעת. באפשרותך להתחיל מחדש ב<a href=\"%"
-"(url)s\">לוח הבקרה</a> ולנסות שוב מאוחר יותר."
-
-#: apps/search/templates/search/unavailable.html:17
-msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-msgstr ""
-"אם הבעיה נמשכת, בבקשה <a href=\"%(bug_url)s\">לפתוח באג</a>, המציין את הכתובת "
-"שניסית לגשת אליה."
-
-#: apps/search/templates/search/unavailable.html:24
-msgid "Include the following error message in your bug report:"
-msgstr "לכלול את הודעת השגיאה שלהלן בדיווח הבאג שלך:"
-
-#: apps/search/templates/search/unavailable.html:28
-msgid "Thanks!"
-msgstr "תודה!"
-
-#: apps/search/templates/search/versions.html:3 apps/themes/views.py:26 apps/themes/views.py:50
-msgid "All"
-msgstr "הכול"
-
-#. Title for a time-based search filter
-#: apps/search/templates/search/when.html:2
-msgid "When"
-msgstr "מתי"
-
-#. Tooltip for custom date range button
-#: apps/search/templates/search/when.html:9
-msgid "Custom"
-msgstr "מותאם אישית"
-
-#. Button text for setting a custom date range.
-#: apps/search/templates/search/when.html:17
-msgctxt "date_range_set"
-msgid "Set"
-msgstr "להגדיר"
-
-#: apps/search/templates/search/includes/feedback_chart.html:4 apps/search/templates/search/includes/ratings_chart.html:4
-msgid "{num} opinions on {day}"
-msgstr "{num} דעות ביום {day}"
-
-#. A quasi strftime string for a full date.
-#: apps/search/templates/search/includes/feedback_chart.html:6 apps/search/templates/search/includes/ratings_chart.html:6
-msgid "%e %B %Y"
-msgstr "%e %B %Y"
-
-#. A quasi strftime string for a short date (no year).
-#: apps/search/templates/search/includes/feedback_chart.html:8 apps/search/templates/search/includes/ratings_chart.html:8
-msgid "%e %b"
-msgstr "%e %b"
-
-#: apps/search/templates/search/includes/feedback_chart.html:10
-msgid "Loading feedback history..."
-msgstr "היסטוריית משובים בטעינה…"
-
-#: apps/search/templates/search/includes/ratings_chart.html:12
-msgid "Loading ratings history..."
-msgstr "היסטוריית דירוגים בטעינה…"
-
-#. short for 1 day
-#: apps/search/templates/search/includes/when_selectors.html:3
-msgid "Last day"
-msgstr "יום אחרון"
-
-#: apps/search/templates/search/includes/when_selectors.html:3
-msgid "1d"
-msgstr "יום אחד"
-
-#. short for 7 days
-#: apps/search/templates/search/includes/when_selectors.html:6
-msgid "Last 7 days"
-msgstr "שבוע אחרון"
-
-#: apps/search/templates/search/includes/when_selectors.html:6
-msgid "7d"
-msgstr "שבוע"
-
-#. short for 30 days
-#: apps/search/templates/search/includes/when_selectors.html:9
-msgid "Last 30 days"
-msgstr "30 ימים אחרונים"
-
-#: apps/search/templates/search/includes/when_selectors.html:9
-msgid "30d"
-msgstr "30 ימים"
-
-#. short for an indefinite date range
-#: apps/search/templates/search/includes/when_selectors.html:12
-msgid "No date limit"
-msgstr "אין הגבלת זמן"
-
-#: apps/search/templates/search/includes/when_selectors.html:12
-msgid "&infin;"
-msgstr "&infin;"
-
-#: apps/search/templates/search/mobile/locales.html:22
-msgid "Show More Locales"
-msgstr "הצגת שפות נוספות"
-
-#: apps/search/templates/search/mobile/opinion_count.html:2
-msgid "<strong>%(cnt)s</strong> message"
-msgid_plural "<strong>%(cnt)s</strong> messages"
-msgstr[0] "הודעה <strong>אחת</strong>"
-msgstr[1] "<strong>%(count)s</strong> הודעות"
-
-#: apps/search/templates/search/mobile/platforms.html:22
-msgid "Show More Platforms"
-msgstr "הצגת פלטפורמות נוספות"
-
-#: apps/search/templates/search/mobile/search.html:15
-msgid "Clear Search"
-msgstr "ניקוי חיפוש"
-
-#: apps/search/templates/search/mobile/search.html:22
-msgid "Feed"
-msgstr "הזנה"
-
-#: apps/search/templates/search/mobile/search.html:25
-msgid "Statistics"
-msgstr "סטטיסטיקה"
-
-#: apps/search/templates/search/mobile/search.html:28
-msgid "Trends"
-msgstr "מגמות"
-
-#: apps/search/templates/search/mobile/search.html:31
-msgid "Settings"
-msgstr "הגדרות"
-
-#: apps/search/templates/search/mobile/search.html:45
-msgid "&laquo; Newer Feedback"
+#: fjord/analytics/templates/analytics/dashboard.html:77
+#, fuzzy
+msgid "Older Messages"
 msgstr "&raquo; הודעות ישנות יותר"
 
-#: apps/search/templates/search/mobile/search.html:55
-msgid "Older Feedback &raquo;"
+#: fjord/analytics/templates/analytics/dashboard.html:82
+#, fuzzy
+msgid "Newer Messages"
 msgstr "הודעות חדשות יותר &laquo;"
 
-#: apps/search/templates/search/mobile/search.html:107
-msgid "Version"
-msgstr "גרסה"
+#: fjord/analytics/templates/analytics/dashboard.html:91
+msgid "Messages"
+msgstr "הודעות"
 
-#: apps/search/templates/search/mobile/search.html:116
-msgid "Switch to Desktop Dashboard"
-msgstr "מעבר ללוח הבקרה עבור מחשבים שולחניים"
+#: fjord/base/helpers.py:37
+msgid "Unknown"
+msgstr "לא ידוע"
 
-#. refers to time-based search filters (e.g., "for last: 1d")
-#: apps/search/templates/search/mobile/when.html:3
-msgid "For last:"
-msgstr "עבור:"
-
-#: apps/themes/views.py:26 apps/website_issues/templates/website_issues/sites.html:35
-msgid "All feedback"
-msgstr "כל המשובים"
-
-#: apps/themes/views.py:31 apps/website_issues/templates/website_issues/sites.html:36
-msgid "Praise only"
-msgstr "תשבוחות בלבד"
-
-#: apps/themes/views.py:35 apps/website_issues/templates/website_issues/sites.html:37
-msgid "Issues only"
-msgstr "תלונות בלבד"
-
-#: apps/themes/views.py:39
-msgid "Ideas only"
-msgstr "רעיונות בלבד"
-
-#: apps/themes/views.py:50
-msgid "All Platforms"
-msgstr "כל הפלטפורמות"
-
-#: apps/themes/templates/themes/index.html:2 templates/base.html:37
-msgid "Themes"
-msgstr "נושאים"
-
-#: apps/themes/templates/themes/index.html:35
-msgid "Common Themes"
-msgstr "נושאים נפוצים"
-
-#: apps/themes/templates/themes/theme.html:4 apps/themes/templates/themes/theme.html:17 apps/website_issues/templates/website_issues/theme.html:19
-msgid "Theme"
-msgstr "נושא"
-
-#: apps/themes/templates/themes/theme.html:15
-msgid "Back to all themes &raquo;"
-msgstr "חזרה לכל הנושאים &laquo;"
-
-#: apps/themes/templates/themes/theme.html:28 apps/website_issues/templates/website_issues/theme.html:30 apps/website_issues/templates/website_issues/includes/paginate_sites.html:3
-msgid "&laquo; Previous Page"
-msgstr "&raquo; דף קודם"
-
-#: apps/themes/templates/themes/theme.html:36 apps/website_issues/templates/website_issues/theme.html:38 apps/website_issues/templates/website_issues/includes/paginate_sites.html:12
-msgid "Next Page &raquo;"
-msgstr "הדף הבא &raquo;"
-
-#: apps/themes/templates/themes/theme_list.html:14
-msgid "See all opinions"
-msgstr "צפייה בכל הדעות"
-
-#: apps/themes/templates/themes/theme_list.html:16 apps/website_issues/templates/website_issues/includes/single_site.html:21
-msgid "%(count)s similar message"
-msgid_plural "%(count)s similar messages"
-msgstr[0] "הודעה דומה אחת"
-msgstr[1] "%(count)s הודעות דומות"
-
-#: apps/website_issues/forms.py:39
-msgctxt "website_issues_search"
-msgid "Search for domain"
-msgstr "חיפוש כתובת מתחם"
-
-#: apps/website_issues/templates/website_issues/sites.html:5 apps/website_issues/templates/website_issues/includes/sites_list.html:14
-msgid "Broken Sites"
-msgstr "אתרים מקולקלים"
-
-#: apps/website_issues/templates/website_issues/sites.html:6 apps/website_issues/templates/website_issues/theme.html:4 apps/website_issues/templates/website_issues/includes/sites_list.html:16
-#: templates/base.html:38 templates/includes/nav_buttons.html:4
-msgid "Sites"
-msgstr "אתרים"
-
-#: apps/website_issues/templates/website_issues/sites.html:35
-msgctxt "sites_search_all_feedback"
-msgid "All"
-msgstr "הכול"
-
-#: apps/website_issues/templates/website_issues/sites.html:44
-msgid "Platforms"
-msgstr "פלטפורמות"
-
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgctxt "sites_search_all_platforms"
-msgid "All"
-msgstr "הכול"
-
-#: apps/website_issues/templates/website_issues/sites.html:47
-msgid "All platforms"
-msgstr "כל הפלטפורמות"
-
-#: apps/website_issues/templates/website_issues/sites.html:72
-msgid "Uncommon Sites"
-msgstr "אתרים נדירים"
-
-#: apps/website_issues/templates/website_issues/sites.html:77
-msgid "More sites..."
-msgstr "אתרים נוספים..."
-
-#: apps/website_issues/templates/website_issues/theme.html:17
-msgid "Back to {domain} &raquo;"
-msgstr "חזרה אל {domain}‏ &raquo;"
-
-#: apps/website_issues/templates/website_issues/theme.html:22
-msgid "Theme for {domain}"
-msgstr "נושא עבור {domain}"
-
-#: apps/website_issues/templates/website_issues/includes/single_site.html:1
-msgid "Back to all sites &raquo;"
-msgstr "חזרה לכל האתרים &raquo;"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:12
-msgid "Sites with only one message"
-msgstr "אתרים עם הודעה אחת בלבד"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:29
-msgid "No results found!"
-msgstr "לא נמצאו תוצאות!"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:30
-msgid "reset my search"
-msgstr "איפוס החיפוש שלי"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:46
-msgid "%(count)s message"
-msgid_plural "%(count)s messages"
-msgstr[0] "הודעה אחת"
-msgstr[1] "%(count)s הודעות"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:55
-msgid "{percentage}% praise"
-msgstr "{percentage}% תשבוחות"
-
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:57
-msgid "{percentage}% issues"
-msgstr "{percentage}% תלונות"
-
-#. "similar" refers to "similar messages".
-#: apps/website_issues/templates/website_issues/includes/sites_list.html:70
-msgid "%(count)s similar"
-msgid_plural "%(count)s similar"
-msgstr[0] "הודעה דומה אחת"
-msgstr[1] "%(count)s הודעות דומות"
-
-#: templates/404.html:4
-msgid "Not Found"
+#: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8 fjord/base/templates/500.html:8
+#, fuzzy
+msgid "Page not found"
 msgstr "לא נמצא"
 
-#: templates/404.html:6
-msgid "I'm sorry, I could not find what you were looking for."
+#: fjord/base/templates/404.html:10
+#, fuzzy
+msgid "Sorry, but we couldn't find the page you're looking for."
 msgstr "מצטערים, לא הצלחנו למצוא את מה שחיפשת."
 
-#: templates/404.html:9 templates/500.html:14
-msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-msgstr "נא להתחיל מחדש ב<a href=\"%(dashboard_url)s\">לוח הבקרה</a>."
-
-#: templates/404.html:14
-msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr "אם הגעת לקישור שבור, נא <a href=\"%(bug_url)s\">לפתוח באג.</a> תודה!"
-
-#: templates/500.html:4
-msgid "Internal Server Error"
-msgstr "שגיאת שרת פנימית"
-
-#: templates/500.html:7
-msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+#: fjord/base/templates/500.html:5
+msgid "Something went wrong!"
 msgstr ""
-"אירעה שגיאה לא ידועה ביישום. השגיאה נרשמה ומנהל המערכת עודכן על כך. אנו "
-"מצטערים על האי־נוחות!"
 
-#: templates/500.html:20
-msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#: fjord/base/templates/500.html:10
+msgid "Sorry, but something went wrong."
 msgstr ""
-"אם ברשותך מידע נוסף כיצד ניתן לשחזר את הבעיה, נא <a href=\"%(bug_url)s\">לפתוח "
-"באג.</a> תודה!"
 
-#: templates/about.html:3 templates/includes/footer.html:11
-msgid "About Firefox Input"
-msgstr "אודות Firefox Input"
+#: fjord/base/templates/base.html:4
+msgid "Welcome"
+msgstr "‫ברוכים הבאים"
 
-#: templates/about.html:7
-msgid "Hello!"
-msgstr "שלום!"
-
-#: templates/about.html:9
-msgid ""
-"<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
-"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-msgstr ""
-"<strong>Firefox Input</strong> הוא מנגנון המשוב הראשי של Mozilla. המערכת "
-"הוקמה בתור אמצעי תקשורת חד־כיווני שדרכו אפשר לספר על החוויה שלך בעת שימוש "
-"ב־Firefox, על האינטרנט כפי הוא שנראה דרכו, ולומר מה Mozilla יכולים לעשות כדי "
-"לעשות את החוויה לטובה יותר. המערכת זמינה עם מרחב גדול של אמצעי שליחה בשלושת "
-"ערוצי הפרסום העיקריים."
-
-#: templates/about.html:18
-msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-msgstr ""
-"כדי לשלוח משוב על הגרסת Firefox <a href=\"%(feedback_url)s\"> הנוכחית שלך, נא "
-"לעבור לדף שליחת המשוב</a>!"
-
-#: templates/about.html:24
-msgid "Open Data"
-msgstr "נתונים פתוחים"
-
-#: templates/about.html:27
-msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-"please <a href=\"%(data_url)s\">contact us</a>!"
-msgstr ""
-"אנחנו היינו רוצים לעשות עוד ניסויים עם הנתונים האלה, אבל אנחנו אנשים מעטים. "
-"אז אנחנו זקוקים לבקשות שלכם ולשאלות שאתם רוצים עליהן תשובה! אם תרצו לעשות "
-"ניסויים עם הנתונים שלנו, בבקשה <a href=\"%(data_url)s\">צרו קשר</a>!"
-
-#: templates/about.html:34
-msgid "Source Code"
-msgstr "קוד מקור"
-
-#: templates/about.html:37
-msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-msgstr ""
-"הקוד ליישום הרשת Firefox Input <a href=\"%(source_url)s\">זמין באתר "
-"GitHub</a>!"
-
-#: templates/base.html:22 templates/base_mobile_old.html:19 templates/base_old.html:22
+#: fjord/base/templates/base.html:20
 msgid "Proceed to main content"
 msgstr "מעבר לתוכן"
 
-#: templates/base.html:23 templates/base_mobile_old.html:20 templates/base_old.html:23
+#: fjord/base/templates/base.html:21
 msgid "Proceed to footer"
 msgstr "מעבר לקצה תחתון"
 
-#: templates/base.html:30
+#: fjord/base/templates/base.html:28
 msgid "<strong>Firefox</strong> Input Dashboard"
 msgstr "לוח בקרה של <strong>Firefox</strong> Input"
 
-#: templates/base.html:36
-msgid "Feedback"
-msgstr "משוב"
+#: fjord/base/templates/base.html:34
+msgid "Dashboard"
+msgstr "לוח בקרה"
 
-#: templates/base_mobile_old.html:5 templates/base_old.html:5
-msgid "Welcome!"
-msgstr "‫ברוכים הבאים!"
-
-#: templates/base_mobile_old.html:30 templates/base_old.html:35
-msgid "Input Dashboard"
-msgstr "לוח בקרה של Input"
-
-#: templates/base_mobile_old.html:56 templates/base_old.html:63 templates/includes/footer.html:8
+#: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
 msgstr "מדיניות פרטיות"
 
-#: templates/base_mobile_old.html:57 templates/base_old.html:64 templates/includes/footer.html:9
+#: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
 msgstr "הערות משפטיות"
 
-#: templates/base_mobile_old.html:58 templates/base_old.html:65 templates/includes/footer.html:10
+#: fjord/base/templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "דיווח על שימוש לרעה בסימן רשום"
 
-#: templates/base_mobile_old.html:61 templates/base_old.html:68 templates/includes/footer.html:14
+#: fjord/base/templates/includes/footer.html:10
+msgid "About Firefox Input"
+msgstr "אודות Firefox Input"
+
+#: fjord/base/templates/includes/footer.html:13
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
-msgstr ""
-"אלא אם <a href=\"%(legal_url)s\">צוין</a> אחרת, התוכן באתר זה זמין "
-"לפי<br/>תנאי <a href=\"%(license_url)s\">רישיון Creative Commons "
-"ייחוס–שיתוף־זהה 3.0 </a> או כל גרסה מאוחרת יותר."
+msgstr "אלא אם <a href=\"%(legal_url)s\">צוין</a> אחרת, התוכן באתר זה זמין לפי<br/>תנאי <a href=\"%(license_url)s\">רישיון Creative Commons ייחוס–שיתוף־זהה 3.0 </a> או כל גרסה מאוחרת יותר."
 
-#: templates/csrf_error.html:5
-msgid "CSRF Protection Error"
-msgstr "שגיאת הגנת CSRF"
-
-#: templates/csrf_error.html:8
-msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-msgstr ""
-"הייתה שגיאה באימות אסימון CSRF. לא היה אפשר לעבד את הבקשה שלך. אנו מתנצלים "
-"על התקלה."
-
-#: templates/csrf_error.html:15
-msgid ""
-"The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-"in Firefox, then try again."
-msgstr ""
-"הסיבה הסבירה ביותר לשגיאה הזאת היא שהדפדפן שלך מוגדר <strong>לא לקבל "
-"עוגיות</strong> מאתנו. נא לעקוב אחר <a href=\"%(cookies_url)s\">ההוראות "
-"הללו</a> כדי להפעיל עוגיות ב־Firefox ואז נסו שוב."
-
-#: templates/csrf_error.html:24
-msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-msgstr ""
-"אם הבעיה נמשכת, בבקשה <a href=\"%(bug_url)s\">לפתוח באג</a>, המציין את הכתובת "
-"שניסית לגשת אליה."
-
-#: templates/elasticutils/501.html:4
-msgid "Not Implemented"
-msgstr "לא ממומש"
-
-#: templates/includes/footer_feedback.html:5 templates/includes/lang_switcher.html:2
+#: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
 msgstr "שפות אחרות:"
 
-#: templates/includes/footer_feedback.html:16 templates/includes/lang_switcher.html:10
+#: fjord/base/templates/includes/lang_switcher.html:10
 msgid "Go"
 msgstr "מעבר"
 
-#: templates/includes/nav_buttons.html:2
-msgid "Clusters"
-msgstr "אשכולות"
+#: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
+msgid "Input Services Monitor"
+msgstr ""
 
-#: templates/includes/ua_overlay.html:3
-msgid "User Agent"
-msgstr "מחרוזת סוכן משתמש (User Agent)"
+#: fjord/base/templates/services/monitor.html:16
+msgid "List of components that Input uses and whether they are functioning correctly."
+msgstr ""
 
-#: templates/includes/ua_overlay.html:7
-msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
-msgstr "לחצו Ctrl-C‏ (Cmd-C על מאק) כדי להעתיק ולסגור."
+#: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
+msgid "Firefox Made Me Happy"
+msgstr "Firefox שימח אותי…"
 
-#: templates/includes/ua_overlay.html:9
-msgid "User agent copied"
-msgstr "מחרוזת סוכן משתמש הועתקה"
+#: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
+msgid "Firefox Made Me Sad"
+msgstr "Firefox העציב אותי…"
 
-#: templates/includes/ua_overlay.html:10
-msgid "Close"
-msgstr "סגירה"
+#: fjord/feedback/templates/feedback/feedback-form.html:12
+msgid "Super! It's great to hear that you like our browser."
+msgstr "מעולה! אנו שמחים לשמוע שנהנית מהדפדפן שלנו."
 
-#: templates/includes/welcome.html:2
-msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-msgstr "<strong>ברוכים הבאים ל־Firefox Input!</strong> זהו יישום המשוב ממשתמשים הראשי של Mozilla. <a href=\"%(about_url)s\">מידע נוסף...</a>"
+#: fjord/feedback/templates/feedback/feedback-form.html:14
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+msgstr "אנו מצטערים לשמוע שלא הייתה לך חוויית שימוש טובה עם הדפדפן שלנו. נא לספר לנו מדוע, כדי שנוכל לשפר אותו."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:18
+msgid "Go Back"
+msgstr "חזרה"
+
+#: fjord/feedback/templates/feedback/feedback-form.html:28
+msgid "Please describe what you liked."
+msgstr "נא לתאר מה אהבת."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:30
+msgid "Please describe your problem below."
+msgstr "נא לתאר את הבעיה להלן."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:40
+msgid "If your feedback is related to a website, you can include it here."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:48
+msgid ""
+"Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
+"the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:61
+msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+msgstr "כדי להגן על פרטיותך, נא לוודא כי אין במשוב מידע אישי שניתן לזיהוי."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:76
+msgid "Submitting Feedback"
+msgstr "המשוב נשלח כעת"
+
+#: fjord/feedback/templates/feedback/feedback-form.html:77 fjord/feedback/templates/feedback/feedback-form.html:81
+msgid "Submit Feedback"
+msgstr "שליחת משוב"
+
+#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20
+msgid "Submit Your Feedback"
+msgstr "שליחת משוב"
+
+#: fjord/feedback/templates/feedback/feedback.html:21
+msgid "Your feedback helps us improve Firefox."
+msgstr "המשובים שלך יעזרו לנו לשפר את Firefox."
+
+#: fjord/feedback/templates/feedback/feedback.html:33
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+msgstr "אם דרושה לך עזרה או שיש לך בעיה עם Firefox, נא לבקר באתר <a href=\"%(support_url)s\">Firefox Support</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:14
+msgid "Thanks"
+msgstr "תודה"
+
+#: fjord/feedback/templates/feedback/thanks.html:20
+msgid "Thanks for Your Feedback"
+msgstr "תודה על המשוב"
+
+#: fjord/feedback/templates/feedback/thanks.html:23
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of Firefox."
+msgstr "אותנו ביצירה של חוויית שימוש טובה יותר בגרסאות עתידיות של Firefox."
+
+#: fjord/feedback/templates/feedback/thanks.html:32
+msgid "Share your feedback."
+msgstr "שיתוף המשוב שלך."
+
+#: fjord/feedback/templates/feedback/thanks.html:38
+msgid "Tweet feedback to your followers"
+msgstr "לצייץ את המשוב שלך בטוויטר לעוקבים שלך"
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Shape the future of Firefox."
+msgstr "בואו לעצב את העתיד של Firefox."
+
+#: fjord/feedback/templates/feedback/thanks.html:47
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "הורדת <a href=\"%(download_url)s\">הגרסה הנכונה עבורך</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:55
+msgid "Contribute to Mozilla."
+msgstr "תרומה למוזילה."
+
+#: fjord/feedback/templates/feedback/thanks.html:57
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+msgstr "מידע נוסף על איך ביכולתך <a href=\"%(url)s\">לשפר את Firefox ואת מוזילה</a>"
+
+#: fjord/feedback/templates/feedback/thanks.html:64
+msgid "Want to see where your feedback goes?"
+msgstr "רוצה לדעת לאן המשוב שלך הולך?"
+
+#: fjord/feedback/templates/feedback/thanks.html:66
+msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
+msgstr "ר' את <a href=\"%(dash_url)s\">לוח הבקרה של המשובים</a>"
+
+#: fjord/feedback/templates/feedback/thanks.html:73
+msgid "Find the latest news about Firefox."
+msgstr "חדשות אחרונות על Firefox."
+
+#~ msgid "We already got your feedback! Thanks."
+#~ msgstr "כבר קיבלנו את המשוב שלך! תודה."
+
+#~ msgid "Describe your idea below."
+#~ msgstr "נא לתאר את הרעיון שלך להלן."
+
+#~ msgid "Praise"
+#~ msgstr "תשבוחות"
+
+#~ msgid "Issue"
+#~ msgstr "תלונה"
+
+# 'swear' is a promise or a curse? I just want to make sure I'm not doing mistakes here.
+#~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+#~ msgstr "התגובה שלך כוללת קללות (%s). כדי לסייע לנו להפיק את המיטב מהמוצרים שלנו, אנא השתמש במילים שיכולות לעזור לנו לבצע פעולה או רשימת משימות מהמשוב הבונה שלך. תודה!"
+
+#~ msgid "Feedback must not contain HTML."
+#~ msgstr "המשוב אינו יכול להכיל HTML."
+
+#~ msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+#~ msgstr "נראה שהמשוב שלך כולל כתובת דואר אלקטרוני. נא להסיר כתובת זו ונתונים אישיים דומים מהמלל ולנסות שוב. תודה!"
+
+#~ msgid "URLs with IP addresses must contain public IP addresses."
+#~ msgstr "כתובות רשת עם מספרי IP צריכים להיות נגישים לציבור."
+
+#~ msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+#~ msgstr "נראה שהמשוב שלך כולל כתובת של אתר. נא להסיר אותה ונתונים אישיים דומים מהמלל ולנסות שוב. תודה!"
+
+#~ msgid "User-Agent request header must be set."
+#~ msgstr "חובה להגדיר כותר סוכן משתמש (User-Agent request header)."
+
+#~ msgid "It's great to hear you want to help Mozilla make your experience better!"
+#~ msgstr "טוב לשמוע שרצית לעזור למוזילה לשפר את החוויה שלך!"
+
+#~ msgid "Please choose one of the following types of feedback that you would like to submit to us:"
+#~ msgstr "נא לבחור את סוג המשוב שברצונך לשלוח לנו:"
+
+#~ msgid "Firefox makes me happy because ..."
+#~ msgstr "Firefox משמח אותי כי…"
+
+#~ msgid "Firefox makes me sad because ..."
+#~ msgstr "Firefox מעציב אותי כי…"
+
+#~ msgid "Firefox Logo"
+#~ msgstr "לוגו של Firefox"
+
+#~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+#~ msgstr "אם דרושה לך עזרה או שי לך עם Firefox, נא לבקר ב<a href=\"%(support_url)s\">דף התמיכה</a> שלנו."
+
+#~ msgid "Download Firefox"
+#~ msgstr "הורדת Firefox"
+
+#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+#~ msgstr "הא! נראה שרצית לתת לנו משוב על Firefox. תודה לך, אבל לשם כך צריך להשתמש בגרסה החדשה ביותר."
+
+#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+#~ msgstr "כדי להצטרף, יש לעבור לדף ההורדה ולהתקין את <a href=\"%(url)s\">הגרסה החדשה ביותר של Firefox!</a>"
+
+#~ msgid "I Have an Idea for Firefox"
+#~ msgstr "יש לי רעיון עבור Firefox"
+
+#~ msgid "Have an idea how Firefox could be better? Let us know."
+#~ msgstr "יש לך הצעה כיצד Firefox יכול להשתפר? נשמח לדעת על זה."
+
+#~ msgid "Include the URL of a site that worked better."
+#~ msgstr "נא לציין את כתובת האתר שעבד טוב יותר בעבר."
+
+#~ msgid "Include the URL of the site with the problem."
+#~ msgstr "נא לציין את כתובת האתר עם הבעיה."
+
+#~ msgid "If you have an idea to offer us instead, please use our"
+#~ msgstr "אם יש לך רעיון להציע לנו, נא להשתמש ב"
+
+#~ msgid "suggestion box"
+#~ msgstr "תיבת ההצעות שלנו"
+
+#~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
+#~ msgstr "מעולה! אנו שמחים לשמוע שנהנית מהדפדפן שלנו. נשמח לדעת מה אהבת במיוחד."
+
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
+#~ msgstr "אנו מצטערים לשמוע שלא הייתה לך חוויית שימוש טובה עם הדפדפן שלנו. נשמח לדעת מה הבעיה, כדי שנוכל לתקן אותה!"
+
+#~ msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
+#~ msgstr "אז, ברצונך להציע לנו איך לשפר את Firefox? מעולה! נא לרשום את הרעיון שלך להלן:"
+
+#~ msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
+#~ msgstr "שמעת על אתר שעובד בגרסת הבטא הזאת טוב יותר מאשר בגרסאות קודמות של Firefox? נא להזין כאן את כתובתו, כדי שנוכל לעקוב אחריו!"
+
+#~ msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+#~ msgstr "הייתה לך בעיה עם אתר מסוים? נא להכניס את כתובתו את כתובתו, כדי שנוכל למצוא את המידע מהר יותר!"
+
+#~ msgid "Please ensure that there is no personally identifiable information here."
+#~ msgstr "נא לוודא כי אין בטופס מידע אישי שניתן לזיהוי."
+
+#~ msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
+#~ msgstr "אם יש לך רעיון להציע לנו, נא לשלוח אותו דרך <a href=\"%(url_idea)s\">תיבת הרעיונות</a>!"
+
+#~ msgid "Your feedback will be used to create a"
+#~ msgstr "המשובים שלך ישמשו"
+
+#~ msgid "Thanks for helping Mozilla make your experience better!"
+#~ msgstr "תודה שעזרת לנו לשפר את חוויית מוזילה עבורך!"
+
+#~ msgid "Please choose the type of feedback that you would like to submit to us:"
+#~ msgstr "נא לבחור את סוג המשוב שברצונך לשלוח לנו:"
+
+#~ msgid "Firefox makes me happy ..."
+#~ msgstr "Firefox משמח אותי…"
+
+#~ msgid "Firefox makes me sad ..."
+#~ msgstr "Firefox מעציב אותי…"
+
+#~ msgid "Download Beta"
+#~ msgstr "הורדת גרסת הבטא"
+
+#~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+#~ msgstr "אבוי! נראה שרצית להציע לנו משוב. כדי לעשות זאת יש להשתמש בגרסת הבטא האחרונה! מעבר לדף הבטא שלנו ו<a href=\"%(url)s\">הורדת גרסת הבטא</a>."
+
+#~ msgid "Back to Dashboard"
+#~ msgstr "חזרה ללוח הבקרה של המשובים"
+
+#~ msgid "Give Feedback"
+#~ msgstr "מתן משוב"
+
+#~ msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+#~ msgstr "אנו שמחים ש־Firefox לניידים שימח אותך! נא לספר לנו מה אהבת."
+
+#~ msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+#~ msgstr "אנו מצטערים לשמוע שלא הייתה לך חוויית שימוש טובה עם הדפדפן שלנו. נא לספר לנו מדוע, כדי שנוכל לשפר אותו."
+
+#~ msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
+#~ msgstr "אנחנו אוהבים רעיונות לגרסת Firefox למכשירם ניידים! נא לתאר את הרעיון שלך להלן."
+
+#~ msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
+#~ msgstr "יש לך רעיון? <a href=\"%(url)s\">אפשר לשלוח אותו.</a>"
+
+#~ msgid "Include your last visited site?"
+#~ msgstr "לכלול בזה את הכתובת של האתר האחרון שביקרת בו?"
+
+#~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+#~ msgstr "למען פרטיותך, נא לוודא כי אין בטופס מידע אישי שניתן לזיהוי."
+
+#~ msgid "Send Feedback"
+#~ msgstr "שליחת משוב"
+
+#~ msgid "Super! Please tell us more!"
+#~ msgstr "מעולה! נשמח לשמוע עוד!"
+
+#~ msgid "Ack! Please tell us what to fix!"
+#~ msgstr "רות, קיבלנו! נא לספר לנו מה לתקן!"
+
+#~ msgid "Awesome! Please enter your idea below:"
+#~ msgstr "מעולה! נא לכתוב את ההצעה שלך להלן:"
+
+#~ msgid "Add URL of last visited page?"
+#~ msgstr "להכניס את הכתובת של הדף האחרון שביקרת בו?"
+
+#~ msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
+#~ msgstr "או לשלוח את הרעיונות שלך בדרך <a href=\"%(url_idea)s\">תיבת הרעיונות</a>!"
+
+#~ msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+#~ msgstr "אנחנו אוהבים משוב על גרסת Firefox למכשירים ניידים! מה עוד רצית לספר לנו?"
+
+#~ msgid "Firefox made me happy"
+#~ msgstr "Firefox שימח אותי…"
+
+#~ msgid "Firefox made me sad"
+#~ msgstr "Firefox העציב אותי…"
+
+#~ msgid "I have an idea for Firefox"
+#~ msgstr "יש לי רעיון בשביל Firefox"
+
+#~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
+#~ msgstr "דרושה לך עזרה או שיש לך בעיה עם Firefox, נא לבקר באתר <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
+
+#~ msgid "Translate Message"
+#~ msgstr "תרגום הודעה"
+
+#~ msgid "Tweet This"
+#~ msgstr "לצייץ (טוויטר)"
+
+#~ msgid "Thanks for sharing your feedback!"
+#~ msgstr "תודה רבה על שליחת המשוב שלך אליו!"
+
+#~ msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
+#~ msgstr "רצית לדעת מה קורה עם Firefox למכשירים ניידים? יש הרבה דרכים להישאר בקשר:"
+
+#~ msgid "See where your feedback goes."
+#~ msgstr "לאן המשוב שלך הולך."
+
+#~ msgid "Feedback Dashboard"
+#~ msgstr "לוח בקרה של משובים"
+
+#~ msgid "Download the beta and give us feedback!"
+#~ msgstr "להוריד גרסת בטא ולתת לנו משוב!"
+
+#~ msgid "Follow us on Twitter."
+#~ msgstr "עִקבו אחרינו ב־Twitter."
+
+#~ msgid "Let's be friends."
+#~ msgstr "בואו ונהיה חברים."
+
+#~ msgid "Firefox on Facebook"
+#~ msgstr "Firefox ב־Facebook"
+
+#~ msgid "Get the latest news on Firefox."
+#~ msgstr "קבלת החדשות האחרונות על Firefox."
+
+#~ msgid "Planet Mozilla"
+#~ msgstr "Planet Mozilla"
+
+#~ msgid "Idea"
+#~ msgstr "רעיון"
+
+#~ msgid "Rating"
+#~ msgstr "דירוג"
+
+#~ msgid "Broken Website"
+#~ msgstr "אתר מקולקל"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobile (מכשירים ניידים)"
+
+#~ msgid "Windows XP"
+#~ msgstr "Windows XP"
+
+#~ msgid "Windows 7"
+#~ msgstr "Windows 7‎"
+
+#~ msgid "Windows Vista"
+#~ msgstr "Windows Vista"
+
+#~ msgid "Mac OS X"
+#~ msgstr "Mac OS X"
+
+#~ msgid "Maemo"
+#~ msgstr "Maemo"
+
+#~ msgid "Android"
+#~ msgstr "Android"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other"
+#~ msgstr "אחר"
+
+#~ msgid "{0} day ago"
+#~ msgid_plural "{0} days ago"
+#~ msgstr[0] "אתמול"
+#~ msgstr[1] "לפני {0} ימים"
+
+#~ msgid "{0} hour ago"
+#~ msgid_plural "{0} hours ago"
+#~ msgstr[0] "לפני שעה"
+#~ msgstr[1] "לפני {0} שעות"
+
+#~ msgid "{0} minute ago"
+#~ msgid_plural "{0} minutes ago"
+#~ msgstr[0] "לפני דקה"
+#~ msgstr[1] "לפני {0} דקות"
+
+#~ msgid "just now"
+#~ msgstr "זה עתה"
+
+#~ msgid "Query has timed out."
+#~ msgstr "פג הזמן לשאילתה."
+
+#~ msgid "Sphinx threw an unknown exception: %s"
+#~ msgstr "Sphinx threw an unknown exception: %s"
+
+#~ msgctxt "version_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- הכול --"
+
+#~ msgctxt "sentiment_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- הכול --"
+
+#~ msgid "Issues"
+#~ msgstr "תלונות"
+
+#~ msgid "Ideas"
+#~ msgstr "רעיונות"
+
+#~ msgctxt "platform_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- הכול --"
+
+#~ msgctxt "locale_choice"
+#~ msgid "-- all --"
+#~ msgstr "-- הכול --"
+
+#~ msgid "Search by keyword"
+#~ msgstr "חיפוש לפי מילות מפתח"
+
+#~ msgid "Product:"
+#~ msgstr "מוצר:"
+
+#~ msgid "Version:"
+#~ msgstr "גרסה:"
+
+# locale -> language, because of lack of better translation.
+#~ msgid "Locale:"
+#~ msgstr "שפה:"
+
+#~ msgid "PLATFORM:"
+#~ msgstr "פלטפורמה:"
+
+#~ msgid "Date range:"
+#~ msgstr "טווח תאריכים:"
+
+#~ msgid "to"
+#~ msgstr "עד"
+
+#~ msgid "Firefox Input"
+#~ msgstr "Firefox Input"
+
+#~ msgid "Search Results in Firefox Beta Feedback."
+#~ msgstr "תוצאות חיפוש במשובים עבור Firefox Beta."
+
+#~ msgid "Firefox Input: '{query}'"
+#~ msgstr "Firefox Input: '{query}'"
+
+#~ msgid "Show/Hide Options"
+#~ msgstr "הצגה או הסתרה של אפשרויות"
+
+#~ msgid "Toggle"
+#~ msgstr "מתג"
+
+#~ msgid "Devices"
+#~ msgstr "מכשירים"
+
+#~ msgid "More Locales"
+#~ msgstr "שפות נוספות"
+
+#~ msgid "Manufacturer"
+#~ msgstr "יצרן"
+
+#~ msgid "More Options"
+#~ msgstr "אפשרויות נוספות"
+
+#~ msgid "Copy User Agent"
+#~ msgstr "העתקת מחרוזת סוכן משתמש (User Agent)"
+
+#~ msgid "No search results found."
+#~ msgstr "לא נמצאו תוצאות חיפוש."
+
+#~ msgid "You can adjust your search criteria or use fewer filters to find more opinions."
+#~ msgstr "אפשר לכוונן מילות חיפוש או להשתמש בפחות מסננים כדי למצוא עוד דעות."
+
+#~ msgid "Note: Recently released versions of Firefox may have less feedback."
+#~ msgstr "לתשומת לבך: ייתכן שיש פחות משוב על גרסאות של Firefox שיצאו לאחרונה."
+
+#~ msgid "Type of Feedback"
+#~ msgstr "סוג משוב"
+
+#~ msgid "Search Results"
+#~ msgstr "תוצאות חיפוש"
+
+#~ msgid "ATOM feed for this search"
+#~ msgstr "הזנת ATOM לחיפוש זה"
+
+#~ msgid "Product"
+#~ msgstr "מוצר"
+
+#~ msgid "Search"
+#~ msgstr "חיפוש"
+
+#~ msgid "Advanced"
+#~ msgstr "מתקדם"
+
+#~ msgid "While Visiting"
+#~ msgstr "כאשר מבקרים באתר"
+
+#~ msgid "Often Mentioned"
+#~ msgstr "מוזכרים לעיתים קרובות"
+
+#~ msgid "Search Unavailable"
+#~ msgstr "חיפוש אינו זמין"
+
+#~ msgid "I'm sorry, there was an error with your search."
+#~ msgstr "מצטערים, אירעה שגיאה עם חיפוש שלך."
+
+#~ msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+#~ msgstr "ייתכן שמנוע החיפוש שלנו אינו זמין כעת. באפשרותך להתחיל מחדש ב<a href=\"%(url)s\">לוח הבקרה</a> ולנסות שוב מאוחר יותר."
+
+#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+#~ msgstr "אם הבעיה נמשכת, בבקשה <a href=\"%(bug_url)s\">לפתוח באג</a>, המציין את הכתובת שניסית לגשת אליה."
+
+#~ msgid "Include the following error message in your bug report:"
+#~ msgstr "לכלול את הודעת השגיאה שלהלן בדיווח הבאג שלך:"
+
+#~ msgid "Thanks!"
+#~ msgstr "תודה!"
+
+#~ msgid "All"
+#~ msgstr "הכול"
+
+#~ msgid "When"
+#~ msgstr "מתי"
+
+#~ msgid "Custom"
+#~ msgstr "מותאם אישית"
+
+#~ msgctxt "date_range_set"
+#~ msgid "Set"
+#~ msgstr "להגדיר"
+
+#~ msgid "{num} opinions on {day}"
+#~ msgstr "{num} דעות ביום {day}"
+
+#~ msgid "%e %B %Y"
+#~ msgstr "%e %B %Y"
+
+#~ msgid "%e %b"
+#~ msgstr "%e %b"
+
+#~ msgid "Loading feedback history..."
+#~ msgstr "היסטוריית משובים בטעינה…"
+
+#~ msgid "Loading ratings history..."
+#~ msgstr "היסטוריית דירוגים בטעינה…"
+
+#~ msgid "Last day"
+#~ msgstr "יום אחרון"
+
+#~ msgid "1d"
+#~ msgstr "יום אחד"
+
+#~ msgid "Last 7 days"
+#~ msgstr "שבוע אחרון"
+
+#~ msgid "7d"
+#~ msgstr "שבוע"
+
+#~ msgid "Last 30 days"
+#~ msgstr "30 ימים אחרונים"
+
+#~ msgid "30d"
+#~ msgstr "30 ימים"
+
+#~ msgid "No date limit"
+#~ msgstr "אין הגבלת זמן"
+
+#~ msgid "&infin;"
+#~ msgstr "&infin;"
+
+#~ msgid "Show More Locales"
+#~ msgstr "הצגת שפות נוספות"
+
+#~ msgid "<strong>%(cnt)s</strong> message"
+#~ msgid_plural "<strong>%(cnt)s</strong> messages"
+#~ msgstr[0] "הודעה <strong>אחת</strong>"
+#~ msgstr[1] "<strong>%(count)s</strong> הודעות"
+
+#~ msgid "Show More Platforms"
+#~ msgstr "הצגת פלטפורמות נוספות"
+
+#~ msgid "Clear Search"
+#~ msgstr "ניקוי חיפוש"
+
+#~ msgid "Feed"
+#~ msgstr "הזנה"
+
+#~ msgid "Statistics"
+#~ msgstr "סטטיסטיקה"
+
+#~ msgid "Trends"
+#~ msgstr "מגמות"
+
+#~ msgid "Settings"
+#~ msgstr "הגדרות"
+
+#~ msgid "&laquo; Newer Feedback"
+#~ msgstr "&raquo; הודעות ישנות יותר"
+
+#~ msgid "Older Feedback &raquo;"
+#~ msgstr "הודעות חדשות יותר &laquo;"
+
+#~ msgid "Version"
+#~ msgstr "גרסה"
+
+#~ msgid "Switch to Desktop Dashboard"
+#~ msgstr "מעבר ללוח הבקרה עבור מחשבים שולחניים"
+
+#~ msgid "For last:"
+#~ msgstr "עבור:"
+
+#~ msgid "All feedback"
+#~ msgstr "כל המשובים"
+
+#~ msgid "Praise only"
+#~ msgstr "תשבוחות בלבד"
+
+#~ msgid "Issues only"
+#~ msgstr "תלונות בלבד"
+
+#~ msgid "Ideas only"
+#~ msgstr "רעיונות בלבד"
+
+#~ msgid "All Platforms"
+#~ msgstr "כל הפלטפורמות"
+
+#~ msgid "Themes"
+#~ msgstr "נושאים"
+
+#~ msgid "Common Themes"
+#~ msgstr "נושאים נפוצים"
+
+#~ msgid "Theme"
+#~ msgstr "נושא"
+
+#~ msgid "Back to all themes &raquo;"
+#~ msgstr "חזרה לכל הנושאים &laquo;"
+
+#~ msgid "&laquo; Previous Page"
+#~ msgstr "&raquo; דף קודם"
+
+#~ msgid "Next Page &raquo;"
+#~ msgstr "הדף הבא &raquo;"
+
+#~ msgid "See all opinions"
+#~ msgstr "צפייה בכל הדעות"
+
+#~ msgid "%(count)s similar message"
+#~ msgid_plural "%(count)s similar messages"
+#~ msgstr[0] "הודעה דומה אחת"
+#~ msgstr[1] "%(count)s הודעות דומות"
+
+#~ msgctxt "website_issues_search"
+#~ msgid "Search for domain"
+#~ msgstr "חיפוש כתובת מתחם"
+
+#~ msgid "Broken Sites"
+#~ msgstr "אתרים מקולקלים"
+
+#~ msgid "Sites"
+#~ msgstr "אתרים"
+
+#~ msgctxt "sites_search_all_feedback"
+#~ msgid "All"
+#~ msgstr "הכול"
+
+#~ msgid "Platforms"
+#~ msgstr "פלטפורמות"
+
+#~ msgctxt "sites_search_all_platforms"
+#~ msgid "All"
+#~ msgstr "הכול"
+
+#~ msgid "All platforms"
+#~ msgstr "כל הפלטפורמות"
+
+#~ msgid "Uncommon Sites"
+#~ msgstr "אתרים נדירים"
+
+#~ msgid "More sites..."
+#~ msgstr "אתרים נוספים..."
+
+#~ msgid "Back to {domain} &raquo;"
+#~ msgstr "חזרה אל {domain}‏ &raquo;"
+
+#~ msgid "Theme for {domain}"
+#~ msgstr "נושא עבור {domain}"
+
+#~ msgid "Back to all sites &raquo;"
+#~ msgstr "חזרה לכל האתרים &raquo;"
+
+#~ msgid "Sites with only one message"
+#~ msgstr "אתרים עם הודעה אחת בלבד"
+
+#~ msgid "No results found!"
+#~ msgstr "לא נמצאו תוצאות!"
+
+#~ msgid "reset my search"
+#~ msgstr "איפוס החיפוש שלי"
+
+#~ msgid "%(count)s message"
+#~ msgid_plural "%(count)s messages"
+#~ msgstr[0] "הודעה אחת"
+#~ msgstr[1] "%(count)s הודעות"
+
+#~ msgid "{percentage}% praise"
+#~ msgstr "{percentage}% תשבוחות"
+
+#~ msgid "{percentage}% issues"
+#~ msgstr "{percentage}% תלונות"
+
+#~ msgid "%(count)s similar"
+#~ msgid_plural "%(count)s similar"
+#~ msgstr[0] "הודעה דומה אחת"
+#~ msgstr[1] "%(count)s הודעות דומות"
+
+#~ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
+#~ msgstr "נא להתחיל מחדש ב<a href=\"%(dashboard_url)s\">לוח הבקרה</a>."
+
+#~ msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "אם הגעת לקישור שבור, נא <a href=\"%(bug_url)s\">לפתוח באג.</a> תודה!"
+
+#~ msgid "Internal Server Error"
+#~ msgstr "שגיאת שרת פנימית"
+
+#~ msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+#~ msgstr "אירעה שגיאה לא ידועה ביישום. השגיאה נרשמה ומנהל המערכת עודכן על כך. אנו מצטערים על האי־נוחות!"
+
+#~ msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "אם ברשותך מידע נוסף כיצד ניתן לשחזר את הבעיה, נא <a href=\"%(bug_url)s\">לפתוח באג.</a> תודה!"
+
+#~ msgid "Hello!"
+#~ msgstr "שלום!"
+
+#~ msgid ""
+#~ "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
+#~ "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+#~ msgstr ""
+#~ "<strong>Firefox Input</strong> הוא מנגנון המשוב הראשי של Mozilla. המערכת הוקמה בתור אמצעי תקשורת חד־כיווני שדרכו אפשר לספר על החוויה שלך בעת שימוש ב־Firefox, על האינטרנט כפי הוא שנראה דרכו, "
+#~ "ולומר מה Mozilla יכולים לעשות כדי לעשות את החוויה לטובה יותר. המערכת זמינה עם מרחב גדול של אמצעי שליחה בשלושת ערוצי הפרסום העיקריים."
+
+#~ msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
+#~ msgstr "כדי לשלוח משוב על הגרסת Firefox <a href=\"%(feedback_url)s\"> הנוכחית שלך, נא לעבור לדף שליחת המשוב</a>!"
+
+#~ msgid "Open Data"
+#~ msgstr "נתונים פתוחים"
+
+#~ msgid ""
+#~ "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+#~ "please <a href=\"%(data_url)s\">contact us</a>!"
+#~ msgstr ""
+#~ "אנחנו היינו רוצים לעשות עוד ניסויים עם הנתונים האלה, אבל אנחנו אנשים מעטים. אז אנחנו זקוקים לבקשות שלכם ולשאלות שאתם רוצים עליהן תשובה! אם תרצו לעשות ניסויים עם הנתונים שלנו, בבקשה <a href="
+#~ "\"%(data_url)s\">צרו קשר</a>!"
+
+#~ msgid "Source Code"
+#~ msgstr "קוד מקור"
+
+#~ msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
+#~ msgstr "הקוד ליישום הרשת Firefox Input <a href=\"%(source_url)s\">זמין באתר GitHub</a>!"
+
+#~ msgid "Feedback"
+#~ msgstr "משוב"
+
+#~ msgid "Welcome!"
+#~ msgstr "‫ברוכים הבאים!"
+
+#~ msgid "Input Dashboard"
+#~ msgstr "לוח בקרה של Input"
+
+#~ msgid "CSRF Protection Error"
+#~ msgstr "שגיאת הגנת CSRF"
+
+#~ msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
+#~ msgstr "הייתה שגיאה באימות אסימון CSRF. לא היה אפשר לעבד את הבקשה שלך. אנו מתנצלים על התקלה."
+
+#~ msgid ""
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
+#~ msgstr ""
+#~ "הסיבה הסבירה ביותר לשגיאה הזאת היא שהדפדפן שלך מוגדר <strong>לא לקבל עוגיות</strong> מאתנו. נא לעקוב אחר <a href=\"%(cookies_url)s\">ההוראות הללו</a> כדי להפעיל עוגיות ב־Firefox ואז נסו שוב."
+
+#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "אם הבעיה נמשכת, בבקשה <a href=\"%(bug_url)s\">לפתוח באג</a>, המציין את הכתובת שניסית לגשת אליה."
+
+#~ msgid "Not Implemented"
+#~ msgstr "לא ממומש"
+
+#~ msgid "Clusters"
+#~ msgstr "אשכולות"
+
+#~ msgid "User Agent"
+#~ msgstr "מחרוזת סוכן משתמש (User Agent)"
+
+#~ msgid "Hit Ctrl+C (Cmd+C on Mac) to copy and close."
+#~ msgstr "לחצו Ctrl-C‏ (Cmd-C על מאק) כדי להעתיק ולסגור."
+
+#~ msgid "User agent copied"
+#~ msgstr "מחרוזת סוכן משתמש הועתקה"
+
+#~ msgid "Close"
+#~ msgstr "סגירה"
+
+#~ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+#~ msgstr "<strong>ברוכים הבאים ל־Firefox Input!</strong> זהו יישום המשוב ממשתמשים הראשי של Mozilla. <a href=\"%(about_url)s\">מידע נוסף...</a>"
 
 #, fuzzy
 #~ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
@@ -1459,9 +1193,6 @@ msgstr "<strong>ברוכים הבאים ל־Firefox Input!</strong> זהו יי�
 #~ msgid "all"
 #~ msgstr "הכל"
 
-#~ msgid "happy"
-#~ msgstr "שמח"
-
 #~ msgid "happy face"
 #~ msgstr "פנים שמחות"
 
@@ -1470,9 +1201,6 @@ msgstr "<strong>ברוכים הבאים ל־Firefox Input!</strong> זהו יי�
 
 #~ msgid "page %(pagenum)s of %(total)s"
 #~ msgstr "דף %(pagenum)s מתוך %(total)s"
-
-#~ msgid "sad"
-#~ msgstr "עצוב"
 
 #~ msgid "sad face"
 #~ msgstr "פנים עצובות"
