@@ -11,12 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.8.1\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
 
 #: fjord/analytics/views.py:130
-#, fuzzy
 msgid "Sentiment"
-msgstr "Meon:"
+msgstr "Meon"
 
 #: fjord/analytics/views.py:133
 msgid "Platform"
@@ -26,27 +26,27 @@ msgstr "Ardán"
 msgid "Locale"
 msgstr "Teanga"
 
-#: fjord/analytics/templates/analytics/dashboard.html:14 fjord/feedback/models.py:44
+#: fjord/analytics/templates/analytics/dashboard.html:14
+#: fjord/feedback/models.py:44
 msgid "Happy"
-msgstr ""
+msgstr "Aoibhneas"
 
-#: fjord/analytics/templates/analytics/dashboard.html:16 fjord/feedback/models.py:45
+#: fjord/analytics/templates/analytics/dashboard.html:16
+#: fjord/feedback/models.py:45
 msgid "Sad"
-msgstr ""
+msgstr "Brón"
 
 #: fjord/analytics/templates/analytics/dashboard.html:67
 msgid "Latest Feedback"
 msgstr "Aiseolas Is Déanaí"
 
 #: fjord/analytics/templates/analytics/dashboard.html:77
-#, fuzzy
 msgid "Older Messages"
-msgstr "&laquo; Teachtaireachtaí Níos Sine"
+msgstr "Níos Sine"
 
 #: fjord/analytics/templates/analytics/dashboard.html:82
-#, fuzzy
 msgid "Newer Messages"
-msgstr "Teachtaireachtaí Níos Nuaí &raquo;"
+msgstr "Níos Nuaí"
 
 #: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "Messages"
@@ -56,23 +56,22 @@ msgstr "Teachtaireachtaí"
 msgid "Unknown"
 msgstr "Anaithnid"
 
-#: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8 fjord/base/templates/500.html:8
-#, fuzzy
+#: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8
+#: fjord/base/templates/500.html:8
 msgid "Page not found"
-msgstr "Gan Aimsiú"
+msgstr "Leathanach gan aimsiú"
 
 #: fjord/base/templates/404.html:10
-#, fuzzy
 msgid "Sorry, but we couldn't find the page you're looking for."
-msgstr "Níorbh fhéidir an rud a bhí uait a aimsiú."
+msgstr "Ní rabhamar in ann an leathanach sin a aimsiú."
 
 #: fjord/base/templates/500.html:5
 msgid "Something went wrong!"
-msgstr ""
+msgstr "Chuaigh rud éigin in earráid!"
 
 #: fjord/base/templates/500.html:10
 msgid "Sorry, but something went wrong."
-msgstr ""
+msgstr "Tá brón orainn, ach chuaigh rud éigin in earráid."
 
 #: fjord/base/templates/base.html:4
 msgid "Welcome"
@@ -112,11 +111,14 @@ msgstr "Maidir le hAiseolas Firefox"
 
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
-"any later version."
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
+"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative "
+"Commons Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
-"Ach amháin in aon áit <a href=\"%(legal_url)s\">ina ndeirtear a mhalairt</a>, cuirtear an t-ábhar ar an suíomh seo ar fáil faoin<br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-"
-"Alike License v3.0</a>, nó aon leagan níos déanaí"
+"Ach amháin in aon áit <a href=\"%(legal_url)s\">ina ndeirtear a mhalairt</"
+"a>, cuirtear an t-ábhar ar an suíomh seo ar fáil faoin<br/> <a href="
+"\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</"
+"a>, nó aon leagan níos déanaí"
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -126,19 +128,24 @@ msgstr "Teangacha eile:"
 msgid "Go"
 msgstr "Téigh"
 
-#: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
+#: fjord/base/templates/services/monitor.html:3
+#: fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
-msgstr ""
+msgstr "Monatóir Seirbhísí Input"
 
 #: fjord/base/templates/services/monitor.html:16
-msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr ""
+msgid ""
+"List of components that Input uses and whether they are functioning "
+"correctly."
+msgstr "Na comhpháirteanna a úsáideann Input, agus eolas faoina stádas."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
+#: fjord/feedback/templates/feedback/feedback-form.html:5
+#: fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Chuir Firefox Aoibhneas Orm"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
+#: fjord/feedback/templates/feedback/feedback-form.html:7
+#: fjord/feedback/templates/feedback/feedback.html:27
 msgid "Firefox Made Me Sad"
 msgstr "Chuir Firefox Brón Orm"
 
@@ -147,8 +154,12 @@ msgid "Super! It's great to hear that you like our browser."
 msgstr "Iontach! Tá áthas orainn go dtaitníonn ár mbrabhsálaí leat."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:14
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Tá brón orainn nach raibh tú sásta lenár mbrabhsálaí. Abair linn cén fáth agus déanfaimid ár ndícheall é a dheisiú."
+msgid ""
+"We are sorry that you have not had a good experience with our browser. "
+"Please tell us why, so we can fix it."
+msgstr ""
+"Tá brón orainn nach raibh tú sásta lenár mbrabhsálaí. Abair linn cén fáth "
+"agus déanfaimid ár ndícheall é a dheisiú."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:18
 msgid "Go Back"
@@ -164,27 +175,41 @@ msgstr "Déan cur síos ar d'fhadhb thíos."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:40
 msgid "If your feedback is related to a website, you can include it here."
-msgstr ""
+msgstr "Má bhaineann do chuid aiseolais le suíomh Gréasáin, cuir anseo é."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:48
 msgid ""
-"Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-"the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+"Please be as specific as you can in the allotted space. For example, if you "
+"are giving feedback about slowness, please tell us about relevant websites, "
+"if you notice it at the beginning or later in the browsing session and if "
+"there are any actions that you perform in Firefox that are particularly "
+"problematic."
 msgstr ""
+"Tabhair an oiread sin mionsonraí agus is féidir sa spás atá ann. Mar "
+"shampla, más mian leat aiseolas a thabhairt maidir le luas an bhrabhsálaí, "
+"luaigh na suímh Ghréasáin a raibh tú ag úsáid.  Agus abair linn má tharla an "
+"fhadhb ag tús an tseisiúin bhrabhsála nó níos déanaí, agus más é gníomh "
+"áirithe is cúis leis an bhfadhb."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:61
-msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Le do phríobháideacht a chosaint, bí cinnte nár chuir tú aon fhaisnéis inaitheanta phearsanta i do chuid aiseolais."
+msgid ""
+"To protect your privacy, please ensure that no personally identifiable "
+"information is included in your feedback."
+msgstr ""
+"Le do phríobháideacht a chosaint, bí cinnte nár chuir tú aon fhaisnéis "
+"inaitheanta phearsanta i do chuid aiseolais."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:76
 msgid "Submitting Feedback"
 msgstr "Aiseolas á sheoladh"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:77 fjord/feedback/templates/feedback/feedback-form.html:81
+#: fjord/feedback/templates/feedback/feedback-form.html:77
+#: fjord/feedback/templates/feedback/feedback-form.html:81
 msgid "Submit Feedback"
 msgstr "Seol aiseolas chugainn"
 
-#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20
+#: fjord/feedback/templates/feedback/feedback.html:11
+#: fjord/feedback/templates/feedback/feedback.html:20
 msgid "Submit Your Feedback"
 msgstr "Seol do chuid Aiseolais Chugainn"
 
@@ -193,8 +218,12 @@ msgid "Your feedback helps us improve Firefox."
 msgstr "Cuidíonn do chuid aiseolais linn feabhas a chur ar Firefox."
 
 #: fjord/feedback/templates/feedback/feedback.html:33
-msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar <a href=\"%(support_url)s\">Shuíomh Tacaíochta Firefox</a>."
+msgid ""
+"If you need help or have a problem with Firefox, please visit <a href="
+"\"%(support_url)s\">Firefox Support</a>."
+msgstr ""
+"Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar <a href="
+"\"%(support_url)s\">Shuíomh Tacaíochta Firefox</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
@@ -205,8 +234,12 @@ msgid "Thanks for Your Feedback"
 msgstr "Go raibh maith agat as an aiseolas"
 
 #: fjord/feedback/templates/feedback/thanks.html:23
-msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr "Úsáidfear do chuid aiseolais chun feabhas a chur ar leaganach Firefox amach anseo."
+msgid ""
+"Your feedback will be used to create a better experience in future releases "
+"of Firefox."
+msgstr ""
+"Úsáidfear do chuid aiseolais chun feabhas a chur ar leaganach Firefox amach "
+"anseo."
 
 #: fjord/feedback/templates/feedback/thanks.html:32
 msgid "Share your feedback."
@@ -214,27 +247,33 @@ msgstr "Seol do chuid aiseolais chugainn."
 
 #: fjord/feedback/templates/feedback/thanks.html:38
 msgid "Tweet feedback to your followers"
-msgstr ""
+msgstr "Postáil do chuid aiseolais ar Twitter"
 
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Shape the future of Firefox."
 msgstr "Téigh i bhfeidhm ar thodhchaí Firefox."
 
 #: fjord/feedback/templates/feedback/thanks.html:47
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "Íosluchtaigh <a href=\"%(download_url)s\">an leagan is oiriúnaí duit</a>."
+msgid ""
+"Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr ""
+"Íosluchtaigh <a href=\"%(download_url)s\">an leagan is oiriúnaí duit</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:55
 msgid "Contribute to Mozilla."
-msgstr ""
+msgstr "Cabhraigh le Mozilla."
 
 #: fjord/feedback/templates/feedback/thanks.html:57
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
-msgstr "Foghlaim conas is féidir <a href=\"%(url)s\">feabhas a chur ar Firefox agus Mozilla</a>"
+msgid ""
+"Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+msgstr ""
+"Foghlaim conas is féidir <a href=\"%(url)s\">feabhas a chur ar Firefox agus "
+"Mozilla</a>"
 
 #: fjord/feedback/templates/feedback/thanks.html:64
 msgid "Want to see where your feedback goes?"
-msgstr "An bhfuil fonn ort an áit ina n-úsáidtear do chuid aiseolais a fheiceáil?"
+msgstr ""
+"An bhfuil fonn ort an áit ina n-úsáidtear do chuid aiseolais a fheiceáil?"
 
 #: fjord/feedback/templates/feedback/thanks.html:66
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
@@ -256,27 +295,48 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Issue"
 #~ msgstr "Fadhb"
 
-#~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
+#~ msgid ""
+#~ "Your comment contains swear words (%s). In order to help us improve our "
+#~ "products, please use words that help us create an action or to-do from "
+#~ "your constructive feedback. Thanks!"
 #~ msgstr ""
-#~ "Tá eascainí i do nóta (%s). Sa chaoi go mbeimid in ann ár gcuid táirgí a fheabhsú, ba chóir duit focail a úsáid a chabhraíonn linn gníomhartha nó tascanna indéanta a chruthú ó do chuid "
-#~ "aiseolais. Go raibh maith agat!"
+#~ "Tá eascainí i do nóta (%s). Sa chaoi go mbeimid in ann ár gcuid táirgí a "
+#~ "fheabhsú, ba chóir duit focail a úsáid a chabhraíonn linn gníomhartha nó "
+#~ "tascanna indéanta a chruthú ó do chuid aiseolais. Go raibh maith agat!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "Ní cheadaítear HTML san aiseolas."
 
-#~ msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-#~ msgstr "Dealraíonn sé go bhfuil seoladh ríomhphoist i do chuid aiseolais. Bain amach é agus aon sonraí pearsanta eile agus seol an t-aiseolas arís.  Go raibh maith agat!"
+#~ msgid ""
+#~ "Your feedback seems to contain an email address. Please remove this and "
+#~ "similar personal data from the text, then try again. Thanks!"
+#~ msgstr ""
+#~ "Dealraíonn sé go bhfuil seoladh ríomhphoist i do chuid aiseolais. Bain "
+#~ "amach é agus aon sonraí pearsanta eile agus seol an t-aiseolas arís.  Go "
+#~ "raibh maith agat!"
 
-#~ msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-#~ msgstr "Dealraíonn sé go bhfuil URL i do chuid aiseolais. Bain amach é agus aon sonraí pearsanta eile agus seol an t-aiseolas arís.  Go raibh maith agat!"
+#~ msgid "URLs with IP addresses must contain public IP addresses."
+#~ msgstr "Má tá seoladh IP in URL, ní mór dó a bheith ina sheoladh poiblí."
+
+#~ msgid ""
+#~ "Your feedback seems to contain a URL. Please remove this and similar "
+#~ "personal data from the text, then try again. Thanks!"
+#~ msgstr ""
+#~ "Dealraíonn sé go bhfuil URL i do chuid aiseolais. Bain amach é agus aon "
+#~ "sonraí pearsanta eile agus seol an t-aiseolas arís.  Go raibh maith agat!"
 
 #~ msgid "User-Agent request header must be set."
 #~ msgstr "Ní mór don cheanntásc User-Agent a bheith socraithe."
 
-#~ msgid "It's great to hear you want to help Mozilla make your experience better!"
-#~ msgstr "Tá áthas orainn go bhfuil tú ag iarraidh cuidiú le Mozilla feabhas a chur ar Firefox!"
+#~ msgid ""
+#~ "It's great to hear you want to help Mozilla make your experience better!"
+#~ msgstr ""
+#~ "Tá áthas orainn go bhfuil tú ag iarraidh cuidiú le Mozilla feabhas a chur "
+#~ "ar Firefox!"
 
-#~ msgid "Please choose one of the following types of feedback that you would like to submit to us:"
+#~ msgid ""
+#~ "Please choose one of the following types of feedback that you would like "
+#~ "to submit to us:"
 #~ msgstr "Roghnaigh an cineál aiseolais is mian leat seoladh chugainn:"
 
 #~ msgid "Firefox makes me happy because ..."
@@ -288,23 +348,37 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Firefox Logo"
 #~ msgstr "Lógó Firefox"
 
-#~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-#~ msgstr "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar ár <a href=\"%(support_url)s\">leathanach tacaíochta</a>."
+#~ msgid ""
+#~ "If you need help or have a problem with Firefox, please visit our <a href="
+#~ "\"%(support_url)s\">support page</a>."
+#~ msgstr ""
+#~ "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar ár <a "
+#~ "href=\"%(support_url)s\">leathanach tacaíochta</a>."
 
 #~ msgid "Download Firefox"
 #~ msgstr "Íosluchtaigh Firefox"
 
-#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-#~ msgstr "Má tá tú ag iarraidh aiseolas a thabhairt dúinn faoi Firefox, caithfidh tú an leagan is déanaí a úsáid."
+#~ msgid ""
+#~ "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll "
+#~ "need to be on the latest version."
+#~ msgstr ""
+#~ "Má tá tú ag iarraidh aiseolas a thabhairt dúinn faoi Firefox, caithfidh "
+#~ "tú an leagan is déanaí a úsáid."
 
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr "Chun an leagan is déanaí a fháil, déan cuairt ar ár leathanach íosluchtaithe agus suiteáil (nó nuashonraigh go dtí) an <a href=\"%(url)s\">leagan is déanaí de Firefox!</a>"
+#~ msgid ""
+#~ "To do that, simply go to our download page and install/update to the <a "
+#~ "href=\"%(url)s\">latest version of Firefox!</a>"
+#~ msgstr ""
+#~ "Chun an leagan is déanaí a fháil, déan cuairt ar ár leathanach "
+#~ "íosluchtaithe agus suiteáil (nó nuashonraigh go dtí) an <a href=\"%(url)s"
+#~ "\">leagan is déanaí de Firefox!</a>"
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "Tá moladh agam d'Firefox"
 
 #~ msgid "Have an idea how Firefox could be better? Let us know."
-#~ msgstr "An bhfuil smaoineamh agat conas b'fhéidir Firefox a fheabhsú? Abair linn."
+#~ msgstr ""
+#~ "An bhfuil smaoineamh agat conas b'fhéidir Firefox a fheabhsú? Abair linn."
 
 #~ msgid "Include the URL of a site that worked better."
 #~ msgstr "Cuir isteach URL de shuíomh a d'oibrigh níos fearr."
@@ -318,26 +392,52 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "suggestion box"
 #~ msgstr "mbosca moltaí"
 
-#~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
-#~ msgstr "Iontach! Is maith linn go bhfuil tú sásta lenár mbrabhsálaí. Cuir in iúl dúinn na rudaí ar leith a thaitníonn leat!"
+#~ msgid ""
+#~ "Super! It's great to hear that you like our browser. Please explain what "
+#~ "you specifically like!"
+#~ msgstr ""
+#~ "Iontach! Is maith linn go bhfuil tú sásta lenár mbrabhsálaí. Cuir in iúl "
+#~ "dúinn na rudaí ar leith a thaitníonn leat!"
 
-#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-#~ msgstr "Tá fíorbhrón orainn nach bhfuil tú sásta lenár mbrabhsálaí. Inis dúinn cén fáth nach bhfuil, agus déanfaimid ár ndícheall an fhadhb a réiteach!"
+#~ msgid ""
+#~ "We are sorry that you have not had a good experience with our browser. "
+#~ "Please tell us why, so we can fix it!"
+#~ msgstr ""
+#~ "Tá fíorbhrón orainn nach bhfuil tú sásta lenár mbrabhsálaí. Inis dúinn "
+#~ "cén fáth nach bhfuil, agus déanfaimid ár ndícheall an fhadhb a réiteach!"
 
-#~ msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
-#~ msgstr "Ar mhaith leat insint dúinn conas is féidir linn feabhas a chur ar Firefox?  Cuir do smaoineamh sa bhosca thíos:"
+#~ msgid ""
+#~ "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! "
+#~ "Please enter your idea below:"
+#~ msgstr ""
+#~ "Ar mhaith leat insint dúinn conas is féidir linn feabhas a chur ar "
+#~ "Firefox?  Cuir do smaoineamh sa bhosca thíos:"
 
-#~ msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-#~ msgstr "An bhfaca tú suíomh Gréasáin a oibríonn níos fearr leis an leagan béite seo ná le leaganacha níos sine de Firefox?  Tabhair an URL dúinn le do thoil!"
+#~ msgid ""
+#~ "Know of a website that works better in this beta than it did in earlier "
+#~ "versions of Firefox? Please add the URL, so we can keep track!"
+#~ msgstr ""
+#~ "An bhfaca tú suíomh Gréasáin a oibríonn níos fearr leis an leagan béite "
+#~ "seo ná le leaganacha níos sine de Firefox?  Tabhair an URL dúinn le do "
+#~ "thoil!"
 
-#~ msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-#~ msgstr "An raibh fadhb agat le suíomh Gréasáin ar leith?  Tabhair an URL dúinn sa chaoi go mbeimid in ann an fhadhb a réiteach níos tapúla!"
+#~ msgid ""
+#~ "Had an issue with a specific website? Please add the URL, so we can find "
+#~ "the issue faster!"
+#~ msgstr ""
+#~ "An raibh fadhb agat le suíomh Gréasáin ar leith?  Tabhair an URL dúinn sa "
+#~ "chaoi go mbeimid in ann an fhadhb a réiteach níos tapúla!"
 
-#~ msgid "Please ensure that there is no personally identifiable information here."
+#~ msgid ""
+#~ "Please ensure that there is no personally identifiable information here."
 #~ msgstr "Bí cinnte nach bhfuil aon fhaisnéis inaitheanta phearsanta anseo."
 
-#~ msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
-#~ msgstr "Má tá do smaoineamh féin agat, seol chugainn é trínár <a href=\"%(url_idea)s\">mbosca smaointe</a>!"
+#~ msgid ""
+#~ "If you have an idea to offer us instead, please send it to us through our "
+#~ "<a href=\"%(url_idea)s\">idea box</a>!"
+#~ msgstr ""
+#~ "Má tá do smaoineamh féin agat, seol chugainn é trínár <a href="
+#~ "\"%(url_idea)s\">mbosca smaointe</a>!"
 
 #~ msgid "Your feedback will be used to create a"
 #~ msgstr "Bainfear úsáid as do chuid aiseolais chun feabhas"
@@ -346,9 +446,11 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgstr "a chur ar leaganacha Firefox amach anseo."
 
 #~ msgid "Thanks for helping Mozilla make your experience better!"
-#~ msgstr "Go raibh maith agat as cabhrú le Mozilla ár gcuid táirgí a fheabhsú!"
+#~ msgstr ""
+#~ "Go raibh maith agat as cabhrú le Mozilla ár gcuid táirgí a fheabhsú!"
 
-#~ msgid "Please choose the type of feedback that you would like to submit to us:"
+#~ msgid ""
+#~ "Please choose the type of feedback that you would like to submit to us:"
 #~ msgstr "Roghnaigh an cineál aiseolais is mian leat seoladh chugainn:"
 
 #~ msgid "Firefox makes me happy ..."
@@ -360,8 +462,13 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Download Beta"
 #~ msgstr "Íosluchtaigh an Leagan Béite"
 
-#~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-#~ msgstr "Má tá tú ag iarraidh aiseolas a thabhairt dúinn, caithfidh tú an leagan béite is déanaí a úsáid! Déan cuairt ar an leathanach béite agus <a href=\"%(url)s\">íosluchtaigh é!</a>"
+#~ msgid ""
+#~ "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head "
+#~ "over to our beta page and <a href=\"%(url)s\">download it!</a>"
+#~ msgstr ""
+#~ "Má tá tú ag iarraidh aiseolas a thabhairt dúinn, caithfidh tú an leagan "
+#~ "béite is déanaí a úsáid! Déan cuairt ar an leathanach béite agus <a href="
+#~ "\"%(url)s\">íosluchtaigh é!</a>"
 
 #~ msgid "Back to Dashboard"
 #~ msgstr "Ar ais go dtí an Painéal"
@@ -369,14 +476,25 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Give Feedback"
 #~ msgstr "Seol Aiseolas"
 
-#~ msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
-#~ msgstr "Tá áthas orainn gur chuir Firefox Soghluaiste aoibhneas ort! Abair linn cad é a thaitin leat."
+#~ msgid ""
+#~ "We're glad Firefox for Mobile made you happy! Please tell us what you "
+#~ "liked."
+#~ msgstr ""
+#~ "Tá áthas orainn gur chuir Firefox Soghluaiste aoibhneas ort! Abair linn "
+#~ "cad é a thaitin leat."
 
-#~ msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-#~ msgstr "Tá brón orainn gur chuir Firefox Soghluaiste díomá ort. Abair linn cad é a bhí briste agus deiseoimid é más féidir."
+#~ msgid ""
+#~ "We're sorry Firefox for Mobile made you sad. Please tell us what happened "
+#~ "so we can fix it."
+#~ msgstr ""
+#~ "Tá brón orainn gur chuir Firefox Soghluaiste díomá ort. Abair linn cad é "
+#~ "a bhí briste agus deiseoimid é más féidir."
 
-#~ msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
-#~ msgstr "Is breá linn moltaí d'Firefox Soghluaiste! Déan cur síos ar do smaoineamh thíos."
+#~ msgid ""
+#~ "We love ideas for Firefox for Mobile! Please descibe your idea below."
+#~ msgstr ""
+#~ "Is breá linn moltaí d'Firefox Soghluaiste! Déan cur síos ar do smaoineamh "
+#~ "thíos."
 
 #~ msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
 #~ msgstr "An bhfuil smaoineamh agat? <a href=\"%(url)s\">Seol chugainn é.</a>"
@@ -384,8 +502,12 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Include your last visited site?"
 #~ msgstr "An bhfuil fonn ort an suíomh a raibh tú air a chur san áireamh?"
 
-#~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
-#~ msgstr "Bí cinnte nach bhfuil aon fhaisnéis inaitheanta phearsanta i do chuid aiseolais."
+#~ msgid ""
+#~ "For your privacy, please don't include any personally identifiable "
+#~ "information in your feedback."
+#~ msgstr ""
+#~ "Bí cinnte nach bhfuil aon fhaisnéis inaitheanta phearsanta i do chuid "
+#~ "aiseolais."
 
 #~ msgid "Send Feedback"
 #~ msgstr "Seol Aiseolas"
@@ -403,10 +525,14 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgstr "An bhfuil fonn ort URL an leathanaigh is déanaí a chur san áireamh?"
 
 #~ msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-#~ msgstr "Nó tabhair do chuid smaointe dúinn trínár <a href=\"%(url_idea)s\">mbosca smaointe</a>!"
+#~ msgstr ""
+#~ "Nó tabhair do chuid smaointe dúinn trínár <a href=\"%(url_idea)s\">mbosca "
+#~ "smaointe</a>!"
 
-#~ msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
-#~ msgstr "Is breá linn aiseolas faoi Firefox Soghluaiste! Céard atá ar d'intinn?"
+#~ msgid ""
+#~ "We love feedback about Firefox for Mobile! What would you like to tell us?"
+#~ msgstr ""
+#~ "Is breá linn aiseolas faoi Firefox Soghluaiste! Céard atá ar d'intinn?"
 
 #~ msgid "Firefox made me happy"
 #~ msgstr "Chuir Firefox aoibhneas orm"
@@ -417,8 +543,12 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "I have an idea for Firefox"
 #~ msgstr "Tá moladh agam d'Firefox"
 
-#~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
-#~ msgstr "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar <a id=\"sumo-url\" href=\"%(url)s\">Tacaíocht Firefox</a>."
+#~ msgid ""
+#~ "If you need help or have a problem with Firefox, please visit <a id="
+#~ "\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
+#~ msgstr ""
+#~ "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar <a id="
+#~ "\"sumo-url\" href=\"%(url)s\">Tacaíocht Firefox</a>."
 
 #~ msgid "Translate Message"
 #~ msgstr "Aistrigh Teachtaireacht"
@@ -429,8 +559,12 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Thanks for sharing your feedback!"
 #~ msgstr "Go raibh maith agat as d'aiseolas a roinnt linn!"
 
-#~ msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
-#~ msgstr "Ar mhaith leat bheith ar an eolas maidir le Firefox Soghluaiste? Bí i dteagmháil linn:"
+#~ msgid ""
+#~ "Want to know what's going on with Firefox for Mobile? We have many ways "
+#~ "of staying in touch:"
+#~ msgstr ""
+#~ "Ar mhaith leat bheith ar an eolas maidir le Firefox Soghluaiste? Bí i "
+#~ "dteagmháil linn:"
 
 #~ msgid "See where your feedback goes."
 #~ msgstr "An áit ina n-úsáidtear do chuid aiseolais."
@@ -522,6 +656,12 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "just now"
 #~ msgstr "anois beag"
 
+#~ msgid "&laquo; Older Messages"
+#~ msgstr "&laquo; Teachtaireachtaí Níos Sine"
+
+#~ msgid "Newer Messages &raquo;"
+#~ msgstr "Teachtaireachtaí Níos Nuaí &raquo;"
+
 #~ msgid "Query has timed out."
 #~ msgstr "Chuaigh an t-iarratas thar am."
 
@@ -558,6 +698,9 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 
 #~ msgid "Version:"
 #~ msgstr "Leagan:"
+
+#~ msgid "Sentiment:"
+#~ msgstr "Meon:"
 
 #~ msgid "Locale:"
 #~ msgstr "Teanga:"
@@ -604,6 +747,17 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "No search results found."
 #~ msgstr "Níor aimsíodh aon rud."
 
+#~ msgid ""
+#~ "You can adjust your search criteria or use fewer filters to find more "
+#~ "opinions."
+#~ msgstr ""
+#~ "Is féidir leat do chuardach a athrú, nó níos lú scagairí a úsáid chun "
+#~ "tuilleadh tuairimí a aimsiú."
+
+#~ msgid "Note: Recently released versions of Firefox may have less feedback."
+#~ msgstr ""
+#~ "Nóta: Is dócha go bhfuil níos lú aiseolas ag na leaganacha is déanaí."
+
 #~ msgid "Type of Feedback"
 #~ msgstr "Cineál Aiseolais"
 
@@ -634,11 +788,20 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "I'm sorry, there was an error with your search."
 #~ msgstr "Tharla earráid le do chuardach."
 
-#~ msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-#~ msgstr "Seans nach bhfuil fáil ar ár n-inneall cuardaigh faoi láthair. Is féidir dul ar ais go dtí an <a href=\"%(url)s\">painéal</a> agus triail a bhaint as ar ball."
+#~ msgid ""
+#~ "Our search engine might be currently unavailable. You may start over on "
+#~ "the <a href=\"%(url)s\">dashboard</a> and try again later."
+#~ msgstr ""
+#~ "Seans nach bhfuil fáil ar ár n-inneall cuardaigh faoi láthair. Is féidir "
+#~ "dul ar ais go dtí an <a href=\"%(url)s\">painéal</a> agus triail a bhaint "
+#~ "as ar ball."
 
-#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-#~ msgstr "Má leanann an fhadhb, <a href=\"%(bug_url)s\">déan tuairisc uirthi</a>, agus luaigh an URL a raibh tú ag déanamh cuairt air."
+#~ msgid ""
+#~ "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
+#~ "mentioning the URL you were accessing."
+#~ msgstr ""
+#~ "Má leanann an fhadhb, <a href=\"%(bug_url)s\">déan tuairisc uirthi</a>, "
+#~ "agus luaigh an URL a raibh tú ag déanamh cuairt air."
 
 #~ msgid "Include the following error message in your bug report:"
 #~ msgstr "Cuir an teachtaireacht earráide san áireamh i do thuairisc:"
@@ -856,51 +1019,92 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgstr[3] "%(count)s dteachtaireacht cosúil leis"
 #~ msgstr[4] "%(count)s teachtaireacht cosúil leis"
 
-#~ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-#~ msgstr "Téigh ar ais go dtí an <a href=\"%(dashboard_url)s\">painéal</a> le do thoil."
+#~ msgid "Not Found"
+#~ msgstr "Gan Aimsiú"
 
-#~ msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr "Má bhí tú ag leanúint nasc briste, <a href=\"%(bug_url)s\">déan tuairisc ar an bhfadhb.</a> GRMA!"
+#~ msgid "I'm sorry, I could not find what you were looking for."
+#~ msgstr "Níorbh fhéidir an rud a bhí uait a aimsiú."
+
+#~ msgid ""
+#~ "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
+#~ msgstr ""
+#~ "Téigh ar ais go dtí an <a href=\"%(dashboard_url)s\">painéal</a> le do "
+#~ "thoil."
+
+#~ msgid ""
+#~ "If you were following a broken link, please <a href=\"%(bug_url)s\">file "
+#~ "a bug.</a> Thanks!"
+#~ msgstr ""
+#~ "Má bhí tú ag leanúint nasc briste, <a href=\"%(bug_url)s\">déan tuairisc "
+#~ "ar an bhfadhb.</a> GRMA!"
 
 #~ msgid "Internal Server Error"
 #~ msgstr "Earráid Inmheánach Freastalaí"
 
-#~ msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-#~ msgstr "Tharla earráid gan láimhseáil san fheidhmchlár. Rinneadh tuairisc ar an earráid i logchomhad agus cuireadh in iúl do riarthóir í. Tá brón orainn!"
+#~ msgid ""
+#~ "An unhandled error occurred in the application. The error has been logged "
+#~ "and an administrator was notified. We apologize for the inconvenience!"
+#~ msgstr ""
+#~ "Tharla earráid gan láimhseáil san fheidhmchlár. Rinneadh tuairisc ar an "
+#~ "earráid i logchomhad agus cuireadh in iúl do riarthóir í. Tá brón orainn!"
 
-#~ msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr "Má tá eolas breise agat maidir le conas is féidir an fhadhb seo a atáirgeadh, <a href=\"%(bug_url)s\">déan tuairisc uirthi.</a> GRMA!"
+#~ msgid ""
+#~ "If you have additional information how to reproduce this problem, please "
+#~ "<a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr ""
+#~ "Má tá eolas breise agat maidir le conas is féidir an fhadhb seo a "
+#~ "atáirgeadh, <a href=\"%(bug_url)s\">déan tuairisc uirthi.</a> GRMA!"
 
 #~ msgid "Hello!"
 #~ msgstr "Dia Dhuit!"
 
 #~ msgid ""
-#~ "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
-#~ "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+#~ "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. "
+#~ "It is set up to be a method of one-way communication about your "
+#~ "experiences in using Firefox, the Internet you view it through, and what "
+#~ "Mozilla can do to make that experience better. The system is available "
+#~ "over a wide-variety of submission mechanisms over all three major "
+#~ "channels of builds."
 #~ msgstr ""
-#~ "Is é <strong>Firefox Input</strong> príomhchóras aiseolais Mhozilla. Is éard atá ann ná modh cumarsáide aontreo maidir le húsáid Firefox, an tIdirlíon a bhrabhsálann tú tríd, agus na rudaí is "
-#~ "féidir le Mozilla a dhéanamh le feabhas a chur ar do chuairt ar líne.  Tugann an córas bealaí éagsúla duit le haiseolas a sheoladh chugainn, agus is féidir aiseolas faoi na trí phríomhleagan atá "
-#~ "againn a sheoladh."
+#~ "Is é <strong>Firefox Input</strong> príomhchóras aiseolais Mhozilla. Is "
+#~ "éard atá ann ná modh cumarsáide aontreo maidir le húsáid Firefox, an "
+#~ "tIdirlíon a bhrabhsálann tú tríd, agus na rudaí is féidir le Mozilla a "
+#~ "dhéanamh le feabhas a chur ar do chuairt ar líne.  Tugann an córas bealaí "
+#~ "éagsúla duit le haiseolas a sheoladh chugainn, agus is féidir aiseolas "
+#~ "faoi na trí phríomhleagan atá againn a sheoladh."
 
-#~ msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-#~ msgstr "Le haiseolas faoi do leagan de Firefox a sheoladh chugainn, téigh go dtí <a href=\"%(feedback_url)s\">an leathanach aiseolais</a>!"
+#~ msgid ""
+#~ "To submit feedback for your version of Firefox, please go to <a href="
+#~ "\"%(feedback_url)s\">the feedback submission page</a>!"
+#~ msgstr ""
+#~ "Le haiseolas faoi do leagan de Firefox a sheoladh chugainn, téigh go dtí "
+#~ "<a href=\"%(feedback_url)s\">an leathanach aiseolais</a>!"
 
 # not a verb!
 #~ msgid "Open Data"
 #~ msgstr "Sonraí Oscailte"
 
 #~ msgid ""
-#~ "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-#~ "please <a href=\"%(data_url)s\">contact us</a>!"
+#~ "We'd love to experiment more with this data, but we're only a few people. "
+#~ "So, we need requests from you on questions you'd like to see answered! If "
+#~ "you would like to experiment with our data, please <a href=\"%(data_url)s"
+#~ "\">contact us</a>!"
 #~ msgstr ""
-#~ "Ba bhreá linn tuilleadh turgnamh a dhéanamh leis na sonraí seo, ach níl ach scata an-bheag againn anseo. Mar sin, cuir in iúl dúinn na ceisteanna a bhfuil suim agat sna freagraí! Más mian leat "
-#~ "do thurgnamh féin a dhéanamh lenár gcuid sonraí, <a href=\"%(data_url)s\">téigh i dteagmháil linn</a>!"
+#~ "Ba bhreá linn tuilleadh turgnamh a dhéanamh leis na sonraí seo, ach níl "
+#~ "ach scata an-bheag againn anseo. Mar sin, cuir in iúl dúinn na ceisteanna "
+#~ "a bhfuil suim agat sna freagraí! Más mian leat do thurgnamh féin a "
+#~ "dhéanamh lenár gcuid sonraí, <a href=\"%(data_url)s\">téigh i dteagmháil "
+#~ "linn</a>!"
 
 #~ msgid "Source Code"
 #~ msgstr "Cód Foinseach"
 
-#~ msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-#~ msgstr "Is féidir teacht ar chód foinseach an tsuímh seo ar <a href=\"%(source_url)s\">GitHub</a>!"
+#~ msgid ""
+#~ "The code for the Firefox Input web application can be found <a href="
+#~ "\"%(source_url)s\">on GitHub</a>!"
+#~ msgstr ""
+#~ "Is féidir teacht ar chód foinseach an tsuímh seo ar <a href="
+#~ "\"%(source_url)s\">GitHub</a>!"
 
 #~ msgid "Feedback"
 #~ msgstr "Aiseolas"
@@ -914,18 +1118,30 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "CSRF Protection Error"
 #~ msgstr "Earráid Cosanta CSRF"
 
-#~ msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
-#~ msgstr "Tharla earráid agus do cheadchomhartha CSRF á fhíorú. Níorbh fhéidir d'iarratas a phróiseáil. Tá brón orainn!"
+#~ msgid ""
+#~ "There was an error verifying your CSRF token. Your request could not be "
+#~ "processed. We apologize for the inconvenience!"
+#~ msgstr ""
+#~ "Tharla earráid agus do cheadchomhartha CSRF á fhíorú. Níorbh fhéidir "
+#~ "d'iarratas a phróiseáil. Tá brón orainn!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
-#~ "cookies in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up "
+#~ "<strong>not to accept cookies</strong> from us. Please follow <a href="
+#~ "\"%(cookies_url)s\">these instructions</a> to enable cookies in Firefox, "
+#~ "then try again."
 #~ msgstr ""
-#~ "Is dócha gur tharla an earráid seo toisc nach bhfuil do bhrabhsálaí <strong>ag glacadh le fianáin</strong> uainn. Féach ar <a href=\"%(cookies_url)s\">na treoracha seo</a> chun fianáin a chumasú "
-#~ "i bhFirefox, ansin bain triail eile as."
+#~ "Is dócha gur tharla an earráid seo toisc nach bhfuil do bhrabhsálaí "
+#~ "<strong>ag glacadh le fianáin</strong> uainn. Féach ar <a href="
+#~ "\"%(cookies_url)s\">na treoracha seo</a> chun fianáin a chumasú i "
+#~ "bhFirefox, ansin bain triail eile as."
 
-#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr "Má leanann an fhadhb, <a href=\"%(bug_url)s\">déan tuairisc uirthi.</a> GRMA!"
+#~ msgid ""
+#~ "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> "
+#~ "Thanks!"
+#~ msgstr ""
+#~ "Má leanann an fhadhb, <a href=\"%(bug_url)s\">déan tuairisc uirthi.</a> "
+#~ "GRMA!"
 
 #~ msgid "Not Implemented"
 #~ msgstr "Níl sé ar fáil"
@@ -945,8 +1161,12 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Close"
 #~ msgstr "Dún"
 
-#~ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-#~ msgstr "<strong>Fáilte go Suíomh Aiseolais Firefox!</strong> Seo é príomhchóras aiseolais Mhozilla. <a href=\"%(about_url)s\">Tuilleadh eolais...</a>"
+#~ msgid ""
+#~ "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user "
+#~ "feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+#~ msgstr ""
+#~ "<strong>Fáilte go Suíomh Aiseolais Firefox!</strong> Seo é príomhchóras "
+#~ "aiseolais Mhozilla. <a href=\"%(about_url)s\">Tuilleadh eolais...</a>"
 
 #~ msgid "&laquo; Newer Messages"
 #~ msgstr "&laquo; Teachtaireachtaí Níos Nuaí"
@@ -955,22 +1175,33 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgstr "Teachtaireachtaí Níos Sine &raquo;"
 
 #~ msgid "Super! It's great to hear that you like our pre-released browser."
-#~ msgstr "Iontach! Tá áthas orainn go dtaitníonn an réamhleagan den bhrabhsálaí leat."
+#~ msgstr ""
+#~ "Iontach! Tá áthas orainn go dtaitníonn an réamhleagan den bhrabhsálaí "
+#~ "leat."
 
-#~ msgid "Super! It's great to hear that you like our pre-released browser. Please explain what you specifically like!"
-#~ msgstr "Iontach! Is maith linn go bhfuil tú sásta le réamhleagan an bhrabhsálaí. Cuir in iúl dúinn na rudaí ar leith a thaitníonn leat!"
+#~ msgid ""
+#~ "Super! It's great to hear that you like our pre-released browser. Please "
+#~ "explain what you specifically like!"
+#~ msgstr ""
+#~ "Iontach! Is maith linn go bhfuil tú sásta le réamhleagan an bhrabhsálaí. "
+#~ "Cuir in iúl dúinn na rudaí ar leith a thaitníonn leat!"
 
 #~ msgid "Have more to say?"
 #~ msgstr "An bhfuil tuilleadh le rá agat?"
 
 #~ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
-#~ msgstr "Fáilte romhat <a href=\"%(fb_url)s\">tuilleadh aiseolais a sheoladh</a>"
+#~ msgstr ""
+#~ "Fáilte romhat <a href=\"%(fb_url)s\">tuilleadh aiseolais a sheoladh</a>"
 
 #~ msgid "Back to Feedback"
 #~ msgstr "Ar ais go dtí Aiseolas"
 
-#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(url)s\">Firefox Support</a>."
-#~ msgstr "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar <a href=\"%(url)s\">Tacaíocht Firefox</a>."
+#~ msgid ""
+#~ "If you need help or have a problem with Firefox, please visit <a href="
+#~ "\"%(url)s\">Firefox Support</a>."
+#~ msgstr ""
+#~ "Má tá cabhair uait nó tá fadhb agat le Firefox, tabhair cuairt ar <a href="
+#~ "\"%(url)s\">Tacaíocht Firefox</a>."
 
 #~ msgid "Enter your feedback here."
 #~ msgstr "Cuir do chuid aiseolais anseo."
@@ -982,16 +1213,27 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgstr "Cuir rátáil ar rud amháin ar a laghad."
 
 #~ msgid "Example: Images were not loading, but the rest of the page was."
-#~ msgstr "Mar shampla: Ní raibh na híomhánna ag luchtú, ach luchtaigh an chuid eile den leathanach."
+#~ msgstr ""
+#~ "Mar shampla: Ní raibh na híomhánna ag luchtú, ach luchtaigh an chuid eile "
+#~ "den leathanach."
 
 #~ msgid "Invalid feedback type"
 #~ msgstr "Cineál neamhbhailí aiseolais"
 
-#~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-#~ msgstr "Má tá tú ag iarraidh aiseolas a thabhairt dúinn faoin chéad leagan eile de Firefox, caithfidh tú an leagan béite is déanaí a úsáid."
+#~ msgid ""
+#~ "Oh! So, you want to offer us feedback on the next version of Firefox. "
+#~ "Thank you, but you'll need to be on our latest beta."
+#~ msgstr ""
+#~ "Má tá tú ag iarraidh aiseolas a thabhairt dúinn faoin chéad leagan eile "
+#~ "de Firefox, caithfidh tú an leagan béite is déanaí a úsáid."
 
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-#~ msgstr "Chun an leagan béite a fháil, déan cuairt ar ár leathanach íosluchtaithe agus suiteáil (nó nuashonraigh go dtí) an <a href=\"%(url)s\">leagan béite is déanaí!</a>"
+#~ msgid ""
+#~ "To do that, simply go to our download page and install/update to the <a "
+#~ "href=\"%(url)s\">latest Firefox Beta!</a>"
+#~ msgstr ""
+#~ "Chun an leagan béite a fháil, déan cuairt ar ár leathanach íosluchtaithe "
+#~ "agus suiteáil (nó nuashonraigh go dtí) an <a href=\"%(url)s\">leagan "
+#~ "béite is déanaí!</a>"
 
 #~ msgid "Rate Your Experience"
 #~ msgstr "Déan Rátáil"
@@ -1006,10 +1248,14 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgstr "Cén rátáil a thabharfá ar na gnéithe seo i bhFirefox?"
 
 #~ msgid "Does a website look or behave incorrectly in Firefox?"
-#~ msgstr "An bhfuil cuma aisteach nó oibriú mícheart ar shuíomh Gréasáin i bhFirefox?"
+#~ msgstr ""
+#~ "An bhfuil cuma aisteach nó oibriú mícheart ar shuíomh Gréasáin i "
+#~ "bhFirefox?"
 
 #~ msgid "Provide us some details about the problem and we'll try to fix it."
-#~ msgstr "Tabhair mionsonraí na faidhbe dúinn agus déanfaimid ár ndícheall í a réiteach."
+#~ msgstr ""
+#~ "Tabhair mionsonraí na faidhbe dúinn agus déanfaimid ár ndícheall í a "
+#~ "réiteach."
 
 #~ msgid "What is the URL of the site?"
 #~ msgstr "Cad é URL an tsuímh?"
@@ -1018,10 +1264,15 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgstr "Déan cur síos ar an bhfadhb leis an suíomh."
 
 #~ msgid "Have an idea how Firefox could be better? Let us know!"
-#~ msgstr "An bhfuil smaointe agat faoi conas is féidir Firefox a fheabhsú?  Abair leat!"
+#~ msgstr ""
+#~ "An bhfuil smaointe agat faoi conas is féidir Firefox a fheabhsú?  Abair "
+#~ "leat!"
 
-#~ msgid "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
-#~ msgstr "Déan cuairt ar <a href=\"%(dashboard_url)s\">Phainéal Aiseolais Firefox</a>"
+#~ msgid ""
+#~ "Visit the <a href=\"%(dashboard_url)s\">Firefox Feedback Dashboard</a>"
+#~ msgstr ""
+#~ "Déan cuairt ar <a href=\"%(dashboard_url)s\">Phainéal Aiseolais Firefox</"
+#~ "a>"
 
 #~ msgid "Twitter"
 #~ msgstr "Twitter"
@@ -1032,8 +1283,12 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Thanks for sending us your feedback!"
 #~ msgstr "Go raibh maith agat as an aiseolas!"
 
-#~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
-#~ msgstr "Má tá fonn ort an áit ina n-úsáidtear do chuid aiseolais a fheiceáil, déan cuairt ar <a href=\"%(url)s\">Phainéal Aiseolais Firefox</a>."
+#~ msgid ""
+#~ "If you want to see where your feedback was sent to, take a look at our <a "
+#~ "href=\"%(url)s\">Firefox Input Dashboard</a>."
+#~ msgstr ""
+#~ "Má tá fonn ort an áit ina n-úsáidtear do chuid aiseolais a fheiceáil, "
+#~ "déan cuairt ar <a href=\"%(url)s\">Phainéal Aiseolais Firefox</a>."
 
 #~ msgid "Find out the latest news from Mozilla:"
 #~ msgstr "Faigh an nuacht is déanaí ó Mhozilla:"
@@ -1041,8 +1296,13 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "How would you rate these aspects of Firefox for Mobile?"
 #~ msgstr "Cén rátáil a thabharfá ar na gnéithe seo i bhFirefox Soghluaiste?"
 
-#~ msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
-#~ msgstr "An bhfuil cuma aisteach nó oibriú mícheart ar shuíomh Gréasáin i bhFirefox Soghluaiste? Tabhair mionsonraí na faidhbe dúinn agus déanfaimid ár ndícheall í a réiteach."
+#~ msgid ""
+#~ "Does a website look or behave incorrectly in Firefox for Mobile? Provide "
+#~ "us some details about the problem and we'll try to fix it."
+#~ msgstr ""
+#~ "An bhfuil cuma aisteach nó oibriú mícheart ar shuíomh Gréasáin i "
+#~ "bhFirefox Soghluaiste? Tabhair mionsonraí na faidhbe dúinn agus "
+#~ "déanfaimid ár ndícheall í a réiteach."
 
 #~ msgid "What is the URL of the broken site?"
 #~ msgstr "Cad é URL an tsuímh bhriste?"
@@ -1050,11 +1310,17 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Describe the problem with the website."
 #~ msgstr "Déan cur síos ar an bhfadhb leis an suíomh."
 
-#~ msgid "For your privacy, please ensure that no personally identifiable information is included in your feedback."
-#~ msgstr "Le do phríobháideacht a chosaint, bí cinnte nár chuir tú aon fhaisnéis inaitheanta phearsanta i do chuid aiseolais."
+#~ msgid ""
+#~ "For your privacy, please ensure that no personally identifiable "
+#~ "information is included in your feedback."
+#~ msgstr ""
+#~ "Le do phríobháideacht a chosaint, bí cinnte nár chuir tú aon fhaisnéis "
+#~ "inaitheanta phearsanta i do chuid aiseolais."
 
 #~ msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
-#~ msgstr "An bhfuil smaointe agat faoi conas is féidir Firefox Soghluaiste a fheabhsú?  Abair leat!"
+#~ msgstr ""
+#~ "An bhfuil smaointe agat faoi conas is féidir Firefox Soghluaiste a "
+#~ "fheabhsú?  Abair leat!"
 
 #~ msgid "@MozMobile"
 #~ msgstr "@MozMobile"
@@ -1165,8 +1431,10 @@ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "Cur Síos: <span class=\"opt\">\"%(query)s\"</span>;"
 
-#~ msgid "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
-#~ msgstr "Dátaí: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+#~ msgid ""
+#~ "Dates: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
+#~ msgstr ""
+#~ "Dátaí: <span class=\"opt\">%(start_date)s &ndash; %(end_date)s</span>"
 
 #~ msgid "Locale: <span class=\"opt\">%(locale)s</span>;"
 #~ msgstr "Teanga: <span class=\"opt\">%(locale)s</span>;"
