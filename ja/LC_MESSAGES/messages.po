@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-20 11:28-0700\n"
-"PO-Revision-Date: 2012-05-08 05:22+0200\n"
+"PO-Revision-Date: 2012-10-01 03:58+0200\n"
 "Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
@@ -14,9 +14,8 @@ msgstr ""
 "X-Generator: Pootle 2.1.6\n"
 
 #: fjord/analytics/views.py:130
-#, fuzzy
 msgid "Sentiment"
-msgstr "評価:"
+msgstr "評価"
 
 #: fjord/analytics/views.py:133
 msgid "Platform"
@@ -28,25 +27,23 @@ msgstr "言語"
 
 #: fjord/analytics/templates/analytics/dashboard.html:14 fjord/feedback/models.py:44
 msgid "Happy"
-msgstr ""
+msgstr "良いところ"
 
 #: fjord/analytics/templates/analytics/dashboard.html:16 fjord/feedback/models.py:45
 msgid "Sad"
-msgstr ""
+msgstr "悪いところ"
 
 #: fjord/analytics/templates/analytics/dashboard.html:67
 msgid "Latest Feedback"
 msgstr "最新のフィードバック"
 
 #: fjord/analytics/templates/analytics/dashboard.html:77
-#, fuzzy
 msgid "Older Messages"
-msgstr "&laquo; 古いメッセージ"
+msgstr "古いメッセージ"
 
 #: fjord/analytics/templates/analytics/dashboard.html:82
-#, fuzzy
 msgid "Newer Messages"
-msgstr "新しいメッセージ &raquo;"
+msgstr "新しいメッセージ"
 
 #: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "Messages"
@@ -57,22 +54,20 @@ msgid "Unknown"
 msgstr "不明"
 
 #: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8 fjord/base/templates/500.html:8
-#, fuzzy
 msgid "Page not found"
 msgstr "リクエストされたページは存在しません"
 
 #: fjord/base/templates/404.html:10
-#, fuzzy
 msgid "Sorry, but we couldn't find the page you're looking for."
 msgstr "申し訳ありませんが、お探しのページが見つかりません。"
 
 #: fjord/base/templates/500.html:5
 msgid "Something went wrong!"
-msgstr ""
+msgstr "サイト内部でエラーが発生しました"
 
 #: fjord/base/templates/500.html:10
 msgid "Sorry, but something went wrong."
-msgstr ""
+msgstr "申し訳ありません、サイトの内部でエラーが発生しました。"
 
 #: fjord/base/templates/base.html:4
 msgid "Welcome"
@@ -128,11 +123,11 @@ msgstr "移動"
 
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
-msgstr ""
+msgstr "Input サービスモニタ"
 
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr ""
+msgstr "Input が使用するコンポーネントのリストと動作状況です。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
@@ -164,13 +159,16 @@ msgstr "問題点を記入してください (日本語可)。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:40
 msgid "If your feedback is related to a website, you can include it here."
-msgstr ""
+msgstr "Web サイトに関するフィードバックの場合は URL を記入してください。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:48
 msgid ""
 "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr ""
+"記入欄にできるだけ詳しくお書きくださいい。例えば、動作が遅いことについてのフィードバックは、関連する Web "
+"サイトを教えてください。また、ブラウジングセッションの始めなのか終りなのか、または Firefox "
+"に問題が起こる可能性のある操作をしたか等、気付いたこともお書きください。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:61
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -195,7 +193,9 @@ msgstr "あなたのフィードバックを Firefox の改善のために役立
 
 #: fjord/feedback/templates/feedback/feedback.html:33
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Firefox で起こる問題にヘルプが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> サイトをご利用ください。"
+msgstr ""
+"Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> "
+"サイトをご利用ください。"
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
@@ -207,7 +207,6 @@ msgstr "フィードバックありがとうございます"
 
 # 上下に分割されている個所
 #: fjord/feedback/templates/feedback/thanks.html:23
-#, fuzzy
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "将来の Firefox をより使いやすく、快適にするために利用されます。"
 
