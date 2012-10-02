@@ -3,22 +3,20 @@ msgstr ""
 "Project-Id-Version: Input 1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-09-20 11:28-0700\n"
-"PO-Revision-Date: 2012-10-02 20:16+0200\n"
-"Last-Translator: Alexander <unghost@mozilla-russia.org>\n"
+"PO-Revision-Date: 2012-10-02 22:35+0300\n"
+"Last-Translator: \n"
 "Language-Team: Russian <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.1.6\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: fjord/analytics/views.py:130
-#, fuzzy
 msgid "Sentiment"
-msgstr "Мнение:"
+msgstr "Мнение"
 
 #: fjord/analytics/views.py:133
 msgid "Platform"
@@ -28,15 +26,15 @@ msgstr "Платформа"
 msgid "Locale"
 msgstr "Локаль"
 
-#: fjord/analytics/templates/analytics/dashboard.html:14 fjord/feedback/models.py:44
-#, fuzzy
+#: fjord/analytics/templates/analytics/dashboard.html:14
+#: fjord/feedback/models.py:44
 msgid "Happy"
-msgstr "доволен"
+msgstr "Доволен"
 
-#: fjord/analytics/templates/analytics/dashboard.html:16 fjord/feedback/models.py:45
-#, fuzzy
+#: fjord/analytics/templates/analytics/dashboard.html:16
+#: fjord/feedback/models.py:45
 msgid "Sad"
-msgstr "недоволен"
+msgstr "Недоволен"
 
 #: fjord/analytics/templates/analytics/dashboard.html:67
 msgid "Latest Feedback"
@@ -58,23 +56,23 @@ msgstr "Сообщения"
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8 fjord/base/templates/500.html:8
-#, fuzzy
+#: fjord/base/templates/404.html:5
+#: fjord/base/templates/404.html:8
+#: fjord/base/templates/500.html:8
 msgid "Page not found"
-msgstr "Не найдено"
+msgstr "Страница не найдена"
 
 #: fjord/base/templates/404.html:10
-#, fuzzy
 msgid "Sorry, but we couldn't find the page you're looking for."
-msgstr "Извините, но мы не можем найти то, что вы ищете."
+msgstr "Извините, но мы не можем найти эту страницу."
 
 #: fjord/base/templates/500.html:5
 msgid "Something went wrong!"
-msgstr ""
+msgstr "Что-то пошло не так!"
 
 #: fjord/base/templates/500.html:10
 msgid "Sorry, but something went wrong."
-msgstr ""
+msgstr "Извините, но что-то пошло не так!"
 
 #: fjord/base/templates/base.html:4
 msgid "Welcome"
@@ -113,12 +111,8 @@ msgid "About Firefox Input"
 msgstr "О Firefox Input"
 
 #: fjord/base/templates/includes/footer.html:13
-msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
-"any later version."
-msgstr ""
-"За исключением содержимого с <a href=\"%(legal_url)s\">явно указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <br/> <a href=\"%(license_url)s\">лицензии Creative Commons "
-"Атрибуция — С сохранением условий версии 3.0</a> или более поздней."
+msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
+msgstr "За исключением содержимого с <a href=\"%(legal_url)s\">явно указанной</a> лицензией, содержимое этого сайта лицензировано на условиях <br/> <a href=\"%(license_url)s\">лицензии Creative Commons Атрибуция — С сохранением условий версии 3.0</a> или более поздней."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -128,19 +122,22 @@ msgstr "Другие языки:"
 msgid "Go"
 msgstr "Перейти"
 
-#: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
+#: fjord/base/templates/services/monitor.html:3
+#: fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
-msgstr ""
+msgstr "Монитор служб Панели отзывов"
 
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr ""
+msgstr "Список компонентов, используемых Панелью отзывов, и статус их работы."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
+#: fjord/feedback/templates/feedback/feedback-form.html:5
+#: fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox порадовал меня"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
+#: fjord/feedback/templates/feedback/feedback-form.html:7
+#: fjord/feedback/templates/feedback/feedback.html:27
 msgid "Firefox Made Me Sad"
 msgstr "Firefox огорчил меня"
 
@@ -166,13 +163,11 @@ msgstr "Пожалуйста, опишите ниже свою проблему.
 
 #: fjord/feedback/templates/feedback/feedback-form.html:40
 msgid "If your feedback is related to a website, you can include it here."
-msgstr ""
+msgstr "Если ваш отзыв относится к веб-сайту, вы можете указать здесь его адрес."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:48
-msgid ""
-"Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-"the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
-msgstr ""
+msgid "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+msgstr "При написании отзыва, пожалуйста, будьте как можно более конкретней. Например, если вы сообщаете о медленной работе браузера, приведите адреса конкретных веб-сайтов, укажите, происходит ли это в начале или в конце сеанса веб-сёрфинга, и есть ли у вас особенные проблемы с выполнением в Firefox каких-либо действий."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:61
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -182,11 +177,13 @@ msgstr "Чтобы защитить вашу приватность, пожал�
 msgid "Submitting Feedback"
 msgstr "Отправка отзыва"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:77 fjord/feedback/templates/feedback/feedback-form.html:81
+#: fjord/feedback/templates/feedback/feedback-form.html:77
+#: fjord/feedback/templates/feedback/feedback-form.html:81
 msgid "Submit Feedback"
 msgstr "Отправить отзыв"
 
-#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20
+#: fjord/feedback/templates/feedback/feedback.html:11
+#: fjord/feedback/templates/feedback/feedback.html:20
 msgid "Submit Your Feedback"
 msgstr "Отправить ваш отзыв"
 
@@ -207,9 +204,8 @@ msgid "Thanks for Your Feedback"
 msgstr "Спасибо за ваш отзыв"
 
 #: fjord/feedback/templates/feedback/thanks.html:23
-#, fuzzy
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr "улучшения работы будущих версий Firefox."
+msgstr "Ваш отзыв будет использован для улучшения работы будущих версий Firefox."
 
 #: fjord/feedback/templates/feedback/thanks.html:32
 msgid "Share your feedback."
@@ -499,18 +495,21 @@ msgstr "Узнайте последние новости о Firefox."
 #~ msgstr "Другая"
 
 #~ msgid "{0} day ago"
+
 #~ msgid_plural "{0} days ago"
 #~ msgstr[0] "{0} день назад"
 #~ msgstr[1] "{0} дня назад"
 #~ msgstr[2] "{0} дней назад"
 
 #~ msgid "{0} hour ago"
+
 #~ msgid_plural "{0} hours ago"
 #~ msgstr[0] "{0} час назад"
 #~ msgstr[1] "{0} часа назад"
 #~ msgstr[2] "{0} часов назад"
 
 #~ msgid "{0} minute ago"
+
 #~ msgid_plural "{0} minutes ago"
 #~ msgstr[0] "{0} минута назад"
 #~ msgstr[1] "{0} минуты назад"
@@ -524,12 +523,12 @@ msgstr "Узнайте последние новости о Firefox."
 
 #~ msgid "Sphinx threw an unknown exception: %s"
 #~ msgstr "Сфинкс выдал неизвестное исключение: %s"
-
 #~ msgctxt "version_choice"
+
 #~ msgid "-- all --"
 #~ msgstr "-- все --"
-
 #~ msgctxt "sentiment_choice"
+
 #~ msgid "-- all --"
 #~ msgstr "-- все --"
 
@@ -538,12 +537,12 @@ msgstr "Узнайте последние новости о Firefox."
 
 #~ msgid "Ideas"
 #~ msgstr "Идеи"
-
 #~ msgctxt "platform_choice"
+
 #~ msgid "-- all --"
 #~ msgstr "-- все --"
-
 #~ msgctxt "locale_choice"
+
 #~ msgid "-- all --"
 #~ msgstr "-- все --"
 
@@ -657,8 +656,8 @@ msgstr "Узнайте последние новости о Firefox."
 
 #~ msgid "Custom"
 #~ msgstr "Другое"
-
 #~ msgctxt "date_range_set"
+
 #~ msgid "Set"
 #~ msgstr "Установить"
 
@@ -705,6 +704,7 @@ msgstr "Узнайте последние новости о Firefox."
 #~ msgstr "Другие локали"
 
 #~ msgid "<strong>%(cnt)s</strong> message"
+
 #~ msgid_plural "<strong>%(cnt)s</strong> messages"
 #~ msgstr[0] "<strong>%(cnt)s</strong> сообщение"
 #~ msgstr[1] "<strong>%(cnt)s</strong> сообщения"
@@ -780,12 +780,13 @@ msgstr "Узнайте последние новости о Firefox."
 #~ msgstr "Просмотреть все мнения"
 
 #~ msgid "%(count)s similar message"
+
 #~ msgid_plural "%(count)s similar messages"
 #~ msgstr[0] "%(count)s похожее сообщение"
 #~ msgstr[1] "%(count)s похожих сообщения"
 #~ msgstr[2] "%(count)s похожих сообщений"
-
 #~ msgctxt "website_issues_search"
+
 #~ msgid "Search for domain"
 #~ msgstr "Поиск по домену"
 
@@ -794,15 +795,15 @@ msgstr "Узнайте последние новости о Firefox."
 
 #~ msgid "Sites"
 #~ msgstr "Сайты"
-
 #~ msgctxt "sites_search_all_feedback"
+
 #~ msgid "All"
 #~ msgstr "Все"
 
 #~ msgid "Platforms"
 #~ msgstr "Платформы"
-
 #~ msgctxt "sites_search_all_platforms"
+
 #~ msgid "All"
 #~ msgstr "Все"
 
@@ -834,6 +835,7 @@ msgstr "Узнайте последние новости о Firefox."
 #~ msgstr "сброс моего поиска"
 
 #~ msgid "%(count)s message"
+
 #~ msgid_plural "%(count)s messages"
 #~ msgstr[0] "%(count)s сообщение"
 #~ msgstr[1] "%(count)s сообщения"
@@ -846,6 +848,7 @@ msgstr "Узнайте последние новости о Firefox."
 #~ msgstr "{percentage}% проблем"
 
 #~ msgid "%(count)s similar"
+
 #~ msgid_plural "%(count)s similar"
 #~ msgstr[0] "%(count)s похожее"
 #~ msgstr[1] "%(count)s похожих"
@@ -962,20 +965,20 @@ msgstr "Узнайте последние новости о Firefox."
 
 #~ msgid "Find out the latest news from Mozilla:"
 #~ msgstr "Узнайте последние новости от Mozilla:"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "1 day"
 #~ msgstr "1 день"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "1 week"
 #~ msgstr "1 неделя"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "1 month"
 #~ msgstr "1 месяц"
-
 #~ msgctxt "dashboard_period"
+
 #~ msgid "all"
 #~ msgstr "все"
 
@@ -1053,8 +1056,8 @@ msgstr "Узнайте последние новости о Firefox."
 
 #~ msgid "Sorry! Please tell us more!"
 #~ msgstr "Очень жаль! Пожалуйста, расскажите поподробней!"
-
 #~ msgctxt "os_choice"
+
 #~ msgid "-- all --"
 #~ msgstr "-- все --"
 
@@ -1231,8 +1234,8 @@ msgstr "Узнайте последние новости о Firefox."
 
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; Предыдущая страница;"
-
 #~ msgctxt "version_choice"
+
 #~ msgid "7d"
 #~ msgstr "7д"
 
@@ -1246,6 +1249,7 @@ msgstr "Узнайте последние новости о Firefox."
 #~ msgstr "Последняя бета"
 
 #~ msgid "Most Recent Message"
+
 #~ msgid_plural "Last %(count)s Messages"
 #~ msgstr[0] "Последнее %(count)s сообщение"
 #~ msgstr[1] "Последние %(count)s сообщения"
