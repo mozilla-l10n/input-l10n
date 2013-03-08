@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-20 11:28-0700\n"
+"POT-Creation-Date: 2013-03-08 12:05-0700\n"
 "PO-Revision-Date: 2010-11-11 16:13+0200\n"
 "Last-Translator: Anas <linux.anas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,89 +13,215 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Pootle 2.1.2\n"
 
-#: fjord/analytics/views.py:130
+#: fjord/analytics/views.py:213
 #, fuzzy
 msgid "Sentiment"
 msgstr "الإحساس:"
 
-#: fjord/analytics/views.py:133
-msgid "Platform"
-msgstr "المنصة"
-
-#: fjord/analytics/views.py:135
-msgid "Locale"
-msgstr "اللغة"
-
-#: fjord/analytics/templates/analytics/dashboard.html:14 fjord/feedback/models.py:44
+#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
 #, fuzzy
 msgid "Happy"
 msgstr "سعيد"
 
-#: fjord/analytics/templates/analytics/dashboard.html:16 fjord/feedback/models.py:45
+#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
 #, fuzzy
 msgid "Sad"
 msgstr "تعيس"
 
-#: fjord/analytics/templates/analytics/dashboard.html:67
+#: fjord/analytics/views.py:217
+msgid "Platform"
+msgstr "المنصة"
+
+#: fjord/analytics/views.py:219
+msgid "Locale"
+msgstr "اللغة"
+
+#: fjord/analytics/templates/analytics/dashboard.html:75
+msgid "When"
+msgstr "متى"
+
+#. Short for 1 day.
+#: fjord/analytics/templates/analytics/dashboard.html:77
+msgid "1d"
+msgstr "يوم"
+
+#. Short for 7 days.
+#: fjord/analytics/templates/analytics/dashboard.html:79
+msgid "7d"
+msgstr "7 أيام"
+
+#. Short for 30 days.
+#: fjord/analytics/templates/analytics/dashboard.html:81
+msgid "30d"
+msgstr "30 يوم"
+
+#. Short for 90 days.
+#: fjord/analytics/templates/analytics/dashboard.html:83
+#, fuzzy
+msgid "90d"
+msgstr "30 يوم"
+
+#: fjord/analytics/templates/analytics/dashboard.html:85
+#, fuzzy
+msgid "&raquo;"
+msgstr "تالي &raquo;"
+
+#: fjord/analytics/templates/analytics/dashboard.html:89
+msgid "Start"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
+msgid "End"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:92
+#, fuzzy
+msgid "Set"
+msgstr "عيّن"
+
+#: fjord/analytics/templates/analytics/dashboard.html:115
 msgid "Latest Feedback"
 msgstr "أحدث تعليق"
 
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:119
+#, fuzzy
+msgid "Search by keyboard"
+msgstr "ابحث بالكلمة المفتاحية"
+
+#: fjord/analytics/templates/analytics/dashboard.html:137
 #, fuzzy
 msgid "Older Messages"
 msgstr "&laquo; رسائل أحدث"
 
-#: fjord/analytics/templates/analytics/dashboard.html:82
+#: fjord/analytics/templates/analytics/dashboard.html:142
 #, fuzzy
 msgid "Newer Messages"
 msgstr "رسائل أقدم &raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:153
 msgid "Messages"
 msgstr "الرسائل"
 
-#: fjord/base/helpers.py:37
+#: fjord/analytics/templates/analytics/es_down.html:7
+#, fuzzy
+msgid "Dashboard unavailable"
+msgstr "البحث غير متاح"
+
+#: fjord/analytics/templates/analytics/es_down.html:9
+msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/mobile/dashboard.html:4
+msgid "Dashboard is not available on mobile devices, yet."
+msgstr ""
+
+#: fjord/base/helpers.py:38
 #, fuzzy
 msgid "Unknown"
 msgstr "مجهول"
 
-#: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8 fjord/base/templates/500.html:8
+#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
 #, fuzzy
-msgid "Page not found"
-msgstr "غير موجود"
+msgid "Not Found"
+msgstr "لا يوجد نتائج للبحث!"
 
-#: fjord/base/templates/404.html:10
-#, fuzzy
-msgid "Sorry, but we couldn't find the page you're looking for."
-msgstr "آسف، لم أعثر على ما تبحث عنه."
-
-#: fjord/base/templates/500.html:5
-msgid "Something went wrong!"
+#: fjord/base/templates/404.html:11
+msgid "The document could not be found."
 msgstr ""
 
-#: fjord/base/templates/500.html:10
-msgid "Sorry, but something went wrong."
+#: fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:9
+msgid "Return to the dashboard."
 msgstr ""
 
-#: fjord/base/templates/base.html:4
+#: fjord/base/templates/500.html:8
+msgid "Something has gone horribly wrong"
+msgstr ""
+
+#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "آراء في فَيَرفُكس"
+
+#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
+#, fuzzy
+msgid "<strong>Firefox</strong> Input"
+msgstr "آراء في فَيَرفُكس"
+
+#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: fjord/base/templates/500.html:33
+msgid "Something has gone horribly wrong."
+msgstr ""
+
+#: fjord/base/templates/500.html:34
+msgid "There was a problem on the server."
+msgstr ""
+
+#: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10 fjord/base/templates/mobile/about.html:3
+#, fuzzy
+msgid "About Firefox Input"
+msgstr "آراء في فَيَرفُكس"
+
+#: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
 msgstr "مرحبًا"
 
-#: fjord/base/templates/base.html:20
+#: fjord/base/templates/base.html:20 fjord/base/templates/mobile/base.html:17
 msgid "Proceed to main content"
 msgstr "استمر بالذهاب إلى المحتوى الرئيسي"
 
-#: fjord/base/templates/base.html:21
+#: fjord/base/templates/base.html:21 fjord/base/templates/mobile/base.html:18
 msgid "Proceed to footer"
 msgstr "استمر بالذهاب إلى التذييل"
 
-#: fjord/base/templates/base.html:28
-msgid "<strong>Firefox</strong> Input Dashboard"
+#: fjord/base/templates/base.html:40
+msgid "Hello, {username}"
 msgstr ""
 
-#: fjord/base/templates/base.html:34
-msgid "Dashboard"
-msgstr "لوحة التحكم"
+#: fjord/base/templates/base.html:44
+msgid "Sign out"
+msgstr ""
+
+#: fjord/base/templates/base.html:46
+msgid "Sign in"
+msgstr ""
+
+#: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
+msgid "Login Failure"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:1
+msgid "Hello!"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:3
+msgid ""
+"Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
+"Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:14
+msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:20
+msgid "Open Data"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:22
+msgid ""
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:30
+msgid "Source Code"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:32
+msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgstr ""
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -108,11 +234,6 @@ msgstr "ملاحظات قانونية"
 #: fjord/base/templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "بلّغ عن إساءة استخدام للعلامات التجارية"
-
-#: fjord/base/templates/includes/footer.html:10
-#, fuzzy
-msgid "About Firefox Input"
-msgstr "آراء في فَيَرفُكس"
 
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
@@ -128,12 +249,20 @@ msgstr "لغات أخرى:"
 msgid "Go"
 msgstr "اذهب"
 
+#: fjord/base/templates/includes/login_failure_text.html:3
+msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+msgstr ""
+
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
 msgstr ""
 
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
+msgstr ""
+
+#: fjord/feedback/forms.py:41
+msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
@@ -160,11 +289,11 @@ msgstr "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة.
 msgid "Go Back"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50
 msgid "Please describe what you liked."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/feedback-form.html:30
+#: fjord/feedback/templates/feedback/feedback-form.html:30 fjord/feedback/templates/feedback/mobile/feedback.html:53
 msgid "Please describe your problem below."
 msgstr ""
 
@@ -178,30 +307,48 @@ msgid ""
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/feedback-form.html:61
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
+msgid "Check here to let us contact you to follow up on your feedback."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
+msgid "Email address (optional):"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:74
+msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:82
+#, fuzzy
+msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
+msgstr "إن استمرت المشكلة بالظهور، <a href=\"%(bug_url)s\">بلّغ عن العلة</a> رجاءً، مع ذكر عنوان الموقع الذي كنت تزوره."
+
+#: fjord/feedback/templates/feedback/feedback-form.html:90
 #, fuzzy
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:76
+#: fjord/feedback/templates/feedback/feedback-form.html:105
 #, fuzzy
 msgid "Submitting Feedback"
 msgstr "أرسِل التعليق"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:77 fjord/feedback/templates/feedback/feedback-form.html:81
+#: fjord/feedback/templates/feedback/feedback-form.html:106 fjord/feedback/templates/feedback/feedback-form.html:110
 msgid "Submit Feedback"
 msgstr "أرسِل التعليق"
 
-#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20
+#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
+#: fjord/feedback/templates/feedback/mobile/feedback.html:20
 #, fuzzy
 msgid "Submit Your Feedback"
 msgstr "أرسِل التعليق"
 
-#: fjord/feedback/templates/feedback/feedback.html:21
+#: fjord/feedback/templates/feedback/feedback.html:21 fjord/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Your feedback helps us improve Firefox."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/feedback.html:33
+#: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
 #, fuzzy
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(support_url)s\">صفحة الدعم</a>."
@@ -228,7 +375,7 @@ msgstr "أدخِل تعليقك هنا."
 msgid "Tweet feedback to your followers"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:45
+#: fjord/feedback/templates/feedback/thanks.html:45 fjord/feedback/templates/feedback/mobile/thanks.html:38
 #, fuzzy
 msgid "Shape the future of Firefox."
 msgstr "استكشف آخر الأخبار عن موزيلا:"
@@ -237,7 +384,7 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:55
+#: fjord/feedback/templates/feedback/thanks.html:55 fjord/feedback/templates/feedback/mobile/thanks.html:44
 msgid "Contribute to Mozilla."
 msgstr ""
 
@@ -245,7 +392,7 @@ msgstr ""
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:64
+#: fjord/feedback/templates/feedback/thanks.html:64 fjord/feedback/templates/feedback/mobile/thanks.html:50
 #, fuzzy
 msgid "Want to see where your feedback goes?"
 msgstr "أدخِل تعليقك هنا."
@@ -259,6 +406,93 @@ msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(dash_url)s\">ل�
 #, fuzzy
 msgid "Find the latest news about Firefox."
 msgstr "استكشف آخر الأخبار عن موزيلا:"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
+#, fuzzy
+msgid "Firefox made me happy"
+msgstr "فَيَرفُكس أسعدني..."
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:26 fjord/feedback/templates/feedback/mobile/feedback.html:43
+#, fuzzy
+msgid "Firefox made me sad"
+msgstr "فَيَرفُكس أحزنني..."
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:62
+msgid "Please be as specific as you can."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81
+msgid "The content of your feedback will be public, so please be sure not to include any personal information."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86
+msgid "Don't worry, your email will always be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92
+#, fuzzy
+msgid "Send Feedback"
+msgstr "التعليق"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:102
+#, fuzzy
+msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(support_url)s\">صفحة الدعم</a>."
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:7
+#, fuzzy
+msgid "Thank you for your feedback!"
+msgstr "شكرًا على تعليقك"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:16
+msgid "Success!"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:21
+msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:30
+msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:40
+msgid "Download the build that is right for you"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:46
+msgid "Learn how you can make Firefox and Mozilla better"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:52
+#, fuzzy
+msgid "Visit the Firefox Feedback Dashboard"
+msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(dash_url)s\">لوحة التحكم</a>."
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:56
+#, fuzzy
+msgid "Find the latest news about Mozilla."
+msgstr "استكشف آخر الأخبار عن موزيلا:"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:60
+msgid "Twitter"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:65
+msgid "Facebook"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:70
+msgid "Planet Mozilla"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Page not found"
+#~ msgstr "غير موجود"
+
+#, fuzzy
+#~ msgid "Sorry, but we couldn't find the page you're looking for."
+#~ msgstr "آسف، لم أعثر على ما تبحث عنه."
 
 #~ msgid "We already got your feedback! Thanks."
 #~ msgstr "وصلنا تعليقك! شكرًا لك."
@@ -372,10 +606,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 #~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
 #~ msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
 
-#, fuzzy
-#~ msgid "Send Feedback"
-#~ msgstr "التعليق"
-
 #~ msgid "Super! Please tell us more!"
 #~ msgstr "رائع! أخبرنا بالمزيد رجاءً!"
 
@@ -384,14 +614,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
 #~ msgid "Add URL of last visited page?"
 #~ msgstr "تريد إضافة عنوان آخر صفحة زرتها؟"
-
-#, fuzzy
-#~ msgid "Firefox made me happy"
-#~ msgstr "فَيَرفُكس أسعدني..."
-
-#, fuzzy
-#~ msgid "Firefox made me sad"
-#~ msgstr "فَيَرفُكس أحزنني..."
 
 #, fuzzy
 #~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
@@ -509,9 +731,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 #~ msgid "-- all --"
 #~ msgstr "-- الكل --"
 
-#~ msgid "Search by keyword"
-#~ msgstr "ابحث بالكلمة المفتاحية"
-
 #~ msgid "Product:"
 #~ msgstr "المنتج:"
 
@@ -526,9 +745,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
 #~ msgid "to"
 #~ msgstr "إلى"
-
-#~ msgid "Firefox Input"
-#~ msgstr "آراء في فَيَرفُكس"
 
 #~ msgid "Search Results in Firefox Beta Feedback."
 #~ msgstr "نتائج البحث في تعليقات فَيَرفُكس بيتا"
@@ -579,9 +795,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 #~ msgid "Often Mentioned"
 #~ msgstr "مذكور غالبًا"
 
-#~ msgid "Search Unavailable"
-#~ msgstr "البحث غير متاح"
-
 #~ msgid "I'm sorry, there was an error with your search."
 #~ msgstr "آسف، هناك خطأ في بحثك."
 
@@ -600,15 +813,8 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 #~ msgid "All"
 #~ msgstr "الكل"
 
-#~ msgid "When"
-#~ msgstr "متى"
-
 #~ msgid "Custom"
 #~ msgstr "مخصص"
-
-#~ msgctxt "date_range_set"
-#~ msgid "Set"
-#~ msgstr "عيّن"
 
 #~ msgid "{num} opinions on {day}"
 #~ msgstr "{num} رأيًا/آراء في {day}"
@@ -631,20 +837,11 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 #~ msgid "Last day"
 #~ msgstr "آخر يوم"
 
-#~ msgid "1d"
-#~ msgstr "يوم"
-
 #~ msgid "Last 7 days"
 #~ msgstr "آخر 7 أيام"
 
-#~ msgid "7d"
-#~ msgstr "7 أيام"
-
 #~ msgid "Last 30 days"
 #~ msgstr "آخر 30 يومًا"
-
-#~ msgid "30d"
-#~ msgstr "30 يوم"
 
 #, fuzzy
 #~ msgid "Show More Locales"
@@ -831,10 +1028,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 #~ msgid "Input Dashboard"
 #~ msgstr "لوحة تحكم التعليقات"
 
-#, fuzzy
-#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr "إن استمرت المشكلة بالظهور، <a href=\"%(bug_url)s\">بلّغ عن العلة</a> رجاءً، مع ذكر عنوان الموقع الذي كنت تزوره."
-
 #~ msgid "Clusters"
 #~ msgstr "العناقيد"
 
@@ -876,10 +1069,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
 #~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
 #~ msgstr "إن كنت تريد أن تعرف إلى أين ذهب تعليقك، ألقِ نظرة على <a href=\"%(url)s\">لوحة تحكم تعليقات فَيَرفُكس</a>."
-
-#, fuzzy
-#~ msgid "No results found"
-#~ msgstr "لا يوجد نتائج للبحث!"
 
 #~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 #~ msgstr "أوه! تريد إذًا منحنا تعليقاتك عن الإصدارة المقبلة من فَيَرفُكس. شكرًا لك، ولكن يتطلب ذلك منك أن تنزل آخر بيتا."
@@ -1017,9 +1206,6 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
 #~ msgid "happy face"
 #~ msgstr "وجه سعيد"
-
-#~ msgid "next &raquo;"
-#~ msgstr "تالي &raquo;"
 
 #~ msgid "page %(pagenum)s of %(total)s"
 #~ msgstr "الصفحة %(pagenum)s من أصل %(total)s"

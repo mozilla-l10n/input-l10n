@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-20 11:28-0700\n"
+"POT-Creation-Date: 2013-03-08 12:05-0700\n"
 "PO-Revision-Date: 2012-10-01 03:58+0200\n"
 "Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,81 +13,218 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/views.py:130
+#: fjord/analytics/views.py:213
 msgid "Sentiment"
 msgstr "評価"
 
-#: fjord/analytics/views.py:133
-msgid "Platform"
-msgstr "プラットフォーム"
-
-#: fjord/analytics/views.py:135
-msgid "Locale"
-msgstr "言語"
-
-#: fjord/analytics/templates/analytics/dashboard.html:14 fjord/feedback/models.py:44
+#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "良いところ"
 
-#: fjord/analytics/templates/analytics/dashboard.html:16 fjord/feedback/models.py:45
+#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "悪いところ"
 
-#: fjord/analytics/templates/analytics/dashboard.html:67
+#: fjord/analytics/views.py:217
+msgid "Platform"
+msgstr "プラットフォーム"
+
+#: fjord/analytics/views.py:219
+msgid "Locale"
+msgstr "言語"
+
+#: fjord/analytics/templates/analytics/dashboard.html:75
+msgid "When"
+msgstr "期間"
+
+#. Short for 1 day.
+#: fjord/analytics/templates/analytics/dashboard.html:77
+msgid "1d"
+msgstr "1日"
+
+#. Short for 7 days.
+#: fjord/analytics/templates/analytics/dashboard.html:79
+msgid "7d"
+msgstr "7日"
+
+#. Short for 30 days.
+#: fjord/analytics/templates/analytics/dashboard.html:81
+msgid "30d"
+msgstr "30日"
+
+#. Short for 90 days.
+#: fjord/analytics/templates/analytics/dashboard.html:83
+#, fuzzy
+msgid "90d"
+msgstr "30日"
+
+#: fjord/analytics/templates/analytics/dashboard.html:85
+msgid "&raquo;"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:89
+msgid "Start"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
+msgid "End"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:92
+#, fuzzy
+msgid "Set"
+msgstr "期間を設定"
+
+#: fjord/analytics/templates/analytics/dashboard.html:115
 msgid "Latest Feedback"
 msgstr "最新のフィードバック"
 
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:119
+#, fuzzy
+msgid "Search by keyboard"
+msgstr "キーワードによる検索"
+
+#: fjord/analytics/templates/analytics/dashboard.html:137
 msgid "Older Messages"
 msgstr "古いメッセージ"
 
-#: fjord/analytics/templates/analytics/dashboard.html:82
+#: fjord/analytics/templates/analytics/dashboard.html:142
 msgid "Newer Messages"
 msgstr "新しいメッセージ"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:153
 msgid "Messages"
 msgstr "メッセージ数"
 
-#: fjord/base/helpers.py:37
+#: fjord/analytics/templates/analytics/es_down.html:7
+#, fuzzy
+msgid "Dashboard unavailable"
+msgstr "検索機能は利用できません"
+
+#: fjord/analytics/templates/analytics/es_down.html:9
+msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/mobile/dashboard.html:4
+msgid "Dashboard is not available on mobile devices, yet."
+msgstr ""
+
+#: fjord/base/helpers.py:38
 msgid "Unknown"
 msgstr "不明"
 
-#: fjord/base/templates/404.html:5 fjord/base/templates/404.html:8 fjord/base/templates/500.html:8
-msgid "Page not found"
-msgstr "リクエストされたページは存在しません"
+#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
+#, fuzzy
+msgid "Not Found"
+msgstr "検索条件に一致するものは見つかりませんでした。"
 
-#: fjord/base/templates/404.html:10
-msgid "Sorry, but we couldn't find the page you're looking for."
-msgstr "申し訳ありませんが、お探しのページが見つかりません。"
+#: fjord/base/templates/404.html:11
+msgid "The document could not be found."
+msgstr ""
 
-#: fjord/base/templates/500.html:5
-msgid "Something went wrong!"
+#: fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:9
+msgid "Return to the dashboard."
+msgstr ""
+
+#: fjord/base/templates/500.html:8
+#, fuzzy
+msgid "Something has gone horribly wrong"
 msgstr "サイト内部でエラーが発生しました"
 
-#: fjord/base/templates/500.html:10
-msgid "Sorry, but something went wrong."
-msgstr "申し訳ありません、サイトの内部でエラーが発生しました。"
+#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox Input"
 
-#: fjord/base/templates/base.html:4
+#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
+#, fuzzy
+msgid "<strong>Firefox</strong> Input"
+msgstr "<strong>Firefox</strong> Input ダッシュボード"
+
+#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: fjord/base/templates/500.html:33
+#, fuzzy
+msgid "Something has gone horribly wrong."
+msgstr "サイト内部でエラーが発生しました"
+
+#: fjord/base/templates/500.html:34
+#, fuzzy
+msgid "There was a problem on the server."
+msgstr "Web サイトでどのような問題が起こりましたか？"
+
+#: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10 fjord/base/templates/mobile/about.html:3
+msgid "About Firefox Input"
+msgstr "Firefox Input について"
+
+#: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
 msgstr "ようこそ"
 
-#: fjord/base/templates/base.html:20
+#: fjord/base/templates/base.html:20 fjord/base/templates/mobile/base.html:17
 msgid "Proceed to main content"
 msgstr "コンテンツ部分へジャンプする"
 
-#: fjord/base/templates/base.html:21
+#: fjord/base/templates/base.html:21 fjord/base/templates/mobile/base.html:18
 msgid "Proceed to footer"
 msgstr "フッタ部分へジャンプする"
 
-#: fjord/base/templates/base.html:28
-msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr "<strong>Firefox</strong> Input ダッシュボード"
+#: fjord/base/templates/base.html:40
+msgid "Hello, {username}"
+msgstr ""
 
-#: fjord/base/templates/base.html:34
-msgid "Dashboard"
-msgstr "ダッシュボード"
+#: fjord/base/templates/base.html:44
+msgid "Sign out"
+msgstr ""
+
+#: fjord/base/templates/base.html:46
+msgid "Sign in"
+msgstr ""
+
+#: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
+msgid "Login Failure"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:1
+msgid "Hello!"
+msgstr "ようこそ！"
+
+#: fjord/base/templates/includes/about_text.html:3
+#, fuzzy
+msgid ""
+"Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
+"Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+msgstr ""
+"<strong>Firefox Input</strong> は、Mozilla のフィードバックを受けるための重要なサイトです。Firefox を利用してあなたが感じたことや閲覧したサイトについて、そして Mozilla がウェブをより良いものにするた"
+"めのご意見を情報収集するサイトです。このシステムは、3 つの主要なビルド (Aurora, Beta, Release) のすべてにおいて、さまざまな投稿方法で利用可能になっています。"
+
+#: fjord/base/templates/includes/about_text.html:14
+#, fuzzy
+msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgstr "あなたが利用している Firefox のバージョンへのフィードバック送信は、こちらの <a href=\"%(feedback_url)s\">フィードバック投稿ページ</a>からお願いします！"
+
+#: fjord/base/templates/includes/about_text.html:20
+msgid "Open Data"
+msgstr "Open Data"
+
+#: fjord/base/templates/includes/about_text.html:22
+#, fuzzy
+msgid ""
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
+msgstr ""
+"この情報からより多くを理解しようとしたいところですが、我々は少人数です。あなたが回答を見てみたい項目についてご意見があればお寄せください！ もし興味があれば、<a href=\"%(data_url)s\">ご連絡ください</"
+"a>！"
+
+#: fjord/base/templates/includes/about_text.html:30
+msgid "Source Code"
+msgstr "ソースコード"
+
+#: fjord/base/templates/includes/about_text.html:32
+#, fuzzy
+msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgstr "Firefox Input サービスのソースコードは <a href=\"%(source_url)s\">GitHub</a> にあります！"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -100,10 +237,6 @@ msgstr "法的事項"
 #: fjord/base/templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
 msgstr "商標の不正利用を報告"
-
-#: fjord/base/templates/includes/footer.html:10
-msgid "About Firefox Input"
-msgstr "Firefox Input について"
 
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
@@ -121,6 +254,10 @@ msgstr "他の言語:"
 msgid "Go"
 msgstr "移動"
 
+#: fjord/base/templates/includes/login_failure_text.html:3
+msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+msgstr ""
+
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
 msgstr "Input サービスモニタ"
@@ -128,6 +265,10 @@ msgstr "Input サービスモニタ"
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Input が使用するコンポーネントのリストと動作状況です。"
+
+#: fjord/feedback/forms.py:41
+msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
@@ -149,11 +290,11 @@ msgstr "私たちのブラウザが快適に動作しなかったことをお詫
 msgid "Go Back"
 msgstr "戻る"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50
 msgid "Please describe what you liked."
 msgstr "気に入った点を記入してください (日本語可)。"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:30
+#: fjord/feedback/templates/feedback/feedback-form.html:30 fjord/feedback/templates/feedback/mobile/feedback.html:53
 msgid "Please describe your problem below."
 msgstr "問題点を記入してください (日本語可)。"
 
@@ -166,36 +307,51 @@ msgid ""
 "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr ""
-"記入欄にできるだけ詳しくお書きくださいい。例えば、動作が遅いことについてのフィードバックは、関連する Web "
-"サイトを教えてください。また、ブラウジングセッションの始めなのか終りなのか、または Firefox "
-"に問題が起こる可能性のある操作をしたか等、気付いたこともお書きください。"
+"記入欄にできるだけ詳しくお書きくださいい。例えば、動作が遅いことについてのフィードバックは、関連する Web サイトを教えてください。また、ブラウジングセッションの始めなのか終りなのか、または Firefox に"
+"問題が起こる可能性のある操作をしたか等、気付いたこともお書きください。"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:61
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
+msgid "Check here to let us contact you to follow up on your feedback."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
+msgid "Email address (optional):"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:74
+msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:82
+#, fuzzy
+msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
+msgstr "問題が繰り返し発生するときは、<a href=\"%(bug_url)s\">バグとして報告</a>し、あなたがアクセスした URL を教えてください。"
+
+#: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "あなたのプライバシーを保護するため、個人を特定可能な情報をフィードバックに含めないようにしてください。"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:76
+#: fjord/feedback/templates/feedback/feedback-form.html:105
 msgid "Submitting Feedback"
 msgstr "フィードバックを送信"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:77 fjord/feedback/templates/feedback/feedback-form.html:81
+#: fjord/feedback/templates/feedback/feedback-form.html:106 fjord/feedback/templates/feedback/feedback-form.html:110
 msgid "Submit Feedback"
 msgstr "フィードバックを送る"
 
 # フィードバック送信ページの見出し
-#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20
+#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
+#: fjord/feedback/templates/feedback/mobile/feedback.html:20
 msgid "Submit Your Feedback"
 msgstr "フィードバックを送る"
 
-#: fjord/feedback/templates/feedback/feedback.html:21
+#: fjord/feedback/templates/feedback/feedback.html:21 fjord/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Your feedback helps us improve Firefox."
 msgstr "あなたのフィードバックを Firefox の改善のために役立てます。"
 
-#: fjord/feedback/templates/feedback/feedback.html:33
+#: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr ""
-"Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> "
-"サイトをご利用ください。"
+msgstr "Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> サイトをご利用ください。"
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
@@ -219,7 +375,7 @@ msgid "Tweet feedback to your followers"
 msgstr "あなたのフォロワーに向けてフィードバックをツイートする"
 
 # http://input.mozilla.org/ja/thanks で http://www.mozilla.org/firefox/channel へのリンクの前に書いてある。
-#: fjord/feedback/templates/feedback/thanks.html:45
+#: fjord/feedback/templates/feedback/thanks.html:45 fjord/feedback/templates/feedback/mobile/thanks.html:38
 msgid "Shape the future of Firefox."
 msgstr "未来の Firefox を共に作りましょう。"
 
@@ -228,7 +384,7 @@ msgstr "未来の Firefox を共に作りましょう。"
 msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 msgstr "<a href=\"%(download_url)s\">ベータ版や開発版の Firefox</a> もダウンロードしていただけます。"
 
-#: fjord/feedback/templates/feedback/thanks.html:55
+#: fjord/feedback/templates/feedback/thanks.html:55 fjord/feedback/templates/feedback/mobile/thanks.html:44
 msgid "Contribute to Mozilla."
 msgstr "Mozilla に貢献しよう。"
 
@@ -237,7 +393,7 @@ msgstr "Mozilla に貢献しよう。"
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
 msgstr "ご一緒に <a href=\"%(url)s\">Firefox と Mozilla をより良くしていきましょう</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:64
+#: fjord/feedback/templates/feedback/thanks.html:64 fjord/feedback/templates/feedback/mobile/thanks.html:50
 msgid "Want to see where your feedback goes?"
 msgstr "フィードバックの送信先が知りたいですか？"
 
@@ -249,6 +405,99 @@ msgstr "<a href=\"%(dash_url)s\">Firefox Input ダッシュボードを見る</a
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
 msgstr "Firefox についての最新情報はこちら。"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
+msgid "Firefox made me happy"
+msgstr "Firefox の良いところ"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:26 fjord/feedback/templates/feedback/mobile/feedback.html:43
+msgid "Firefox made me sad"
+msgstr "Firefox の悪いところ"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:62
+msgid "Please be as specific as you can."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81
+msgid "The content of your feedback will be public, so please be sure not to include any personal information."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86
+msgid "Don't worry, your email will always be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92
+msgid "Send Feedback"
+msgstr "フィードバックを送る"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:102
+#, fuzzy
+msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+msgstr "Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> サイトをご利用ください。"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:7
+#, fuzzy
+msgid "Thank you for your feedback!"
+msgstr "フィードバックありがとうございます"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:16
+msgid "Success!"
+msgstr ""
+
+# 上下に分割されている個所
+#: fjord/feedback/templates/feedback/mobile/thanks.html:21
+#, fuzzy
+msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
+msgstr "将来の Firefox をより使いやすく、快適にするために利用されます。"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:30
+#, fuzzy
+msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
+msgstr "Firefox for Mobile について何が起きているか興味がありませんか？ 以下のリンクで知ることができます:"
+
+# http://www.mozilla.org/firefox/channel へのリンク
+#: fjord/feedback/templates/feedback/mobile/thanks.html:40
+#, fuzzy
+msgid "Download the build that is right for you"
+msgstr "<a href=\"%(download_url)s\">ベータ版や開発版の Firefox</a> もダウンロードしていただけます。"
+
+# http://mozilla.org/contribute/
+#: fjord/feedback/templates/feedback/mobile/thanks.html:46
+#, fuzzy
+msgid "Learn how you can make Firefox and Mozilla better"
+msgstr "ご一緒に <a href=\"%(url)s\">Firefox と Mozilla をより良くしていきましょう</a>"
+
+# http://input.mozilla.org/ja/
+#: fjord/feedback/templates/feedback/mobile/thanks.html:52
+#, fuzzy
+msgid "Visit the Firefox Feedback Dashboard"
+msgstr "<a href=\"%(dash_url)s\">Firefox Input ダッシュボードを見る</a>"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:56
+#, fuzzy
+msgid "Find the latest news about Mozilla."
+msgstr "Firefox についての最新情報はこちら。"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:60
+msgid "Twitter"
+msgstr "Twitter"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:65
+msgid "Facebook"
+msgstr "Facebook"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:70
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
+
+#~ msgid "Page not found"
+#~ msgstr "リクエストされたページは存在しません"
+
+#~ msgid "Sorry, but we couldn't find the page you're looking for."
+#~ msgstr "申し訳ありませんが、お探しのページが見つかりません。"
+
+#~ msgid "Sorry, but something went wrong."
+#~ msgstr "申し訳ありません、サイトの内部でエラーが発生しました。"
 
 #~ msgid "We already got your feedback! Thanks."
 #~ msgstr "フィードバックは既に受信しています。ご協力ありがとうございます！"
@@ -393,9 +642,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
 #~ msgstr "あなたのプライバシー保護のため、個人を特定できる情報をフィードバックに含めないようにしてください。"
 
-#~ msgid "Send Feedback"
-#~ msgstr "フィードバックを送る"
-
 #~ msgid "Super! Please tell us more!"
 #~ msgstr "すばらしい！ そう感じた点を教えてください！"
 
@@ -414,12 +660,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
 #~ msgstr "Firefox for Mobile についてのフィードバックを募集しています！ なにかお気付きの点はありますか？"
 
-#~ msgid "Firefox made me happy"
-#~ msgstr "Firefox の良いところ"
-
-#~ msgid "Firefox made me sad"
-#~ msgstr "Firefox の悪いところ"
-
 #~ msgid "I have an idea for Firefox"
 #~ msgstr "Firefox への提案"
 
@@ -434,9 +674,6 @@ msgstr "Firefox についての最新情報はこちら。"
 
 #~ msgid "Thanks for sharing your feedback!"
 #~ msgstr "フィードバックの提供ありがとうございます！"
-
-#~ msgid "Want to know what's going on with Firefox for Mobile? We have many ways of staying in touch:"
-#~ msgstr "Firefox for Mobile について何が起きているか興味がありませんか？ 以下のリンクで知ることができます:"
 
 #~ msgid "See where your feedback goes."
 #~ msgstr "あなたのフィードバックの送信先を確認する"
@@ -458,9 +695,6 @@ msgstr "Firefox についての最新情報はこちら。"
 
 #~ msgid "Get the latest news on Firefox."
 #~ msgstr "Firefox についての最新情報を見る。"
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Idea"
 #~ msgstr "提案"
@@ -544,9 +778,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "-- all --"
 #~ msgstr "-- すべて --"
 
-#~ msgid "Search by keyword"
-#~ msgstr "キーワードによる検索"
-
 #~ msgid "Product:"
 #~ msgstr "製品:"
 
@@ -565,9 +796,6 @@ msgstr "Firefox についての最新情報はこちら。"
 # 具体的にどのように表示されるか不明。そのため原文ママとする。
 #~ msgid "to"
 #~ msgstr "to"
-
-#~ msgid "Firefox Input"
-#~ msgstr "Firefox Input"
 
 #~ msgid "Search Results in Firefox Beta Feedback."
 #~ msgstr "Firefox ベータ版へのフィードバックからの検索結果。"
@@ -630,9 +858,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "Often Mentioned"
 #~ msgstr "よく含まれる単語"
 
-#~ msgid "Search Unavailable"
-#~ msgstr "検索機能は利用できません"
-
 #~ msgid "I'm sorry, there was an error with your search."
 #~ msgstr "申し訳ありません。検索時にエラーが発生しました。"
 
@@ -651,15 +876,8 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "All"
 #~ msgstr "すべて"
 
-#~ msgid "When"
-#~ msgstr "期間"
-
 #~ msgid "Custom"
 #~ msgstr "期間指定"
-
-#~ msgctxt "date_range_set"
-#~ msgid "Set"
-#~ msgstr "期間を設定"
 
 # 統計グラフ中の、特定の日付と、その日のフィードバック数。
 #~ msgid "{num} opinions on {day}"
@@ -681,20 +899,11 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "Last day"
 #~ msgstr "最近 1 日以内"
 
-#~ msgid "1d"
-#~ msgstr "1日"
-
 #~ msgid "Last 7 days"
 #~ msgstr "最近 7 日以内"
 
-#~ msgid "7d"
-#~ msgstr "7日"
-
 #~ msgid "Last 30 days"
 #~ msgstr "最近 30 日以内"
-
-#~ msgid "30d"
-#~ msgstr "30日"
 
 #~ msgid "No date limit"
 #~ msgstr "期限なし"
@@ -859,35 +1068,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 #~ msgstr "この問題を再現する方法についての追加の情報がある場合は、<a href=\"%(bug_url)s\">バグ報告</a> をしてください。ご協力ありがとうございます！"
 
-#~ msgid "Hello!"
-#~ msgstr "ようこそ！"
-
-#~ msgid ""
-#~ "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it "
-#~ "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-#~ msgstr ""
-#~ "<strong>Firefox Input</strong> は、Mozilla のフィードバックを受けるための重要なサイトです。Firefox を利用してあなたが感じたことや閲覧したサイトについて、そして Mozilla がウェブをより良いものにす"
-#~ "るためのご意見を情報収集するサイトです。このシステムは、3 つの主要なビルド (Aurora, Beta, Release) のすべてにおいて、さまざまな投稿方法で利用可能になっています。"
-
-#~ msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(feedback_url)s\">the feedback submission page</a>!"
-#~ msgstr "あなたが利用している Firefox のバージョンへのフィードバック送信は、こちらの <a href=\"%(feedback_url)s\">フィードバック投稿ページ</a>からお願いします！"
-
-#~ msgid "Open Data"
-#~ msgstr "Open Data"
-
-#~ msgid ""
-#~ "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-#~ "please <a href=\"%(data_url)s\">contact us</a>!"
-#~ msgstr ""
-#~ "この情報からより多くを理解しようとしたいところですが、我々は少人数です。あなたが回答を見てみたい項目についてご意見があればお寄せください！ もし興味があれば、<a href=\"%(data_url)s\">ご連絡くださ"
-#~ "い</a>！"
-
-#~ msgid "Source Code"
-#~ msgstr "ソースコード"
-
-#~ msgid "The code for the Firefox Input web application can be found <a href=\"%(source_url)s\">on GitHub</a>!"
-#~ msgstr "Firefox Input サービスのソースコードは <a href=\"%(source_url)s\">GitHub</a> にあります！"
-
 #~ msgid "Feedback"
 #~ msgstr "フィードバック"
 
@@ -909,9 +1089,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgstr ""
 #~ "このエラーが起こる原因として、ブラウザの設定でこのサイトの <strong>Cookie の受け入れを拒否している</strong>可能性があります。<a href=\"%(cookies_url)s\">以下の指示</a>に従って Firefox の Cookie "
 #~ "を有効にしてから、再度お試しください。"
-
-#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr "問題が繰り返し発生するときは、<a href=\"%(bug_url)s\">バグとして報告</a>し、あなたがアクセスした URL を教えてください。"
 
 #~ msgid "Not Implemented"
 #~ msgstr "実装されていません"
@@ -969,9 +1146,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "Beta Channel"
 #~ msgstr "Beta チャンネル"
 
-#~ msgid "Describe the problem with the site."
-#~ msgstr "Web サイトでどのような問題が起こりましたか？"
-
 #~ msgid "Describe the problem with the website."
 #~ msgstr "Web サイトでどのような問題が起こりましたか？"
 
@@ -1003,9 +1177,6 @@ msgstr "Firefox についての最新情報はこちら。"
 # リリース版ページトップの項目。グラフと併せて表示される。
 #~ msgid "Experience Ratings"
 #~ msgstr "ユーザによる評価"
-
-#~ msgid "Facebook"
-#~ msgstr "Facebook"
 
 #~ msgid "Fair"
 #~ msgstr "普通"
@@ -1052,9 +1223,6 @@ msgstr "Firefox についての最新情報はこちら。"
 #~ msgid "Nightly Channel"
 #~ msgstr "Nightly チャンネル"
 
-#~ msgid "No results found"
-#~ msgstr "検索条件に一致するものは見つかりませんでした。"
-
 #~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 #~ msgstr "Firefox の次期バージョンへのフィードバックを試みていただきありがとうございます。ですが、フィードバックを送るには Firefox の最新のベータ版を使用する必要があります。"
 
@@ -1095,9 +1263,6 @@ msgstr "Firefox についての最新情報はこちら。"
 
 #~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 #~ msgstr "フィードバックを送るには、ダウンロードページに進み、<a href=\"%(url)s\">Firefox の最新ベータ版</a> をインストールまたはアップデートしてください。"
-
-#~ msgid "Twitter"
-#~ msgstr "Twitter"
 
 #~ msgid "What is the URL of the broken site?"
 #~ msgstr "うまく表示されないサイトの URL は？"

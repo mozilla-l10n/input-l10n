@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-20 11:28-0700\n"
+"POT-Creation-Date: 2013-03-08 12:05-0700\n"
 "PO-Revision-Date: 2012-09-24 11:51+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: \n"
@@ -13,85 +13,219 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Translate Toolkit 1.8.0\n"
 
-#: fjord/analytics/views.py:130
+#: fjord/analytics/views.py:213
 msgid "Sentiment"
 msgstr "Ndjenjë"
 
-#: fjord/analytics/views.py:133
-msgid "Platform"
-msgstr "Platformë"
-
-#: fjord/analytics/views.py:135
-msgid "Locale"
-msgstr "Vendore"
-
-#: fjord/analytics/templates/analytics/dashboard.html:14
-#: fjord/feedback/models.py:44
+#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "I lumtur"
 
-#: fjord/analytics/templates/analytics/dashboard.html:16
-#: fjord/feedback/models.py:45
+#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "I trishtuar"
 
-#: fjord/analytics/templates/analytics/dashboard.html:67
+#: fjord/analytics/views.py:217
+msgid "Platform"
+msgstr "Platformë"
+
+#: fjord/analytics/views.py:219
+msgid "Locale"
+msgstr "Vendore"
+
+#: fjord/analytics/templates/analytics/dashboard.html:75
+msgid "When"
+msgstr "Kur"
+
+#. Short for 1 day.
+#: fjord/analytics/templates/analytics/dashboard.html:77
+msgid "1d"
+msgstr "1d"
+
+#. Short for 7 days.
+#: fjord/analytics/templates/analytics/dashboard.html:79
+msgid "7d"
+msgstr "7d"
+
+#. Short for 30 days.
+#: fjord/analytics/templates/analytics/dashboard.html:81
+msgid "30d"
+msgstr "30d"
+
+#. Short for 90 days.
+#: fjord/analytics/templates/analytics/dashboard.html:83
+#, fuzzy
+msgid "90d"
+msgstr "30d"
+
+#: fjord/analytics/templates/analytics/dashboard.html:85
+msgid "&raquo;"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:89
+msgid "Start"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
+msgid "End"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:92
+#, fuzzy
+msgid "Set"
+msgstr "Vendose"
+
+#: fjord/analytics/templates/analytics/dashboard.html:115
 msgid "Latest Feedback"
 msgstr "Përshtypjet Më të Fundit"
 
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:119
+#, fuzzy
+msgid "Search by keyboard"
+msgstr "Kërkim sipas fjalëkyçash"
+
+#: fjord/analytics/templates/analytics/dashboard.html:137
 msgid "Older Messages"
 msgstr "Mesazhe Më të Vjetër"
 
-#: fjord/analytics/templates/analytics/dashboard.html:82
+#: fjord/analytics/templates/analytics/dashboard.html:142
 msgid "Newer Messages"
 msgstr "Mesazhe Më të Rinj"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:153
 msgid "Messages"
 msgstr "Mesazhe"
 
-#: fjord/base/helpers.py:37
+#: fjord/analytics/templates/analytics/es_down.html:7
+#, fuzzy
+msgid "Dashboard unavailable"
+msgstr "Kërkim i Pamundur Hëpërhë"
+
+#: fjord/analytics/templates/analytics/es_down.html:9
+msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/mobile/dashboard.html:4
+msgid "Dashboard is not available on mobile devices, yet."
+msgstr ""
+
+#: fjord/base/helpers.py:38
 msgid "Unknown"
 msgstr "E panjohur"
 
-#: fjord/base/templates/404.html:5
-#: fjord/base/templates/404.html:8
+#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
+#, fuzzy
+msgid "Not Found"
+msgstr "S'u gjetÃ«n pÃ«rfundime"
+
+#: fjord/base/templates/404.html:11
+msgid "The document could not be found."
+msgstr ""
+
+#: fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:9
+msgid "Return to the dashboard."
+msgstr ""
+
 #: fjord/base/templates/500.html:8
-msgid "Page not found"
-msgstr "Nuk u gjet faqe"
-
-#: fjord/base/templates/404.html:10
-msgid "Sorry, but we couldn't find the page you're looking for."
-msgstr "Na ndjeni, por nuk e gjetëm dot faqen që po kërkoni."
-
-#: fjord/base/templates/500.html:5
-msgid "Something went wrong!"
+#, fuzzy
+msgid "Something has gone horribly wrong"
 msgstr "Diçka shkoi ters!"
 
-#: fjord/base/templates/500.html:10
-msgid "Sorry, but something went wrong."
-msgstr "Na ndjeni, diçka shkoi ters."
+#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox Input"
 
-#: fjord/base/templates/base.html:4
+#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
+#, fuzzy
+msgid "<strong>Firefox</strong> Input"
+msgstr "Pult Përshtypjesh mbi <strong>Firefox-in</strong>"
+
+#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
+msgid "Dashboard"
+msgstr "Pulti"
+
+#: fjord/base/templates/500.html:33
+#, fuzzy
+msgid "Something has gone horribly wrong."
+msgstr "Diçka shkoi ters!"
+
+#: fjord/base/templates/500.html:34
+#, fuzzy
+msgid "There was a problem on the server."
+msgstr "PÃ«rshkruani problemin nÃ« kÃ«tÃ« \"site\"."
+
+#: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10 fjord/base/templates/mobile/about.html:3
+msgid "About Firefox Input"
+msgstr "Rreth Përshtypjeve Për Firefox-in"
+
+#: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
 msgstr "Mirë se vini"
 
-#: fjord/base/templates/base.html:20
+#: fjord/base/templates/base.html:20 fjord/base/templates/mobile/base.html:17
 msgid "Proceed to main content"
 msgstr "Kalo te lënda bazë"
 
-#: fjord/base/templates/base.html:21
+#: fjord/base/templates/base.html:21 fjord/base/templates/mobile/base.html:18
 msgid "Proceed to footer"
 msgstr "Kalo te fundfaqja"
 
-#: fjord/base/templates/base.html:28
-msgid "<strong>Firefox</strong> Input Dashboard"
-msgstr "Pult Përshtypjesh mbi <strong>Firefox-in</strong>"
+#: fjord/base/templates/base.html:40
+msgid "Hello, {username}"
+msgstr ""
 
-#: fjord/base/templates/base.html:34
-msgid "Dashboard"
-msgstr "Pulti"
+#: fjord/base/templates/base.html:44
+msgid "Sign out"
+msgstr ""
+
+#: fjord/base/templates/base.html:46
+msgid "Sign in"
+msgstr ""
+
+#: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
+msgid "Login Failure"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:1
+msgid "Hello!"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:3
+#, fuzzy
+msgid ""
+"Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
+"Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+msgstr ""
+"<strong>Firefox Input</strong> është mekanizmi parësor i Mozilla-s për grumbullim përshtypjesh. Është ndërtuar që të jetë metodë komunikimi me një kah rreth përvojave tuaja gjatë përdorimit të "
+"Firefox-it, Internetit të cilin shihni me të, dhe rreth se çfarë mund të bëjë Mozilla që ta bëjë më mirë. Sistemi funksionon për një numër mekanizmash parashtrimi për të tre rastet kryesore të "
+"montimeve."
+
+#: fjord/base/templates/includes/about_text.html:14
+#, fuzzy
+msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgstr "Për të parashtruar përshtypjet për versionin tuaj të Firefox-it, ju lutem, shkoni te <a href=\"%(feedback_url)s\">faqja e parashtrimit të përshtypjeve</a>!"
+
+#: fjord/base/templates/includes/about_text.html:20
+msgid "Open Data"
+msgstr "Hapi Të dhënat"
+
+#: fjord/base/templates/includes/about_text.html:22
+#, fuzzy
+msgid ""
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
+msgstr ""
+"Do të donim të eksperimentonim më shumë me këto të dhëna, por jemi vetëm pak vetë. Ndaj, na duhen prej jush kërkesa për pyetje që do të donit t'u jepej përgjigje! Nëse dëshironi të eksperimentoni "
+"me të dhënat tona, ju lutem, <a href=\"%(data_url)s\">lidhuni me ne</a>!"
+
+#: fjord/base/templates/includes/about_text.html:30
+msgid "Source Code"
+msgstr ""
+
+#: fjord/base/templates/includes/about_text.html:32
+#, fuzzy
+msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgstr "Kodi për zbatimin web Firefox Input mund të gjendet <a href=\"%(source_url)s\">te GitHub</a>!"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -105,13 +239,13 @@ msgstr "Shënime Ligjore"
 msgid "Report Trademark Abuse"
 msgstr "Njoftoni Shpërdorim Shenjash Tregtare"
 
-#: fjord/base/templates/includes/footer.html:10
-msgid "About Firefox Input"
-msgstr "Rreth Përshtypjeve Për Firefox-in"
-
 #: fjord/base/templates/includes/footer.html:13
-msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr "Hiq atje ku <a href=\"%(legal_url)s\">shënohet</a> ndryshe, lënda në këtë <em>site</em> lejohet sipas <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> ose cilitdo version të mëvonshëm."
+msgid ""
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
+msgstr ""
+"Hiq atje ku <a href=\"%(legal_url)s\">shënohet</a> ndryshe, lënda në këtë <em>site</em> lejohet sipas <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> ose "
+"cilitdo version të mëvonshëm."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -121,8 +255,11 @@ msgstr "Gjuhë të tjera:"
 msgid "Go"
 msgstr "Shko"
 
-#: fjord/base/templates/services/monitor.html:3
-#: fjord/base/templates/services/monitor.html:14
+#: fjord/base/templates/includes/login_failure_text.html:3
+msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+msgstr ""
+
+#: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
 msgstr "Vëzhgues Shërbimesh Mbi Përshtypjet"
 
@@ -130,13 +267,15 @@ msgstr "Vëzhgues Shërbimesh Mbi Përshtypjet"
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Listë përbërësish që përdoret te Përshtypjet dhe rreth faktit nëse funksionojnë si duhet."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:5
-#: fjord/feedback/templates/feedback/feedback.html:26
+#: fjord/feedback/forms.py:41
+msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox-i Më Kënaqi"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:7
-#: fjord/feedback/templates/feedback/feedback.html:27
+#: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
 msgid "Firefox Made Me Sad"
 msgstr "Firefox-i Më Trishtoi"
 
@@ -152,11 +291,11 @@ msgstr "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju 
 msgid "Go Back"
 msgstr "Kthehu Mbrapsht"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50
 msgid "Please describe what you liked."
 msgstr "Ju lutemi, përshkruani ç'ju pëlqeu."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:30
+#: fjord/feedback/templates/feedback/feedback-form.html:30 fjord/feedback/templates/feedback/mobile/feedback.html:53
 msgid "Please describe your problem below."
 msgstr "Ju lutemi, përshkruani më poshtë problemin tuaj."
 
@@ -165,32 +304,52 @@ msgid "If your feedback is related to a website, you can include it here."
 msgstr "Nëse përshtypjet tuaja kanë lidhje me një site web, atë mund ta përfshini këtu."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:48
-msgid "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
-msgstr "Ju lutemi, të jeni sa më i hollësishëm që mundet brenda hapësirës së lejuar. Për shembull, nëse po jepni përshtypje rreth të qenët i ngadalshëm, ju lutemi, na tregoni site-et web ku vërehet kjo, nëse e vini re në fillim apo më vonë gjatë sesionit të shfletimit dhe nëse ka ndonjë lidhje që e realizoni duke përdorur Firefox-in dhe që është veçanërisht problematike."
+msgid ""
+"Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
+"the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+msgstr ""
+"Ju lutemi, të jeni sa më i hollësishëm që mundet brenda hapësirës së lejuar. Për shembull, nëse po jepni përshtypje rreth të qenët i ngadalshëm, ju lutemi, na tregoni site-et web ku vërehet kjo, "
+"nëse e vini re në fillim apo më vonë gjatë sesionit të shfletimit dhe nëse ka ndonjë lidhje që e realizoni duke përdorur Firefox-in dhe që është veçanërisht problematike."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:61
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
+msgid "Check here to let us contact you to follow up on your feedback."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
+msgid "Email address (optional):"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:74
+msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/feedback-form.html:82
+#, fuzzy
+msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
+msgstr "Po qe se keni prapë të njëjtin problem, ju lutem, <a href=\"%(bug_url)s\">njoftojeni të metën</a>. Faleminderit!"
+
+#: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 msgstr "Që të ruhet privatësia juaj, ju lutemi, sigurohuni që te përshtypjet tuaja u nuk përmbahen të dhëna personale të identifikueshme."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:76
+#: fjord/feedback/templates/feedback/feedback-form.html:105
 msgid "Submitting Feedback"
 msgstr "Parashtrim Përshtypjesh"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:77
-#: fjord/feedback/templates/feedback/feedback-form.html:81
+#: fjord/feedback/templates/feedback/feedback-form.html:106 fjord/feedback/templates/feedback/feedback-form.html:110
 msgid "Submit Feedback"
 msgstr "Parashtroji Përshtypjet"
 
-#: fjord/feedback/templates/feedback/feedback.html:11
-#: fjord/feedback/templates/feedback/feedback.html:20
+#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
+#: fjord/feedback/templates/feedback/mobile/feedback.html:20
 msgid "Submit Your Feedback"
 msgstr "Parashtroni Përshtypjet Tuaja"
 
-#: fjord/feedback/templates/feedback/feedback.html:21
+#: fjord/feedback/templates/feedback/feedback.html:21 fjord/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Your feedback helps us improve Firefox."
 msgstr "Përshtypjet tuaja na ndihmojnë të përmirësojmë Firefox-in."
 
-#: fjord/feedback/templates/feedback/feedback.html:33
+#: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox-in, ju lutemi, vizitoni <a href=\"%(support_url)s\">Asistencën e Firefox-it</a>."
 
@@ -214,7 +373,7 @@ msgstr "Ndajini përshtypjet tuaja me të tjerët"
 msgid "Tweet feedback to your followers"
 msgstr "Shpërndajuani përshtypjet tuaja pasuesve tuaj në Twitter"
 
-#: fjord/feedback/templates/feedback/thanks.html:45
+#: fjord/feedback/templates/feedback/thanks.html:45 fjord/feedback/templates/feedback/mobile/thanks.html:38
 msgid "Shape the future of Firefox."
 msgstr "Jepini formë të ardhmes së Firefox-it."
 
@@ -222,7 +381,7 @@ msgstr "Jepini formë të ardhmes së Firefox-it."
 msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 msgstr "Shkarkoni <a href=\"%(download_url)s\">montimin që është i përshtatshëm për ju</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:55
+#: fjord/feedback/templates/feedback/thanks.html:55 fjord/feedback/templates/feedback/mobile/thanks.html:44
 msgid "Contribute to Mozilla."
 msgstr "Kontribuoni te Mozilla."
 
@@ -230,7 +389,7 @@ msgstr "Kontribuoni te Mozilla."
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
 msgstr "Mësoni se si mundeni <a href=\"%(url)s\">ta përmirësoni Firefox-in dhe Mozilla-n</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:64
+#: fjord/feedback/templates/feedback/thanks.html:64 fjord/feedback/templates/feedback/mobile/thanks.html:50
 msgid "Want to see where your feedback goes?"
 msgstr "Dëshironi të shihni se ku shkojnë përshtypjet tuaja?"
 
@@ -242,6 +401,95 @@ msgstr "Vizitoni <a href=\"%(dash_url)s\">Pultin e Përshtypjeve për Firefox-in
 msgid "Find the latest news about Firefox."
 msgstr "Shihni lajmet më të reja mbi Firefox-in."
 
+#: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
+msgid "Firefox made me happy"
+msgstr "Firefox-i më kënaqi"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:26 fjord/feedback/templates/feedback/mobile/feedback.html:43
+msgid "Firefox made me sad"
+msgstr "Firefox-i më trishtoi"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:62
+msgid "Please be as specific as you can."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81
+msgid "The content of your feedback will be public, so please be sure not to include any personal information."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86
+msgid "Don't worry, your email will always be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92
+msgid "Send Feedback"
+msgstr "Dërgoji Përshtypjet"
+
+#: fjord/feedback/templates/feedback/mobile/feedback.html:102
+#, fuzzy
+msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+msgstr "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox-in, ju lutemi, vizitoni <a href=\"%(support_url)s\">Asistencën e Firefox-it</a>."
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:7
+#, fuzzy
+msgid "Thank you for your feedback!"
+msgstr "Faleminderit për Përshtypjet Tuaja"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:16
+msgid "Success!"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:21
+#, fuzzy
+msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
+msgstr "Përshtypjet tuaja do të përdoren për të arritur në versionet e ardhshme një funksionim më të mirë të Firefox-it."
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:30
+#, fuzzy
+msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
+msgstr "Doni të jeni në dijeni se si po ecën Firefox-i për Celular? Kemi plot mënyra për të mbajtur lidhjet:"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:40
+#, fuzzy
+msgid "Download the build that is right for you"
+msgstr "Shkarkoni <a href=\"%(download_url)s\">montimin që është i përshtatshëm për ju</a>."
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:46
+#, fuzzy
+msgid "Learn how you can make Firefox and Mozilla better"
+msgstr "Mësoni se si mundeni <a href=\"%(url)s\">ta përmirësoni Firefox-in dhe Mozilla-n</a>"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:52
+#, fuzzy
+msgid "Visit the Firefox Feedback Dashboard"
+msgstr "Vizitoni <a href=\"%(dash_url)s\">Pultin e Përshtypjeve për Firefox-in</a>"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:56
+#, fuzzy
+msgid "Find the latest news about Mozilla."
+msgstr "Shihni lajmet më të reja mbi Firefox-in."
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:60
+msgid "Twitter"
+msgstr "Twitter"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:65
+msgid "Facebook"
+msgstr "Facebook"
+
+#: fjord/feedback/templates/feedback/mobile/thanks.html:70
+msgid "Planet Mozilla"
+msgstr "Planet Mozilla"
+
+#~ msgid "Page not found"
+#~ msgstr "Nuk u gjet faqe"
+
+#~ msgid "Sorry, but we couldn't find the page you're looking for."
+#~ msgstr "Na ndjeni, por nuk e gjetëm dot faqen që po kërkoni."
+
+#~ msgid "Sorry, but something went wrong."
+#~ msgstr "Na ndjeni, diçka shkoi ters."
+
 #~ msgid "We already got your feedback! Thanks."
 #~ msgstr "I kemi marrë tashmë përshtypjet tuaja! Faleminderit."
 
@@ -251,48 +499,28 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Praise"
 #~ msgstr "Vlerësim"
 
-#~ msgid ""
-#~ "Your comment contains swear words (%s). In order to help us improve our "
-#~ "products, please use words that help us create an action or to-do from your "
-#~ "constructive feedback. Thanks!"
+#~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 #~ msgstr ""
-#~ "Komenti juaj përmban fjalë fyese (%s). Që të na ndihmoni të përmirësojmë "
-#~ "produktet tona, ju lutem, përdorni te përshtypjet tuaja fjalë të dobishme që "
-#~ "mund të bëhen nxitje për veprime. Faleminderit!"
+#~ "Komenti juaj përmban fjalë fyese (%s). Që të na ndihmoni të përmirësojmë produktet tona, ju lutem, përdorni te përshtypjet tuaja fjalë të dobishme që mund të bëhen nxitje për veprime. "
+#~ "Faleminderit!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "Teksti i përshtypjeve nuk duhet të përmbajë HTML."
 
-#~ msgid ""
-#~ "Your feedback seems to contain an email address. Please remove this and "
-#~ "similar personal data from the text, then try again. Thanks!"
-#~ msgstr ""
-#~ "Duket se përshtypjet tuaja përmbajnë një adresë email. Ju lutem, hiqeni nga "
-#~ "teksti atë dhe të tjera të dhëna personale, e mandej riprovoni. "
-#~ "Faleminderit!"
+#~ msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
+#~ msgstr "Duket se përshtypjet tuaja përmbajnë një adresë email. Ju lutem, hiqeni nga teksti atë dhe të tjera të dhëna personale, e mandej riprovoni. Faleminderit!"
 
-#~ msgid ""
-#~ "Your feedback seems to contain a URL. Please remove this and similar "
-#~ "personal data from the text, then try again. Thanks!"
-#~ msgstr ""
-#~ "Duket se përshtypjet tuaja përmbajnë një URL. Ju lutem, hiqeni nga teksti "
-#~ "atë dhe të tjera të dhëna personale, e mandej riprovoni. Faleminderit!"
+#~ msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
+#~ msgstr "Duket se përshtypjet tuaja përmbajnë një URL. Ju lutem, hiqeni nga teksti atë dhe të tjera të dhëna personale, e mandej riprovoni. Faleminderit!"
 
 #~ msgid "User-Agent request header must be set."
 #~ msgstr "Titulli i kërkesës së Agjentit të Përdoruesit duhet caktuar."
 
-#~ msgid ""
-#~ "It's great to hear you want to help Mozilla make your experience better!"
-#~ msgstr ""
-#~ "Na vjen shumë mirë që dëshironi të ndihmoni Mozilla-n në përmirësimin e "
-#~ "punimit tuaj!"
+#~ msgid "It's great to hear you want to help Mozilla make your experience better!"
+#~ msgstr "Na vjen shumë mirë që dëshironi të ndihmoni Mozilla-n në përmirësimin e punimit tuaj!"
 
-#~ msgid ""
-#~ "Please choose one of the following types of feedback that you would like to "
-#~ "submit to us:"
-#~ msgstr ""
-#~ "Ju lutem, zgjidhni një nga llojet vijuese për përshtypjet që do të donit të "
-#~ "na parashtronit:"
+#~ msgid "Please choose one of the following types of feedback that you would like to submit to us:"
+#~ msgstr "Ju lutem, zgjidhni një nga llojet vijuese për përshtypjet që do të donit të na parashtronit:"
 
 #~ msgid "Firefox makes me happy because ..."
 #~ msgstr "Firefox-i më kënaq, ngaqë ..."
@@ -300,34 +528,20 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Firefox makes me sad because ..."
 #~ msgstr "Firefox-i më trishton, ngaqë ..."
 
-#~ msgid ""
-#~ "If you need help or have a problem with Firefox, please visit our <a href=\"%"
-#~ "(support_url)s\">support page</a>."
-#~ msgstr ""
-#~ "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox-in, ju lutem, "
-#~ "vizitoni <a href=\"%(support_url)s\">faqen tonë të asistencës</a>."
+#~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
+#~ msgstr "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox-in, ju lutem, vizitoni <a href=\"%(support_url)s\">faqen tonë të asistencës</a>."
 
-#~ msgid ""
-#~ "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need "
-#~ "to be on the latest version."
-#~ msgstr ""
-#~ "Oh! Pra, dëshironi të na jepni përshtypjet mbi Firefox-in. Ju faleminderit, "
-#~ "por për këtë lypset të keni versionin më të ri."
+#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+#~ msgstr "Oh! Pra, dëshironi të na jepni përshtypjet mbi Firefox-in. Ju faleminderit, por për këtë lypset të keni versionin më të ri."
 
-#~ msgid ""
-#~ "To do that, simply go to our download page and install/update to the <a "
-#~ "href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr ""
-#~ "Për këtë, thjesht shkoni te faqja jonë e shkarkimeve dhe "
-#~ "instaloni/përditësoni <a href=\"%(url)s\">versionin më të ri të Firefox-"
-#~ "it!</a>"
+#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+#~ msgstr "Për këtë, thjesht shkoni te faqja jonë e shkarkimeve dhe instaloni/përditësoni <a href=\"%(url)s\">versionin më të ri të Firefox-it!</a>"
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "Kam një Ide për Firefox-in"
 
 #~ msgid "Have an idea how Firefox could be better? Let us know."
-#~ msgstr ""
-#~ "Keni ndonjë ide se si do të ishte më i mirë Firefox-i? Na e bëni të ditur."
+#~ msgstr "Keni ndonjë ide se si do të ishte më i mirë Firefox-i? Na e bëni të ditur."
 
 #~ msgid "Include the URL of a site that worked better."
 #~ msgstr "Përfshini URL-në e një site-i që punoi më mirë."
@@ -336,53 +550,28 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "Përfshini URL-në e një site-i me problemin në fjalë."
 
 #~ msgid "If you have an idea to offer us instead, please use our"
-#~ msgstr ""
-#~ "Nëse, në vend të kësaj, keni një ide për të na dhënë, ju lutem, përdorni"
+#~ msgstr "Nëse, në vend të kësaj, keni një ide për të na dhënë, ju lutem, përdorni"
 
 #~ msgid "suggestion box"
 #~ msgstr "kutinë tonë të këshillave"
 
-#~ msgid ""
-#~ "We are sorry that you have not had a good experience with our browser. "
-#~ "Please tell us why, so we can fix it!"
-#~ msgstr ""
-#~ "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju lutemi, "
-#~ "na tregoni pse, që kështu të mund ta përmirësojmë!"
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
+#~ msgstr "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju lutemi, na tregoni pse, që kështu të mund ta përmirësojmë!"
 
-#~ msgid ""
-#~ "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! "
-#~ "Please enter your idea below:"
-#~ msgstr ""
-#~ "Pra, do të dëshironit të jepni një këshillë se si të thellohet Firefox-i? "
-#~ "Shkëlqyeshëm! Ju lutem, jepeni idenë tuaj më poshtë:"
+#~ msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
+#~ msgstr "Pra, do të dëshironit të jepni një këshillë se si të thellohet Firefox-i? Shkëlqyeshëm! Ju lutem, jepeni idenë tuaj më poshtë:"
 
-#~ msgid ""
-#~ "Know of a website that works better in this beta than it did in earlier "
-#~ "versions of Firefox? Please add the URL, so we can keep track!"
-#~ msgstr ""
-#~ "Dini ndonjë <em>site</em> web që punon më mirë nën këtë beta se sa punonte "
-#~ "me versionet e mëparshëm të Firefox-it? Ju lutem, shtojeni këtu URL-në e "
-#~ "tij, që të mund ta ndjekim!"
+#~ msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
+#~ msgstr "Dini ndonjë <em>site</em> web që punon më mirë nën këtë beta se sa punonte me versionet e mëparshëm të Firefox-it? Ju lutem, shtojeni këtu URL-në e tij, që të mund ta ndjekim!"
 
-#~ msgid ""
-#~ "Had an issue with a specific website? Please add the URL, so we can find the "
-#~ "issue faster!"
-#~ msgstr ""
-#~ "Patët problem me një <em>site</em> web të dhënë? Ju lutem, shtoni këtu "
-#~ "URL-në e tij, që kështu të mund ta gjejmë më shpejt problemin!"
+#~ msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
+#~ msgstr "Patët problem me një <em>site</em> web të dhënë? Ju lutem, shtoni këtu URL-në e tij, që kështu të mund ta gjejmë më shpejt problemin!"
 
-#~ msgid ""
-#~ "Please ensure that there is no personally identifiable information here."
-#~ msgstr ""
-#~ "Ju lutem, sigurohuni që këtu nuk përmbahen të dhëna personale të "
-#~ "identifikueshme."
+#~ msgid "Please ensure that there is no personally identifiable information here."
+#~ msgstr "Ju lutem, sigurohuni që këtu nuk përmbahen të dhëna personale të identifikueshme."
 
-#~ msgid ""
-#~ "If you have an idea to offer us instead, please send it to us through our <a "
-#~ "href=\"%(url_idea)s\">idea box</a>!"
-#~ msgstr ""
-#~ "Nëse, në vend të kësaj, keni një ide për të na dhënë, ju lutem, na e dërgoni "
-#~ "përmes <a href=\"%(url_idea)s\">kutisë tonë për idetë</a>!"
+#~ msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
+#~ msgstr "Nëse, në vend të kësaj, keni një ide për të na dhënë, ju lutem, na e dërgoni përmes <a href=\"%(url_idea)s\">kutisë tonë për idetë</a>!"
 
 #~ msgid "Your feedback will be used to create a"
 #~ msgstr "Përshtypjet tuaja do të përdoren për të mundësuar"
@@ -391,13 +580,10 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "punim më të mirë në versionet e ardhshme të Firefox-it."
 
 #~ msgid "Thanks for helping Mozilla make your experience better!"
-#~ msgstr ""
-#~ "Ju faleminderit për ndihmën që i jepni Mozilla-s në përmirësimin e punimit "
-#~ "tuaj!"
+#~ msgstr "Ju faleminderit për ndihmën që i jepni Mozilla-s në përmirësimin e punimit tuaj!"
 
 #~ msgid "Please choose the type of feedback that you would like to submit to us:"
-#~ msgstr ""
-#~ "Ju lutem, zgjidhni llojin e përshtypjes që do të donit të na parashtronit:"
+#~ msgstr "Ju lutem, zgjidhni llojin e përshtypjes që do të donit të na parashtronit:"
 
 #~ msgid "Firefox makes me happy ..."
 #~ msgstr "Firefox-i më kënaq ..."
@@ -405,34 +591,20 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Firefox makes me sad ..."
 #~ msgstr "Firefox-i më trishton ..."
 
-#~ msgid ""
-#~ "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head "
-#~ "over to our beta page and <a href=\"%(url)s\">download it!</a>"
-#~ msgstr ""
-#~ "Oh! Pra, dëshironi të na jepni përshtypje. Për këtë ju duhet Beta më i "
-#~ "fundit! Shkoni te faqja jonë për beta-n dhe <a href=\"%"
-#~ "(url)s\">Shkarkojeni!</a>"
+#~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+#~ msgstr "Oh! Pra, dëshironi të na jepni përshtypje. Për këtë ju duhet Beta më i fundit! Shkoni te faqja jonë për beta-n dhe <a href=\"%(url)s\">Shkarkojeni!</a>"
 
 #~ msgid "Give Feedback"
 #~ msgstr "Jepni Përshtypjet"
 
-#~ msgid ""
-#~ "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
-#~ msgstr ""
-#~ "Na bëhet qejfi që Firefox-i për Celular ju kënaqi! Ju lutem, na tregoni ç'ju "
-#~ "pëlqeu."
+#~ msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+#~ msgstr "Na bëhet qejfi që Firefox-i për Celular ju kënaqi! Ju lutem, na tregoni ç'ju pëlqeu."
 
-#~ msgid ""
-#~ "We're sorry Firefox for Mobile made you sad. Please tell us what happened so "
-#~ "we can fix it."
-#~ msgstr ""
-#~ "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju lutemi, "
-#~ "na tregoni pse, që kështu të mund ta ndreqim."
+#~ msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
+#~ msgstr "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju lutemi, na tregoni pse, që kështu të mund ta ndreqim."
 
 #~ msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
-#~ msgstr ""
-#~ "I duam fort idetë mbi Firefox-in për Celular! Ju lutem, përshkruani idenë më "
-#~ "poshtë."
+#~ msgstr "I duam fort idetë mbi Firefox-in për Celular! Ju lutem, përshkruani idenë më poshtë."
 
 #~ msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
 #~ msgstr "Keni një ide? <a href=\"%(url)s\">Parashtrojeni.</a>"
@@ -440,15 +612,8 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Include your last visited site?"
 #~ msgstr "Të përfshihet site-i i fundit i vizituar?"
 
-#~ msgid ""
-#~ "For your privacy, please don't include any personally identifiable "
-#~ "information in your feedback."
-#~ msgstr ""
-#~ "Që të ruhet privatësia juaj, ju lutem, sigurohuni që te përshtypjet tuaja "
-#~ "nuk përmbahen të dhëna personale të identifikueshme."
-
-#~ msgid "Send Feedback"
-#~ msgstr "Dërgoji Përshtypjet"
+#~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+#~ msgstr "Që të ruhet privatësia juaj, ju lutem, sigurohuni që te përshtypjet tuaja nuk përmbahen të dhëna personale të identifikueshme."
 
 #~ msgid "Super! Please tell us more!"
 #~ msgstr "Super! Ju lutemi, na tregoni edhe më!"
@@ -463,20 +628,10 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "Të shtohet URL e faqes së fundit të vizituar?"
 
 #~ msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
-#~ msgstr ""
-#~ "Ose jepini idetë tuaja te <a href=\"%(url_idea)s\">kutia jonë për idetë</a>!"
+#~ msgstr "Ose jepini idetë tuaja te <a href=\"%(url_idea)s\">kutia jonë për idetë</a>!"
 
-#~ msgid ""
-#~ "We love feedback about Firefox for Mobile! What would you like to tell us?"
-#~ msgstr ""
-#~ "Dëshirojmë të dëgjojmë përshtypjet tuaja mbi Firefox-in për Celular! Ç'do të "
-#~ "donit të na thoshit?"
-
-#~ msgid "Firefox made me happy"
-#~ msgstr "Firefox-i më kënaqi"
-
-#~ msgid "Firefox made me sad"
-#~ msgstr "Firefox-i më trishtoi"
+#~ msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
+#~ msgstr "Dëshirojmë të dëgjojmë përshtypjet tuaja mbi Firefox-in për Celular! Ç'do të donit të na thoshit?"
 
 #~ msgid "I have an idea for Firefox"
 #~ msgstr "Kam një ide për Firefox-in"
@@ -489,13 +644,6 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 
 #~ msgid "Thanks for sharing your feedback!"
 #~ msgstr "Ju faleminderit që na dërgoni përshtypjet tuaja!"
-
-#~ msgid ""
-#~ "Want to know what's going on with Firefox for Mobile? We have many ways of "
-#~ "staying in touch:"
-#~ msgstr ""
-#~ "Doni të jeni në dijeni se si po ecën Firefox-i për Celular? Kemi plot mënyra "
-#~ "për të mbajtur lidhjet:"
 
 #~ msgid "See where your feedback goes."
 #~ msgstr "Shihni ku venë përshtypjet tuaja."
@@ -514,9 +662,6 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 
 #~ msgid "Get the latest news on Firefox."
 #~ msgstr "Merrni lajmet e fundit mbi Firefox-in."
-
-#~ msgid "Planet Mozilla"
-#~ msgstr "Planet Mozilla"
 
 #~ msgid "Idea"
 #~ msgstr "Ide"
@@ -555,19 +700,16 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "Tjetër"
 
 #~ msgid "{0} day ago"
-
 #~ msgid_plural "{0} days ago"
 #~ msgstr[0] "{0} ditë më parë"
 #~ msgstr[1] "{0} ditë më parë"
 
 #~ msgid "{0} hour ago"
-
 #~ msgid_plural "{0} hours ago"
 #~ msgstr[0] "{0} orë më parë"
 #~ msgstr[1] "{0} orë më parë"
 
 #~ msgid "{0} minute ago"
-
 #~ msgid_plural "{0} minutes ago"
 #~ msgstr[0] "{0} minutë më parë"
 #~ msgstr[1] "{0} minuta më parë"
@@ -580,12 +722,12 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 
 #~ msgid "Sphinx threw an unknown exception: %s"
 #~ msgstr "Sphinx-i u përgjigj me një gabim të panjohur: %s"
-#~ msgctxt "version_choice"
 
+#~ msgctxt "version_choice"
 #~ msgid "-- all --"
 #~ msgstr "-- krejt --"
-#~ msgctxt "sentiment_choice"
 
+#~ msgctxt "sentiment_choice"
 #~ msgid "-- all --"
 #~ msgstr "-- krejt --"
 
@@ -594,17 +736,14 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 
 #~ msgid "Ideas"
 #~ msgstr "Ide"
+
 #~ msgctxt "platform_choice"
-
 #~ msgid "-- all --"
 #~ msgstr "-- krejt --"
+
 #~ msgctxt "locale_choice"
-
 #~ msgid "-- all --"
 #~ msgstr "-- krejt --"
-
-#~ msgid "Search by keyword"
-#~ msgstr "Kërkim sipas fjalëkyçash"
 
 #~ msgid "Product:"
 #~ msgstr "Produkt:"
@@ -626,9 +765,6 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 
 #~ msgid "to"
 #~ msgstr "deri"
-
-#~ msgid "Firefox Input"
-#~ msgstr "Firefox Input"
 
 #~ msgid "Search Results in Firefox Beta Feedback."
 #~ msgstr "Përfundime Kërkimi te Firefox Beta Feedback."
@@ -684,39 +820,20 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Often Mentioned"
 #~ msgstr "Të përmendur Shpesh"
 
-#~ msgid "Search Unavailable"
-#~ msgstr "Kërkim i Pamundur Hëpërhë"
-
 #~ msgid "I'm sorry, there was an error with your search."
 #~ msgstr "Na ndjeni, pati një gabim te kërkimi juaj."
 
-#~ msgid ""
-#~ "Our search engine might be currently unavailable. You may start over on the "
-#~ "<a href=\"%(url)s\">dashboard</a> and try again later."
-#~ msgstr ""
-#~ "Motori ynë i kërkimeve mund të jetë hëpërhë jashtë pune. Mund t'ia nisni nga "
-#~ "e para te <a href=\"%(url)s\">pulti</a> dhe të riprovoni më vonë."
+#~ msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
+#~ msgstr "Motori ynë i kërkimeve mund të jetë hëpërhë jashtë pune. Mund t'ia nisni nga e para te <a href=\"%(url)s\">pulti</a> dhe të riprovoni më vonë."
 
-#~ msgid ""
-#~ "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
-#~ "mentioning the URL you were accessing."
-#~ msgstr ""
-#~ "Po qe se keni prapë të njëjtin problem, ju lutem, <a href=\"%"
-#~ "(bug_url)s\">njoftojeni të metën</a>, duke treguar URL-në ku po provonit të "
-#~ "hynit."
+#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
+#~ msgstr "Po qe se keni prapë të njëjtin problem, ju lutem, <a href=\"%(bug_url)s\">njoftojeni të metën</a>, duke treguar URL-në ku po provonit të hynit."
 
 #~ msgid "Include the following error message in your bug report:"
 #~ msgstr "Përfshini te njoftimi juaj për të metën mesazhin vijues për gabimin:"
 
-#~ msgid "When"
-#~ msgstr "Kur"
-
 #~ msgid "Custom"
 #~ msgstr "Vetjake"
-#~ msgctxt "date_range_set"
-
-#~ msgid "Set"
-#~ msgstr "Vendose"
 
 #~ msgid "{num} opinions on {day}"
 #~ msgstr "{num} opinione më {day}"
@@ -736,20 +853,11 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Last day"
 #~ msgstr "Ditën e fundit"
 
-#~ msgid "1d"
-#~ msgstr "1d"
-
 #~ msgid "Last 7 days"
 #~ msgstr "7 ditët e fundit"
 
-#~ msgid "7d"
-#~ msgstr "7d"
-
 #~ msgid "Last 30 days"
 #~ msgstr "30 ditët e fundit"
-
-#~ msgid "30d"
-#~ msgstr "30d"
 
 #~ msgid "No date limit"
 #~ msgstr "Pa kufi date"
@@ -758,7 +866,6 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "&infin;"
 
 #~ msgid "<strong>%(cnt)s</strong> message"
-
 #~ msgid_plural "<strong>%(cnt)s</strong> messages"
 #~ msgstr[0] "<strong>%(cnt)s</strong> mesazh"
 #~ msgstr[1] "<strong>%(cnt)s</strong> mesazhe"
@@ -812,12 +919,11 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "Shihni krejt përshtypjet"
 
 #~ msgid "%(count)s similar message"
-
 #~ msgid_plural "%(count)s similar messages"
 #~ msgstr[0] "%(count)s mesazh i ngjashëm"
 #~ msgstr[1] "%(count)s mesazhe të ngjashëm"
-#~ msgctxt "website_issues_search"
 
+#~ msgctxt "website_issues_search"
 #~ msgid "Search for domain"
 #~ msgstr "Kërkim për përkatësi"
 
@@ -846,7 +952,6 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "rifilloje kërkimin tim"
 
 #~ msgid "%(count)s message"
-
 #~ msgid_plural "%(count)s messages"
 #~ msgstr[0] "%(count)s mesazh"
 #~ msgstr[1] "%(count)s mesazhe"
@@ -855,7 +960,6 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "{percentage}% vlerësim"
 
 #~ msgid "%(count)s similar"
-
 #~ msgid_plural "%(count)s similar"
 #~ msgstr[0] "%(count)s i ngjashëm"
 #~ msgstr[1] "%(count)s të ngjashëm"
@@ -864,75 +968,19 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "Na ndjeni, nuk qemë në gjendje të gjenim ç&#8217;po kërkonit."
 
 #~ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
-#~ msgstr ""
-#~ "Ju lutem, fillojani nga e para te <a href=\"%(dashboard_url)s\">pulti</a>."
+#~ msgstr "Ju lutem, fillojani nga e para te <a href=\"%(dashboard_url)s\">pulti</a>."
 
-#~ msgid ""
-#~ "If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
-#~ "bug.</a> Thanks!"
-#~ msgstr ""
-#~ "Po qe se po hapnit një lidhje e dëmtuar, ju lutem <a href=\"%"
-#~ "(bug_url)s\">njoftojeni të metën.</a> Faleminderit!"
+#~ msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "Po qe se po hapnit një lidhje e dëmtuar, ju lutem <a href=\"%(bug_url)s\">njoftojeni të metën.</a> Faleminderit!"
 
 #~ msgid "Internal Server Error"
 #~ msgstr "Gabim i Brendshëm Shërbyesi"
 
-#~ msgid ""
-#~ "An unhandled error occurred in the application. The error has been logged "
-#~ "and an administrator was notified. We apologize for the inconvenience!"
-#~ msgstr ""
-#~ "Te zbatimi ndodhi një gabim i paparashikuar. Gabimi është regjistruar dhe "
-#~ "rreth tij u njoftuan përgjegjësit. Kërkojmë ndjesë për bezdisjen!"
+#~ msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
+#~ msgstr "Te zbatimi ndodhi një gabim i paparashikuar. Gabimi është regjistruar dhe rreth tij u njoftuan përgjegjësit. Kërkojmë ndjesë për bezdisjen!"
 
-#~ msgid ""
-#~ "If you have additional information how to reproduce this problem, please <a "
-#~ "href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr ""
-#~ "Në paçi të dhëna shtesë rreth se si të riprodhohet problemi, ju lutem <a "
-#~ "href=\"%(bug_url)s\">na i tregoni.</a> Faleminderit!"
-
-#~ msgid ""
-#~ "<strong>Firefox Input</strong> is Mozilla's primary feedback mechanism. It "
-#~ "is set up to be a method of one-way communication about your experiences in "
-#~ "using Firefox, the Internet you view it through, and what Mozilla can do to "
-#~ "make that experience better. The system is available over a wide-variety of "
-#~ "submission mechanisms over all three major channels of builds."
-#~ msgstr ""
-#~ "<strong>Firefox Input</strong> është mekanizmi parësor i Mozilla-s për "
-#~ "grumbullim përshtypjesh. Është ndërtuar që të jetë metodë komunikimi me një "
-#~ "kah rreth përvojave tuaja gjatë përdorimit të Firefox-it, Internetit të "
-#~ "cilin shihni me të, dhe rreth se çfarë mund të bëjë Mozilla që ta bëjë më "
-#~ "mirë. Sistemi funksionon për një numër mekanizmash parashtrimi për të tre "
-#~ "rastet kryesore të montimeve."
-
-#~ msgid ""
-#~ "To submit feedback for your version of Firefox, please go to <a href=\"%"
-#~ "(feedback_url)s\">the feedback submission page</a>!"
-#~ msgstr ""
-#~ "Për të parashtruar përshtypjet për versionin tuaj të Firefox-it, ju lutem, "
-#~ "shkoni te <a href=\"%(feedback_url)s\">faqja e parashtrimit të "
-#~ "përshtypjeve</a>!"
-
-#~ msgid "Open Data"
-#~ msgstr "Hapi Të dhënat"
-
-#~ msgid ""
-#~ "We'd love to experiment more with this data, but we're only a few people. "
-#~ "So, we need requests from you on questions you'd like to see answered! If "
-#~ "you would like to experiment with our data, please <a href=\"%"
-#~ "(data_url)s\">contact us</a>!"
-#~ msgstr ""
-#~ "Do të donim të eksperimentonim më shumë me këto të dhëna, por jemi vetëm pak "
-#~ "vetë. Ndaj, na duhen prej jush kërkesa për pyetje që do të donit t'u jepej "
-#~ "përgjigje! Nëse dëshironi të eksperimentoni me të dhënat tona, ju lutem, <a "
-#~ "href=\"%(data_url)s\">lidhuni me ne</a>!"
-
-#~ msgid ""
-#~ "The code for the Firefox Input web application can be found <a href=\"%"
-#~ "(source_url)s\">on GitHub</a>!"
-#~ msgstr ""
-#~ "Kodi për zbatimin web Firefox Input mund të gjendet <a href=\"%"
-#~ "(source_url)s\">te GitHub</a>!"
+#~ msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr "Në paçi të dhëna shtesë rreth se si të riprodhohet problemi, ju lutem <a href=\"%(bug_url)s\">na i tregoni.</a> Faleminderit!"
 
 #~ msgid "Feedback"
 #~ msgstr "Përshtypje"
@@ -940,30 +988,15 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Welcome!"
 #~ msgstr "Mirë se vini!"
 
-#~ msgid ""
-#~ "There was an error verifying your CSRF token. Your request could not be "
-#~ "processed. We apologize for the inconvenience!"
-#~ msgstr ""
-#~ "Pati një gabim gjatë verifikimit të token-it tuaj CSRF. Kërkesa juaj nuk u "
-#~ "zbatua dot. Ju kërkojmë ndjesë për bezdinë!"
+#~ msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
+#~ msgstr "Pati një gabim gjatë verifikimit të token-it tuaj CSRF. Kërkesa juaj nuk u zbatua dot. Ju kërkojmë ndjesë për bezdinë!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up "
-#~ "<strong>not to accept cookies</strong> from us. Please follow <a href=\"%"
-#~ "(cookies_url)s\">these instructions</a> to enable cookies in Firefox, then "
-#~ "try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr ""
-#~ "Shkaku më i mundshëm i këtij gabimi është që shfletuesi juaj është "
-#~ "rregulluar <strong>të mos pranojë cookies</strong> prej nesh. Ju lutem, "
-#~ "ndiqni <a href=\"%(cookies_url)s\">këto udhëzime</a> që të aktivizoni cookie-"
-#~ "et në Firefox, e mandej riprovoni."
-
-#~ msgid ""
-#~ "If the problem persists, please <a href=\"%(bug_url)s\">file a bug.</a> "
-#~ "Thanks!"
-#~ msgstr ""
-#~ "Po qe se keni prapë të njëjtin problem, ju lutem, <a href=\"%"
-#~ "(bug_url)s\">njoftojeni të metën</a>. Faleminderit!"
+#~ "Shkaku më i mundshëm i këtij gabimi është që shfletuesi juaj është rregulluar <strong>të mos pranojë cookies</strong> prej nesh. Ju lutem, ndiqni <a href=\"%(cookies_url)s\">këto udhëzime</a> që "
+#~ "të aktivizoni cookie-et në Firefox, e mandej riprovoni."
 
 #~ msgid "User Agent"
 #~ msgstr "Agjent Përdoruesi"
@@ -974,13 +1007,8 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "User agent copied"
 #~ msgstr "Agjenti i përdoruesit u kopjua"
 
-#~ msgid ""
-#~ "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user "
-#~ "feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-#~ msgstr ""
-#~ "<strong>Mirë se vini te Firefox Input!</strong> Ky është zbatimi parësor i "
-#~ "Mozilla-s për mbledhje përshtypjesh nga përdoruesit. <a href=\"%"
-#~ "(about_url)s\">Mësoni më tepër...</a>"
+#~ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+#~ msgstr "<strong>Mirë se vini te Firefox Input!</strong> Ky është zbatimi parësor i Mozilla-s për mbledhje përshtypjesh nga përdoruesit. <a href=\"%(about_url)s\">Mësoni më tepër...</a>"
 
 #~ msgid "&laquo; Newer Messages"
 #~ msgstr "&laquo; Mesazhet Më të Rinj"
@@ -1021,21 +1049,11 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "Invalid feedback type"
 #~ msgstr "Lloj i pavlefshÃ«m pÃ«rshtypjesh"
 
-#~ msgid ""
-#~ "Oh! So, you want to offer us feedback on the next version of Firefox. "
-#~ "Thank you, but you'll need to be on our latest beta."
-#~ msgstr ""
-#~ "Oh! Pra, dÃ«shironi tÃ« na jepni pÃ«rshtypjet mbi versionin e ardhshÃ«m "
-#~ "tÃ« Firefox-it. Ju faleminderit, por pÃ«r kÃ«tÃ« lypset tÃ« bÃ«heni "
-#~ "pjesÃ« e programit tonÃ« mÃ« tÃ« fundit beta."
+#~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
+#~ msgstr "Oh! Pra, dÃ«shironi tÃ« na jepni pÃ«rshtypjet mbi versionin e ardhshÃ«m tÃ« Firefox-it. Ju faleminderit, por pÃ«r kÃ«tÃ« lypset tÃ« bÃ«heni pjesÃ« e programit tonÃ« mÃ« tÃ« fundit beta."
 
-#~ msgid ""
-#~ "To do that, simply go to our download page and install/update to the <a "
-#~ "href=\"%(url)s\">latest Firefox Beta!</a>"
-#~ msgstr ""
-#~ "PÃ«r kÃ«tÃ«, thjesht shkoni te faqja jonÃ« e shkarkimeve dhe instaloni/"
-#~ "pÃ«rditÃ«soni <a href=\"%(url)s\">versionin mÃ« tÃ« fundit tÃ« Firefox "
-#~ "Beta-s!</a>"
+#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+#~ msgstr "PÃ«r kÃ«tÃ«, thjesht shkoni te faqja jonÃ« e shkarkimeve dhe instaloni/pÃ«rditÃ«soni <a href=\"%(url)s\">versionin mÃ« tÃ« fundit tÃ« Firefox Beta-s!</a>"
 
 #~ msgid "Rate Your Experience"
 #~ msgstr "VlerÃ«soni PÃ«rvojÃ«n Tuaj"
@@ -1053,27 +1071,13 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "A duket apo sillet pasaktÃ«sisht njÃ« site web nÃ« Firefox?"
 
 #~ msgid "Provide us some details about the problem and we'll try to fix it."
-#~ msgstr ""
-#~ "Na jepni disa hollÃ«si mbi problemin dhe do tÃ« pÃ«rpiqemi ta ndreqim."
+#~ msgstr "Na jepni disa hollÃ«si mbi problemin dhe do tÃ« pÃ«rpiqemi ta ndreqim."
 
 #~ msgid "What is the URL of the site?"
 #~ msgstr "Cila Ã«shtÃ« URL-ja e \"site\"-it?"
 
-#~ msgid "Describe the problem with the site."
-#~ msgstr "PÃ«rshkruani problemin nÃ« kÃ«tÃ« \"site\"."
-
-#~ msgid "Twitter"
-#~ msgstr "Twitter"
-
-#~ msgid "Facebook"
-#~ msgstr "Facebook"
-
-#~ msgid ""
-#~ "If you want to see where your feedback was sent to, take a look at our <a "
-#~ "href=\"%(url)s\">Firefox Input Dashboard</a>."
-#~ msgstr ""
-#~ "NÃ«se dÃ«shironi tÃ« shihni se ku u dÃ«rguan pÃ«rshtypjet tuaja, hidhini "
-#~ "njÃ« sy <a href=\"%(url)s\">Pultit tonÃ« pÃ«r Firefox Input</a>."
+#~ msgid "If you want to see where your feedback was sent to, take a look at our <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+#~ msgstr "NÃ«se dÃ«shironi tÃ« shihni se ku u dÃ«rguan pÃ«rshtypjet tuaja, hidhini njÃ« sy <a href=\"%(url)s\">Pultit tonÃ« pÃ«r Firefox Input</a>."
 
 #~ msgid "Find out the latest news from Mozilla:"
 #~ msgstr "Shihni lajmet mÃ« tÃ« reja nga Mozilla:"
@@ -1081,13 +1085,8 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgid "How would you rate these aspects of Firefox for Mobile?"
 #~ msgstr "Si do t'i vlerÃ«sonit kÃ«to anÃ« tÃ« Firefox-it pÃ«r Celular?"
 
-#~ msgid ""
-#~ "Does a website look or behave incorrectly in Firefox for Mobile? Provide "
-#~ "us some details about the problem and we'll try to fix it."
-#~ msgstr ""
-#~ "A duket, ose sillet, jo si duhet nÃ« Firefox-in pÃ«r celular njÃ« \"site"
-#~ "\" web? Na jepni disa hollÃ«si mbi problemin dhe do tÃ« pÃ«rpiqemi ta "
-#~ "ndreqim."
+#~ msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
+#~ msgstr "A duket, ose sillet, jo si duhet nÃ« Firefox-in pÃ«r celular njÃ« \"site\" web? Na jepni disa hollÃ«si mbi problemin dhe do tÃ« pÃ«rpiqemi ta ndreqim."
 
 #~ msgid "What is the URL of the broken site?"
 #~ msgstr "Cila Ã«shtÃ« URL-ja e site-it tÃ« dÃ«mtuar?"
@@ -1096,9 +1095,7 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "PÃ«rshkruani problemin me site-in web."
 
 #~ msgid "Have an idea how Firefox for Mobile could be better? Let us know!"
-#~ msgstr ""
-#~ "Keni ndonjÃ« ide se si do tÃ« ishte mÃ« i mirÃ« Firefox-i pÃ«r Celular? "
-#~ "Na e bÃ«ni tÃ« ditur!"
+#~ msgstr "Keni ndonjÃ« ide se si do tÃ« ishte mÃ« i mirÃ« Firefox-i pÃ«r Celular? Na e bÃ«ni tÃ« ditur!"
 
 #~ msgid "@MozMobile"
 #~ msgstr "@MozMobile"
@@ -1140,9 +1137,7 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 #~ msgstr "VeÃ§ori"
 
 #~ msgid "How well Firefox's built-in features serve your needs"
-#~ msgstr ""
-#~ "Sa mirÃ« u shÃ«rbejnÃ« veÃ§oritÃ« e brendshme tÃ« Firefox-it nevojave "
-#~ "tuaja"
+#~ msgstr "Sa mirÃ« u shÃ«rbejnÃ« veÃ§oritÃ« e brendshme tÃ« Firefox-it nevojave tuaja"
 
 #~ msgid "Poor"
 #~ msgstr "I dobÃ«t"
@@ -1170,9 +1165,6 @@ msgstr "Shihni lajmet më të reja mbi Firefox-in."
 
 #~ msgid "Loading chart data."
 #~ msgstr "Po ngarkohen tÃ« dhÃ«na grafiku."
-
-#~ msgid "No results found"
-#~ msgstr "S'u gjetÃ«n pÃ«rfundime"
 
 #~ msgid "Frequent Ideas"
 #~ msgstr "Ide tÃ« Shpeshta"
