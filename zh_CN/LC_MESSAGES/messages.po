@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-08 12:05-0700\n"
-"PO-Revision-Date: 2013-02-01 06:47+0200\n"
-"Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
+"PO-Revision-Date: 2013-03-10 10:55+0200\n"
+"Last-Translator: Shen <steekid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -54,25 +54,22 @@ msgstr "30 天"
 
 #. Short for 90 days.
 #: fjord/analytics/templates/analytics/dashboard.html:83
-#, fuzzy
 msgid "90d"
-msgstr "30 天"
+msgstr "90 天"
 
 #: fjord/analytics/templates/analytics/dashboard.html:85
-#, fuzzy
 msgid "&raquo;"
-msgstr "下一页 &raquo;"
+msgstr "&raquo;"
 
 #: fjord/analytics/templates/analytics/dashboard.html:89
 msgid "Start"
-msgstr ""
+msgstr "开始"
 
 #: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "End"
-msgstr ""
+msgstr "结束"
 
 #: fjord/analytics/templates/analytics/dashboard.html:92
-#, fuzzy
 msgid "Set"
 msgstr "设置"
 
@@ -81,9 +78,8 @@ msgid "Latest Feedback"
 msgstr "最新反馈"
 
 #: fjord/analytics/templates/analytics/dashboard.html:119
-#, fuzzy
 msgid "Search by keyboard"
-msgstr "用关键词搜索"
+msgstr "输入关键词搜索"
 
 #: fjord/analytics/templates/analytics/dashboard.html:137
 msgid "Older Messages"
@@ -98,62 +94,56 @@ msgid "Messages"
 msgstr "消息"
 
 #: fjord/analytics/templates/analytics/es_down.html:7
-#, fuzzy
 msgid "Dashboard unavailable"
-msgstr "搜索暂不可用"
+msgstr "仪表盘不可用"
 
 #: fjord/analytics/templates/analytics/es_down.html:9
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
-msgstr ""
+msgstr "仪表盘目前不可用，请10分钟后再试。"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
-msgstr ""
+msgstr "仪表盘目前不能在移动设备上使用。"
 
 #: fjord/base/helpers.py:38
 msgid "Unknown"
 msgstr "未知"
 
 #: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
-#, fuzzy
 msgid "Not Found"
 msgstr "没有找到结果"
 
 #: fjord/base/templates/404.html:11
 msgid "The document could not be found."
-msgstr ""
+msgstr "未找到文档。"
 
 #: fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:9
 msgid "Return to the dashboard."
-msgstr ""
+msgstr "返回仪表盘。"
 
 #: fjord/base/templates/500.html:8
-#, fuzzy
 msgid "Something has gone horribly wrong"
-msgstr "某些东西出错了！"
+msgstr "某些东西发生严重错误"
 
 #: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
-#, fuzzy
 msgid "<strong>Firefox</strong> Input"
-msgstr "<strong>Firefox </strong> Input 控制面板"
+msgstr "<strong>Firefox </strong> Input"
 
 #: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
 msgid "Dashboard"
 msgstr "控制面板"
 
 #: fjord/base/templates/500.html:33
-#, fuzzy
 msgid "Something has gone horribly wrong."
-msgstr "某些东西出错了！"
+msgstr "发生严重错误。"
 
 #: fjord/base/templates/500.html:34
-#, fuzzy
 msgid "There was a problem on the server."
-msgstr "描述该站点的问题。"
+msgstr "服务器发生问题。"
 
 #: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10 fjord/base/templates/mobile/about.html:3
 msgid "About Firefox Input"
@@ -173,26 +163,25 @@ msgstr "继续至页脚"
 
 #: fjord/base/templates/base.html:40
 msgid "Hello, {username}"
-msgstr ""
+msgstr "你好，{username}"
 
 #: fjord/base/templates/base.html:44
 msgid "Sign out"
-msgstr ""
+msgstr "退出"
 
 #: fjord/base/templates/base.html:46
 msgid "Sign in"
-msgstr ""
+msgstr "登录"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
-msgstr ""
+msgstr "登录失败"
 
 #: fjord/base/templates/includes/about_text.html:1
 msgid "Hello!"
 msgstr "您好！"
 
 #: fjord/base/templates/includes/about_text.html:3
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
 "Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
@@ -201,29 +190,26 @@ msgstr ""
 "个主要的产品中都有使用，反馈的方式也多种多样。"
 
 #: fjord/base/templates/includes/about_text.html:14
-#, fuzzy
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "要针对您的 Firefox 版本提供反馈，请到 <a href=\"%(feedback_url)s\">反馈提交页面</a>！"
+msgstr "要针对您的 Firefox 版本提供反馈，请到 <a href=\"%(url)s\">反馈提交页面</a>！"
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
 msgstr "打开数据"
 
 #: fjord/base/templates/includes/about_text.html:22
-#, fuzzy
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
-msgstr "我们非常愿意使用该数据进行更多测试，但是我们人手有限。所以我们希望您能具体要求我们尽快回答某些问题！如果您想测试我们的数据，请 <a href=\"%(data_url)s\">联系我们</a>！"
+msgstr "我们非常愿意使用该数据进行更多测试，但是我们人手有限。所以我们希望您能具体要求我们尽快回答某些问题！如果您想测试我们的数据，请 联系我们！"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
 msgstr "源代码"
 
 #: fjord/base/templates/includes/about_text.html:32
-#, fuzzy
 msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "Firefox Input 网络应用程序的源代码可以在 <a href=\"%(source_url)s\">GitHub</a> 中找到！"
+msgstr "Firefox Input 网络应用程序的源代码可以在 <a href=\"%(url)s\">GitHub</a> 中找到！"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -253,7 +239,7 @@ msgstr "前往"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "Either you don't have an account here or you used the wrong Persona account to log in."
-msgstr ""
+msgstr "或者你没有这里的帐号，或者你使用了错误的 Persona 帐号登录。"
 
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
@@ -265,7 +251,7 @@ msgstr "Input 所使用的组件名单，以及它们是否在正常工作中。
 
 #: fjord/feedback/forms.py:41
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
-msgstr ""
+msgstr "请输入有效的电子邮件地址，或者选空允许我们联系你的复选框。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
@@ -309,20 +295,19 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Check here to let us contact you to follow up on your feedback."
-msgstr ""
+msgstr "选中这里让我们联系你以跟进反馈。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
 msgid "Email address (optional):"
-msgstr ""
+msgstr "电子邮件（可选）："
 
 #: fjord/feedback/templates/feedback/feedback-form.html:74
 msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-msgstr ""
+msgstr "你的反馈会公开显示，电子邮件地址则会保密。我们理解您的隐私的重要性。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
-#, fuzzy
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr "如果问题仍然存在，请<a href=\"%(bug_url)s\">提交缺陷报告。</a> 谢谢！"
+msgstr "要获得技术支持，请改用 <a href=\"%(url)s\">Mozilla 支持网站</a> 。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -407,61 +392,53 @@ msgstr "Firefox 让我难过"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:62
 msgid "Please be as specific as you can."
-msgstr ""
+msgstr "请尽可能具体。"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:81
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
-msgstr ""
+msgstr "反馈内容将会公开显示，因此请确保其中不包含您的私人信息。"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:86
 msgid "Don't worry, your email will always be kept private."
-msgstr ""
+msgstr "别着急，您的电子邮件地址始终会保密。"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:92
 msgid "Send Feedback"
 msgstr "发送反馈"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
-#, fuzzy
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr "如果您需要帮助或者有什么 Firefox 的问题，请访问 <a href=\"%(support_url)s\">Firefox 技术支持</a>。"
+msgstr "要获得技术支持，请改用 <a href=\"%(support_url)s\">Mozilla 技术支持网站</a>。"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
-#, fuzzy
 msgid "Thank you for your feedback!"
 msgstr "感谢您的反馈"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:16
 msgid "Success!"
-msgstr ""
+msgstr "成功！"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
-#, fuzzy
 msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
-msgstr "您的反馈将被用来在未来的 Firefox 版本中打造更优秀的用户体验。"
+msgstr "感谢您的反馈！您的反馈将被用来在未来的 Firefox 版本中打造更优秀的用户体验。"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
-#, fuzzy
 msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
-msgstr "想要知道 Firefox 移动版接下来会怎样吗？我们有许多方法可以让您保持联系："
+msgstr "想要知道 Firefox 接下来会怎样吗？我们有许多方法可以让您保持联系："
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
-#, fuzzy
 msgid "Download the build that is right for you"
-msgstr "下载<a href=\"%(download_url)s\">适合您的版本</a>。"
+msgstr "下载适合您的版本"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:46
-#, fuzzy
 msgid "Learn how you can make Firefox and Mozilla better"
-msgstr "了解您能怎样 <a href=\"%(url)s\">让 Firefox 和 Mozilla 变得更好</a>"
+msgstr "了解您能怎样让 Firefox 和 Mozilla 变得更好"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:52
-#, fuzzy
 msgid "Visit the Firefox Feedback Dashboard"
-msgstr "访问 <a href=\"%(dash_url)s\">Firefox 反馈信息控制面板</a>"
+msgstr "访问 Firefox 反馈信息仪表盘"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:56
-#, fuzzy
 msgid "Find the latest news about Mozilla."
 msgstr "查看有关 Firefox 的最新消息。"
 
