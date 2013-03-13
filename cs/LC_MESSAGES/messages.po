@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-13 07:57-0700\n"
-"PO-Revision-Date: 2012-09-30 17:57+0200\n"
+"PO-Revision-Date: 2013-03-14 00:45+0200\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -54,25 +54,22 @@ msgstr "30d"
 
 #. Short for 90 days.
 #: fjord/analytics/templates/analytics/dashboard.html:83
-#, fuzzy
 msgid "90d"
-msgstr "30d"
+msgstr "90d"
 
 #: fjord/analytics/templates/analytics/dashboard.html:85
-#, fuzzy
 msgid "&raquo;"
-msgstr "další &raquo;"
+msgstr "&raquo;"
 
 #: fjord/analytics/templates/analytics/dashboard.html:89
 msgid "Start"
-msgstr ""
+msgstr "Začátek"
 
 #: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "End"
-msgstr ""
+msgstr "Konec"
 
 #: fjord/analytics/templates/analytics/dashboard.html:92
-#, fuzzy
 msgid "Set"
 msgstr "Nastavit"
 
@@ -81,9 +78,8 @@ msgid "Latest Feedback"
 msgstr "Poslední reakce"
 
 #: fjord/analytics/templates/analytics/dashboard.html:119
-#, fuzzy
 msgid "Search by keyboard"
-msgstr "Hledat dle klíčového slova"
+msgstr "Hledání dle kláves"
 
 #: fjord/analytics/templates/analytics/dashboard.html:137
 msgid "Older Messages"
@@ -98,62 +94,56 @@ msgid "Messages"
 msgstr "Zprávy"
 
 #: fjord/analytics/templates/analytics/es_down.html:7
-#, fuzzy
 msgid "Dashboard unavailable"
-msgstr "Vyhledávání není dostupné"
+msgstr "Nástěnka není dostupná"
 
 #: fjord/analytics/templates/analytics/es_down.html:9
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
-msgstr ""
+msgstr "Nástěnka aktuálně není dostupná. Zkuste to prosím za 10 minut."
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
-msgstr ""
+msgstr "Nástěnka prozatím není dostupná pro mobilní zařízení."
 
 #: fjord/base/helpers.py:38
 msgid "Unknown"
 msgstr "Neznámý"
 
 #: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
-#, fuzzy
 msgid "Not Found"
-msgstr "Nebyly nalezeny žádné výsledky."
+msgstr "Nenalezeno"
 
 #: fjord/base/templates/404.html:11
 msgid "The document could not be found."
-msgstr ""
+msgstr "Dokument nebyl nalezen"
 
 #: fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:9
 msgid "Return to the dashboard."
-msgstr ""
+msgstr "Zpět na nástěnku"
 
 #: fjord/base/templates/500.html:8
-#, fuzzy
 msgid "Something has gone horribly wrong"
-msgstr "Něco je špatně!"
+msgstr "Něco je strašlivě špatně"
 
 #: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
-#, fuzzy
 msgid "<strong>Firefox</strong> Input"
-msgstr "<strong>Firefox</strong> Input Dashboard"
+msgstr "<strong>Firefox</strong> Input"
 
 #: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
 msgid "Dashboard"
 msgstr "Nástěnka"
 
 #: fjord/base/templates/500.html:33
-#, fuzzy
 msgid "Something has gone horribly wrong."
-msgstr "Něco je špatně!"
+msgstr "Něco je strašně špatně."
 
 #: fjord/base/templates/500.html:34
-#, fuzzy
 msgid "There was a problem on the server."
-msgstr "Popište svůj problém s webovou stránkou."
+msgstr "Na serveru nastal problém."
 
 #: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10 fjord/base/templates/mobile/about.html:3
 msgid "About Firefox Input"
@@ -173,37 +163,39 @@ msgstr "Přechod na patičku"
 
 #: fjord/base/templates/base.html:40
 msgid "Hello, {username}"
-msgstr ""
+msgstr "Vítej, {username}"
 
 #: fjord/base/templates/base.html:44
 msgid "Sign out"
-msgstr ""
+msgstr "Odhlášení"
 
 #: fjord/base/templates/base.html:46
 msgid "Sign in"
-msgstr ""
+msgstr "Přihlášení"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
-msgstr ""
+msgstr "Přihlášení selhalo"
 
 #: fjord/base/templates/includes/about_text.html:1
 msgid "Hello!"
 msgstr "Zdravíčko!"
 
 #: fjord/base/templates/includes/about_text.html:3
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
 "Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"<strong>Firefox Input</strong> je aplikace na sběr reakcí. Byla vytvořena pro jednosměrnou komunikaci o zkušenosti s používáním Firefoxu, prohlížením Internetu a o tom, co Mozilla může v této "
-"oblasti zlepšit. Systém je dostupný pro řadu forem odeslání na třech hlavních kanálech sestavení aplikace."
+"Firefox Input je aplikace na sběr reakcí. Byla vytvořena pro jednosměrnou "
+"komunikaci o zkušenosti s používáním Firefoxu, prohlížením Internetu a o "
+"tom, co Mozilla může v této oblasti zlepšit. Systém je dostupný pro řadu "
+"forem odeslání na třech hlavních kanálech sestavení aplikace."
 
 #: fjord/base/templates/includes/about_text.html:14
-#, fuzzy
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "Pro zaslání reakce k vaší verzi Firefoxu přejděte na <a href=\"%(feedback_url)s\">stránku odeslání reakce</a>!"
+msgstr ""
+"Pro zaslání reakce k vaší verzi Firefoxu přejděte na <a href=\"%"
+"(url)s\">stránku odeslání reakce</a>!"
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
