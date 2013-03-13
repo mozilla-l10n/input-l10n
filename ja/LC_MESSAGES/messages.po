@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-08 12:05-0700\n"
+"POT-Creation-Date: 2013-03-13 07:57-0700\n"
 "PO-Revision-Date: 2012-10-01 03:58+0200\n"
 "Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,6 +270,23 @@ msgstr "Input が使用するコンポーネントのリストと動作状況で
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
 
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Firefox のダウンロード"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:20
+#, fuzzy
+msgid "Please Download Firefox"
+msgstr "Firefox のダウンロード"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "ありがとうございます。Firefox についての意見をお持ちの場合は、最新バージョンの Firefox からフィードバックを送信してください。"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "そのためには、ダウンロードページから <a href=\"%(url)s\">最新バージョンの Firefox をダウンロード</a> してインストールしてください！"
+
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox の良いところ"
@@ -405,6 +422,11 @@ msgstr "<a href=\"%(dash_url)s\">Firefox Input ダッシュボードを見る</a
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
 msgstr "Firefox についての最新情報はこちら。"
+
+#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#, fuzzy
+msgid "Please Download Firefox!"
+msgstr "Firefox のダウンロード"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
@@ -546,15 +568,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "Firefox で起こる問題にヘルプが必要な場合は、<a href=\"%(support_url)s\">サポートページ</a>をご利用ください。"
-
-#~ msgid "Download Firefox"
-#~ msgstr "Firefox のダウンロード"
-
-#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-#~ msgstr "ありがとうございます。Firefox についての意見をお持ちの場合は、最新バージョンの Firefox からフィードバックを送信してください。"
-
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr "そのためには、ダウンロードページから <a href=\"%(url)s\">最新バージョンの Firefox をダウンロード</a> してインストールしてください！"
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "Firefox への提案"

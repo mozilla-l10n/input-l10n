@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-08 12:05-0700\n"
+"POT-Creation-Date: 2013-03-13 07:57-0700\n"
 "PO-Revision-Date: 2013-03-10 10:55+0200\n"
 "Last-Translator: Shen <steekid@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -253,6 +253,23 @@ msgstr "Input 所使用的组件名单，以及它们是否在正常工作中。
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr "请输入有效的电子邮件地址，或者选空允许我们联系你的复选框。"
 
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "下载 Firefox"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:20
+#, fuzzy
+msgid "Please Download Firefox"
+msgstr "下载 Firefox"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "噢！看来您想要对 Firefox 提供反馈。感谢您的支持，但您需要使用最新版本才能反馈。"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "您只需访问我们的下载页面，并安装或更新至 <a href=\"%(url)s\">Firefox 最新版本！</a>"
+
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox 让我开心"
@@ -382,6 +399,11 @@ msgstr "访问 <a href=\"%(dash_url)s\">Firefox 反馈信息控制面板</a>"
 msgid "Find the latest news about Firefox."
 msgstr "查看有关 Firefox 的最新消息。"
 
+#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#, fuzzy
+msgid "Please Download Firefox!"
+msgstr "下载 Firefox"
+
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
 msgstr "Firefox 让我高兴"
@@ -510,15 +532,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "如果您需要帮助或者有什么 Firefox 的问题，请访问我们的 <a href=\"%(support_url)s\">技术支持页面</a>。"
-
-#~ msgid "Download Firefox"
-#~ msgstr "下载 Firefox"
-
-#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-#~ msgstr "噢！看来您想要对 Firefox 提供反馈。感谢您的支持，但您需要使用最新版本才能反馈。"
-
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr "您只需访问我们的下载页面，并安装或更新至 <a href=\"%(url)s\">Firefox 最新版本！</a>"
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "我有个关于 Firefox 的点子"

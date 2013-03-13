@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-08 12:05-0700\n"
+"POT-Creation-Date: 2013-03-13 07:57-0700\n"
 "PO-Revision-Date: 2012-09-21 16:11+0100\n"
 "Last-Translator: Leszek Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: PL <leszekz@gmail.com>\n"
@@ -270,6 +270,23 @@ msgstr "Wykaz używanych komponentów i poprawności ich działania."
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
 
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Pobierz wersję beta"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:20
+#, fuzzy
+msgid "Please Download Firefox"
+msgstr "Pobierz wersję beta"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Och! Chcesz zaoferować nam opinię o Firefoksie. Dziękujemy, ale musisz mieć zainstalowaną najnowszą wersję."
+
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Aby to zrobić, przejdź do naszej strony pobierania i zainstaluj lub zaktualizuj <a href=\"%(url)s\">Firefoksa</a>!"
+
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox wywołuje u mnie uczucie szczęścia"
@@ -399,6 +416,11 @@ msgstr "Przejdź do <a href=\"%(dash_url)s\">panelu opinii o Firefoksie</a>"
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
 msgstr "Zobacz najnowsze wiadomości o Firefoksie:"
+
+#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#, fuzzy
+msgid "Please Download Firefox!"
+msgstr "Pobierz wersję beta"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
@@ -537,15 +559,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "Jeśli potrzebujesz pomocy lub masz problem z Firefoksem, odwiedź naszą <a href=\"%(support_url)s\">stronę pomocy</a>."
-
-#~ msgid "Download Firefox"
-#~ msgstr "Pobierz wersję beta"
-
-#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-#~ msgstr "Och! Chcesz zaoferować nam opinię o Firefoksie. Dziękujemy, ale musisz mieć zainstalowaną najnowszą wersję."
-
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr "Aby to zrobić, przejdź do naszej strony pobierania i zainstaluj lub zaktualizuj <a href=\"%(url)s\">Firefoksa</a>!"
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "Mam pomysł dla Firefoksa"

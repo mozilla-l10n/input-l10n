@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-08 12:05-0700\n"
+"POT-Creation-Date: 2013-03-13 07:57-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -273,6 +273,25 @@ msgstr "List of components that Input uses and whether they are functioning corr
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr "Please enter a valid email address, or uncheck the box allowing us to contact you."
 
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+#, fuzzy
+msgid "Download Firefox"
+msgstr "Download Beta"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:20
+msgid "Please Download Firefox"
+msgstr "Please Download Firefox"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+#, fuzzy
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
+
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+#, fuzzy
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 #, fuzzy
 msgid "Firefox Made Me Happy"
@@ -420,6 +439,10 @@ msgstr "Please start over on the <a href=\"%(dash_url)s\">dashboard</a>."
 #, fuzzy
 msgid "Find the latest news about Firefox."
 msgstr "Find out the latest news from Mozilla:"
+
+#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+msgid "Please Download Firefox!"
+msgstr "Please Download Firefox!"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 #, fuzzy
@@ -594,9 +617,6 @@ msgstr "Planet Mozilla"
 #, fuzzy
 #~ msgid "Your feedback will be used to create a"
 #~ msgstr "Your feedback will be used to create a better experience in future releases of Firefox."
-
-#~ msgid "Download Beta"
-#~ msgstr "Download Beta"
 
 #~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 #~ msgstr "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
@@ -1246,9 +1266,6 @@ msgstr "Planet Mozilla"
 #~ msgid "Nightly Channel"
 #~ msgstr "Nightly Channel"
 
-#~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-#~ msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-
 #~ msgid "Page Load Time"
 #~ msgstr "Page Load Time"
 
@@ -1282,9 +1299,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Start-Up Time"
 #~ msgstr "Start-Up Time"
-
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-#~ msgstr "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 
 #~ msgid "What is the URL of the broken site?"
 #~ msgstr "What is the URL of the broken site?"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-08 12:05-0700\n"
+"POT-Creation-Date: 2013-03-13 07:57-0700\n"
 "PO-Revision-Date: 2012-09-21 14:06+0200\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,6 +266,23 @@ msgstr "Inter 所使用的元件清單，以及他們是否正常執行中。"
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
 
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "下載 Firefox"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:20
+#, fuzzy
+msgid "Please Download Firefox"
+msgstr "下載 Firefox"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "喔，您似乎想要回報對 Firefox 的意見。感謝您的支持，但您必須使用最新版本才能回報。"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox</a> 即可！"
+
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox 讓我覺得高興"
@@ -395,6 +412,11 @@ msgstr "看看 <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
 msgstr "閱讀 Firefox 的最新消息。"
+
+#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#, fuzzy
+msgid "Please Download Firefox!"
+msgstr "下載 Firefox"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
@@ -532,15 +554,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "若您有跟 Firefox 有關的問題需要幫助，請看看我們的 <a href=\"%(support_url)s\">技術支援頁面</a>。"
-
-#~ msgid "Download Firefox"
-#~ msgstr "下載 Firefox"
-
-#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-#~ msgstr "喔，您似乎想要回報對 Firefox 的意見。感謝您的支持，但您必須使用最新版本才能回報。"
-
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox</a> 即可！"
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "我有個 Firefox 的點子"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-08 12:05-0700\n"
+"POT-Creation-Date: 2013-03-13 07:57-0700\n"
 "PO-Revision-Date: 2012-10-22 20:42+0100\n"
 "Last-Translator: wladow <info@wladow.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
@@ -271,6 +271,23 @@ msgstr "Zoznam komponentov, ktoré Input používa a či fungujú korektne."
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
 
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Prevziať Firefox"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:20
+#, fuzzy
+msgid "Please Download Firefox"
+msgstr "Prevziať Firefox"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Oh! Chcete nám napísať názor na prehliadač Firefox? Ďakujeme, ale musíte používať jeho najnovšiu verziu."
+
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Ak tak chcete urobiť, jednoducho prejdite na stránku Na prevzatie a nainštalujte si alebo aktualizujte na <a href=\"%(url)s\">najnovšiu verziu Firefoxu</a>."
+
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox mi zlepšil náladu"
@@ -400,6 +417,11 @@ msgstr "Navštívte stránku <a href=\"%(dash_url)s\">Nástenka názorov na Fire
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
 msgstr "Najnovšie správy o Firefoxe"
+
+#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#, fuzzy
+msgid "Please Download Firefox!"
+msgstr "Prevziať Firefox"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
@@ -537,15 +559,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "Ak potrebujete pomoc alebo máte problém s prehliadačom Firefox, navštívte naše <a href=\"%(support_url)s\">stránky podpory</a>."
-
-#~ msgid "Download Firefox"
-#~ msgstr "Prevziať Firefox"
-
-#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-#~ msgstr "Oh! Chcete nám napísať názor na prehliadač Firefox? Ďakujeme, ale musíte používať jeho najnovšiu verziu."
-
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr "Ak tak chcete urobiť, jednoducho prejdite na stránku Na prevzatie a nainštalujte si alebo aktualizujte na <a href=\"%(url)s\">najnovšiu verziu Firefoxu</a>."
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "Mám nápad pre Firefox"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-08 12:05-0700\n"
+"POT-Creation-Date: 2013-03-13 07:57-0700\n"
 "PO-Revision-Date: 2012-05-18 11:13+0200\n"
 "Last-Translator: Channy <channy@mozilla.or.kr>\n"
 "Language-Team: Korean\n"
@@ -272,6 +272,23 @@ msgstr ""
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
 
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Firefox 다운로드"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:20
+#, fuzzy
+msgid "Please Download Firefox"
+msgstr "Firefox 다운로드"
+
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Firefox 에 대한 의견을 제공해 주셔서 감사합니다. 제안 사항은 다음 번 출시에서 확인해 주십시오."
+
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "다운로드 페이지에서 최신 <a href=\"%(url)s\">Firefox 정식</a>버전을 받아 설치 및 업데이트 하시기 바랍니다."
+
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox 좋음"
@@ -400,6 +417,11 @@ msgstr "<a href=\"%(dash_url)s\">Firefox 의견 현황</a> 보기"
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
 msgstr "Firefox 최근 소식을 찾습니다."
+
+#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#, fuzzy
+msgid "Please Download Firefox!"
+msgstr "Firefox 다운로드"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
@@ -536,15 +558,6 @@ msgstr "Mozilla 블로그"
 
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "Firefox 사용에 문제가 있으시면 <a href=\"%(support_url)s\">사용자 지원</a>페이지를 참고하십시오."
-
-#~ msgid "Download Firefox"
-#~ msgstr "Firefox 다운로드"
-
-#~ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-#~ msgstr "Firefox 에 대한 의견을 제공해 주셔서 감사합니다. 제안 사항은 다음 번 출시에서 확인해 주십시오."
-
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-#~ msgstr "다운로드 페이지에서 최신 <a href=\"%(url)s\">Firefox 정식</a>버전을 받아 설치 및 업데이트 하시기 바랍니다."
 
 #~ msgid "I Have an Idea for Firefox"
 #~ msgstr "Firefox 위한 아이디어"
