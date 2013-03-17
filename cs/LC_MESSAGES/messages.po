@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-13 07:57-0700\n"
-"PO-Revision-Date: 2013-03-14 00:45+0200\n"
+"PO-Revision-Date: 2013-03-17 23:54+0200\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -202,20 +202,22 @@ msgid "Open Data"
 msgstr "Otevřená data"
 
 #: fjord/base/templates/includes/about_text.html:22
-#, fuzzy
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
-msgstr "Rádi bychom s těmito daty experimentovali více, ale je nás pouze pár. Pokud byste s nimi rádi experimentovali vy, <a href=\"%(data_url)s\">kontaktujte nás</a>!"
+msgstr ""
+"Rádi bychom s těmito daty experimentovali více, ale je nás pouze pár. Pokud "
+"byste s nimi rádi experimentovali vy, kontaktujte nás!"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
 msgstr "Zdrojový kód"
 
 #: fjord/base/templates/includes/about_text.html:32
-#, fuzzy
 msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "Kód webové aplikace Firefox Input můžete nalézet <a href=\"%(source_url)s\">na serveru GitHub</a>!"
+msgstr ""
+"Kód webové aplikace Firefox Input můžete nalézt <a href=\"%(url)s\">na serveru "
+"GitHub</a>!"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -248,6 +250,8 @@ msgstr "Přejít"
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "Either you don't have an account here or you used the wrong Persona account to log in."
 msgstr ""
+"Případně zde nemáte účet či jste použil(a) pro přihlášení špatný účet "
+"Persona."
 
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
@@ -260,15 +264,16 @@ msgstr "Seznam komponent, které Input používá a to, zda jsou nyní korektně
 #: fjord/feedback/forms.py:41
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
+"Zadejte prosím platnou e-mailovou adresu či odškrtněte políčko, které nám "
+"povoluje vás kontaktovat."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
 msgstr "Stáhnout Firefox"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:20
-#, fuzzy
 msgid "Please Download Firefox"
-msgstr "Stáhnout Firefox"
+msgstr "Stáhněte si prosím Firefox"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
@@ -320,20 +325,23 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Check here to let us contact you to follow up on your feedback."
-msgstr ""
+msgstr "Zaškrtněte, pokud si přejete, abychom vás mohli kontaktovat."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
 msgid "Email address (optional):"
-msgstr ""
+msgstr "E-mailová adresa (volitelné):"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:74
 msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 msgstr ""
+"Ačkoliv bude vaše reakce zobrazena veřejně, e-mailová adresa bude považována "
+"za soukromou. Rozumíme, že je ochrana vašeho soukromí důležitá."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
-#, fuzzy
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr "Pokud problém přetrvá, <a href=\"%(bug_url)s\">nahlašte prosím chybu</a>. Děkujeme!"
+msgstr ""
+"Pro žádosti o podporu navštivte spíše web <a href=\"%(url)s\">Podpora "
+"Mozilly</a>."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -409,9 +417,8 @@ msgid "Find the latest news about Firefox."
 msgstr "Přečíst si poslední novinky o Firefoxu."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
-#, fuzzy
 msgid "Please Download Firefox!"
-msgstr "Stáhnout Firefox"
+msgstr "Stáhněte si prosím Firefox!"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
@@ -423,63 +430,64 @@ msgstr "Firefox mě zklamal"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:62
 msgid "Please be as specific as you can."
-msgstr ""
+msgstr "Buďte prosím co nejvíce konkrétní."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:81
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr ""
+"Obsah vaší reakce bude veřejně přístupný, takže v ní prosím neuvádějte žádné "
+"osobní informace."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:86
 msgid "Don't worry, your email will always be kept private."
 msgstr ""
+"Nemusíte se obávat, vaše e-mailová adresa bude vždy považována za soukromou."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:92
 msgid "Send Feedback"
 msgstr "Poslat reakci"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
-#, fuzzy
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr "Pokud potřebujete pomoc nebo máte problém s Firefoxem, navštivte naše <a href=\"%(support_url)s\">stránky podpory</a>."
+msgstr ""
+"Pokud potřebujete pomoci, navštivte web <a href=\"%(support_url)s\">Podpora "
+"Mozilly</a>."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
-#, fuzzy
 msgid "Thank you for your feedback!"
-msgstr "Děkujeme za vaši reakci."
+msgstr "Děkujeme za vaši reakci!"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:16
 msgid "Success!"
-msgstr ""
+msgstr "Úspěch!"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
-#, fuzzy
 msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
-msgstr "Vaše reakce bude použita pro vytvoření lepších verzí Firefoxu."
+msgstr ""
+"Děkujeme za reakci! Použijeme ji pro vytvoření lepších budoucích verzí "
+"Firefoxu."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
-#, fuzzy
 msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
-msgstr "Chcete vědět, co se děje okolo Firefoxu pro mobily? Existuje řada způsobů, jak zůstat v obraze:"
+msgstr ""
+"Chcete vědět, co se děje okolo Firefoxu? Existuje řada způsobů, jak zůstat v "
+"obraze:"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
-#, fuzzy
 msgid "Download the build that is right for you"
-msgstr "Stáhněte si <a href=\"%(download_url)s\">verzi, která vám nejvíce vyhovuje</a>."
+msgstr "Stáhněte si verzi, která vám nejvíce vyhovuje"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:46
-#, fuzzy
 msgid "Learn how you can make Firefox and Mozilla better"
-msgstr "Přečtěte si, jak můžete <a href=\"%(url)s\">učinit Firefoxu a Mozillu lepším</a>."
+msgstr "Přečtěte si, jak můžete učinit Firefoxu a Mozillu lepším."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:52
-#, fuzzy
 msgid "Visit the Firefox Feedback Dashboard"
-msgstr "Navštivte <a href=\"%(dash_url)s\">nástěnku Firefox Feedback</a>"
+msgstr "Navštivte nástěnku Firefox Feedback"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:56
-#, fuzzy
 msgid "Find the latest news about Mozilla."
-msgstr "Přečíst si poslední novinky o Firefoxu."
+msgstr "Přečtěte si poslední novinky o Mozille."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:60
 msgid "Twitter"
