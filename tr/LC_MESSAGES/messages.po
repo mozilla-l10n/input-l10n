@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-13 07:57-0700\n"
-"PO-Revision-Date: 2013-04-02 09:42+0200\n"
+"PO-Revision-Date: 2013-04-10 13:49+0200\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -186,10 +186,18 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
 "Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
+"Firefox Input, Mozilla'nın birincil geri bildirim mekanizmasıdır. Firefox'u "
+"kullanırken ve Firefox'tan baktığınız internetle ilgili yaşadığınız "
+"deneyimler ile Mozilla'nın bu deneyimi daha iyi hâle getirmek için neler "
+"yapabileceğini bizimle paylaşmanız için tek yönlü bir iletişim yöntemidir. "
+"Sistem, üç dağıtım kanalımızın hepsinde çeşitli gönderi mekanizmaları "
+"sunmaktadır."
 
 #: fjord/base/templates/includes/about_text.html:14
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
+"Kullandığınız Firefox sürümüyle ilgili geri bildirimde bulunmak için lütfen "
+"<a href=\"%(url)s\">geri bildirim gönderim sayfasını</a> ziyaret edin."
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
@@ -200,6 +208,10 @@ msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
 msgstr ""
+"Elimizdeki verilerle daha fazla deney yapmak istiyoruz ama işgücümüz oldukça "
+"az. Bu yüzden, verilerin öncelikli olarak nasıl değerlendirilmesini "
+"istediğinizi bize yazın! Elimizdeki verileri kullanmak isterseniz de bizimle "
+"iletişime geçebilirsiniz."
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
@@ -242,6 +254,8 @@ msgstr "Git:"
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "Either you don't have an account here or you used the wrong Persona account to log in."
 msgstr ""
+"Burada hesabınız yok veya oturum açmak için yanlış Persona hesabını "
+"kullandınız."
 
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
@@ -254,6 +268,8 @@ msgstr "Input'un kullandığı bileşenlerin ve doğru çalışıp çalışmadı
 #: fjord/feedback/forms.py:41
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
+"Lütfen geçerli bir e-posta adresi girin veya sizinle iletişim kurmamıza izin "
+"veren kutudaki işareti kaldırın."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -266,10 +282,14 @@ msgstr "Lütfen Firefox'u indirin"
 #: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
 msgstr ""
+"Firefox ile ilgili geri bildirimde bulunmak istemenize sevindik, ama bunun "
+"için son sürümü kullanmanız gerekiyor."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr ""
+"Lütfen indirme sayfamıza giderek <a href=\"%(url)s\">Firefox'un son "
+"sürümünü</a> yükleyin veya güncelleyin."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
@@ -314,18 +334,24 @@ msgstr ""
 #: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr ""
+"Geri bildiriminizle ilgili olarak sizinle iletişime geçmemize izin "
+"veriyorsanız burayı işaretleyin."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
 msgid "Email address (optional):"
-msgstr ""
+msgstr "E-posta adresi (tercihe bağlı):"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:74
 msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 msgstr ""
+"Geri bildiriminiz herkes tarafından görülecektir ama e-posta adresiniz gizli "
+"tutulacaktır. Gizliliğinizin önemini çok iyi anlıyoruz."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 msgstr ""
+"Destek talepleriniz için lütfen bu sayfa yerine <a href=\"%(url)s\">Mozilla "
+"Desteği</a>'ni kullanın."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -419,15 +445,16 @@ msgstr "Lütfen mümkün olduğunda detay verin."
 #: fjord/feedback/templates/feedback/mobile/feedback.html:81
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr ""
+"Geri bildiriminizin içeriği herkes tarafından görülebilecektir, o yüzden "
+"lütfen herhangi bir kişisel bilgi yazmayın."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:86
 msgid "Don't worry, your email will always be kept private."
-msgstr ""
+msgstr "Merak etmeyin, e-posta adresiniz daima gizli kalacaktır."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:92
-#, fuzzy
 msgid "Send Feedback"
-msgstr "Son geri bildirim"
+msgstr "Geri bildirim gönder"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
@@ -452,6 +479,8 @@ msgstr ""
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
 msgstr ""
+"Firefox'ta neler olup bittiğini öğrenmek ister misiniz? İrtibatımızı "
+"sürdürmenin birkaç yolu var:"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
 msgid "Download the build that is right for you"
