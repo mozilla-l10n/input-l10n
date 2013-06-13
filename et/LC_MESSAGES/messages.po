@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-13 07:57-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2013-06-13 21:56+0200\n"
+"Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.8.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
 
 #: fjord/analytics/views.py:213
 msgid "Sentiment"
@@ -21,14 +22,14 @@ msgstr ""
 #: fjord/analytics/templates/analytics/dashboard.html:15
 #: fjord/feedback/models.py:54
 msgid "Happy"
-msgstr ""
+msgstr "Rõõmus"
 
 #: fjord/analytics/views.py:214
 #: fjord/analytics/views.py:247
 #: fjord/analytics/templates/analytics/dashboard.html:17
 #: fjord/feedback/models.py:55
 msgid "Sad"
-msgstr ""
+msgstr "Kurb"
 
 #: fjord/analytics/views.py:217
 msgid "Platform"
@@ -137,13 +138,13 @@ msgstr ""
 #: fjord/base/templates/base.html:4
 #: fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
-msgstr ""
+msgstr "Firefox Input"
 
 #: fjord/base/templates/500.html:19
 #: fjord/base/templates/base.html:29
 #: fjord/base/templates/mobile/base.html:25
 msgid "<strong>Firefox</strong> Input"
-msgstr ""
+msgstr "<strong>Firefox</strong> Input"
 
 #: fjord/base/templates/500.html:25
 #: fjord/base/templates/base.html:35
@@ -163,7 +164,7 @@ msgstr ""
 #: fjord/base/templates/includes/footer.html:10
 #: fjord/base/templates/mobile/about.html:3
 msgid "About Firefox Input"
-msgstr ""
+msgstr "Firefox Input'i teave"
 
 #: fjord/base/templates/base.html:4
 #: fjord/base/templates/mobile/base.html:4
@@ -240,15 +241,15 @@ msgstr ""
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privaatsuspoliitika"
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
-msgstr ""
+msgstr "Juriidilised märkused"
 
 #: fjord/base/templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Raporteeri kaubamärgi keelatud kasutamine"
 
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
@@ -256,10 +257,13 @@ msgid ""
 "site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"Kui ei ole teisiti <a href=\"%(legal_url)s\">määratud</a>, on selle veebilehe "
+"sisu avaldatud <br/> <a href=\"%(license_url)s\">Creative Commons Attribution "
+"Share-Alike License v3.0</a> või selle uuema versiooni all."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
-msgstr ""
+msgstr "Teised keeled:"
 
 #: fjord/base/templates/includes/lang_switcher.html:10
 msgid "Go"
@@ -314,40 +318,42 @@ msgstr ""
 #: fjord/feedback/templates/feedback/feedback-form.html:5
 #: fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
-msgstr ""
+msgstr "Firefox rõõmustas mind"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:7
 #: fjord/feedback/templates/feedback/feedback.html:27
 msgid "Firefox Made Me Sad"
-msgstr ""
+msgstr "Firefox kurvastas mind"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:12
 msgid "Super! It's great to hear that you like our browser."
-msgstr ""
+msgstr "Väga tore! Tore, et sulle meie veebilehitseja meeldib."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:14
 msgid ""
 "We are sorry that you have not had a good experience with our browser. "
 "Please tell us why, so we can fix it."
 msgstr ""
+"Meil on kahju, et meie veebilehitseja sulle meelehärmi valmistas. Palun "
+"kirjuta meile, miks. Nii saame probleemi lahendada."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:18
 msgid "Go Back"
-msgstr ""
+msgstr "Tagasi"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:28
 #: fjord/feedback/templates/feedback/mobile/feedback.html:50
 msgid "Please describe what you liked."
-msgstr ""
+msgstr "Palun kirjelda, mis sulle meeldis."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:30
 #: fjord/feedback/templates/feedback/mobile/feedback.html:53
 msgid "Please describe your problem below."
-msgstr ""
+msgstr "Palun kirjelda oma probleemi."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:40
 msgid "If your feedback is related to a website, you can include it here."
-msgstr ""
+msgstr "Kui tagasiside on seotud mõne veebilehega, võid selle siia lisada."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:48
 msgid ""
@@ -357,34 +363,42 @@ msgid ""
 "there are any actions that you perform in Firefox that are particularly "
 "problematic."
 msgstr ""
+"Palun kirjelda nii üksikasjalikult, kui ruum võimaldab. Näiteks, kui sinu "
+"tagasiside puudutab aeglust, siis kirjuta, millistel lehtedel see ilmneb, "
+"kas märkad seda seansi alguses või hiljem ja kas mingid kindlad tegevused on "
+"Firefoxis eriti problemaatilised."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:62
 #: fjord/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Check here to let us contact you to follow up on your feedback."
-msgstr ""
+msgstr "Märgi see valik, kui soovid, et saaksime sinuga ühendust võtta."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:68
 #: fjord/feedback/templates/feedback/mobile/feedback.html:74
 msgid "Email address (optional):"
-msgstr ""
+msgstr "E-posti aadress (vabatahtlik):"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:74
 msgid ""
 "While your feedback will be publicly visible, email addresses are kept "
 "private. We understand your privacy is important."
 msgstr ""
+"Kuigi sinu tagasiside on avalik, ei avalda me e-posti aadressi. Mõistame, et "
+"sinu privaatsus on oluline."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
 msgid ""
 "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> "
 "instead."
-msgstr ""
+msgstr "Kui otsid abi, pöördu <a href=\"%(url)s\">Mozilla kasutajatoe</a> poole."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid ""
 "To protect your privacy, please ensure that no personally identifiable "
 "information is included in your feedback."
 msgstr ""
+"Sinu privaatsuse säilitamiseks veendu palun, et tagasiside ei sisalda "
+"isiklikku infot."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:105
 msgid "Submitting Feedback"
@@ -393,19 +407,19 @@ msgstr ""
 #: fjord/feedback/templates/feedback/feedback-form.html:106
 #: fjord/feedback/templates/feedback/feedback-form.html:110
 msgid "Submit Feedback"
-msgstr ""
+msgstr "Saada tagasiside"
 
 #: fjord/feedback/templates/feedback/feedback.html:11
 #: fjord/feedback/templates/feedback/feedback.html:20
 #: fjord/feedback/templates/feedback/mobile/feedback.html:11
 #: fjord/feedback/templates/feedback/mobile/feedback.html:20
 msgid "Submit Your Feedback"
-msgstr ""
+msgstr "Tagasiside andmine"
 
 #: fjord/feedback/templates/feedback/feedback.html:21
 #: fjord/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Your feedback helps us improve Firefox."
-msgstr ""
+msgstr "Sinu tagasiside aitab meil Firefoxi paremaks muuta."
 
 #: fjord/feedback/templates/feedback/feedback.html:33
 #: fjord/feedback/templates/feedback/mobile/feedback.html:31
@@ -413,6 +427,8 @@ msgid ""
 "If you need help or have a problem with Firefox, please visit <a href=\"%"
 "(support_url)s\">Firefox Support</a>."
 msgstr ""
+"Kui otsid abi mõne Firefoxi probleemiga, külasta palun <a href=\"%"
+"(support_url)s\">Firefoxi kasutajatuge</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
