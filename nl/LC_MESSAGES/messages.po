@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-13 07:57-0700\n"
+"POT-Creation-Date: 2013-07-29 13:58-0700\n"
 "PO-Revision-Date: 2013-03-13 20:02+0200\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,83 +13,121 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/views.py:213
-msgid "Sentiment"
-msgstr "Gevoel"
+#: fjord/analytics/views.py:171
+#, fuzzy
+msgid "Firefox Input: {query}"
+msgstr "Firefox Input: '{query}'"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox Input"
+
+#: fjord/analytics/views.py:186
+#, fuzzy
+msgid "Search Results From Firefox Input"
+msgstr "Zoekresultaten in Firefox bèta-feedback"
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "Blij"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "Droevig"
 
-#: fjord/analytics/views.py:217
+#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+msgid "Response id: {id}"
+msgstr ""
+
+#: fjord/analytics/views.py:344
+msgid "Sentiment"
+msgstr "Gevoel"
+
+#: fjord/analytics/views.py:351
+msgid "Product"
+msgstr "Product"
+
+#: fjord/analytics/views.py:361
+msgid "Version"
+msgstr "Versie"
+
+#: fjord/analytics/views.py:370
 msgid "Platform"
 msgstr "Platform"
 
-#: fjord/analytics/views.py:219
+#: fjord/analytics/views.py:375
 msgid "Locale"
 msgstr "Taal"
 
-#: fjord/analytics/templates/analytics/dashboard.html:75
+#: fjord/analytics/templates/analytics/dashboard.html:15
+#, fuzzy
+msgid "Atom feed for this search"
+msgstr "ATOM-feed voor deze zoekopdracht"
+
+#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+msgid "Permalink"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
 msgstr "Periode"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:93
 msgid "1d"
 msgstr "1 d"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:79
+#: fjord/analytics/templates/analytics/dashboard.html:95
 msgid "7d"
 msgstr "7 d"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:81
+#: fjord/analytics/templates/analytics/dashboard.html:97
 msgid "30d"
 msgstr "30 d"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:83
+#: fjord/analytics/templates/analytics/dashboard.html:99
 msgid "90d"
 msgstr "90 d"
 
-#: fjord/analytics/templates/analytics/dashboard.html:85
+#: fjord/analytics/templates/analytics/dashboard.html:101
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:89
+#: fjord/analytics/templates/analytics/dashboard.html:105
 msgid "Start"
 msgstr "Begin"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:107
 msgid "End"
 msgstr "Einde"
 
-#: fjord/analytics/templates/analytics/dashboard.html:92
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "Instellen"
 
-#: fjord/analytics/templates/analytics/dashboard.html:115
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
 msgstr "Nieuwste feedback"
 
-#: fjord/analytics/templates/analytics/dashboard.html:119
-msgid "Search by keyboard"
+#: fjord/analytics/templates/analytics/dashboard.html:136
+#, fuzzy
+msgid "Search by keyword"
 msgstr "Zoeken via toetsenbord"
 
-#: fjord/analytics/templates/analytics/dashboard.html:137
+#: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "Older Messages"
 msgstr "Oudere berichten"
 
-#: fjord/analytics/templates/analytics/dashboard.html:142
+#: fjord/analytics/templates/analytics/dashboard.html:159
 msgid "Newer Messages"
 msgstr "Nieuwere berichten"
 
-#: fjord/analytics/templates/analytics/dashboard.html:153
+#: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
 msgstr "Berichten"
 
@@ -105,7 +143,7 @@ msgstr "Dashboard is momenteel niet beschikbaar. Probeer het over 10 minuten opn
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Dashboard is nog niet beschikbaar op mobiele apparaten."
 
-#: fjord/base/helpers.py:38
+#: fjord/base/helpers.py:36
 msgid "Unknown"
 msgstr "Onbekend"
 
@@ -124,10 +162,6 @@ msgstr "Ga terug naar het dashboard."
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "Er is iets vreselijk misgegaan"
-
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
-msgid "Firefox Input"
-msgstr "Firefox Input"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
 msgid "<strong>Firefox</strong> Input"
@@ -253,9 +287,13 @@ msgstr "Inputservicemonitor"
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Lijst van onderdelen die Input gebruikt en of deze naar behoren werken."
 
-#: fjord/feedback/forms.py:41
+#: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr "Voer een geldig e-mailadres in, of haal het vinkje weg bij het vakje voor toestemming om contact met u op te nemen."
+
+#: fjord/feedback/forms.py:57
+msgid "This field is required."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -777,12 +815,6 @@ msgstr "Planet Mozilla"
 #~ msgid "to"
 #~ msgstr "tot"
 
-#~ msgid "Search Results in Firefox Beta Feedback."
-#~ msgstr "Zoekresultaten in Firefox bèta-feedback"
-
-#~ msgid "Firefox Input: '{query}'"
-#~ msgstr "Firefox Input: '{query}'"
-
 #~ msgid "Show/Hide Options"
 #~ msgstr "Opties tonen/verbergen"
 
@@ -818,12 +850,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Search Results"
 #~ msgstr "Zoekresultaten"
-
-#~ msgid "ATOM feed for this search"
-#~ msgstr "ATOM-feed voor deze zoekopdracht"
-
-#~ msgid "Product"
-#~ msgstr "Product"
 
 #~ msgid "Search"
 #~ msgstr "Zoeken"
@@ -919,9 +945,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "Oudere feedback &raquo;"
-
-#~ msgid "Version"
-#~ msgstr "Versie"
 
 #~ msgid "Switch to Desktop Dashboard"
 #~ msgstr "Wisselen naar desktop-dashboard"

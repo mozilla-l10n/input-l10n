@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-13 07:57-0700\n"
+"POT-Creation-Date: 2013-07-29 13:58-0700\n"
 "PO-Revision-Date: 2011-05-23 03:19+0200\n"
 "Last-Translator: Γιώργος Φιωτάκης <fiotakis@otenet.gr>\n"
 "Language-Team: LANGUAGE <fiotakis@otenet.gr>\n"
@@ -15,89 +15,127 @@ msgstr ""
 "X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
 
-#: fjord/analytics/views.py:213
+#: fjord/analytics/views.py:171
+#, fuzzy
+msgid "Firefox Input: {query}"
+msgstr "Firefox Input: '{query}'"
+
+#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox Input"
+
+#: fjord/analytics/views.py:186
+#, fuzzy
+msgid "Search Results From Firefox Input"
+msgstr "Αποτελέσματα αναζήτησης στα σχόλια της δοκιμαστικής έκδοσης του Firefox"
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
+msgid "Happy"
+msgstr ""
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
+msgid "Sad"
+msgstr ""
+
+#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+msgid "Response id: {id}"
+msgstr ""
+
+#: fjord/analytics/views.py:344
 #, fuzzy
 msgid "Sentiment"
 msgstr "Άποψη:"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
-msgid "Happy"
-msgstr ""
+#: fjord/analytics/views.py:351
+msgid "Product"
+msgstr "Προϊον:"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
-msgid "Sad"
-msgstr ""
+#: fjord/analytics/views.py:361
+#, fuzzy
+msgid "Version"
+msgstr "Έκδοση:"
 
-#: fjord/analytics/views.py:217
+#: fjord/analytics/views.py:370
 msgid "Platform"
 msgstr "Πλατφορμα"
 
-#: fjord/analytics/views.py:219
+#: fjord/analytics/views.py:375
 msgid "Locale"
 msgstr "Γλωσσα"
 
-#: fjord/analytics/templates/analytics/dashboard.html:75
+#: fjord/analytics/templates/analytics/dashboard.html:15
+#, fuzzy
+msgid "Atom feed for this search"
+msgstr "Ροή ΑΤΟΜ της αναζήτησης"
+
+#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+msgid "Permalink"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
 msgstr "Χρονικη περιοδος"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:93
 msgid "1d"
 msgstr "1ημ."
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:79
+#: fjord/analytics/templates/analytics/dashboard.html:95
 msgid "7d"
 msgstr "7ημ."
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:81
+#: fjord/analytics/templates/analytics/dashboard.html:97
 msgid "30d"
 msgstr "30ημ."
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:83
+#: fjord/analytics/templates/analytics/dashboard.html:99
 #, fuzzy
 msgid "90d"
 msgstr "30ημ."
 
-#: fjord/analytics/templates/analytics/dashboard.html:85
+#: fjord/analytics/templates/analytics/dashboard.html:101
 msgid "&raquo;"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:89
+#: fjord/analytics/templates/analytics/dashboard.html:105
 msgid "Start"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:107
 msgid "End"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:92
+#: fjord/analytics/templates/analytics/dashboard.html:108
 #, fuzzy
 msgid "Set"
 msgstr "Ορισμός"
 
-#: fjord/analytics/templates/analytics/dashboard.html:115
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
 msgstr "Τελευταια σχολια"
 
-#: fjord/analytics/templates/analytics/dashboard.html:119
+#: fjord/analytics/templates/analytics/dashboard.html:136
 #, fuzzy
-msgid "Search by keyboard"
+msgid "Search by keyword"
 msgstr "Αναζήτηση με λέξεις - κλειδία"
 
-#: fjord/analytics/templates/analytics/dashboard.html:137
+#: fjord/analytics/templates/analytics/dashboard.html:154
 #, fuzzy
 msgid "Older Messages"
 msgstr "&laquo; Νεότερα μηνύματα"
 
-#: fjord/analytics/templates/analytics/dashboard.html:142
+#: fjord/analytics/templates/analytics/dashboard.html:159
 #, fuzzy
 msgid "Newer Messages"
 msgstr "Παλιότερα μηνύματα &raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:153
+#: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
 msgstr "Μηνυματα"
 
@@ -115,7 +153,7 @@ msgstr ""
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr ""
 
-#: fjord/base/helpers.py:38
+#: fjord/base/helpers.py:36
 msgid "Unknown"
 msgstr "Άγνωστη"
 
@@ -136,10 +174,6 @@ msgstr ""
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr ""
-
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
-msgid "Firefox Input"
-msgstr "Firefox Input"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
 #, fuzzy
@@ -216,7 +250,6 @@ msgid "Open Data"
 msgstr "Ανοικτα δεδομενα"
 
 #: fjord/base/templates/includes/about_text.html:22
-#, fuzzy
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
@@ -272,8 +305,12 @@ msgstr ""
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr ""
 
-#: fjord/feedback/forms.py:41
+#: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+msgstr ""
+
+#: fjord/feedback/forms.py:57
+msgid "This field is required."
 msgstr ""
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
@@ -345,7 +382,6 @@ msgid "While your feedback will be publicly visible, email addresses are kept pr
 msgstr ""
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
-#, fuzzy
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 msgstr ""
 
@@ -489,7 +525,6 @@ msgid "Learn how you can make Firefox and Mozilla better"
 msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:52
-#, fuzzy
 msgid "Visit the Firefox Feedback Dashboard"
 msgstr ""
 
@@ -810,12 +845,6 @@ msgstr "Planet Mozilla"
 #~ msgid "to"
 #~ msgstr "ως"
 
-#~ msgid "Search Results in Firefox Beta Feedback."
-#~ msgstr "Αποτελέσματα αναζήτησης στα σχόλια της δοκιμαστικής έκδοσης του Firefox"
-
-#~ msgid "Firefox Input: '{query}'"
-#~ msgstr "Firefox Input: '{query}'"
-
 #~ msgid "Show/Hide Options"
 #~ msgstr "Προβολή/απόκρυψη επιλογών"
 
@@ -845,12 +874,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Search Results"
 #~ msgstr "Αποτελεσματα αναζητησης"
-
-#~ msgid "ATOM feed for this search"
-#~ msgstr "Ροή ΑΤΟΜ της αναζήτησης"
-
-#~ msgid "Product"
-#~ msgstr "Προϊον:"
 
 #~ msgid "Search"
 #~ msgstr "Αναζήτηση"
@@ -946,10 +969,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "Παλιότερα σχόλια &raquo;"
-
-#, fuzzy
-#~ msgid "Version"
-#~ msgstr "Έκδοση:"
 
 #~ msgid "For last:"
 #~ msgstr "Για τις τελευταίες:"

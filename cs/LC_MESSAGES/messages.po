@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-13 07:57-0700\n"
+"POT-Creation-Date: 2013-07-29 13:58-0700\n"
 "PO-Revision-Date: 2013-03-17 23:54+0200\n"
 "Last-Translator: Pavel <jasnapaka@jasnapaka.com>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
@@ -13,83 +13,121 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/views.py:213
-msgid "Sentiment"
-msgstr "Pocit"
+#: fjord/analytics/views.py:171
+#, fuzzy
+msgid "Firefox Input: {query}"
+msgstr "Firefox Input: '{query}'"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox Input"
+
+#: fjord/analytics/views.py:186
+#, fuzzy
+msgid "Search Results From Firefox Input"
+msgstr "Výsledky vyhledávání ve Firefox Beta Feedback."
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "Šťastný"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "Smutný"
 
-#: fjord/analytics/views.py:217
+#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+msgid "Response id: {id}"
+msgstr ""
+
+#: fjord/analytics/views.py:344
+msgid "Sentiment"
+msgstr "Pocit"
+
+#: fjord/analytics/views.py:351
+msgid "Product"
+msgstr "Produkt"
+
+#: fjord/analytics/views.py:361
+msgid "Version"
+msgstr "Verze"
+
+#: fjord/analytics/views.py:370
 msgid "Platform"
 msgstr "Platforma"
 
-#: fjord/analytics/views.py:219
+#: fjord/analytics/views.py:375
 msgid "Locale"
 msgstr "Jazyk"
 
-#: fjord/analytics/templates/analytics/dashboard.html:75
+#: fjord/analytics/templates/analytics/dashboard.html:15
+#, fuzzy
+msgid "Atom feed for this search"
+msgstr "ATOM pro toto vyhledávání"
+
+#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+msgid "Permalink"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
 msgstr "Kdy"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:93
 msgid "1d"
 msgstr "1d"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:79
+#: fjord/analytics/templates/analytics/dashboard.html:95
 msgid "7d"
 msgstr "7d"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:81
+#: fjord/analytics/templates/analytics/dashboard.html:97
 msgid "30d"
 msgstr "30d"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:83
+#: fjord/analytics/templates/analytics/dashboard.html:99
 msgid "90d"
 msgstr "90d"
 
-#: fjord/analytics/templates/analytics/dashboard.html:85
+#: fjord/analytics/templates/analytics/dashboard.html:101
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:89
+#: fjord/analytics/templates/analytics/dashboard.html:105
 msgid "Start"
 msgstr "Začátek"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:107
 msgid "End"
 msgstr "Konec"
 
-#: fjord/analytics/templates/analytics/dashboard.html:92
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "Nastavit"
 
-#: fjord/analytics/templates/analytics/dashboard.html:115
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
 msgstr "Poslední reakce"
 
-#: fjord/analytics/templates/analytics/dashboard.html:119
-msgid "Search by keyboard"
+#: fjord/analytics/templates/analytics/dashboard.html:136
+#, fuzzy
+msgid "Search by keyword"
 msgstr "Hledání dle kláves"
 
-#: fjord/analytics/templates/analytics/dashboard.html:137
+#: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "Older Messages"
 msgstr "Starší zprávy"
 
-#: fjord/analytics/templates/analytics/dashboard.html:142
+#: fjord/analytics/templates/analytics/dashboard.html:159
 msgid "Newer Messages"
 msgstr "Novější zprávy"
 
-#: fjord/analytics/templates/analytics/dashboard.html:153
+#: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
 msgstr "Zprávy"
 
@@ -105,7 +143,7 @@ msgstr "Nástěnka aktuálně není dostupná. Zkuste to prosím za 10 minut."
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Nástěnka prozatím není dostupná pro mobilní zařízení."
 
-#: fjord/base/helpers.py:38
+#: fjord/base/helpers.py:36
 msgid "Unknown"
 msgstr "Neznámý"
 
@@ -124,10 +162,6 @@ msgstr "Zpět na nástěnku"
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "Něco je strašlivě špatně"
-
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
-msgid "Firefox Input"
-msgstr "Firefox Input"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
 msgid "<strong>Firefox</strong> Input"
@@ -186,16 +220,12 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
 "Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"Firefox Input je aplikace na sběr reakcí. Byla vytvořena pro jednosměrnou "
-"komunikaci o zkušenosti s používáním Firefoxu, prohlížením Internetu a o "
-"tom, co Mozilla může v této oblasti zlepšit. Systém je dostupný pro řadu "
-"forem odeslání na třech hlavních kanálech sestavení aplikace."
+"Firefox Input je aplikace na sběr reakcí. Byla vytvořena pro jednosměrnou komunikaci o zkušenosti s používáním Firefoxu, prohlížením Internetu a o tom, co Mozilla může v této oblasti zlepšit. "
+"Systém je dostupný pro řadu forem odeslání na třech hlavních kanálech sestavení aplikace."
 
 #: fjord/base/templates/includes/about_text.html:14
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Pro zaslání reakce k vaší verzi Firefoxu přejděte na <a href=\"%"
-"(url)s\">stránku odeslání reakce</a>!"
+msgstr "Pro zaslání reakce k vaší verzi Firefoxu přejděte na <a href=\"%(url)s\">stránku odeslání reakce</a>!"
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
@@ -205,9 +235,7 @@ msgstr "Otevřená data"
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
-msgstr ""
-"Rádi bychom s těmito daty experimentovali více, ale je nás pouze pár. Pokud "
-"byste s nimi rádi experimentovali vy, kontaktujte nás!"
+msgstr "Rádi bychom s těmito daty experimentovali více, ale je nás pouze pár. Pokud byste s nimi rádi experimentovali vy, kontaktujte nás!"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
@@ -215,9 +243,7 @@ msgstr "Zdrojový kód"
 
 #: fjord/base/templates/includes/about_text.html:32
 msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
-"Kód webové aplikace Firefox Input můžete nalézt <a href=\"%(url)s\">na serveru "
-"GitHub</a>!"
+msgstr "Kód webové aplikace Firefox Input můžete nalézt <a href=\"%(url)s\">na serveru GitHub</a>!"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -249,9 +275,7 @@ msgstr "Přejít"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "Either you don't have an account here or you used the wrong Persona account to log in."
-msgstr ""
-"Případně zde nemáte účet či jste použil(a) pro přihlášení špatný účet "
-"Persona."
+msgstr "Případně zde nemáte účet či jste použil(a) pro přihlášení špatný účet Persona."
 
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
@@ -261,11 +285,13 @@ msgstr "Input Services Monitor"
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Seznam komponent, které Input používá a to, zda jsou nyní korektně funkční."
 
-#: fjord/feedback/forms.py:41
+#: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+msgstr "Zadejte prosím platnou e-mailovou adresu či odškrtněte políčko, které nám povoluje vás kontaktovat."
+
+#: fjord/feedback/forms.py:57
+msgid "This field is required."
 msgstr ""
-"Zadejte prosím platnou e-mailovou adresu či odškrtněte políčko, které nám "
-"povoluje vás kontaktovat."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -333,15 +359,11 @@ msgstr "E-mailová adresa (volitelné):"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:74
 msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-msgstr ""
-"Ačkoliv bude vaše reakce zobrazena veřejně, e-mailová adresa bude považována "
-"za soukromou. Rozumíme, že je ochrana vašeho soukromí důležitá."
+msgstr "Ačkoliv bude vaše reakce zobrazena veřejně, e-mailová adresa bude považována za soukromou. Rozumíme, že je ochrana vašeho soukromí důležitá."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Pro žádosti o podporu navštivte spíše web <a href=\"%(url)s\">Podpora "
-"Mozilly</a>."
+msgstr "Pro žádosti o podporu navštivte spíše web <a href=\"%(url)s\">Podpora Mozilly</a>."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -434,14 +456,11 @@ msgstr "Buďte prosím co nejvíce konkrétní."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:81
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
-msgstr ""
-"Obsah vaší reakce bude veřejně přístupný, takže v ní prosím neuvádějte žádné "
-"osobní informace."
+msgstr "Obsah vaší reakce bude veřejně přístupný, takže v ní prosím neuvádějte žádné osobní informace."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:86
 msgid "Don't worry, your email will always be kept private."
-msgstr ""
-"Nemusíte se obávat, vaše e-mailová adresa bude vždy považována za soukromou."
+msgstr "Nemusíte se obávat, vaše e-mailová adresa bude vždy považována za soukromou."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:92
 msgid "Send Feedback"
@@ -449,9 +468,7 @@ msgstr "Poslat reakci"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Pokud potřebujete pomoci, navštivte web <a href=\"%(support_url)s\">Podpora "
-"Mozilly</a>."
+msgstr "Pokud potřebujete pomoci, navštivte web <a href=\"%(support_url)s\">Podpora Mozilly</a>."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 msgid "Thank you for your feedback!"
@@ -463,15 +480,11 @@ msgstr "Úspěch!"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
 msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
-msgstr ""
-"Děkujeme za reakci! Použijeme ji pro vytvoření lepších budoucích verzí "
-"Firefoxu."
+msgstr "Děkujeme za reakci! Použijeme ji pro vytvoření lepších budoucích verzí Firefoxu."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
-msgstr ""
-"Chcete vědět, co se děje okolo Firefoxu? Existuje řada způsobů, jak zůstat v "
-"obraze:"
+msgstr "Chcete vědět, co se děje okolo Firefoxu? Existuje řada způsobů, jak zůstat v obraze:"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
 msgid "Download the build that is right for you"
@@ -802,12 +815,6 @@ msgstr "Planet Mozilla"
 #~ msgid "to"
 #~ msgstr "do"
 
-#~ msgid "Search Results in Firefox Beta Feedback."
-#~ msgstr "Výsledky vyhledávání ve Firefox Beta Feedback."
-
-#~ msgid "Firefox Input: '{query}'"
-#~ msgstr "Firefox Input: '{query}'"
-
 #~ msgid "Show/Hide Options"
 #~ msgstr "Zobrazit/skrýt možnosti"
 
@@ -843,12 +850,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Search Results"
 #~ msgstr "Výsledky vyhledávání"
-
-#~ msgid "ATOM feed for this search"
-#~ msgstr "ATOM pro toto vyhledávání"
-
-#~ msgid "Product"
-#~ msgstr "Produkt"
 
 #~ msgid "Search"
 #~ msgstr "Vyhledat"
@@ -945,9 +946,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "Starší zprávy &raquo;"
-
-#~ msgid "Version"
-#~ msgstr "Verze"
 
 #~ msgid "Switch to Desktop Dashboard"
 #~ msgstr "Přepnout na desktopovou verzi nástěnky"

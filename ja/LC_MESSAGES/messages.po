@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-13 07:57-0700\n"
+"POT-Creation-Date: 2013-07-29 13:58-0700\n"
 "PO-Revision-Date: 2013-03-18 06:06+0200\n"
 "Last-Translator: Masahiko <chimantaea_mirabilis@yahoo.co.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,83 +13,121 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/views.py:213
-msgid "Sentiment"
-msgstr "評価"
+#: fjord/analytics/views.py:171
+#, fuzzy
+msgid "Firefox Input: {query}"
+msgstr "Firefox Input: '{query}'"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox Input"
+
+#: fjord/analytics/views.py:186
+#, fuzzy
+msgid "Search Results From Firefox Input"
+msgstr "Firefox ベータ版へのフィードバックからの検索結果。"
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "良いところ"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "悪いところ"
 
-#: fjord/analytics/views.py:217
+#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+msgid "Response id: {id}"
+msgstr ""
+
+#: fjord/analytics/views.py:344
+msgid "Sentiment"
+msgstr "評価"
+
+#: fjord/analytics/views.py:351
+msgid "Product"
+msgstr "製品"
+
+#: fjord/analytics/views.py:361
+msgid "Version"
+msgstr "バージョン"
+
+#: fjord/analytics/views.py:370
 msgid "Platform"
 msgstr "プラットフォーム"
 
-#: fjord/analytics/views.py:219
+#: fjord/analytics/views.py:375
 msgid "Locale"
 msgstr "言語"
 
-#: fjord/analytics/templates/analytics/dashboard.html:75
+#: fjord/analytics/templates/analytics/dashboard.html:15
+#, fuzzy
+msgid "Atom feed for this search"
+msgstr "この検索の ATOM フィード"
+
+#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+msgid "Permalink"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
 msgstr "期間"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:93
 msgid "1d"
 msgstr "1日"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:79
+#: fjord/analytics/templates/analytics/dashboard.html:95
 msgid "7d"
 msgstr "7日"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:81
+#: fjord/analytics/templates/analytics/dashboard.html:97
 msgid "30d"
 msgstr "30日"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:83
+#: fjord/analytics/templates/analytics/dashboard.html:99
 msgid "90d"
 msgstr "90日"
 
-#: fjord/analytics/templates/analytics/dashboard.html:85
+#: fjord/analytics/templates/analytics/dashboard.html:101
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:89
+#: fjord/analytics/templates/analytics/dashboard.html:105
 msgid "Start"
 msgstr "開始"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:107
 msgid "End"
 msgstr "終了"
 
-#: fjord/analytics/templates/analytics/dashboard.html:92
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "期間を設定"
 
-#: fjord/analytics/templates/analytics/dashboard.html:115
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
 msgstr "最新のフィードバック"
 
-#: fjord/analytics/templates/analytics/dashboard.html:119
-msgid "Search by keyboard"
+#: fjord/analytics/templates/analytics/dashboard.html:136
+#, fuzzy
+msgid "Search by keyword"
 msgstr "キーワードによる検索"
 
-#: fjord/analytics/templates/analytics/dashboard.html:137
+#: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "Older Messages"
 msgstr "古いメッセージ"
 
-#: fjord/analytics/templates/analytics/dashboard.html:142
+#: fjord/analytics/templates/analytics/dashboard.html:159
 msgid "Newer Messages"
 msgstr "新しいメッセージ"
 
-#: fjord/analytics/templates/analytics/dashboard.html:153
+#: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
 msgstr "メッセージ数"
 
@@ -105,7 +143,7 @@ msgstr "ダッシュボードは現在利用できません。10 分後に再度
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "モバイル端末では、まだダッシュボードを利用できません。"
 
-#: fjord/base/helpers.py:38
+#: fjord/base/helpers.py:36
 msgid "Unknown"
 msgstr "不明"
 
@@ -124,10 +162,6 @@ msgstr "ダッシュボードへ戻る。"
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "サイト内部でエラーが発生しました"
-
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
-msgid "Firefox Input"
-msgstr "Firefox Input"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
 msgid "<strong>Firefox</strong> Input"
@@ -186,16 +220,12 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
 "Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"Firefox Input は、Mozilla のフィードバックを受けるための重要なサイトです。Firefox "
-"を利用してあなたが感じたことや閲覧したサイトについて、そして Mozilla "
-"がウェブをより良いものにするためのご意見を情報収集するサイトです。このシステムは、3 つの主要なビルド (Aurora, Beta, Release) "
-"のすべてにおいて、さまざまな投稿方法で利用可能になっています。"
+"Firefox Input は、Mozilla のフィードバックを受けるための重要なサイトです。Firefox を利用してあなたが感じたことや閲覧したサイトについて、そして Mozilla がウェブをより良いものにするためのご意見を情報"
+"収集するサイトです。このシステムは、3 つの主要なビルド (Aurora, Beta, Release) のすべてにおいて、さまざまな投稿方法で利用可能になっています。"
 
 #: fjord/base/templates/includes/about_text.html:14
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"ご使用の Firefox のバージョンへのフィードバック送信は、こちらの <a href=\"%(url)s\">フィードバック投稿ページ</a> "
-"からお願いします！"
+msgstr "ご使用の Firefox のバージョンへのフィードバック送信は、こちらの <a href=\"%(url)s\">フィードバック投稿ページ</a> からお願いします！"
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
@@ -205,9 +235,7 @@ msgstr "Open Data"
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
-msgstr ""
-"この情報からより多くを理解しようとしたいところですが、我々は少人数です。あなたが回答を見てみたい項目についてご意見があればお寄せください！ "
-"もし興味があれば、ご連絡ください！"
+msgstr "この情報からより多くを理解しようとしたいところですが、我々は少人数です。あなたが回答を見てみたい項目についてご意見があればお寄せください！ もし興味があれば、ご連絡ください！"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
@@ -257,9 +285,13 @@ msgstr "Input サービスモニタ"
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Input が使用するコンポーネントのリストと動作状況です。"
 
-#: fjord/feedback/forms.py:41
+#: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr "有効なメールアドレスを入力するか、問い合わせ許可のチェックを外してください。"
+
+#: fjord/feedback/forms.py:57
+msgid "This field is required."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -314,9 +346,8 @@ msgid ""
 "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr ""
-"記入欄にできるだけ詳しくお書きください。例えば、動作が遅いことについてのフィードバックは、関連する Web "
-"サイトを教えてください。また、ブラウジングセッションの始めなのか終りなのか、または Firefox "
-"に問題が起こる可能性のある操作をしたか等、気付いたこともお書きください。"
+"記入欄にできるだけ詳しくお書きください。例えば、動作が遅いことについてのフィードバックは、関連する Web サイトを教えてください。また、ブラウジングセッションの始めなのか終りなのか、または Firefox に問"
+"題が起こる可能性のある操作をしたか等、気付いたこともお書きください。"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Check here to let us contact you to follow up on your feedback."
@@ -443,9 +474,7 @@ msgstr "フィードバックを送る"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Mozilla サポート</a> "
-"サイトをご利用ください。"
+msgstr "Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Mozilla サポート</a> サイトをご利用ください。"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 msgid "Thank you for your feedback!"
@@ -458,8 +487,7 @@ msgstr "完了！"
 # 上下に分割されている個所
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
 msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
-msgstr ""
-"フィードバックありがとうございます。あなたのフィードバックは今後リリースされる Firefox を、より使いやすく、快適にするために利用されます。"
+msgstr "フィードバックありがとうございます。あなたのフィードバックは今後リリースされる Firefox を、より使いやすく、快適にするために利用されます。"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
@@ -794,12 +822,6 @@ msgstr "Planet Mozilla"
 #~ msgid "to"
 #~ msgstr "to"
 
-#~ msgid "Search Results in Firefox Beta Feedback."
-#~ msgstr "Firefox ベータ版へのフィードバックからの検索結果。"
-
-#~ msgid "Firefox Input: '{query}'"
-#~ msgstr "Firefox Input: '{query}'"
-
 #~ msgid "Show/Hide Options"
 #~ msgstr "オプションの表示/非表示"
 
@@ -835,12 +857,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Search Results"
 #~ msgstr "検索結果"
-
-#~ msgid "ATOM feed for this search"
-#~ msgstr "この検索の ATOM フィード"
-
-#~ msgid "Product"
-#~ msgstr "製品"
 
 #~ msgid "Search"
 #~ msgstr "検索"
@@ -938,9 +954,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "より古い &raquo;"
-
-#~ msgid "Version"
-#~ msgstr "バージョン"
 
 #~ msgid "Switch to Desktop Dashboard"
 #~ msgstr "デスクトップ版のダッシュボードに切り替える"

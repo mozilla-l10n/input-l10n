@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-13 07:57-0700\n"
+"POT-Creation-Date: 2013-07-29 13:58-0700\n"
 "PO-Revision-Date: 2013-04-10 18:22+0200\n"
 "Last-Translator: Romi <romihardiyanto@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,89 +13,121 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/views.py:213
-msgid "Sentiment"
-msgstr "Sentimen"
+#: fjord/analytics/views.py:171
+#, fuzzy
+msgid "Firefox Input: {query}"
+msgstr "Firefox Input: '{query}'"
 
-#: fjord/analytics/views.py:214
-#: fjord/analytics/views.py:245
-#: fjord/analytics/templates/analytics/dashboard.html:15
-#: fjord/feedback/models.py:54
+#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox Input"
+
+#: fjord/analytics/views.py:186
+#, fuzzy
+msgid "Search Results From Firefox Input"
+msgstr "Hasil Pencarian untuk Saran Firefox Versi Beta."
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "Gembira"
 
-#: fjord/analytics/views.py:214
-#: fjord/analytics/views.py:247
-#: fjord/analytics/templates/analytics/dashboard.html:17
-#: fjord/feedback/models.py:55
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "Sedih"
 
-#: fjord/analytics/views.py:217
+#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+msgid "Response id: {id}"
+msgstr ""
+
+#: fjord/analytics/views.py:344
+msgid "Sentiment"
+msgstr "Sentimen"
+
+#: fjord/analytics/views.py:351
+msgid "Product"
+msgstr "Produk"
+
+#: fjord/analytics/views.py:361
+msgid "Version"
+msgstr "Versi"
+
+#: fjord/analytics/views.py:370
 msgid "Platform"
 msgstr "Platform"
 
-#: fjord/analytics/views.py:219
+#: fjord/analytics/views.py:375
 msgid "Locale"
 msgstr "Kode Pelokalan"
 
-#: fjord/analytics/templates/analytics/dashboard.html:75
+#: fjord/analytics/templates/analytics/dashboard.html:15
+#, fuzzy
+msgid "Atom feed for this search"
+msgstr "Feed ATOM untuk pencarian ini"
+
+#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+msgid "Permalink"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
 msgstr "Waktu"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:93
 msgid "1d"
 msgstr "1h"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:79
+#: fjord/analytics/templates/analytics/dashboard.html:95
 msgid "7d"
 msgstr "7h"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:81
+#: fjord/analytics/templates/analytics/dashboard.html:97
 msgid "30d"
 msgstr "30h"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:83
+#: fjord/analytics/templates/analytics/dashboard.html:99
 msgid "90d"
 msgstr "90h"
 
-#: fjord/analytics/templates/analytics/dashboard.html:85
+#: fjord/analytics/templates/analytics/dashboard.html:101
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:89
+#: fjord/analytics/templates/analytics/dashboard.html:105
 msgid "Start"
 msgstr "Awal"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:107
 msgid "End"
 msgstr "Akhir"
 
-#: fjord/analytics/templates/analytics/dashboard.html:92
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "Setel"
 
-#: fjord/analytics/templates/analytics/dashboard.html:115
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
 msgstr "Saran Terbaru"
 
-#: fjord/analytics/templates/analytics/dashboard.html:119
-msgid "Search by keyboard"
+#: fjord/analytics/templates/analytics/dashboard.html:136
+#, fuzzy
+msgid "Search by keyword"
 msgstr "Cari berdasarkan kata kunci"
 
-#: fjord/analytics/templates/analytics/dashboard.html:137
+#: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "Older Messages"
 msgstr "Pesan Lawas"
 
-#: fjord/analytics/templates/analytics/dashboard.html:142
+#: fjord/analytics/templates/analytics/dashboard.html:159
 msgid "Newer Messages"
 msgstr "Pesan Baru"
 
-#: fjord/analytics/templates/analytics/dashboard.html:153
+#: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
 msgstr "Pesan"
 
@@ -111,12 +143,11 @@ msgstr "Dasbor sedang tidak tersedia. Silakan coba lagi dalam 10 menit."
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Dasbor masih belum tersedia untuk perangkat seluler."
 
-#: fjord/base/helpers.py:38
+#: fjord/base/helpers.py:36
 msgid "Unknown"
 msgstr "Tak dikenal"
 
-#: fjord/base/templates/404.html:3
-#: fjord/base/templates/404.html:9
+#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
 msgid "Not Found"
 msgstr "Tidak Ditemukan"
 
@@ -124,9 +155,7 @@ msgstr "Tidak Ditemukan"
 msgid "The document could not be found."
 msgstr "Dokumen tidak dapat ditemukan."
 
-#: fjord/base/templates/404.html:14
-#: fjord/base/templates/500.html:35
-#: fjord/base/templates/includes/login_failure_text.html:9
+#: fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:9
 msgid "Return to the dashboard."
 msgstr "Kembali ke dasbor."
 
@@ -134,21 +163,11 @@ msgstr "Kembali ke dasbor."
 msgid "Something has gone horribly wrong"
 msgstr "Ups, ada masalah nih!"
 
-#: fjord/base/templates/500.html:8
-#: fjord/base/templates/base.html:4
-#: fjord/base/templates/mobile/base.html:4
-msgid "Firefox Input"
-msgstr "Firefox Input"
-
-#: fjord/base/templates/500.html:19
-#: fjord/base/templates/base.html:29
-#: fjord/base/templates/mobile/base.html:25
+#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> Input"
 
-#: fjord/base/templates/500.html:25
-#: fjord/base/templates/base.html:35
-#: fjord/base/templates/mobile/base.html:31
+#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
 msgid "Dashboard"
 msgstr "Dasbor"
 
@@ -160,24 +179,19 @@ msgstr "Ups, ada masalah nih!"
 msgid "There was a problem on the server."
 msgstr "Ada masalah pada server."
 
-#: fjord/base/templates/about.html:3
-#: fjord/base/templates/includes/footer.html:10
-#: fjord/base/templates/mobile/about.html:3
+#: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10 fjord/base/templates/mobile/about.html:3
 msgid "About Firefox Input"
 msgstr "Tentang Firefox Input"
 
-#: fjord/base/templates/base.html:4
-#: fjord/base/templates/mobile/base.html:4
+#: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
 msgstr "Selamat Datang!"
 
-#: fjord/base/templates/base.html:20
-#: fjord/base/templates/mobile/base.html:17
+#: fjord/base/templates/base.html:20 fjord/base/templates/mobile/base.html:17
 msgid "Proceed to main content"
 msgstr "Loncat ke isi utama"
 
-#: fjord/base/templates/base.html:21
-#: fjord/base/templates/mobile/base.html:18
+#: fjord/base/templates/base.html:21 fjord/base/templates/mobile/base.html:18
 msgid "Proceed to footer"
 msgstr "Loncat ke kaki laman"
 
@@ -193,9 +207,7 @@ msgstr "Keluar"
 msgid "Sign in"
 msgstr "Masuk"
 
-#: fjord/base/templates/login_failure.html:3
-#: fjord/base/templates/includes/login_failure_text.html:1
-#: fjord/base/templates/mobile/login_failure.html:3
+#: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Gagal Masuk"
 
@@ -205,25 +217,15 @@ msgstr "Hai!"
 
 #: fjord/base/templates/includes/about_text.html:3
 msgid ""
-"Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a "
-"method of one-way communication about your experiences in using Firefox, the "
-"Internet you view it through, and what Mozilla can do to make that "
-"experience better. The system is available over a wide-variety of submission "
-"mechanisms over all three major channels of builds."
+"Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
+"Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"Firefox Input adalah sistem umpan balik utama Mozilla. Sistem ini disiapkan "
-"sebagai alat komunikasi satu arah tentang pengalaman Anda menggunakan "
-"Firefox, dunia maya yang Anda tampilkan lewat Firefox, dan apa yang dapat "
-"Mozilla lakukan agar pengalaman Anda lebih baik. Sistem ini tersedia melalui "
-"berbagai jalur untuk ketiga kanal utama build."
+"Firefox Input adalah sistem umpan balik utama Mozilla. Sistem ini disiapkan sebagai alat komunikasi satu arah tentang pengalaman Anda menggunakan Firefox, dunia maya yang Anda tampilkan lewat "
+"Firefox, dan apa yang dapat Mozilla lakukan agar pengalaman Anda lebih baik. Sistem ini tersedia melalui berbagai jalur untuk ketiga kanal utama build."
 
 #: fjord/base/templates/includes/about_text.html:14
-msgid ""
-"To submit feedback for your version of Firefox, please go to <a href=\"%"
-"(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Untuk mengirimkan saran tentang versi Firefox Anda, buka <a href=\"%"
-"(url)s\">laman pengiriman saran</a>!"
+msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgstr "Untuk mengirimkan saran tentang versi Firefox Anda, buka <a href=\"%(url)s\">laman pengiriman saran</a>!"
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
@@ -231,26 +233,19 @@ msgstr "Data Terbuka"
 
 #: fjord/base/templates/includes/about_text.html:22
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. "
-"So, we need requests from you on questions you'd like to see answered! If "
-"you would like to experiment with our data, please contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
-"Kami sangat senang bereksperimen dengan data ini, tetapi anggota kami hanya "
-"sedikit. Oleh karena itu, kami membutuhkan saran tentang pertanyaan tentang "
-"apa yang ingin Anda ketahui jawabannya. Jika Anda ingin bereksperimen dengan "
-"data kami, silakan saja hubungi kami!"
+"Kami sangat senang bereksperimen dengan data ini, tetapi anggota kami hanya sedikit. Oleh karena itu, kami membutuhkan saran tentang pertanyaan tentang apa yang ingin Anda ketahui jawabannya. Jika "
+"Anda ingin bereksperimen dengan data kami, silakan saja hubungi kami!"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
 msgstr "Kode Sumber"
 
 #: fjord/base/templates/includes/about_text.html:32
-msgid ""
-"The code for the Firefox Input web application can be <a href=\"%"
-"(url)s\">found on GitHub</a>!"
-msgstr ""
-"Kode aplikasi web Firefox Input dapat ditemukan <a href=\"%(url)s\">di "
-"GitHub</a>!"
+msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgstr "Kode aplikasi web Firefox Input dapat ditemukan <a href=\"%(url)s\">di GitHub</a>!"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -266,13 +261,11 @@ msgstr "Laporkan Penyalahgunaan Merek Dagang"
 
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
 msgstr ""
-"Kecuali <a href=\"%(legal_url)s\">dinyatakan</a> lain, isi pada situs ini "
-"dilisensikan di bawah lisensi <br/> <a href=\"%(license_url)s\">Creative "
-"Commons Attribution Share-Alike License v3.0</a> atau versi yang lebih baru."
+"Kecuali <a href=\"%(legal_url)s\">dinyatakan</a> lain, isi pada situs ini dilisensikan di bawah lisensi <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"atau versi yang lebih baru."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -283,34 +276,26 @@ msgid "Go"
 msgstr "Buka"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
-msgid ""
-"Either you don't have an account here or you used the wrong Persona account "
-"to log in."
-msgstr ""
-"Anda belum punya akun di sini atau akun Persona bukan yang seharusnya "
-"digunakan untuk masuk."
+msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+msgstr "Anda belum punya akun di sini atau akun Persona bukan yang seharusnya digunakan untuk masuk."
 
-#: fjord/base/templates/services/monitor.html:3
-#: fjord/base/templates/services/monitor.html:14
+#: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
 msgstr "Pemantau Layanan Input"
 
 #: fjord/base/templates/services/monitor.html:16
-msgid ""
-"List of components that Input uses and whether they are functioning "
-"correctly."
+msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Daftar komponen yang digunakan input beserta status fungsinya."
 
-#: fjord/feedback/forms.py:41
-msgid ""
-"Please enter a valid email address, or uncheck the box allowing us to "
-"contact you."
-msgstr ""
-"Masukkan alamat surel yang valid, atau hapus centang pada kotak agar kami "
-"tidak menghubungi Anda."
+#: fjord/feedback/forms.py:42
+msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+msgstr "Masukkan alamat surel yang valid, atau hapus centang pada kotak agar kami tidak menghubungi Anda."
 
-#: fjord/feedback/templates/feedback/download_firefox.html:14
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+#: fjord/feedback/forms.py:57
+msgid "This field is required."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
 msgstr "Unduh Firefox"
 
@@ -318,31 +303,19 @@ msgstr "Unduh Firefox"
 msgid "Please Download Firefox"
 msgstr "Silakan Unduh Firefox"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:25
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:21
-msgid ""
-"Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need "
-"to be on the latest version."
-msgstr ""
-"Aha! Anda ingin mengirimkan saran tentang Firefox! Terima kasih ya, tetapi "
-"Anda harus menggunakan versi terbaru Firefox lebih dulu."
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Aha! Anda ingin mengirimkan saran tentang Firefox! Terima kasih ya, tetapi Anda harus menggunakan versi terbaru Firefox lebih dulu."
 
-#: fjord/feedback/templates/feedback/download_firefox.html:31
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:27
-msgid ""
-"To do that, simply go to our download page and install/update to the <a "
-"href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Untuk mendapatkannya, buka saja laman unduhan kemudian pasang/perbarui ke <a "
-"href=\"%(url)s\">Firefox Versi Terbaru!</a>"
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Untuk mendapatkannya, buka saja laman unduhan kemudian pasang/perbarui ke <a href=\"%(url)s\">Firefox Versi Terbaru!</a>"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:5
-#: fjord/feedback/templates/feedback/feedback.html:26
+#: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
 msgstr "Firefox Menyenangkan"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:7
-#: fjord/feedback/templates/feedback/feedback.html:27
+#: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
 msgid "Firefox Made Me Sad"
 msgstr "Firefox Membuatku Kecewa"
 
@@ -351,111 +324,73 @@ msgid "Super! It's great to hear that you like our browser."
 msgstr "Keren! Kami gembira sekali Anda menyukai peramban kami."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:14
-msgid ""
-"We are sorry that you have not had a good experience with our browser. "
-"Please tell us why, so we can fix it."
-msgstr ""
-"Mohon maaf jika Anda masih belum mendapatkan pengalaman memuaskan dengan "
-"peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya."
+msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+msgstr "Mohon maaf jika Anda masih belum mendapatkan pengalaman memuaskan dengan peramban kami. Mohon beri kami saran agar kami dapat memperbaikinya."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:18
 msgid "Go Back"
 msgstr "Kembali"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28
-#: fjord/feedback/templates/feedback/mobile/feedback.html:50
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50
 msgid "Please describe what you liked."
 msgstr "Jelaskan apa yang Anda suka."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:30
-#: fjord/feedback/templates/feedback/mobile/feedback.html:53
+#: fjord/feedback/templates/feedback/feedback-form.html:30 fjord/feedback/templates/feedback/mobile/feedback.html:53
 msgid "Please describe your problem below."
 msgstr "Uraikan masalah Anda di bawah ini."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:40
 msgid "If your feedback is related to a website, you can include it here."
-msgstr ""
-"Jika saran Anda terkait dengan sebuah situs web, sertakan juga alamatnya."
+msgstr "Jika saran Anda terkait dengan sebuah situs web, sertakan juga alamatnya."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:48
 msgid ""
-"Please be as specific as you can in the allotted space. For example, if you "
-"are giving feedback about slowness, please tell us about relevant websites, "
-"if you notice it at the beginning or later in the browsing session and if "
-"there are any actions that you perform in Firefox that are particularly "
-"problematic."
+"Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
+"the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr ""
-"Mohon jelaskan secara mendetail pada isian yang disediakan. Misalnya jika "
-"Anda ingin mengirim masukan tentang kecepatan Firefox, mohon sertakan alamat "
-"situs web yang relevan, apa yang terjadi di awal dan di akhir sesi "
-"penjelajahan dan apakah ada aksi yang dilakukan pada Firefox yang "
-"mengakibatkan masalah."
+"Mohon jelaskan secara mendetail pada isian yang disediakan. Misalnya jika Anda ingin mengirim masukan tentang kecepatan Firefox, mohon sertakan alamat situs web yang relevan, apa yang terjadi di "
+"awal dan di akhir sesi penjelajahan dan apakah ada aksi yang dilakukan pada Firefox yang mengakibatkan masalah."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:62
-#: fjord/feedback/templates/feedback/mobile/feedback.html:68
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Check here to let us contact you to follow up on your feedback."
-msgstr ""
-"Centang di sini agar kami dapat menghubungi Anda untuk menindaklanjuti saran "
-"Anda."
+msgstr "Centang di sini agar kami dapat menghubungi Anda untuk menindaklanjuti saran Anda."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:68
-#: fjord/feedback/templates/feedback/mobile/feedback.html:74
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
 msgid "Email address (optional):"
 msgstr "Alamat surel (opsional):"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:74
-msgid ""
-"While your feedback will be publicly visible, email addresses are kept "
-"private. We understand your privacy is important."
-msgstr ""
-"Walaupun saran Anda dapat dilihat secara publik, alamat surel Anda disimpan "
-"secara rahasia. Kami memahami bahwa privasi Anda sangat penting."
+msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+msgstr "Walaupun saran Anda dapat dilihat secara publik, alamat surel Anda disimpan secara rahasia. Kami memahami bahwa privasi Anda sangat penting."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
-msgid ""
-"For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> "
-"instead."
-msgstr ""
-"Untuk permintaan bantuan, kunjungi <a href=\"%(url)s\">Layanan Dukungan "
-"Mozilla</a>."
+msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
+msgstr "Untuk permintaan bantuan, kunjungi <a href=\"%(url)s\">Layanan Dukungan Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
-msgid ""
-"To protect your privacy, please ensure that no personally identifiable "
-"information is included in your feedback."
-msgstr ""
-"Untuk melindungi privasi Anda, pastikan tidak ada informasi yang merujuk ke "
-"data pribadi pada isian saran Anda."
+msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+msgstr "Untuk melindungi privasi Anda, pastikan tidak ada informasi yang merujuk ke data pribadi pada isian saran Anda."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:105
 msgid "Submitting Feedback"
 msgstr "Mengirim Saran"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:106
-#: fjord/feedback/templates/feedback/feedback-form.html:110
+#: fjord/feedback/templates/feedback/feedback-form.html:106 fjord/feedback/templates/feedback/feedback-form.html:110
 msgid "Submit Feedback"
 msgstr "Kirim Saran"
 
-#: fjord/feedback/templates/feedback/feedback.html:11
-#: fjord/feedback/templates/feedback/feedback.html:20
-#: fjord/feedback/templates/feedback/mobile/feedback.html:11
+#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
 #: fjord/feedback/templates/feedback/mobile/feedback.html:20
 msgid "Submit Your Feedback"
 msgstr "Kirim Saran Anda"
 
-#: fjord/feedback/templates/feedback/feedback.html:21
-#: fjord/feedback/templates/feedback/mobile/feedback.html:24
+#: fjord/feedback/templates/feedback/feedback.html:21 fjord/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Your feedback helps us improve Firefox."
 msgstr "Saran Anda membantu kami memperbaiki Firefox."
 
-#: fjord/feedback/templates/feedback/feedback.html:33
-#: fjord/feedback/templates/feedback/mobile/feedback.html:31
-msgid ""
-"If you need help or have a problem with Firefox, please visit <a href=\"%"
-"(support_url)s\">Firefox Support</a>."
-msgstr ""
-"Jika Anda membutuhkan bantuan atau mengalami masalah dengan Firefox, "
-"kunjungi <a href=\"%(support_url)s\">Firefox Support</a>."
+#: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
+msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+msgstr "Jika Anda membutuhkan bantuan atau mengalami masalah dengan Firefox, kunjungi <a href=\"%(support_url)s\">Firefox Support</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
@@ -466,12 +401,8 @@ msgid "Thanks for Your Feedback"
 msgstr "Terima Kasih atas Saran Anda"
 
 #: fjord/feedback/templates/feedback/thanks.html:23
-msgid ""
-"Your feedback will be used to create a better experience in future releases "
-"of Firefox."
-msgstr ""
-"Masukan Anda akan digunakan untuk memperbaiki pengalaman pada versi Firefox "
-"yang akan datang."
+msgid "Your feedback will be used to create a better experience in future releases of Firefox."
+msgstr "Masukan Anda akan digunakan untuk memperbaiki pengalaman pada versi Firefox yang akan datang."
 
 #: fjord/feedback/templates/feedback/thanks.html:32
 msgid "Share your feedback."
@@ -481,29 +412,23 @@ msgstr "Bagikan saran Anda."
 msgid "Tweet feedback to your followers"
 msgstr "Kirim tweet ke pengikut Anda"
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-#: fjord/feedback/templates/feedback/mobile/thanks.html:38
+#: fjord/feedback/templates/feedback/thanks.html:45 fjord/feedback/templates/feedback/mobile/thanks.html:38
 msgid "Shape the future of Firefox."
 msgstr "Bantu menentukan masa depan Firefox."
 
 #: fjord/feedback/templates/feedback/thanks.html:47
-msgid ""
-"Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 msgstr "Unduh <a href=\"%(download_url)s\">versi yang cocok bagi Anda</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:55
-#: fjord/feedback/templates/feedback/mobile/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:55 fjord/feedback/templates/feedback/mobile/thanks.html:44
 msgid "Contribute to Mozilla."
 msgstr "Berkontribusi ke Planet Mozilla."
 
 #: fjord/feedback/templates/feedback/thanks.html:57
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
-msgstr ""
-"Pelajari untuk ikut berperan dan <a href=\"%(url)s\">membuat Firefox dan "
-"Mozilla lebih baik</a>"
+msgstr "Pelajari untuk ikut berperan dan <a href=\"%(url)s\">membuat Firefox dan Mozilla lebih baik</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:64
-#: fjord/feedback/templates/feedback/mobile/thanks.html:50
+#: fjord/feedback/templates/feedback/thanks.html:64 fjord/feedback/templates/feedback/mobile/thanks.html:50
 msgid "Want to see where your feedback goes?"
 msgstr "Ingin tahu kemana saja saran Anda menuju?"
 
@@ -519,13 +444,11 @@ msgstr "Dapatkan kabar terbaru dari Firefox."
 msgid "Please Download Firefox!"
 msgstr "Silakan Unduh Firefox!"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:25
-#: fjord/feedback/templates/feedback/mobile/feedback.html:42
+#: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
 msgstr "Firefox menyenangkan"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:26
-#: fjord/feedback/templates/feedback/mobile/feedback.html:43
+#: fjord/feedback/templates/feedback/mobile/feedback.html:26 fjord/feedback/templates/feedback/mobile/feedback.html:43
 msgid "Firefox made me sad"
 msgstr "Firefox membuatku kecewa"
 
@@ -534,12 +457,8 @@ msgid "Please be as specific as you can."
 msgstr "Tuliskan secara rinci."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:81
-msgid ""
-"The content of your feedback will be public, so please be sure not to "
-"include any personal information."
-msgstr ""
-"Isi saran Anda akan diterbitkan secara publik, pastikan Anda tidak "
-"menyertakan informasi pribadi apa pun."
+msgid "The content of your feedback will be public, so please be sure not to include any personal information."
+msgstr "Isi saran Anda akan diterbitkan secara publik, pastikan Anda tidak menyertakan informasi pribadi apa pun."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:86
 msgid "Don't worry, your email will always be kept private."
@@ -550,12 +469,8 @@ msgid "Send Feedback"
 msgstr "Kirim Saran"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
-msgid ""
-"For support requests, please go to <a href=\"%(support_url)s\">Mozilla "
-"Support</a> instead."
-msgstr ""
-"Untuk permintaan bantuan, kunjungi <a href=\"%(support_url)s\">Layanan "
-"Dukungan Mozilla</a>."
+msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+msgstr "Untuk permintaan bantuan, kunjungi <a href=\"%(support_url)s\">Layanan Dukungan Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 msgid "Thank you for your feedback!"
@@ -566,20 +481,12 @@ msgid "Success!"
 msgstr "Sukses!"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
-msgid ""
-"Thanks for the feedback! We will use it to help create a better experience "
-"in future releases of Firefox."
-msgstr ""
-"Terima kasih atas saran Anda! Masukan Anda akan digunakan untuk memperbaiki "
-"pengalaman pada versi Firefox yang akan datang."
+msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
+msgstr "Terima kasih atas saran Anda! Masukan Anda akan digunakan untuk memperbaiki pengalaman pada versi Firefox yang akan datang."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
-msgid ""
-"Want to know what's going on with Firefox? We have many ways of staying in "
-"touch:"
-msgstr ""
-"Ingin tahu apa yang sedang berlangsung dengan Firefox? Kami punya banyak "
-"cara untuk tetap berhubungan:"
+msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
+msgstr "Ingin tahu apa yang sedang berlangsung dengan Firefox? Kami punya banyak cara untuk tetap berhubungan:"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
 msgid "Download the build that is right for you"
@@ -906,12 +813,6 @@ msgstr "Planet Mozilla"
 #~ msgid "to"
 #~ msgstr "hingga"
 
-#~ msgid "Search Results in Firefox Beta Feedback."
-#~ msgstr "Hasil Pencarian untuk Saran Firefox Versi Beta."
-
-#~ msgid "Firefox Input: '{query}'"
-#~ msgstr "Firefox Input: '{query}'"
-
 #~ msgid "Show/Hide Options"
 #~ msgstr "Bentangkan/Sembunyikan Opsi"
 
@@ -947,12 +848,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Search Results"
 #~ msgstr "Hasil Pencarian"
-
-#~ msgid "ATOM feed for this search"
-#~ msgstr "Feed ATOM untuk pencarian ini"
-
-#~ msgid "Product"
-#~ msgstr "Produk"
 
 #~ msgid "Search"
 #~ msgstr "Cari"
@@ -1047,9 +942,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "Saran Lawas &raquo;"
-
-#~ msgid "Version"
-#~ msgstr "Versi"
 
 #~ msgid "Switch to Desktop Dashboard"
 #~ msgstr "Pindah ke Dasbor Desktop"

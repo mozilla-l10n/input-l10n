@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-13 07:57-0700\n"
+"POT-Creation-Date: 2013-07-29 13:58-0700\n"
 "PO-Revision-Date: 2013-06-04 14:37+0200\n"
 "Last-Translator: Milos <mdinic@mozilla.com>\n"
 "Language-Team: Korean\n"
@@ -13,83 +13,121 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/views.py:213
-msgid "Sentiment"
-msgstr "느낌"
+#: fjord/analytics/views.py:171
+#, fuzzy
+msgid "Firefox Input: {query}"
+msgstr "Firefox 사용자 평가: '{query}'"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Firefox 사용자 평가"
+
+#: fjord/analytics/views.py:186
+#, fuzzy
+msgid "Search Results From Firefox Input"
+msgstr "Firefox 베타 채널 검색 결과"
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "행복"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "슬픔"
 
-#: fjord/analytics/views.py:217
+#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+msgid "Response id: {id}"
+msgstr ""
+
+#: fjord/analytics/views.py:344
+msgid "Sentiment"
+msgstr "느낌"
+
+#: fjord/analytics/views.py:351
+msgid "Product"
+msgstr "제품 이름:"
+
+#: fjord/analytics/views.py:361
+msgid "Version"
+msgstr "버전:"
+
+#: fjord/analytics/views.py:370
 msgid "Platform"
 msgstr "플랫폼"
 
-#: fjord/analytics/views.py:219
+#: fjord/analytics/views.py:375
 msgid "Locale"
 msgstr "언어별"
 
-#: fjord/analytics/templates/analytics/dashboard.html:75
+#: fjord/analytics/templates/analytics/dashboard.html:15
+#, fuzzy
+msgid "Atom feed for this search"
+msgstr "검색 결과 ATOM 피드"
+
+#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+msgid "Permalink"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
 msgstr "일시"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:93
 msgid "1d"
 msgstr "1일"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:79
+#: fjord/analytics/templates/analytics/dashboard.html:95
 msgid "7d"
 msgstr "7일"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:81
+#: fjord/analytics/templates/analytics/dashboard.html:97
 msgid "30d"
 msgstr "30일"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:83
+#: fjord/analytics/templates/analytics/dashboard.html:99
 msgid "90d"
 msgstr "90일"
 
-#: fjord/analytics/templates/analytics/dashboard.html:85
+#: fjord/analytics/templates/analytics/dashboard.html:101
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:89
+#: fjord/analytics/templates/analytics/dashboard.html:105
 msgid "Start"
 msgstr "시작"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:107
 msgid "End"
 msgstr "끝"
 
-#: fjord/analytics/templates/analytics/dashboard.html:92
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "설정"
 
-#: fjord/analytics/templates/analytics/dashboard.html:115
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
 msgstr "최근 의견"
 
-#: fjord/analytics/templates/analytics/dashboard.html:119
-msgid "Search by keyboard"
+#: fjord/analytics/templates/analytics/dashboard.html:136
+#, fuzzy
+msgid "Search by keyword"
 msgstr "키워드로 검색"
 
-#: fjord/analytics/templates/analytics/dashboard.html:137
+#: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "Older Messages"
 msgstr "이전 메시지"
 
-#: fjord/analytics/templates/analytics/dashboard.html:142
+#: fjord/analytics/templates/analytics/dashboard.html:159
 msgid "Newer Messages"
 msgstr "다음 메시지"
 
-#: fjord/analytics/templates/analytics/dashboard.html:153
+#: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
 msgstr "전체 메세지"
 
@@ -105,7 +143,7 @@ msgstr "대시보드는 현재 사용할 수 없습니다. 10분 뒤에 다시 �
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "대시보드는 아직 모바일 기기에서 사용할 수 없습니다."
 
-#: fjord/base/helpers.py:38
+#: fjord/base/helpers.py:36
 msgid "Unknown"
 msgstr "알 수 없음"
 
@@ -124,10 +162,6 @@ msgstr "대시보드로 돌아가기."
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "무엇인가 심하게 잘못되었습니다"
-
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
-msgid "Firefox Input"
-msgstr "Firefox 사용자 평가"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
 msgid "<strong>Firefox</strong> Input"
@@ -186,8 +220,8 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
 "Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"Firefox Input은 Mozilla 제품 의견 서비스입니다. 여러분이 제공해 주신 의견은 Firefox를 좀 더 나은 제품으로 "
-"만드는 데 도움을 줄 것 입니다. 사용자 인터페이스, 프로그램 버그, 웹 사이트 문제 등 다양한 의견을 보내 주십시오."
+"Firefox Input은 Mozilla 제품 의견 서비스입니다. 여러분이 제공해 주신 의견은 Firefox를 좀 더 나은 제품으로 만드는 데 도움을 줄 것 입니다. 사용자 인터페이스, 프로그램 버그, 웹 사이트 문제 등 다양한 의"
+"견을 보내 주십시오."
 
 #: fjord/base/templates/includes/about_text.html:14
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
@@ -249,9 +283,13 @@ msgstr "입력 서비스 모니터"
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "기능이 바르게 동작하는 항목 목록"
 
-#: fjord/feedback/forms.py:41
+#: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr "올바른 이메일 주소를 넣거나 연락 가능 옵션을 체크하지 마세요."
+
+#: fjord/feedback/forms.py:57
+msgid "This field is required."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -305,8 +343,7 @@ msgstr "웹사이트에 대한 피드백이 있을 경우, 여기에 입력하�
 msgid ""
 "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
-msgstr ""
-"가능한 한 최대한 자세하게 검색해 주세요. 예를 들면, 속도 저하에 관한 feedback일 경우 속도 저하가 나타나는 웹사이트를, "
+msgstr "가능한 한 최대한 자세하게 검색해 주세요. 예를 들면, 속도 저하에 관한 feedback일 경우 속도 저하가 나타나는 웹사이트를, "
 
 #: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
 msgid "Check here to let us contact you to follow up on your feedback."
@@ -767,12 +804,6 @@ msgstr "Mozilla 블로그"
 #~ msgid "to"
 #~ msgstr "-"
 
-#~ msgid "Search Results in Firefox Beta Feedback."
-#~ msgstr "Firefox 베타 채널 검색 결과"
-
-#~ msgid "Firefox Input: '{query}'"
-#~ msgstr "Firefox 사용자 평가: '{query}'"
-
 #~ msgid "Show/Hide Options"
 #~ msgstr "보이기/숨기기 설정"
 
@@ -808,12 +839,6 @@ msgstr "Mozilla 블로그"
 
 #~ msgid "Search Results"
 #~ msgstr "검색 결과"
-
-#~ msgid "ATOM feed for this search"
-#~ msgstr "검색 결과 ATOM 피드"
-
-#~ msgid "Product"
-#~ msgstr "제품 이름:"
 
 #~ msgid "Search"
 #~ msgstr "검색"
@@ -908,9 +933,6 @@ msgstr "Mozilla 블로그"
 
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "다음 의견 &raquo;"
-
-#~ msgid "Version"
-#~ msgstr "버전:"
 
 #~ msgid "Switch to Desktop Dashboard"
 #~ msgstr "데스크톱 버전 현황 보기"

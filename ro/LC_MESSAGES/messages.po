@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input.mozilla.com\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-13 07:57-0700\n"
+"POT-Creation-Date: 2013-07-29 13:58-0700\n"
 "PO-Revision-Date: 2013-07-27 15:51+0000\n"
 "Last-Translator: Raul <raul.malea@gmail.com>\n"
 "Language-Team: Romanian <LL@li.org>\n"
@@ -10,88 +10,127 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);;\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1374940310.0\n"
 
-#: fjord/analytics/views.py:213
-msgid "Sentiment"
-msgstr "Sentiment"
+#: fjord/analytics/views.py:171
+#, fuzzy
+msgid "Firefox Input: {query}"
+msgstr "Reacții despre Firefox: „{query}”"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:245 fjord/analytics/templates/analytics/dashboard.html:15 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Firefox Input"
+msgstr "Reacții despre Firefox"
+
+#: fjord/analytics/views.py:186
+#, fuzzy
+msgid "Search Results From Firefox Input"
+msgstr "Rezultatele căutării în reacții despre Firefox Beta."
+
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
 msgid "Happy"
 msgstr "Fericit"
 
-#: fjord/analytics/views.py:214 fjord/analytics/views.py:247 fjord/analytics/templates/analytics/dashboard.html:17 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
 msgid "Sad"
 msgstr "Trist"
 
-#: fjord/analytics/views.py:217
+#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+msgid "Response id: {id}"
+msgstr ""
+
+#: fjord/analytics/views.py:344
+msgid "Sentiment"
+msgstr "Sentiment"
+
+#: fjord/analytics/views.py:351
+#, fuzzy
+msgid "Product"
+msgstr "Produs"
+
+#: fjord/analytics/views.py:361
+#, fuzzy
+msgid "Version"
+msgstr "Versiune:"
+
+#: fjord/analytics/views.py:370
 msgid "Platform"
 msgstr "Platformă"
 
-#: fjord/analytics/views.py:219
+#: fjord/analytics/views.py:375
 msgid "Locale"
 msgstr "Limbă"
 
-#: fjord/analytics/templates/analytics/dashboard.html:75
+#: fjord/analytics/templates/analytics/dashboard.html:15
+#, fuzzy
+msgid "Atom feed for this search"
+msgstr "Flux ATOM pentru această căutare"
+
+#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+msgid "Permalink"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
 msgstr "Când"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:77
+#: fjord/analytics/templates/analytics/dashboard.html:93
 msgid "1d"
 msgstr "o  zi"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:79
+#: fjord/analytics/templates/analytics/dashboard.html:95
 msgid "7d"
 msgstr "7z"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:81
+#: fjord/analytics/templates/analytics/dashboard.html:97
 msgid "30d"
 msgstr "30"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:83
+#: fjord/analytics/templates/analytics/dashboard.html:99
 msgid "90d"
 msgstr "90z"
 
-#: fjord/analytics/templates/analytics/dashboard.html:85
+#: fjord/analytics/templates/analytics/dashboard.html:101
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:89
+#: fjord/analytics/templates/analytics/dashboard.html:105
 msgid "Start"
 msgstr "Pornire"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:107
 msgid "End"
 msgstr "Final"
 
-#: fjord/analytics/templates/analytics/dashboard.html:92
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "Setează"
 
-#: fjord/analytics/templates/analytics/dashboard.html:115
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
 msgstr "Cele mai noi reacții"
 
-#: fjord/analytics/templates/analytics/dashboard.html:119
-msgid "Search by keyboard"
+#: fjord/analytics/templates/analytics/dashboard.html:136
+#, fuzzy
+msgid "Search by keyword"
 msgstr "Căutare după cuvinte cheie"
 
-#: fjord/analytics/templates/analytics/dashboard.html:137
+#: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "Older Messages"
 msgstr "Mesaje mai vechi"
 
-#: fjord/analytics/templates/analytics/dashboard.html:142
+#: fjord/analytics/templates/analytics/dashboard.html:159
 msgid "Newer Messages"
 msgstr "Mesaje mai noi"
 
-#: fjord/analytics/templates/analytics/dashboard.html:153
+#: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
 msgstr "Mesaje"
 
@@ -101,15 +140,13 @@ msgstr "Tablou de bord indisponibil"
 
 #: fjord/analytics/templates/analytics/es_down.html:9
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
-msgstr ""
-"Tabloul de bord este momentan indisponibil. Vă rugăm încercați din nou în 10 "
-"minute."
+msgstr "Tabloul de bord este momentan indisponibil. Vă rugăm încercați din nou în 10 minute."
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Tabloul de bord nu este disponibil încă pentru dispozitivele mobile."
 
-#: fjord/base/helpers.py:38
+#: fjord/base/helpers.py:36
 msgid "Unknown"
 msgstr "Revenire la tablou de bord."
 
@@ -128,10 +165,6 @@ msgstr "Revenire la tabloul de bord."
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr ""
-
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
-msgid "Firefox Input"
-msgstr "Reacții despre Firefox"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
 msgid "<strong>Firefox</strong> Input"
@@ -230,10 +263,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Cu excepția cazurilor când <a href=\"%(legal_url)s\">se specifică</a> altfel, "
-"conținutul de pe acest sait este licențiat sub licența <br/> <a href=\"%"
-"(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"sau orice versiune mai nouă."
+"Cu excepția cazurilor când <a href=\"%(legal_url)s\">se specifică</a> altfel, conținutul de pe acest sait este licențiat sub licența <br/> <a href=\"%(license_url)s\">Creative Commons Attribution "
+"Share-Alike License v3.0</a> sau orice versiune mai nouă."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -255,8 +286,12 @@ msgstr ""
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr ""
 
-#: fjord/feedback/forms.py:41
+#: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+msgstr ""
+
+#: fjord/feedback/forms.py:57
+msgid "This field is required."
 msgstr ""
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
@@ -269,15 +304,11 @@ msgstr "Vă rugăm descărcați Firefox"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
-"Oh! Deci vreți să ne spuneți ceva despre Firefox. Vă mulțumim, însă înainte "
-"de asta trebuie să aveți instalată ultima versiune."
+msgstr "Oh! Deci vreți să ne spuneți ceva despre Firefox. Vă mulțumim, însă înainte de asta trebuie să aveți instalată ultima versiune."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Pentru a face asta, pur și simplu mergeți la pagina de descărcare și "
-"instalați sau actualizați <a href=\"%(url)s\">ultima versiune de Firefox!</a>"
+msgstr "Pentru a face asta, pur și simplu mergeți la pagina de descărcare și instalați sau actualizați <a href=\"%(url)s\">ultima versiune de Firefox!</a>"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
@@ -293,9 +324,7 @@ msgstr "Super! Este plăcut să auzim că vă place navigatorul dumneavoastră."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:14
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr ""
-"Ne pare rău că nu ați avut o experiență plăcută cu navigatorul "
-"dumneavoastră. Vă rugăm să ne spuneți de ce, ca să putem rezolva problema."
+msgstr "Ne pare rău că nu ați avut o experiență plăcută cu navigatorul dumneavoastră. Vă rugăm să ne spuneți de ce, ca să putem rezolva problema."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:18
 msgid "Go Back"
@@ -333,9 +362,7 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Pentru solicitări de ajutor, vă rugăm să vizitați <a href=\"%(url)s\">Suport "
-"Mozilla</a> în schimb."
+msgstr "Pentru solicitări de ajutor, vă rugăm să vizitați <a href=\"%(url)s\">Suport Mozilla</a> în schimb."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -360,10 +387,7 @@ msgstr "Opiniile dumneavoastră ne ajută să îmbunătățim Firefox."
 
 #: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr ""
-"Dacă aveți nevoie de ajutor sau aveți o problemă cu Firefox, vă rugăm "
-"vizitați <a href=\"%(support_url)s\">pagina noastră de suport pentru "
-"Firefox</a>."
+msgstr "Dacă aveți nevoie de ajutor sau aveți o problemă cu Firefox, vă rugăm vizitați <a href=\"%(support_url)s\">pagina noastră de suport pentru Firefox</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
@@ -407,8 +431,7 @@ msgstr "Doriți să vedeți unde se duc reacțiile dumneavoastră?"
 
 #: fjord/feedback/templates/feedback/thanks.html:66
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr ""
-"Vizitați <a href=\"%(dash_url)s\">Tabloul de bord al reacțiilor Firefox</a>"
+msgstr "Vizitați <a href=\"%(dash_url)s\">Tabloul de bord al reacțiilor Firefox</a>"
 
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
@@ -444,9 +467,7 @@ msgstr "Trimite opiniile"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Dacă aveți nevoie de ajutor, vă rugăm vizitați <a href=\"%"
-"(support_url)s\">Suport Mozilla</a> în schimb."
+msgstr "Dacă aveți nevoie de ajutor, vă rugăm vizitați <a href=\"%(support_url)s\">Suport Mozilla</a> în schimb."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 msgid "Thank you for your feedback!"
@@ -601,10 +622,6 @@ msgstr "Mozilla Planet"
 #~ msgid "Add URL of last visited page?"
 #~ msgstr "Adăugați adresa ultimului sait vizitat?"
 
-#, fuzzy
-#~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
-#~ msgstr ""
-
 #~ msgid "Translate Message"
 #~ msgstr "Tradu mesajul"
 
@@ -717,12 +734,6 @@ msgstr "Mozilla Planet"
 #~ msgid "to"
 #~ msgstr "la"
 
-#~ msgid "Search Results in Firefox Beta Feedback."
-#~ msgstr "Rezultatele căutării în reacții despre Firefox Beta."
-
-#~ msgid "Firefox Input: '{query}'"
-#~ msgstr "Reacții despre Firefox: „{query}”"
-
 #~ msgid "Show/Hide Options"
 #~ msgstr "Arată sau ascunde opțiunile"
 
@@ -744,13 +755,6 @@ msgstr "Mozilla Planet"
 
 #~ msgid "Search Results"
 #~ msgstr "Rezultatele căutării"
-
-#~ msgid "ATOM feed for this search"
-#~ msgstr "Flux ATOM pentru această căutare"
-
-#, fuzzy
-#~ msgid "Product"
-#~ msgstr "Produs"
 
 #~ msgid "Search"
 #~ msgstr "Căutare"
@@ -842,10 +846,6 @@ msgstr "Mozilla Planet"
 
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "Reacții mai vechi &raquo;"
-
-#, fuzzy
-#~ msgid "Version"
-#~ msgstr "Versiune:"
 
 #~ msgid "For last:"
 #~ msgstr "Din ultimele:"
