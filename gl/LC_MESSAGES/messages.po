@@ -206,7 +206,7 @@ msgstr ""
 #: fjord/base/templates/includes/about_text.html:14
 #, fuzzy
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "Para enviar opinións sobre a súa versión do Firefox, vaia a <a href=\"%(feedback_url)s\">páxina de envío de opinións</a>!"
+msgstr "Para enviar opinións sobre a súa versión do Firefox, vaia a <a href=\"%(url)s\">páxina de envío de opinións</a>!"
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
@@ -218,8 +218,6 @@ msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
 msgstr ""
-"Encantaríanos experimentar máis con estes datos, pero tan só somos unhas poucas persoas. Entón, precisamos saber que preguntas vos gustaría ver contestadas! Se vostede quere experimentar cos nosos "
-"datos, <a href=\"%(data_url)s\">contacte connosco</a>!"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
@@ -228,7 +226,7 @@ msgstr "Código fonte"
 #: fjord/base/templates/includes/about_text.html:32
 #, fuzzy
 msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "O código do aplicativo web Firefox Input pode atoparse <a href=\"%(source_url)s\">en GitHub</a>!"
+msgstr "O código do aplicativo web Firefox Input pode atoparse <a href=\"%(url)s\">en GitHub</a>!"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -344,7 +342,7 @@ msgstr ""
 #: fjord/feedback/templates/feedback/feedback-form.html:82
 #, fuzzy
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr "Se o problema persiste, escriba <a href=\"%(bug_url)s\">un informe de erro.</a> Grazas!"
+msgstr ""
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
@@ -476,17 +474,17 @@ msgstr "Quere saber que sucede co Firefox para móbiles? Ten moitas formas de es
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
 #, fuzzy
 msgid "Download the build that is right for you"
-msgstr "Descargue <a href=\"%(download_url)s\">a versión que se adapte as súas necesidades</a>."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:46
 #, fuzzy
 msgid "Learn how you can make Firefox and Mozilla better"
-msgstr "Aprenda como pode <a href=\"%(url)s\">facer ao Firefox e a Mozilla mellores</a>"
+msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:52
 #, fuzzy
 msgid "Visit the Firefox Feedback Dashboard"
-msgstr "Visite o <a href=\"%(dash_url)s\">taboleiro de opinións do Firefox</a>"
+msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:56
 #, fuzzy
@@ -1226,12 +1224,6 @@ msgstr "Planet Mozilla"
 #~ msgid "Locale: {locale}"
 #~ msgstr "Idioma: {locale}"
 
-#, fuzzy
-#~ msgid "Most Recent Message"
-#~ msgid_plural "Last %(count)s Messages"
-#~ msgstr[0] "Últimas {count} mensaxes"
-#~ msgstr[1] "Últimas {count} mensaxes"
-
 #~ msgid "No clusters of opinions found."
 #~ msgstr "Non se encontraron grupos de opinión."
 
@@ -1304,7 +1296,3 @@ msgstr "Planet Mozilla"
 
 #~ msgid "{0} opinions similar to <q>{1}</q>"
 #~ msgstr "{0} opinións similares a <q>{1}</q>"
-
-#, fuzzy
-#~ msgid "{0} similar messages"
-#~ msgstr "Últimas {count} mensaxes"
