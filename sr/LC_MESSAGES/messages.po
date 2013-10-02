@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-29 13:58-0700\n"
+"POT-Creation-Date: 2013-10-02 06:34-0700\n"
 "PO-Revision-Date: 2012-09-21 10:46+0200\n"
 "Last-Translator: Milos <mdinic@mozilla.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,52 +13,56 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/views.py:171
+#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:347 fjord/base/helpers.py:36
+msgid "Unknown"
+msgstr "Непознато"
+
+#: fjord/analytics/views.py:172
 #, fuzzy
 msgid "Firefox Input: {query}"
 msgstr "О фајерфоксовим упитима"
 
-#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:174 fjord/analytics/views.py:188 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 #, fuzzy
 msgid "Firefox Input"
 msgstr "О фајерфоксовим упитима"
 
-#: fjord/analytics/views.py:186
+#: fjord/analytics/views.py:187
 #, fuzzy
 msgid "Search Results From Firefox Input"
 msgstr "О фајерфоксовим упитима"
 
-#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:417 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:83
 msgid "Happy"
 msgstr "Добро"
 
-#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:419 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:84
 msgid "Sad"
 msgstr "Лоше"
 
-#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:202 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr ""
 
-#: fjord/analytics/views.py:344
+#: fjord/analytics/views.py:353
 msgid "Sentiment"
 msgstr "Расположење"
 
-#: fjord/analytics/views.py:351
+#: fjord/analytics/views.py:360
 msgid "Product"
 msgstr ""
 
-#: fjord/analytics/views.py:361
+#: fjord/analytics/views.py:371
 msgid "Version"
 msgstr ""
 
-#: fjord/analytics/views.py:370
+#: fjord/analytics/views.py:381
 msgid "Platform"
 msgstr "Платформа"
 
-#: fjord/analytics/views.py:375
+#: fjord/analytics/views.py:387
 msgid "Locale"
 msgstr "Језик"
 
@@ -142,10 +146,6 @@ msgstr ""
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr ""
-
-#: fjord/base/helpers.py:36
-msgid "Unknown"
-msgstr "Непознато"
 
 #: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
 #, fuzzy
@@ -287,6 +287,22 @@ msgstr "Праћење сервиса упита"
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Листа компоненти које сајт а упите користи и провера њихове функционалности."
 
+#: fjord/feedback/config.py:18
+msgid "Colombia"
+msgstr ""
+
+#: fjord/feedback/config.py:19
+msgid "Venezuela"
+msgstr ""
+
+#: fjord/feedback/config.py:20
+msgid "Poland"
+msgstr ""
+
+#: fjord/feedback/config.py:21
+msgid "Spain"
+msgstr ""
+
 #: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
@@ -331,7 +347,7 @@ msgstr "Жао нам је што нисте имали добро искуст�
 msgid "Go Back"
 msgstr "Назад"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:98
 msgid "Please describe what you liked."
 msgstr "Молимо опишите шта Вам се свиђа."
 
@@ -351,11 +367,11 @@ msgstr ""
 "Молимо будите конкретни што више можете у задатом простору. На пример, ако имате примедбу на брзину рада фајерфокса, молимо Вас да нам кажете који сајтови споро раде, да ли сте то приметили на "
 "почетку или крају сурфовања и да ли радите одређене ствари за које сумњате да успоравају рад фајерфокса."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:128
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:134
 msgid "Email address (optional):"
 msgstr ""
 
@@ -380,7 +396,7 @@ msgid "Submit Feedback"
 msgstr "Пошаљи коментар"
 
 #: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
-#: fjord/feedback/templates/feedback/mobile/feedback.html:20
+#: fjord/feedback/templates/feedback/mobile/feedback.html:20 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:12
 msgid "Submit Your Feedback"
 msgstr "Пошаљите свој коментар"
 
@@ -458,15 +474,15 @@ msgstr "Фајерфокс ме је растужио"
 msgid "Please be as specific as you can."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:81
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:109
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:86
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:144
 msgid "Don't worry, your email will always be kept private."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:92
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:148
 #, fuzzy
 msgid "Send Feedback"
 msgstr "Најновији коментари"
@@ -476,14 +492,115 @@ msgstr "Најновији коментари"
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
 msgstr "Ако Вам је потребна помоћ или имате проблем, посетите <a href=\"%(support_url)s\">Фајерфокс Подршку</a>."
 
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:20
+#, fuzzy
+msgid "Submit feedback"
+msgstr "Пошаљи коментар"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:24
+#, fuzzy
+msgid "Your feedback helps us improve Firefox OS."
+msgstr "Ваши коментари нам помажу да унапредимо фајерфокс."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:25
+#, fuzzy
+msgid "Firefox OS made me happy"
+msgstr "Фајерфокс ме је усрећио"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:26
+#, fuzzy
+msgid "Firefox OS made me sad"
+msgstr "Фајерфокс ме је растужио"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
+#, fuzzy
+msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
+msgstr "Ако Вам је потребна помоћ или имате проблем, посетите <a href=\"%(support_url)s\">Фајерфокс Подршку</a>."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
+msgid "Country"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:49
+msgid "In what country did you purchase your Firefox OS device?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:59 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:84
+msgid "Other"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:61 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:114
+msgid "Next"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:69
+msgid "Device"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:74
+msgid "What Firefox OS device are you using?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
+msgid "Details"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
+#, fuzzy
+msgid "Please describe your problem below and be as specific as you can."
+msgstr "Молимо опишите Ваш проблем испод."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:121
+msgid "Can we contact you?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:138
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:154
+#, fuzzy
+msgid "Submitting...."
+msgstr "Шаљем коментар"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:164 fjord/feedback/templates/feedback/mobile/thanks.html:16
+msgid "Success!"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:169
+#, fuzzy
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
+msgstr "Ваш коментар ће се користити за побољшање следећих верзија фајерфокса."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:175
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
+msgstr "Сазнајте како можете <a href=\"%(url)s\">унапредити фајерфокс и Мозилу</a>."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:185
+msgid "We're sorry!"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:190
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:195 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:202 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:212
+msgid "Try again"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:196 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:213
+msgid "Cancel"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:207
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
+msgstr ""
+
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 #, fuzzy
 msgid "Thank you for your feedback!"
 msgstr "Хвала за коментар"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:16
-msgid "Success!"
-msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
 #, fuzzy

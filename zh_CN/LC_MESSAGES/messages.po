@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-29 13:58-0700\n"
+"POT-Creation-Date: 2013-10-02 06:34-0700\n"
 "PO-Revision-Date: 2013-09-08 20:47+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,49 +14,53 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1378673258.0\n"
 
-#: fjord/analytics/views.py:171
+#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:347 fjord/base/helpers.py:36
+msgid "Unknown"
+msgstr "未知"
+
+#: fjord/analytics/views.py:172
 msgid "Firefox Input: {query}"
 msgstr "Firefox Input：“{query}”"
 
-#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:174 fjord/analytics/views.py:188 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
-#: fjord/analytics/views.py:186
+#: fjord/analytics/views.py:187
 msgid "Search Results From Firefox Input"
 msgstr "Firefox Input 的搜索结果"
 
-#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:417 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:83
 msgid "Happy"
 msgstr "开心"
 
-#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:419 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:84
 msgid "Sad"
 msgstr "不快"
 
-#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:202 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "响应 ID: {id}"
 
-#: fjord/analytics/views.py:344
+#: fjord/analytics/views.py:353
 msgid "Sentiment"
 msgstr "心情"
 
-#: fjord/analytics/views.py:351
+#: fjord/analytics/views.py:360
 msgid "Product"
 msgstr "产品"
 
-#: fjord/analytics/views.py:361
+#: fjord/analytics/views.py:371
 msgid "Version"
 msgstr "版本"
 
-#: fjord/analytics/views.py:370
+#: fjord/analytics/views.py:381
 msgid "Platform"
 msgstr "平台"
 
-#: fjord/analytics/views.py:375
+#: fjord/analytics/views.py:387
 msgid "Locale"
 msgstr "地区语言"
 
@@ -139,10 +143,6 @@ msgstr "仪表盘目前不可用，请10分钟后再试。"
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "仪表盘目前不能在移动设备上使用。"
-
-#: fjord/base/helpers.py:36
-msgid "Unknown"
-msgstr "未知"
 
 #: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
 msgid "Not Found"
@@ -258,9 +258,7 @@ msgstr "举报商标滥用"
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
-msgstr ""
-"除非特别<a href=\"%(legal_url)s\">指明</a>，本站的内容均采用<br/><a href=\"%"
-"(license_url)s\">知识共享 署名-相同方式共享 许可证 3.0</a>或更新版授权。"
+msgstr "除非特别<a href=\"%(legal_url)s\">指明</a>，本站的内容均采用<br/><a href=\"%(license_url)s\">知识共享 署名-相同方式共享 许可证 3.0</a>或更新版授权。"
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -281,6 +279,22 @@ msgstr "Input 服务监控器"
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Input 所使用的组件名单，以及它们是否在正常工作中。"
+
+#: fjord/feedback/config.py:18
+msgid "Colombia"
+msgstr ""
+
+#: fjord/feedback/config.py:19
+msgid "Venezuela"
+msgstr ""
+
+#: fjord/feedback/config.py:20
+msgid "Poland"
+msgstr ""
+
+#: fjord/feedback/config.py:21
+msgid "Spain"
+msgstr ""
 
 #: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
@@ -326,7 +340,7 @@ msgstr "很抱歉我们的浏览器没给您带来愉快的使用体验。请告
 msgid "Go Back"
 msgstr "返回"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:98
 msgid "Please describe what you liked."
 msgstr "请描述您喜欢什么地方。"
 
@@ -343,14 +357,14 @@ msgid ""
 "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr ""
-"请在空白处将您的意见尽量填写清楚。例如，如果您想提供软件运行缓慢的反馈，请告诉我们您在哪个网站会遇到这种情况。如果可能，请向我们提供是刚启动 "
-"Firefox 就出现问题，还是执行某些特定操作后才出现，提供什么步骤能让问题重现是最好的。"
+"请在空白处将您的意见尽量填写清楚。例如，如果您想提供软件运行缓慢的反馈，请告诉我们您在哪个网站会遇到这种情况。如果可能，请向我们提供是刚启动 Firefox 就出现问题，还是执行某些特定操作后才出现，提供什"
+"么步骤能让问题重现是最好的。"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:128
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr "选中这里让我们联系你以跟进反馈。"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:134
 msgid "Email address (optional):"
 msgstr "电子邮件（可选）："
 
@@ -375,7 +389,7 @@ msgid "Submit Feedback"
 msgstr "提交反馈"
 
 #: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
-#: fjord/feedback/templates/feedback/mobile/feedback.html:20
+#: fjord/feedback/templates/feedback/mobile/feedback.html:20 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:12
 msgid "Submit Your Feedback"
 msgstr "提交您的反馈"
 
@@ -385,8 +399,7 @@ msgstr "您的反馈能帮助我们改进 Firefox。"
 
 #: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr ""
-"如果您需要帮助或者有什么关于 Firefox 的问题，请访问 <a href=\"%(support_url)s\">Firefox 技术支持</a>。"
+msgstr "如果您需要帮助或者有什么关于 Firefox 的问题，请访问 <a href=\"%(support_url)s\">Firefox 技术支持</a>。"
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
@@ -452,15 +465,15 @@ msgstr "Firefox 让我难过"
 msgid "Please be as specific as you can."
 msgstr "请尽可能具体。"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:81
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:109
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr "反馈内容将会公开显示，因此请确保其中不包含您的私人信息。"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:86
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:144
 msgid "Don't worry, your email will always be kept private."
 msgstr "别着急，您的电子邮件地址始终会保密。"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:92
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:148
 msgid "Send Feedback"
 msgstr "发送反馈"
 
@@ -468,13 +481,115 @@ msgstr "发送反馈"
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
 msgstr "要获得技术支持，请改用 <a href=\"%(support_url)s\">Mozilla 技术支持网站</a>。"
 
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:20
+#, fuzzy
+msgid "Submit feedback"
+msgstr "提交反馈"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:24
+#, fuzzy
+msgid "Your feedback helps us improve Firefox OS."
+msgstr "您的反馈能帮助我们改进 Firefox。"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:25
+#, fuzzy
+msgid "Firefox OS made me happy"
+msgstr "Firefox 让我高兴"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:26
+#, fuzzy
+msgid "Firefox OS made me sad"
+msgstr "Firefox 让我难过"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
+#, fuzzy
+msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
+msgstr "如果您需要帮助或者有什么关于 Firefox 的问题，请访问 <a href=\"%(support_url)s\">Firefox 技术支持</a>。"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
+msgid "Country"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:49
+msgid "In what country did you purchase your Firefox OS device?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:59 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:84
+msgid "Other"
+msgstr "其它"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:61 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:114
+msgid "Next"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:69
+#, fuzzy
+msgid "Device"
+msgstr "设备"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:74
+msgid "What Firefox OS device are you using?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
+msgid "Details"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
+#, fuzzy
+msgid "Please describe your problem below and be as specific as you can."
+msgstr "请在下面描述您的问题。"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:121
+msgid "Can we contact you?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:138
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:154
+#, fuzzy
+msgid "Submitting...."
+msgstr "正在提交反馈"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:164 fjord/feedback/templates/feedback/mobile/thanks.html:16
+msgid "Success!"
+msgstr "成功！"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:169
+#, fuzzy
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
+msgstr "感谢您的反馈！您的反馈将被用来在未来的 Firefox 版本中打造更优秀的用户体验。"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:175
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
+msgstr "了解您能怎样 <a href=\"%(url)s\">让 Firefox 和 Mozilla 变得更好</a>"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:185
+msgid "We're sorry!"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:190
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:195 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:202 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:212
+msgid "Try again"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:196 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:213
+msgid "Cancel"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:207
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
+msgstr ""
+
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 msgid "Thank you for your feedback!"
 msgstr "感谢您的反馈"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:16
-msgid "Success!"
-msgstr "成功！"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
 msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
@@ -741,9 +856,6 @@ msgstr "Planet Mozilla"
 #~ msgid "Linux"
 #~ msgstr "Linux"
 
-#~ msgid "Other"
-#~ msgstr "其它"
-
 #~ msgid "{0} day ago"
 #~ msgid_plural "{0} days ago"
 #~ msgstr[0] "{0} 天前"
@@ -810,9 +922,6 @@ msgstr "Planet Mozilla"
 
 #~ msgid "Toggle"
 #~ msgstr "切换"
-
-#~ msgid "Devices"
-#~ msgstr "设备"
 
 #~ msgid "More Locales"
 #~ msgstr "更多语言"

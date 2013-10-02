@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-29 13:58-0700\n"
+"POT-Creation-Date: 2013-10-02 06:34-0700\n"
 "PO-Revision-Date: 2013-09-24 13:29+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: Korean\n"
@@ -14,49 +14,53 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1380029378.0\n"
 
-#: fjord/analytics/views.py:171
+#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:347 fjord/base/helpers.py:36
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: fjord/analytics/views.py:172
 msgid "Firefox Input: {query}"
 msgstr "Firefox 사용자 평가: '{query}'"
 
-#: fjord/analytics/views.py:173 fjord/analytics/views.py:187 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:174 fjord/analytics/views.py:188 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox 사용자 평가"
 
-#: fjord/analytics/views.py:186
+#: fjord/analytics/views.py:187
 msgid "Search Results From Firefox Input"
 msgstr "Firefox 사용자 평가 검색 결과"
 
-#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:405 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:54
+#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:417 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:83
 msgid "Happy"
 msgstr "행복"
 
-#: fjord/analytics/views.py:191 fjord/analytics/views.py:345 fjord/analytics/views.py:407 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:55
+#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:419 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:84
 msgid "Sad"
 msgstr "슬픔"
 
-#: fjord/analytics/views.py:201 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:202 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "응답 아이디: {id}"
 
-#: fjord/analytics/views.py:344
+#: fjord/analytics/views.py:353
 msgid "Sentiment"
 msgstr "느낌"
 
-#: fjord/analytics/views.py:351
+#: fjord/analytics/views.py:360
 msgid "Product"
 msgstr "제품 이름:"
 
-#: fjord/analytics/views.py:361
+#: fjord/analytics/views.py:371
 msgid "Version"
 msgstr "버전:"
 
-#: fjord/analytics/views.py:370
+#: fjord/analytics/views.py:381
 msgid "Platform"
 msgstr "플랫폼"
 
-#: fjord/analytics/views.py:375
+#: fjord/analytics/views.py:387
 msgid "Locale"
 msgstr "언어별"
 
@@ -139,10 +143,6 @@ msgstr "대시보드를 현재 사용할 수 없습니다. 10분 뒤에 다시 �
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "대시보드는 아직 모바일 기기에서 사용할 수 없습니다."
-
-#: fjord/base/helpers.py:36
-msgid "Unknown"
-msgstr "알 수 없음"
 
 #: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
 msgid "Not Found"
@@ -233,8 +233,8 @@ msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
 msgstr ""
-"이 데이터를 이용해 좀 더 많은 실험을 해보고 싶지만 사람이 많지 않습니다. 그래서 여러분이 알고 싶은 내용을 요청해주시면 도움이 많이 "
-"될 것 같습니다. 이 데이터를 가지고 직접 실험을 해보고 싶다면 저희에게 연락해 주세요."
+"이 데이터를 이용해 좀 더 많은 실험을 해보고 싶지만 사람이 많지 않습니다. 그래서 여러분이 알고 싶은 내용을 요청해주시면 도움이 많이 될 것 같습니다. 이 데이터를 가지고 직접 실험을 해보고 싶다면 저희에"
+"게 연락해 주세요."
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
@@ -261,9 +261,7 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"특별한 <a href=\"%(legal_url)s\">법적 고지</a>가 없는 한 본 사이트의 모든 정보는 <br/><a href=\"%"
-"(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> 이후 "
-"버전을 따릅니다."
+"특별한 <a href=\"%(legal_url)s\">법적 고지</a>가 없는 한 본 사이트의 모든 정보는 <br/><a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> 이후 버전을 따릅니다."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -284,6 +282,22 @@ msgstr "입력 서비스 모니터"
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "기능이 바르게 동작하는 항목 목록"
+
+#: fjord/feedback/config.py:18
+msgid "Colombia"
+msgstr ""
+
+#: fjord/feedback/config.py:19
+msgid "Venezuela"
+msgstr ""
+
+#: fjord/feedback/config.py:20
+msgid "Poland"
+msgstr ""
+
+#: fjord/feedback/config.py:21
+msgid "Spain"
+msgstr ""
 
 #: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
@@ -329,7 +343,7 @@ msgstr "부정적인 결과를 드려서 매우 죄송합니다. 개선점을 �
 msgid "Go Back"
 msgstr "이전으로"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:98
 msgid "Please describe what you liked."
 msgstr "장점이라고 생각하는 점을 적어주세요."
 
@@ -347,11 +361,11 @@ msgid ""
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr "가능한 한 최대한 자세하게 검색해 주세요. 예를 들면, 속도 저하에 관한 feedback일 경우 속도 저하가 나타나는 웹사이트를, "
 
-#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:128
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr "우리가 의견에 대한 조치를 취하기 위해 여기를 확인해주세요."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:134
 msgid "Email address (optional):"
 msgstr "이메일 주소(선택사항):"
 
@@ -376,7 +390,7 @@ msgid "Submit Feedback"
 msgstr "의견 보내기"
 
 #: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
-#: fjord/feedback/templates/feedback/mobile/feedback.html:20
+#: fjord/feedback/templates/feedback/mobile/feedback.html:20 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:12
 msgid "Submit Your Feedback"
 msgstr "의견 보내기"
 
@@ -452,30 +466,131 @@ msgstr "Firefox 기능 불만족"
 msgid "Please be as specific as you can."
 msgstr "가능한 구체적으로 작성해주세요."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:81
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:109
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr "의견의 내용은 공개됩니다. 이곳에 개인정보는 입력하지 마세요."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:86
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:144
 msgid "Don't worry, your email will always be kept private."
 msgstr "걱정하지 마세요. 이메일은 언제나 비공개로 보호됩니다."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:92
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:148
 msgid "Send Feedback"
 msgstr "의견 보내기"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+msgstr "사용 지원에 대한 문의는 <a href=\"%(support_url)s\">Mozilla Support</a>사이트를 방문해 주십시오."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:20
+#, fuzzy
+msgid "Submit feedback"
+msgstr "의견 보내기"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:24
+#, fuzzy
+msgid "Your feedback helps us improve Firefox OS."
+msgstr "여러분의 의견이 Firefox를 더 멋지게 만듭니다."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:25
+#, fuzzy
+msgid "Firefox OS made me happy"
+msgstr "Firefox 기능 만족"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:26
+#, fuzzy
+msgid "Firefox OS made me sad"
+msgstr "Firefox 기능 불만족"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
+#, fuzzy
+msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
+msgstr "Firefox 사용에 문제가 있으시면 <a href=\"%(support_url)s\">사용자 지원</a>페이지를 참고하십시오."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
+msgid "Country"
 msgstr ""
-"사용 지원에 대한 문의는 <a href=\"%(support_url)s\">Mozilla Support</a>사이트를 방문해 주십시오."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:49
+msgid "In what country did you purchase your Firefox OS device?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:59 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:84
+msgid "Other"
+msgstr "기타"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:61 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:114
+msgid "Next"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:69
+#, fuzzy
+msgid "Device"
+msgstr "기기"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:74
+msgid "What Firefox OS device are you using?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
+msgid "Details"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
+#, fuzzy
+msgid "Please describe your problem below and be as specific as you can."
+msgstr "여러분이 생각하는 문제점을 아래에 입력해 주세요."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:121
+msgid "Can we contact you?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:138
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:154
+#, fuzzy
+msgid "Submitting...."
+msgstr "의견 보내는 중"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:164 fjord/feedback/templates/feedback/mobile/thanks.html:16
+msgid "Success!"
+msgstr "성공!"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:169
+#, fuzzy
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
+msgstr "의견 주셔서 감사합니다. 더 나은 다음 버전의 Firefox 개발에 도움이 될 것입니다."
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:175
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
+msgstr "<a href=\"%(url)s\">Firefox와 Mozilla</a>에 도움 주는 방법"
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:185
+msgid "We're sorry!"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:190
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:195 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:202 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:212
+msgid "Try again"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:196 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:213
+msgid "Cancel"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:207
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
+msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 msgid "Thank you for your feedback!"
 msgstr "의견을 보내주셔서 감사합니다!"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:16
-msgid "Success!"
-msgstr "성공!"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
 msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
@@ -743,9 +858,6 @@ msgstr "Mozilla 블로그"
 #~ msgid "Linux"
 #~ msgstr "리눅스"
 
-#~ msgid "Other"
-#~ msgstr "기타"
-
 #~ msgid "{0} day ago"
 #~ msgid_plural "{0} days ago"
 #~ msgstr[0] "{0}일 전"
@@ -812,9 +924,6 @@ msgstr "Mozilla 블로그"
 
 #~ msgid "Toggle"
 #~ msgstr "토글"
-
-#~ msgid "Devices"
-#~ msgstr "기기"
 
 #~ msgid "More Locales"
 #~ msgstr "언어별"
