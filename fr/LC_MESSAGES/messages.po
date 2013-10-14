@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-02 06:34-0700\n"
+"POT-Creation-Date: 2013-10-14 11:42-0700\n"
 "PO-Revision-Date: 2013-10-08 16:57+0000\n"
 "Last-Translator: Benoit <benoit.leseul@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,6 +111,10 @@ msgstr "Fin"
 #: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "Définir"
+
+#: fjord/analytics/templates/analytics/dashboard.html:127
+msgid "Note: All dates and times are in Pacific Time."
+msgstr ""
 
 #: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
@@ -284,21 +288,46 @@ msgstr "Contrôle des services Input"
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Liste des composants utilisés par Input et leur état de fonctionnement."
 
-#: fjord/feedback/config.py:18
+#: fjord/feedback/config.py:19
 msgid "Colombia"
 msgstr "Colombie"
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:20
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:21
 msgid "Poland"
 msgstr "Pologne"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:22
 msgid "Spain"
 msgstr "Espagne"
+
+#: fjord/feedback/config.py:23
+msgid "Brazil"
+msgstr ""
+
+#: fjord/feedback/config.py:24
+#, fuzzy
+msgid "Germany"
+msgstr "Permalien"
+
+#: fjord/feedback/config.py:25
+msgid "Greece"
+msgstr ""
+
+#: fjord/feedback/config.py:26
+msgid "Hungary"
+msgstr ""
+
+#: fjord/feedback/config.py:27
+msgid "Serbia"
+msgstr ""
+
+#: fjord/feedback/config.py:28
+msgid "Montenegro"
+msgstr ""
 
 #: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
@@ -344,7 +373,7 @@ msgstr "Nous sommes désolés que vous n'ayez pas apprécié notre navigateur. V
 msgid "Go Back"
 msgstr "Revenir en arrière"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:98
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:90
 msgid "Please describe what you liked."
 msgstr "Veuillez décrire ce que vous avez aimé."
 
@@ -364,11 +393,11 @@ msgstr ""
 "Veuillez être aussi précis(e) que possible dans les limites de l'espace disponible. Par exemple, si vous voulez faire une observation sur la lenteur, dites-nous sur quels sites vous l'avez "
 "remarquée, si c'est au début ou à l afin de la session, et quelles opérations vous avez faites qui se sont avérées problématiques avec Firefox. "
 
-#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:128
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:120
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr "Cochez pour nous permettre de vous contacter pour faire suite à votre soumission."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:134
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:126
 msgid "Email address (optional):"
 msgstr "Adresse courriel (facultatif) :"
 
@@ -469,15 +498,15 @@ msgstr "Firefox m'a déplu"
 msgid "Please be as specific as you can."
 msgstr "Veuillez apporter autant de précisions que possible."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:109
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr "Le contenu de votre message sera public, assurez-vous de n'y inclure aucune information personnelle."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:144
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:136
 msgid "Don't worry, your email will always be kept private."
 msgstr "Aucune inquiétude à avoir, votre adresse de courriel sera toujours privée."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:148
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:140
 msgid "Send Feedback"
 msgstr "Envoyer un commentaire"
 
@@ -503,9 +532,7 @@ msgstr "Firefox OS m'a déplu"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
 msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-msgstr ""
-"Si vous avez besoin d'aide ou si vous avez un problème avec Firefox OS, "
-"veuillez visiter l'<a href=\"%(support_url)s\">assistance de Mozilla</a>."
+msgstr "Si vous avez besoin d'aide ou si vous avez un problème avec Firefox OS, veuillez visiter l'<a href=\"%(support_url)s\">assistance de Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
 msgid "Country"
@@ -515,83 +542,73 @@ msgstr "Pays"
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr "Dans quel pays avez-vous acheté votre appareil Firefox OS ?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:59 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:84
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:55 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:76
 msgid "Other"
 msgstr "Autre"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:61 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:114
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:57 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:78 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:106
 msgid "Next"
 msgstr "Suivant"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:69
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:65
 msgid "Device"
 msgstr "Appareil"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:74
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:70
 msgid "What Firefox OS device are you using?"
 msgstr "Quel appareil Firefox OS utilisez-vous ?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:85
 msgid "Details"
 msgstr "Détails"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
 msgid "Please describe your problem below and be as specific as you can."
-msgstr ""
-"Veuillez décrire votre problème ci-dessous avec le plus de précision "
-"possible."
+msgstr "Veuillez décrire votre problème ci-dessous avec le plus de précision possible."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:121
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:113
 msgid "Can we contact you?"
 msgstr "Pouvons-nous vous contacter ?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:138
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:130
 msgid "Please enter a valid email address."
 msgstr "Veuillez saisir une adresse de courrier électronique valide."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:154
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:146
 msgid "Submitting...."
 msgstr "Envoi…"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:164 fjord/feedback/templates/feedback/mobile/thanks.html:16
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:156 fjord/feedback/templates/feedback/mobile/thanks.html:16
 msgid "Success!"
 msgstr "Bravo !"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:169
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:161
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
-msgstr ""
-"Merci pour votre retour d'expérience ! Celui-ci nous sera précieux pour "
-"améliorer les futures versions de Firefox OS."
+msgstr "Merci pour votre retour d'expérience ! Celui-ci nous sera précieux pour améliorer les futures versions de Firefox OS."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:175
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:167
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
-msgstr ""
-"Découvrez comment vous pouvez <a href=\"%(url)s\">améliorer Firefox OS et "
-"Mozilla</a>"
+msgstr "Découvrez comment vous pouvez <a href=\"%(url)s\">améliorer Firefox OS et Mozilla</a>"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:185
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:177
 msgid "We're sorry!"
 msgstr "Nous sommes désolés !"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:190
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:182
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
-msgstr ""
-"Un problème nous empêche d'envoyer votre avis. Celui-ci sera conservé sur "
-"votre appareil afin que vous puissiez réessayer de l'envoyer plus tard."
+msgstr "Un problème nous empêche d'envoyer votre avis. Celui-ci sera conservé sur votre appareil afin que vous puissiez réessayer de l'envoyer plus tard."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:195 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:202 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:212
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:187 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:194 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:204
 msgid "Try again"
 msgstr "Réessayer"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:196 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:213
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:188 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:205
 msgid "Cancel"
 msgstr "Annuler"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:207
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:199
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
-msgstr ""
-"Votre avis n'a pas encore pu être envoyé. Voulez-vous réessayer de "
-"l'envoyer ?"
+msgstr "Votre avis n'a pas encore pu être envoyé. Voulez-vous réessayer de l'envoyer ?"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
 msgid "Thank you for your feedback!"

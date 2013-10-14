@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-02 06:34-0700\n"
+"POT-Creation-Date: 2013-10-14 11:42-0700\n"
 "PO-Revision-Date: 2013-10-08 13:16+0000\n"
 "Last-Translator: Gábor <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -112,6 +112,10 @@ msgstr "Befejezés"
 #: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "Set"
 msgstr "Beállítás"
+
+#: fjord/analytics/templates/analytics/dashboard.html:127
+msgid "Note: All dates and times are in Pacific Time."
+msgstr ""
 
 #: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
@@ -234,10 +238,8 @@ msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
 msgstr ""
-"Szeretnénk az adatokkal tovább kísérletezni, de csak néhányan vagyunk. Ezért "
-"olyan kérdéseket szeretnénk kapni, amelyekre ezekből az adatokból "
-"megválaszolhatunk. Amennyiben kísérletezni szeretne az adatainkkal, vegye "
-"fel velünk a kapcsolatot!"
+"Szeretnénk az adatokkal tovább kísérletezni, de csak néhányan vagyunk. Ezért olyan kérdéseket szeretnénk kapni, amelyekre ezekből az adatokból megválaszolhatunk. Amennyiben kísérletezni szeretne az "
+"adatainkkal, vegye fel velünk a kapcsolatot!"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
@@ -245,9 +247,7 @@ msgstr "Forráskód"
 
 #: fjord/base/templates/includes/about_text.html:32
 msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
-"A Firefox Input webalkalmazás forráskódja a <a href=\"%(url)s\">GitHubon</a> "
-"található!"
+msgstr "A Firefox Input webalkalmazás forráskódja a <a href=\"%(url)s\">GitHubon</a> található!"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -287,31 +287,52 @@ msgstr "Input szolgáltatásfigyelő"
 
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr ""
-"Az Input által használt komponensek listája, és megfelelő működésük "
-"ellenőrzése."
+msgstr "Az Input által használt komponensek listája, és megfelelő működésük ellenőrzése."
 
-#: fjord/feedback/config.py:18
+#: fjord/feedback/config.py:19
 msgid "Colombia"
 msgstr "Kolumbia"
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:20
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:21
 msgid "Poland"
 msgstr "Lengyelország"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:22
 msgid "Spain"
 msgstr "Spanyolország"
 
+#: fjord/feedback/config.py:23
+msgid "Brazil"
+msgstr ""
+
+#: fjord/feedback/config.py:24
+#, fuzzy
+msgid "Germany"
+msgstr "Állandó hivatkozás"
+
+#: fjord/feedback/config.py:25
+msgid "Greece"
+msgstr ""
+
+#: fjord/feedback/config.py:26
+msgid "Hungary"
+msgstr ""
+
+#: fjord/feedback/config.py:27
+msgid "Serbia"
+msgstr ""
+
+#: fjord/feedback/config.py:28
+msgid "Montenegro"
+msgstr ""
+
 #: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
-msgstr ""
-"Adjon meg egy érvényes e-mail címet, vagy kapcsolja ki a kapcsolatfelvétel "
-"lehetőségét."
+msgstr "Adjon meg egy érvényes e-mail címet, vagy kapcsolja ki a kapcsolatfelvétel lehetőségét."
 
 #: fjord/feedback/forms.py:57
 msgid "This field is required."
@@ -331,9 +352,7 @@ msgstr "Úgy látszik, hogy a Firefox böngészővel kapcsolatban szeretne vissz
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Ehhez látogasson el a letöltő oldalra és telepítse fel, vagy frissítsen a <a "
-"href=\"%(url)s\">legújabb Firefox verzióra!</a>"
+msgstr "Ehhez látogasson el a letöltő oldalra és telepítse fel, vagy frissítsen a <a href=\"%(url)s\">legújabb Firefox verzióra!</a>"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
@@ -355,7 +374,7 @@ msgstr "Nagyon sajnáljuk, hogy nincs jó tapasztalata a böngészőnkkel. Kérj
 msgid "Go Back"
 msgstr "Vissza"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:98
+#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:90
 msgid "Please describe what you liked."
 msgstr "Írja le, hogy mi az ami tetszett."
 
@@ -375,11 +394,11 @@ msgstr ""
 "Kéjük, hogy a rendelkezésre álló helynek megfelelően részletezze a problémáját. Például, ha a lassulással kapcsolatban ír, adja meg a megfelelő weboldalakat és azt, hogy a betöltéstől kezdődően "
 "lassú vagy használat közben vált azzá, esetleg valamilyen, reprodukálható tevékenység következtében."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:128
+#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:120
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr "Jelölje be, ha felvehetjük önnel a kapcsolatot a visszajelzése kapcsán."
 
-#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:134
+#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:126
 msgid "Email address (optional):"
 msgstr "E-mail cím (nem kötelező):"
 
@@ -389,15 +408,11 @@ msgstr "Annak ellenére, hogy a visszajelzését mindenki olvashatja, az e-mail 
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Támogatási kéréseivel keresse a <a href=\"%(url)s\">Mozilla támogatás</a> "
-"weboldalát."
+msgstr "Támogatási kéréseivel keresse a <a href=\"%(url)s\">Mozilla támogatás</a> weboldalát."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr ""
-"Személyes adatainak védelme érdekében győződjön meg arról, hogy semmilyen "
-"személyes azonosításra alkalmas információt nem tartalmaz a visszajelzése."
+msgstr "Személyes adatainak védelme érdekében győződjön meg arról, hogy semmilyen személyes azonosításra alkalmas információt nem tartalmaz a visszajelzése."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:105
 msgid "Submitting Feedback"
@@ -430,9 +445,7 @@ msgstr "Köszönjük a visszajelzést"
 
 #: fjord/feedback/templates/feedback/thanks.html:23
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr ""
-"A visszajelzése hozzásegít, hogy a következő Firefox verziók jobb élményt "
-"nyújtsanak."
+msgstr "A visszajelzése hozzásegít, hogy a következő Firefox verziók jobb élményt nyújtsanak."
 
 #: fjord/feedback/templates/feedback/thanks.html:32
 msgid "Share your feedback."
@@ -464,9 +477,7 @@ msgstr "Tudni akarja, hogy hova került a visszajelzése?"
 
 #: fjord/feedback/templates/feedback/thanks.html:66
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr ""
-"Látogassa meg a <a href=\"%(dash_url)s\">Firefox visszajelzések "
-"vezérlőpult</a> oldalt."
+msgstr "Látogassa meg a <a href=\"%(dash_url)s\">Firefox visszajelzések vezérlőpult</a> oldalt."
 
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
@@ -488,25 +499,21 @@ msgstr "A Firefox elszomorít"
 msgid "Please be as specific as you can."
 msgstr "Legyen annyira részletes, amennyire lehetséges."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:109
+#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
-msgstr ""
-"A visszajelzés tartalma publikus lesz, ezért győződjön meg róla, hogy nem "
-"tartalmaz semmilyen személyes információt."
+msgstr "A visszajelzés tartalma publikus lesz, ezért győződjön meg róla, hogy nem tartalmaz semmilyen személyes információt."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:144
+#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:136
 msgid "Don't worry, your email will always be kept private."
 msgstr "Ne aggódjon, az e-mail címét személyes adatként kezeljük."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:148
+#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:140
 msgid "Send Feedback"
 msgstr "Visszajelzés küldése"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Támogatási kéréseivel forduljon a <a href=\"%(support_url)s\">Mozilla "
-"támogatás</a> weboldalhoz."
+msgstr "Támogatási kéréseivel forduljon a <a href=\"%(support_url)s\">Mozilla támogatás</a> weboldalhoz."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:20
 msgid "Submit feedback"
@@ -526,9 +533,7 @@ msgstr "A Firefox OS elszomorít"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
 msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-msgstr ""
-"Amennyiben segítségre van szüksége a Firefox OS használata közben, akkor "
-"látogassa meg a <a href=\"%(support_url)s\">támogatói oldalt</a>."
+msgstr "Amennyiben segítségre van szüksége a Firefox OS használata közben, akkor látogassa meg a <a href=\"%(support_url)s\">támogatói oldalt</a>."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
 msgid "Country"
@@ -538,77 +543,71 @@ msgstr "Ország"
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr "Melyik országban vásárolta a Firefox OS készüléket?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:59 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:84
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:55 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:76
 msgid "Other"
 msgstr "Egyéb"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:61 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:114
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:57 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:78 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:106
 msgid "Next"
 msgstr "Tovább"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:69
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:65
 msgid "Device"
 msgstr "Készülék"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:74
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:70
 msgid "What Firefox OS device are you using?"
 msgstr "Milyen Firefox OS készüléket használ?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:85
 msgid "Details"
 msgstr "Részletek"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
 msgid "Please describe your problem below and be as specific as you can."
 msgstr "Írja le a problémáját olyan részletesen, ahogyan csak tudja."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:121
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:113
 msgid "Can we contact you?"
 msgstr "Felvehetjük a kapcsolatot Önnel?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:138
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:130
 msgid "Please enter a valid email address."
 msgstr "Adjon meg egy érvényes e-mail címet."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:154
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:146
 msgid "Submitting...."
 msgstr "Visszajelzés elküldése…"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:164 fjord/feedback/templates/feedback/mobile/thanks.html:16
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:156 fjord/feedback/templates/feedback/mobile/thanks.html:16
 msgid "Success!"
 msgstr "Sikerült!"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:169
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:161
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
-msgstr ""
-"Köszönjük a visszajelzést! Az Ön segítségével a Firefox OS következő "
-"kiadásai jobb felhasználói élményt fognak nyújtani."
+msgstr "Köszönjük a visszajelzést! Az Ön segítségével a Firefox OS következő kiadásai jobb felhasználói élményt fognak nyújtani."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:175
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:167
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
-msgstr ""
-"Tudja meg hogyan <a href=\"%(url)s\">teheti jobbá a Firefox OS-t és a "
-"Mozillát</a>."
+msgstr "Tudja meg hogyan <a href=\"%(url)s\">teheti jobbá a Firefox OS-t és a Mozillát</a>."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:185
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:177
 msgid "We're sorry!"
 msgstr "Elnézést!"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:190
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:182
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
-msgstr ""
-"Valami miatt nem tudjuk elküldeni visszajelzését. A visszajelzés el lesz "
-"mentve a készülékén, így később újra megpróbálhatja elküldeni."
+msgstr "Valami miatt nem tudjuk elküldeni visszajelzését. A visszajelzés el lesz mentve a készülékén, így később újra megpróbálhatja elküldeni."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:195 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:202 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:212
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:187 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:194 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:204
 msgid "Try again"
 msgstr "Újra"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:196 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:213
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:188 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:205
 msgid "Cancel"
 msgstr "Mégse"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:207
+#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:199
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "Nem küldött el minden visszajelzési adatot. Megpróbálja újra elküldeni?"
 
@@ -622,9 +621,7 @@ msgstr "Köszönjük a visszajelzést! Az Ön segítségével a Firefox követke
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
 msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
-msgstr ""
-"Szeretné tudni, hogy mi történik a Firefox böngészővel? Ennek számos módja "
-"van:"
+msgstr "Szeretné tudni, hogy mi történik a Firefox böngészővel? Ennek számos módja van:"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
 msgid "Download the build that is right for you"
