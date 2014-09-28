@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: pt-pt v1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-14 11:42-0700\n"
-"PO-Revision-Date: 2013-09-06 23:52+0000\n"
-"Last-Translator: Carlos <lloco73@gmail.com>\n"
+"PO-Revision-Date: 2014-09-28 17:52+0000\n"
+"Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: Portuguese translation team\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1378511525.0\n"
+"X-POOTLE-MTIME: 1411926768.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:347 fjord/base/helpers.py:36
 msgid "Unknown"
@@ -28,12 +28,12 @@ msgstr "Firefox Input"
 
 #: fjord/analytics/views.py:187
 msgid "Search Results From Firefox Input"
-msgstr "Resultados da pesquisa no Firefox Input"
+msgstr "Resultados da pesquisa do Firefox Input"
 
 #: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:417 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
 #: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:83
 msgid "Happy"
-msgstr "Contente"
+msgstr "Feliz"
 
 #: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:419 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
 #: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:84
@@ -42,7 +42,7 @@ msgstr "Triste"
 
 #: fjord/analytics/views.py:202 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
-msgstr "ID de resposta: {id}"
+msgstr "ID da resposta: {id}"
 
 #: fjord/analytics/views.py:353
 msgid "Sentiment"
@@ -65,13 +65,12 @@ msgid "Locale"
 msgstr "Idioma"
 
 #: fjord/analytics/templates/analytics/dashboard.html:15
-#, fuzzy
 msgid "Atom feed for this search"
-msgstr "Fonte ATOM para esta pesquisa"
+msgstr "Feed Atom para esta pesquisa"
 
 #: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
 msgid "Permalink"
-msgstr "Permalink"
+msgstr "Ligação permanente"
 
 #: fjord/analytics/templates/analytics/dashboard.html:91
 msgid "When"
@@ -110,30 +109,28 @@ msgid "End"
 msgstr "Fim"
 
 #: fjord/analytics/templates/analytics/dashboard.html:108
-#, fuzzy
 msgid "Set"
 msgstr "Aplicar"
 
 #: fjord/analytics/templates/analytics/dashboard.html:127
 msgid "Note: All dates and times are in Pacific Time."
-msgstr ""
+msgstr "Nota: Todas as datas e horários estão no horário do Pacífico."
 
 #: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Latest Feedback"
-msgstr "Submeter feedback"
+msgstr "Opiniões recentes"
 
 #: fjord/analytics/templates/analytics/dashboard.html:136
-#, fuzzy
 msgid "Search by keyword"
-msgstr "Pesquisar por palavra chave"
+msgstr "Pesquisa por palavra-chave"
 
 #: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "Older Messages"
-msgstr "Mensagens antigas"
+msgstr "Mensagens mais antigas"
 
 #: fjord/analytics/templates/analytics/dashboard.html:159
 msgid "Newer Messages"
-msgstr "Mensagens recentes"
+msgstr "Mensagens mais recentes"
 
 #: fjord/analytics/templates/analytics/dashboard.html:170
 msgid "Messages"
@@ -173,7 +170,7 @@ msgstr "<strong>Firefox</strong> Input"
 
 #: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
 msgid "Dashboard"
-msgstr "Quadro"
+msgstr "Painel"
 
 #: fjord/base/templates/500.html:33
 msgid "Something has gone horribly wrong."
@@ -201,7 +198,7 @@ msgstr "Ir para o rodapé"
 
 #: fjord/base/templates/base.html:40
 msgid "Hello, {username}"
-msgstr "Olá {username}"
+msgstr "Olá, {username}"
 
 #: fjord/base/templates/base.html:44
 msgid "Sign out"
@@ -224,8 +221,12 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
 "Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 msgstr ""
-"O Firefox Input é o mecanismo principal de feedback da Mozilla. Foi criado para ser um método de comunicação sobre as suas experiências no uso do Firefox, a Internet que visualiza com ele e o que a "
-"Mozilla pode fazer para tornar a sua experiência melhor. O sistema está disponível numa ampla variedade de mecanismos de submissão sobre os três principais canais de compilações."
+"O Firefox Input é o principal mecanismo de recolha de opiniões da Mozilla. "
+"Ele foi pensado para ser uma forma de comunicação  sobre as suas "
+"experiências de utilização do Firefox, a Internet que você vê através dele e "
+"o que a Mozilla pode fazer para melhorar essa experiência. O sistema está "
+"disponível em uma variedade de mecanismos de envio, em todos os três canais "
+"de distribuição."
 
 #: fjord/base/templates/includes/about_text.html:14
 msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
@@ -233,15 +234,17 @@ msgstr "Para enviar uma opinião sobre a sua versão do Firefox, por favor vá p
 
 #: fjord/base/templates/includes/about_text.html:20
 msgid "Open Data"
-msgstr "Dados em aberto"
+msgstr "Dados abertos"
 
 #: fjord/base/templates/includes/about_text.html:22
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
 msgstr ""
-"Gostaríamos muito de fazer mais com estes dados, mas somos apenas algumas pessoas. Por isso, precisamos de pedidos de você sobre as perguntas que gostaria de ver respondidas! Se quiser experimentar "
-"com os nossos dados, por favor contacte-nos!"
+"Gostaríamos muito de fazer mais com estes dados, mas somos apenas algumas "
+"pessoas. Por isso, precisamos de pedidos de si sobre as perguntas que "
+"gostaria de ver respondidas! Se quiser fazer experiências com os nossos "
+"dados, por favor contacte-nos!"
 
 #: fjord/base/templates/includes/about_text.html:30
 msgid "Source Code"
@@ -249,7 +252,9 @@ msgstr "Código fonte"
 
 #: fjord/base/templates/includes/about_text.html:32
 msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "O código-fonte da aplicação web Firefox Input pode ser encontrado no <a href=\"%(url)s\">GitHub</a>!"
+msgstr ""
+"O código fonte da aplicação web Firefox Input pode ser encontrado no <a "
+"href=\"%(url)s\">GitHub</a>!"
 
 #: fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -261,15 +266,17 @@ msgstr "Informações legais"
 
 #: fjord/base/templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
-msgstr "Reportar abuso de marca registada"
+msgstr "Reportar abuso de marca(s) registada(s)"
 
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Excepto quando <a href=\"%(legal_url)s\">indicado</a>, o conteúdo deste sítio é licenciado sobre a <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> ou "
-"qualquer versão mais recente."
+"Exceto onde <a href=\"%(legal_url)s\">especificado</a>, o conteúdo deste site "
+"é licenciado sob a <br/><a href=\"%(license_url)s\">Licença Creative Commons "
+"Atribuição-Partilha pela mesma licença v3.0</a> ou qualquer versão "
+"posterior."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -281,60 +288,65 @@ msgstr "Ir"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "Either you don't have an account here or you used the wrong Persona account to log in."
-msgstr "Não possui uma conta aqui ou usou a conta Persona errada para iniciar sessão."
+msgstr ""
+"Ou não tem uma conta aqui ou utilizou conta Persona errada para iniciar "
+"sessão."
 
 #: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
 msgid "Input Services Monitor"
-msgstr "Monitor de serviços de introdução"
+msgstr "Monitor de serviços de input"
 
 #: fjord/base/templates/services/monitor.html:16
 msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr "Lista de componentes que o Input utiliza e se estão a funcionar corretamente."
+msgstr ""
+"Lista de componentes que o Input utiliza e se estes estão a funcionar "
+"corretamente."
 
 #: fjord/feedback/config.py:19
 msgid "Colombia"
-msgstr ""
+msgstr "Colômbia"
 
 #: fjord/feedback/config.py:20
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: fjord/feedback/config.py:21
 msgid "Poland"
-msgstr ""
+msgstr "Polónia"
 
 #: fjord/feedback/config.py:22
 msgid "Spain"
-msgstr ""
+msgstr "Espanha"
 
 #: fjord/feedback/config.py:23
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 #: fjord/feedback/config.py:24
-#, fuzzy
 msgid "Germany"
-msgstr "Permalink"
+msgstr "Alemanha"
 
 #: fjord/feedback/config.py:25
 msgid "Greece"
-msgstr ""
+msgstr "Grécia"
 
 #: fjord/feedback/config.py:26
 msgid "Hungary"
-msgstr ""
+msgstr "Hungria"
 
 #: fjord/feedback/config.py:27
 msgid "Serbia"
-msgstr ""
+msgstr "Sérvia"
 
 #: fjord/feedback/config.py:28
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegro"
 
 #: fjord/feedback/forms.py:42
 msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 msgstr ""
+"Por favor, insira um endereço de correio válido ou desmarque a caixa que nos "
+"permite entrar em contacto consigo."
 
 #: fjord/feedback/forms.py:57
 msgid "This field is required."
@@ -350,27 +362,34 @@ msgstr "Por favor, transfira o Firefox"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Oh! Então quer oferecer-nos feedback da próxima versão do Firefox. Obrigado mas necessita de ter a última beta."
+msgstr ""
+"Ah! Então quer deixar-nos a sua opinião sobre o Firefox. Obrigado, mas "
+"necessita de ter a última versão."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Para fazer isso, vá à nossa pagina de transferências e instale/actualize para o <a href=\"%(url)s\">último Firefox Beta!</a>"
+msgstr ""
+"Para fazer isso, basta ir até a página de transferências e "
+"instalar/atualizar para a <a href=\"%(url)s\">versão mais recente do "
+"Firefox!</a>"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
 msgid "Firefox Made Me Happy"
-msgstr "O Firefox faz-me feliz"
+msgstr "O Firefox fez-me feliz"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
 msgid "Firefox Made Me Sad"
-msgstr "O Firefox deixa-me triste"
+msgstr "O Firefox deixou-me triste"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:12
 msgid "Super! It's great to hear that you like our browser."
-msgstr "Super! É bom saber que gostou do nosso navegador."
+msgstr "Perfeito! É ótimo saber que gostou do nosso navegador."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:14
 msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Pedimos desculpa por não ter uma boa experiência com o nosso navegador. Por favor diga-nos porquê e como podemos melhora-lo."
+msgstr ""
+"Pedimos desculpa por não ter tido uma boa experiência com o nosso navegador. "
+"Por favor diga-nos porquê e como podemos melhorar."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:18
 msgid "Go Back"
@@ -378,7 +397,7 @@ msgstr "Voltar"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:90
 msgid "Please describe what you liked."
-msgstr "Por favor, descreva do que gostou."
+msgstr "Por favor, descreva o que gostou."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:30 fjord/feedback/templates/feedback/mobile/feedback.html:53
 msgid "Please describe your problem below."
@@ -386,46 +405,59 @@ msgstr "Por favor, descreva o problema abaixo."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:40
 msgid "If your feedback is related to a website, you can include it here."
-msgstr "Se o seu feedback é relacionado com um sítio web, pode incluí-lo aqui."
+msgstr "Se a sua opinião está relacionada com um site web, pode incluí-la aqui."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:48
 msgid ""
 "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
 "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 msgstr ""
+"Por favor, seja bastante específico no espaço definido. Por exemplo, se você "
+"estiver a enviar uma opinião sobre lentidão, por favor, indique os sites "
+"relevantes, se tomou consciência dessa lentidão no início ou no fim da sua "
+"sessão de navegação e se existem quaisquer ações que execute no Firefox que "
+"sejam particularmente problemáticas."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:120
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr ""
+"Selecione esta opção para permitir que possamos entrar em contacto consigo "
+"para dar seguimento às suas sugestões."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:126
 msgid "Email address (optional):"
-msgstr ""
+msgstr "Endereço de e-mail (opcional):"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:74
 msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 msgstr ""
+"Apesar da sua opinião ser visível publicamente, os seus endereços de e-mail "
+"serão mantidos privados. Nós compreendemos a importância da sua privacidade."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:82
 msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 msgstr ""
+"Para pedidos de ajuda, por favor consulte o <a href=\"%(url)s\">Apoio da "
+"Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:90
 msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Para proteger sua privacidade, por favor, garanta que nenhuma informação pessoal identificável é incluída no seu feedback."
+msgstr ""
+"Para proteger sua privacidade, por favor garanta que a sua mensagem não tem "
+"nenhuma informação pessoal que o possa identificar."
 
 #: fjord/feedback/templates/feedback/feedback-form.html:105
 msgid "Submitting Feedback"
-msgstr "Enviar feedback"
+msgstr "A enviar a sua opinião"
 
 #: fjord/feedback/templates/feedback/feedback-form.html:106 fjord/feedback/templates/feedback/feedback-form.html:110
 msgid "Submit Feedback"
-msgstr "Submeter opinião"
+msgstr "Enviar opinião"
 
 #: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
 #: fjord/feedback/templates/feedback/mobile/feedback.html:20 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:12
 msgid "Submit Your Feedback"
-msgstr "Envie o seu Feedback"
+msgstr "Envie a sua opinião"
 
 #: fjord/feedback/templates/feedback/feedback.html:21 fjord/feedback/templates/feedback/mobile/feedback.html:24
 msgid "Your feedback helps us improve Firefox."
@@ -433,7 +465,9 @@ msgstr "A sua opinião ajuda-nos a melhorar o Firefox."
 
 #: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Se precisar de ajuda ou tiver um problema com o Firefox, visite a nossa <a href=\"%(support_url)s\">página de ajuda</a>."
+msgstr ""
+"Se precisar de ajuda ou tiver um problema com o Firefox, consulte a página "
+"de <a href=\"%(support_url)s\">Apoio do Firefox</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:14
 msgid "Thanks"
@@ -445,15 +479,17 @@ msgstr "Obrigado pela sua opinião"
 
 #: fjord/feedback/templates/feedback/thanks.html:23
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
-msgstr "O seu feedbak vai servir para criar uma experiência melhor em futuras versões do Firefox."
+msgstr ""
+"Sua opinião será usada para criar uma experiência melhor nas futuras versões "
+"do Firefox."
 
 #: fjord/feedback/templates/feedback/thanks.html:32
 msgid "Share your feedback."
-msgstr "Escreva aqui o seu feedback."
+msgstr "Partilhe a sua opinião."
 
 #: fjord/feedback/templates/feedback/thanks.html:38
 msgid "Tweet feedback to your followers"
-msgstr "Tweet feedback para os seus seguidores"
+msgstr "Fazer um tweet da opinião para os seus seguidores"
 
 #: fjord/feedback/templates/feedback/thanks.html:45 fjord/feedback/templates/feedback/mobile/thanks.html:38
 msgid "Shape the future of Firefox."
@@ -461,7 +497,7 @@ msgstr "Molde o futuro do Firefox."
 
 #: fjord/feedback/templates/feedback/thanks.html:47
 msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr ""
+msgstr "Transfira <a href=\"%(download_url)s\">a versão correta para si</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:55 fjord/feedback/templates/feedback/mobile/thanks.html:44
 msgid "Contribute to Mozilla."
@@ -469,86 +505,87 @@ msgstr "Contribuir para a Mozilla."
 
 #: fjord/feedback/templates/feedback/thanks.html:57
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
-msgstr "Saiba como pode <a href=\"%(url)s\">tornar o Firefox e a Mozilla melhor</a>"
+msgstr ""
+"Saiba como pode <a href=\"%(url)s\">tornar o Firefox e a Mozilla melhores</a>"
 
 #: fjord/feedback/templates/feedback/thanks.html:64 fjord/feedback/templates/feedback/mobile/thanks.html:50
 msgid "Want to see where your feedback goes?"
-msgstr "Quer ver para onde vai o seu feedback?"
+msgstr "Quer ver para onde vai a sua opinião?"
 
 #: fjord/feedback/templates/feedback/thanks.html:66
 msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Visite o <a href=\"%(dash_url)s\">quadro de feedback do Firefox</a>"
+msgstr "Visite o <a href=\"%(dash_url)s\">Painel de Opiniões do Firefox</a>"
 
 #: fjord/feedback/templates/feedback/thanks.html:73
 msgid "Find the latest news about Firefox."
-msgstr "Descubra as últimas notícias da Mozilla:"
+msgstr "Descubra as últimas notícias sobre o Firefox."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
-#, fuzzy
 msgid "Please Download Firefox!"
-msgstr "Transferir o Firefox"
+msgstr "Por favor, Transfira o Firefox!"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
 msgid "Firefox made me happy"
-msgstr "O Firefox faz-me feliz"
+msgstr "O Firefox fez-me feliz"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:26 fjord/feedback/templates/feedback/mobile/feedback.html:43
 msgid "Firefox made me sad"
-msgstr "O Firefox deixa-me triste"
+msgstr "O Firefox deixou-me triste"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:62
 msgid "Please be as specific as you can."
-msgstr ""
+msgstr "Por favor, seja o mais específico que conseguir."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr ""
+"O conteúdo da sua opinião será público, pelo que tenha a certeza de que não "
+"inclui nenhuma informação pessoal."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:136
 msgid "Don't worry, your email will always be kept private."
 msgstr ""
+"Não se preocupe, o seu endereço de e-mail será sempre mantido em sigilo."
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:140
 msgid "Send Feedback"
-msgstr "Enviar Feedback"
+msgstr "Enviar opinião"
 
 #: fjord/feedback/templates/feedback/mobile/feedback.html:102
-#, fuzzy
 msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr "Se precisar de ajuda ou tiver um problema com o Firefox, visite a nossa <a href=\"%(support_url)s\">página de ajuda</a>."
+msgstr ""
+"Para pedidos de ajuda, por favor consulte o <a href=\"%(support_url)s\">Apoio "
+"da Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:20
-#, fuzzy
 msgid "Submit feedback"
-msgstr "Submeter opinião"
+msgstr "Enviar opinião"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:24
-#, fuzzy
 msgid "Your feedback helps us improve Firefox OS."
-msgstr "A sua opinião ajuda-nos a melhorar o Firefox."
+msgstr "A sua opinião ajuda-nos a melhorar o Firefox OS."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:25
-#, fuzzy
 msgid "Firefox OS made me happy"
-msgstr "O Firefox faz-me feliz"
+msgstr "O Firefox OS fez-me feliz"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:26
-#, fuzzy
 msgid "Firefox OS made me sad"
-msgstr "O Firefox deixa-me triste"
+msgstr "O Firefox OS deixou-me triste"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
-#, fuzzy
 msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-msgstr "Se precisar de ajuda ou tiver um problema com o Firefox, visite a nossa <a href=\"%(support_url)s\">página de ajuda</a>."
+msgstr ""
+"Se precisar de ajuda ou tiver um problema com o Firefox OS, consulte o <a "
+"href=\"%(support_url)s\">Apoio da Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:49
 msgid "In what country did you purchase your Firefox OS device?"
-msgstr ""
+msgstr "Em que país comprou o seu equipamento com o Firefox OS?"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:55 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:76
 msgid "Other"
@@ -556,114 +593,114 @@ msgstr "Outro"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:57 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:78 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:106
 msgid "Next"
-msgstr ""
+msgstr "Próximo"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:65
-#, fuzzy
 msgid "Device"
-msgstr "Dispositivos"
+msgstr "Equipamento"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:70
 msgid "What Firefox OS device are you using?"
-msgstr ""
+msgstr "Que dispositivo com o Firefox OS está a utilizar?"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:85
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
-#, fuzzy
 msgid "Please describe your problem below and be as specific as you can."
-msgstr "Por favor, descreva o problema abaixo."
+msgstr ""
+"Por favor, descreva o problema em baixo e seja o mais específico que "
+"conseguir."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:113
 msgid "Can we contact you?"
-msgstr ""
+msgstr "Podemos contactá-lo?"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:130
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Por favor introduza um endereço de email válido."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:146
-#, fuzzy
 msgid "Submitting...."
-msgstr "Enviar feedback"
+msgstr "A enviar..."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:156 fjord/feedback/templates/feedback/mobile/thanks.html:16
 msgid "Success!"
-msgstr ""
+msgstr "Sucesso!"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:161
-#, fuzzy
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
-msgstr "O seu feedbak vai servir para criar uma experiência melhor em futuras versões do Firefox."
+msgstr ""
+"Obrigado pela sua opinião! Ela será usada para criar uma experiência melhor "
+"nas futuras versões do Firefox OS."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:167
-#, fuzzy
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
-msgstr "Saiba como pode <a href=\"%(url)s\">tornar o Firefox e a Mozilla melhor</a>"
+msgstr ""
+"Saiba como pode <a href=\"%(url)s\">melhorar o Firefox OS e a Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:177
 msgid "We're sorry!"
-msgstr ""
+msgstr "Pedimos desculpa!"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:182
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
 msgstr ""
+"Aconteceu algo e não conseguimos enviar a sua opinião. Esta será guardada no "
+"seu dispositivo para que a possa tentar enviar mais tarde."
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:187 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:194 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:204
 msgid "Try again"
-msgstr ""
+msgstr "Tente novamente"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:188 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:205
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:199
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
-msgstr ""
+msgstr "Você tem opiniões não enviadas. Gostaria de tentar enviá-las novamente?"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:7
-#, fuzzy
 msgid "Thank you for your feedback!"
-msgstr "Obrigado pela sua opinião"
+msgstr "Obrigado pela sua opinião!"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:21
-#, fuzzy
 msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
-msgstr "O seu feedbak vai servir para criar uma experiência melhor em futuras versões do Firefox."
+msgstr ""
+"Obrigado pela sua opinião! Ela será usada para criar uma experiência melhor "
+"nas futuras versões do Firefox."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:30
-#, fuzzy
 msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
-msgstr "Quer saber o que está a acontecer com o Firefox para telemóvel? Temos muitas maneiras de se manter em contacto:"
+msgstr ""
+"Quer saber o que está a acontecer com o Firefox? Temos várias maneiras de "
+"manter o contacto:"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:40
 msgid "Download the build that is right for you"
-msgstr ""
+msgstr "Transfira a versão certa para si"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:46
-#, fuzzy
 msgid "Learn how you can make Firefox and Mozilla better"
-msgstr "Saiba como pode <a href=\"%(url)s\">tornar o Firefox e a Mozilla melhor</a>"
+msgstr "Saiba como pode melhorar o Firefox e a Mozilla"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:52
-#, fuzzy
 msgid "Visit the Firefox Feedback Dashboard"
-msgstr "Visite o <a href=\"%(dash_url)s\">quadro de feedback do Firefox</a>"
+msgstr "Visite o painel de opiniões do Firefox"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:56
-#, fuzzy
 msgid "Find the latest news about Mozilla."
-msgstr "Descubra as últimas notícias da Mozilla:"
+msgstr "Encontre as últimas notícias da Mozilla."
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:60
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:65
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: fjord/feedback/templates/feedback/mobile/thanks.html:70
 msgid "Planet Mozilla"
