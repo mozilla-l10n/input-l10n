@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-13 07:51-0700\n"
-"PO-Revision-Date: 2013-10-29 02:43+0000\n"
-"Last-Translator: dskmori <ghoti.fish.dsk@gmail.com>\n"
+"PO-Revision-Date: 2014-11-13 17:54+0000\n"
+"Last-Translator: Kohei <kohei.yoshino@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1383014584.0\n"
+"X-POOTLE-MTIME: 1415901272.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -46,7 +46,7 @@ msgstr "レスポンス ID: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
-msgstr ""
+msgstr "有向グラフ"
 
 #: fjord/analytics/views.py:345
 msgid "Sentiment"
@@ -62,7 +62,7 @@ msgstr "バージョン"
 
 #: fjord/analytics/views.py:370
 msgid "Select product to see version facet"
-msgstr ""
+msgstr "バージョンの感想を見る製品を選択"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
@@ -74,15 +74,15 @@ msgstr "言語"
 
 #: fjord/analytics/views.py:521
 msgid "Total # responses"
-msgstr ""
+msgstr "合計回答数"
 
 #: fjord/analytics/views.py:530
 msgid "Percent change in sentiment upwards"
-msgstr ""
+msgstr "ポジティブな感情の割合推移"
 
 #: fjord/analytics/views.py:539
 msgid "Percent change in sentiment downwards"
-msgstr ""
+msgstr "ネガティブな感情の割合推移"
 
 #: fjord/analytics/templates/analytics/dashboard.html:7
 msgid "Atom feed for this search"
@@ -151,7 +151,7 @@ msgstr "キーワードによる検索"
 
 #: fjord/analytics/templates/analytics/dashboard.html:163
 msgid "No feedback matches that criteria."
-msgstr ""
+msgstr "この条件に一致するフィードバックは見つかりませんでした。"
 
 #: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
@@ -163,7 +163,7 @@ msgstr "新しいメッセージ"
 
 #: fjord/analytics/templates/analytics/dashboard.html:185
 msgid "Messages in specified time range"
-msgstr ""
+msgstr "指定された期間内のメッセージ"
 
 #: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
@@ -175,70 +175,66 @@ msgstr "ダッシュボードは現在利用できません。10 分後に再度
 
 #: fjord/analytics/templates/analytics/product_dashboard.html:37
 msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
+msgstr "これは私が冗談半分で Australis の前にわずか数日で作った %(product)s 製品ダッシュボードのアルファ版です。"
 
 #: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
 msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
 msgstr ""
+"協力をお願いできますか？ Input の使い方について <a href=\"%(survey_url)s\">簡単なアンケートに答えてください</a>。"
 
 #: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
 msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
+msgstr "これは私が冗談半分で Australis の前にわずか数日で作ったデスクトップ版 FIrefox 製品ダッシュボードのアルファ版です。"
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
-msgstr ""
+msgstr "カテゴリ"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133
 msgid "None"
-msgstr ""
+msgstr "なし"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: fjord/analytics/templates/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "メッセージを翻訳する"
+msgstr "翻訳済み"
 
 #: fjord/analytics/templates/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "メッセージを翻訳する"
+msgstr "(機械) 翻訳"
 
 #: fjord/analytics/templates/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "メッセージを翻訳する"
+msgstr "(人力) 翻訳"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
-msgstr ""
+msgstr "作成日"
 
 # フィードバックされたチャンネルごとの情報を切り替える
 #: fjord/analytics/templates/analytics/response.html:119
-#, fuzzy
 msgid "Channel"
-msgstr "Beta チャンネル"
+msgstr "チャンネル"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "URL ドメイン"
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
-msgstr "ソースコード"
+msgstr "ソース"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "キャンペーン"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Full URL"
-msgstr ""
+msgstr "完全 URL"
 
 #: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
@@ -253,46 +249,46 @@ msgid "Device"
 msgstr "端末"
 
 #: fjord/analytics/templates/analytics/response.html:155
-#, fuzzy
 msgid "User agent"
 msgstr "ユーザエージェント"
 
 #: fjord/analytics/templates/analytics/response.html:159
 msgid "Email"
-msgstr ""
+msgstr "メールアドレス"
 
 #: fjord/analytics/templates/analytics/response.html:167
-#, fuzzy
 msgid "API version"
-msgstr "バージョン"
+msgstr "API バージョン"
 
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
-msgstr ""
+msgstr "コンテキスト"
 
 #: fjord/analytics/templates/analytics/underconstruction.html:12
 msgid "Hi,"
-msgstr ""
+msgstr "こんにちは、"
 
 #: fjord/analytics/templates/analytics/underconstruction.html:17
 msgid ""
 "Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
 "more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
 msgstr ""
+"Firefox Input ダッシュボードへようこそ。どこか古臭いところは大目に見てください。Mozilla の User Advocacy チームが、"
+"フィードバックダッシュボードをより明快で分かりやすく、より使いやすくするためのデザイン刷新に取り組んでいます。心配はいりません。作業中も引き続き "
+"Firefox ユーザからのフィードバックは収集しています。"
 
 #: fjord/analytics/templates/analytics/underconstruction.html:31
 msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
+msgstr "Input の使い方について <a href=\"%(survey_url)s\">簡単なアンケートに答えてください</a>。"
 
 #: fjord/analytics/templates/analytics/underconstruction.html:36
 msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
-msgstr ""
+msgstr "今すぐ何かデータが必要ですか？ 喜んでお手伝いします！ <a href=\"%(bug_url)s\">バグを登録してください</a>。"
 
 # http://input.mozilla.org/ja/
 #: fjord/analytics/templates/analytics/underconstruction.html:41
-#, fuzzy
 msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
-msgstr "<a href=\"%(dash_url)s\">Firefox Input ダッシュボードを見る</a>"
+msgstr "<a href=\"%(dash_url)s\">Firefox に関するフィードバックを提供したい</a>"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -300,19 +296,19 @@ msgstr "モバイル端末では、まだダッシュボードを利用できま
 
 #: fjord/base/models.py:57
 msgid "JSON Object"
-msgstr ""
+msgstr "JSON オブジェクト"
 
 #: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "許可されていません"
 
 #: fjord/base/templates/403.html:12
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "あなたにはこのページへのアクセス権がありません。"
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
+msgstr "あなたにはこのページへのアクセス権がありません。アカウントをお持ちならログインしてみてください。"
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -355,18 +351,18 @@ msgid "Hello!"
 msgstr "ようこそ！"
 
 #: fjord/base/templates/about.html:11
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input は、Mozilla のフィードバックを受けるための重要なサイトです。Firefox を利用してあなたが感じたことや閲覧したサイトについて、そして Mozilla がウェブをより良いものにするためのご意見を情報"
-"収集するサイトです。このシステムは、3 つの主要なビルド (Aurora, Beta, Release) のすべてにおいて、さまざまな投稿方法で利用可能になっています。"
+"Firefox Input は Mozilla 製品の主要なフィードバック窓口です。Mozilla "
+"製品を使っての感想や、製品を通じてあなたが得たインターネット体験、そして Mozilla がそれらを改善するために何ができるかについて、意見を投稿できる"
+"一方向のコミュニケーション手段として用意されています。このシステムは様々な投稿方法や製品ビルドを通じて利用可能となっています。"
 
 #: fjord/base/templates/about.html:21
-#, fuzzy
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "ご使用の Firefox のバージョンへのフィードバック送信は、こちらの <a href=\"%(url)s\">フィードバック投稿ページ</a> からお願いします！"
+msgstr ""
+"Mozilla 製品へのフィードバック送信は、こちらの <a href=\"%(url)s\">フィードバック投稿ページ</a> からお願いします！"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -374,31 +370,31 @@ msgstr "プライバシーポリシー"
 
 #: fjord/base/templates/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
-msgstr ""
+msgstr "私たちは <a href=\"%(url)s\">Mozilla プライバシーポリシー</a> を遵守しています。"
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "法的免責事項と責任制限"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
+msgstr "当サイトには <a href=\"%(url)s\">Mozilla 法的免責事項と責任制限</a> ドキュメントが適用されます。"
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "データ保管ポリシー"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
+msgstr "このサイト上に保存されているデータには以下のデータ保管ポリシーが適用されます:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
+msgstr "フィードバックデータは永久に保存しますが、公開ダッシュボードでは過去 6 か月間のデータのみ参照可能とします。"
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
-msgstr ""
+msgstr "フィードバックに関連付けられたメールアドレスは 6 か月保存した後に削除します。"
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -415,9 +411,8 @@ msgid "Source Code"
 msgstr "ソースコード"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "Firefox Input サービスのソースコードは <a href=\"%(url)s\">GitHub</a> にあります！"
+msgstr "Firefox Input サイトのコードは <a href=\"%(url)s\">GitHub</a> にあります！"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -437,7 +432,7 @@ msgstr "フィードバックの提供"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "解析"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -452,26 +447,26 @@ msgid "Sign in"
 msgstr "ログイン"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "ログイン失敗"
+msgstr "CSRF 失敗"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "ログイン失敗"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
-#, fuzzy
 msgid "Welcome to Input!"
-msgstr "ようこそ！"
+msgstr "Input へようこそ！"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "あなたの投稿はシステムのセキュリティチェックにより失敗しました。"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr ""
+"Cookie "
+"が有効になっているかを確認した上で、ブラウザの戻るボタンを押してページを再読み込みし、フォームに記入して、再度フィードバックを送信してみてください。"
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -499,7 +494,7 @@ msgstr "移動"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Persona による認証に失敗しました。再度試してください。"
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -508,10 +503,11 @@ msgstr "ようこそ！"
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
 msgstr ""
+"今 Persona へログインしたあなたのアカウントは Input のアカウントと関連付けられます。どのアカウントを使用したか覚えていてください。"
 
 #: fjord/base/templates/includes/new_user_text.html:9
 msgid "Onwards to your destination."
-msgstr ""
+msgstr "目的のページへ進む。"
 
 #: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
 msgid "Input Services Monitor"
@@ -563,15 +559,15 @@ msgstr "モンテネグロ"
 
 #: fjord/feedback/config.py:20
 msgid "Mexico"
-msgstr ""
+msgstr "メキシコ"
 
 #: fjord/feedback/config.py:21
 msgid "Peru"
-msgstr ""
+msgstr "ペルー"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
-msgstr ""
+msgstr "ウルグアイ"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -742,58 +738,57 @@ msgid "While your feedback will be publicly visible, email addresses are kept pr
 msgstr "あなたのフィードバックは一般公開されますが、メールアドレスは非公開です。私達はあなたのプライバシーを尊重します。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
-#, fuzzy
 msgid "{product} feedback"
-msgstr "フィードバックを送る"
+msgstr "{product} のフィードバック"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "%(product)s を使った感想は？"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "Firefox の良い点は..."
+msgstr "%(product)s を使って良かった"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "%(count)s 件のメッセージ"
+msgstr "%(product)s を使って問題があった"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"あなたがフィードバックを提供したい製品は %(product)s ではありませんか？<br />それなら <a href=\"%"
+"(url)s\">別の製品を選択してください</a>。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
-#, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr "フィードバックの内容は公開されます。個人情報を一切含めないようご注意ください。"
+msgstr ""
+"気に入った点を記入してください。フィードバックの内容は公開されますので、メールアドレス、パスワード、電話番号といった個人情報は一切含めないようご注意くだ"
+"さい。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
-#, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr "フィードバックの内容は公開されます。個人情報を一切含めないようご注意ください。"
+msgstr ""
+"できるだけ詳しく問題点を記入してください。フィードバックの内容は公開されますので、メールアドレス、パスワード、電話番号といった個人情報は一切含めないよう"
+"ご注意ください。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Web サイトに関するフィードバックの場合は URL を記入してください。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "これにチェックを入れると、あなたのフィードバックについて私たちから問い合わせることを許可します。"
+msgstr ""
+"(任意) フィードバックについて Mozilla からの問い合わせを許可するにはここにチェックしてください。メールアドレスは一般に公開されません。"
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
-msgstr ""
+msgstr "フィードバックを残したい製品を選択"
 
 #: fjord/feedback/templates/feedback/picker.html:24
-#, fuzzy
 msgid "No products available."
-msgstr "ダッシュボードは利用できません"
+msgstr "利用可能な製品はありません。"
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -832,18 +827,18 @@ msgid "Find the latest news about Firefox."
 msgstr "Firefox についての最新情報はこちら。"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
 msgid "Unknown product"
-msgstr "不明"
+msgstr "不明な製品"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
 msgstr ""
+"Input は「<em>%(product)s</em>」を認識できません。これが間違いだと思われるときは <a href=\"%"
+"(url)s\">バグを報告</a> して知らせてください。"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
-#, fuzzy
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr "フィードバックが送信された先を知りたいときは、<a href=\"%(url)s\">Firefox Input Dashboard</a> で調べてください。"
+msgstr "ここに間違って来て、単にフィードバックを残したいときは、<a href=\"%(url)s\">フィードバックフォーム</a> を使ってください。"
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
