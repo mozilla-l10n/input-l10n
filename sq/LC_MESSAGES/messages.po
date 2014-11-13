@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-02 06:34-0700\n"
+"POT-Creation-Date: 2014-11-13 07:51-0700\n"
 "PO-Revision-Date: 2014-05-14 22:21+0000\n"
 "Last-Translator: Bujar <bujartafili@yahoo.com>\n"
 "Language-Team: \n"
@@ -14,158 +14,305 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1400106072.0\n"
 
-#: fjord/analytics/helpers.py:9
-#: fjord/analytics/views.py:347
-#: fjord/base/helpers.py:36
+#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
 msgstr "E panjohur"
 
-#: fjord/analytics/views.py:172
+#: fjord/analytics/views.py:123
 msgid "Firefox Input: {query}"
 msgstr "Firefox Input: {query}"
 
-#: fjord/analytics/views.py:174
-#: fjord/analytics/views.py:188
-#: fjord/base/templates/500.html:8
-#: fjord/base/templates/base.html:4
-#: fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:125 fjord/analytics/views.py:139 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
-#: fjord/analytics/views.py:187
+#: fjord/analytics/views.py:138
 msgid "Search Results From Firefox Input"
 msgstr "Përfundime Kërkimi Nga Firefox Input"
 
-#: fjord/analytics/views.py:192
-#: fjord/analytics/views.py:354
-#: fjord/analytics/views.py:417
-#: fjord/analytics/templates/analytics/dashboard.html:21
-#: fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18
-#: fjord/feedback/models.py:83
+#: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/analyzer/search.html:7 fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
 msgid "Happy"
 msgstr "I lumtur"
 
-#: fjord/analytics/views.py:192
-#: fjord/analytics/views.py:354
-#: fjord/analytics/views.py:419
-#: fjord/analytics/templates/analytics/dashboard.html:23
-#: fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20
-#: fjord/feedback/models.py:84
+#: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/analyzer/search.html:9 fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 msgid "Sad"
 msgstr "I trishtuar"
 
-#: fjord/analytics/views.py:202
-#: fjord/analytics/templates/analytics/response.html:24
-#: fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:153 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "ID përgjigjeje: {id}"
 
-#: fjord/analytics/views.py:353
+#: fjord/analytics/views.py:281
+msgid "Bigram"
+msgstr ""
+
+#: fjord/analytics/views.py:345
 msgid "Sentiment"
 msgstr "Ndjenjë"
 
-#: fjord/analytics/views.py:360
+#: fjord/analytics/views.py:352 fjord/analytics/templates/analytics/response.html:111
 msgid "Product"
 msgstr "Produkt"
 
-#: fjord/analytics/views.py:371
+#: fjord/analytics/views.py:363 fjord/analytics/views.py:369 fjord/analytics/templates/analytics/response.html:115
 msgid "Version"
 msgstr "Version"
 
-#: fjord/analytics/views.py:381
+#: fjord/analytics/views.py:370
+msgid "Select product to see version facet"
+msgstr ""
+
+#: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
 msgstr "Platformë"
 
-#: fjord/analytics/views.py:387
+#: fjord/analytics/views.py:384 fjord/analytics/templates/analytics/response.html:105
 msgid "Locale"
 msgstr "Vendore"
 
-#: fjord/analytics/templates/analytics/dashboard.html:15
+#: fjord/analytics/views.py:521
+msgid "Total # responses"
+msgstr ""
+
+#: fjord/analytics/views.py:530
+msgid "Percent change in sentiment upwards"
+msgstr ""
+
+#: fjord/analytics/views.py:539
+msgid "Percent change in sentiment downwards"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "Prurje atom për këtë kërkim"
 
-#: fjord/analytics/templates/analytics/dashboard.html:43
-#: fjord/analytics/templates/analytics/response.html:51
-#: fjord/analytics/templates/analytics/mobile/response.html:40
+#: fjord/analytics/templates/analytics/dashboard.html:45 fjord/analytics/templates/analytics/analyzer/search.html:78 fjord/analytics/templates/analytics/mobile/response.html:40
 msgid "Permalink"
 msgstr "Permalidhje"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:100 fjord/analytics/templates/analytics/analyzer/search.html:122
 msgid "When"
 msgstr "Kur"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:93
+#: fjord/analytics/templates/analytics/dashboard.html:102 fjord/analytics/templates/analytics/analyzer/search.html:124
 msgid "1d"
 msgstr "1"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:95
+#: fjord/analytics/templates/analytics/dashboard.html:104 fjord/analytics/templates/analytics/analyzer/search.html:126
 msgid "7d"
 msgstr "7"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:97
+#: fjord/analytics/templates/analytics/dashboard.html:106 fjord/analytics/templates/analytics/analyzer/search.html:128
 msgid "30d"
 msgstr "30"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:99
+#: fjord/analytics/templates/analytics/dashboard.html:108 fjord/analytics/templates/analytics/analyzer/search.html:130
 msgid "90d"
 msgstr "90"
 
-#: fjord/analytics/templates/analytics/dashboard.html:101
+#: fjord/analytics/templates/analytics/dashboard.html:110 fjord/analytics/templates/analytics/analyzer/search.html:132
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:105
+#: fjord/analytics/templates/analytics/dashboard.html:114 fjord/analytics/templates/analytics/product_dashboard.html:10 fjord/analytics/templates/analytics/product_dashboard_firefox.html:10
+#: fjord/analytics/templates/analytics/analyzer/search.html:136
 msgid "Start"
 msgstr "Fillim"
 
-#: fjord/analytics/templates/analytics/dashboard.html:107
+#: fjord/analytics/templates/analytics/dashboard.html:116 fjord/analytics/templates/analytics/product_dashboard.html:12 fjord/analytics/templates/analytics/product_dashboard_firefox.html:12
+#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:9 fjord/analytics/templates/analytics/analyzer/search.html:138
 msgid "End"
 msgstr "Fund"
 
-#: fjord/analytics/templates/analytics/dashboard.html:108
+#: fjord/analytics/templates/analytics/dashboard.html:117 fjord/analytics/templates/analytics/product_dashboard.html:13 fjord/analytics/templates/analytics/product_dashboard_firefox.html:13
+#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:10 fjord/analytics/templates/analytics/analyzer/search.html:139
 msgid "Set"
 msgstr "Caktoni"
 
-#: fjord/analytics/templates/analytics/dashboard.html:132
-msgid "Latest Feedback"
-msgstr "Përshtypjet Më të Fundit"
+#: fjord/analytics/templates/analytics/dashboard.html:136 fjord/analytics/templates/analytics/product_dashboard.html:59 fjord/analytics/templates/analytics/product_dashboard_firefox.html:59
+#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:67 fjord/analytics/templates/analytics/product_dashboard_firefox.html:75
+#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:18
+msgid "Note: All dates and times are in Pacific Time."
+msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:136
+#: fjord/analytics/templates/analytics/dashboard.html:141
+#, fuzzy
+msgid "Feedback"
+msgstr "Dërgoji Përshtypjet"
+
+#: fjord/analytics/templates/analytics/dashboard.html:145 fjord/analytics/templates/analytics/product_dashboard.html:18 fjord/analytics/templates/analytics/product_dashboard_firefox.html:18
 msgid "Search by keyword"
 msgstr "Kërkoni sipas fjalëkyçesh"
 
-#: fjord/analytics/templates/analytics/dashboard.html:154
+#: fjord/analytics/templates/analytics/dashboard.html:163
+msgid "No feedback matches that criteria."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
 msgstr "Mesazhe Më të Vjetër"
 
-#: fjord/analytics/templates/analytics/dashboard.html:159
+#: fjord/analytics/templates/analytics/dashboard.html:174
 msgid "Newer Messages"
 msgstr "Mesazhe Më të Rinj"
 
-#: fjord/analytics/templates/analytics/dashboard.html:170
-msgid "Messages"
-msgstr "Mesazhe"
+#: fjord/analytics/templates/analytics/dashboard.html:185
+msgid "Messages in specified time range"
+msgstr ""
 
-#: fjord/analytics/templates/analytics/es_down.html:7
+#: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
 msgstr "Pulti jo gati"
 
-#: fjord/analytics/templates/analytics/es_down.html:9
+#: fjord/analytics/templates/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "Pulti nuk është i gatshëm hëpërhë. Ju lutemi, riprovoni pas 10 minutash."
+
+#: fjord/analytics/templates/analytics/product_dashboard.html:37
+msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
+msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
+msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:45
+msgid "Category"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
+#: fjord/analytics/templates/analytics/response.html:133
+msgid "None"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:49
+msgid "Description"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:53
+msgid "Translated"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:64
+msgid "Translate (machine)"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:70
+msgid "Translate (human)"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:85
+msgid "Created"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:119
+msgid "Channel"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:123
+msgid "URL Domain"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:127
+#, fuzzy
+msgid "Source"
+msgstr "Kod Burim"
+
+#: fjord/analytics/templates/analytics/response.html:131
+msgid "Campaign"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:139
+msgid "Full URL"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
+msgid "Country"
+msgstr "Vendi"
+
+#: fjord/analytics/templates/analytics/response.html:147
+msgid "Manufacturer"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:151 fjord/feedback/templates/feedback/fxos_feedback.html:74
+msgid "Device"
+msgstr "Pajisje"
+
+#: fjord/analytics/templates/analytics/response.html:155
+msgid "User agent"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:159
+msgid "Email"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:167
+#, fuzzy
+msgid "API version"
+msgstr "Version"
+
+#: fjord/analytics/templates/analytics/response.html:185
+msgid "Context"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:12
+msgid "Hi,"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:17
+msgid ""
+"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
+"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:31
+msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:36
+msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:41
+#, fuzzy
+msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
+msgstr "Vizitoni <a href=\"%(dash_url)s\">Pultin e Përshtypjeve për Firefox-in</a>"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Pulti nuk është ende i gatshëm për pajisjet celulare."
 
-#: fjord/base/templates/404.html:3
-#: fjord/base/templates/404.html:9
+#: fjord/base/models.py:57
+msgid "JSON Object"
+msgstr ""
+
+#: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
+msgid "Forbidden"
+msgstr ""
+
+#: fjord/base/templates/403.html:12
+msgid "You do not have access to this page."
+msgstr ""
+
+#: fjord/base/templates/403.html:14
+msgid "You do not have access to this page. If you have an account, try signing in."
+msgstr ""
+
+#: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
+msgid "Return to the dashboard."
+msgstr "Kthehu te pulti."
+
+#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
 msgid "Not Found"
 msgstr "Nuk u Gjet"
 
@@ -173,25 +320,15 @@ msgstr "Nuk u Gjet"
 msgid "The document could not be found."
 msgstr "Dokumenti nuk u gjet dot."
 
-#: fjord/base/templates/404.html:14
-#: fjord/base/templates/500.html:35
-#: fjord/base/templates/includes/login_failure_text.html:9
-msgid "Return to the dashboard."
-msgstr "Kthehu te pulti."
-
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "Diçka shkoi tmerrësisht keq"
 
-#: fjord/base/templates/500.html:19
-#: fjord/base/templates/base.html:29
-#: fjord/base/templates/mobile/base.html:25
+#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:37 fjord/base/templates/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> Input"
 
-#: fjord/base/templates/500.html:25
-#: fjord/base/templates/base.html:35
-#: fjord/base/templates/mobile/base.html:31
+#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:43 fjord/base/templates/mobile/base.html:35
 msgid "Dashboard"
 msgstr "Pulti"
 
@@ -203,76 +340,134 @@ msgstr "Diçka shkoi tmerrësisht keq."
 msgid "There was a problem on the server."
 msgstr "Pati një problem te shërbyesi."
 
-#: fjord/base/templates/about.html:3
-#: fjord/base/templates/includes/footer.html:10
-#: fjord/base/templates/mobile/about.html:3
+#: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10
 msgid "About Firefox Input"
 msgstr "Rreth Përshtypjeve Për Firefox-in"
 
-#: fjord/base/templates/base.html:4
-#: fjord/base/templates/mobile/base.html:4
-msgid "Welcome"
-msgstr "Mirë se vini"
-
-#: fjord/base/templates/base.html:20
-#: fjord/base/templates/mobile/base.html:17
-msgid "Proceed to main content"
-msgstr "Kalo te lënda bazë"
-
-#: fjord/base/templates/base.html:21
-#: fjord/base/templates/mobile/base.html:18
-msgid "Proceed to footer"
-msgstr "Kalo te fundfaqja"
-
-#: fjord/base/templates/base.html:40
-msgid "Hello, {username}"
-msgstr "Tungjatjeta, {username}"
-
-#: fjord/base/templates/base.html:44
-msgid "Sign out"
-msgstr "Dilni"
-
-#: fjord/base/templates/base.html:46
-msgid "Sign in"
-msgstr "Hyni"
-
-#: fjord/base/templates/login_failure.html:3
-#: fjord/base/templates/includes/login_failure_text.html:1
-#: fjord/base/templates/mobile/login_failure.html:3
-msgid "Login Failure"
-msgstr "Dështim Hyrjeje"
-
-#: fjord/base/templates/includes/about_text.html:1
+#: fjord/base/templates/about.html:9
 msgid "Hello!"
 msgstr "Tungjatjeta!"
 
-#: fjord/base/templates/includes/about_text.html:3
-msgid "Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
-msgstr "Firefox Input është mekanizmi parësor i Mozilla-s për grumbullim përshtypjesh. Është ndërtuar që të jetë metodë komunikimi me një kah rreth përvojave tuaja gjatë përdorimit të Firefox-it, Internetit të cilin shihni me të, dhe rreth se çfarë mund të bëjë Mozilla që ta bëjë më mirë. Sistemi funksionon për një numër mekanizmash parashtrimi për të tre kanalet kryesore të montimeve."
+#: fjord/base/templates/about.html:11
+#, fuzzy
+msgid ""
+"Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
+"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
+msgstr ""
+"Firefox Input është mekanizmi parësor i Mozilla-s për grumbullim përshtypjesh. Është ndërtuar që të jetë metodë komunikimi me një kah rreth përvojave tuaja gjatë përdorimit të Firefox-it, "
+"Internetit të cilin shihni me të, dhe rreth se çfarë mund të bëjë Mozilla që ta bëjë më mirë. Sistemi funksionon për një numër mekanizmash parashtrimi për të tre kanalet kryesore të montimeve."
 
-#: fjord/base/templates/includes/about_text.html:14
-msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+#: fjord/base/templates/about.html:21
+#, fuzzy
+msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "Për të parashtruar përshtypjet për versionin tuaj të Firefox-it, ju lutemi, shkoni te <a href=\"%(url)s\">faqja e parashtrimit të përshtypjeve</a>!"
 
-#: fjord/base/templates/includes/about_text.html:20
+#: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
+msgid "Privacy Policy"
+msgstr "Rregulla Privatësie"
+
+#: fjord/base/templates/about.html:29
+msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
+msgstr ""
+
+#: fjord/base/templates/about.html:34
+msgid "Legal Disclaimers and Limitations"
+msgstr ""
+
+#: fjord/base/templates/about.html:36
+msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
+msgstr ""
+
+#: fjord/base/templates/about.html:42
+msgid "Data Retention Policy"
+msgstr ""
+
+#: fjord/base/templates/about.html:44
+msgid "We have a data retention policy that covers data stored on this site:"
+msgstr ""
+
+#: fjord/base/templates/about.html:51
+msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
+msgstr ""
+
+#: fjord/base/templates/about.html:57
+msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
+msgstr ""
+
+#: fjord/base/templates/about.html:64
 msgid "Open Data"
 msgstr "Hapi Të dhënat"
 
-#: fjord/base/templates/includes/about_text.html:22
-msgid "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please contact us!"
-msgstr "Do të donim të eksperimentonim më shumë me këto të dhëna, por jemi vetëm pak vetë. Ndaj na duhen prej jush kërkesa për pyetje që do të donit t'u jepej përgjigje! Nëse dëshironi të eksperimentoni me të dhënat tona, ju lutemi, lidhuni me ne!"
+#: fjord/base/templates/about.html:66
+msgid ""
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
+msgstr ""
+"Do të donim të eksperimentonim më shumë me këto të dhëna, por jemi vetëm pak vetë. Ndaj na duhen prej jush kërkesa për pyetje që do të donit t'u jepej përgjigje! Nëse dëshironi të eksperimentoni me "
+"të dhënat tona, ju lutemi, lidhuni me ne!"
 
-#: fjord/base/templates/includes/about_text.html:30
+#: fjord/base/templates/about.html:74
 msgid "Source Code"
 msgstr "Kod Burim"
 
-#: fjord/base/templates/includes/about_text.html:32
-msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
+#: fjord/base/templates/about.html:76
+#, fuzzy
+msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Kodi për zbatimin web Firefox Input mund të gjendet <a href=\"%(url)s\">te GitHub</a>!"
 
-#: fjord/base/templates/includes/footer.html:7
-msgid "Privacy Policy"
-msgstr "Rregulla Privatësie"
+#: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+msgid "Welcome"
+msgstr "Mirë se vini"
+
+#: fjord/base/templates/base.html:25 fjord/base/templates/mobile/base.html:21
+msgid "Proceed to main content"
+msgstr "Kalo te lënda bazë"
+
+#: fjord/base/templates/base.html:26 fjord/base/templates/mobile/base.html:22
+msgid "Proceed to footer"
+msgstr "Kalo te fundfaqja"
+
+#: fjord/base/templates/base.html:44
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Dërgoji Përshtypjet"
+
+#: fjord/base/templates/base.html:46
+msgid "Analytics"
+msgstr ""
+
+#: fjord/base/templates/base.html:52
+msgid "Hello, {username}"
+msgstr "Tungjatjeta, {username}"
+
+#: fjord/base/templates/base.html:56
+msgid "Sign out"
+msgstr "Dilni"
+
+#: fjord/base/templates/base.html:58
+msgid "Sign in"
+msgstr "Hyni"
+
+#: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
+#, fuzzy
+msgid "CSRF Failure"
+msgstr "Dështim Hyrjeje"
+
+#: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
+msgid "Login Failure"
+msgstr "Dështim Hyrjeje"
+
+#: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
+msgid "Welcome to Input!"
+msgstr ""
+
+#: fjord/base/templates/includes/csrf_failure_text.html:3
+msgid "Your submission failed a security check on our system."
+msgstr ""
+
+#: fjord/base/templates/includes/csrf_failure_text.html:8
+msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
+msgstr ""
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -283,8 +478,12 @@ msgid "Report Trademark Abuse"
 msgstr "Njoftoni Dhunim Shenjash Tregtare"
 
 #: fjord/base/templates/includes/footer.html:13
-msgid "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any later version."
-msgstr "Hiq atje ku <a href=\"%(legal_url)s\">shënohet</a> ndryshe, lënda e këtij sajti qarkullon sipas licencës <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> ose cilitdo version të mëvonshëm."
+msgid ""
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
+"any later version."
+msgstr ""
+"Hiq atje ku <a href=\"%(legal_url)s\">shënohet</a> ndryshe, lënda e këtij sajti qarkullon sipas licencës <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> "
+"ose cilitdo version të mëvonshëm."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -295,44 +494,84 @@ msgid "Go"
 msgstr "Shko"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
-msgid "Either you don't have an account here or you used the wrong Persona account to log in."
-msgstr "Ose nuk keni llogari këtu, ose përdorët për hyrjen llogari Persona të gabuar."
+msgid "You've failed to authenticate with Persona. Please try again."
+msgstr ""
 
-#: fjord/base/templates/services/monitor.html:3
-#: fjord/base/templates/services/monitor.html:14
+#: fjord/base/templates/includes/new_user_text.html:1
+#, fuzzy
+msgid "Welcome!"
+msgstr "Mirë se vini"
+
+#: fjord/base/templates/includes/new_user_text.html:3
+msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
+msgstr ""
+
+#: fjord/base/templates/includes/new_user_text.html:9
+msgid "Onwards to your destination."
+msgstr ""
+
+#: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
 msgid "Input Services Monitor"
 msgstr "Vëzhgues Shërbimesh Mbi Përshtypjet"
 
-#: fjord/base/templates/services/monitor.html:16
+#: fjord/base/templates/services/monitor.html:20
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Listë përbërësish që përdoret te Përshtypjet dhe rreth faktit nëse funksionojnë si duhet."
 
-#: fjord/feedback/config.py:18
+#: fjord/feedback/config.py:10
 msgid "Colombia"
 msgstr "Kolumbi"
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:11
 msgid "Venezuela"
 msgstr "Venezuelë"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:12
 msgid "Poland"
 msgstr "Poloni"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:13
 msgid "Spain"
 msgstr "Spanjë"
 
-#: fjord/feedback/forms.py:42
-msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
-msgstr "Ju lutemi, jepni një adresë email të vlefshme, ose hiqjani shenjën kutizës që na lejon t'ju kontaktojmë."
+#: fjord/feedback/config.py:14
+msgid "Brazil"
+msgstr ""
 
-#: fjord/feedback/forms.py:57
-msgid "This field is required."
-msgstr "Kjo fushë është e domosdoshme"
+#: fjord/feedback/config.py:15
+#, fuzzy
+msgid "Germany"
+msgstr "Permalidhje"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:14
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+#: fjord/feedback/config.py:16
+msgid "Greece"
+msgstr ""
+
+#: fjord/feedback/config.py:17
+msgid "Hungary"
+msgstr ""
+
+#: fjord/feedback/config.py:18
+msgid "Serbia"
+msgstr ""
+
+#: fjord/feedback/config.py:19
+msgid "Montenegro"
+msgstr ""
+
+#: fjord/feedback/config.py:20
+msgid "Mexico"
+msgstr ""
+
+#: fjord/feedback/config.py:21
+msgid "Peru"
+msgstr ""
+
+#: fjord/feedback/config.py:22
+msgid "Uruguay"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
 msgstr "Shkarkoni Firefox-in"
 
@@ -340,335 +579,353 @@ msgstr "Shkarkoni Firefox-in"
 msgid "Please Download Firefox"
 msgstr "Ju lutemi, Shkarkoni Firefox-in"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:25
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+#: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
 msgstr "Oh! Pra, dëshironi të na jepni përshtypjet mbi Firefox-in. Ju faleminderit, por për këtë lypset të keni versionin më të ri."
 
-#: fjord/feedback/templates/feedback/download_firefox.html:31
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "Për këtë, thjesht shkoni te faqja jonë e shkarkimeve dhe instaloni/përditësoni <a href=\"%(url)s\">versionin më të ri të Firefox-it!</a>"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:5
-#: fjord/feedback/templates/feedback/feedback.html:26
-msgid "Firefox Made Me Happy"
-msgstr "Firefox-i Më Kënaqi"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:7
-#: fjord/feedback/templates/feedback/feedback.html:27
-msgid "Firefox Made Me Sad"
-msgstr "Firefox-i Më Trishtoi"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:12
-msgid "Super! It's great to hear that you like our browser."
-msgstr "Super! Ka lezet të dëgjosh që e pëlqeni shfletuesin tonë."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:14
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju lutemi, na tregoni pse, që kështu të mund ta ndreqim."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:18
-msgid "Go Back"
-msgstr "Kthehuni Mbrapsht"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:28
-#: fjord/feedback/templates/feedback/mobile/feedback.html:50
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:98
-msgid "Please describe what you liked."
-msgstr "Ju lutemi, përshkruani ç'ju pëlqeu."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:30
-#: fjord/feedback/templates/feedback/mobile/feedback.html:53
-msgid "Please describe your problem below."
-msgstr "Ju lutemi, përshkruajeni më poshtë problemin tuaj."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:40
-msgid "If your feedback is related to a website, you can include it here."
-msgstr "Nëse përshtypjet tuaja kanë lidhje me një sajt web, atë mund ta përfshini këtu."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:48
-msgid "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
-msgstr "Ju lutemi, të jeni sa më i hollësishëm që mundet brenda hapësirës së lejuar. Për shembull, nëse po jepni përshtypje rreth të qenët i ngadalshëm, ju lutemi, na tregoni sajtet web ku vërehet kjo, nëse e vini re në fillim apo më vonë gjatë sesionit të shfletimit dhe nëse ka ndonjë lidhje që e realizoni duke përdorur Firefox-in dhe që është veçanërisht problematike."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:62
-#: fjord/feedback/templates/feedback/mobile/feedback.html:68
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:128
-msgid "Check here to let us contact you to follow up on your feedback."
-msgstr "I vini shenjë kësaj për të na lejuar t'ju kontaktojmë pas parashtrimit të përshtypjeve."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:68
-#: fjord/feedback/templates/feedback/mobile/feedback.html:74
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:134
-msgid "Email address (optional):"
-msgstr "Adresë Email (opsionale):"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:74
-msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-msgstr "Ndërkohë që përshtypjet tuaja do të jenë publikisht të dukshme, adresat email mbahen private. E kuptojmë që privatësia juaj është e rëndësishme."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:82
-msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr "Për kërkesa asistence, ju lutemi, shkoni te <a href=\"%(url)s\">Asistenca e Firefox-it</a>."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:90
-msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Që të ruhet privatësia juaj, ju lutemi, sigurohuni që te përshtypjet tuaja u nuk përmbahen të dhëna personale të identifikueshme."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:105
-msgid "Submitting Feedback"
-msgstr "Parashtrim Përshtypjesh"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:106
-#: fjord/feedback/templates/feedback/feedback-form.html:110
-msgid "Submit Feedback"
-msgstr "Parashtrojini Përshtypjet"
-
-#: fjord/feedback/templates/feedback/feedback.html:11
-#: fjord/feedback/templates/feedback/feedback.html:20
-#: fjord/feedback/templates/feedback/mobile/feedback.html:11
-#: fjord/feedback/templates/feedback/mobile/feedback.html:20
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:12
+#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:28 fjord/feedback/templates/feedback/generic_feedback_form.html:6
 msgid "Submit Your Feedback"
 msgstr "Parashtrojini Përshtypjet Tuaja"
 
-#: fjord/feedback/templates/feedback/feedback.html:21
-#: fjord/feedback/templates/feedback/mobile/feedback.html:24
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:132
+msgid "Submit feedback"
+msgstr "Parashtroji përshtypjet"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:25
+msgid "Your feedback helps us improve Firefox OS."
+msgstr "Përshtypjet tuaja na ndihmojnë të përmirësojmë Firefox OS-in."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:29
+msgid "Firefox OS made me happy"
+msgstr "Firefox OS-i më kënaqi"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:30
+msgid "Firefox OS made me sad"
+msgstr "Firefox OS-i më trishtoi"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:36
+msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
+msgstr "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox OS-in, ju lutemi, vizitoni <a href=\"%(support_url)s\">Asistencën e Mozilla-s</a>."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:57
+msgid "In what country did you purchase your Firefox OS device?"
+msgstr "Në cilin vend e bletë pajisjen tuaj me Firefox OS?"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:63 fjord/feedback/templates/feedback/fxos_feedback.html:86
+msgid "Other"
+msgstr "Tjetër"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:65 fjord/feedback/templates/feedback/fxos_feedback.html:88 fjord/feedback/templates/feedback/fxos_feedback.html:119
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:66
+msgid "Next"
+msgstr "Pasuesi"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:80
+msgid "What Firefox OS device are you using?"
+msgstr "Çfarë pajisje Firefox OS po përdorni?"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback_form.html:32 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:77
+msgid "Details"
+msgstr "Hollësi"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:102 fjord/feedback/templates/feedback/generic_feedback_form.html:47
+msgid "Please describe what you liked."
+msgstr "Ju lutemi, përshkruani ç'ju pëlqeu."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:105
+msgid "Please describe your problem below and be as specific as you can."
+msgstr "Ju lutemi, përshkruani më poshtë problemin tuaj dhe jini sa më i hollësishëm që mundet."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:114 fjord/feedback/templates/feedback/generic_feedback_form.html:38
+msgid "The content of your feedback will be public, so please be sure not to include any personal information."
+msgstr "Lënda e përshtypjeve tuaja do të jetë publike, ndaj ju lutemi sigurohuni që nuk përfshini të dhëna personale."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:127 fjord/feedback/templates/feedback/generic_feedback_form.html:73
+msgid "Can we contact you?"
+msgstr "A mund të lidhemi me ju?"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:135 fjord/feedback/templates/feedback/generic_feedback_form.html:80
+msgid "Check here to let us contact you to follow up on your feedback."
+msgstr "I vini shenjë kësaj për të na lejuar t'ju kontaktojmë pas parashtrimit të përshtypjeve."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:141 fjord/feedback/templates/feedback/generic_feedback_form.html:86
+msgid "Email address (optional):"
+msgstr "Adresë Email (opsionale):"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:145
+msgid "Please enter a valid email address."
+msgstr "Ju lutemi, jepni një adresë email të vlefshme."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:151
+msgid "Don't worry, your email will always be kept private."
+msgstr "Mos u merakosni, email-i juaj do të mbahet përherë privat."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:155 fjord/feedback/templates/feedback/generic_feedback_form.html:101
+msgid "Send Feedback"
+msgstr "Dërgoji Përshtypjet"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:162
+msgid "Submitting...."
+msgstr "Po parashtrohet...."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:174
+msgid "Success!"
+msgstr "Sukses!"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:180
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
+msgstr "Faleminderit për përshtypjet! Do t'i përdorim për të arritur një funksionim më të mirë të Firefox OS-it në versionet e ardhshme."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:186
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
+msgstr "Mësoni se si mundeni <a href=\"%(url)s\">ta përmirësoni Firefox OS-in dhe Mozilla-n</a>."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:197
+msgid "We're sorry!"
+msgstr "Na ndjeni!"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:203
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
+msgstr "Ndodhi diçka dhe nuk i parashtrojmë dot përshtypjet tuaja. Përshtypjet do të ruhen në pajisjen tuaj që të mund të provoni t'i dërgoni më vonë."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:208 fjord/feedback/templates/feedback/fxos_feedback.html:216 fjord/feedback/templates/feedback/fxos_feedback.html:227
+msgid "Try again"
+msgstr "Riprovoje"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:209 fjord/feedback/templates/feedback/fxos_feedback.html:228
+msgid "Cancel"
+msgstr "Anuloje"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:222
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
+msgstr "Keni të dhëna të paparashtruara. Do të donit të riprovohet parashtrimi i tyre?"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:11
 msgid "Your feedback helps us improve Firefox."
 msgstr "Përshtypjet tuaja na ndihmojnë të përmirësojmë Firefox-in."
 
-#: fjord/feedback/templates/feedback/feedback.html:33
-#: fjord/feedback/templates/feedback/mobile/feedback.html:31
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:13
+msgid "Firefox made me happy"
+msgstr "Firefox-i më kënaqi"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:14
+msgid "Firefox made me sad"
+msgstr "Firefox-i më trishtoi"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:20
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox-in, ju lutemi, vizitoni <a href=\"%(support_url)s\">Asistencën e Firefox-it</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:14
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:50
+msgid "Please describe your problem below."
+msgstr "Ju lutemi, përshkruajeni më poshtë problemin tuaj."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:51
+msgid "Please be as specific as you can."
+msgstr "Ju lutemi, jini sa më të hollësishëm që mundet."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:60
+msgid "If your feedback is related to a website, you can include it here."
+msgstr "Nëse përshtypjet tuaja kanë lidhje me një sajt web, atë mund ta përfshini këtu."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:93
+msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+msgstr "Ndërkohë që përshtypjet tuaja do të jenë publikisht të dukshme, adresat email mbahen private. E kuptojmë që privatësia juaj është e rëndësishme."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
+#, fuzzy
+msgid "{product} feedback"
+msgstr "Parashtroji përshtypjet"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
+msgid "How does %(product)s make you feel?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
+#, fuzzy
+msgid "%(product)s makes me happy"
+msgstr "Firefox-i më kënaqi"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
+#, fuzzy
+msgid "%(product)s makes me sad"
+msgstr "Firefox-i më trishtoi"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
+msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
+#, fuzzy
+msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
+msgstr "Lënda e përshtypjeve tuaja do të jetë publike, ndaj ju lutemi sigurohuni që nuk përfshini të dhëna personale."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
+#, fuzzy
+msgid ""
+"Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
+"or phone number."
+msgstr "Lënda e përshtypjeve tuaja do të jetë publike, ndaj ju lutemi sigurohuni që nuk përfshini të dhëna personale."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
+#, fuzzy
+msgid "If your feedback is related to a website, you can include it here:"
+msgstr "Nëse përshtypjet tuaja kanë lidhje me një sajt web, atë mund ta përfshini këtu."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
+#, fuzzy
+msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
+msgstr "I vini shenjë kësaj për të na lejuar t'ju kontaktojmë pas parashtrimit të përshtypjeve."
+
+#: fjord/feedback/templates/feedback/picker.html:19
+msgid "Select A Product To Leave Feedback"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/picker.html:24
+#, fuzzy
+msgid "No products available."
+msgstr "Pulti jo gati"
+
+#: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
 msgstr "Faleminderit"
 
-#: fjord/feedback/templates/feedback/thanks.html:20
+#: fjord/feedback/templates/feedback/thanks.html:22
 msgid "Thanks for Your Feedback"
 msgstr "Faleminderit për Përshtypjet Tuaja"
 
-#: fjord/feedback/templates/feedback/thanks.html:23
+#: fjord/feedback/templates/feedback/thanks.html:25
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Përshtypjet tuaja do të përdoren për të arritur në versionet e ardhshme një funksionim më të mirë të Firefox-it."
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Share your feedback."
-msgstr "Ndajini përshtypjet tuaja me të tjerët"
-
-#: fjord/feedback/templates/feedback/thanks.html:38
-msgid "Tweet feedback to your followers"
-msgstr "Shpërndajuani përshtypjet tuaja pasuesve tuaj në Twitter"
-
-#: fjord/feedback/templates/feedback/thanks.html:45
-#: fjord/feedback/templates/feedback/mobile/thanks.html:38
+#: fjord/feedback/templates/feedback/thanks.html:33
 msgid "Shape the future of Firefox."
 msgstr "Jepini formë të ardhmes së Firefox-it."
 
-#: fjord/feedback/templates/feedback/thanks.html:47
+#: fjord/feedback/templates/feedback/thanks.html:35
 msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 msgstr "Shkarkoni <a href=\"%(download_url)s\">montimin që është i përshtatshëm për ju</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:55
-#: fjord/feedback/templates/feedback/mobile/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:43
 msgid "Contribute to Mozilla."
 msgstr "Kontribuoni te Mozilla."
 
-#: fjord/feedback/templates/feedback/thanks.html:57
+#: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
 msgstr "Mësoni se si mundeni <a href=\"%(url)s\">ta përmirësoni Firefox-in dhe Mozilla-n</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:64
-#: fjord/feedback/templates/feedback/mobile/thanks.html:50
-msgid "Want to see where your feedback goes?"
-msgstr "Dëshironi të shihni se ku shkojnë përshtypjet tuaja?"
-
-#: fjord/feedback/templates/feedback/thanks.html:66
-msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Vizitoni <a href=\"%(dash_url)s\">Pultin e Përshtypjeve për Firefox-in</a>"
-
-#: fjord/feedback/templates/feedback/thanks.html:73
+#: fjord/feedback/templates/feedback/thanks.html:52
 msgid "Find the latest news about Firefox."
 msgstr "Shihni lajmet më të reja mbi Firefox-in."
+
+#: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
+#, fuzzy
+msgid "Unknown product"
+msgstr "E panjohur"
+
+#: fjord/feedback/templates/feedback/unknownproduct.html:18
+msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/unknownproduct.html:25
+msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Ju lutemi, Shkarkoni Firefox-in!"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:25
-#: fjord/feedback/templates/feedback/mobile/feedback.html:42
-msgid "Firefox made me happy"
-msgstr "Firefox-i më kënaqi"
+#~ msgid "Latest Feedback"
+#~ msgstr "Përshtypjet Më të Fundit"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:26
-#: fjord/feedback/templates/feedback/mobile/feedback.html:43
-msgid "Firefox made me sad"
-msgstr "Firefox-i më trishtoi"
+#~ msgid "Messages"
+#~ msgstr "Mesazhe"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:62
-msgid "Please be as specific as you can."
-msgstr "Ju lutemi, jini sa më të hollësishëm që mundet."
+#~ msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+#~ msgstr "Ose nuk keni llogari këtu, ose përdorët për hyrjen llogari Persona të gabuar."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:81
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:109
-msgid "The content of your feedback will be public, so please be sure not to include any personal information."
-msgstr "Lënda e përshtypjeve tuaja do të jetë publike, ndaj ju lutemi sigurohuni që nuk përfshini të dhëna personale."
+#~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+#~ msgstr "Ju lutemi, jepni një adresë email të vlefshme, ose hiqjani shenjën kutizës që na lejon t'ju kontaktojmë."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:86
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:144
-msgid "Don't worry, your email will always be kept private."
-msgstr "Mos u merakosni, email-i juaj do të mbahet përherë privat."
+#~ msgid "This field is required."
+#~ msgstr "Kjo fushë është e domosdoshme"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:92
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:148
-msgid "Send Feedback"
-msgstr "Dërgoji Përshtypjet"
+#~ msgid "Firefox Made Me Happy"
+#~ msgstr "Firefox-i Më Kënaqi"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:102
-msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr "Për kërkesa asistence, ju lutemi, shkoni te <a href=\"%(support_url)s\">Asistenca e Firefox-it</a>."
+#~ msgid "Firefox Made Me Sad"
+#~ msgstr "Firefox-i Më Trishtoi"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:20
-msgid "Submit feedback"
-msgstr "Parashtroji përshtypjet"
+#~ msgid "Super! It's great to hear that you like our browser."
+#~ msgstr "Super! Ka lezet të dëgjosh që e pëlqeni shfletuesin tonë."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:24
-msgid "Your feedback helps us improve Firefox OS."
-msgstr "Përshtypjet tuaja na ndihmojnë të përmirësojmë Firefox OS-in."
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+#~ msgstr "Na vjen keq që nuk patët përshtypje të mira nga shfletuesi ynë. Ju lutemi, na tregoni pse, që kështu të mund ta ndreqim."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:25
-msgid "Firefox OS made me happy"
-msgstr "Firefox OS-i më kënaqi"
+#~ msgid "Go Back"
+#~ msgstr "Kthehuni Mbrapsht"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:26
-msgid "Firefox OS made me sad"
-msgstr "Firefox OS-i më trishtoi"
+#~ msgid ""
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ msgstr ""
+#~ "Ju lutemi, të jeni sa më i hollësishëm që mundet brenda hapësirës së lejuar. Për shembull, nëse po jepni përshtypje rreth të qenët i ngadalshëm, ju lutemi, na tregoni sajtet web ku vërehet kjo, "
+#~ "nëse e vini re në fillim apo më vonë gjatë sesionit të shfletimit dhe nëse ka ndonjë lidhje që e realizoni duke përdorur Firefox-in dhe që është veçanërisht problematike."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
-msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-msgstr "Nëse ju duhet ndihmë, ose nëse keni probleme me Firefox OS-in, ju lutemi, vizitoni <a href=\"%(support_url)s\">Asistencën e Mozilla-s</a>."
+#~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
+#~ msgstr "Për kërkesa asistence, ju lutemi, shkoni te <a href=\"%(url)s\">Asistenca e Firefox-it</a>."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
-msgid "Country"
-msgstr "Vendi"
+#~ msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+#~ msgstr "Që të ruhet privatësia juaj, ju lutemi, sigurohuni që te përshtypjet tuaja u nuk përmbahen të dhëna personale të identifikueshme."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:49
-msgid "In what country did you purchase your Firefox OS device?"
-msgstr "Në cilin vend e bletë pajisjen tuaj me Firefox OS?"
+#~ msgid "Submitting Feedback"
+#~ msgstr "Parashtrim Përshtypjesh"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:59
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:84
-msgid "Other"
-msgstr "Tjetër"
+#~ msgid "Submit Feedback"
+#~ msgstr "Parashtrojini Përshtypjet"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:61
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:86
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:114
-msgid "Next"
-msgstr "Pasuesi"
+#~ msgid "Share your feedback."
+#~ msgstr "Ndajini përshtypjet tuaja me të tjerët"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:69
-msgid "Device"
-msgstr "Pajisje"
+#~ msgid "Tweet feedback to your followers"
+#~ msgstr "Shpërndajuani përshtypjet tuaja pasuesve tuaj në Twitter"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:74
-msgid "What Firefox OS device are you using?"
-msgstr "Çfarë pajisje Firefox OS po përdorni?"
+#~ msgid "Want to see where your feedback goes?"
+#~ msgstr "Dëshironi të shihni se ku shkojnë përshtypjet tuaja?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
-msgid "Details"
-msgstr "Hollësi"
+#~ msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+#~ msgstr "Për kërkesa asistence, ju lutemi, shkoni te <a href=\"%(support_url)s\">Asistenca e Firefox-it</a>."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
-msgid "Please describe your problem below and be as specific as you can."
-msgstr "Ju lutemi, përshkruani më poshtë problemin tuaj dhe jini sa më i hollësishëm që mundet."
+#~ msgid "Thank you for your feedback!"
+#~ msgstr "Ju faleminderit për përshtypjet!"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:121
-msgid "Can we contact you?"
-msgstr "A mund të lidhemi me ju?"
+#~ msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
+#~ msgstr "Faleminderit për përshtypjet! Do t'i përdorim për të arritur një funksionim më të mirë të Firefox-it në versionet e ardhshme."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:138
-msgid "Please enter a valid email address."
-msgstr "Ju lutemi, jepni një adresë email të vlefshme."
+#~ msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
+#~ msgstr "Doni të jeni në dijeni se si po ecën Firefox-i? Kemi mjaft mënyra për të mbajtur lidhjet:"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:154
-msgid "Submitting...."
-msgstr "Po parashtrohet...."
+#~ msgid "Download the build that is right for you"
+#~ msgstr "Shkarkoni montimin që i përshtatet rastit tuaj"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:164
-#: fjord/feedback/templates/feedback/mobile/thanks.html:16
-msgid "Success!"
-msgstr "Sukses!"
+#~ msgid "Learn how you can make Firefox and Mozilla better"
+#~ msgstr "Mësoni se si mund ta bëni më të mirë Firefox-in dhe Mozilla-n"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:169
-msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
-msgstr "Faleminderit për përshtypjet! Do t'i përdorim për të arritur një funksionim më të mirë të Firefox OS-it në versionet e ardhshme."
+#~ msgid "Visit the Firefox Feedback Dashboard"
+#~ msgstr "Vizitoni Pultin e Përshtypjeve mbi Firefox-in"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:175
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
-msgstr "Mësoni se si mundeni <a href=\"%(url)s\">ta përmirësoni Firefox OS-in dhe Mozilla-n</a>."
+#~ msgid "Find the latest news about Mozilla."
+#~ msgstr "Shihni lajmet e reja mbi Mozilla-n"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:185
-msgid "We're sorry!"
-msgstr "Na ndjeni!"
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:190
-msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
-msgstr "Ndodhi diçka dhe nuk i parashtrojmë dot përshtypjet tuaja. Përshtypjet do të ruhen në pajisjen tuaj që të mund të provoni t'i dërgoni më vonë."
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:195
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:202
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:212
-msgid "Try again"
-msgstr "Riprovoje"
-
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:196
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:213
-msgid "Cancel"
-msgstr "Anuloje"
-
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:207
-msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
-msgstr "Keni të dhëna të paparashtruara. Do të donit të riprovohet parashtrimi i tyre?"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:7
-msgid "Thank you for your feedback!"
-msgstr "Ju faleminderit për përshtypjet!"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:21
-msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
-msgstr "Faleminderit për përshtypjet! Do t'i përdorim për të arritur një funksionim më të mirë të Firefox-it në versionet e ardhshme."
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:30
-msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
-msgstr "Doni të jeni në dijeni se si po ecën Firefox-i? Kemi mjaft mënyra për të mbajtur lidhjet:"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:40
-msgid "Download the build that is right for you"
-msgstr "Shkarkoni montimin që i përshtatet rastit tuaj"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:46
-msgid "Learn how you can make Firefox and Mozilla better"
-msgstr "Mësoni se si mund ta bëni më të mirë Firefox-in dhe Mozilla-n"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:52
-msgid "Visit the Firefox Feedback Dashboard"
-msgstr "Vizitoni Pultin e Përshtypjeve mbi Firefox-in"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:56
-msgid "Find the latest news about Mozilla."
-msgstr "Shihni lajmet e reja mbi Mozilla-n"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:60
-msgid "Twitter"
-msgstr "Twitter"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:65
-msgid "Facebook"
-msgstr "Facebook"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:70
-msgid "Planet Mozilla"
-msgstr "Planet Mozilla"
+#~ msgid "Planet Mozilla"
+#~ msgstr "Planet Mozilla"

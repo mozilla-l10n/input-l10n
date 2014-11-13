@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-14 11:42-0700\n"
+"POT-Creation-Date: 2014-11-13 07:51-0700\n"
 "PO-Revision-Date: 2014-02-22 21:48+0000\n"
 "Last-Translator: Rimas <rq@akl.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,144 +10,307 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
-"100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1393105725.0\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:347 fjord/base/helpers.py:36
+#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
 msgstr "Nežinoma"
 
-#: fjord/analytics/views.py:172
+#: fjord/analytics/views.py:123
 msgid "Firefox Input: {query}"
 msgstr "„Firefox“ atsiliepimai: {query}"
 
-#: fjord/analytics/views.py:174 fjord/analytics/views.py:188 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:125 fjord/analytics/views.py:139 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "„Firefox“ atsiliepimai"
 
-#: fjord/analytics/views.py:187
+#: fjord/analytics/views.py:138
 msgid "Search Results From Firefox Input"
 msgstr "„Firefox“ atsiliepimų paieškos rezultatai"
 
-#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:417 fjord/analytics/templates/analytics/dashboard.html:21 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:83
+#: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/analyzer/search.html:7 fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
 msgid "Happy"
 msgstr "Nudžiugino"
 
-#: fjord/analytics/views.py:192 fjord/analytics/views.py:354 fjord/analytics/views.py:419 fjord/analytics/templates/analytics/dashboard.html:23 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:84
+#: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/analyzer/search.html:9 fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 msgid "Sad"
 msgstr "Nuliūdino"
 
-#: fjord/analytics/views.py:202 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:153 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "Atsakymo ID: {id}"
 
-#: fjord/analytics/views.py:353
+#: fjord/analytics/views.py:281
+msgid "Bigram"
+msgstr ""
+
+#: fjord/analytics/views.py:345
 msgid "Sentiment"
 msgstr "Atsiliepimas"
 
-#: fjord/analytics/views.py:360
+#: fjord/analytics/views.py:352 fjord/analytics/templates/analytics/response.html:111
 msgid "Product"
 msgstr "Produktas"
 
-#: fjord/analytics/views.py:371
+#: fjord/analytics/views.py:363 fjord/analytics/views.py:369 fjord/analytics/templates/analytics/response.html:115
 msgid "Version"
 msgstr "Versija"
 
-#: fjord/analytics/views.py:381
+#: fjord/analytics/views.py:370
+msgid "Select product to see version facet"
+msgstr ""
+
+#: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
 msgstr "Platforma"
 
-#: fjord/analytics/views.py:387
+#: fjord/analytics/views.py:384 fjord/analytics/templates/analytics/response.html:105
 msgid "Locale"
 msgstr "Lokalė"
 
-#: fjord/analytics/templates/analytics/dashboard.html:15
+#: fjord/analytics/views.py:521
+msgid "Total # responses"
+msgstr ""
+
+#: fjord/analytics/views.py:530
+msgid "Percent change in sentiment upwards"
+msgstr ""
+
+#: fjord/analytics/views.py:539
+msgid "Percent change in sentiment downwards"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "Naujienų srautas šiai paieškai"
 
-#: fjord/analytics/templates/analytics/dashboard.html:43 fjord/analytics/templates/analytics/response.html:51 fjord/analytics/templates/analytics/mobile/response.html:40
+#: fjord/analytics/templates/analytics/dashboard.html:45 fjord/analytics/templates/analytics/analyzer/search.html:78 fjord/analytics/templates/analytics/mobile/response.html:40
 msgid "Permalink"
 msgstr "Nuolatinė nuoroda"
 
-#: fjord/analytics/templates/analytics/dashboard.html:91
+#: fjord/analytics/templates/analytics/dashboard.html:100 fjord/analytics/templates/analytics/analyzer/search.html:122
 msgid "When"
 msgstr "Kada"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:93
+#: fjord/analytics/templates/analytics/dashboard.html:102 fjord/analytics/templates/analytics/analyzer/search.html:124
 msgid "1d"
 msgstr "1 d."
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:95
+#: fjord/analytics/templates/analytics/dashboard.html:104 fjord/analytics/templates/analytics/analyzer/search.html:126
 msgid "7d"
 msgstr "7 d."
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:97
+#: fjord/analytics/templates/analytics/dashboard.html:106 fjord/analytics/templates/analytics/analyzer/search.html:128
 msgid "30d"
 msgstr "30 d."
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:99
+#: fjord/analytics/templates/analytics/dashboard.html:108 fjord/analytics/templates/analytics/analyzer/search.html:130
 msgid "90d"
 msgstr "90 d."
 
-#: fjord/analytics/templates/analytics/dashboard.html:101
+#: fjord/analytics/templates/analytics/dashboard.html:110 fjord/analytics/templates/analytics/analyzer/search.html:132
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:105
+#: fjord/analytics/templates/analytics/dashboard.html:114 fjord/analytics/templates/analytics/product_dashboard.html:10 fjord/analytics/templates/analytics/product_dashboard_firefox.html:10
+#: fjord/analytics/templates/analytics/analyzer/search.html:136
 msgid "Start"
 msgstr "Pradžia"
 
-#: fjord/analytics/templates/analytics/dashboard.html:107
+#: fjord/analytics/templates/analytics/dashboard.html:116 fjord/analytics/templates/analytics/product_dashboard.html:12 fjord/analytics/templates/analytics/product_dashboard_firefox.html:12
+#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:9 fjord/analytics/templates/analytics/analyzer/search.html:138
 msgid "End"
 msgstr "Pabaiga"
 
-#: fjord/analytics/templates/analytics/dashboard.html:108
+#: fjord/analytics/templates/analytics/dashboard.html:117 fjord/analytics/templates/analytics/product_dashboard.html:13 fjord/analytics/templates/analytics/product_dashboard_firefox.html:13
+#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:10 fjord/analytics/templates/analytics/analyzer/search.html:139
 msgid "Set"
 msgstr "Nustatyti"
 
-#: fjord/analytics/templates/analytics/dashboard.html:127
+#: fjord/analytics/templates/analytics/dashboard.html:136 fjord/analytics/templates/analytics/product_dashboard.html:59 fjord/analytics/templates/analytics/product_dashboard_firefox.html:59
+#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:67 fjord/analytics/templates/analytics/product_dashboard_firefox.html:75
+#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:18
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "Pastaba: visos datos ir laikai yra Ramiojo vandenyno laiko juostoje."
 
-#: fjord/analytics/templates/analytics/dashboard.html:132
-msgid "Latest Feedback"
-msgstr "Paskiausi atsiliepimai"
+#: fjord/analytics/templates/analytics/dashboard.html:141
+#, fuzzy
+msgid "Feedback"
+msgstr "Siųsti atsiliepimą"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136
+#: fjord/analytics/templates/analytics/dashboard.html:145 fjord/analytics/templates/analytics/product_dashboard.html:18 fjord/analytics/templates/analytics/product_dashboard_firefox.html:18
 msgid "Search by keyword"
 msgstr "Ieškoti pagal reikšminį žodį"
 
-#: fjord/analytics/templates/analytics/dashboard.html:154
+#: fjord/analytics/templates/analytics/dashboard.html:163
+msgid "No feedback matches that criteria."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
 msgstr "Senesnės žinutės"
 
-#: fjord/analytics/templates/analytics/dashboard.html:159
+#: fjord/analytics/templates/analytics/dashboard.html:174
 msgid "Newer Messages"
 msgstr "Naujesnės žinutės"
 
-#: fjord/analytics/templates/analytics/dashboard.html:170
-msgid "Messages"
-msgstr "Žinutės"
+#: fjord/analytics/templates/analytics/dashboard.html:185
+msgid "Messages in specified time range"
+msgstr ""
 
-#: fjord/analytics/templates/analytics/es_down.html:7
+#: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
 msgstr "Skydelis nepasiekiamas"
 
-#: fjord/analytics/templates/analytics/es_down.html:9
+#: fjord/analytics/templates/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "Skydelis šiuo metu nepasiekiamas. Prašome pabandyti po 10 minučių."
+
+#: fjord/analytics/templates/analytics/product_dashboard.html:37
+msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
+msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
+msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:45
+msgid "Category"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
+#: fjord/analytics/templates/analytics/response.html:133
+msgid "None"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:49
+msgid "Description"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:53
+msgid "Translated"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:64
+msgid "Translate (machine)"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:70
+msgid "Translate (human)"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:85
+msgid "Created"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:119
+msgid "Channel"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:123
+msgid "URL Domain"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:127
+#, fuzzy
+msgid "Source"
+msgstr "Pirminis kodas"
+
+#: fjord/analytics/templates/analytics/response.html:131
+msgid "Campaign"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:139
+msgid "Full URL"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
+msgid "Country"
+msgstr "Valstybė"
+
+#: fjord/analytics/templates/analytics/response.html:147
+msgid "Manufacturer"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:151 fjord/feedback/templates/feedback/fxos_feedback.html:74
+msgid "Device"
+msgstr "Įrenginys"
+
+#: fjord/analytics/templates/analytics/response.html:155
+msgid "User agent"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:159
+msgid "Email"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:167
+#, fuzzy
+msgid "API version"
+msgstr "Versija"
+
+#: fjord/analytics/templates/analytics/response.html:185
+msgid "Context"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:12
+msgid "Hi,"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:17
+msgid ""
+"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
+"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:31
+msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:36
+msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/underconstruction.html:41
+#, fuzzy
+msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
+msgstr "Aplankykite <a href=\"%(dash_url)s\">„Firefox“ atsiliepimų skydelį</a>"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Skydelis kol kas neveikia mobiliuosiuose įrenginiuose."
+
+#: fjord/base/models.py:57
+msgid "JSON Object"
+msgstr ""
+
+#: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
+msgid "Forbidden"
+msgstr ""
+
+#: fjord/base/templates/403.html:12
+msgid "You do not have access to this page."
+msgstr ""
+
+#: fjord/base/templates/403.html:14
+msgid "You do not have access to this page. If you have an account, try signing in."
+msgstr ""
+
+#: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
+msgid "Return to the dashboard."
+msgstr "Grįžti į skydelį."
 
 #: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
 msgid "Not Found"
@@ -157,19 +320,15 @@ msgstr "Nerasta"
 msgid "The document could not be found."
 msgstr "Dokumento nepavyko rasti."
 
-#: fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:9
-msgid "Return to the dashboard."
-msgstr "Grįžti į skydelį."
-
 #: fjord/base/templates/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "Kažkas ne taip"
 
-#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:29 fjord/base/templates/mobile/base.html:25
+#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:37 fjord/base/templates/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> atsiliepimų skydelis"
 
-#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:35 fjord/base/templates/mobile/base.html:31
+#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:43 fjord/base/templates/mobile/base.html:35
 msgid "Dashboard"
 msgstr "Skydelis"
 
@@ -181,86 +340,134 @@ msgstr "Kažkas ne taip."
 msgid "There was a problem on the server."
 msgstr "Įvyko problema, susijusi su serveriu."
 
-#: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10 fjord/base/templates/mobile/about.html:3
+#: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10
 msgid "About Firefox Input"
 msgstr "Apie „Firefox“ atsiliepimų skydelį"
+
+#: fjord/base/templates/about.html:9
+msgid "Hello!"
+msgstr "Labas!"
+
+#: fjord/base/templates/about.html:11
+#, fuzzy
+msgid ""
+"Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
+"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
+msgstr ""
+"„Firefox“ atsiliepimai yra pagrindinis „Mozillos“ grįžtamojo ryšio mechanizmas. Jis sukurtas būti vienkrypčiu būdu perduoti Jūsų potyrius naudojant „Firefox“ bei pasiūlymus, kaip „Mozilla“ galėtų "
+"pagerinti tuos jūsų potyrius. Ši sistema yra pasiekiama plačiu mechanizmų spektru per visus tris pagrindinius laidų kanalus."
+
+#: fjord/base/templates/about.html:21
+#, fuzzy
+msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgstr "Norėdami pateikti atsiliepimą apie Jūsų naudojamą „Firefox“ versiją, eikite į <a href=\"%(url)s\">šį pateikimų tinklalapį</a>!"
+
+#: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
+msgid "Privacy Policy"
+msgstr "Privatumo nuostatai"
+
+#: fjord/base/templates/about.html:29
+msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
+msgstr ""
+
+#: fjord/base/templates/about.html:34
+msgid "Legal Disclaimers and Limitations"
+msgstr ""
+
+#: fjord/base/templates/about.html:36
+msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
+msgstr ""
+
+#: fjord/base/templates/about.html:42
+msgid "Data Retention Policy"
+msgstr ""
+
+#: fjord/base/templates/about.html:44
+msgid "We have a data retention policy that covers data stored on this site:"
+msgstr ""
+
+#: fjord/base/templates/about.html:51
+msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
+msgstr ""
+
+#: fjord/base/templates/about.html:57
+msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
+msgstr ""
+
+#: fjord/base/templates/about.html:64
+msgid "Open Data"
+msgstr "Atviri duomenys"
+
+#: fjord/base/templates/about.html:66
+msgid ""
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
+msgstr ""
+"Mes norėtume eksperimentuoti su šiais duomenimis kuo daugiau, tačiau esame tik keleto žmonių komanda. Todėl mums reikia Jūsų nuomonės apie tai, kokius klausimus norėtumėte matyti atsakytus! Jeigu "
+"norėtumėte paeksperimentuoti su mūsų duomenimis, prašome susisiekti!"
+
+#: fjord/base/templates/about.html:74
+msgid "Source Code"
+msgstr "Pirminis kodas"
+
+#: fjord/base/templates/about.html:76
+#, fuzzy
+msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgstr "„Firefox“ atsiliepimų internetinės sistemos kodas yra <a href=\"%(url)s\">pasiekiamas „GitHub'e“</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
 msgstr "Sveiki"
 
-#: fjord/base/templates/base.html:20 fjord/base/templates/mobile/base.html:17
+#: fjord/base/templates/base.html:25 fjord/base/templates/mobile/base.html:21
 msgid "Proceed to main content"
 msgstr "Pereiti prie pagrindinio turinio"
 
-#: fjord/base/templates/base.html:21 fjord/base/templates/mobile/base.html:18
+#: fjord/base/templates/base.html:26 fjord/base/templates/mobile/base.html:22
 msgid "Proceed to footer"
 msgstr "Pereiti į apačią"
 
-#: fjord/base/templates/base.html:40
+#: fjord/base/templates/base.html:44
+#, fuzzy
+msgid "Give Feedback"
+msgstr "Siųsti atsiliepimą"
+
+#: fjord/base/templates/base.html:46
+msgid "Analytics"
+msgstr ""
+
+#: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
 msgstr "Sveiki, {username}"
 
-#: fjord/base/templates/base.html:44
+#: fjord/base/templates/base.html:56
 msgid "Sign out"
 msgstr "Atsijungti"
 
-#: fjord/base/templates/base.html:46
+#: fjord/base/templates/base.html:58
 msgid "Sign in"
 msgstr "Prisijungti"
+
+#: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
+#, fuzzy
+msgid "CSRF Failure"
+msgstr "Prisijungimo klaida"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Prisijungimo klaida"
 
-#: fjord/base/templates/includes/about_text.html:1
-msgid "Hello!"
-msgstr "Labas!"
-
-#: fjord/base/templates/includes/about_text.html:3
-msgid ""
-"Firefox Input is Mozilla's primary feedback mechanism. It is set up to be a method of one-way communication about your experiences in using Firefox, the Internet you view it through, and what "
-"Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
+#: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
+msgid "Welcome to Input!"
 msgstr ""
-"„Firefox“ atsiliepimai yra pagrindinis „Mozillos“ grįžtamojo ryšio "
-"mechanizmas. Jis sukurtas būti vienkrypčiu būdu perduoti Jūsų potyrius "
-"naudojant „Firefox“ bei pasiūlymus, kaip „Mozilla“ galėtų pagerinti tuos "
-"jūsų potyrius. Ši sistema yra pasiekiama plačiu mechanizmų spektru per visus "
-"tris pagrindinius laidų kanalus."
 
-#: fjord/base/templates/includes/about_text.html:14
-msgid "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+#: fjord/base/templates/includes/csrf_failure_text.html:3
+msgid "Your submission failed a security check on our system."
 msgstr ""
-"Norėdami pateikti atsiliepimą apie Jūsų naudojamą „Firefox“ versiją, eikite "
-"į <a href=\"%(url)s\">šį pateikimų tinklalapį</a>!"
 
-#: fjord/base/templates/includes/about_text.html:20
-msgid "Open Data"
-msgstr "Atviri duomenys"
-
-#: fjord/base/templates/includes/about_text.html:22
-msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-"please contact us!"
+#: fjord/base/templates/includes/csrf_failure_text.html:8
+msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr ""
-"Mes norėtume eksperimentuoti su šiais duomenimis kuo daugiau, tačiau esame "
-"tik keleto žmonių komanda. Todėl mums reikia Jūsų nuomonės apie tai, kokius "
-"klausimus norėtumėte matyti atsakytus! Jeigu norėtumėte paeksperimentuoti su "
-"mūsų duomenimis, prašome susisiekti!"
-
-#: fjord/base/templates/includes/about_text.html:30
-msgid "Source Code"
-msgstr "Pirminis kodas"
-
-#: fjord/base/templates/includes/about_text.html:32
-msgid "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
-"„Firefox“ atsiliepimų internetinės sistemos kodas yra <a href=\"%"
-"(url)s\">pasiekiamas „GitHub'e“</a>!"
-
-#: fjord/base/templates/includes/footer.html:7
-msgid "Privacy Policy"
-msgstr "Privatumo nuostatai"
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -275,9 +482,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Jeigu nenurodyta <a href=\"%(legal_url)s\">kitaip</a>, visas šios svetainės "
-"turinys yra pateikiamas pagal<br/> <a href=\"%(license_url)s\">„Creative "
-"Commons Attribution Share-Alike 3.0“</a> arba vėlesnės versijos licenciją."
+"Jeigu nenurodyta <a href=\"%(legal_url)s\">kitaip</a>, visas šios svetainės turinys yra pateikiamas pagal<br/> <a href=\"%(license_url)s\">„Creative Commons Attribution Share-Alike 3.0“</a> arba "
+"vėlesnės versijos licenciją."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -288,68 +494,81 @@ msgid "Go"
 msgstr "Pirmyn"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
-msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+msgid "You've failed to authenticate with Persona. Please try again."
 msgstr ""
-"Jūs arba neturite naudotojo profilio, arba naudojote ne tą „Persona“ profilį "
-"prisijungimui."
 
-#: fjord/base/templates/services/monitor.html:3 fjord/base/templates/services/monitor.html:14
+#: fjord/base/templates/includes/new_user_text.html:1
+#, fuzzy
+msgid "Welcome!"
+msgstr "Sveiki"
+
+#: fjord/base/templates/includes/new_user_text.html:3
+msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
+msgstr ""
+
+#: fjord/base/templates/includes/new_user_text.html:9
+msgid "Onwards to your destination."
+msgstr ""
+
+#: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
 msgid "Input Services Monitor"
 msgstr "Atsiliepimų skydelio tarnybų stebėjimas"
 
-#: fjord/base/templates/services/monitor.html:16
+#: fjord/base/templates/services/monitor.html:20
 msgid "List of components that Input uses and whether they are functioning correctly."
 msgstr "Skydelio naudojamų komponentų sąrašas ir jų būsena."
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:10
 msgid "Colombia"
 msgstr "Kolumbija"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:11
 msgid "Venezuela"
 msgstr "Venesuela"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:12
 msgid "Poland"
 msgstr "Lenkija"
 
-#: fjord/feedback/config.py:22
+#: fjord/feedback/config.py:13
 msgid "Spain"
 msgstr "Ispanija"
 
-#: fjord/feedback/config.py:23
+#: fjord/feedback/config.py:14
 msgid "Brazil"
 msgstr "Brazilija"
 
-#: fjord/feedback/config.py:24
+#: fjord/feedback/config.py:15
 msgid "Germany"
 msgstr "Vokietija"
 
-#: fjord/feedback/config.py:25
+#: fjord/feedback/config.py:16
 msgid "Greece"
 msgstr "Graikija"
 
-#: fjord/feedback/config.py:26
+#: fjord/feedback/config.py:17
 msgid "Hungary"
 msgstr "Vengrija"
 
-#: fjord/feedback/config.py:27
+#: fjord/feedback/config.py:18
 msgid "Serbia"
 msgstr "Serbija"
 
-#: fjord/feedback/config.py:28
+#: fjord/feedback/config.py:19
 msgid "Montenegro"
 msgstr "Juodkalnija"
 
-#: fjord/feedback/forms.py:42
-msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+#: fjord/feedback/config.py:20
+msgid "Mexico"
 msgstr ""
-"Prašome įvesti tikrą el. pašto adresą arba nuimti varnelę žyminčią, jog "
-"leidžiate mums su Jumis susisiekti."
 
-#: fjord/feedback/forms.py:57
-msgid "This field is required."
-msgstr "Šis laukas yra privalomas."
+#: fjord/feedback/config.py:21
+msgid "Peru"
+msgstr ""
+
+#: fjord/feedback/config.py:22
+msgid "Uruguay"
+msgstr ""
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -361,336 +580,354 @@ msgstr "Prašome parsisiųsti „Firefox“"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr ""
-"O! Taigi, Jūs norite pasidalinti savo nuomone ir patirtimi su „Firefox“. "
-"Ačiū, tačiau Jūs turite naudoti naujausią versiją."
+msgstr "O! Taigi, Jūs norite pasidalinti savo nuomone ir patirtimi su „Firefox“. Ačiū, tačiau Jūs turite naudoti naujausią versiją."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Tai padaryti galite paprasčiausiai užėję į mūsų parsisiuntimo puslapį ir "
-"parsisiuntę <a href=\"%(url)s\">naujausią „Firefox“ versiją!</a>"
+msgstr "Tai padaryti galite paprasčiausiai užėję į mūsų parsisiuntimo puslapį ir parsisiuntę <a href=\"%(url)s\">naujausią „Firefox“ versiją!</a>"
 
-#: fjord/feedback/templates/feedback/feedback-form.html:5 fjord/feedback/templates/feedback/feedback.html:26
-msgid "Firefox Made Me Happy"
-msgstr "„Firefox“ mane nudžiugino"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:7 fjord/feedback/templates/feedback/feedback.html:27
-msgid "Firefox Made Me Sad"
-msgstr "„Firefox“ mane nuliūdino"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:12
-msgid "Super! It's great to hear that you like our browser."
-msgstr "Puiku! Smagu girdėti, kad jums patinka mūsų naršyklė."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:14
-msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-msgstr "Apgailestaujame, kad jums teko patirti nemalonumų su mūsų naršykle. Prašome papasakoti kas ir kaip įvyko, kad galėtume tai sutvarkyti."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:18
-msgid "Go Back"
-msgstr "Grįžti"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:28 fjord/feedback/templates/feedback/mobile/feedback.html:50 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:90
-msgid "Please describe what you liked."
-msgstr "Prašome nupasakoti, kas jums patiko."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:30 fjord/feedback/templates/feedback/mobile/feedback.html:53
-msgid "Please describe your problem below."
-msgstr "Prašome aprašyti savo problemą žemiau."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:40
-msgid "If your feedback is related to a website, you can include it here."
-msgstr "Jeigu jūsų atsiliepimas susijęs su tam tikra svetaine, galite ją įrašyti čia."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:48
-msgid ""
-"Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-"the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
-msgstr ""
-"Prašome rašyti kiek įmanoma konkrečiau. Pavyzdžiui, jeigu rašote atsiliepimą "
-"apie veikimo sulėtėjimą, paminėkite susijusias svetaines, aprašykite ar "
-"problemą pastebite naršymo pradžioje, ar vėliau, o gal ji pasireiškia po tam "
-"tikrų veiksmų, kuriuos atliekate su „Firefox“."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:62 fjord/feedback/templates/feedback/mobile/feedback.html:68 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:120
-msgid "Check here to let us contact you to follow up on your feedback."
-msgstr ""
-"Pažymėkite čia, jeigu norite, kad susisiektume su Jumis dėl šio atsiliepimo."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:68 fjord/feedback/templates/feedback/mobile/feedback.html:74 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:126
-msgid "Email address (optional):"
-msgstr "El. pašto adresas (neprivalomas):"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:74
-msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-msgstr ""
-"Jeigu jūsų atsiliepimai bus matomi viešai, tai el. pašto adresai nėra "
-"skelbiami. Mes suprantame, kad jūsų privatumas yra svarbus."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:82
-msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Dėl pagalbos klausimų prašome eiti į <a href=\"%(url)s\">„Mozillos“ "
-"pagalbą</a>."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:90
-msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
-msgstr "Saugokite savo privatumą – įsitikinkite, ar jūsų atsiliepime nėra jokios jus kaip asmenį identifikuojančios informacijos."
-
-#: fjord/feedback/templates/feedback/feedback-form.html:105
-msgid "Submitting Feedback"
-msgstr "Atsiliepimas pateikiamas"
-
-#: fjord/feedback/templates/feedback/feedback-form.html:106 fjord/feedback/templates/feedback/feedback-form.html:110
-msgid "Submit Feedback"
-msgstr "Pateikti atsiliepimą"
-
-#: fjord/feedback/templates/feedback/feedback.html:11 fjord/feedback/templates/feedback/feedback.html:20 fjord/feedback/templates/feedback/mobile/feedback.html:11
-#: fjord/feedback/templates/feedback/mobile/feedback.html:20 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:12
+#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:28 fjord/feedback/templates/feedback/generic_feedback_form.html:6
 msgid "Submit Your Feedback"
 msgstr "Pateikite savo atsiliepimą"
 
-#: fjord/feedback/templates/feedback/feedback.html:21 fjord/feedback/templates/feedback/mobile/feedback.html:24
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:132
+msgid "Submit feedback"
+msgstr "Pateikti atsiliepimą"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:25
+msgid "Your feedback helps us improve Firefox OS."
+msgstr "Jūsų atsiliepimai padeda mums tobulinti „Firefox OS“."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:29
+msgid "Firefox OS made me happy"
+msgstr "„Firefox OS“ mane nudžiugino"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:30
+msgid "Firefox OS made me sad"
+msgstr "„Firefox OS“ mane nuliūdino"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:36
+msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
+msgstr "Jeigu jums reikia pagalbos ar turite problemų su „Firefox OS“, kviečiame apsilankyti <a href=\"%(support_url)s\">„Mozillos“ žinyne</a>."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:57
+msgid "In what country did you purchase your Firefox OS device?"
+msgstr "Kurioje valstybėje įsigijote savo „Firefox OS“ įrenginį?"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:63 fjord/feedback/templates/feedback/fxos_feedback.html:86
+msgid "Other"
+msgstr "Kita"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:65 fjord/feedback/templates/feedback/fxos_feedback.html:88 fjord/feedback/templates/feedback/fxos_feedback.html:119
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:66
+msgid "Next"
+msgstr "Toliau"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:80
+msgid "What Firefox OS device are you using?"
+msgstr "Kokį „Firefox OS“ įrenginį naudojate?"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback_form.html:32 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:77
+msgid "Details"
+msgstr "Detalės"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:102 fjord/feedback/templates/feedback/generic_feedback_form.html:47
+msgid "Please describe what you liked."
+msgstr "Prašome nupasakoti, kas jums patiko."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:105
+msgid "Please describe your problem below and be as specific as you can."
+msgstr "Prašome aprašyti savo problemą žemiau ir kaip galima konkrečiau."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:114 fjord/feedback/templates/feedback/generic_feedback_form.html:38
+msgid "The content of your feedback will be public, so please be sure not to include any personal information."
+msgstr "Jūsų atsiliepimo turinys bus viešas, taigi geriau nerašykite jokios asmeninės informacijos."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:127 fjord/feedback/templates/feedback/generic_feedback_form.html:73
+msgid "Can we contact you?"
+msgstr "Ar galime su Jumis susisiekti?"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:135 fjord/feedback/templates/feedback/generic_feedback_form.html:80
+msgid "Check here to let us contact you to follow up on your feedback."
+msgstr "Pažymėkite čia, jeigu norite, kad susisiektume su Jumis dėl šio atsiliepimo."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:141 fjord/feedback/templates/feedback/generic_feedback_form.html:86
+msgid "Email address (optional):"
+msgstr "El. pašto adresas (neprivalomas):"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:145
+msgid "Please enter a valid email address."
+msgstr "Prašome įvesti teisingą el. pašto adresą."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:151
+msgid "Don't worry, your email will always be kept private."
+msgstr "Nesijaudinkite, jūsų el. pašto adresą laikysime paslaptyje."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:155 fjord/feedback/templates/feedback/generic_feedback_form.html:101
+msgid "Send Feedback"
+msgstr "Siųsti atsiliepimą"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:162
+msgid "Submitting...."
+msgstr "Pateikiama..."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:174
+msgid "Success!"
+msgstr "Pavyko!"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:180
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
+msgstr "Ačiū! Jūsų atsiliepimuose pateikta informacija bus panaudota kuriant geresnes „Firefox OS“ versijas."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:186
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
+msgstr "Sužinokite, kaip galite <a href=\"%(url)s\">pagerinti „Firefox OS“ ir „Mozillą“</a>."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:197
+msgid "We're sorry!"
+msgstr "Atsiprašome!"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:203
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
+msgstr "Kažkas nutiko ir mes negalima priimti Jūsų atsiliepimo. Jis bus išsaugotas Jūsų įrenginyje, kad galėtumėte pabandyti jį nusiųsti vėliau."
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:208 fjord/feedback/templates/feedback/fxos_feedback.html:216 fjord/feedback/templates/feedback/fxos_feedback.html:227
+msgid "Try again"
+msgstr "Bandyti dar"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:209 fjord/feedback/templates/feedback/fxos_feedback.html:228
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: fjord/feedback/templates/feedback/fxos_feedback.html:222
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
+msgstr "Jūs turite neišsiųstų atsiliepimų. Ar norėtume pabandyti išsiųsti dabar?"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:11
 msgid "Your feedback helps us improve Firefox."
 msgstr "Jūsų atsiliepimai padeda mums tobulinti „Firefox“."
 
-#: fjord/feedback/templates/feedback/feedback.html:33 fjord/feedback/templates/feedback/mobile/feedback.html:31
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:13
+msgid "Firefox made me happy"
+msgstr "„Firefox“ mane nudžiugino"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:14
+msgid "Firefox made me sad"
+msgstr "„Firefox“ mane nuliūdino"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:20
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 msgstr "Jeigu jums reikia pagalbos ar turite problemų su „Firefox“, kviečiame apsilankyti <a href=\"%(support_url)s\">„Firefox“ žinyne</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:14
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:50
+msgid "Please describe your problem below."
+msgstr "Prašome aprašyti savo problemą žemiau."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:51
+msgid "Please be as specific as you can."
+msgstr "Prašome rašyti kiek įmanoma konkrečiau."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:60
+msgid "If your feedback is related to a website, you can include it here."
+msgstr "Jeigu jūsų atsiliepimas susijęs su tam tikra svetaine, galite ją įrašyti čia."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form.html:93
+msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+msgstr "Jeigu jūsų atsiliepimai bus matomi viešai, tai el. pašto adresai nėra skelbiami. Mes suprantame, kad jūsų privatumas yra svarbus."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
+#, fuzzy
+msgid "{product} feedback"
+msgstr "Pateikti atsiliepimą"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
+msgid "How does %(product)s make you feel?"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
+#, fuzzy
+msgid "%(product)s makes me happy"
+msgstr "„Firefox“ mane nudžiugino"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
+#, fuzzy
+msgid "%(product)s makes me sad"
+msgstr "„Firefox“ mane nuliūdino"
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
+msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
+#, fuzzy
+msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
+msgstr "Jūsų atsiliepimo turinys bus viešas, taigi geriau nerašykite jokios asmeninės informacijos."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
+#, fuzzy
+msgid ""
+"Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
+"or phone number."
+msgstr "Jūsų atsiliepimo turinys bus viešas, taigi geriau nerašykite jokios asmeninės informacijos."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
+#, fuzzy
+msgid "If your feedback is related to a website, you can include it here:"
+msgstr "Jeigu jūsų atsiliepimas susijęs su tam tikra svetaine, galite ją įrašyti čia."
+
+#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
+#, fuzzy
+msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
+msgstr "Pažymėkite čia, jeigu norite, kad susisiektume su Jumis dėl šio atsiliepimo."
+
+#: fjord/feedback/templates/feedback/picker.html:19
+msgid "Select A Product To Leave Feedback"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/picker.html:24
+#, fuzzy
+msgid "No products available."
+msgstr "Skydelis nepasiekiamas"
+
+#: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
 msgstr "Ačiū"
 
-#: fjord/feedback/templates/feedback/thanks.html:20
+#: fjord/feedback/templates/feedback/thanks.html:22
 msgid "Thanks for Your Feedback"
 msgstr "Dėkojame už Jūsų atsiliepimą"
 
-#: fjord/feedback/templates/feedback/thanks.html:23
+#: fjord/feedback/templates/feedback/thanks.html:25
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Jūsų atsiliepimuose pateikta informacija bus panaudota kuriant geresnes „Firefox“ versijas ateityje."
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Share your feedback."
-msgstr "Pasidalinkite savo atsiliepimu."
-
-#: fjord/feedback/templates/feedback/thanks.html:38
-msgid "Tweet feedback to your followers"
-msgstr "Pasidalinkite atsiliepimu su savo „Twitter“ sekėjais"
-
-#: fjord/feedback/templates/feedback/thanks.html:45 fjord/feedback/templates/feedback/mobile/thanks.html:38
+#: fjord/feedback/templates/feedback/thanks.html:33
 msgid "Shape the future of Firefox."
 msgstr "Formuokite „Firefox“ ateitį."
 
-#: fjord/feedback/templates/feedback/thanks.html:47
+#: fjord/feedback/templates/feedback/thanks.html:35
 msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 msgstr "Parsisiųskite <a href=\"%(download_url)s\">jums tinkamiausią versiją</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:55 fjord/feedback/templates/feedback/mobile/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:43
 msgid "Contribute to Mozilla."
 msgstr "Padėkite „Mozillai“."
 
-#: fjord/feedback/templates/feedback/thanks.html:57
+#: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
 msgstr "Sužinokite, kaip galite <a href=\"%(url)s\">pagerinti „Firefox“ ir „Mozillą“</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:64 fjord/feedback/templates/feedback/mobile/thanks.html:50
-msgid "Want to see where your feedback goes?"
-msgstr "Norite pamatyti, kur patenka jūsų atsiliepimai?"
-
-#: fjord/feedback/templates/feedback/thanks.html:66
-msgid "Visit the <a href=\"%(dash_url)s\">Firefox Feedback Dashboard</a>"
-msgstr "Aplankykite <a href=\"%(dash_url)s\">„Firefox“ atsiliepimų skydelį</a>"
-
-#: fjord/feedback/templates/feedback/thanks.html:73
+#: fjord/feedback/templates/feedback/thanks.html:52
 msgid "Find the latest news about Firefox."
 msgstr "Sužinokite šviežiausias „Firefox“ naujienas."
+
+#: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
+#, fuzzy
+msgid "Unknown product"
+msgstr "Nežinoma"
+
+#: fjord/feedback/templates/feedback/unknownproduct.html:18
+msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/unknownproduct.html:25
+msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Prašome parsisiųsti „Firefox“!"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:25 fjord/feedback/templates/feedback/mobile/feedback.html:42
-msgid "Firefox made me happy"
-msgstr "„Firefox“ mane nudžiugino"
+#~ msgid "Latest Feedback"
+#~ msgstr "Paskiausi atsiliepimai"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:26 fjord/feedback/templates/feedback/mobile/feedback.html:43
-msgid "Firefox made me sad"
-msgstr "„Firefox“ mane nuliūdino"
+#~ msgid "Messages"
+#~ msgstr "Žinutės"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:62
-msgid "Please be as specific as you can."
-msgstr "Prašome rašyti kiek įmanoma konkrečiau."
+#~ msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+#~ msgstr "Jūs arba neturite naudotojo profilio, arba naudojote ne tą „Persona“ profilį prisijungimui."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:81 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:101
-msgid "The content of your feedback will be public, so please be sure not to include any personal information."
-msgstr ""
-"Jūsų atsiliepimo turinys bus viešas, taigi geriau nerašykite jokios "
-"asmeninės informacijos."
+#~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+#~ msgstr "Prašome įvesti tikrą el. pašto adresą arba nuimti varnelę žyminčią, jog leidžiate mums su Jumis susisiekti."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:86 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:136
-msgid "Don't worry, your email will always be kept private."
-msgstr "Nesijaudinkite, jūsų el. pašto adresą laikysime paslaptyje."
+#~ msgid "This field is required."
+#~ msgstr "Šis laukas yra privalomas."
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:92 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:140
-msgid "Send Feedback"
-msgstr "Siųsti atsiliepimą"
+#~ msgid "Firefox Made Me Happy"
+#~ msgstr "„Firefox“ mane nudžiugino"
 
-#: fjord/feedback/templates/feedback/mobile/feedback.html:102
-msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-msgstr ""
-"Jeigu jums reikia pagalbos ar turite problemų su „Firefox“, kviečiame "
-"apsilankyti <a href=\"%(support_url)s\">„Mozillos“ žinyne</a>."
+#~ msgid "Firefox Made Me Sad"
+#~ msgstr "„Firefox“ mane nuliūdino"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:20
-msgid "Submit feedback"
-msgstr "Pateikti atsiliepimą"
+#~ msgid "Super! It's great to hear that you like our browser."
+#~ msgstr "Puiku! Smagu girdėti, kad jums patinka mūsų naršyklė."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:24
-msgid "Your feedback helps us improve Firefox OS."
-msgstr "Jūsų atsiliepimai padeda mums tobulinti „Firefox OS“."
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+#~ msgstr "Apgailestaujame, kad jums teko patirti nemalonumų su mūsų naršykle. Prašome papasakoti kas ir kaip įvyko, kad galėtume tai sutvarkyti."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:25
-msgid "Firefox OS made me happy"
-msgstr "„Firefox OS“ mane nudžiugino"
+#~ msgid "Go Back"
+#~ msgstr "Grįžti"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:26
-msgid "Firefox OS made me sad"
-msgstr "„Firefox OS“ mane nuliūdino"
+#~ msgid ""
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ msgstr ""
+#~ "Prašome rašyti kiek įmanoma konkrečiau. Pavyzdžiui, jeigu rašote atsiliepimą apie veikimo sulėtėjimą, paminėkite susijusias svetaines, aprašykite ar problemą pastebite naršymo pradžioje, ar "
+#~ "vėliau, o gal ji pasireiškia po tam tikrų veiksmų, kuriuos atliekate su „Firefox“."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:30
-msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-msgstr ""
-"Jeigu jums reikia pagalbos ar turite problemų su „Firefox OS“, kviečiame "
-"apsilankyti <a href=\"%(support_url)s\">„Mozillos“ žinyne</a>."
+#~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
+#~ msgstr "Dėl pagalbos klausimų prašome eiti į <a href=\"%(url)s\">„Mozillos“ pagalbą</a>."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:44
-msgid "Country"
-msgstr "Valstybė"
+#~ msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+#~ msgstr "Saugokite savo privatumą – įsitikinkite, ar jūsų atsiliepime nėra jokios jus kaip asmenį identifikuojančios informacijos."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:49
-msgid "In what country did you purchase your Firefox OS device?"
-msgstr "Kurioje valstybėje įsigijote savo „Firefox OS“ įrenginį?"
+#~ msgid "Submitting Feedback"
+#~ msgstr "Atsiliepimas pateikiamas"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:55 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:76
-msgid "Other"
-msgstr "Kita"
+#~ msgid "Submit Feedback"
+#~ msgstr "Pateikti atsiliepimą"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:57 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:78 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:106
-msgid "Next"
-msgstr "Toliau"
+#~ msgid "Share your feedback."
+#~ msgstr "Pasidalinkite savo atsiliepimu."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:65
-msgid "Device"
-msgstr "Įrenginys"
+#~ msgid "Tweet feedback to your followers"
+#~ msgstr "Pasidalinkite atsiliepimu su savo „Twitter“ sekėjais"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:70
-msgid "What Firefox OS device are you using?"
-msgstr "Kokį „Firefox OS“ įrenginį naudojate?"
+#~ msgid "Want to see where your feedback goes?"
+#~ msgstr "Norite pamatyti, kur patenka jūsų atsiliepimai?"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:85
-msgid "Details"
-msgstr "Detalės"
+#~ msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+#~ msgstr "Jeigu jums reikia pagalbos ar turite problemų su „Firefox“, kviečiame apsilankyti <a href=\"%(support_url)s\">„Mozillos“ žinyne</a>."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:93
-msgid "Please describe your problem below and be as specific as you can."
-msgstr "Prašome aprašyti savo problemą žemiau ir kaip galima konkrečiau."
+#~ msgid "Thank you for your feedback!"
+#~ msgstr "Dėkojame už Jūsų atsiliepimą!"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:113
-msgid "Can we contact you?"
-msgstr "Ar galime su Jumis susisiekti?"
+#~ msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
+#~ msgstr "Ačiū! Jūsų atsiliepimuose pateikta informacija bus panaudota kuriant geresnes „Firefox“ versijas ateityje."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:130
-msgid "Please enter a valid email address."
-msgstr "Prašome įvesti teisingą el. pašto adresą."
+#~ msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
+#~ msgstr "Norite žinoti, kas vyksta su „Firefox“? Mes turime daug būtų palaikyti ryšius:"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:146
-msgid "Submitting...."
-msgstr "Pateikiama..."
+#~ msgid "Download the build that is right for you"
+#~ msgstr "Parsisiųskite Jums tinkančią laidą"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:156 fjord/feedback/templates/feedback/mobile/thanks.html:16
-msgid "Success!"
-msgstr "Pavyko!"
+#~ msgid "Learn how you can make Firefox and Mozilla better"
+#~ msgstr "Sužinokite, kaip galite pagerinti „Firefox“ ir „Mozillą“"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:161
-msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
-msgstr ""
-"Ačiū! Jūsų atsiliepimuose pateikta informacija bus panaudota kuriant "
-"geresnes „Firefox OS“ versijas."
+#~ msgid "Visit the Firefox Feedback Dashboard"
+#~ msgstr "Aplankykite „Firefox“ atsiliepimų skydelį"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:167
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
-msgstr ""
-"Sužinokite, kaip galite <a href=\"%(url)s\">pagerinti „Firefox OS“ ir "
-"„Mozillą“</a>."
+#~ msgid "Find the latest news about Mozilla."
+#~ msgstr "Sužinokite šviežiausias „Mozillos“ naujienas."
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:177
-msgid "We're sorry!"
-msgstr "Atsiprašome!"
+#~ msgid "Twitter"
+#~ msgstr "„Twitter“"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:182
-msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
-msgstr ""
-"Kažkas nutiko ir mes negalima priimti Jūsų atsiliepimo. Jis bus išsaugotas "
-"Jūsų įrenginyje, kad galėtumėte pabandyti jį nusiųsti vėliau."
+#~ msgid "Facebook"
+#~ msgstr "„Facebook“"
 
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:187 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:194 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:204
-msgid "Try again"
-msgstr "Bandyti dar"
-
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:188 fjord/feedback/templates/feedback/mobile/fxos_feedback.html:205
-msgid "Cancel"
-msgstr "Atsisakyti"
-
-#: fjord/feedback/templates/feedback/mobile/fxos_feedback.html:199
-msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
-msgstr ""
-"Jūs turite neišsiųstų atsiliepimų. Ar norėtume pabandyti išsiųsti dabar?"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:7
-msgid "Thank you for your feedback!"
-msgstr "Dėkojame už Jūsų atsiliepimą!"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:21
-msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
-msgstr ""
-"Ačiū! Jūsų atsiliepimuose pateikta informacija bus panaudota kuriant "
-"geresnes „Firefox“ versijas ateityje."
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:30
-msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
-msgstr ""
-"Norite žinoti, kas vyksta su „Firefox“? Mes turime daug būtų palaikyti "
-"ryšius:"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:40
-msgid "Download the build that is right for you"
-msgstr "Parsisiųskite Jums tinkančią laidą"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:46
-msgid "Learn how you can make Firefox and Mozilla better"
-msgstr "Sužinokite, kaip galite pagerinti „Firefox“ ir „Mozillą“"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:52
-msgid "Visit the Firefox Feedback Dashboard"
-msgstr "Aplankykite „Firefox“ atsiliepimų skydelį"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:56
-msgid "Find the latest news about Mozilla."
-msgstr "Sužinokite šviežiausias „Mozillos“ naujienas."
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:60
-msgid "Twitter"
-msgstr "„Twitter“"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:65
-msgid "Facebook"
-msgstr "„Facebook“"
-
-#: fjord/feedback/templates/feedback/mobile/thanks.html:70
-msgid "Planet Mozilla"
-msgstr "„Mozillos“ planeta"
+#~ msgid "Planet Mozilla"
+#~ msgstr "„Mozillos“ planeta"
 
 #~ msgid "Sorry, but we couldn't find the page you're looking for."
 #~ msgstr "Atsiprašome, tačiau mums nepavyko rasti tinklapio, kurio ieškote."
