@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-13 07:51-0700\n"
-"PO-Revision-Date: 2014-11-13 17:10+0000\n"
+"PO-Revision-Date: 2014-11-13 17:19+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1415898602.0\n"
+"X-POOTLE-MTIME: 1415899173.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -62,7 +62,7 @@ msgstr "Verze"
 
 #: fjord/analytics/views.py:370
 msgid "Select product to see version facet"
-msgstr ""
+msgstr "Vyberte produkt pro zobrazení jeho verzí"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
@@ -218,26 +218,24 @@ msgid "Created"
 msgstr "Vytvořeno"
 
 #: fjord/analytics/templates/analytics/response.html:119
-#, fuzzy
 msgid "Channel"
-msgstr "Betaverze"
+msgstr "Kanál"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "URL domény"
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
-msgstr "Zdrojový kód"
+msgstr "Zdroj"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "Kampaň"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Full URL"
-msgstr ""
+msgstr "Celá URL"
 
 #: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
@@ -287,6 +285,8 @@ msgstr ""
 #: fjord/analytics/templates/analytics/underconstruction.html:36
 msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
 msgstr ""
+"Potřebujete nějaká data nyní? Rádi pomůžeme! <a href=\"%(bug_url)s\">Zadejte "
+"bug</a>."
 
 #: fjord/analytics/templates/analytics/underconstruction.html:41
 msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
@@ -310,7 +310,7 @@ msgstr ""
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
+msgstr "Na tuto stránku nemáte přístup. Pokud máte účet, zkuste se přihlásit."
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -414,7 +414,6 @@ msgid "Source Code"
 msgstr "Zdrojový kód"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Kód webové aplikace Firefox Input můžete nalézt <a href=\"%(url)s\">na serveru GitHub</a>!"
 
@@ -498,7 +497,7 @@ msgstr "Přejít"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Ověření pomocí Persona nebylo úspěšné. Zkuste to prosím znovu."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -562,15 +561,15 @@ msgstr "Černá Hora"
 
 #: fjord/feedback/config.py:20
 msgid "Mexico"
-msgstr ""
+msgstr "Mexiko"
 
 #: fjord/feedback/config.py:21
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -744,21 +743,21 @@ msgstr "Odeslat reakci"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Jaký máte pocit z produktu %(product)s?"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "Firefox mě činí šťastným ..."
+msgstr "%(product)s mě činí šťastným"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "%(count)s zpráva"
+msgstr "%(count)s mě zklamal"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"Není %(product)s tím produktem, pro který chcete odeslat zpětnou vazbu?<br "
+"/> <a href=\"%(url)s\">Vyberte jiný</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
 #, fuzzy
@@ -773,23 +772,23 @@ msgid ""
 msgstr "Obsah vaší reakce bude veřejně přístupný, takže v ní prosím neuvádějte žádné osobní informace."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr "Pokud se vaše reakce týká konkrétní webové stránky, můžete ji sem přidat."
+msgstr ""
+"Pokud se vaše reakce týká konkrétní webové stránky, můžete ji sem přidat:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "Zaškrtněte, pokud si přejete, abychom vás mohli kontaktovat."
+msgstr ""
+"(Nepovinné) Zaškrtněte, pokud si přejete, abychom vás mohli kontaktovat. "
+"Vaše e-mailová adresa zůstane skrytá."
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
-msgstr ""
+msgstr "Vyberte produkt pro odeslání reakce"
 
 #: fjord/feedback/templates/feedback/picker.html:24
-#, fuzzy
 msgid "No products available."
-msgstr "Nástěnka není dostupná"
+msgstr "Žádné produkty nejsou dostupné."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -824,13 +823,14 @@ msgid "Find the latest news about Firefox."
 msgstr "Přečíst si poslední novinky o Firefoxu."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
 msgid "Unknown product"
-msgstr "Neznámý"
+msgstr "Neznámý produkt"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
 msgstr ""
+"Input nezná produkt \"<em>%(product)s</em>\". Pokud si myslíte, že jde o "
+"chybu, <a href=\"%(url)s\">dejte nám prosím vědět</a>."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
 #, fuzzy
