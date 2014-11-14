@@ -5,16 +5,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 06:41-0700\n"
-"PO-Revision-Date: 2014-07-02 12:02+0000\n"
+"PO-Revision-Date: 2014-11-14 20:58+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: mozilla.org.ua\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1404302528.0\n"
+"X-POOTLE-MTIME: 1415998734.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -136,7 +137,7 @@ msgstr "Пошук за ключовим словом"
 
 #: fjord/analytics/templates/analytics/dashboard.html:163
 msgid "No feedback matches that criteria."
-msgstr ""
+msgstr "Немає відгуку, який відповідає цьому критерію."
 
 #: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
@@ -148,7 +149,7 @@ msgstr "Новіші повідомлення"
 
 #: fjord/analytics/templates/analytics/dashboard.html:185
 msgid "Messages in specified time range"
-msgstr ""
+msgstr "Повідомлення у визначений інтервал часу"
 
 #: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
@@ -160,56 +161,52 @@ msgstr "Панель наразі недоступна. Спробуйте бу�
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
-msgstr ""
+msgstr "Категорія"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133
 msgid "None"
-msgstr ""
+msgstr "Немає"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
-msgstr ""
+msgstr "Опис"
 
 #: fjord/analytics/templates/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "Перекласти повідомлення"
+msgstr "Перекладено"
 
 #: fjord/analytics/templates/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "Перекласти повідомлення"
+msgstr "Перекласти (машинний переклад)"
 
 #: fjord/analytics/templates/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "Перекласти повідомлення"
+msgstr "Перекласти"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
-msgstr ""
+msgstr "Створено"
 
 #: fjord/analytics/templates/analytics/response.html:119
 msgid "Channel"
-msgstr ""
+msgstr "Канал"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "Домен URL"
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
-msgstr "Початковий код"
+msgstr "Ресурс"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "Кампанія"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Full URL"
-msgstr ""
+msgstr "Повний URL"
 
 #: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
@@ -224,22 +221,20 @@ msgid "Device"
 msgstr "Пристрій"
 
 #: fjord/analytics/templates/analytics/response.html:155
-#, fuzzy
 msgid "User agent"
 msgstr "User Agent"
 
 #: fjord/analytics/templates/analytics/response.html:159
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: fjord/analytics/templates/analytics/response.html:167
-#, fuzzy
 msgid "API version"
-msgstr "Версія"
+msgstr "Версія API"
 
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
-msgstr ""
+msgstr "Контекст"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -334,19 +329,25 @@ msgstr ""
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Політика зберігання даних"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Ми маємо політику зберігання даних відносно даних, які знаходяться на цьому "
+"сайті:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr ""
+"Ми завжди зберігаємо дані відгуків, але на публічній панелі в наявності дані "
+"лише за останніх 6 місяців."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
 msgstr ""
+"Ми зберігаємо адреси електронної пошти, які прив'язані до даних відгуку "
+"протягом 6 місяців, після чого вилучаємо їх."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -365,7 +366,6 @@ msgid "Source Code"
 msgstr "Початковий код"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Початковий код Firefox Input можна <a href=\"%(url)s\">знайти на GitHub</a>!"
 
@@ -387,7 +387,7 @@ msgstr "Дати відгук"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "Аналітика"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -402,18 +402,16 @@ msgid "Sign in"
 msgstr "Увійти"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "Помилка входу"
+msgstr "Помилка CSRF"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Помилка входу"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
-#, fuzzy
 msgid "Welcome to Input!"
-msgstr "Ласкаво просимо!"
+msgstr "Вітаємо у відгуках!"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
