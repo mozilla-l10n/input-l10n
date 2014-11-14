@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 06:41-0700\n"
-"PO-Revision-Date: 2014-04-14 07:19+0000\n"
+"PO-Revision-Date: 2014-11-14 16:04+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_CN\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1397459981.0\n"
+"X-POOTLE-MTIME: 1415981080.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -38,7 +38,7 @@ msgstr "开心"
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
 #: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 msgid "Sad"
-msgstr "不快"
+msgstr "不满"
 
 #: fjord/analytics/views.py:153 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
@@ -46,7 +46,7 @@ msgstr "响应 ID: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
-msgstr ""
+msgstr "字母组"
 
 #: fjord/analytics/views.py:345
 msgid "Sentiment"
@@ -62,7 +62,7 @@ msgstr "版本"
 
 #: fjord/analytics/views.py:370
 msgid "Select product to see version breakdown"
-msgstr ""
+msgstr "选择产品以查看版本概要"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
@@ -134,7 +134,7 @@ msgstr "输入关键词进行搜索"
 
 #: fjord/analytics/templates/analytics/dashboard.html:163
 msgid "No feedback matches that criteria."
-msgstr ""
+msgstr "没有符合条件的反馈。"
 
 #: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
@@ -146,7 +146,7 @@ msgstr "较新的信息"
 
 #: fjord/analytics/templates/analytics/dashboard.html:185
 msgid "Messages in specified time range"
-msgstr ""
+msgstr "指定时间范围内的信息"
 
 #: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
@@ -158,57 +158,52 @@ msgstr "仪表盘目前不可用，请10分钟后再试。"
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
-msgstr ""
+msgstr "分类"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: fjord/analytics/templates/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "翻译！"
+msgstr "已翻译"
 
 #: fjord/analytics/templates/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "翻译信息"
+msgstr "机器翻译"
 
 #: fjord/analytics/templates/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "翻译！"
+msgstr "人工翻译"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
-msgstr ""
+msgstr "创建于"
 
 #: fjord/analytics/templates/analytics/response.html:119
-#, fuzzy
 msgid "Channel"
-msgstr "测试版频道"
+msgstr "频道"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "URL 域"
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
-msgstr "源代码"
+msgstr "来源"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "战役"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Full URL"
-msgstr ""
+msgstr "完整 URL"
 
 #: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
@@ -223,22 +218,20 @@ msgid "Device"
 msgstr "设备"
 
 #: fjord/analytics/templates/analytics/response.html:155
-#, fuzzy
 msgid "User agent"
 msgstr "User Agent"
 
 #: fjord/analytics/templates/analytics/response.html:159
 msgid "Email"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: fjord/analytics/templates/analytics/response.html:167
-#, fuzzy
 msgid "API version"
-msgstr "版本"
+msgstr "API 版本"
 
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
-msgstr ""
+msgstr "上下文"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -246,19 +239,19 @@ msgstr "仪表盘目前不能在移动设备上使用。"
 
 #: fjord/base/models.py:57
 msgid "JSON Object"
-msgstr ""
+msgstr "JSON 对象"
 
 #: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "已拒绝"
 
 #: fjord/base/templates/403.html:12
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "您无权访问此页面。"
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
+msgstr "您无权访问此页面。若您有账号，请登录。"
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -301,18 +294,16 @@ msgid "Hello!"
 msgstr "您好！"
 
 #: fjord/base/templates/about.html:11
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input 是 Mozilla 提供的一项最基本的用户反馈机制。用户可以通过这种单向模式向 Mozilla 传达有关使用 Firefox 的感受、看到的互联网以及 Mozilla 该如何改善浏览体验等信息。该反馈系统在三个主要的产品"
-"渠道中都可使用。"
+"Firefox Input 是 Mozilla 对产品的初步反馈机制。它被设定为单向通信的一种方法，反馈有关您使用我们产品以及访问互联网的体验，以及告诉 "
+"Mozilla 如何能让这种体验变得更好。系统能工作在很宽的范围提交机制和产品之上。"
 
 #: fjord/base/templates/about.html:21
-#, fuzzy
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "要针对您的 Firefox 版本提供反馈，请到 <a href=\"%(url)s\">反馈提交页面</a>！"
+msgstr "要针对 Mozilla 的某一产品提交反馈，请到<a href=\"%(url)s\">反馈提交页面</a>！"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -320,31 +311,31 @@ msgstr "隐私政策"
 
 #: fjord/base/templates/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
-msgstr ""
+msgstr "我们遵守 <a href=\"%(url)s\">Mozilla 隐私政策</a>。"
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "法律免责声明和限制范围"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
+msgstr "我们受 <a href=\"%(url)s\">Mozilla 法律免责声明和限制范围</a>文件的保护。"
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "数据保留政策"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
+msgstr "我们对在此网站上存储的数据有一个数据保留政策："
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
+msgstr "我们永久保留反馈数据，但只有最近6个月的数据在公共仪表板上可用。"
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
-msgstr ""
+msgstr "我们保留反馈数据附带的电子邮件地址6个月，然后删除它们。"
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -361,9 +352,8 @@ msgid "Source Code"
 msgstr "源代码"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "Firefox Input 网络应用程序的源代码可以在 <a href=\"%(url)s\">GitHub</a> 中找到！"
+msgstr "Firefox Input 网站的代码可以在 <a href=\"%(url)s\">GitHub</a> 上找到！"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -383,7 +373,7 @@ msgstr "提供反馈"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "分析"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -398,26 +388,24 @@ msgid "Sign in"
 msgstr "登录"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "登录失败"
+msgstr "CSRF 失败"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "登录失败"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
-#, fuzzy
 msgid "Welcome to Input!"
-msgstr "欢迎！"
+msgstr "欢迎使用 Input！"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "您的提交由于我们系统的安全检查而失败。"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
-msgstr ""
+msgstr "请确保您已启用 Cookie，然后按下您浏览器中的“后退”按钮、刷新页面、填写表单、尝试再次提交您的反馈。"
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -443,7 +431,7 @@ msgstr "前往"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "您使用 Persona 进行的身份验证已失败。请重试。"
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -451,11 +439,11 @@ msgstr "欢迎！"
 
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
-msgstr ""
+msgstr "您只需在 Input 上用 Persona 登录到您的身份。请记住您使用的是哪个 Persona 身份。"
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
-msgstr ""
+msgstr "继续"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -499,15 +487,15 @@ msgstr "黑山"
 
 #: fjord/feedback/config.py:20
 msgid "Mexico"
-msgstr ""
+msgstr "墨西哥"
 
 #: fjord/feedback/config.py:21
 msgid "Peru"
-msgstr ""
+msgstr "秘鲁"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
-msgstr ""
+msgstr "乌拉圭"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -535,7 +523,7 @@ msgstr "提交反馈"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:25
 msgid "Your feedback helps us improve Firefox OS."
-msgstr "您的反馈可以帮助我们改进 Firefox。"
+msgstr "您的反馈可以帮助我们改进 Firefox OS。"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:29
 msgid "Firefox OS made me happy"
@@ -543,7 +531,7 @@ msgstr "Firefox OS 让我高兴"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:30
 msgid "Firefox OS made me sad"
-msgstr "Firefox OS 让我难过"
+msgstr "Firefox OS 让我不满"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:36
 msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
@@ -652,7 +640,7 @@ msgstr "Firefox 让我高兴"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form.html:14
 msgid "Firefox made me sad"
-msgstr "Firefox 让我难过"
+msgstr "Firefox 让我不满"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form.html:20
 msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
@@ -675,58 +663,50 @@ msgid "While your feedback will be publicly visible, email addresses are kept pr
 msgstr "你的反馈会公开显示，电子邮件地址则会保密。我们理解您的隐私的重要性。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
-#, fuzzy
 msgid "{product} feedback"
-msgstr "提交反馈"
+msgstr "{product} 反馈"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "%(product)s 给您的感觉如何？"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "Firefox 让我高兴..."
+msgstr "%(product)s 让我高兴"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "%(count)s 条消息"
+msgstr "%(product)s 让我不满"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
+msgstr "%(product)s 不是您想提出意见的产品？<br /> <a href=\"%(url)s\">选择另一个产品</a>。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
-#, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr "反馈内容将会公开显示，因此请确保其中不包含您的私人信息。"
+msgstr "请描述您喜欢哪个地方。您的反馈内容将会公开显示，因此请确保其中不包含您的个人信息，例如电子邮件地址、密码、手机号码等。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
-#, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr "反馈内容将会公开显示，因此请确保其中不包含您的私人信息。"
+msgstr "请在下面描述您遇到的问题，越具体越好。您的反馈内容将会公开显示，因此请确保其中不包含您的个人信息，例如电子邮件地址、密码、手机号码等。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr "如果您的反馈与某个网站相关，你可以在此处列出。"
+msgstr "如果您的反馈与某个网站相关，你可以在此处列出："
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "选中这里让我们联系你以跟进反馈。"
+msgstr "（可选）选中这里让我们联系您以跟进您的反馈。您的电子邮件地址会被保密。"
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
-msgstr ""
+msgstr "请选择您要留下反馈的产品"
 
 #: fjord/feedback/templates/feedback/picker.html:24
-#, fuzzy
 msgid "No products available."
-msgstr "仪表盘不可用"
+msgstr "没有产品可用。"
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -761,18 +741,19 @@ msgid "Find the latest news about Firefox."
 msgstr "查看有关 Firefox 的最新消息。"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
 msgid "Unknown product"
-msgstr "未知"
+msgstr "未知产品"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
 msgstr ""
+"Input 不知道什么是“<em>%(product)s</em>”。如果您认为这是个错误，请<a href=\"%(url)s\">填报一个 "
+"bug</a> 让我们知道。"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
 #, fuzzy
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr "如果您想知道您的反馈信息被发送到了何处，请查看<a href=\"%(url)s\">Firefox Input仪表盘</a>。"
+msgstr "如果您意外来到这里并想离开反馈，您可以到<a href=\"%(url)s\">我们的反馈表单</a>。"
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
