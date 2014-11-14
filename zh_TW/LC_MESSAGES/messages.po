@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 06:41-0700\n"
-"PO-Revision-Date: 2013-10-18 04:28+0000\n"
+"PO-Revision-Date: 2014-11-14 10:22+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1382070520.0\n"
+"X-POOTLE-MTIME: 1415960565.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -46,7 +46,7 @@ msgstr "回應 ID: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
-msgstr ""
+msgstr "字母組"
 
 #: fjord/analytics/views.py:345
 msgid "Sentiment"
@@ -134,7 +134,7 @@ msgstr "使用關鍵字搜尋"
 
 #: fjord/analytics/templates/analytics/dashboard.html:163
 msgid "No feedback matches that criteria."
-msgstr ""
+msgstr "沒有符合此條件的意見回饋"
 
 #: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
@@ -146,7 +146,7 @@ msgstr "更新的訊息"
 
 #: fjord/analytics/templates/analytics/dashboard.html:185
 msgid "Messages in specified time range"
-msgstr ""
+msgstr "指定時間範圍內的訊息"
 
 #: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
@@ -158,57 +158,52 @@ msgstr "目前無法使用主控台，請過十分鐘再試一次。"
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
-msgstr ""
+msgstr "分類"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133
 msgid "None"
-msgstr ""
+msgstr "無"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: fjord/analytics/templates/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "翻譯訊息"
+msgstr "已翻譯"
 
 #: fjord/analytics/templates/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "翻譯訊息"
+msgstr "機器翻譯"
 
 #: fjord/analytics/templates/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "翻譯訊息"
+msgstr "人工翻譯"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
-msgstr ""
+msgstr "建立於"
 
 #: fjord/analytics/templates/analytics/response.html:119
-#, fuzzy
 msgid "Channel"
-msgstr "Beta 頻道"
+msgstr "頻道"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "網域"
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
-msgstr "原始碼"
+msgstr "來源"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "Campaign"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Full URL"
-msgstr ""
+msgstr "完整網址"
 
 #: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
@@ -223,7 +218,6 @@ msgid "Device"
 msgstr "裝置"
 
 #: fjord/analytics/templates/analytics/response.html:155
-#, fuzzy
 msgid "User agent"
 msgstr "使用者代理字串"
 
@@ -250,15 +244,15 @@ msgstr ""
 
 #: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "被禁止"
 
 #: fjord/base/templates/403.html:12
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "您無法存取此頁面。"
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
+msgstr "您無法存取此頁面。若您有帳號，請登入。"
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -324,19 +318,20 @@ msgstr ""
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "法律免責聲明與限制範圍"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
+"我們受 <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> 文件保護。"
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "資料保留政策"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
+msgstr "我們對於此網站中儲存的資料有資料保留政策:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
@@ -499,15 +494,15 @@ msgstr "蒙特內哥羅"
 
 #: fjord/feedback/config.py:20
 msgid "Mexico"
-msgstr ""
+msgstr "墨西哥"
 
 #: fjord/feedback/config.py:21
 msgid "Peru"
-msgstr ""
+msgstr "祕魯"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
-msgstr ""
+msgstr "烏拉圭"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -675,58 +670,50 @@ msgid "While your feedback will be publicly visible, email addresses are kept pr
 msgstr "雖然您的回饋內容是公開可見的，但您的電子郵件地址將會被保密。我們知道您的隱私是最重要的。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
-#, fuzzy
 msgid "{product} feedback"
-msgstr "傳送意見回饋"
+msgstr "{product} 意見回饋"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "%(product)s 讓您覺得如何？"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "Firefox 讓我覺得高興…"
+msgstr "%(product)s 讓我覺得滿意"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "%(count)s 條訊息"
+msgstr "%(product)s 讓我覺得不滿意"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
+msgstr "您不是要對 %(product)s 提供意見嗎？<br /><a href=\"%(url)s\">挑選另一套產品</a>。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
-#, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr "您的意見回饋將會是公開的，請不要填入任何個人訊息。"
+msgstr "請描述您喜歡的地方。您的意見回饋將會是公開的，請不要填入任何個人訊息，像是電子郵件地址、帳號、密碼、手機號碼等等。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
-#, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr "您的意見回饋將會是公開的，請不要填入任何個人訊息。"
+msgstr "請在下面描述您遇到的問題，越仔細越好。您的意見回饋將會是公開的，請不要填入任何個人訊息，像是電子郵件地址、帳號、密碼、手機號碼等等。"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr "若您的意見回饋與某個網站有關，您可以在此處列出。"
+msgstr "若您的意見回饋與某個網站有關，您可以在此處列出:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "點這裡讓我們通知您的意見回饋的後續內容。"
+msgstr "（非必要）勾選這裡，讓我們在有關於您的意見的相關後續處理情況時連絡您。您的電子郵件地址將會被保密。"
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
-msgstr ""
+msgstr "選擇要提供意見的產品"
 
 #: fjord/feedback/templates/feedback/picker.html:24
-#, fuzzy
 msgid "No products available."
-msgstr "無法使用主控台"
+msgstr "沒有產品可以使用。"
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -761,9 +748,8 @@ msgid "Find the latest news about Firefox."
 msgstr "閱讀 Firefox 的最新消息。"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
 msgid "Unknown product"
-msgstr "未知"
+msgstr "未知產品"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
