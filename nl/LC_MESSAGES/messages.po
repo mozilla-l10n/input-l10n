@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-13 07:51-0700\n"
+"POT-Creation-Date: 2014-11-14 06:41-0700\n"
 "PO-Revision-Date: 2014-11-14 12:12+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Zoekresultaten van Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/analyzer/search.html:7 fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
 msgid "Happy"
 msgstr "Blij"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/analyzer/search.html:9 fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 msgid "Sad"
 msgstr "Droevig"
 
@@ -61,7 +61,8 @@ msgid "Version"
 msgstr "Versie"
 
 #: fjord/analytics/views.py:370
-msgid "Select product to see version facet"
+#, fuzzy
+msgid "Select product to see version breakdown"
 msgstr "Selecteer een product om het versiefacet te zien"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
@@ -72,18 +73,6 @@ msgstr "Platform"
 msgid "Locale"
 msgstr "Taal"
 
-#: fjord/analytics/views.py:521
-msgid "Total # responses"
-msgstr "Totale # antwoorden"
-
-#: fjord/analytics/views.py:530
-msgid "Percent change in sentiment upwards"
-msgstr "Procentuele stijging van sentiment"
-
-#: fjord/analytics/views.py:539
-msgid "Percent change in sentiment downwards"
-msgstr "Procentuele daling van sentiment"
-
 #: fjord/analytics/templates/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "Atom-feed voor deze zoekopdracht"
@@ -92,52 +81,47 @@ msgstr "Atom-feed voor deze zoekopdracht"
 msgid "Permalink"
 msgstr "Permalink"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100 fjord/analytics/templates/analytics/analyzer/search.html:122
+#: fjord/analytics/templates/analytics/dashboard.html:100
 msgid "When"
 msgstr "Periode"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102 fjord/analytics/templates/analytics/analyzer/search.html:124
+#: fjord/analytics/templates/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1 d"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104 fjord/analytics/templates/analytics/analyzer/search.html:126
+#: fjord/analytics/templates/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7 d"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106 fjord/analytics/templates/analytics/analyzer/search.html:128
+#: fjord/analytics/templates/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30 d"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108 fjord/analytics/templates/analytics/analyzer/search.html:130
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "90d"
 msgstr "90 d"
 
-#: fjord/analytics/templates/analytics/dashboard.html:110 fjord/analytics/templates/analytics/analyzer/search.html:132
+#: fjord/analytics/templates/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114 fjord/analytics/templates/analytics/product_dashboard.html:10 fjord/analytics/templates/analytics/product_dashboard_firefox.html:10
-#: fjord/analytics/templates/analytics/analyzer/search.html:136
+#: fjord/analytics/templates/analytics/dashboard.html:114
 msgid "Start"
 msgstr "Begin"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116 fjord/analytics/templates/analytics/product_dashboard.html:12 fjord/analytics/templates/analytics/product_dashboard_firefox.html:12
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:9 fjord/analytics/templates/analytics/analyzer/search.html:138
+#: fjord/analytics/templates/analytics/dashboard.html:116
 msgid "End"
 msgstr "Einde"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117 fjord/analytics/templates/analytics/product_dashboard.html:13 fjord/analytics/templates/analytics/product_dashboard_firefox.html:13
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:10 fjord/analytics/templates/analytics/analyzer/search.html:139
+#: fjord/analytics/templates/analytics/dashboard.html:117
 msgid "Set"
 msgstr "Instellen"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136 fjord/analytics/templates/analytics/product_dashboard.html:59 fjord/analytics/templates/analytics/product_dashboard_firefox.html:59
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:67 fjord/analytics/templates/analytics/product_dashboard_firefox.html:75
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:136
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "Noot: alle datums en tijden zijn in Pacifische tijd."
 
@@ -145,7 +129,7 @@ msgstr "Noot: alle datums en tijden zijn in Pacifische tijd."
 msgid "Feedback"
 msgstr "Feedback"
 
-#: fjord/analytics/templates/analytics/dashboard.html:145 fjord/analytics/templates/analytics/product_dashboard.html:18 fjord/analytics/templates/analytics/product_dashboard_firefox.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:145
 msgid "Search by keyword"
 msgstr "Zoeken op trefwoord"
 
@@ -172,24 +156,6 @@ msgstr "Dashboard niet beschikbaar"
 #: fjord/analytics/templates/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "Dashboard is momenteel niet beschikbaar. Probeer het over 10 minuten opnieuw."
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:37
-msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
-"Dit is een alfaversie van het productdashboard van %(product)s dat ik in een "
-"paar dagen spontaan voor Australis in elkaar heb gezet."
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
-msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-"Wilt u helpen? <a href=\"%(survey_url)s\">Vul deze snelle enquête in</a> over "
-"hoe u Input gebruikt."
-
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
-msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
-"Dit is een alfaversie van een productdashboard van Firefox dat ik in een "
-"paar dagen spontaan voor Australis in elkaar heb gezet."
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
@@ -268,37 +234,6 @@ msgstr "API-versie"
 msgid "Context"
 msgstr "Context"
 
-#: fjord/analytics/templates/analytics/underconstruction.html:12
-msgid "Hi,"
-msgstr "Hallo,"
-
-#: fjord/analytics/templates/analytics/underconstruction.html:17
-msgid ""
-"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
-"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
-msgstr ""
-"Welkom bij het Firefox Input-dashboard. Excuses voor de rommel. Het Mozilla "
-"User Advocacy-team is momenteel bezig met het herontwerpen van ons "
-"feedbackdashboards om deze duidelijker, eenvoudiger te begrijpen en nuttiger "
-"te maken. Geen zorgen, tijdens de werkzaamheden verzamelen we nog steeds "
-"feedback van Firefox-gebruikers."
-
-#: fjord/analytics/templates/analytics/underconstruction.html:31
-msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-"<a href=\"%(survey_url)s\">Vul deze snelle enquête in</a> over hoe u Input "
-"gebruikt."
-
-#: fjord/analytics/templates/analytics/underconstruction.html:36
-msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
-msgstr ""
-"Nu wat gegevens nodig? We helpen u graag! <a href=\"%(bug_url)s\">Meld een "
-"bug</a>."
-
-#: fjord/analytics/templates/analytics/underconstruction.html:41
-msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
-msgstr "<a href=\"%(feedback_url)s\">Ik wil feedback over Firefox geven</a>"
-
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Dashboard is nog niet beschikbaar op mobiele apparaten."
@@ -317,9 +252,7 @@ msgstr "U hebt geen toegang tot deze pagina."
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
-"U hebt geen toegang tot deze pagina. Als u een account hebt, probeer u dan "
-"aan te melden."
+msgstr "U hebt geen toegang tot deze pagina. Als u een account hebt, probeer u dan aan te melden."
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -366,17 +299,12 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input is Mozilla’s primaire feedbackmiddel voor producten. Het is "
-"opgezet als een methode van communicatie in één richting over uw ervaring "
-"met het gebruik van onze producten, het internet dat u ermee bekijkt, en wat "
-"Mozilla kan doen om die ervaring te verbeteren. Het systeem is in een breed "
-"scala van inzendingsmiddelen en productbuilds beschikbaar."
+"Firefox Input is Mozilla’s primaire feedbackmiddel voor producten. Het is opgezet als een methode van communicatie in één richting over uw ervaring met het gebruik van onze producten, het internet "
+"dat u ermee bekijkt, en wat Mozilla kan doen om die ervaring te verbeteren. Het systeem is in een breed scala van inzendingsmiddelen en productbuilds beschikbaar."
 
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Ga naar <a href=\"%(url)s\">de invoerpagina voor feedback</a> om feedback voor "
-"een Mozilla-product in te dienen!"
+msgstr "Ga naar <a href=\"%(url)s\">de invoerpagina voor feedback</a> om feedback voor een Mozilla-product in te dienen!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -392,9 +320,7 @@ msgstr "Juridische vrijwaringen en beperkingen"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
-"We vallen onder het document <a href=\"%(url)s\">Juridische vrijwaringen en "
-"beperkingen van Mozilla</a>."
+msgstr "We vallen onder het document <a href=\"%(url)s\">Juridische vrijwaringen en beperkingen van Mozilla</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -402,21 +328,15 @@ msgstr "Beleid voor gegevensbewaring"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
-"We hebben een beleid voor gegevensbewaring waar op deze website bewaarde "
-"gegevens onder vallen:"
+msgstr "We hebben een beleid voor gegevensbewaring waar op deze website bewaarde gegevens onder vallen:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
-"Feedbackgegevens worden voor altijd bewaard, maar alleen de afgelopen 6 "
-"maanden aan gegevens zijn op het openbare dashboard beschikbaar."
+msgstr "Feedbackgegevens worden voor altijd bewaard, maar alleen de afgelopen 6 maanden aan gegevens zijn op het openbare dashboard beschikbaar."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
-msgstr ""
-"E-mailadressen die met feedbackgegevens zijn gekoppeld worden 6 maanden "
-"bewaard en dan verwijderd."
+msgstr "E-mailadressen die met feedbackgegevens zijn gekoppeld worden 6 maanden bewaard en dan verwijderd."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -436,9 +356,7 @@ msgstr "Broncode"
 
 #: fjord/base/templates/about.html:76
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
-"De code voor de Firefox Input-website is te <a href=\"%(url)s\">vinden op "
-"GitHub</a>!"
+msgstr "De code voor de Firefox Input-website is te <a href=\"%(url)s\">vinden op GitHub</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -486,15 +404,11 @@ msgstr "Welkom bij Input!"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
-"Uw inzending heeft een beveiligingscontrole op ons systeem niet doorstaan."
+msgstr "Uw inzending heeft een beveiligingscontrole op ons systeem niet doorstaan."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
-msgstr ""
-"Zorg ervoor dat u cookies hebt ingeschakeld, druk op de knop Terug in uw "
-"browser, vernieuw de pagina, vul het formulier in en probeer uw feedback "
-"nogmaals te verzenden."
+msgstr "Zorg ervoor dat u cookies hebt ingeschakeld, druk op de knop Terug in uw browser, vernieuw de pagina, vul het formulier in en probeer uw feedback nogmaals te verzenden."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -529,22 +443,14 @@ msgid "Welcome!"
 msgstr "Welkom!"
 
 #: fjord/base/templates/includes/new_user_text.html:3
-msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
-msgstr ""
-"De identiteit waarmee u zich zojuist bij Persona hebt aangemeld verbindt u "
-"aan uw account op Input. Onthoud welke identiteit u hebt gebruikt."
+#, fuzzy
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
+msgstr "De identiteit waarmee u zich zojuist bij Persona hebt aangemeld verbindt u aan uw account op Input. Onthoud welke identiteit u hebt gebruikt."
 
-#: fjord/base/templates/includes/new_user_text.html:9
-msgid "Onwards to your destination."
-msgstr "Verder naar uw bestemming."
-
-#: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
-msgid "Input Services Monitor"
-msgstr "Inputservicemonitor"
-
-#: fjord/base/templates/services/monitor.html:20
-msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr "Lijst van onderdelen die Input gebruikt en of deze naar behoren werken."
+#: fjord/base/templates/includes/new_user_text.html:10
+#, fuzzy
+msgid "Continue"
+msgstr "Context"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -757,8 +663,7 @@ msgstr "Wees zo duidelijk mogelijk."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form.html:60
 msgid "If your feedback is related to a website, you can include it here."
-msgstr ""
-"Als uw feedback betrekking heeft op een website, kunt u deze hier bijvoegen."
+msgstr "Als uw feedback betrekking heeft op een website, kunt u deze hier bijvoegen."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form.html:93
 msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
@@ -782,36 +687,27 @@ msgstr "%(product)s stemt me droevig"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
-"Is %(product)s niet het product waarover u feedback wilt geven?<br /> <a "
-"href=\"%(url)s\">Kies een ander product</a>."
+msgstr "Is %(product)s niet het product waarover u feedback wilt geven?<br /> <a href=\"%(url)s\">Kies een ander product</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr ""
-"Beschrijf wat u leuk vindt. De inhoud van uw feedback wordt openbaar "
-"zichtbaar, dus zorg ervoor dat u geen persoonlijke gegevens zoals uw "
-"e-mailadres, wachtwoorden of telefoonnummer bijvoegt."
+msgstr "Beschrijf wat u leuk vindt. De inhoud van uw feedback wordt openbaar zichtbaar, dus zorg ervoor dat u geen persoonlijke gegevens zoals uw e-mailadres, wachtwoorden of telefoonnummer bijvoegt."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
 msgstr ""
-"Beschrijf hieronder zo gedetailleerd mogelijk uw probleem. De inhoud van uw "
-"feedback wordt openbaar zichtbaar, dus zorg ervoor dat u geen persoonlijke "
-"gegevens zoals uw e-mailadres, wachtwoorden of telefoonnummer bijvoegt."
+"Beschrijf hieronder zo gedetailleerd mogelijk uw probleem. De inhoud van uw feedback wordt openbaar zichtbaar, dus zorg ervoor dat u geen persoonlijke gegevens zoals uw e-mailadres, wachtwoorden of "
+"telefoonnummer bijvoegt."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr ""
-"Als uw feedback betrekking heeft op een website, kunt u deze hier bijvoegen:"
+msgstr "Als uw feedback betrekking heeft op een website, kunt u deze hier bijvoegen:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr ""
-"(Optioneel) Klik hier om ons contact over uw feedback met u te laten "
-"opnemen. Uw e-mailadres wordt privé gehouden."
+msgstr "(Optioneel) Klik hier om ons contact over uw feedback met u te laten opnemen. Uw e-mailadres wordt privé gehouden."
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
@@ -859,19 +755,61 @@ msgstr "Onbekend product"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-msgstr ""
-"Input kent geen \"<em>%(product)s</em>\". Als u denkt dat dit een fout is, "
-"laat het dan weten door <a href=\"%(url)s\">een bug te melden</a>."
+msgstr "Input kent geen \"<em>%(product)s</em>\". Als u denkt dat dit een fout is, laat het dan weten door <a href=\"%(url)s\">een bug te melden</a>."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr ""
-"Als u hier per ongeluk bent beland en feedback wilt achterlaten, kunt u dat "
-"doen <a href=\"%(url)s\">op ons feedbackformulier</a>."
+msgstr "Als u hier per ongeluk bent beland en feedback wilt achterlaten, kunt u dat doen <a href=\"%(url)s\">op ons feedbackformulier</a>."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Download Firefox!"
+
+#~ msgid "Total # responses"
+#~ msgstr "Totale # antwoorden"
+
+#~ msgid "Percent change in sentiment upwards"
+#~ msgstr "Procentuele stijging van sentiment"
+
+#~ msgid "Percent change in sentiment downwards"
+#~ msgstr "Procentuele daling van sentiment"
+
+#~ msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
+#~ msgstr "Dit is een alfaversie van het productdashboard van %(product)s dat ik in een paar dagen spontaan voor Australis in elkaar heb gezet."
+
+#~ msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+#~ msgstr "Wilt u helpen? <a href=\"%(survey_url)s\">Vul deze snelle enquête in</a> over hoe u Input gebruikt."
+
+#~ msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
+#~ msgstr "Dit is een alfaversie van een productdashboard van Firefox dat ik in een paar dagen spontaan voor Australis in elkaar heb gezet."
+
+#~ msgid "Hi,"
+#~ msgstr "Hallo,"
+
+#~ msgid ""
+#~ "Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand "
+#~ "and more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
+#~ msgstr ""
+#~ "Welkom bij het Firefox Input-dashboard. Excuses voor de rommel. Het Mozilla User Advocacy-team is momenteel bezig met het herontwerpen van ons feedbackdashboards om deze duidelijker, eenvoudiger "
+#~ "te begrijpen en nuttiger te maken. Geen zorgen, tijdens de werkzaamheden verzamelen we nog steeds feedback van Firefox-gebruikers."
+
+#~ msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+#~ msgstr "<a href=\"%(survey_url)s\">Vul deze snelle enquête in</a> over hoe u Input gebruikt."
+
+#~ msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
+#~ msgstr "Nu wat gegevens nodig? We helpen u graag! <a href=\"%(bug_url)s\">Meld een bug</a>."
+
+#~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
+#~ msgstr "<a href=\"%(feedback_url)s\">Ik wil feedback over Firefox geven</a>"
+
+#~ msgid "Onwards to your destination."
+#~ msgstr "Verder naar uw bestemming."
+
+#~ msgid "Input Services Monitor"
+#~ msgstr "Inputservicemonitor"
+
+#~ msgid "List of components that Input uses and whether they are functioning correctly."
+#~ msgstr "Lijst van onderdelen die Input gebruikt en of deze naar behoren werken."
 
 #~ msgid "Latest Feedback"
 #~ msgstr "Nieuwste feedback"

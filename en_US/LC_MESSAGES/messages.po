@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-13 07:51-0700\n"
+"POT-Creation-Date: 2014-11-14 06:41-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Search Results in Firefox Beta Feedback."
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/analyzer/search.html:7 fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
 msgid "Happy"
 msgstr "Happy"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/analyzer/search.html:9 fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 msgid "Sad"
 msgstr "Sad"
 
@@ -63,7 +63,8 @@ msgid "Version"
 msgstr "Version"
 
 #: fjord/analytics/views.py:370
-msgid "Select product to see version facet"
+#, fuzzy
+msgid "Select product to see version breakdown"
 msgstr "Select product to see version facet"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
@@ -74,18 +75,6 @@ msgstr "Platform"
 msgid "Locale"
 msgstr "Locale"
 
-#: fjord/analytics/views.py:521
-msgid "Total # responses"
-msgstr "Total # responses"
-
-#: fjord/analytics/views.py:530
-msgid "Percent change in sentiment upwards"
-msgstr "Percent change in sentiment upwards"
-
-#: fjord/analytics/views.py:539
-msgid "Percent change in sentiment downwards"
-msgstr "Percent change in sentiment downwards"
-
 #: fjord/analytics/templates/analytics/dashboard.html:7
 #, fuzzy
 msgid "Atom feed for this search"
@@ -95,54 +84,49 @@ msgstr "ATOM feed for this search"
 msgid "Permalink"
 msgstr "Permalink"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100 fjord/analytics/templates/analytics/analyzer/search.html:122
+#: fjord/analytics/templates/analytics/dashboard.html:100
 msgid "When"
 msgstr "When"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102 fjord/analytics/templates/analytics/analyzer/search.html:124
+#: fjord/analytics/templates/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1d"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104 fjord/analytics/templates/analytics/analyzer/search.html:126
+#: fjord/analytics/templates/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7d"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106 fjord/analytics/templates/analytics/analyzer/search.html:128
+#: fjord/analytics/templates/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30d"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108 fjord/analytics/templates/analytics/analyzer/search.html:130
+#: fjord/analytics/templates/analytics/dashboard.html:108
 #, fuzzy
 msgid "90d"
 msgstr "30d"
 
-#: fjord/analytics/templates/analytics/dashboard.html:110 fjord/analytics/templates/analytics/analyzer/search.html:132
+#: fjord/analytics/templates/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114 fjord/analytics/templates/analytics/product_dashboard.html:10 fjord/analytics/templates/analytics/product_dashboard_firefox.html:10
-#: fjord/analytics/templates/analytics/analyzer/search.html:136
+#: fjord/analytics/templates/analytics/dashboard.html:114
 msgid "Start"
 msgstr "Start"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116 fjord/analytics/templates/analytics/product_dashboard.html:12 fjord/analytics/templates/analytics/product_dashboard_firefox.html:12
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:9 fjord/analytics/templates/analytics/analyzer/search.html:138
+#: fjord/analytics/templates/analytics/dashboard.html:116
 msgid "End"
 msgstr "End"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117 fjord/analytics/templates/analytics/product_dashboard.html:13 fjord/analytics/templates/analytics/product_dashboard_firefox.html:13
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:10 fjord/analytics/templates/analytics/analyzer/search.html:139
+#: fjord/analytics/templates/analytics/dashboard.html:117
 #, fuzzy
 msgid "Set"
 msgstr "Set"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136 fjord/analytics/templates/analytics/product_dashboard.html:59 fjord/analytics/templates/analytics/product_dashboard_firefox.html:59
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:67 fjord/analytics/templates/analytics/product_dashboard_firefox.html:75
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:136
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "Note: All dates and times are in Pacific Time."
 
@@ -150,7 +134,7 @@ msgstr "Note: All dates and times are in Pacific Time."
 msgid "Feedback"
 msgstr "Feedback"
 
-#: fjord/analytics/templates/analytics/dashboard.html:145 fjord/analytics/templates/analytics/product_dashboard.html:18 fjord/analytics/templates/analytics/product_dashboard_firefox.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:145
 #, fuzzy
 msgid "Search by keyword"
 msgstr "Search by keyword"
@@ -181,18 +165,6 @@ msgstr "Search Unavailable"
 #: fjord/analytics/templates/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "Dashboard is currently unavailable. Please try again in 10 minutes."
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:37
-msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
-msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
-msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
@@ -278,31 +250,6 @@ msgstr "Version"
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
 msgstr "Context"
-
-#: fjord/analytics/templates/analytics/underconstruction.html:12
-msgid "Hi,"
-msgstr "Hi,"
-
-#: fjord/analytics/templates/analytics/underconstruction.html:17
-msgid ""
-"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
-"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
-msgstr ""
-"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
-"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
-
-#: fjord/analytics/templates/analytics/underconstruction.html:31
-msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-
-#: fjord/analytics/templates/analytics/underconstruction.html:36
-msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
-msgstr "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
-
-#: fjord/analytics/templates/analytics/underconstruction.html:41
-#, fuzzy
-msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
-msgstr "Please start over on the <a href=\"%(dash_url)s\">dashboard</a>."
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -526,20 +473,14 @@ msgid "Welcome!"
 msgstr "Welcome!"
 
 #: fjord/base/templates/includes/new_user_text.html:3
-msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
+#, fuzzy
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
 
-#: fjord/base/templates/includes/new_user_text.html:9
-msgid "Onwards to your destination."
-msgstr "Onwards to your destination."
-
-#: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
-msgid "Input Services Monitor"
-msgstr "Input Services Monitor"
-
-#: fjord/base/templates/services/monitor.html:20
-msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr "List of components that Input uses and whether they are functioning correctly."
+#: fjord/base/templates/includes/new_user_text.html:10
+#, fuzzy
+msgid "Continue"
+msgstr "Context"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -885,6 +826,53 @@ msgstr "If you want to see where your feedback was sent to, take a look at our <
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Please Download Firefox!"
+
+#~ msgid "Total # responses"
+#~ msgstr "Total # responses"
+
+#~ msgid "Percent change in sentiment upwards"
+#~ msgstr "Percent change in sentiment upwards"
+
+#~ msgid "Percent change in sentiment downwards"
+#~ msgstr "Percent change in sentiment downwards"
+
+#~ msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
+#~ msgstr "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
+
+#~ msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+#~ msgstr "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+
+#~ msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
+#~ msgstr "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
+
+#~ msgid "Hi,"
+#~ msgstr "Hi,"
+
+#~ msgid ""
+#~ "Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand "
+#~ "and more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
+#~ msgstr ""
+#~ "Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand "
+#~ "and more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
+
+#~ msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+#~ msgstr "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+
+#~ msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
+#~ msgstr "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
+
+#, fuzzy
+#~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
+#~ msgstr "Please start over on the <a href=\"%(dash_url)s\">dashboard</a>."
+
+#~ msgid "Onwards to your destination."
+#~ msgstr "Onwards to your destination."
+
+#~ msgid "Input Services Monitor"
+#~ msgstr "Input Services Monitor"
+
+#~ msgid "List of components that Input uses and whether they are functioning correctly."
+#~ msgstr "List of components that Input uses and whether they are functioning correctly."
 
 #~ msgid "Latest Feedback"
 #~ msgstr "Latest Feedback"

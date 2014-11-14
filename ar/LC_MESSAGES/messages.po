@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-13 07:51-0700\n"
+"POT-Creation-Date: 2014-11-14 06:41-0700\n"
 "PO-Revision-Date: 2010-11-11 16:13+0200\n"
 "Last-Translator: Anas <linux.anas@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,13 +33,13 @@ msgid "Search Results From Firefox Input"
 msgstr "نتائج البحث في تعليقات فَيَرفُكس بيتا"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/analyzer/search.html:7 fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
 #, fuzzy
 msgid "Happy"
 msgstr "سعيد"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/analyzer/search.html:9 fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 #, fuzzy
 msgid "Sad"
 msgstr "تعيس"
@@ -67,7 +67,7 @@ msgid "Version"
 msgstr "النسخة:"
 
 #: fjord/analytics/views.py:370
-msgid "Select product to see version facet"
+msgid "Select product to see version breakdown"
 msgstr ""
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
@@ -78,18 +78,6 @@ msgstr "المنصة"
 msgid "Locale"
 msgstr "اللغة"
 
-#: fjord/analytics/views.py:521
-msgid "Total # responses"
-msgstr ""
-
-#: fjord/analytics/views.py:530
-msgid "Percent change in sentiment upwards"
-msgstr ""
-
-#: fjord/analytics/views.py:539
-msgid "Percent change in sentiment downwards"
-msgstr ""
-
 #: fjord/analytics/templates/analytics/dashboard.html:7
 #, fuzzy
 msgid "Atom feed for this search"
@@ -99,55 +87,50 @@ msgstr "تلقيم ATOM لهذا البحث"
 msgid "Permalink"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:100 fjord/analytics/templates/analytics/analyzer/search.html:122
+#: fjord/analytics/templates/analytics/dashboard.html:100
 msgid "When"
 msgstr "متى"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102 fjord/analytics/templates/analytics/analyzer/search.html:124
+#: fjord/analytics/templates/analytics/dashboard.html:102
 msgid "1d"
 msgstr "يوم"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104 fjord/analytics/templates/analytics/analyzer/search.html:126
+#: fjord/analytics/templates/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7 أيام"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106 fjord/analytics/templates/analytics/analyzer/search.html:128
+#: fjord/analytics/templates/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30 يوم"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108 fjord/analytics/templates/analytics/analyzer/search.html:130
+#: fjord/analytics/templates/analytics/dashboard.html:108
 #, fuzzy
 msgid "90d"
 msgstr "30 يوم"
 
-#: fjord/analytics/templates/analytics/dashboard.html:110 fjord/analytics/templates/analytics/analyzer/search.html:132
+#: fjord/analytics/templates/analytics/dashboard.html:110
 #, fuzzy
 msgid "&raquo;"
 msgstr "تالي &raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114 fjord/analytics/templates/analytics/product_dashboard.html:10 fjord/analytics/templates/analytics/product_dashboard_firefox.html:10
-#: fjord/analytics/templates/analytics/analyzer/search.html:136
+#: fjord/analytics/templates/analytics/dashboard.html:114
 msgid "Start"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:116 fjord/analytics/templates/analytics/product_dashboard.html:12 fjord/analytics/templates/analytics/product_dashboard_firefox.html:12
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:9 fjord/analytics/templates/analytics/analyzer/search.html:138
+#: fjord/analytics/templates/analytics/dashboard.html:116
 msgid "End"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:117 fjord/analytics/templates/analytics/product_dashboard.html:13 fjord/analytics/templates/analytics/product_dashboard_firefox.html:13
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:10 fjord/analytics/templates/analytics/analyzer/search.html:139
+#: fjord/analytics/templates/analytics/dashboard.html:117
 #, fuzzy
 msgid "Set"
 msgstr "عيّن"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136 fjord/analytics/templates/analytics/product_dashboard.html:59 fjord/analytics/templates/analytics/product_dashboard_firefox.html:59
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:67 fjord/analytics/templates/analytics/product_dashboard_firefox.html:75
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:136
 msgid "Note: All dates and times are in Pacific Time."
 msgstr ""
 
@@ -155,7 +138,7 @@ msgstr ""
 msgid "Feedback"
 msgstr "التعليق"
 
-#: fjord/analytics/templates/analytics/dashboard.html:145 fjord/analytics/templates/analytics/product_dashboard.html:18 fjord/analytics/templates/analytics/product_dashboard_firefox.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:145
 #, fuzzy
 msgid "Search by keyword"
 msgstr "ابحث بالكلمة المفتاحية"
@@ -185,18 +168,6 @@ msgstr "البحث غير متاح"
 
 #: fjord/analytics/templates/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:37
-msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
-msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
-msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
 msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:45
@@ -280,29 +251,6 @@ msgstr "النسخة:"
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
 msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:12
-msgid "Hi,"
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:17
-msgid ""
-"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
-"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:31
-msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:36
-msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:41
-#, fuzzy
-msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
-msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(dash_url)s\">لوحة التحكم</a>."
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -512,19 +460,11 @@ msgid "Welcome!"
 msgstr "مرحبًا!"
 
 #: fjord/base/templates/includes/new_user_text.html:3
-msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
 
-#: fjord/base/templates/includes/new_user_text.html:9
-msgid "Onwards to your destination."
-msgstr ""
-
-#: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
-msgid "Input Services Monitor"
-msgstr ""
-
-#: fjord/base/templates/services/monitor.html:20
-msgid "List of components that Input uses and whether they are functioning correctly."
+#: fjord/base/templates/includes/new_user_text.html:10
+msgid "Continue"
 msgstr ""
 
 #: fjord/feedback/config.py:10
@@ -861,6 +801,10 @@ msgstr "إن كنت تريد أن تعرف إلى أين ذهب تعليقك، �
 #, fuzzy
 msgid "Please Download Firefox!"
 msgstr "نزّل بيتا"
+
+#, fuzzy
+#~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
+#~ msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(dash_url)s\">لوحة التحكم</a>."
 
 #~ msgid "Latest Feedback"
 #~ msgstr "أحدث تعليق"

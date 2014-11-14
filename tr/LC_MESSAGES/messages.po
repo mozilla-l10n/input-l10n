@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-13 07:51-0700\n"
+"POT-Creation-Date: 2014-11-14 06:41-0700\n"
 "PO-Revision-Date: 2014-11-14 07:47+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Firefox Input Arama Sonuçları"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/analyzer/search.html:7 fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
 msgid "Happy"
 msgstr "Mutlu"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/analyzer/search.html:9 fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 msgid "Sad"
 msgstr "Üzgün"
 
@@ -61,7 +61,8 @@ msgid "Version"
 msgstr "Sürüm"
 
 #: fjord/analytics/views.py:370
-msgid "Select product to see version facet"
+#, fuzzy
+msgid "Select product to see version breakdown"
 msgstr "Sürüm yüzünü görmek istediğiniz ürünü seçin"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
@@ -72,18 +73,6 @@ msgstr "Platform"
 msgid "Locale"
 msgstr "Dil"
 
-#: fjord/analytics/views.py:521
-msgid "Total # responses"
-msgstr "Toplam yanıt"
-
-#: fjord/analytics/views.py:530
-msgid "Percent change in sentiment upwards"
-msgstr ""
-
-#: fjord/analytics/views.py:539
-msgid "Percent change in sentiment downwards"
-msgstr ""
-
 #: fjord/analytics/templates/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "Bu aramanın Atom akışı"
@@ -92,52 +81,47 @@ msgstr "Bu aramanın Atom akışı"
 msgid "Permalink"
 msgstr "Kalıcı bağlantı"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100 fjord/analytics/templates/analytics/analyzer/search.html:122
+#: fjord/analytics/templates/analytics/dashboard.html:100
 msgid "When"
 msgstr "Zaman"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102 fjord/analytics/templates/analytics/analyzer/search.html:124
+#: fjord/analytics/templates/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1 g"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104 fjord/analytics/templates/analytics/analyzer/search.html:126
+#: fjord/analytics/templates/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7 g"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106 fjord/analytics/templates/analytics/analyzer/search.html:128
+#: fjord/analytics/templates/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30 g"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108 fjord/analytics/templates/analytics/analyzer/search.html:130
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "90d"
 msgstr "90 g"
 
-#: fjord/analytics/templates/analytics/dashboard.html:110 fjord/analytics/templates/analytics/analyzer/search.html:132
+#: fjord/analytics/templates/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114 fjord/analytics/templates/analytics/product_dashboard.html:10 fjord/analytics/templates/analytics/product_dashboard_firefox.html:10
-#: fjord/analytics/templates/analytics/analyzer/search.html:136
+#: fjord/analytics/templates/analytics/dashboard.html:114
 msgid "Start"
 msgstr "Başlangıç"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116 fjord/analytics/templates/analytics/product_dashboard.html:12 fjord/analytics/templates/analytics/product_dashboard_firefox.html:12
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:9 fjord/analytics/templates/analytics/analyzer/search.html:138
+#: fjord/analytics/templates/analytics/dashboard.html:116
 msgid "End"
 msgstr "Bitiş"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117 fjord/analytics/templates/analytics/product_dashboard.html:13 fjord/analytics/templates/analytics/product_dashboard_firefox.html:13
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:10 fjord/analytics/templates/analytics/analyzer/search.html:139
+#: fjord/analytics/templates/analytics/dashboard.html:117
 msgid "Set"
 msgstr "Ayarla"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136 fjord/analytics/templates/analytics/product_dashboard.html:59 fjord/analytics/templates/analytics/product_dashboard_firefox.html:59
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:67 fjord/analytics/templates/analytics/product_dashboard_firefox.html:75
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:136
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "Not: Tüm tarih ve saatler Pasifik saat dilimindedir."
 
@@ -145,7 +129,7 @@ msgstr "Not: Tüm tarih ve saatler Pasifik saat dilimindedir."
 msgid "Feedback"
 msgstr "Geri bildirim"
 
-#: fjord/analytics/templates/analytics/dashboard.html:145 fjord/analytics/templates/analytics/product_dashboard.html:18 fjord/analytics/templates/analytics/product_dashboard_firefox.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:145
 msgid "Search by keyword"
 msgstr "Anahtar kelime ile ara"
 
@@ -172,20 +156,6 @@ msgstr "Pano kullanılamıyor"
 #: fjord/analytics/templates/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "Pano şu anda kullanılamıyor. Lütfen 10 dakika sonra tekrar deneyin."
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:37
-msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
-msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-"Yardım etmek ister misiniz? Input'u nasıl kullandığınıza dair <a href=\"%"
-"(survey_url)s\">küçük anketimizi</a> yanıtlayın."
-
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
-msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
@@ -264,29 +234,6 @@ msgstr "API sürümü"
 msgid "Context"
 msgstr "Bağlam"
 
-#: fjord/analytics/templates/analytics/underconstruction.html:12
-msgid "Hi,"
-msgstr "Merhaba,"
-
-#: fjord/analytics/templates/analytics/underconstruction.html:17
-msgid ""
-"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
-"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:31
-msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:36
-msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:41
-#, fuzzy
-msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
-msgstr "<a href=\"%(dash_url)s\">Firefox Geri Bildirim Panosu</a>'nu ziyaret edin"
-
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Pano henüz mobil aygıtlarda kullanılamamaktadır."
@@ -352,18 +299,12 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input, Mozilla'nın ürünlerle ilgili birincil geri bildirim "
-"mekanizmasıdır. Ürünlerimizi kullanırken ve internette gezinirken "
-"yaşadığınız deneyimleri bizimle paylaşmanız, Mozilla'nın bu deneyimi daha "
-"iyi hâle getirmek için neler yapabileceğini anlatmanız için tek yönlü bir "
-"iletişim yöntemidir. Sistem, çeşitli ürünlerde çeşitli gönderi mekanizmaları "
-"sunmaktadır."
+"Firefox Input, Mozilla'nın ürünlerle ilgili birincil geri bildirim mekanizmasıdır. Ürünlerimizi kullanırken ve internette gezinirken yaşadığınız deneyimleri bizimle paylaşmanız, Mozilla'nın bu "
+"deneyimi daha iyi hâle getirmek için neler yapabileceğini anlatmanız için tek yönlü bir iletişim yöntemidir. Sistem, çeşitli ürünlerde çeşitli gönderi mekanizmaları sunmaktadır."
 
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Bir Mozilla ürünüyle ilgili geri bildirimde bulunmak için lütfen <a href=\"%"
-"(url)s\">geri bildirim gönderim sayfasını</a> ziyaret edin!"
+msgstr "Bir Mozilla ürünüyle ilgili geri bildirimde bulunmak için lütfen <a href=\"%(url)s\">geri bildirim gönderim sayfasını</a> ziyaret edin!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -415,9 +356,7 @@ msgstr "Kaynak Kodu"
 
 #: fjord/base/templates/about.html:76
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
-"Firefox Input sitesinin kodlarını <a href=\"%(url)s\">GitHub'da "
-"bulabilirsiniz</a>."
+msgstr "Firefox Input sitesinin kodlarını <a href=\"%(url)s\">GitHub'da bulabilirsiniz</a>."
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -504,20 +443,13 @@ msgid "Welcome!"
 msgstr "Hoş geldiniz!"
 
 #: fjord/base/templates/includes/new_user_text.html:3
-msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
 
-#: fjord/base/templates/includes/new_user_text.html:9
-msgid "Onwards to your destination."
-msgstr ""
-
-#: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
-msgid "Input Services Monitor"
-msgstr "Input Hizmetleri Monitörü"
-
-#: fjord/base/templates/services/monitor.html:20
-msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr "Input'un kullandığı bileşenlerin ve doğru çalışıp çalışmadıklarının listesi."
+#: fjord/base/templates/includes/new_user_text.html:10
+#, fuzzy
+msgid "Continue"
+msgstr "Bağlam"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -754,37 +686,27 @@ msgstr "%(product)s beni üzdü"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
-"Geri bildirimde bulunmak istediğiniz ürün %(product)s değil mi?<br /> <a "
-"href=\"%(url)s\">Başka bir ürün seçin</a>."
+msgstr "Geri bildirimde bulunmak istediğiniz ürün %(product)s değil mi?<br /> <a href=\"%(url)s\">Başka bir ürün seçin</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr ""
-"Lütfen neyi beğendiğinizi yazın. Geri bildiriminizin içeriği herkes "
-"tarafından görülebilecektir; o yüzden lütfen e-posta adresi, parola ve "
-"telefon numarası gibi kişisel bilgiler yazmayın."
+msgstr "Lütfen neyi beğendiğinizi yazın. Geri bildiriminizin içeriği herkes tarafından görülebilecektir; o yüzden lütfen e-posta adresi, parola ve telefon numarası gibi kişisel bilgiler yazmayın."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
 msgstr ""
-"Lütfen sorununuzu olabildiğince açık bir şekilde anlatın. Geri "
-"bildiriminizin içeriği herkes tarafından görülebilecektir; o yüzden lütfen "
-"e-posta adresi, parola ve telefon numarası gibi kişisel bilgiler yazmayın."
+"Lütfen sorununuzu olabildiğince açık bir şekilde anlatın. Geri bildiriminizin içeriği herkes tarafından görülebilecektir; o yüzden lütfen e-posta adresi, parola ve telefon numarası gibi kişisel "
+"bilgiler yazmayın."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr ""
-"Geri bildiriminiz bir web sitesiyle ilgili ise onu buraya yazabilirsiniz:"
+msgstr "Geri bildiriminiz bir web sitesiyle ilgili ise onu buraya yazabilirsiniz:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr ""
-"(Tercihe bağlı) Geri bildiriminizle ilgili olarak sizinle iletişime "
-"geçmemize izin veriyorsanız burayı işaretleyin. E-posta adresiniz gizli "
-"tutulacaktır."
+msgstr "(Tercihe bağlı) Geri bildiriminizle ilgili olarak sizinle iletişime geçmemize izin veriyorsanız burayı işaretleyin. E-posta adresiniz gizli tutulacaktır."
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
@@ -841,6 +763,25 @@ msgstr ""
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Lütfen Firefox'u indirin!"
+
+#~ msgid "Total # responses"
+#~ msgstr "Toplam yanıt"
+
+#~ msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
+#~ msgstr "Yardım etmek ister misiniz? Input'u nasıl kullandığınıza dair <a href=\"%(survey_url)s\">küçük anketimizi</a> yanıtlayın."
+
+#~ msgid "Hi,"
+#~ msgstr "Merhaba,"
+
+#, fuzzy
+#~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
+#~ msgstr "<a href=\"%(dash_url)s\">Firefox Geri Bildirim Panosu</a>'nu ziyaret edin"
+
+#~ msgid "Input Services Monitor"
+#~ msgstr "Input Hizmetleri Monitörü"
+
+#~ msgid "List of components that Input uses and whether they are functioning correctly."
+#~ msgstr "Input'un kullandığı bileşenlerin ve doğru çalışıp çalışmadıklarının listesi."
 
 #~ msgid "Latest Feedback"
 #~ msgstr "Son Geri Bildirimler"

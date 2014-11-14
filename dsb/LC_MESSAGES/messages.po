@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-13 07:51-0700\n"
+"POT-Creation-Date: 2014-11-14 06:41-0700\n"
 "PO-Revision-Date: 2014-05-24 18:31+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Pytańske wuslědki z Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/analyzer/search.html:7 fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
 msgid "Happy"
 msgstr "Glucny"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/analyzer/search.html:9 fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
 msgid "Sad"
 msgstr "Tužny"
 
@@ -61,7 +61,7 @@ msgid "Version"
 msgstr "Wersija"
 
 #: fjord/analytics/views.py:370
-msgid "Select product to see version facet"
+msgid "Select product to see version breakdown"
 msgstr ""
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
@@ -72,18 +72,6 @@ msgstr "Platforma"
 msgid "Locale"
 msgstr "Rěc"
 
-#: fjord/analytics/views.py:521
-msgid "Total # responses"
-msgstr ""
-
-#: fjord/analytics/views.py:530
-msgid "Percent change in sentiment upwards"
-msgstr ""
-
-#: fjord/analytics/views.py:539
-msgid "Percent change in sentiment downwards"
-msgstr ""
-
 #: fjord/analytics/templates/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "ATOM-kanal za toś to pytanje"
@@ -92,52 +80,47 @@ msgstr "ATOM-kanal za toś to pytanje"
 msgid "Permalink"
 msgstr "Trajny wótkaz"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100 fjord/analytics/templates/analytics/analyzer/search.html:122
+#: fjord/analytics/templates/analytics/dashboard.html:100
 msgid "When"
 msgstr "Cas"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102 fjord/analytics/templates/analytics/analyzer/search.html:124
+#: fjord/analytics/templates/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1 ź."
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104 fjord/analytics/templates/analytics/analyzer/search.html:126
+#: fjord/analytics/templates/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7 dnj."
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106 fjord/analytics/templates/analytics/analyzer/search.html:128
+#: fjord/analytics/templates/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30 dnj."
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108 fjord/analytics/templates/analytics/analyzer/search.html:130
+#: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "90d"
 msgstr "90 dnj."
 
-#: fjord/analytics/templates/analytics/dashboard.html:110 fjord/analytics/templates/analytics/analyzer/search.html:132
+#: fjord/analytics/templates/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114 fjord/analytics/templates/analytics/product_dashboard.html:10 fjord/analytics/templates/analytics/product_dashboard_firefox.html:10
-#: fjord/analytics/templates/analytics/analyzer/search.html:136
+#: fjord/analytics/templates/analytics/dashboard.html:114
 msgid "Start"
 msgstr "Zachopjeńk"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116 fjord/analytics/templates/analytics/product_dashboard.html:12 fjord/analytics/templates/analytics/product_dashboard_firefox.html:12
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:9 fjord/analytics/templates/analytics/analyzer/search.html:138
+#: fjord/analytics/templates/analytics/dashboard.html:116
 msgid "End"
 msgstr "Kóńc"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117 fjord/analytics/templates/analytics/product_dashboard.html:13 fjord/analytics/templates/analytics/product_dashboard_firefox.html:13
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:10 fjord/analytics/templates/analytics/analyzer/search.html:139
+#: fjord/analytics/templates/analytics/dashboard.html:117
 msgid "Set"
 msgstr "Póstajiś"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136 fjord/analytics/templates/analytics/product_dashboard.html:59 fjord/analytics/templates/analytics/product_dashboard_firefox.html:59
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:67 fjord/analytics/templates/analytics/product_dashboard_firefox.html:75
-#: fjord/analytics/templates/analytics/analyzer/hourly_histogram.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:136
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "Glědajśo: Wšykne datumowe a casowe pódaśa póśěguju se na pacifiski cas."
 
@@ -146,7 +129,7 @@ msgstr "Glědajśo: Wšykne datumowe a casowe pódaśa póśěguju se na pacifis
 msgid "Feedback"
 msgstr "Komentar pósłaś"
 
-#: fjord/analytics/templates/analytics/dashboard.html:145 fjord/analytics/templates/analytics/product_dashboard.html:18 fjord/analytics/templates/analytics/product_dashboard_firefox.html:18
+#: fjord/analytics/templates/analytics/dashboard.html:145
 msgid "Search by keyword"
 msgstr "Pó klucowem słowje pytaś"
 
@@ -173,18 +156,6 @@ msgstr "Pśeglěd njestoj k dispoziciji"
 #: fjord/analytics/templates/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "Pśeglěd njestoj tuchylu k dispoziciji. Pšosym wopytajśo za 10 minutow hyšći raz."
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:37
-msgid "This is an alpha version of the %(product)s product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/product_dashboard.html:44 fjord/analytics/templates/analytics/product_dashboard_firefox.html:44
-msgid "Want to help? <a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/product_dashboard_firefox.html:37
-msgid "This is an alpha version of a Firefox desktop product dashboard I threw together in a couple of days on a lark before Australis."
-msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
@@ -264,29 +235,6 @@ msgstr "Wersija"
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
 msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:12
-msgid "Hi,"
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:17
-msgid ""
-"Welcome to Firefox Input dashboard. Pardon our dust. The Mozilla User Advocacy team is currently in the process of redesigning our feedback dashboards to make them clearer, easier to understand and "
-"more useful. Don't worry, we're still collecting feedback from Firefox users during construction."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:31
-msgid "<a href=\"%(survey_url)s\">Fill out this quick survey</a> about how you use Input."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:36
-msgid "Need some data right now? We're happy to help! <a href=\"%(bug_url)s\">File a bug</a>."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/underconstruction.html:41
-#, fuzzy
-msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
-msgstr "Woglědajśo se <a href=\"%(dash_url)s\">głowny bok za komentary Firefox</a>"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -503,20 +451,12 @@ msgid "Welcome!"
 msgstr "Witajśo"
 
 #: fjord/base/templates/includes/new_user_text.html:3
-msgid "The identity you just logged into Persona with ties you to your account on Input. Please remember which identity you used."
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
 
-#: fjord/base/templates/includes/new_user_text.html:9
-msgid "Onwards to your destination."
+#: fjord/base/templates/includes/new_user_text.html:10
+msgid "Continue"
 msgstr ""
-
-#: fjord/base/templates/services/monitor.html:7 fjord/base/templates/services/monitor.html:18
-msgid "Input Services Monitor"
-msgstr "Statusowe zwobraznjenje za zapódawańske słužby"
-
-#: fjord/base/templates/services/monitor.html:20
-msgid "List of components that Input uses and whether they are functioning correctly."
-msgstr "Lisćina komponentow, kótarež Input wužywa, a lěc wóne korektnje funkcioněruju."
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -837,6 +777,16 @@ msgstr ""
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Pšosym ześěgniśo Firefox!"
+
+#, fuzzy
+#~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
+#~ msgstr "Woglědajśo se <a href=\"%(dash_url)s\">głowny bok za komentary Firefox</a>"
+
+#~ msgid "Input Services Monitor"
+#~ msgstr "Statusowe zwobraznjenje za zapódawańske słužby"
+
+#~ msgid "List of components that Input uses and whether they are functioning correctly."
+#~ msgstr "Lisćina komponentow, kótarež Input wužywa, a lěc wóne korektnje funkcioněruju."
 
 #~ msgid "Latest Feedback"
 #~ msgstr "Nejnowšy komentar"
