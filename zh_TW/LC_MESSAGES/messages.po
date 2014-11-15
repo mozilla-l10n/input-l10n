@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 06:41-0700\n"
-"PO-Revision-Date: 2014-11-14 15:57+0000\n"
+"PO-Revision-Date: 2014-11-15 19:54+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: zh_TW\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1415980679.0\n"
+"X-POOTLE-MTIME: 1416081250.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -332,11 +332,11 @@ msgstr "我們對於此網站中儲存的資料有資料保留政策:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
+msgstr "我們會永久保留意見回饋資料，但只會在主控台中公開最近六個月的資料。"
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
-msgstr ""
+msgstr "我們會保留每筆意見回饋當中的電子郵件地址六個月，然後就會刪除這些地址。"
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -353,9 +353,8 @@ msgid "Source Code"
 msgstr "原始碼"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "可以在 <a href=\"%(url)s\">GitHub</a> 找到 Firefox Input 網頁應用程式的原始碼！"
+msgstr "可以在 <a href=\"%(url)s\">GitHub</a> 找到 Firefox Input 網站的原始碼！"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -375,7 +374,7 @@ msgstr "提供意見回饋"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "統計"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -390,26 +389,24 @@ msgid "Sign in"
 msgstr "登入"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "登入失敗"
+msgstr "CSRF 失敗"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "登入失敗"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
-#, fuzzy
 msgid "Welcome to Input!"
-msgstr "歡迎！"
+msgstr "歡迎使用 Input！"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "您送出的資料無法通過我們系統上的安全檢查。"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
-msgstr ""
+msgstr "請確定您開啟了 Cookie 功能，按下瀏覽器中的「上一頁」按鈕，然後重新整理頁面、重新填表、再試著送出看看。"
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -435,7 +432,7 @@ msgstr "前往"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "您並未通過 Persona 的驗證，請稍候再試。"
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -443,11 +440,11 @@ msgstr "歡迎！"
 
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
-msgstr ""
+msgstr "您剛用來登入的 Persona 帳號會與您在 Input 裡的帳號綁定起來。請記住您剛用來登入的 Persona 帳號。"
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
-msgstr ""
+msgstr "繼續"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -751,11 +748,12 @@ msgstr "未知產品"
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
 msgstr ""
+"Input 不知道「<em>%(product)s</em>」這個產品是什麼。若您覺得這是個錯誤，請 <a href=\"%(url)s\">回報 "
+"Bug</a> 讓我們知道。"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
-#, fuzzy
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr "如果想知道您的回饋送往何方，可以看看 <a href=\"%(url)s\">Firefox Input Dashboard</a>。"
+msgstr "若您原本沒有要來這個網站，想要留下意見，請使用 <a href=\"%(url)s\">我們的意見回饋表單</a>。"
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
