@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 06:41-0700\n"
-"PO-Revision-Date: 2014-11-14 20:58+0000\n"
+"PO-Revision-Date: 2014-11-15 21:32+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: mozilla.org.ua\n"
 "Language: uk\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1415998734.0\n"
+"X-POOTLE-MTIME: 1416087166.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -49,7 +49,7 @@ msgstr "ID відповіді: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
-msgstr ""
+msgstr "Біграм"
 
 #: fjord/analytics/views.py:345
 msgid "Sentiment"
@@ -65,7 +65,7 @@ msgstr "Версія"
 
 #: fjord/analytics/views.py:370
 msgid "Select product to see version breakdown"
-msgstr ""
+msgstr "Виберіть продукт, щоб побачити розбивку по версіям"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
@@ -242,19 +242,21 @@ msgstr "Панель поки що недоступна на мобільних 
 
 #: fjord/base/models.py:57
 msgid "JSON Object"
-msgstr ""
+msgstr "Об'єкт JSON"
 
 #: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "Заборонено"
 
 #: fjord/base/templates/403.html:12
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "Ви не маєте прав на доступ до цієї сторінки."
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
 msgstr ""
+"Ви не маєте прав на доступ до цієї сторінки. Якщо у вас є обліковий запис, "
+"спробуйте увійти."
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -297,19 +299,22 @@ msgid "Hello!"
 msgstr "Привіт!"
 
 #: fjord/base/templates/about.html:11
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"<strong>Firefox Input</strong> є основним інструментом зворотнього зв'язку з Mozilla. Він призначений для одностороннього зв'язку за допомогою якого ви можете повідомити про свій досвід "
-"використання Firefox, про те яким ви бачите інтернет за його допомогою, а також надати пропозиції Mozilla щодо його покращення. Система доступна через різноманітні механізми надсилання відгуків на "
-"всіх трьох основних каналах збірок."
+"Firefox Input є основним механізмом зворотнього зв'язку з Mozilla. Він "
+"створений, як метод одностороннього зв'язку за допомогою якого ви можете "
+"повідомити про свій досвід використання наших продуктів, про те яким ви "
+"бачите через них інтернет, та про те, що може зробити Mozilla для їх "
+"покращення. Система доступна через різноманітні механізми надсилання "
+"відгуків та збірок продуктів."
 
 #: fjord/base/templates/about.html:21
-#, fuzzy
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "Щоб надіслати відгук для вашої версії Firefox, перейдіть на <a href=\"%(url)s\">сторінку надсилання відгуку</a>!"
+msgstr ""
+"Щоб надіслати відгук на продукт Mozilla, перейдіть будь ласка на <a href=\"%"
+"(url)s\">сторінку надсилання відгуку</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -317,15 +322,17 @@ msgstr "Політика приватності"
 
 #: fjord/base/templates/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
-msgstr ""
+msgstr "Ми притримуємось <a href=\"%(url)s\">Політики приватності Mozilla</a>."
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Юридичні відмови від відповідальності та обмеження"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
+"На нас розповсюджується дія документу <a href=\"%(url)s\">Юридичні відмови від "
+"відповідальності та обмеження Mozilla</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -415,11 +422,14 @@ msgstr "Вітаємо у відгуках!"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "Ваше відправлення не пройшло перевірку безпеки нашої системи."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr ""
+"Переконайтесь, що у вас увімкнені куки, натисніть кнопку Назад в своєму "
+"браузері, оновіть сторінку, заповніть форму, і спробуйте відправити свій "
+"відгук ще раз."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -447,7 +457,7 @@ msgstr "Перейти"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Вам не вдалося увійти через Persona. Спробуйте ще раз."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
