@@ -4,16 +4,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 06:41-0700\n"
-"PO-Revision-Date: 2014-08-24 19:17+0000\n"
+"PO-Revision-Date: 2014-11-16 08:08+0000\n"
 "Last-Translator: Vanja <tumbas93@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1408907838.0\n"
+"X-POOTLE-MTIME: 1416125306.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -126,9 +127,8 @@ msgid "Note: All dates and times are in Pacific Time."
 msgstr "Напомена: Сви датуми и времена су у пацифичком времену."
 
 #: fjord/analytics/templates/analytics/dashboard.html:141
-#, fuzzy
 msgid "Feedback"
-msgstr "Пошаљите повратну информацију"
+msgstr "Повратна информација"
 
 #: fjord/analytics/templates/analytics/dashboard.html:145
 msgid "Search by keyword"
@@ -196,9 +196,8 @@ msgid "URL Domain"
 msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
-msgstr "Изворни код"
+msgstr "Извор"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
@@ -229,9 +228,8 @@ msgid "Email"
 msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:167
-#, fuzzy
 msgid "API version"
-msgstr "Верзија"
+msgstr "API верзија"
 
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
@@ -298,18 +296,21 @@ msgid "Hello!"
 msgstr "Поздрав!"
 
 #: fjord/base/templates/about.html:11
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input је Mozilla-ин основни механизам за повратне информације. Подешен је да буде метод једносмерне комуникације о Вашим искуствима током коришћења Firefox-а, кроз који посећујете интернет, "
-"и шта Mozilla може да учини како би направила искуство што бољим. Систем је доступан кроз широки спектар механизама за слање преко сва три главна развојна канала."
+"Firefox Input је Mozilla-ин примаран механизам за повратне информације. "
+"Подешен је да буде метод једносмерне комуникације о Вашим искуствима током "
+"коришћења наших производа, кроз који посећујете интернет и шта Mozilla може "
+"да учини како би направила искуство што бољим. Систем је доступан кроз "
+"широки спектар механизама за слање и издања производа."
 
 #: fjord/base/templates/about.html:21
-#, fuzzy
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "Да бисте послали повратне информације за своју верзију Firefox-а , посетите <a href=\"%(url)s\">страницу за подношење повратних информација</a>!"
+msgstr ""
+"Да бисте послали повратне информације Mozilla-и, посетите <a href=\"%"
+"(url)s\">страницу за подношење повратних информација</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -360,9 +361,8 @@ msgid "Source Code"
 msgstr "Изворни код"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "Код за веб апликацију Firefox Input-а може бити <a href=\"%(url)s\">наћен на GitHub-у</a>!"
+msgstr "Код за Firefox Input може бити <a href=\"%(url)s\">наћен на GitHub-у</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -377,7 +377,6 @@ msgid "Proceed to footer"
 msgstr "Наставите до подножја"
 
 #: fjord/base/templates/base.html:44
-#, fuzzy
 msgid "Give Feedback"
 msgstr "Пошаљите повратну информацију"
 
@@ -398,9 +397,8 @@ msgid "Sign in"
 msgstr "Пријави се"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "Пријава неуспешна"
+msgstr "CSRF неуспешна"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
@@ -447,9 +445,8 @@ msgid "You've failed to authenticate with Persona. Please try again."
 msgstr ""
 
 #: fjord/base/templates/includes/new_user_text.html:1
-#, fuzzy
 msgid "Welcome!"
-msgstr "Добродошли"
+msgstr "Добродошли!"
 
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
@@ -677,58 +674,60 @@ msgid "While your feedback will be publicly visible, email addresses are kept pr
 msgstr "Док ће Ваше повратне информације бити јавно видљиве, адресе е-поште се чувају у приватности. Разумемо да је Ваша приватност битна."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
-#, fuzzy
 msgid "{product} feedback"
-msgstr "Пошаљите повратну информацију"
+msgstr "{product} повратна информација"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
 msgid "How does %(product)s make you feel?"
 msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "Firefox ме је усрећио"
+msgstr "%(product)s ме је усрећио"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "Firefox ме је растужио"
+msgstr "%(product)s ме је растужио"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
-#, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr "Садржај Ваше повратне информације ће бити јаван, па будите сигурни да не садржи никакве личне податке."
+msgstr ""
+"Молимо опишите шта Вам се допада. Садржај Ваше повратне информације ће бити "
+"јаван, па будите сигурни да не садржи никакве личне податке као што су "
+"адреса е-поште, лозинке или број телефона."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
-#, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr "Садржај Ваше повратне информације ће бити јаван, па будите сигурни да не садржи никакве личне податке."
+msgstr ""
+"Молимо Вас да што детаљније опишете проблем испод. Садржај Ваше повратне "
+"информације ће бити јаван, па будите сигурни да не садржи никакве личне "
+"податке као што су адреса е-поште, лозинке или број телефона."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr "Ако је Ваш коментар везан за овај сајт, можете га уписати овде."
+msgstr ""
+"Ако је Ваша повратна информација везана за овај сајт, можете је уписати "
+"овде:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "Проверите овде да нас контактирате Вас да се надовежем на повратним информацијама."
+msgstr ""
+"(Optional) Чекирајте овде да нам дозволите да Вас контактирамо у вези Ваше "
+"повратне информације. Ваша е-пошта ће бити чувана у тајности."
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
 msgstr ""
 
 #: fjord/feedback/templates/feedback/picker.html:24
-#, fuzzy
 msgid "No products available."
-msgstr "Контролна табла недоступна"
+msgstr "Нема доступних производа."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -763,9 +762,8 @@ msgid "Find the latest news about Firefox."
 msgstr "Сазнајте најновије вести о Firefox-у."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
 msgid "Unknown product"
-msgstr "Непознато"
+msgstr "Непознат производ"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
