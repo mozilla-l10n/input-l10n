@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pt-pt v1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 06:41-0700\n"
-"PO-Revision-Date: 2014-09-28 17:52+0000\n"
+"PO-Revision-Date: 2014-11-18 03:53+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: Portuguese translation team\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1411926768.0\n"
+"X-POOTLE-MTIME: 1416282801.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -46,7 +46,7 @@ msgstr "ID da resposta: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
-msgstr ""
+msgstr "Bigrama"
 
 #: fjord/analytics/views.py:345
 msgid "Sentiment"
@@ -62,7 +62,7 @@ msgstr "Versão"
 
 #: fjord/analytics/views.py:370
 msgid "Select product to see version breakdown"
-msgstr ""
+msgstr "Selecione o produto para ver a distribuição por versão"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
@@ -134,7 +134,7 @@ msgstr "Pesquisa por palavra-chave"
 
 #: fjord/analytics/templates/analytics/dashboard.html:163
 msgid "No feedback matches that criteria."
-msgstr ""
+msgstr "Não existe feedback que coincida com esses critérios."
 
 #: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
@@ -146,7 +146,7 @@ msgstr "Mensagens mais recentes"
 
 #: fjord/analytics/templates/analytics/dashboard.html:185
 msgid "Messages in specified time range"
-msgstr ""
+msgstr "Mensagens no intervalo de tempo especificado"
 
 #: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
@@ -158,56 +158,52 @@ msgstr "O painel não está disponível atualmente. Por favor, tente novamente d
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133
 msgid "None"
-msgstr ""
+msgstr "Nenhuma"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: fjord/analytics/templates/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "Traduzir!"
+msgstr "Traduzido"
 
 #: fjord/analytics/templates/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "Traduzir mensagem"
+msgstr "Traduzir (computorizada)"
 
 #: fjord/analytics/templates/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "Traduzir!"
+msgstr "Traduzir (humano)"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
-msgstr ""
+msgstr "Criada"
 
 #: fjord/analytics/templates/analytics/response.html:119
 msgid "Channel"
-msgstr ""
+msgstr "Canal"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "Domínio da URL"
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
 msgstr "Código fonte"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "Campanha"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Full URL"
-msgstr ""
+msgstr "URL completa"
 
 #: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
@@ -222,22 +218,20 @@ msgid "Device"
 msgstr "Equipamento"
 
 #: fjord/analytics/templates/analytics/response.html:155
-#, fuzzy
 msgid "User agent"
-msgstr "Agente de utilizador"
+msgstr "Agente do utilizador"
 
 #: fjord/analytics/templates/analytics/response.html:159
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: fjord/analytics/templates/analytics/response.html:167
-#, fuzzy
 msgid "API version"
-msgstr "Versão"
+msgstr "Versão da API"
 
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
-msgstr ""
+msgstr "Contexto"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -245,19 +239,19 @@ msgstr "O painel ainda não está disponível para dispositivos móveis."
 
 #: fjord/base/models.py:57
 msgid "JSON Object"
-msgstr ""
+msgstr "Objeto JSON"
 
 #: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "Proibido"
 
 #: fjord/base/templates/403.html:12
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "Não tem acesso a esta página."
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
+msgstr "Não tem acesso a esta página. Se tiver uma conta, tente iniciar sessão."
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -300,18 +294,22 @@ msgid "Hello!"
 msgstr "Olá!"
 
 #: fjord/base/templates/about.html:11
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"O Firefox Input é o principal mecanismo de recolha de opiniões da Mozilla. Ele foi pensado para ser uma forma de comunicação  sobre as suas experiências de utilização do Firefox, a Internet que "
-"você vê através dele e o que a Mozilla pode fazer para melhorar essa experiência. O sistema está disponível em uma variedade de mecanismos de envio, em todos os três canais de distribuição."
+"O Firefox Input é o principal mecanismo de recolha de opiniões para produtos "
+"da Mozilla. Foi pensado para ser uma forma de comunicação num único sentido "
+"sobre as suas experiências como utilizador dos nossos produtos, a Internet "
+"que vê com estes produtos e o que a Mozilla pode fazer para melhorar essa "
+"experiência. O sistema está disponível sob uma grande variedade de "
+"mecanismos de submissão e produtos."
 
 #: fjord/base/templates/about.html:21
-#, fuzzy
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "Para enviar uma opinião sobre a sua versão do Firefox, por favor vá para a <a href=\"%(url)s\">página de envio de opiniões</a>!"
+msgstr ""
+"Para enviar uma opinião sobre um produto da Mozilla, por favor visite a <a "
+"href=\"%(url)s\">página de envio de opiniões</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -320,30 +318,39 @@ msgstr "Política de privacidade"
 #: fjord/base/templates/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr ""
+"Nós subscrevemos a <a href=\"%(url)s\">Política de Privacidade da Mozilla</a>."
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Limitações legais e exclusão de responsabilidades"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
+"Nós somos cobertos pelo documento de <a href=\"%(url)s\">limitações legais e "
+"exclusão de responsabilidade da Mozilla</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Política de retenção de dados"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Nós temos uma política de retenção de dados que cobre os dados armazenados "
+"neste site:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr ""
+"Nós mantemos os comentários para sempre, mas apenas 6 meses de informações "
+"estão disponíveis no painel público."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
 msgstr ""
+"Nós mantemos os endereços de email associados aos comentários durante 6 "
+"meses e depois eliminamos estes emails."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -362,9 +369,10 @@ msgid "Source Code"
 msgstr "Código fonte"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "O código fonte da aplicação web Firefox Input pode ser encontrado no <a href=\"%(url)s\">GitHub</a>!"
+msgstr ""
+"O código fonte para o site Firefox Input pode ser <a href=\"%"
+"(url)s\">encontrado no GitHub</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -384,7 +392,7 @@ msgstr "Dar Feedback"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "Análises"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -399,26 +407,27 @@ msgid "Sign in"
 msgstr "Entrar"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "Falha no início de sessão"
+msgstr "Falha de CSRF"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Falha no início de sessão"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
-#, fuzzy
 msgid "Welcome to Input!"
-msgstr "Bem vindo!"
+msgstr "Bem vindo ao Input!"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "A sua submissão falhou uma verificação de segurança no nosso sistema."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr ""
+"Por favor, garanta que tem as cookies ativas, pressione o botão Retroceder "
+"no seu navegador, atualize a página, preencha o formulário e tente submeter "
+"novamente os seus comentários."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -446,7 +455,7 @@ msgstr "Ir"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "A autenticação com o Persona falhou. Por favor tente novamente."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -455,10 +464,12 @@ msgstr "Bem vindo!"
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
+"A identidade que utilizou no Persona para iniciar sessão relaciona a sua "
+"conta com o Input. Por favor lembre-se da identidade do Persona utilizou."
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
-msgstr ""
+msgstr "Continuar"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -502,15 +513,15 @@ msgstr "Montenegro"
 
 #: fjord/feedback/config.py:20
 msgid "Mexico"
-msgstr ""
+msgstr "México"
 
 #: fjord/feedback/config.py:21
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguai"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -678,58 +689,62 @@ msgid "While your feedback will be publicly visible, email addresses are kept pr
 msgstr "Apesar da sua opinião ser visível publicamente, os seus endereços de e-mail serão mantidos privados. Nós compreendemos a importância da sua privacidade."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
-#, fuzzy
 msgid "{product} feedback"
-msgstr "Enviar opinião"
+msgstr "Comentários sobre o {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Como se sente com o %(product)s?"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "O Firefox faz-me feliz ..."
+msgstr "O %(product)s faz-me feliz"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "%(count)s mensagem"
+msgstr "O %(product)s deixa-me triste"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"Não era o %(product)s que queria comentar?<br /> <a href=\"%(url)s\">Escolha "
+"um produto diferente</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
-#, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr "O conteúdo da sua opinião será público, pelo que tenha a certeza de que não inclui nenhuma informação pessoal."
+msgstr ""
+"Por favor descreva o que gostou. O conteúdo da sua opinião será público, "
+"pelo que tenha a certeza de que não inclui nenhuma informação pessoal, tal "
+"como endereço de email, senhas ou número de telefone."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
-#, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr "O conteúdo da sua opinião será público, pelo que tenha a certeza de que não inclui nenhuma informação pessoal."
+msgstr ""
+"Por favor descreva o seu problema em baixo e seja tão específico quanto "
+"possível. O conteúdo da sua opinião será público, pelo que tenha a certeza "
+"de que não inclui nenhuma informação pessoal, tal como endereço de email, "
+"senhas ou número de telefone."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr "Se a sua opinião está relacionada com um site web, pode incluí-la aqui."
+msgstr "Se a sua opinião está relacionada com um site web, pode incluí-la aqui:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "Selecione esta opção para permitir que possamos entrar em contacto consigo para dar seguimento às suas sugestões."
+msgstr ""
+"(Opcional) Selecione esta opção para permitir que possamos entrar em "
+"contacto consigo para dar seguimento aos seus comentários. O seu endereço de "
+"email será mantido privado."
 
 #: fjord/feedback/templates/feedback/picker.html:19
 msgid "Select A Product To Leave Feedback"
-msgstr ""
+msgstr "Selecione um produto para deixar comentários"
 
 #: fjord/feedback/templates/feedback/picker.html:24
-#, fuzzy
 msgid "No products available."
-msgstr "Painel indisponível"
+msgstr "Sem produtos disponíveis."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -764,18 +779,20 @@ msgid "Find the latest news about Firefox."
 msgstr "Descubra as últimas notícias sobre o Firefox."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
 msgid "Unknown product"
-msgstr "Desconhecido"
+msgstr "Produto desconhecido"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
 msgstr ""
+"O Input não conhece \"<em>%(product)s</em>\". Se acha que isto é um erro, por "
+"favor informe-nos <a href=\"%(url)s\">abrindo um bug</a>."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
-#, fuzzy
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr "Se quiser ver para onde é que o seu feedback foi, veja o <a href=\"%(url)s\">Quadro de Entradas do Firefox</a>."
+msgstr ""
+"Se está aqui por engano e quer deixar o seu comentário, pode fazê-lo <a "
+"href=\"%(url)s\">no nosso formulário de comentários</a>."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
