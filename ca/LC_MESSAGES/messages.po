@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: 2013-11-09 18:11+0000\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,12 +33,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Cerca resultats a les opinions del Firefox Beta."
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
 msgid "Happy"
 msgstr "Feliç"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
 msgid "Sad"
 msgstr "Trist"
 
@@ -743,14 +743,23 @@ msgstr "Si el vostre comentari és referent a un lloc web, podeu incloure'l aqu�
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+#, fuzzy
+msgid "Select A Product"
+msgstr "Producte"
+
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:32
 #, fuzzy
 msgid "No products available."
 msgstr "Cerca no disponible"
+
+#: fjord/feedback/templates/feedback/picker.html:35
+msgid "Select a product to leave feedback for."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -773,14 +782,23 @@ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>
 msgstr "Baixeu <a href=\"%(download_url)s\">la versió que més us convingui/a>.                "
 
 #: fjord/feedback/templates/feedback/thanks.html:43
+msgid "Having problems? Get help."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "Col·labora amb Mozilla."
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+#: fjord/feedback/templates/feedback/thanks.html:53
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Descobriu com podeu <a href=\"%(url)s\">millorar el Firefox i Mozilla</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "Descobriu les darreres notícies del Firefox."
 

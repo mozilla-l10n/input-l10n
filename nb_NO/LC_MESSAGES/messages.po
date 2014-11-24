@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: 2013-10-18 18:14+0000\n"
 "Last-Translator: Håvard <havard.mork@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Søkeresultater fra Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
 msgid "Happy"
 msgstr "Glad"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
 msgid "Sad"
 msgstr "Trist"
 
@@ -723,14 +723,23 @@ msgstr "Dersom tilbakemeldingen er knyttet til et nettsted, kan du angi det her.
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "Kryss av her for å tillate oss å kontakte deg for å følge opp tilbakemeldingen."
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+#, fuzzy
+msgid "Select A Product"
+msgstr "Produkt"
+
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:32
 #, fuzzy
 msgid "No products available."
 msgstr "Dashbord er utilgjengelig"
+
+#: fjord/feedback/templates/feedback/picker.html:35
+msgid "Select a product to leave feedback for."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -753,14 +762,23 @@ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>
 msgstr "Last ned <a href=\"%(download_url)s\">versjonen som er rett for deg</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:43
+msgid "Having problems? Get help."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "Bidra til Mozilla."
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+#: fjord/feedback/templates/feedback/thanks.html:53
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Les om hvordan du kan <a href=\"%(url)s\">gjøre Firefox og Mozilla bedre</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "Få de siste nyhetene om Firefox."
 

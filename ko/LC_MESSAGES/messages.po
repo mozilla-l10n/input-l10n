@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: 2013-10-31 03:56+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: Korean\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Firefox 사용자 평가 검색 결과"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
 msgid "Happy"
 msgstr "행복"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
 msgid "Sad"
 msgstr "슬픔"
 
@@ -722,14 +722,23 @@ msgstr "웹사이트에 대한 피드백이 있을 경우, 여기에 입력하�
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "우리가 의견에 대한 조치를 취하기 위해 여기를 확인해주세요."
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+#, fuzzy
+msgid "Select A Product"
+msgstr "제품 이름:"
+
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:32
 #, fuzzy
 msgid "No products available."
 msgstr "현황판 없음"
+
+#: fjord/feedback/templates/feedback/picker.html:35
+msgid "Select a product to leave feedback for."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -752,14 +761,23 @@ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>
 msgstr "<a href=\"%(download_url)s\">현재 버전</a>을 다운로드합니다."
 
 #: fjord/feedback/templates/feedback/thanks.html:43
+msgid "Having problems? Get help."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "Mozilla에 공헌하기"
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+#: fjord/feedback/templates/feedback/thanks.html:53
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox와 Mozilla</a>에 도움 주는 방법"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "Firefox의 최근 소식을 찾습니다."
 

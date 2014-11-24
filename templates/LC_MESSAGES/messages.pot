@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 #: fjord/analytics/templates/analytics/dashboard.html:13
 #: fjord/analytics/templates/analytics/response.html:29
 #: fjord/analytics/templates/analytics/mobile/response.html:18
-#: fjord/feedback/models.py:301
+#: fjord/feedback/models.py:310
 msgid "Happy"
 msgstr ""
 
@@ -50,7 +50,7 @@ msgstr ""
 #: fjord/analytics/templates/analytics/dashboard.html:15
 #: fjord/analytics/templates/analytics/response.html:31
 #: fjord/analytics/templates/analytics/mobile/response.html:20
-#: fjord/feedback/models.py:302
+#: fjord/feedback/models.py:311
 msgid "Sad"
 msgstr ""
 
@@ -812,12 +812,20 @@ msgid ""
 "Your email address will be kept private."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+msgid "Select A Product"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/picker.html:32
 msgid "No products available."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/picker.html:35
+msgid "Select a product to leave feedback for."
 msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:16
@@ -844,15 +852,25 @@ msgid ""
 msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:43
-msgid "Contribute to Mozilla."
+msgid "Having problems? Get help."
 msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid ""
-"Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+"Go to our support forum where you can <a href=\"%(url)s\">get help and find "
+"answers</a>."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:51
+msgid "Contribute to Mozilla."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:53
+msgid ""
+"Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr ""
 

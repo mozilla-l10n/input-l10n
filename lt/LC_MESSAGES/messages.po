@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: 2014-02-22 21:48+0000\n"
 "Last-Translator: Rimas <rq@akl.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "„Firefox“ atsiliepimų paieškos rezultatai"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
 msgid "Happy"
 msgstr "Nudžiugino"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
 msgid "Sad"
 msgstr "Nuliūdino"
 
@@ -720,14 +720,23 @@ msgstr "Jeigu jūsų atsiliepimas susijęs su tam tikra svetaine, galite ją įr
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "Pažymėkite čia, jeigu norite, kad susisiektume su Jumis dėl šio atsiliepimo."
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+#, fuzzy
+msgid "Select A Product"
+msgstr "Produktas"
+
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:32
 #, fuzzy
 msgid "No products available."
 msgstr "Skydelis nepasiekiamas"
+
+#: fjord/feedback/templates/feedback/picker.html:35
+msgid "Select a product to leave feedback for."
+msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -750,14 +759,23 @@ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>
 msgstr "Parsisiųskite <a href=\"%(download_url)s\">jums tinkamiausią versiją</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:43
+msgid "Having problems? Get help."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "Padėkite „Mozillai“."
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+#: fjord/feedback/templates/feedback/thanks.html:53
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Sužinokite, kaip galite <a href=\"%(url)s\">pagerinti „Firefox“ ir „Mozillą“</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "Sužinokite šviežiausias „Firefox“ naujienas."
 

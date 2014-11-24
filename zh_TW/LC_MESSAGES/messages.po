@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: 2014-11-15 19:54+0000\n"
 "Last-Translator: Peter <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Firefox Input 的搜尋結果"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
 msgid "Happy"
 msgstr "開心"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
 msgid "Sad"
 msgstr "悲傷"
 
@@ -298,8 +298,7 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input 是 Mozilla 主要使用的使用者意見回饋機制。這是一種讓您可以回報產品使用過程當中的體驗，以及 Mozilla "
-"能如何改善這個體驗的單向溝通方式。此系統於不同的產品版本當中有多種不同的回報機制可用。"
+"Firefox Input 是 Mozilla 主要使用的使用者意見回饋機制。這是一種讓您可以回報產品使用過程當中的體驗，以及 Mozilla 能如何改善這個體驗的單向溝通方式。此系統於不同的產品版本當中有多種不同的回報機制可用。"
 
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
@@ -319,8 +318,7 @@ msgstr "法律免責聲明與限制範圍"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
-"我們受 <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> 文件保護。"
+msgstr "我們受 <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> 文件保護。"
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -701,13 +699,23 @@ msgstr "若您的意見回饋與某個網站有關，您可以在此處列出:"
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "（非必要）勾選這裡，讓我們在有關於您的意見的相關後續處理情況時連絡您。您的電子郵件地址將會被保密。"
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+#, fuzzy
+msgid "Select A Product"
 msgstr "選擇要提供意見的產品"
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/picker.html:32
 msgid "No products available."
 msgstr "沒有產品可以使用。"
+
+#: fjord/feedback/templates/feedback/picker.html:35
+#, fuzzy
+msgid "Select a product to leave feedback for."
+msgstr "選擇要提供意見的產品"
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -730,14 +738,23 @@ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>
 msgstr "下載 <a href=\"%(download_url)s\">適合您的 Firefox 版本</a>。"
 
 #: fjord/feedback/templates/feedback/thanks.html:43
+msgid "Having problems? Get help."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "貢獻給 Mozilla。"
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+#: fjord/feedback/templates/feedback/thanks.html:53
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "了解您能如何 <a href=\"%(url)s\">讓 Firefox 與 Mozilla 變得更好</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "閱讀 Firefox 的最新消息。"
 
@@ -747,9 +764,7 @@ msgstr "未知產品"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-msgstr ""
-"Input 不知道「<em>%(product)s</em>」這個產品是什麼。若您覺得這是個錯誤，請 <a href=\"%(url)s\">回報 "
-"Bug</a> 讓我們知道。"
+msgstr "Input 不知道「<em>%(product)s</em>」這個產品是什麼。若您覺得這是個錯誤，請 <a href=\"%(url)s\">回報 Bug</a> 讓我們知道。"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."

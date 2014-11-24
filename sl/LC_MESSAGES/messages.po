@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: 2014-11-17 15:48+0000\n"
 "Last-Translator: Matjaž <m@owca.info>\n"
 "Language-Team: Slovenian\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1416239310.0\n"
 
@@ -32,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Rezultati iskanja v Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
 msgid "Happy"
 msgstr "Srečen"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
 msgid "Sad"
 msgstr "Žalosten"
 
@@ -299,17 +298,12 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input je Mozillin primarni mehanizem povratnih informacij za "
-"izdelke. Zamišljen je kot enosmerni način komunikacije za posredovanje vaših "
-"izkušenj z Mozillinimi izdelki, s spletom, po katerem brskate z njimi in o "
-"tem, kaj lahko Mozilla pri tem izboljša. Sistem je na voljo s široko paleto "
-"možnosti za objave in graditve izdelkov."
+"Firefox Input je Mozillin primarni mehanizem povratnih informacij za izdelke. Zamišljen je kot enosmerni način komunikacije za posredovanje vaših izkušenj z Mozillinimi izdelki, s spletom, po "
+"katerem brskate z njimi in o tem, kaj lahko Mozilla pri tem izboljša. Sistem je na voljo s široko paleto možnosti za objave in graditve izdelkov."
 
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Če nam želite poslati povratne informacije za vaš Mozillin izdelek, obiščite "
-"<a href=\"%(url)s\">stran za vnos povratnih informacij</a>!"
+msgstr "Če nam želite poslati povratne informacije za vaš Mozillin izdelek, obiščite <a href=\"%(url)s\">stran za vnos povratnih informacij</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -325,9 +319,7 @@ msgstr "Pravna obvestila in omejitve"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
-"Za nas velja dokument <a href=\"%(url)s\">Mozillina pravna obvestila in "
-"omejitve</a>."
+msgstr "Za nas velja dokument <a href=\"%(url)s\">Mozillina pravna obvestila in omejitve</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -335,20 +327,15 @@ msgstr "Politika zadrževanja podatkov"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
-"Naša politika zadrževanja podatkov zajema podatke, shranjene na tej strani:"
+msgstr "Naša politika zadrževanja podatkov zajema podatke, shranjene na tej strani:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
-"Podatke zadržimo za vedno, vendar so na javni pregledni plošči na voljo samo "
-"za zadnjih 6 mesecev."
+msgstr "Podatke zadržimo za vedno, vendar so na javni pregledni plošči na voljo samo za zadnjih 6 mesecev."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
-msgstr ""
-"E-poštne naslove, ki se nanašajo na povratne informacije, hranimo 6 mesecev, "
-"potem pa jih izbrišemo."
+msgstr "E-poštne naslove, ki se nanašajo na povratne informacije, hranimo 6 mesecev, potem pa jih izbrišemo."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -368,8 +355,7 @@ msgstr "Izvorna koda"
 
 #: fjord/base/templates/about.html:76
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
-"Kodo za stran Firefox Input lahko najdete na <a href=\"%(url)s\">GitHubu</a>!"
+msgstr "Kodo za stran Firefox Input lahko najdete na <a href=\"%(url)s\">GitHubu</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -421,10 +407,7 @@ msgstr "Vaše sporočilo ni prestalo varnostnega preverjanja na našem sistemu."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
-msgstr ""
-"Prepričajte se, da imate omogočene piškotke, v vašem brskalniku pritisnite "
-"gumb Nazaj, osvežite stran, izpolnite obrazec in poskusite s ponovnim "
-"pošiljanjem povratnih informacij."
+msgstr "Prepričajte se, da imate omogočene piškotke, v vašem brskalniku pritisnite gumb Nazaj, osvežite stran, izpolnite obrazec in poskusite s ponovnim pošiljanjem povratnih informacij."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -460,9 +443,7 @@ msgstr "Dobrodošli!"
 
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
-msgstr ""
-"Identiteta, s katero ste se prijavili v Persono, vas veže na vaš račun "
-"Input. Zapomnite si, katero identiteto Persona ste uporabili."
+msgstr "Identiteta, s katero ste se prijavili v Persono, vas veže na vaš račun Input. Zapomnite si, katero identiteto Persona ste uporabili."
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
@@ -599,9 +580,7 @@ msgstr "Vas lahko kontaktiramo?"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:135 fjord/feedback/templates/feedback/generic_feedback_form.html:80
 msgid "Check here to let us contact you to follow up on your feedback."
-msgstr ""
-"Označite to polje, da se lahko v zvezi z vašo povratno informacijo obrnemo "
-"na vas."
+msgstr "Označite to polje, da se lahko v zvezi z vašo povratno informacijo obrnemo na vas."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:141 fjord/feedback/templates/feedback/generic_feedback_form.html:86
 msgid "Email address (optional):"
@@ -705,45 +684,43 @@ msgstr "%(product)s me je razžalostil"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
-"Ali %(product)s ni izdelek, za katerega želite poslati povratne "
-"informacije?<br /> <a href=\"%(url)s\">Izberite drug izdelek</a>."
+msgstr "Ali %(product)s ni izdelek, za katerega želite poslati povratne informacije?<br /> <a href=\"%(url)s\">Izberite drug izdelek</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr ""
-"Opišite, kaj vam je bilo všeč. Vaše sporočilo bo vidno vsem, tako da "
-"poskrbite, da v njem ne bo osebnih podatkov, npr. e-poštnih naslovov, gesel "
-"in telefonskih številk."
+msgstr "Opišite, kaj vam je bilo všeč. Vaše sporočilo bo vidno vsem, tako da poskrbite, da v njem ne bo osebnih podatkov, npr. e-poštnih naslovov, gesel in telefonskih številk."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr ""
-"Spodaj kar najbolj podrobno opišite svojo težavo. Vaše sporočilo bo vidno "
-"vsem, tako da poskrbite, da v njem ne bo osebnih podatkov, npr. e-poštnih "
-"naslovov, gesel in telefonskih številk."
+msgstr "Spodaj kar najbolj podrobno opišite svojo težavo. Vaše sporočilo bo vidno vsem, tako da poskrbite, da v njem ne bo osebnih podatkov, npr. e-poštnih naslovov, gesel in telefonskih številk."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr ""
-"Če se vaše povratne informacije nanašajo na spletno stran, jo lahko navedete "
-"tukaj:"
+msgstr "Če se vaše povratne informacije nanašajo na spletno stran, jo lahko navedete tukaj:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr ""
-"(Neobvezno) Označite to polje, če se lahko v zvezi z vašimi povratnimi "
-"informacijami obrnemo na vas. Vaš e-poštni naslov bo ostal skrit."
+msgstr "(Neobvezno) Označite to polje, če se lahko v zvezi z vašimi povratnimi informacijami obrnemo na vas. Vaš e-poštni naslov bo ostal skrit."
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+#, fuzzy
+msgid "Select A Product"
 msgstr "Izberite izdelek, za katerega želite poslati povratne informacije"
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/picker.html:32
 msgid "No products available."
 msgstr "Ni razpoložljivih izdelkov."
+
+#: fjord/feedback/templates/feedback/picker.html:35
+#, fuzzy
+msgid "Select a product to leave feedback for."
+msgstr "Izberite izdelek, za katerega želite poslati povratne informacije"
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -766,14 +743,23 @@ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>
 msgstr "Prenesite <a href=\"%(download_url)s\">vašo najustreznejšo različico</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:43
+msgid "Having problems? Get help."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "Sodelujte v Mozilli."
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+#: fjord/feedback/templates/feedback/thanks.html:53
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Naučite se, kako lahko <a href=\"%(url)s\"> izboljšate Firefox in Mozillo</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "Poišči najnovejše novice o Firefoxu."
 
@@ -783,15 +769,11 @@ msgstr "Neznan izdelek"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-msgstr ""
-"Input ne prepozna izdelka <em>%(product)s</em>. Če mislite, da gre za "
-"napako, <a href=\"%(url)s\">objavite hrošča</a>."
+msgstr "Input ne prepozna izdelka <em>%(product)s</em>. Če mislite, da gre za napako, <a href=\"%(url)s\">objavite hrošča</a>."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr ""
-"Če ste tu po pomoti in želite poslati povratne informacije, lahko to storite "
-"<a href=\"%(url)s\">na našem obrazcu za povratne informacije</a>."
+msgstr "Če ste tu po pomoti in želite poslati povratne informacije, lahko to storite <a href=\"%(url)s\">na našem obrazcu za povratne informacije</a>."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"

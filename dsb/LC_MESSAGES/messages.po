@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-14 06:41-0700\n"
+"POT-Creation-Date: 2014-11-24 10:19-0700\n"
 "PO-Revision-Date: 2014-11-15 12:26+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1416054365.0\n"
 
@@ -32,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Pytańske wuslědki z Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:301
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
 msgid "Happy"
 msgstr "Glucny"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:302
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
 msgid "Sad"
 msgstr "Tužny"
 
@@ -252,8 +251,7 @@ msgstr "Njamaśo pśistup na toś ten bok."
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
-"Njamaśo pśistup na toś ten bok. Jolic maśo konto, wopytajśo se pśizjawiś."
+msgstr "Njamaśo pśistup na toś ten bok. Jolic maśo konto, wopytajśo se pśizjawiś."
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -300,18 +298,12 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input jo głowny komentarowy system Mozilla. Jo se ako jadnosměrowa "
-"komunikaciska móžnosć napórał, aby wy mógał swóje nazgónjenja z wužywanim "
-"našych produktow a z internetom, ako jen dožywjaśo, k wěsći daś, a což "
-"Mozilla móžo cyniś, aby dožywjenje pólěpšył. System stoj pśez šyroku "
-"wjelerakosć zapódawańskich mechanizmow a produktowych wersijow k "
-"dispoziciji."
+"Firefox Input jo głowny komentarowy system Mozilla. Jo se ako jadnosměrowa komunikaciska móžnosć napórał, aby wy mógał swóje nazgónjenja z wužywanim našych produktow a z internetom, ako jen "
+"dožywjaśo, k wěsći daś, a což Mozilla móžo cyniś, aby dožywjenje pólěpšył. System stoj pśez šyroku wjelerakosć zapódawańskich mechanizmow a produktowych wersijow k dispoziciji."
 
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Aby komentar za produkt Mozilla pósłał, woglědajśo se pšosym <a href=\"%"
-"(url)s\">bok za rozesćełanje komentarow</a>!"
+msgstr "Aby komentar za produkt Mozilla pósłał, woglědajśo se pšosym <a href=\"%(url)s\">bok za rozesćełanje komentarow</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -327,9 +319,7 @@ msgstr "Pšawniske rukowańske wuzamknjenja a wobgranicowanja"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
-"Pódlažymy dokumentoju <a href=\"%(url)s\">pšawniske rukowańske wuzamknjenja a "
-"wobgranicowanja</a>."
+msgstr "Pódlažymy dokumentoju <a href=\"%(url)s\">pšawniske rukowańske wuzamknjenja a wobgranicowanja</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -337,21 +327,15 @@ msgstr "Pšawidła k składowanjeju datow"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
-"Mamy pšawidła k składowanjeju datow, kótarež wobjadnaju daty, kótarež su se "
-"pśez toś to websedło składli."
+msgstr "Mamy pšawidła k składowanjeju datow, kótarež wobjadnaju daty, kótarež su se pśez toś to websedło składli."
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
-"Wobchowajomy komentarowe daty na pśecej, ale jano daty zachadnych 6 mjasecow "
-"su zjawnje w pśeglěźe k dispoziciji."
+msgstr "Wobchowajomy komentarowe daty na pśecej, ale jano daty zachadnych 6 mjasecow su zjawnje w pśeglěźe k dispoziciji."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
-msgstr ""
-"Wobchowajomy zwisk e-mailowych adresow z komentarowymi datami za 6 mjasecow "
-"a wulašujomy je pótom."
+msgstr "Wobchowajomy zwisk e-mailowych adresow z komentarowymi datami za 6 mjasecow a wulašujomy je pótom."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -371,9 +355,7 @@ msgstr "Žrědłowy tekst"
 
 #: fjord/base/templates/about.html:76
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
-"Žrědłowy tekst za websedło Firefox Input dajo se <a href=\"%(url)s\">na GitHub "
-"namakaś</a>!"
+msgstr "Žrědłowy tekst za websedło Firefox Input dajo se <a href=\"%(url)s\">na GitHub namakaś</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -425,10 +407,7 @@ msgstr "Wašo zapódaśe njejo wěstotnu kontrolu na našom systemje wobstało."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
-msgstr ""
-"Pšosym zawěsććo, až sćo cookije zmóžnił, klikniśo na tłocašk Slědk w swójom "
-"wobglědowaku, aktualizěrujśo bok, wupołniśo formular a wopytajśo, swój "
-"komentar znowego wótpósłaś."
+msgstr "Pšosym zawěsććo, až sćo cookije zmóžnił, klikniśo na tłocašk Slědk w swójom wobglědowaku, aktualizěrujśo bok, wupołniśo formular a wopytajśo, swój komentar znowego wótpósłaś."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -456,9 +435,7 @@ msgstr "Dalej"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
-"Njejo se wam raźiło, se z Persona awtentificěrowaś. Pšosym wopytajśo hyšći "
-"raz."
+msgstr "Njejo se wam raźiło, se z Persona awtentificěrowaś. Pšosym wopytajśo hyšći raz."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -466,10 +443,7 @@ msgstr "Witajśo!"
 
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
-msgstr ""
-"Identita, z kótarejuž sćo se rowno pla Persona pśizjawił, zwězujo waš z "
-"wašym kontom na Input. Pšosym markujśo se, kótaru identitu Persona sćo "
-"wužył."
+msgstr "Identita, z kótarejuž sćo se rowno pla Persona pśizjawił, zwězujo waš z wašym kontom na Input. Pšosym markujśo se, kótaru identitu Persona sćo wužył."
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
@@ -710,26 +684,21 @@ msgstr "%(product)s mě tužy"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
-"Njejo %(product)s produkt, ku kótaremuž cośo swójo měnjenje groniś?<br /><a "
-"href=\"%(url)s\">Wubjeŕśo drugi produkt</a>."
+msgstr "Njejo %(product)s produkt, ku kótaremuž cośo swójo měnjenje groniś?<br /><a href=\"%(url)s\">Wubjeŕśo drugi produkt</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr ""
-"Pšosym wopišćo, což wam se spódoba. Wopśimjeśe wašogo komentar buźo zjawnje "
-"widobne, pótakem njepódawajśo pšosym wósobinske informacije ako swóju "
-"e-mailowu adresu, swóje gronidła abo swój telefonowy numer."
+"Pšosym wopišćo, což wam se spódoba. Wopśimjeśe wašogo komentar buźo zjawnje widobne, pótakem njepódawajśo pšosym wósobinske informacije ako swóju e-mailowu adresu, swóje gronidła abo swój "
+"telefonowy numer."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
 msgstr ""
-"Pšosym wopišćo dołojce swój problem tak dokradnje ako móžno. Wopśimjeśe "
-"wašogo komentar buźo zjawnje widobne, pótakem njepódawajśo pšosym wósobinske "
-"informacije ako swóju e-mailowu adresu, swóje gronidła abo swój telefonowy "
-"numer."
+"Pšosym wopišćo dołojce swój problem tak dokradnje ako móžno. Wopśimjeśe wašogo komentar buźo zjawnje widobne, pótakem njepódawajśo pšosym wósobinske informacije ako swóju e-mailowu adresu, swóje "
+"gronidła abo swój telefonowy numer."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
 msgid "If your feedback is related to a website, you can include it here:"
@@ -737,18 +706,25 @@ msgstr "Jolic waš komentar póśěgujo se na websedło, móžośo jo how póda�
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr ""
-"(Na žycenje) Aktiwěrujśo toś ten kontrolny kašćik, aby my mógli se "
-"nastupajujucy waš komentar z wami do zwiska stajiś. Waša e-mailowa adresa "
-"wobchada se z dowěrliwosću."
+msgstr "(Na žycenje) Aktiwěrujśo toś ten kontrolny kašćik, aby my mógli se nastupajujucy waš komentar z wami do zwiska stajiś. Waša e-mailowa adresa wobchada se z dowěrliwosću."
 
-#: fjord/feedback/templates/feedback/picker.html:19
-msgid "Select A Product To Leave Feedback"
+#: fjord/feedback/templates/feedback/picker.html:4
+#, fuzzy
+msgid "Select A Product"
 msgstr "Wubjeŕśo produkt, kótaryž cośo komentěrowaś"
 
-#: fjord/feedback/templates/feedback/picker.html:24
+#: fjord/feedback/templates/feedback/picker.html:23
+msgid "Select a product"
+msgstr ""
+
+#: fjord/feedback/templates/feedback/picker.html:32
 msgid "No products available."
 msgstr "Žedne produkty k dispoziciji."
+
+#: fjord/feedback/templates/feedback/picker.html:35
+#, fuzzy
+msgid "Select a product to leave feedback for."
+msgstr "Wubjeŕśo produkt, kótaryž cośo komentěrowaś"
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -771,14 +747,23 @@ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>
 msgstr "Ześěgniśo <a href=\"%(download_url)s\">wersiju, kótaraž maka se k wam</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:43
+msgid "Having problems? Get help."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:45
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "Cyńśo pla Mozilla sobu."
 
-#: fjord/feedback/templates/feedback/thanks.html:45
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
+#: fjord/feedback/templates/feedback/thanks.html:53
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Zgóńśo, kak móžośo <a href=\"%(url)s\">Firefox a Mozilla pólěpšyś</a>"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "Dostańśo nejnowše powěsći wó Firefox."
 
@@ -788,15 +773,11 @@ msgstr "Njeznaty produkt"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-msgstr ""
-"Input njeznajo \"<em>%(product)s</em>\". Jolic maśo to za zmólku <a href=\"%"
-"(url)s\">pišćo pšosym rozpšawu zmólki</a>."
+msgstr "Input njeznajo \"<em>%(product)s</em>\". Jolic maśo to za zmólku <a href=\"%(url)s\">pišćo pšosym rozpšawu zmólki</a>."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr ""
-"Jolic sćo se z pśigódy sem dostał a cośo swój komentar zawóstajiś, móžośo to "
-"<a href=\"%(url)s\">na našom komentarowem formularje</a> cyniś."
+msgstr "Jolic sćo se z pśigódy sem dostał a cośo swój komentar zawóstajiś, móžośo to <a href=\"%(url)s\">na našom komentarowem formularje</a> cyniś."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
