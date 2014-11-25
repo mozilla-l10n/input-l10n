@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-24 10:19-0700\n"
-"PO-Revision-Date: 2014-03-21 14:31+0000\n"
-"Last-Translator: Branislav <sektormaster@atlas.sk>\n"
+"PO-Revision-Date: 2014-11-25 09:21+0000\n"
+"Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1395412263.0\n"
+"X-POOTLE-MTIME: 1416907263.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -158,57 +158,52 @@ msgstr "Nástenka aktuálne nie je dostupná. Skúste to o 10 minút."
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
-msgstr ""
+msgstr "Kategória"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133
 msgid "None"
-msgstr ""
+msgstr "Žiadny"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: fjord/analytics/templates/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "Preložiť!"
+msgstr "Preložené"
 
 #: fjord/analytics/templates/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "Preložiť správu"
+msgstr "Preložiť (strojovo)"
 
 #: fjord/analytics/templates/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "Preložiť!"
+msgstr "Preložiť (človek)"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
-msgstr ""
+msgstr "Vytvorené"
 
 #: fjord/analytics/templates/analytics/response.html:119
-#, fuzzy
 msgid "Channel"
-msgstr "Kanál Beta"
+msgstr "Kanál"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "URL adresa domény"
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
-msgstr "Zdrojový kód"
+msgstr "Zdroj"
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "Kampaň"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Full URL"
-msgstr ""
+msgstr "Celá URL adresa"
 
 #: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
@@ -223,22 +218,20 @@ msgid "Device"
 msgstr "Zariadenie"
 
 #: fjord/analytics/templates/analytics/response.html:155
-#, fuzzy
 msgid "User agent"
-msgstr "Reťazec User Agent"
+msgstr "Identifikácia prehliadača"
 
 #: fjord/analytics/templates/analytics/response.html:159
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: fjord/analytics/templates/analytics/response.html:167
-#, fuzzy
 msgid "API version"
-msgstr "Verzia"
+msgstr "Verzia API"
 
 #: fjord/analytics/templates/analytics/response.html:185
 msgid "Context"
-msgstr ""
+msgstr "Kontext"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -246,19 +239,19 @@ msgstr "Nástenka zatiaľ nie je dostupná pre mobilné zariadenia."
 
 #: fjord/base/models.py:57
 msgid "JSON Object"
-msgstr ""
+msgstr "Objekt JSON"
 
 #: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "Zamietnuté"
 
 #: fjord/base/templates/403.html:12
 msgid "You do not have access to this page."
-msgstr ""
+msgstr "Na túto stránku nemáte prístup."
 
 #: fjord/base/templates/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
-msgstr ""
+msgstr "Na túto stránku nemáte prístup. Ak máte účet skúste sa prihlásiť."
 
 #: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
@@ -459,7 +452,7 @@ msgstr ""
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
-msgstr ""
+msgstr "Pokračovať"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -503,11 +496,11 @@ msgstr "Čierna Hora"
 
 #: fjord/feedback/config.py:20
 msgid "Mexico"
-msgstr ""
+msgstr "Mexiko"
 
 #: fjord/feedback/config.py:21
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
@@ -783,9 +776,8 @@ msgid "Find the latest news about Firefox."
 msgstr "Najnovšie správy o Firefoxe."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
 msgid "Unknown product"
-msgstr "Neznáme"
+msgstr "Neznámy produkt"
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
