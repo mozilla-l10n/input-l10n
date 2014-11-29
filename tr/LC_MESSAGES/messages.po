@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-24 10:19-0700\n"
-"PO-Revision-Date: 2014-11-14 07:47+0000\n"
+"PO-Revision-Date: 2014-11-29 10:54+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1415951220.0\n"
+"X-POOTLE-MTIME: 1417258497.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -61,9 +61,8 @@ msgid "Version"
 msgstr "Sürüm"
 
 #: fjord/analytics/views.py:370
-#, fuzzy
 msgid "Select product to see version breakdown"
-msgstr "Sürüm yüzünü görmek istediğiniz ürünü seçin"
+msgstr "Sürüm dağılımını görmek için ürün seçin"
 
 #: fjord/analytics/views.py:378 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
@@ -324,7 +323,7 @@ msgstr ""
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Veri Saklama İlkeleri"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
@@ -447,9 +446,8 @@ msgid "The identity you just logged in to Persona with ties you to your account 
 msgstr ""
 
 #: fjord/base/templates/includes/new_user_text.html:10
-#, fuzzy
 msgid "Continue"
-msgstr "Bağlam"
+msgstr "Devam et"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -709,22 +707,20 @@ msgid "(Optional) Check here to let us contact you to follow up on your feedback
 msgstr "(Tercihe bağlı) Geri bildiriminizle ilgili olarak sizinle iletişime geçmemize izin veriyorsanız burayı işaretleyin. E-posta adresiniz gizli tutulacaktır."
 
 #: fjord/feedback/templates/feedback/picker.html:4
-#, fuzzy
 msgid "Select A Product"
-msgstr "Geri bildirimde bulunmak istediğiniz ürünü seçin"
+msgstr "Bir ürün seçin"
 
 #: fjord/feedback/templates/feedback/picker.html:23
 msgid "Select a product"
-msgstr ""
+msgstr "Bir ürün seçin"
 
 #: fjord/feedback/templates/feedback/picker.html:32
 msgid "No products available."
 msgstr "Ürün yok."
 
 #: fjord/feedback/templates/feedback/picker.html:35
-#, fuzzy
 msgid "Select a product to leave feedback for."
-msgstr "Geri bildirimde bulunmak istediğiniz ürünü seçin"
+msgstr "Geri bildirimde bulunmak istediğiniz ürünü seçin."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -748,20 +744,23 @@ msgstr "<a href=\"%(download_url)s\">Size en uygun sürümü</a> indirin."
 
 #: fjord/feedback/templates/feedback/thanks.html:43
 msgid "Having problems? Get help."
-msgstr ""
+msgstr "Sorun mu yaşıyorsunuz? Yardım alın."
 
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr ""
+"Yardım alabileceğiniz ve sorularınıza yanıt bulabileceğiniz <a href=\"%"
+"(url)s\">destek forumumuza gidin</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
 msgstr "Mozilla'ya katkıda bulunun."
 
 #: fjord/feedback/templates/feedback/thanks.html:53
-#, fuzzy
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
-msgstr "<a href=\"%(url)s\">Firefox'u ve Mozilla'yı nasıl iyileştirebileceğinizi</a> öğrenin"
+msgstr ""
+"<a href=\"%(url)s\">Firefox'u ve Mozilla'yı nasıl iyileştirebileceğinizi</a> "
+"öğrenin."
 
 #: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
@@ -774,10 +773,15 @@ msgstr "Bilinmeyen ürün"
 #: fjord/feedback/templates/feedback/unknownproduct.html:18
 msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
 msgstr ""
+"Input'un \"<em>%(product)s</em>\" hakkında bilgisi yok. Bunun bir hata "
+"olduğunu düşünüyorsanız lütfen <a href=\"%(url)s\">bug raporu yazarak</a> bize "
+"bildirin."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
 msgstr ""
+"Buraya yanlışlıkla geldiyseniz ve geri bildirim yazmak istiyorsanız <a "
+"href=\"%(url)s\">geri bildirim formumuza</a> gidebilirsiniz."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
