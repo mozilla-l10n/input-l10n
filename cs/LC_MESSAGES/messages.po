@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-24 10:19-0700\n"
-"PO-Revision-Date: 2014-11-27 10:53+0000\n"
+"PO-Revision-Date: 2014-11-29 11:33+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1417085583.0\n"
+"X-POOTLE-MTIME: 1417260817.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -320,18 +320,24 @@ msgstr "Právní prohlášení a omezení"
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
+"Na tuto službu se vztahují <a href=\"%(url)s\">Právní podmínky Mozilly a "
+"omezení dle tohoto dokumentu</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Uchovávání údajů"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Máme také podmínky pro uchovávání údajů, které jsou na táto stránce "
+"ukládány:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr ""
+"Data z reakcí uchováváme natrvalo, na veřejné nástěnce jsou ale dostupná "
+"pouze za posledních 6 měsíců."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
@@ -773,9 +779,10 @@ msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is a
 msgstr "Input nezná produkt \"<em>%(product)s</em>\". Pokud si myslíte, že jde o chybu, <a href=\"%(url)s\">dejte nám prosím vědět</a>."
 
 #: fjord/feedback/templates/feedback/unknownproduct.html:25
-#, fuzzy
 msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr "Pokud se chcete podívat, kam byla vaše reakce zaslána, podívejte se na <a href=\"%(url)s\">Firefox Input Dashboard</a>."
+msgstr ""
+"Pokud jste zde omylem a chcete zanechat zpětnou vazbu, můžete tak učinit <a "
+"href=\"%(url)s\">pomocí našeho formuláře</a>."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
