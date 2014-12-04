@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-24 10:19-0700\n"
-"PO-Revision-Date: 2014-12-03 17:15+0000\n"
+"PO-Revision-Date: 2014-12-04 11:04+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1417626940.0\n"
+"X-POOTLE-MTIME: 1417691063.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -306,9 +306,10 @@ msgstr ""
 "zostaveniam každého produktu."
 
 #: fjord/base/templates/about.html:21
-#, fuzzy
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "Ak chcete odoslať názor na vašu verziu Firefoxu, prejdite na <a href=\"%(url)s\">stránku odosielania názorov</a>."
+msgstr ""
+"Ak chcete odoslať názor k produktu Mozilly, prejdite na <a href=\"%"
+"(url)s\">stránku odosielania názorov</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -316,31 +317,38 @@ msgstr "Zásady ochrany súkromia"
 
 #: fjord/base/templates/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
-msgstr ""
+msgstr "Dodržujeme <a href=\"%(url)s\">Zásady ochrany súkromia Mozilly</a>."
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Právne prehlásenia a obmedzenia"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
+"Na túto službu sa vzťahujú <a href=\"%(url)s\">Právne podmienky Mozilly a "
+"obmedzenia podľa tohoto dokumentu</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Zásady uchovávania údajov"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Máme tiež zásady pre uchovávanie údajov, ktoré sú na tejto stránke ukladané:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr ""
+"Údaje týkajúce sa reakcií uchovávame natrvalo, ale na verejnej nástenke sú "
+"dostupné údaje len za posledných 6 mesiacov."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
 msgstr ""
+"E-mailové adresy priradené k reakciám uchovávame 6 mesiacov a následne sú "
+"odstránené."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -359,9 +367,10 @@ msgid "Source Code"
 msgstr "Zdrojový kód"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "Zdrojový kód webovej aplikácie Firefox Input je možné nájsť v <a href=\"%(url)s\">repozitároch GitHub</a>."
+msgstr ""
+"Zdrojový kód webovej aplikácie Firefox Input je možné nájsť v <a href=\"%"
+"(url)s\">repozitároch servera GitHub</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -381,7 +390,7 @@ msgstr "Poskytnúť spätnú väzbu"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "Analytika"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -396,26 +405,27 @@ msgid "Sign in"
 msgstr "Prihlásiť"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "Prihlásenie zlyhalo"
+msgstr "Zlyhanie CSRF"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Prihlásenie zlyhalo"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
-#, fuzzy
 msgid "Welcome to Input!"
-msgstr "Vitajte!"
+msgstr "Vitajte v Input!"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "Vaše odoslanie neprešlo bezpečnostnou kontrolou nášho systému."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr ""
+"Uistite sa prosím, či máte povolené cookies. Následne kliknite na tlačidlo "
+"Späť vo vašom prehliadači, obnovte stránku, vyplňte formulár a pokúste sa "
+"reakciu odoslať znova."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -444,6 +454,7 @@ msgstr "Prejsť"
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
 msgstr ""
+"Overenie pomocou služby Persona nebolo úspešné. Vyskúšajte to prosím znovu."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -452,6 +463,9 @@ msgstr "Vitajte!"
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
+"Účet Persona, cez ktorý ste sa práve prihlásili vás spája s účtom cez ktorý "
+"máte povolenie vstúpiť sem na Input. Zapamätajte si prosím, ktorý účet ste "
+"použili."
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
@@ -507,7 +521,7 @@ msgstr "Peru"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguaj"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -675,49 +689,54 @@ msgid "While your feedback will be publicly visible, email addresses are kept pr
 msgstr "Aj keď bude vaša správa zobrazená verejne, e-mailová adresa ostane vždy súkromná. Rozumieme, že ochrana Vášho súkromia je veľmi dôležitá."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
-#, fuzzy
 msgid "{product} feedback"
-msgstr "Odoslať názor"
+msgstr "Odoslať názor k aplikácií {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Aký máte pocit z produktu %(product)s?"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "Firefox mi zlepšil náladu..."
+msgstr "Som šťastný, keď používam %(product)s"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "%(count)s správa"
+msgstr "%(product)s ma sklamal"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"Nie je %(product)s produktom, pre ktorý chcete spätnú väzbu odoslať?<br /> "
+"<a href=\"%(url)s\">Vyberte iný</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
-#, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr "Obsah vašej reakcie bude verejne prístupný, takže neuvádzajte žiadne osobné informácie."
+msgstr ""
+"Popíšte prosím, čo potrebujete. Obsah vašej reakcie bude verejne prístupný, "
+"takže neuvádzajte žiadne osobné informácie ako sú e-mailová adresa, heslá "
+"ani telefónne číslo."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
-#, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr "Obsah vašej reakcie bude verejne prístupný, takže neuvádzajte žiadne osobné informácie."
+msgstr ""
+"Popíšte prosím svoj problém čo najpodrobnejšie ako len dokážete. Obsah vašej "
+"reakcie bude verejne prístupný, takže neuvádzajte žiadne osobné informácie "
+"ako sú e-mailová adresa, heslá ani telefónne číslo."
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr "Ak sa Váš komentár týka nejakej webovej stránky, môžete ju zadať tu."
+msgstr ""
+"Ak sa Váš komentár týka nejakej konkrétnej webovej stránky, môžete ju zadať "
+"tu:"
 
 #: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "Označte, ak si prajete, aby sme Vás mohli kontaktovať."
+msgstr ""
+"(Nepovinné) Označte, ak si želáte, aby sme Vás mohli kontaktovať. Vaša "
+"e-mailová adresa ostane skrytá."
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
@@ -733,7 +752,7 @@ msgstr "Žiadne produkty nie sú dostupné."
 
 #: fjord/feedback/templates/feedback/picker.html:35
 msgid "Select a product to leave feedback for."
-msgstr ""
+msgstr "Vyberte produkt pre odoslanie spätnej reakcie."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -762,6 +781,8 @@ msgstr "Narazili ste na problém? Tu je pomoc."
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr ""
+"Prejdite na naše fórum podpory, kde vám <a href=\"%(url)s\">pomôžeme a "
+"odpovieme</a> na vaše otázky."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
