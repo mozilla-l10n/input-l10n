@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-24 10:19-0700\n"
-"PO-Revision-Date: 2014-11-29 10:54+0000\n"
+"PO-Revision-Date: 2014-12-18 08:08+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1417258497.0\n"
+"X-POOTLE-MTIME: 1418890085.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -163,7 +163,7 @@ msgstr "Kategori"
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133
 msgid "None"
-msgstr ""
+msgstr "Hiçbiri"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
@@ -320,6 +320,8 @@ msgstr "Yasal uyarılar ve kısıtlamalar"
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
+"<a href=\"%(url)s\">Mozilla yasal uyarıları ve kısıtlamaları</a> belgesi "
+"kapsamındayız."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -327,15 +329,19 @@ msgstr "Veri Saklama İlkeleri"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
+msgstr "Bu sitede depolanan verileri kapsayan bir veri saklama ilkemiz var:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr ""
+"Geri bildirim verilerini sonsuza dek saklıyoruz ama yalnızca son 6 ayı "
+"herkese açın panoda yayımlıyoruz."
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
 msgstr ""
+"Geri bildirim verileriyle ilişkili e-posta adreslerini 6 ay sakladıktan "
+"sonra siliyoruz."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -375,7 +381,7 @@ msgstr "Geri bildirim gönder"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "İstatistikler"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -408,6 +414,9 @@ msgstr "Gönderiniz sistemdeki bir güvenlik kontrolünden geçemedi."
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr ""
+"Lütfen çerezlerin açık olduğundan emin olun, tarayıcınızdaki Geri düğmesine "
+"tıklayın, sayfayı tazeleyin, formu doldurun ve geri bildiriminizi yeniden "
+"göndermeyi deneyin."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -435,7 +444,7 @@ msgstr "Git:"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Persona ile kimlik doğrulama başarısız oldu. Lütfen yeniden deneyin."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -444,6 +453,8 @@ msgstr "Hoş geldiniz!"
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
+"Az önce Persona ile giriş yaptığınız kimlik sizi Input hesabınıza bağlıyor. "
+"Lütfen kullandığınız Persona kimliğini unutmayın."
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
