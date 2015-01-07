@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-24 10:19-0700\n"
+"POT-Creation-Date: 2015-01-07 11:58-0700\n"
 "PO-Revision-Date: 2011-05-23 03:19+0200\n"
 "Last-Translator: Αλέξανδρος Μιόγλου <alexandros@mioglou.me>\n"
 "Language-Team: LANGUAGE <fiotakis@otenet.gr>\n"
@@ -33,12 +33,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Αποτελέσματα αναζήτησης στο Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:314
 msgid "Happy"
 msgstr "ευτυχισμένος"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:315
 msgid "Sad"
 msgstr "λυπημένος"
 
@@ -164,7 +164,8 @@ msgid "Category"
 msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
-#: fjord/analytics/templates/analytics/response.html:133
+#: fjord/analytics/templates/analytics/response.html:133 fjord/analytics/templates/analytics/response.html:137 fjord/analytics/templates/analytics/response.html:141
+#: fjord/analytics/templates/analytics/response.html:145
 msgid "None"
 msgstr ""
 
@@ -209,37 +210,57 @@ msgstr "Πηγαίος κώδικας"
 msgid "Campaign"
 msgstr ""
 
+#: fjord/analytics/templates/analytics/response.html:135
+msgid "Browser"
+msgstr ""
+
 #: fjord/analytics/templates/analytics/response.html:139
+msgid "Browser Ver."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:143
+msgid "Browser Plat."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
+#: fjord/analytics/templates/analytics/response.html:155 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
 msgstr "Χώρα"
 
-#: fjord/analytics/templates/analytics/response.html:147
+#: fjord/analytics/templates/analytics/response.html:159
 msgid "Manufacturer"
 msgstr "Κατασκευαστής"
 
-#: fjord/analytics/templates/analytics/response.html:151 fjord/feedback/templates/feedback/fxos_feedback.html:74
+#: fjord/analytics/templates/analytics/response.html:163 fjord/feedback/templates/feedback/fxos_feedback.html:74
 msgid "Device"
 msgstr "Συσκευή"
 
-#: fjord/analytics/templates/analytics/response.html:155
+#: fjord/analytics/templates/analytics/response.html:167
 #, fuzzy
 msgid "User agent"
 msgstr "User Agent"
 
-#: fjord/analytics/templates/analytics/response.html:159
+#: fjord/analytics/templates/analytics/response.html:171
 msgid "Email"
 msgstr ""
 
-#: fjord/analytics/templates/analytics/response.html:167
+#: fjord/analytics/templates/analytics/response.html:179
+msgid "Browser data"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:182
+msgid "yes"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:187
 #, fuzzy
 msgid "API version"
 msgstr "Έκδοση:"
 
-#: fjord/analytics/templates/analytics/response.html:185
+#: fjord/analytics/templates/analytics/response.html:205
 msgid "Context"
 msgstr ""
 
@@ -348,7 +369,7 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr ""
 
 #: fjord/base/templates/about.html:57
-msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
+msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
 msgstr ""
 
 # Xωρίς τόνους λόγω του text-transform: uppercase
@@ -537,11 +558,11 @@ msgstr "Σας ευχαριστούμε που θέλετε να μας προσ
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "Για να το κάνετε αυτό, απλά πηγαίνετε στη σελίδα λήψεων και εγκαταστήστε/ενημερώστε την <a href=\"%(url)s\">πιο πρόσφατη έκδοση του Firefox!</a>"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:28 fjord/feedback/templates/feedback/generic_feedback_form.html:6
+#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:19
 msgid "Submit Your Feedback"
 msgstr "Υποβολή σχολίου"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:132
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
 msgid "Submit feedback"
 msgstr "Υποβολή σχολίου"
 
@@ -570,7 +591,6 @@ msgid "Other"
 msgstr "Άλλη"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:65 fjord/feedback/templates/feedback/fxos_feedback.html:88 fjord/feedback/templates/feedback/fxos_feedback.html:119
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:66
 msgid "Next"
 msgstr "Επόμενο"
 
@@ -578,11 +598,11 @@ msgstr "Επόμενο"
 msgid "What Firefox OS device are you using?"
 msgstr "Ποια συσκευή Firefox OS χρησιμοποιείτε;"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback_form.html:32 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:77
+#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback.html:107
 msgid "Details"
 msgstr "Λεπτομέρειες"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:102 fjord/feedback/templates/feedback/generic_feedback_form.html:47
+#: fjord/feedback/templates/feedback/fxos_feedback.html:102
 msgid "Please describe what you liked."
 msgstr "Παρακαλούμε περιγράψτε τι σας άρεσε."
 
@@ -590,19 +610,19 @@ msgstr "Παρακαλούμε περιγράψτε τι σας άρεσε."
 msgid "Please describe your problem below and be as specific as you can."
 msgstr "Παρακαλούμε περιγράψτε το πρόβλημά σας παρακάτω με όσο πιο πολλές λεπτομέρειες."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:114 fjord/feedback/templates/feedback/generic_feedback_form.html:38
+#: fjord/feedback/templates/feedback/fxos_feedback.html:114
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr "Το περιεχόμενο των σχολίων σας θα είναι δημόσια διαθέσιμο, γι 'αυτό παρακαλούμε να βεβαιωθείτε πως δεν περιλαμβάνει προσωπικά δεδομένα."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:127 fjord/feedback/templates/feedback/generic_feedback_form.html:73
+#: fjord/feedback/templates/feedback/fxos_feedback.html:127
 msgid "Can we contact you?"
 msgstr "Μπορούμε να επικοινωνήσουμε μαζί σας;"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:135 fjord/feedback/templates/feedback/generic_feedback_form.html:80
+#: fjord/feedback/templates/feedback/fxos_feedback.html:135
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr "Επιλέξτε εδώ για να μας επιτρέψετε να επικοινωνήσουμε μαζί σας σχετικά με τα σχόλιά σας."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:141 fjord/feedback/templates/feedback/generic_feedback_form.html:86
+#: fjord/feedback/templates/feedback/fxos_feedback.html:141
 msgid "Email address (optional):"
 msgstr "E-mail (προαιρετικό):"
 
@@ -614,7 +634,7 @@ msgstr "Παρακαλούμε εισάγετε μια έγκυρη διεύθυ
 msgid "Don't worry, your email will always be kept private."
 msgstr "Μην ανησυχείτε, το email σας θα μείνει πάντα ιδιωτικό."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:155 fjord/feedback/templates/feedback/generic_feedback_form.html:101
+#: fjord/feedback/templates/feedback/fxos_feedback.html:155
 msgid "Send Feedback"
 msgstr "Αποστολή σχολίου"
 
@@ -654,79 +674,59 @@ msgstr "Ακύρωση"
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "Έχετε σχόλια που δεν έχουν υποβληθεί. Θέλετε να δοκιμάσετε ξανά να τα υποβάλετε;"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:11
-msgid "Your feedback helps us improve Firefox."
-msgstr "Τα σχόλιά σας μας βοηθούν να βελτιώσουμε τον Firefox."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:13
-msgid "Firefox made me happy"
-msgstr "Ο Firefox με ευχαριστεί..."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:14
-msgid "Firefox made me sad"
-msgstr "Ο Firefox με δυσαρεστεί..."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:20
-msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Αν χρειάζεστε βοήθεια ή έχετε κάποιο πρόβλημα με τον Firefox, επισκεφθείτε τις σελίδες <a href=\"%(support_url)s\">υποστήριξης του Firefox</a>."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:50
-msgid "Please describe your problem below."
-msgstr "Παρακαλούμε περιγράψτε το πρόβλημα σας παρακάτω."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:51
-msgid "Please be as specific as you can."
-msgstr "Παρακαλούμε να είστε όσο πιο συγκεκριμένοι μπορείτε ."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:60
-msgid "If your feedback is related to a website, you can include it here."
-msgstr "Εάν τα σχόλιά σας σχετίζονται με μια ιστοσελίδα, μπορείτε να τη συμπεριλάβετε εδώ."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:93
-msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-msgstr "Αν και τα σχόλιά σας θα είναι δημόσια διαθέσιμα, οι διευθύνσεις ηλεκτρονικού ταχυδρομείου είναι εμπιστευτικές. Σεβόμαστε τα προσωπικά σας δεδομένα."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
+#: fjord/feedback/templates/feedback/generic_feedback.html:44
 #, fuzzy
 msgid "{product} feedback"
 msgstr "Υποβολή σχολίου"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
+#: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
+#: fjord/feedback/templates/feedback/generic_feedback.html:72
 #, fuzzy
 msgid "%(product)s makes me happy"
 msgstr "Ο  Firefox με ευχαριστεί..."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
+#: fjord/feedback/templates/feedback/generic_feedback.html:89
 #, fuzzy
 msgid "%(product)s makes me sad"
 msgstr "Ο Firefox με δυσαρεστεί..."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
+#: fjord/feedback/templates/feedback/generic_feedback.html:98
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
+#: fjord/feedback/templates/feedback/generic_feedback.html:112
 #, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "Το περιεχόμενο των σχολίων σας θα είναι δημόσια διαθέσιμο, γι 'αυτό παρακαλούμε να βεβαιωθείτε πως δεν περιλαμβάνει προσωπικά δεδομένα."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
+#: fjord/feedback/templates/feedback/generic_feedback.html:120
 #, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
 msgstr "Το περιεχόμενο των σχολίων σας θα είναι δημόσια διαθέσιμο, γι 'αυτό παρακαλούμε να βεβαιωθείτε πως δεν περιλαμβάνει προσωπικά δεδομένα."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
+#: fjord/feedback/templates/feedback/generic_feedback.html:137
 #, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Εάν τα σχόλιά σας σχετίζονται με μια ιστοσελίδα, μπορείτε να τη συμπεριλάβετε εδώ."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
+#: fjord/feedback/templates/feedback/generic_feedback.html:155
+msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:165
+msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:183
 #, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "Επιλέξτε εδώ για να μας επιτρέψετε να επικοινωνήσουμε μαζί σας σχετικά με τα σχόλιά σας."
@@ -746,7 +746,7 @@ msgstr ""
 msgid "No products available."
 msgstr "Δεν είναι διαθέσιμη η αναζήτηση"
 
-#: fjord/feedback/templates/feedback/picker.html:35
+#: fjord/feedback/templates/feedback/picker.html:43
 msgid "Select a product to leave feedback for."
 msgstr ""
 
@@ -791,22 +791,37 @@ msgstr "Μάθετε πώς μπορείτε να <a href=\"%(url)s\">κάνετ
 msgid "Find the latest news about Firefox."
 msgstr "Δείτε τα πιο πρόσφατα νέα του Firefox:"
 
-#: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-#, fuzzy
-msgid "Unknown product"
-msgstr "Άγνωστη"
-
-#: fjord/feedback/templates/feedback/unknownproduct.html:18
-msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-msgstr ""
-
-#: fjord/feedback/templates/feedback/unknownproduct.html:25
-msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr ""
-
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Λήψη του Firefox"
+
+#~ msgid "Your feedback helps us improve Firefox."
+#~ msgstr "Τα σχόλιά σας μας βοηθούν να βελτιώσουμε τον Firefox."
+
+#~ msgid "Firefox made me happy"
+#~ msgstr "Ο Firefox με ευχαριστεί..."
+
+#~ msgid "Firefox made me sad"
+#~ msgstr "Ο Firefox με δυσαρεστεί..."
+
+#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+#~ msgstr "Αν χρειάζεστε βοήθεια ή έχετε κάποιο πρόβλημα με τον Firefox, επισκεφθείτε τις σελίδες <a href=\"%(support_url)s\">υποστήριξης του Firefox</a>."
+
+#~ msgid "Please describe your problem below."
+#~ msgstr "Παρακαλούμε περιγράψτε το πρόβλημα σας παρακάτω."
+
+#~ msgid "Please be as specific as you can."
+#~ msgstr "Παρακαλούμε να είστε όσο πιο συγκεκριμένοι μπορείτε ."
+
+#~ msgid "If your feedback is related to a website, you can include it here."
+#~ msgstr "Εάν τα σχόλιά σας σχετίζονται με μια ιστοσελίδα, μπορείτε να τη συμπεριλάβετε εδώ."
+
+#~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+#~ msgstr "Αν και τα σχόλιά σας θα είναι δημόσια διαθέσιμα, οι διευθύνσεις ηλεκτρονικού ταχυδρομείου είναι εμπιστευτικές. Σεβόμαστε τα προσωπικά σας δεδομένα."
+
+#, fuzzy
+#~ msgid "Unknown product"
+#~ msgstr "Άγνωστη"
 
 #, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"

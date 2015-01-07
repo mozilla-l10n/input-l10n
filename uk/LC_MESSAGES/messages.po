@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-24 10:19-0700\n"
+"POT-Creation-Date: 2015-01-07 11:58-0700\n"
 "PO-Revision-Date: 2014-11-25 07:33+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: mozilla.org.ua\n"
@@ -12,8 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1416900795.0\n"
 
@@ -34,12 +33,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Шукати результати у Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:314
 msgid "Happy"
 msgstr "Задоволений"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:315
 msgid "Sad"
 msgstr "Незадоволений"
 
@@ -164,7 +163,8 @@ msgid "Category"
 msgstr "Категорія"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
-#: fjord/analytics/templates/analytics/response.html:133
+#: fjord/analytics/templates/analytics/response.html:133 fjord/analytics/templates/analytics/response.html:137 fjord/analytics/templates/analytics/response.html:141
+#: fjord/analytics/templates/analytics/response.html:145
 msgid "None"
 msgstr "Немає"
 
@@ -204,35 +204,55 @@ msgstr "Ресурс"
 msgid "Campaign"
 msgstr "Кампанія"
 
+#: fjord/analytics/templates/analytics/response.html:135
+msgid "Browser"
+msgstr ""
+
 #: fjord/analytics/templates/analytics/response.html:139
+msgid "Browser Ver."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:143
+msgid "Browser Plat."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
 msgstr "Повний URL"
 
-#: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
+#: fjord/analytics/templates/analytics/response.html:155 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
 msgstr "Країна"
 
-#: fjord/analytics/templates/analytics/response.html:147
+#: fjord/analytics/templates/analytics/response.html:159
 msgid "Manufacturer"
 msgstr "Виробник"
 
-#: fjord/analytics/templates/analytics/response.html:151 fjord/feedback/templates/feedback/fxos_feedback.html:74
+#: fjord/analytics/templates/analytics/response.html:163 fjord/feedback/templates/feedback/fxos_feedback.html:74
 msgid "Device"
 msgstr "Пристрій"
 
-#: fjord/analytics/templates/analytics/response.html:155
+#: fjord/analytics/templates/analytics/response.html:167
 msgid "User agent"
 msgstr "User Agent"
 
-#: fjord/analytics/templates/analytics/response.html:159
+#: fjord/analytics/templates/analytics/response.html:171
 msgid "Email"
 msgstr "Електронна пошта"
 
-#: fjord/analytics/templates/analytics/response.html:167
+#: fjord/analytics/templates/analytics/response.html:179
+msgid "Browser data"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:182
+msgid "yes"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
 msgstr "Версія API"
 
-#: fjord/analytics/templates/analytics/response.html:185
+#: fjord/analytics/templates/analytics/response.html:205
 msgid "Context"
 msgstr "Контекст"
 
@@ -337,7 +357,8 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "Ми завжди зберігаємо дані відгуків, але на публічній панелі в наявності дані лише за останніх 6 місяців."
 
 #: fjord/base/templates/about.html:57
-msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
+#, fuzzy
+msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
 msgstr "Ми зберігаємо адреси електронної пошти, які прив'язані до даних відгуку протягом 6 місяців, після чого вилучаємо їх."
 
 #: fjord/base/templates/about.html:64
@@ -520,11 +541,11 @@ msgstr "О! Отже, ви хочете залишити нам відгук п�
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "Щоб зробити це, просто перейдіть на нашу сторінку завантажень та встановіть/оновіть <a href=\"%(url)s\">Firefox до останньої версії!</a>"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:28 fjord/feedback/templates/feedback/generic_feedback_form.html:6
+#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:19
 msgid "Submit Your Feedback"
 msgstr "Відправте свій відгук"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:132
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
 msgid "Submit feedback"
 msgstr "Відправити відгук"
 
@@ -553,7 +574,6 @@ msgid "Other"
 msgstr "Інше"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:65 fjord/feedback/templates/feedback/fxos_feedback.html:88 fjord/feedback/templates/feedback/fxos_feedback.html:119
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:66
 msgid "Next"
 msgstr "Далі"
 
@@ -561,11 +581,11 @@ msgstr "Далі"
 msgid "What Firefox OS device are you using?"
 msgstr "Який пристрій з Firefox OS ви використовуєте?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback_form.html:32 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:77
+#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback.html:107
 msgid "Details"
 msgstr "Подробиці"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:102 fjord/feedback/templates/feedback/generic_feedback_form.html:47
+#: fjord/feedback/templates/feedback/fxos_feedback.html:102
 msgid "Please describe what you liked."
 msgstr "Опишіть що саме вам сподобалось."
 
@@ -573,19 +593,19 @@ msgstr "Опишіть що саме вам сподобалось."
 msgid "Please describe your problem below and be as specific as you can."
 msgstr "Опишіть якомога точніше вашу проблему внизу."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:114 fjord/feedback/templates/feedback/generic_feedback_form.html:38
+#: fjord/feedback/templates/feedback/fxos_feedback.html:114
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr "Вміст вашого відгуку буде доступний всім, тому переконайтесь у відсутності в ньому будь-якої персональної інформації."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:127 fjord/feedback/templates/feedback/generic_feedback_form.html:73
+#: fjord/feedback/templates/feedback/fxos_feedback.html:127
 msgid "Can we contact you?"
 msgstr "Чи можемо ми зв'язатись з вами?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:135 fjord/feedback/templates/feedback/generic_feedback_form.html:80
+#: fjord/feedback/templates/feedback/fxos_feedback.html:135
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr "Відмітьте це, щоб дати нам змогу зв'язатись з вами з приводу вашого відгуку."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:141 fjord/feedback/templates/feedback/generic_feedback_form.html:86
+#: fjord/feedback/templates/feedback/fxos_feedback.html:141
 msgid "Email address (optional):"
 msgstr "Адреса електронної пошти (необов'язково):"
 
@@ -597,7 +617,7 @@ msgstr "Введіть дійсну адресу електронної пошт
 msgid "Don't worry, your email will always be kept private."
 msgstr "Не хвилюйтесь, ваша адреса електронної пошти завжди буде залишатись прихованою."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:155 fjord/feedback/templates/feedback/generic_feedback_form.html:101
+#: fjord/feedback/templates/feedback/fxos_feedback.html:155
 msgid "Send Feedback"
 msgstr "Надіслати відгук"
 
@@ -637,63 +657,35 @@ msgstr "Скасувати"
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "У вас є ненадіслані відгуки. Чи бажаєте спробувати надіслати їх знову?"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:11
-msgid "Your feedback helps us improve Firefox."
-msgstr "Ваш відгук допоможе нам покращити Firefox."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:13
-msgid "Firefox made me happy"
-msgstr "Firefox мене порадував"
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:14
-msgid "Firefox made me sad"
-msgstr "Firefox мене засмутив"
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:20
-msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Якщо ви потребуєте допомоги або маєте проблему з Firefox, відвідайте <a href=\"%(support_url)s\">Підтримку Firefox</a>."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:50
-msgid "Please describe your problem below."
-msgstr "Опишіть вашу проблему нижче."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:51
-msgid "Please be as specific as you can."
-msgstr "Старайтесь бути якомога точнішими."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:60
-msgid "If your feedback is related to a website, you can include it here."
-msgstr "Якщо ваш відгук стосується веб-сайту, можете зазначити його тут."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:93
-msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-msgstr "Хоча ваш відгук буде видимий всім, адресу електронної пошти буде приховано. Ми розуміємо важливість вашої приватності."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
+#: fjord/feedback/templates/feedback/generic_feedback.html:44
 msgid "{product} feedback"
 msgstr "Відгук на {product}"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
+#: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
 msgstr "Які відчуття викликає у вас %(product)s?"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
+#: fjord/feedback/templates/feedback/generic_feedback.html:72
 msgid "%(product)s makes me happy"
 msgstr "%(product)s мене порадував"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
+#: fjord/feedback/templates/feedback/generic_feedback.html:89
 msgid "%(product)s makes me sad"
 msgstr "%(product)s мене засмутив"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
+#: fjord/feedback/templates/feedback/generic_feedback.html:98
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "%(product)s не є тим продуктом, на який ви хочете залишити відгук?<br /> <a href=\"%(url)s\">Виберіть інший продукт</a>."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
+#: fjord/feedback/templates/feedback/generic_feedback.html:112
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "Опишіть, що вам подобається. Вміст вашого відгуку буде публічним, тому переконайтеся, що ви не включили в нього особисту інформацію, таку як адреса ел. пошти, паролі чи номер телефону."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
+#: fjord/feedback/templates/feedback/generic_feedback.html:120
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
@@ -701,11 +693,19 @@ msgstr ""
 "Опишіть якомога детальніше свою проблему внизу. Вміст вашого відгуку буде публічним, тому переконайтеся, що ви не включили в нього особисту інформацію, таку як адреса ел. пошти, паролі чи номер "
 "телефону."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
+#: fjord/feedback/templates/feedback/generic_feedback.html:137
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Якщо ваш відгук стосується веб-сайту, можете зазначити його тут:"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
+#: fjord/feedback/templates/feedback/generic_feedback.html:155
+msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:165
+msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:183
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Необов'язково) Відмітьте це, щоб дати нам змогу зв'язатись з вами з приводу вашого відгуку. Адреса вашої ел. пошти залишиться приватною."
 
@@ -721,7 +721,7 @@ msgstr "Виберіть продукт"
 msgid "No products available."
 msgstr "Немає доступних продуктів."
 
-#: fjord/feedback/templates/feedback/picker.html:35
+#: fjord/feedback/templates/feedback/picker.html:43
 msgid "Select a product to leave feedback for."
 msgstr "Виберіть продукт, для якого залишити відгук."
 
@@ -751,9 +751,7 @@ msgstr "Виникли проблеми? Отримайте допомогу."
 
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
-msgstr ""
-"Перейдіть на наш форум підтримки, де ви можете <a href=\"%(url)s\">отримати "
-"допомогу та знайти відповіді</a>."
+msgstr "Перейдіть на наш форум підтримки, де ви можете <a href=\"%(url)s\">отримати допомогу та знайти відповіді</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
@@ -761,29 +759,48 @@ msgstr "Допомогти Mozilla."
 
 #: fjord/feedback/templates/feedback/thanks.html:53
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
-msgstr ""
-"Дізнатись, як ви можете <a href=\"%(url)s\">зробити Firefox і Mozilla "
-"кращими</a>."
+msgstr "Дізнатись, як ви можете <a href=\"%(url)s\">зробити Firefox і Mozilla кращими</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
 msgstr "Дізнайтесь останні новини про Firefox."
 
-#: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-msgid "Unknown product"
-msgstr "Невідомий продукт"
-
-#: fjord/feedback/templates/feedback/unknownproduct.html:18
-msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-msgstr "Сайт відгуків не знає про \"<em>%(product)s</em>\". Якщо ви вважаєте це помилкою, будь ласка дайте нам знати, <a href=\"%(url)s\">створивши інцидент</a>."
-
-#: fjord/feedback/templates/feedback/unknownproduct.html:25
-msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr "Якщо ви знаходитесь тут помилково і хочете отримати зворотній зв'язок, то можете зробити це, скориставшись <a href=\"%(url)s\">нашою формою для зворотнього зв'язку</a>."
-
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Завантажте Firefox!"
+
+#~ msgid "Your feedback helps us improve Firefox."
+#~ msgstr "Ваш відгук допоможе нам покращити Firefox."
+
+#~ msgid "Firefox made me happy"
+#~ msgstr "Firefox мене порадував"
+
+#~ msgid "Firefox made me sad"
+#~ msgstr "Firefox мене засмутив"
+
+#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+#~ msgstr "Якщо ви потребуєте допомоги або маєте проблему з Firefox, відвідайте <a href=\"%(support_url)s\">Підтримку Firefox</a>."
+
+#~ msgid "Please describe your problem below."
+#~ msgstr "Опишіть вашу проблему нижче."
+
+#~ msgid "Please be as specific as you can."
+#~ msgstr "Старайтесь бути якомога точнішими."
+
+#~ msgid "If your feedback is related to a website, you can include it here."
+#~ msgstr "Якщо ваш відгук стосується веб-сайту, можете зазначити його тут."
+
+#~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+#~ msgstr "Хоча ваш відгук буде видимий всім, адресу електронної пошти буде приховано. Ми розуміємо важливість вашої приватності."
+
+#~ msgid "Unknown product"
+#~ msgstr "Невідомий продукт"
+
+#~ msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
+#~ msgstr "Сайт відгуків не знає про \"<em>%(product)s</em>\". Якщо ви вважаєте це помилкою, будь ласка дайте нам знати, <a href=\"%(url)s\">створивши інцидент</a>."
+
+#~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
+#~ msgstr "Якщо ви знаходитесь тут помилково і хочете отримати зворотній зв'язок, то можете зробити це, скориставшись <a href=\"%(url)s\">нашою формою для зворотнього зв'язку</a>."
 
 #, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"

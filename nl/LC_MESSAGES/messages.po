@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-24 10:19-0700\n"
+"POT-Creation-Date: 2015-01-07 11:58-0700\n"
 "PO-Revision-Date: 2014-11-25 13:56+0000\n"
 "Last-Translator: Ton <tonnes.mb@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,12 +31,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Zoekresultaten van Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:310
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:314
 msgid "Happy"
 msgstr "Blij"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:416 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:311
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:315
 msgid "Sad"
 msgstr "Droevig"
 
@@ -161,7 +161,8 @@ msgid "Category"
 msgstr "Categorie"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
-#: fjord/analytics/templates/analytics/response.html:133
+#: fjord/analytics/templates/analytics/response.html:133 fjord/analytics/templates/analytics/response.html:137 fjord/analytics/templates/analytics/response.html:141
+#: fjord/analytics/templates/analytics/response.html:145
 msgid "None"
 msgstr "Geen"
 
@@ -201,35 +202,55 @@ msgstr "Bron"
 msgid "Campaign"
 msgstr "Campagne"
 
+#: fjord/analytics/templates/analytics/response.html:135
+msgid "Browser"
+msgstr ""
+
 #: fjord/analytics/templates/analytics/response.html:139
+msgid "Browser Ver."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:143
+msgid "Browser Plat."
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
 msgstr "Volledige URL"
 
-#: fjord/analytics/templates/analytics/response.html:143 fjord/feedback/templates/feedback/fxos_feedback.html:51
+#: fjord/analytics/templates/analytics/response.html:155 fjord/feedback/templates/feedback/fxos_feedback.html:51
 msgid "Country"
 msgstr "Land"
 
-#: fjord/analytics/templates/analytics/response.html:147
+#: fjord/analytics/templates/analytics/response.html:159
 msgid "Manufacturer"
 msgstr "Fabrikant"
 
-#: fjord/analytics/templates/analytics/response.html:151 fjord/feedback/templates/feedback/fxos_feedback.html:74
+#: fjord/analytics/templates/analytics/response.html:163 fjord/feedback/templates/feedback/fxos_feedback.html:74
 msgid "Device"
 msgstr "Apparaat"
 
-#: fjord/analytics/templates/analytics/response.html:155
+#: fjord/analytics/templates/analytics/response.html:167
 msgid "User agent"
 msgstr "Useragent"
 
-#: fjord/analytics/templates/analytics/response.html:159
+#: fjord/analytics/templates/analytics/response.html:171
 msgid "Email"
 msgstr "E-mailadres"
 
-#: fjord/analytics/templates/analytics/response.html:167
+#: fjord/analytics/templates/analytics/response.html:179
+msgid "Browser data"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:182
+msgid "yes"
+msgstr ""
+
+#: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
 msgstr "API-versie"
 
-#: fjord/analytics/templates/analytics/response.html:185
+#: fjord/analytics/templates/analytics/response.html:205
 msgid "Context"
 msgstr "Context"
 
@@ -303,9 +324,7 @@ msgstr ""
 
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Ga naar <a href=\"%(url)s\">de invoerpagina voor feedback</a> om feedback over "
-"een Mozilla-product in te dienen!"
+msgstr "Ga naar <a href=\"%(url)s\">de invoerpagina voor feedback</a> om feedback over een Mozilla-product in te dienen!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -336,7 +355,8 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "Feedbackgegevens worden voor altijd bewaard, maar alleen de afgelopen 6 maanden aan gegevens zijn op het openbare dashboard beschikbaar."
 
 #: fjord/base/templates/about.html:57
-msgid "We keep email addresses associated with feedback data for 6 months and then delete them."
+#, fuzzy
+msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
 msgstr "E-mailadressen die met feedbackgegevens zijn gekoppeld worden 6 maanden bewaard en dan verwijderd."
 
 #: fjord/base/templates/about.html:64
@@ -519,11 +539,11 @@ msgstr "Oh! Dus u wilt ons feedback geven over Firefox. Dank u, maar u dient de 
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "Ga hiervoor naar onze downloadpagina en installeer <a href=\"%(url)s\">de meest recente Firefox-versie</a> of werk bij naar deze versie!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:28 fjord/feedback/templates/feedback/generic_feedback_form.html:6
+#: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:19
 msgid "Submit Your Feedback"
 msgstr "Uw feedback indienen"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:132
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
 msgid "Submit feedback"
 msgstr "Feedback indienen"
 
@@ -552,7 +572,6 @@ msgid "Other"
 msgstr "Overig"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:65 fjord/feedback/templates/feedback/fxos_feedback.html:88 fjord/feedback/templates/feedback/fxos_feedback.html:119
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:66
 msgid "Next"
 msgstr "Volgende"
 
@@ -560,11 +579,11 @@ msgstr "Volgende"
 msgid "What Firefox OS device are you using?"
 msgstr "Welk Firefox OS-apparaat gebruikt u?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback_form.html:32 fjord/feedback/templates/feedback/generic_feedback_form_dev.html:77
+#: fjord/feedback/templates/feedback/fxos_feedback.html:96 fjord/feedback/templates/feedback/generic_feedback.html:107
 msgid "Details"
 msgstr "Details"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:102 fjord/feedback/templates/feedback/generic_feedback_form.html:47
+#: fjord/feedback/templates/feedback/fxos_feedback.html:102
 msgid "Please describe what you liked."
 msgstr "Beschrijf wat u beviel."
 
@@ -572,19 +591,19 @@ msgstr "Beschrijf wat u beviel."
 msgid "Please describe your problem below and be as specific as you can."
 msgstr "Beschrijf hieronder uw probleem en wees zo specifiek mogelijk."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:114 fjord/feedback/templates/feedback/generic_feedback_form.html:38
+#: fjord/feedback/templates/feedback/fxos_feedback.html:114
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 msgstr "De inhoud van uw feedback wordt openbaar zichtbaar, dus zorg ervoor dat u geen persoonlijke gegevens bijsluit."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:127 fjord/feedback/templates/feedback/generic_feedback_form.html:73
+#: fjord/feedback/templates/feedback/fxos_feedback.html:127
 msgid "Can we contact you?"
 msgstr "Kunnen we contact met u opnemen?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:135 fjord/feedback/templates/feedback/generic_feedback_form.html:80
+#: fjord/feedback/templates/feedback/fxos_feedback.html:135
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr "Klik hier om ons contact over uw feedback met u te laten opnemen."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:141 fjord/feedback/templates/feedback/generic_feedback_form.html:86
+#: fjord/feedback/templates/feedback/fxos_feedback.html:141
 msgid "Email address (optional):"
 msgstr "E-mailadres (optioneel):"
 
@@ -596,7 +615,7 @@ msgstr "Voer een geldig e-mailadres in."
 msgid "Don't worry, your email will always be kept private."
 msgstr "Geen zorgen, uw e-mailadres zal altijd privé worden gehouden."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:155 fjord/feedback/templates/feedback/generic_feedback_form.html:101
+#: fjord/feedback/templates/feedback/fxos_feedback.html:155
 msgid "Send Feedback"
 msgstr "Feedback versturen"
 
@@ -636,63 +655,35 @@ msgstr "Annuleren"
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "U hebt niet-verzonden feedbackgegevens. Wilt u deze opnieuw proberen te verzenden?"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:11
-msgid "Your feedback helps us improve Firefox."
-msgstr "Uw feedback helpt ons Firefox te verbeteren."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:13
-msgid "Firefox made me happy"
-msgstr "Firefox maakte me blij"
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:14
-msgid "Firefox made me sad"
-msgstr "Firefox stemde me droevig"
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:20
-msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-msgstr "Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan <a href=\"%(support_url)s\">Mozilla Support</a>."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:50
-msgid "Please describe your problem below."
-msgstr "Beschrijf hieronder uw probleem."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:51
-msgid "Please be as specific as you can."
-msgstr "Wees zo duidelijk mogelijk."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:60
-msgid "If your feedback is related to a website, you can include it here."
-msgstr "Als uw feedback betrekking heeft op een website, kunt u deze hier bijvoegen."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form.html:93
-msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-msgstr "Hoewel uw feedback openbaar zichtbaar is, worden e-mailadressen privé gehouden. We begrijpen dat uw privacy belangrijk is."
-
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:22
+#: fjord/feedback/templates/feedback/generic_feedback.html:44
 msgid "{product} feedback"
 msgstr "Feedback over {product}"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:25
+#: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
 msgstr "Welk gevoel krijgt u bij %(product)s?"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:42
+#: fjord/feedback/templates/feedback/generic_feedback.html:72
 msgid "%(product)s makes me happy"
 msgstr "%(product)s maakt me blij"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:59
+#: fjord/feedback/templates/feedback/generic_feedback.html:89
 msgid "%(product)s makes me sad"
 msgstr "%(product)s stemt me droevig"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:68
+#: fjord/feedback/templates/feedback/generic_feedback.html:98
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "Is %(product)s niet het product waarover u feedback wilt geven?<br /> <a href=\"%(url)s\">Kies een ander product</a>."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:81
+#: fjord/feedback/templates/feedback/generic_feedback.html:112
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "Beschrijf wat u leuk vindt. De inhoud van uw feedback wordt openbaar zichtbaar, dus zorg ervoor dat u geen persoonlijke gegevens zoals uw e-mailadres, wachtwoorden of telefoonnummer bijvoegt."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:89
+#: fjord/feedback/templates/feedback/generic_feedback.html:120
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
@@ -700,11 +691,19 @@ msgstr ""
 "Beschrijf hieronder zo gedetailleerd mogelijk uw probleem. De inhoud van uw feedback wordt openbaar zichtbaar, dus zorg ervoor dat u geen persoonlijke gegevens zoals uw e-mailadres, wachtwoorden of "
 "telefoonnummer bijvoegt."
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:105
+#: fjord/feedback/templates/feedback/generic_feedback.html:137
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Als uw feedback betrekking heeft op een website, kunt u deze hier bijvoegen:"
 
-#: fjord/feedback/templates/feedback/generic_feedback_form_dev.html:119
+#: fjord/feedback/templates/feedback/generic_feedback.html:155
+msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:165
+msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+msgstr ""
+
+#: fjord/feedback/templates/feedback/generic_feedback.html:183
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Optioneel) Klik hier om ons contact over uw feedback met u te laten opnemen. Uw e-mailadres wordt privé gehouden."
 
@@ -720,7 +719,7 @@ msgstr "Selecteer een product"
 msgid "No products available."
 msgstr "Geen producten beschikbaar."
 
-#: fjord/feedback/templates/feedback/picker.html:35
+#: fjord/feedback/templates/feedback/picker.html:43
 msgid "Select a product to leave feedback for."
 msgstr "Selecteer een product om feedback over achter te laten."
 
@@ -750,9 +749,7 @@ msgstr "Hebt u problemen? Zoek hulp."
 
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
-msgstr ""
-"Ga naar ons ondersteuningsforum waar u <a href=\"%(url)s\">hulp en antwoorden "
-"kunt vinden</a>."
+msgstr "Ga naar ons ondersteuningsforum waar u <a href=\"%(url)s\">hulp en antwoorden kunt vinden</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
@@ -766,21 +763,42 @@ msgstr "Lees hoe u <a href=\"%(url)s\">Firefox en Mozilla kunt verbeteren</a>."
 msgid "Find the latest news about Firefox."
 msgstr "Lees het laatste nieuws over Firefox."
 
-#: fjord/feedback/templates/feedback/unknownproduct.html:3 fjord/feedback/templates/feedback/unknownproduct.html:13
-msgid "Unknown product"
-msgstr "Onbekend product"
-
-#: fjord/feedback/templates/feedback/unknownproduct.html:18
-msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-msgstr "Input kent geen \"<em>%(product)s</em>\". Als u denkt dat dit een fout is, laat het dan weten door <a href=\"%(url)s\">een bug te melden</a>."
-
-#: fjord/feedback/templates/feedback/unknownproduct.html:25
-msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-msgstr "Als u hier per ongeluk bent beland en feedback wilt achterlaten, kunt u dat doen <a href=\"%(url)s\">op ons feedbackformulier</a>."
-
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Download Firefox!"
+
+#~ msgid "Your feedback helps us improve Firefox."
+#~ msgstr "Uw feedback helpt ons Firefox te verbeteren."
+
+#~ msgid "Firefox made me happy"
+#~ msgstr "Firefox maakte me blij"
+
+#~ msgid "Firefox made me sad"
+#~ msgstr "Firefox stemde me droevig"
+
+#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+#~ msgstr "Als u hulp zoekt of een probleem met Firefox hebt, bezoek dan <a href=\"%(support_url)s\">Mozilla Support</a>."
+
+#~ msgid "Please describe your problem below."
+#~ msgstr "Beschrijf hieronder uw probleem."
+
+#~ msgid "Please be as specific as you can."
+#~ msgstr "Wees zo duidelijk mogelijk."
+
+#~ msgid "If your feedback is related to a website, you can include it here."
+#~ msgstr "Als uw feedback betrekking heeft op een website, kunt u deze hier bijvoegen."
+
+#~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+#~ msgstr "Hoewel uw feedback openbaar zichtbaar is, worden e-mailadressen privé gehouden. We begrijpen dat uw privacy belangrijk is."
+
+#~ msgid "Unknown product"
+#~ msgstr "Onbekend product"
+
+#~ msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
+#~ msgstr "Input kent geen \"<em>%(product)s</em>\". Als u denkt dat dit een fout is, laat het dan weten door <a href=\"%(url)s\">een bug te melden</a>."
+
+#~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
+#~ msgstr "Als u hier per ongeluk bent beland en feedback wilt achterlaten, kunt u dat doen <a href=\"%(url)s\">op ons feedbackformulier</a>."
 
 #~ msgid "Total # responses"
 #~ msgstr "Totale # antwoorden"
