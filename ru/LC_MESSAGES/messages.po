@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Input 1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 11:58-0700\n"
-"PO-Revision-Date: 2014-11-29 22:37+0300\n"
+"PO-Revision-Date: 2015-01-09 00:02+0300\n"
 "Last-Translator: Alexander L. Slovesnik <unghost@mozilla-russia.org>\n"
 "Language-Team: Russian <LL@li.org>\n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.7.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-POOTLE-MTIME: 1393613356.0\n"
 
@@ -123,7 +123,7 @@ msgstr "Установить"
 
 #: fjord/analytics/templates/analytics/dashboard.html:136
 msgid "Note: All dates and times are in Pacific Time."
-msgstr "Примечание: Все даты и времена указаны в Тихоокеанском времени."
+msgstr "Примечание: Все даты и времена указаны по Тихоокеанскому времени."
 
 #: fjord/analytics/templates/analytics/dashboard.html:141
 msgid "Feedback"
@@ -205,15 +205,15 @@ msgstr "Кампания"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "Браузер"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "Версия браузера"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "Платформа браузера"
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -241,11 +241,11 @@ msgstr "Эл. почта"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "Данные браузера"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "да"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -357,9 +357,8 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "Мы храним данные отзывов вечно, но на публичной панели доступны данные только за последние 6 месяцев."
 
 #: fjord/base/templates/about.html:57
-#, fuzzy
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr "Мы храним адреса электронной почты, связанные с данными отзывов, в течение 6 месяцев, а затем их удаляем."
+msgstr "Мы храним адреса эл. почты и контекстные данные, связанные с данными отзывов, в течение 6 месяцев, а затем их удаляем."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -663,7 +662,7 @@ msgstr "Отзыв на {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
+msgstr "Чтобы оставить отзыв, необходим JavaScript. Пожалуйста, включите JavaScript в вашем браузере и обновите эту страницу."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -702,10 +701,12 @@ msgstr "Если ваш отзыв относится к веб-сайту, вы
 #: fjord/feedback/templates/feedback/generic_feedback.html:155
 msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
 msgstr ""
+"(Необязательно) Щёлкните здесь, чтобы предоставить техническую информацию о вашем браузере. Эта информация поможет нам лучше понять наших пользователей и улучшить создаваемые продукты. Эти данные "
+"будут храниться в тайне."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:165
 msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
+msgstr "(Необязательно) Щёлкните здесь, чтобы предоставить техническую информацию о вашем браузере. Это поможет нам ускорить диагностику проблем. Эти данные будут храниться в тайне."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:183
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
