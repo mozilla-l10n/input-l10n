@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 11:58-0700\n"
-"PO-Revision-Date: 2014-11-25 18:35-0500\n"
+"PO-Revision-Date: 2015-01-07 23:07-0500\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -205,15 +205,15 @@ msgstr "キャンペーン"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "ブラウザ"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "ブラウザバージョン"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "ブラウザ対応 OS"
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -241,11 +241,11 @@ msgstr "メールアドレス"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "ブラウザデータ"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "はい"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -356,9 +356,8 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "フィードバックデータは永久に保存しますが、公開ダッシュボードでは過去 6 か月間のデータのみ参照可能とします。"
 
 #: fjord/base/templates/about.html:57
-#, fuzzy
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr "フィードバックに関連付けられたメールアドレスは 6 か月保存した後に削除します。"
+msgstr "フィードバックデータに紐付けられたメールアドレスと関連データは 6 か月間保存した後に削除します。"
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -663,7 +662,7 @@ msgstr "{product} のフィードバック"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
+msgstr "フィードバックを残すには JavaScript が必要です。お使いのブラウザで JavaScript を有効にした上でこのページを再読み込みしてください。"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -697,15 +696,15 @@ msgstr "Web サイトに関するフィードバックの場合は URL を記入
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:155
 msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
-msgstr ""
+msgstr "(任意) お使いのブラウザに関する技術情報を提供する場合はここにチェックを入れてください。提供された情報は、ユーザに関する理解を深め、より良い製品を作るために役立てられます。この情報は公開されません。"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:165
 msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
+msgstr "(任意) お使いのブラウザに関する技術情報を提供する場合はここにチェックを入れてください。提供された情報は、問題をより素早く解析するために役立てられます。この情報は公開されません。"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:183
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "(任意) フィードバックについて Mozilla からの問い合わせを許可するにはここにチェックしてください。メールアドレスは一般に公開されません。"
+msgstr "(任意) フィードバックについて Mozilla からの問い合わせを許可する場合はここにチェックを入れてください。メールアドレスは一般に公開されません。"
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
@@ -770,36 +769,3 @@ msgstr "Firefox についての最新情報はこちら。"
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Firefox をダウンロードしてください！"
-
-#~ msgid "Your feedback helps us improve Firefox."
-#~ msgstr "あなたのフィードバックを Firefox の改善のために役立てます。"
-
-#~ msgid "Firefox made me happy"
-#~ msgstr "Firefox の良いところ"
-
-#~ msgid "Firefox made me sad"
-#~ msgstr "Firefox の悪いところ"
-
-#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-#~ msgstr "Firefox で起こる問題に助けが必要な場合は、<a href=\"%(support_url)s\">Firefox サポート</a> サイトをご利用ください。"
-
-#~ msgid "Please describe your problem below."
-#~ msgstr "問題点を記入してください (日本語可)。"
-
-#~ msgid "Please be as specific as you can."
-#~ msgstr "できるだけ具体的に記述してください。"
-
-#~ msgid "If your feedback is related to a website, you can include it here."
-#~ msgstr "Web サイトに関するフィードバックの場合は URL を記入してください。"
-
-#~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
-#~ msgstr "あなたのフィードバックは一般公開されますが、メールアドレスは非公開です。私達はあなたのプライバシーを尊重します。"
-
-#~ msgid "Unknown product"
-#~ msgstr "不明な製品"
-
-#~ msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-#~ msgstr "Input は「<em>%(product)s</em>」を認識できません。これが間違いだと思われるときは <a href=\"%(url)s\">バグを報告</a> して知らせてください。"
-
-#~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-#~ msgstr "ここに間違って来て、単にフィードバックを残したいときは、<a href=\"%(url)s\">フィードバックフォーム</a> を使ってください。"
