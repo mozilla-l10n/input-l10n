@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 11:58-0700\n"
-"PO-Revision-Date: 2014-11-24 20:48+0000\n"
+"PO-Revision-Date: 2015-01-08 07:40+0000\n"
 "Last-Translator: Michael <michael.koehler1@gmx.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1416862123.0\n"
+"X-POOTLE-MTIME: 1420702849.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -204,15 +204,15 @@ msgstr "Kampagne"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "Browser"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "Browser-Version"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "Browser-Plattform"
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -240,11 +240,11 @@ msgstr "E-Mail-Adresse"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "Browser-Daten"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "Ja"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -356,9 +356,10 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "Wir behalten Feedback-Daten für immer, aber nur die Daten der letzten sechs Monate sind öffentlich in der Übersicht verfügbar."
 
 #: fjord/base/templates/about.html:57
-#, fuzzy
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr "Wir erhalten die Verknüpfung zwischen E-Mail-Adressen und Feedback-Daten sechs Monate lang und löschen sie dann."
+msgstr ""
+"Wir erhalten die Verknüpfung zwischen E-Mail-Adressen, Kontextdaten und "
+"Feedback-Daten sechs Monate lang und löschen sie dann."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -665,6 +666,8 @@ msgstr "Feedback zu {product}"
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr ""
+"JavaScript wird benötigt, um Feedback zu hinterlassen. Bitte aktivieren Sie "
+"JavaScript in Ihrem Browser und laden Sie diese Seite neu."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -703,10 +706,16 @@ msgstr "Wenn sich Ihr Feedback auf eine Website bezieht, können Sie sie hier an
 #: fjord/feedback/templates/feedback/generic_feedback.html:155
 msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
 msgstr ""
+"(Optional) Setzen Sie diesen Haken, um technische Daten über Ihren Browser "
+"anzugeben. Diese Daten helfen uns, unsere Anwender besser zu verstehen und "
+"bessere Produkte zu entwickeln. Diese Daten bleiben privat."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:165
 msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
 msgstr ""
+"Optional) Setzen Sie diesen Haken, um technische Daten über Ihren Browser "
+"anzugeben. Dies hilft uns, Probleme schneller zu erkennen. Diese Daten "
+"bleiben privat."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:183
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
