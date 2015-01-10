@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-07 11:58-0700\n"
-"PO-Revision-Date: 2014-12-02 00:38+0000\n"
+"PO-Revision-Date: 2015-01-10 08:34+0000\n"
 "Last-Translator: Théo <theo.chevalier11@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1417480733.0\n"
+"X-POOTLE-MTIME: 1420878853.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -204,15 +204,15 @@ msgstr "Campagne publicitaire"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "Navigateur"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "Ver. navigateur"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "Plat. navigateur"
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -240,11 +240,11 @@ msgstr "Adresse électronique"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "Données navigateur"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "oui"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -355,9 +355,11 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "Nous conservons les données de retour d'utilisation indéfiniment, mais seuls les 6 derniers mois sont consultables depuis le tableau de bord public. "
 
 #: fjord/base/templates/about.html:57
-#, fuzzy
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr "Nous conservons les adresses électroniques associées aux données du retour d'utilisation pour 6 mois puis les nous les supprimons."
+msgstr ""
+"Nous conservons les adresses électroniques et les données contextuelles "
+"associées aux données du retour d'utilisation pour 6 mois puis les nous les "
+"supprimons."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -662,6 +664,8 @@ msgstr "Donner mon avis sur {product}"
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr ""
+"JavaScript est nécessaire pour faire un retour d'utilisation. Veuillez "
+"activer JavaScript dans votre navigateur puis actualiser cette page."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -700,10 +704,17 @@ msgstr "Si votre avis est lié à un site web, vous pouvez l'indiquer ici :"
 #: fjord/feedback/templates/feedback/generic_feedback.html:155
 msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
 msgstr ""
+"(Facultatif) Cochez cette case pour fournir des informations techniques "
+"concernant votre navigateur. Ces informations nous aident à mieux comprendre "
+"nos utilisateurs et à créer de meilleurs logiciels. Ces données resteront "
+"confidentielles."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:165
 msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
 msgstr ""
+"(Facultatif) Cochez cette case pour fournir des informations techniques "
+"concernant votre navigateur. Ces informations nous aident à diagnostiquer "
+"les problèmes plus efficacement. Ces données resteront confidentielles."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:183
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
