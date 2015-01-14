@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt-pt v1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "PO-Revision-Date: 2015-01-12 23:11+0000\n"
 "Last-Translator: Cláudio <cesperanc@gmail.com>\n"
 "Language-Team: Portuguese translation team\n"
@@ -258,7 +258,7 @@ msgstr "Contexto"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "O painel ainda não está disponível para dispositivos móveis."
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr "Objeto JSON"
 
@@ -357,9 +357,7 @@ msgstr "Nós mantemos os comentários para sempre, mas apenas 6 meses de informa
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr ""
-"Nós mantemos os endereços de email e dados contextuais associados aos "
-"comentários durante 6 meses e sendo estes dados depois eliminados."
+msgstr "Nós mantemos os endereços de email e dados contextuais associados aos comentários durante 6 meses e sendo estes dados depois eliminados."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -545,7 +543,7 @@ msgstr "Para fazer isso, basta ir até a página de transferências e instalar/a
 msgid "Submit Your Feedback"
 msgstr "Envie a sua opinião"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 msgid "Submit feedback"
 msgstr "Enviar opinião"
 
@@ -663,9 +661,7 @@ msgstr "Comentários sobre o {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
-"É necessário JavaScript para submeter comentários. Por favor ative o "
-"JavaScript no seu navegador e atualize esta página."
+msgstr "É necessário JavaScript para submeter comentários. Por favor ative o JavaScript no seu navegador e atualize esta página."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -701,24 +697,24 @@ msgstr ""
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Se a sua opinião está relacionada com um site web, pode incluí-la aqui:"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+#, fuzzy
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr ""
-"(Opcional) Verifique esta opção para fornecer informações técnicas sobre o "
-"seu navegador. Esta informação ajuda-nos a compreender melhor os nossos "
-"utilizadores e a criar melhores produtos. Estas informações serão mantidas "
-"privadas."
+"(Opcional) Verifique esta opção para fornecer informações técnicas sobre o seu navegador. Esta informação ajuda-nos a compreender melhor os nossos utilizadores e a criar melhores produtos. Estas "
+"informações serão mantidas privadas."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
-"(Opcional) Verifique esta opção para fornecer informações técnicas sobre o "
-"seu navegador. Isto irá ajudar-nos a diagnosticar problemas mais facilmente. "
-"Estas informações serão mantidas privadas."
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Opcional) Selecione esta opção para permitir que possamos entrar em contacto consigo para dar seguimento aos seus comentários. O seu endereço de email será mantido privado."
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "A enviar..."
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
@@ -779,6 +775,10 @@ msgstr "Descubra as últimas notícias sobre o Firefox."
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Por favor, Transfira o Firefox!"
+
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+#~ msgstr ""
+#~ "(Opcional) Verifique esta opção para fornecer informações técnicas sobre o seu navegador. Isto irá ajudar-nos a diagnosticar problemas mais facilmente. Estas informações serão mantidas privadas."
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "A sua opinião ajuda-nos a melhorar o Firefox."

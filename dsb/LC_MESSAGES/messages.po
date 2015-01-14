@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "PO-Revision-Date: 2015-01-07 20:50+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420663840.0\n"
 
@@ -259,7 +258,7 @@ msgstr "Kontekst"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Pśeglěd za mobilne rědy hyšći njestoj k dispoziciji."
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr "JSON-Objekt"
 
@@ -357,9 +356,7 @@ msgstr "Wobchowajomy komentarowe daty na pśecej, ale jano daty zachadnych 6 mja
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr ""
-"Wobchowajomy zwisk e-mailowych adresow a kontekstowych datow z komentarowymi "
-"datami za 6 mjasecow a wulašujomy je pótom."
+msgstr "Wobchowajomy zwisk e-mailowych adresow a kontekstowych datow z komentarowymi datami za 6 mjasecow a wulašujomy je pótom."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -545,7 +542,7 @@ msgstr "Aby to cynił, źiśo k našomu ześěgnjeńskemu bokoju a zainstalěruj
 msgid "Submit Your Feedback"
 msgstr "Waš komentar wotpósłaś"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 msgid "Submit feedback"
 msgstr "Komentar wótpósłaś"
 
@@ -663,9 +660,7 @@ msgstr "Komentar wó {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
-"JavaScript jo trěbny, aby mógał komentary zawóstajiś. Pšosym zmóžniśo "
-"JavaScript w swójom wobglědowaku a zaktualizěrujśo toś ten bok."
+msgstr "JavaScript jo trěbny, aby mógał komentary zawóstajiś. Pšosym zmóžniśo JavaScript w swójom wobglědowaku a zaktualizěrujśo toś ten bok."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -701,23 +696,24 @@ msgstr ""
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Jolic waš komentar póśěgujo se na websedło, móžośo jo how pódaś:"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+#, fuzzy
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr ""
-"(Na žycenje) Wubjeŕśo to, aby techniske informacije wó swójom wobglědowaku "
-"pódał. Toś te informacije pomagaju nam, našych wužywarjow lěpjej rozměś a "
-"lěpše produkty napóraś. Toś te daty wóstanu priwatne."
+"(Na žycenje) Wubjeŕśo to, aby techniske informacije wó swójom wobglědowaku pódał. Toś te informacije pomagaju nam, našych wužywarjow lěpjej rozměś a lěpše produkty napóraś. Toś te daty wóstanu "
+"priwatne."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
-"(Na žycenje) Wubjeŕśo to, aby techniske informacije wó swójom wobglědowaku "
-"pódał. To buźo nam pomagaś, problemy malsnjej diagnosticěrowaś. Toś te daty "
-"wóstanu priwatne."
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Na žycenje) Aktiwěrujśo toś ten kontrolny kašćik, aby my mógli se nastupajujucy waš komentar z wami do zwiska stajiś. Waša e-mailowa adresa wobchada se z dowěrliwosću."
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "Sćelo se…"
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
@@ -778,6 +774,9 @@ msgstr "Dostańśo nejnowše powěsći wó Firefox."
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Pšosym ześěgniśo Firefox!"
+
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+#~ msgstr "(Na žycenje) Wubjeŕśo to, aby techniske informacije wó swójom wobglědowaku pódał. To buźo nam pomagaś, problemy malsnjej diagnosticěrowaś. Toś te daty wóstanu priwatne."
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Waš komentar nam pomaga, Firefox pólěpšyś."

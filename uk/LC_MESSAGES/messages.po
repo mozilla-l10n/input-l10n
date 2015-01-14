@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "PO-Revision-Date: 2015-01-09 10:03+0000\n"
 "Last-Translator: Artem <a.polivanchuk@outlook.com>\n"
 "Language-Team: mozilla.org.ua\n"
@@ -12,8 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420797794.0\n"
 
@@ -261,7 +260,7 @@ msgstr "Контекст"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Панель поки що недоступна на мобільних пристроях."
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr "Об'єкт JSON"
 
@@ -545,7 +544,7 @@ msgstr "Щоб зробити це, просто перейдіть на наш�
 msgid "Submit Your Feedback"
 msgstr "Відправте свій відгук"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 msgid "Submit feedback"
 msgstr "Відправити відгук"
 
@@ -663,9 +662,7 @@ msgstr "Відгук на {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
-"Щоб залишити відгук, потрібен JavaScript. Активуйте JavaScript в браузері та "
-"оновіть цю сторінку."
+msgstr "Щоб залишити відгук, потрібен JavaScript. Активуйте JavaScript в браузері та оновіть цю сторінку."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -699,23 +696,24 @@ msgstr ""
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Якщо ваш відгук стосується веб-сайту, можете зазначити його тут:"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+#, fuzzy
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr ""
-"(Необов'язково) Відмітьте тут, щоб надати технічну інформацію про ваш "
-"браузер. Ця інформація допоможе нам краще зрозуміти наших користувачів та "
-"зробити продукти кращими. Ці дані будуть зберігатись в таємниці."
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
-"(Необов'язково) Відмітьте тут, щоб надати технічну інформацію про ваш "
-"браузер. Це допоможе нам прискорити діагностику. Ці дані будуть зберігатись "
+"(Необов'язково) Відмітьте тут, щоб надати технічну інформацію про ваш браузер. Ця інформація допоможе нам краще зрозуміти наших користувачів та зробити продукти кращими. Ці дані будуть зберігатись "
 "в таємниці."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Необов'язково) Відмітьте це, щоб дати нам змогу зв'язатись з вами з приводу вашого відгуку. Адреса вашої ел. пошти залишиться приватною."
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "Надсилання...."
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
@@ -776,6 +774,9 @@ msgstr "Дізнайтесь останні новини про Firefox."
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Завантажте Firefox!"
+
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+#~ msgstr "(Необов'язково) Відмітьте тут, щоб надати технічну інформацію про ваш браузер. Це допоможе нам прискорити діагностику. Ці дані будуть зберігатись в таємниці."
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Ваш відгук допоможе нам покращити Firefox."

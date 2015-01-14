@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "PO-Revision-Date: 2015-01-07 21:22+0000\n"
 "Last-Translator: Peter <peter_klofutar@telemach.net>\n"
 "Language-Team: Slovenian\n"
@@ -10,8 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1420665765.0\n"
 
@@ -259,7 +258,7 @@ msgstr "Vsebina"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Pregledna plošča na mobilnih napravah zaenkrat še ni dostopna."
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr "Objekt JSON"
 
@@ -357,9 +356,7 @@ msgstr "Podatke zadržimo za vedno, vendar so na javni pregledni plošči na vol
 
 #: fjord/base/templates/about.html:57
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr ""
-"E-poštne naslove in vsebinske podatke, ki se nanašajo na povratne "
-"informacije, hranimo 6 mesecev, potem pa jih izbrišemo."
+msgstr "E-poštne naslove in vsebinske podatke, ki se nanašajo na povratne informacije, hranimo 6 mesecev, potem pa jih izbrišemo."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -545,7 +542,7 @@ msgstr "V ta namen obiščite preprosto našo stran za prenos in namestite/posod
 msgid "Submit Your Feedback"
 msgstr "Pošljite povratno informacijo"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 msgid "Submit feedback"
 msgstr "Pošlji povratne informacije"
 
@@ -663,9 +660,7 @@ msgstr "Povratne informacije za {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
-"Za pošiljanje povratnih informacij je zahtevan Javascript. Omogočite ga v "
-"svojem brskalniku in osvežite to stran."
+msgstr "Za pošiljanje povratnih informacij je zahtevan Javascript. Omogočite ga v svojem brskalniku in osvežite to stran."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -697,24 +692,24 @@ msgstr "Spodaj kar najbolj podrobno opišite svojo težavo. Vaše sporočilo bo 
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Če se vaše povratne informacije nanašajo na spletno stran, jo lahko navedete tukaj:"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+#, fuzzy
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr ""
-"(Neobvezno) Označite to polje, da nam pošljete tehnične podatke o svojem "
-"brskalniku. Ti podatki nam bodo pomagali pri boljšem razumevanju svojih "
-"uporabnikov in ustvarjanju boljših izdelkov. Ti podatki ne bodo javno "
-"objavljeni."
+"(Neobvezno) Označite to polje, da nam pošljete tehnične podatke o svojem brskalniku. Ti podatki nam bodo pomagali pri boljšem razumevanju svojih uporabnikov in ustvarjanju boljših izdelkov. Ti "
+"podatki ne bodo javno objavljeni."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
-"(Neobvezno) Označite to polje, da nam pošljete tehnične podatke o svojem "
-"brskalniku. To nam bo pomagalo hitreje odkriti težave. Ti podatki ne bodo "
-"javno objavljeni."
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Neobvezno) Označite to polje, če se lahko v zvezi z vašimi povratnimi informacijami obrnemo na vas. Vaš e-poštni naslov bo ostal skrit."
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "Pošiljanje ..."
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
@@ -758,9 +753,7 @@ msgstr "Imate težave? Poiščite pomoč."
 
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
-msgstr ""
-"Obiščite naš forum za podporo, kjer lahko <a href=\"%(url)s\">dobite pomoč in "
-"najdete odgovore</a>."
+msgstr "Obiščite naš forum za podporo, kjer lahko <a href=\"%(url)s\">dobite pomoč in najdete odgovore</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
@@ -768,8 +761,7 @@ msgstr "Sodelujte v Mozilli."
 
 #: fjord/feedback/templates/feedback/thanks.html:53
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
-msgstr ""
-"Naučite se, kako lahko <a href=\"%(url)s\">izboljšate Firefox in Mozillo</a>."
+msgstr "Naučite se, kako lahko <a href=\"%(url)s\">izboljšate Firefox in Mozillo</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
@@ -778,6 +770,9 @@ msgstr "Poišči najnovejše novice o Firefoxu."
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Prenesite si Firefox!"
+
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+#~ msgstr "(Neobvezno) Označite to polje, da nam pošljete tehnične podatke o svojem brskalniku. To nam bo pomagalo hitreje odkriti težave. Ti podatki ne bodo javno objavljeni."
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Vaša povratna informacija nam bo pomagala izboljšati Firefox."

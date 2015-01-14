@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "PO-Revision-Date: 2013-10-31 03:56+0000\n"
 "Last-Translator: Hyeonseok <hyeonseok@gmail.com>\n"
 "Language-Team: Korean\n"
@@ -265,7 +265,7 @@ msgstr ""
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "대시보드는 아직 모바일 기기에서 사용할 수 없습니다."
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr ""
 
@@ -553,7 +553,7 @@ msgstr "다운로드 페이지에서 최신 <a href=\"%(url)s\">Firefox 정식</
 msgid "Submit Your Feedback"
 msgstr "의견 보내기"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 msgid "Submit feedback"
 msgstr "의견 보내기"
 
@@ -709,18 +709,22 @@ msgstr "의견의 내용은 공개됩니다. 이곳에 개인정보는 입력하
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "웹사이트에 대한 피드백이 있을 경우, 여기에 입력하시면 됩니다."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 #, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "우리가 의견에 대한 조치를 취하기 위해 여기를 확인해주세요."
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "의견 보내는 중..."
 
 #: fjord/feedback/templates/feedback/picker.html:4
 #, fuzzy

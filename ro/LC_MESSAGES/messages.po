@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input.mozilla.com\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "PO-Revision-Date: 2014-03-31 17:30+0000\n"
 "Last-Translator: Alupei <cypy.cypy28@gmail.com>\n"
 "Language-Team: Romanian <LL@li.org>\n"
@@ -263,7 +263,7 @@ msgstr ""
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Tabloul de bord nu este disponibil încă pentru dispozitivele mobile."
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr ""
 
@@ -554,7 +554,7 @@ msgstr "Pentru a face asta, pur și simplu mergeți la pagina de descărcare și
 msgid "Submit Your Feedback"
 msgstr "Trimite părerea ta"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 msgid "Submit feedback"
 msgstr "Trimite părerea ta"
 
@@ -710,18 +710,22 @@ msgstr "Conținutul reacțiilor dumneavoastră va fi public, vă rugăm să fiț
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Dacă reacția dumneavoastră are legătură cu un websait îl puteți include aici."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr ""
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 #, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "Bifați aici pentru a vă contacta pentru a urmări reacțiile dumneavoastră."
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "Trimitere...."
 
 #: fjord/feedback/templates/feedback/picker.html:4
 #, fuzzy

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "PO-Revision-Date: 2015-01-08 03:27+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,7 +258,7 @@ msgstr "上下文"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "仪表盘目前不能在移动设备上使用。"
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr "JSON 对象"
 
@@ -538,7 +538,7 @@ msgstr "您只需访问我们的下载页面，并安装或更新至 <a href=\"%
 msgid "Submit Your Feedback"
 msgstr "提交您的反馈"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 msgid "Submit feedback"
 msgstr "提交反馈"
 
@@ -688,17 +688,22 @@ msgstr "请在下面描述您遇到的问题，越具体越好。您的反馈内
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "如果您的反馈与某个网站相关，你可以在此处列出："
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+#, fuzzy
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr "（可选）选中这里提供有关您的浏览器的技术信息。此信息有助于我们更好地了解我们的用户和创建更好的产品。此数据将保持私密。"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr "（可选）选中这里提供有关您的浏览器的技术信息。此信息有助于我们更快地诊断问题。此数据将保持私密。"
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "（可选）选中这里让我们联系您以跟进您的反馈。您的电子邮件地址将保持私密。"
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "正在提交...."
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
@@ -759,6 +764,9 @@ msgstr "查看有关 Firefox 的最新消息。"
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "请下载 Firefox！"
+
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+#~ msgstr "（可选）选中这里提供有关您的浏览器的技术信息。此信息有助于我们更快地诊断问题。此数据将保持私密。"
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "您的反馈能帮助我们改进 Firefox。"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-07 11:58-0700\n"
+"POT-Creation-Date: 2015-01-14 07:51-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -276,7 +276,7 @@ msgstr "Context"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Dashboard is not available on mobile devices, yet."
 
-#: fjord/base/models.py:57
+#: fjord/base/models.py:50
 msgid "JSON Object"
 msgstr "JSON Object"
 
@@ -581,7 +581,7 @@ msgstr "To do that, simply go to our download page and install/update to the <a 
 msgid "Submit Your Feedback"
 msgstr "Submit Feedback"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:196
+#: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
 #, fuzzy
 msgid "Submit feedback"
 msgstr "Submit Feedback"
@@ -747,18 +747,23 @@ msgstr "The content of your feedback will be public, so please be sure not to in
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "If your feedback is related to a website, you can include it here."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:155
-msgid "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
+#: fjord/feedback/templates/feedback/generic_feedback.html:154
+#, fuzzy
+msgid ""
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr "(Optional) Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This data will be kept private."
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:165
-msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-msgstr "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
-
-#: fjord/feedback/templates/feedback/generic_feedback.html:183
+#: fjord/feedback/templates/feedback/generic_feedback.html:170
 #, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "Check here to let us contact you to follow up on your feedback."
+
+#. Label on the submit button of the feedback form.
+#: fjord/feedback/templates/feedback/generic_feedback.html:187
+#, fuzzy
+msgid "Submit"
+msgstr "Submit Feedback"
 
 #: fjord/feedback/templates/feedback/picker.html:4
 #, fuzzy
@@ -828,6 +833,9 @@ msgstr "Find out the latest news from Mozilla:"
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Please Download Firefox!"
+
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+#~ msgstr "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Your feedback helps us improve Firefox."
