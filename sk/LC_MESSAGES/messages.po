@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: REPORTER 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2015-01-07 23:16+0000\n"
+"PO-Revision-Date: 2015-01-17 13:50+0000\n"
 "Last-Translator: Branislav <rozbora@mozilla.sk>\n"
 "Language-Team: Mozilla.sk <l10n@mozilla.sk>\n"
 "Language: sk\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1420672579.0\n"
+"X-POOTLE-MTIME: 1421502649.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -208,11 +208,11 @@ msgstr "Prehliadač"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "Verzia prehliadača"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "Platforma prehliadača"
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -240,7 +240,7 @@ msgstr "E-mail"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "Údaje prehliadača"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
@@ -355,9 +355,10 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "Údaje týkajúce sa reakcií uchovávame natrvalo, ale na verejnej nástenke sú dostupné údaje len za posledných 6 mesiacov."
 
 #: fjord/base/templates/about.html:57
-#, fuzzy
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr "E-mailové adresy priradené k reakciám uchovávame 6 mesiacov a následne sú odstránené."
+msgstr ""
+"E-mailové adresy a kontextové informácie pridružené k spätnej väzbe "
+"uchovávame 6 mesiacov a následne ich vymazávame."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -662,6 +663,8 @@ msgstr "Odoslať názor k aplikácií {product}"
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr ""
+"Pre odoslanie spätnej väzby je potrebný JavaScript. Prosím povoľte "
+"JavaScript na svojom prehliadači a obnovte túto stránku."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -700,6 +703,10 @@ msgid ""
 "Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
 "our Privacy policy."
 msgstr ""
+"(Voliteľné) Poskytnite technické informácie o svojom prehliadači. Táto "
+"informácia nám pomôže lepšie porozumieť našim používateľom a vytvárať tak "
+"lepšie produkty. Údaje budú uložené a spracované v súlade s našimi Zásadami "
+"ochrany súkromia."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
@@ -707,9 +714,8 @@ msgstr "(Nepovinné) Označte, ak si želáte, aby sme Vás mohli kontaktovať. 
 
 #. Label on the submit button of the feedback form.
 #: fjord/feedback/templates/feedback/generic_feedback.html:187
-#, fuzzy
 msgid "Submit"
-msgstr "Prebieha odosielanie..."
+msgstr "Odoslať"
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
