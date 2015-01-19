@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2015-01-19 20:56+0000\n"
+"PO-Revision-Date: 2015-01-19 21:14+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark <joergenr@stofanet.dk>\n"
 "Language: da\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1421701008.0\n"
+"X-POOTLE-MTIME: 1421702044.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -176,11 +176,11 @@ msgstr "Oversat"
 
 #: fjord/analytics/templates/analytics/response.html:64
 msgid "Translate (machine)"
-msgstr "Oversat (maskine)"
+msgstr "Oversæt (maskine)"
 
 #: fjord/analytics/templates/analytics/response.html:70
 msgid "Translate (human)"
-msgstr "Oversat (menneske)"
+msgstr "Oversæt (menneske)"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
@@ -294,7 +294,7 @@ msgstr "Noget er gået helt galt"
 
 #: fjord/base/templates/500.html:19 fjord/base/templates/base.html:37 fjord/base/templates/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
-msgstr "<strong>Firefox</strong> input"
+msgstr "<strong>Firefox</strong> Input"
 
 #: fjord/base/templates/500.html:25 fjord/base/templates/base.html:43 fjord/base/templates/mobile/base.html:35
 msgid "Dashboard"
@@ -310,7 +310,7 @@ msgstr "Der opstod et problem på serveren."
 
 #: fjord/base/templates/about.html:3 fjord/base/templates/includes/footer.html:10
 msgid "About Firefox Input"
-msgstr "Om Firefox input"
+msgstr "Om Firefox Input"
 
 #: fjord/base/templates/about.html:9
 msgid "Hello!"
@@ -350,7 +350,7 @@ msgstr "Juridiske ansvarsfraskrivelser og begrænsninger"
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
 "Vi er omfattet af dokumentet <a href=\"%(url)s\">Mozilla legal disclaimers and "
-"limitations</a>"
+"limitations</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -376,7 +376,7 @@ msgstr ""
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
-msgstr "Åbn data"
+msgstr "Åbne data"
 
 #: fjord/base/templates/about.html:66
 msgid ""
@@ -418,7 +418,7 @@ msgstr "Analyse"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
-msgstr "Hej, {username}"
+msgstr "Hej {username}"
 
 #: fjord/base/templates/base.html:56
 msgid "Sign out"
@@ -434,7 +434,7 @@ msgstr "CSRF-fejl"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
-msgstr "Log ind mislykkedes"
+msgstr "Login-fejl"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
 msgid "Welcome to Input!"
@@ -457,15 +457,16 @@ msgstr "Juridiske betingelser"
 
 #: fjord/base/templates/includes/footer.html:9
 msgid "Report Trademark Abuse"
-msgstr "Rapporter misbrug af varemærker"
+msgstr "Rapportér misbrug af varemærker"
 
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or "
 "any later version."
 msgstr ""
-"Med mindre andet er <a href=\"%(legal_url)s\">angivet</a>, er indholdet på denne side udgivet under <br/> <a href=\"%(license_url)s\">Creative Commons Navngivelse-DelPåSammeVilkår-licensen v3.0</a> "
-"eller enhver nyere version."
+"Med mindre andet er <a href=\"%(legal_url)s\">angivet</a>, er indholdet på "
+"denne side udgivet under <br/> <a href=\"%(license_url)s\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> eller enhver nyere version."
 
 #: fjord/base/templates/includes/lang_switcher.html:2
 msgid "Other languages:"
@@ -555,11 +556,15 @@ msgstr "Hent Firefox"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Åh! Så du vil gerne give os feedback på Firefox. Tak, men du er nødt til at bruge vores seneste version for at gøre det."
+msgstr ""
+"Åh! Så du vil gerne give os feedback på Firefox. Tak, men du er nødt til at "
+"bruge vores seneste version for at kunne gøre det."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "For at gøre dette, gå til vores download-side og installer eller opdater til den <a href=\"%(url)s\">seneste version af Firefox</a>"
+msgstr ""
+"For at kunne gøre dette skal du besøge vores download-side og installere "
+"eller opdatere til den <a href=\"%(url)s\">seneste version af Firefox!</a>"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:12 fjord/feedback/templates/feedback/generic_feedback.html:19
 msgid "Submit Your Feedback"
@@ -583,7 +588,9 @@ msgstr "Firefox OS gjorde mig bedrøvet"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:36
 msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-msgstr "Hvis du har brug for hjælp eller har et problem med Firefox OS, besøg <a href=\"%(support_url)s\">Mozilla Support</a>."
+msgstr ""
+"Hvis du har brug for hjælp, eller hvis du har et problem med Firefox OS, så "
+"besøg <a href=\"%(support_url)s\">Mozilla Support</a>."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:57
 msgid "In what country did you purchase your Firefox OS device?"
@@ -615,7 +622,9 @@ msgstr "Beskriv dit problem nedenunder, og vær så præcis som muligt."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:114
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
-msgstr "Indholdet af din feedback bliver offentlig tilgængelig, så oplys ikke personlige data."
+msgstr ""
+"Indholdet af din feedback bliver offentligt tilgængelig, så oplys ikke "
+"personlige data."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:127
 msgid "Can we contact you?"
@@ -651,11 +660,14 @@ msgstr "Færdig!"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:180
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
-msgstr "Tak for din feedback. Den vil blive brugt til at give en bedre oplevelse ved fremtidige versioner af Firefox OS."
+msgstr ""
+"Tak for din feedback. Den vil blive brugt til at give en bedre oplevelse med "
+"fremtidige versioner af Firefox OS."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:186
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
-msgstr "Læs hvordan du kan <a href=\"%(url)s\">gøre Firefox OS og Mozilla bedre</a>."
+msgstr ""
+"Læs, hvordan du kan <a href=\"%(url)s\">gøre Firefox OS og Mozilla bedre</a>."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:197
 msgid "We're sorry!"
@@ -663,7 +675,9 @@ msgstr "Beklager!"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:203
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
-msgstr "Der er sket noget, og vi kan ikke indsende din feedback. Feedbacken bliver gemt på din enhed, så du kan prøve at sende den igen senere."
+msgstr ""
+"Der opstod en fejl, og vi kan ikke indsende din feedback. Din feedback "
+"bliver gemt på din enhed, så du kan prøve at sende den igen senere."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:208 fjord/feedback/templates/feedback/fxos_feedback.html:216 fjord/feedback/templates/feedback/fxos_feedback.html:227
 msgid "Try again"
@@ -675,7 +689,9 @@ msgstr "Annuller"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:222
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
-msgstr "Du har feedback-information der ikke er indsendt. Vil du prøve at indsende igen?"
+msgstr ""
+"Du har feedback-information, der ikke er indsendt. Vil du prøve at indsende "
+"igen?"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:44
 msgid "{product} feedback"
@@ -693,11 +709,11 @@ msgstr "Hvad synes du om %(product)s?"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:72
 msgid "%(product)s makes me happy"
-msgstr "%(product)s gjorde mig glad"
+msgstr "%(product)s gør mig glad"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:89
 msgid "%(product)s makes me sad"
-msgstr "%(product)s  gjorde mig bedrøvet"
+msgstr "%(product)s gjorde mig bedrøvet"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:98
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
@@ -761,7 +777,7 @@ msgstr "Ingen produkter er tilgængelige."
 
 #: fjord/feedback/templates/feedback/picker.html:43
 msgid "Select a product to leave feedback for."
-msgstr "Vælg at produkt at give feedback på."
+msgstr "Vælg et produkt at give feedback på."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -804,7 +820,7 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
-msgstr "Se de seneste nyheder om Firefox."
+msgstr "Læs de seneste nyheder om Firefox."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
