@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2014-11-25 16:36+0000\n"
+"PO-Revision-Date: 2015-01-23 17:21+0000\n"
 "Last-Translator: Inma <inma.barrios@mozilla-hispano.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1416933369.0\n"
+"X-POOTLE-MTIME: 1422033693.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -206,15 +206,15 @@ msgstr "Campaña"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "Navegador"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "Vers. navegador"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "Plat. navegador"
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -242,11 +242,11 @@ msgstr "Correo electrónico"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "Datos navegador"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "sí"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -358,9 +358,10 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "Mantenemos los datos de comentarios para siempre, pero solo están disponibles en el panel público los últimos 6 meses de datos."
 
 #: fjord/base/templates/about.html:57
-#, fuzzy
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr "Mantenemos los correos electrónicos asociados con los datos de comentarios por 6 meses y luego los borramos."
+msgstr ""
+"Mantenemos las direcciones de email y los datos asociados con comentarios "
+"durante 6 meses y luego los borramos."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -397,7 +398,7 @@ msgstr "Ir al pie de página"
 # Enlace a todas las opiniones
 #: fjord/base/templates/base.html:44
 msgid "Give Feedback"
-msgstr "Opinión"
+msgstr "Facilitar opinión"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
@@ -434,7 +435,10 @@ msgstr "Tu envío no pasó una verificación de seguridad en nuestro sistema."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
-msgstr "Por favor asegúrate de tener activadas las cookies, presiona el botón Atrás en tu navegador, refresca la página, llena el formulario, e intenta volver a enviar tus comentarios."
+msgstr ""
+"Asegúrate de tener activadas las cookies, presiona el botón Atrás del "
+"navegador, actualiza la página, completa el formulario e intenta volver a "
+"enviar tus comentarios."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -538,7 +542,9 @@ msgstr "Descarga Firefox"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:25 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "¡Oh! Entonces quieres ofrecernos tu opinión sobre Firefox. Gracias, pero necesitas usar nuestra última versión."
+msgstr ""
+"¡Oh! Entonces quieres ofrecernos tu opinión sobre Firefox. Gracias, pero es "
+"necesario que tengas nuestra última versión."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
@@ -668,6 +674,8 @@ msgstr "Opinión de {product}"
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr ""
+"Se requiere JavaScript para dejar comentarios. Activa JavaScript en el "
+"navegador y actualiza la página."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -707,6 +715,10 @@ msgid ""
 "Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
 "our Privacy policy."
 msgstr ""
+"Marca aquí para facilitar información técnica sobre tu navegador. Esta "
+"información nos ayuda a comprender a nuestros usuarios y a crear mejores "
+"productos. Esta información se guardará de acuerdo a las directrices de "
+"nuestra política de privacidad."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
@@ -714,9 +726,8 @@ msgstr "(Opcional) Marca aquí para permitir que contactemos contigo para hacer 
 
 #. Label on the submit button of the feedback form.
 #: fjord/feedback/templates/feedback/generic_feedback.html:187
-#, fuzzy
 msgid "Submit"
-msgstr "Enviando..."
+msgstr "Enviar"
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
