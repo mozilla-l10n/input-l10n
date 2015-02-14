@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2015-02-14 22:37+0000\n"
+"PO-Revision-Date: 2015-02-14 22:57+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -12,25 +12,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1423953436.0\n"
+"X-POOTLE-MTIME: 1423954646.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
 msgstr "Непознат"
 
 #: fjord/analytics/views.py:123
-#, fuzzy
 msgid "Firefox Input: {query}"
-msgstr "Firefox Input: „{query}“"
+msgstr "Firefox Input: {query}"
 
 #: fjord/analytics/views.py:125 fjord/analytics/views.py:139 fjord/base/templates/500.html:8 fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
 #: fjord/analytics/views.py:138
-#, fuzzy
 msgid "Search Results From Firefox Input"
-msgstr "Резултати от търсенето в обратната връзка за бетата на Firefox."
+msgstr "Резултати от търсенето във Firefox Input"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:346 fjord/analytics/views.py:414 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
 #: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:314
@@ -233,7 +231,6 @@ msgid "Device"
 msgstr "Устройство"
 
 #: fjord/analytics/templates/analytics/response.html:167
-#, fuzzy
 msgid "User agent"
 msgstr "Потребителски агент"
 
@@ -569,9 +566,10 @@ msgid "Firefox OS made me sad"
 msgstr "Firefox OS ме натъжи"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:36
-#, fuzzy
 msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-msgstr "Ако се нуждаете от помощ или имате проблем с Firefox, моля посетете <a href=\"%(support_url)s\">Поддръжка на Firefox</a>."
+msgstr ""
+"Ако се нуждаете от помощ или имате проблем с Firefox OS, моля посетете <a "
+"href=\"%(support_url)s\">Поддръжка на Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:57
 msgid "In what country did you purchase your Firefox OS device?"
@@ -598,9 +596,8 @@ msgid "Please describe what you liked."
 msgstr "Моля, опишете какво харесахте."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:105
-#, fuzzy
 msgid "Please describe your problem below and be as specific as you can."
-msgstr "Обяснете идеята си по-долу."
+msgstr "Моля, опишете проблемa си по-долу, колкото се може по побробно."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:114
 msgid "The content of your feedback will be public, so please be sure not to include any personal information."
@@ -631,23 +628,24 @@ msgid "Send Feedback"
 msgstr "Изпратете обратна връзка"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:162
-#, fuzzy
 msgid "Submitting...."
-msgstr "Изпращане на обратна връзка"
+msgstr "Изпращане"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:174
 msgid "Success!"
 msgstr "Готово!"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:180
-#, fuzzy
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
-msgstr "Благодарим за обратната връзка. Ще я използваме за да направим по-добри бъдещи версии на Firefox."
+msgstr ""
+"Благодарим за обратната връзка! Ще я използваме, за да подобрим бъдещите "
+"версии на Firefox OS."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:186
-#, fuzzy
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
-msgstr "Научете как можете <a href=\"%(url)s\">да направите Firefox и Mozilla по-добри</a>"
+msgstr ""
+"Научете как можете <a href=\"%(url)s\">да направите Firefox OS и Mozilla "
+"по-добри</a>."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:197
 msgid "We're sorry!"
@@ -670,9 +668,8 @@ msgid "You have unsubmitted feedback data. Would you like to try submitting it a
 msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:44
-#, fuzzy
 msgid "{product} feedback"
-msgstr "Изпращане на обратна връзка"
+msgstr "обратна връзка за {product}"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
@@ -695,21 +692,26 @@ msgid "Is %(product)s not the product you want to give feedback on?<br /> <a hre
 msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:112
-#, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr "Всичко, което напишете ще се публиква. Уверете се, че не включвате лична информация."
+msgstr ""
+"Опишете, каквото смятате за добре. Съдържанието на обратната връзка е "
+"публично, за това се уверете, че не включвате лична информация като адрес на "
+"ел. поща, пароли или телефонен номер."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:120
-#, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
-msgstr "Всичко, което напишете ще се публиква. Уверете се, че не включвате лична информация."
+msgstr ""
+"Моля, опишете проблемa си по-долу, колкото се може по побробно. Съдържанието "
+"на обратната връзка е публично, за това се уверете, че не включвате лична "
+"информация като адрес на ел. поща, пароли или телефонен номер."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:137
-#, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
-msgstr "Ако вашата обратна връзка е за уеб-сайт, включете го тук."
+msgstr ""
+"Ако вашата обратна връзка е за интернет страница, можете да сложите адресът "
+"ѝ тук:"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:154
 msgid ""
@@ -718,9 +720,8 @@ msgid ""
 msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:170
-#, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr "Кликнете тук, ако искате да получите обратна връзка от нас."
+msgstr ""
 
 #. Label on the submit button of the feedback form.
 #: fjord/feedback/templates/feedback/generic_feedback.html:187
