@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2013-05-24 08:58+0200\n"
-"Last-Translator: Bogomil <bogomil@efb.bg>\n"
+"PO-Revision-Date: 2015-02-14 22:37+0000\n"
+"Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.6\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1423953436.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -43,7 +44,7 @@ msgstr "Тъжен"
 
 #: fjord/analytics/views.py:153 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
-msgstr ""
+msgstr "Отговор №: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
@@ -74,9 +75,8 @@ msgid "Locale"
 msgstr "Език"
 
 #: fjord/analytics/templates/analytics/dashboard.html:7
-#, fuzzy
 msgid "Atom feed for this search"
-msgstr "Емисия Atom за това търсене"
+msgstr "Atom-емисия за това търсене"
 
 #: fjord/analytics/templates/analytics/dashboard.html:45 fjord/analytics/templates/analytics/analyzer/search.html:78 fjord/analytics/templates/analytics/mobile/response.html:40
 msgid "Permalink"
@@ -131,9 +131,8 @@ msgid "Feedback"
 msgstr "Обратна връзка"
 
 #: fjord/analytics/templates/analytics/dashboard.html:145
-#, fuzzy
 msgid "Search by keyword"
-msgstr "Търсене"
+msgstr "Търсене по ключова дума"
 
 #: fjord/analytics/templates/analytics/dashboard.html:163
 msgid "No feedback matches that criteria."
@@ -161,7 +160,7 @@ msgstr "Таблото е недостъпно. Моля, опитайте от�
 
 #: fjord/analytics/templates/analytics/response.html:45
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
 #: fjord/analytics/templates/analytics/response.html:133 fjord/analytics/templates/analytics/response.html:137 fjord/analytics/templates/analytics/response.html:141
@@ -174,19 +173,16 @@ msgid "Description"
 msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "Превод на съобщението"
+msgstr "Преведено"
 
 #: fjord/analytics/templates/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "Превод на съобщението"
+msgstr "Превод (машинен)"
 
 #: fjord/analytics/templates/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "Превод на съобщението"
+msgstr "Превод (човек)"
 
 #: fjord/analytics/templates/analytics/response.html:85
 msgid "Created"
@@ -201,7 +197,6 @@ msgid "URL Domain"
 msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:127
-#, fuzzy
 msgid "Source"
 msgstr "Изходен код"
 
@@ -234,9 +229,8 @@ msgid "Manufacturer"
 msgstr "Производител"
 
 #: fjord/analytics/templates/analytics/response.html:163 fjord/feedback/templates/feedback/fxos_feedback.html:74
-#, fuzzy
 msgid "Device"
-msgstr "Устройства"
+msgstr "Устройство"
 
 #: fjord/analytics/templates/analytics/response.html:167
 #, fuzzy
@@ -256,9 +250,8 @@ msgid "yes"
 msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:187
-#, fuzzy
 msgid "API version"
-msgstr "Версия"
+msgstr "Версия на API"
 
 #: fjord/analytics/templates/analytics/response.html:205
 msgid "Context"
@@ -325,18 +318,21 @@ msgid "Hello!"
 msgstr "Здравейте!"
 
 #: fjord/base/templates/about.html:11
-#, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input е основният механизъм на Mozilla за обратна връзка. Той е създаден, за да бъде средство за еднопосочна комуникация за вашия опит в използването на Firefox, за Интернет, който виждате "
-"през него и за това как Mozilla може да подобри вашето преживяване. Системата е достъпна през много канали за достъп."
+"Firefox Input е основният механизъм на Mozilla за обратна връзка. Той е "
+"създаден, за да бъде средство за еднопосочна комуникация за вашия опит в "
+"използването на продуктите ни, за Интернет, който виждате през него и за "
+"това как Mozilla може да подобри вашето преживяване. Системата е достъпна "
+"през много канали за достъп версии на продуктите."
 
 #: fjord/base/templates/about.html:21
-#, fuzzy
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
-msgstr "За да дадете обратна връзка за Вашата версия на Firefox, моля отидете на <a href=\"%(url)s\">страницата за публикуване на обратна връзка</a>!"
+msgstr ""
+"За да дадете обратна връзка за продукт на Mozilla, моля посетете <a href=\"%"
+"(url)s\">страницата за публикуване на обратна връзка</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/footer.html:7
 msgid "Privacy Policy"
@@ -387,9 +383,10 @@ msgid "Source Code"
 msgstr "Изходен код"
 
 #: fjord/base/templates/about.html:76
-#, fuzzy
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr "Кодът на уеб приложението Firefox Input може да се намери <a href=\"%(url)s\">в GitHub</a>!"
+msgstr ""
+"Кодът на страницата на Firefox Input може да бъде намерен в <a href=\"%"
+"(url)s\">в GitHub</a>!"
 
 #: fjord/base/templates/base.html:4 fjord/base/templates/mobile/base.html:4
 msgid "Welcome"
@@ -424,18 +421,16 @@ msgid "Sign in"
 msgstr "Вход"
 
 #: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "Грешка при входа"
+msgstr "Грешка в CSRF"
 
 #: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Грешка при входа"
 
 #: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
-#, fuzzy
 msgid "Welcome to Input!"
-msgstr "Добре дошли!"
+msgstr "Добре дошли в Input!"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -558,24 +553,20 @@ msgid "Submit Your Feedback"
 msgstr "Изпращане на обратна връзка"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:21 fjord/feedback/templates/feedback/generic_feedback.html:189
-#, fuzzy
 msgid "Submit feedback"
-msgstr "Изпращане на обратна връзка"
+msgstr "Изпращане обратна връзка"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:25
-#, fuzzy
 msgid "Your feedback helps us improve Firefox OS."
-msgstr "Вашата обратна връзка ни помага да подобрим Firefox."
+msgstr "Вашата обратна връзка ни помага да подобрим Firefox OS."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:29
-#, fuzzy
 msgid "Firefox OS made me happy"
-msgstr "Firefox ме направи щастлив"
+msgstr "Firefox OS ме направи щастлив"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:30
-#, fuzzy
 msgid "Firefox OS made me sad"
-msgstr "Firefox ме натъжи"
+msgstr "Firefox OS ме натъжи"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:36
 #, fuzzy
@@ -692,14 +683,12 @@ msgid "How does %(product)s make you feel?"
 msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:72
-#, fuzzy
 msgid "%(product)s makes me happy"
-msgstr "Firefox ме прави щастлив ..."
+msgstr "%(product)s ме прави щастлив"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:89
-#, fuzzy
 msgid "%(product)s makes me sad"
-msgstr "%(count)s съобщение"
+msgstr "%(product)s ме натъжава"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:98
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
@@ -735,27 +724,24 @@ msgstr "Кликнете тук, ако искате да получите об�
 
 #. Label on the submit button of the feedback form.
 #: fjord/feedback/templates/feedback/generic_feedback.html:187
-#, fuzzy
 msgid "Submit"
-msgstr "Изпращане на обратна връзка"
+msgstr "Изпращане"
 
 #: fjord/feedback/templates/feedback/picker.html:4
-#, fuzzy
 msgid "Select A Product"
-msgstr "Продукт"
+msgstr "Избиране на продукт"
 
 #: fjord/feedback/templates/feedback/picker.html:23
 msgid "Select a product"
-msgstr ""
+msgstr "Избиране на продукт"
 
 #: fjord/feedback/templates/feedback/picker.html:32
-#, fuzzy
 msgid "No products available."
-msgstr "Таблото е недостъпно"
+msgstr "Няма достъпни продукти."
 
 #: fjord/feedback/templates/feedback/picker.html:43
 msgid "Select a product to leave feedback for."
-msgstr ""
+msgstr "Изберете продуктът, за който ще оставите обратна връзка."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -779,7 +765,7 @@ msgstr "Изтеглете <a href=\"%(download_url)s\">версията, под
 
 #: fjord/feedback/templates/feedback/thanks.html:43
 msgid "Having problems? Get help."
-msgstr ""
+msgstr "Имате проблеми? Получете помощ."
 
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
@@ -790,9 +776,10 @@ msgid "Contribute to Mozilla."
 msgstr "Помогнете на Mozilla."
 
 #: fjord/feedback/templates/feedback/thanks.html:53
-#, fuzzy
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
-msgstr "Научете как можете <a href=\"%(url)s\">да направите Firefox и Mozilla по-добри</a>"
+msgstr ""
+"Научете как можете <a href=\"%(url)s\">да направите Firefox и Mozilla "
+"по-добри</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:60
 msgid "Find the latest news about Firefox."
