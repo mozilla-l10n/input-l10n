@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2015-02-19 09:10+0000\n"
+"PO-Revision-Date: 2015-02-19 09:24+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1424337040.0\n"
+"X-POOTLE-MTIME: 1424337899.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -265,7 +265,7 @@ msgstr ""
 
 #: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "Забранено"
 
 #: fjord/base/templates/403.html:12
 msgid "You do not have access to this page."
@@ -354,11 +354,13 @@ msgstr ""
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Политика за съхранение на данни"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Имаме политика за съхранение на данни, която покрива информацията, която "
+"тази страница пази:"
 
 #: fjord/base/templates/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
@@ -468,7 +470,7 @@ msgstr "Избиране"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Не успешно удостоверяване с Persona. Моля, опитайте отново."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -624,7 +626,7 @@ msgstr "Е-mail (незадължителен):"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:145
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Моля, въведете валиден адрес на ел. поща."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:151
 msgid "Don't worry, your email will always be kept private."
@@ -656,7 +658,7 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:197
 msgid "We're sorry!"
-msgstr ""
+msgstr "Съжаляваме!"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:203
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
@@ -664,15 +666,15 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:208 fjord/feedback/templates/feedback/fxos_feedback.html:216 fjord/feedback/templates/feedback/fxos_feedback.html:227
 msgid "Try again"
-msgstr ""
+msgstr "Опитайте отново"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:209 fjord/feedback/templates/feedback/fxos_feedback.html:228
 msgid "Cancel"
-msgstr ""
+msgstr "Отказ"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:222
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
-msgstr ""
+msgstr "Имате неизпратена обратна връзка. Искате и да я изпратите сега?"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:44
 msgid "{product} feedback"
@@ -684,7 +686,7 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Как %(product)s Ви кара да се чувствате?"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:72
 msgid "%(product)s makes me happy"
@@ -697,6 +699,8 @@ msgstr "%(product)s ме натъжава"
 #: fjord/feedback/templates/feedback/generic_feedback.html:98
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"%(product)s не е продуктът, за който искате да оставите обратна връзка?<br "
+"/> <a href=\"%(url)s\">Изберете друг</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:112
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
@@ -725,6 +729,10 @@ msgid ""
 "Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
 "our Privacy policy."
 msgstr ""
+"Натиснете тук, за да предоставите техническа информация за браузъра си. Тя "
+"ще ни помогне да разберем по-добре потребителите си и да подобрим продуктите "
+"си. Тази информация ще бъде запазена в съответствие с вашата Декларация за "
+"поверителност."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
@@ -778,6 +786,8 @@ msgstr "Имате проблеми? Получете помощ."
 #: fjord/feedback/templates/feedback/thanks.html:45
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr ""
+"Посетете нашият форум за поддръжка, в който може <a href=\"%(url)s\">да "
+"получите помощ и да намерите отговори</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
