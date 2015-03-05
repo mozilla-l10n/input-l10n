@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2015-02-27 22:01+0000\n"
+"PO-Revision-Date: 2015-03-05 10:19+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1425074498.0\n"
+"X-POOTLE-MTIME: 1425550763.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -46,7 +46,7 @@ msgstr "Отговор №: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
-msgstr ""
+msgstr "словосъчетание"
 
 #: fjord/analytics/views.py:345
 msgid "Sentiment"
@@ -102,7 +102,7 @@ msgstr "30 дена"
 #. Short for 90 days.
 #: fjord/analytics/templates/analytics/dashboard.html:108
 msgid "90d"
-msgstr "90д"
+msgstr "90 дена"
 
 #: fjord/analytics/templates/analytics/dashboard.html:110
 msgid "&raquo;"
@@ -165,7 +165,7 @@ msgstr "Категория"
 #: fjord/analytics/templates/analytics/response.html:133 fjord/analytics/templates/analytics/response.html:137 fjord/analytics/templates/analytics/response.html:141
 #: fjord/analytics/templates/analytics/response.html:145
 msgid "None"
-msgstr ""
+msgstr "Няма"
 
 #: fjord/analytics/templates/analytics/response.html:49
 msgid "Description"
@@ -193,7 +193,7 @@ msgstr "Канал"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
-msgstr ""
+msgstr "Домейн от URL-а"
 
 #: fjord/analytics/templates/analytics/response.html:127
 msgid "Source"
@@ -346,11 +346,13 @@ msgstr ""
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Правна отговорност и ограничения"
 
 #: fjord/base/templates/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr ""
+"Ние сме подвластни на документа за <a href=\"%(url)s\">Правна отговорност и "
+"ограничения на Mozilla</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
@@ -487,6 +489,8 @@ msgstr "Добре дошли!"
 #: fjord/base/templates/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
+"Идентичността, с която се вписахте в Persona е свързана с профила ви в "
+"Input. Моля, запомнете коя идентичност от Persona използвахте."
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
@@ -671,6 +675,8 @@ msgstr "Съжаляваме!"
 #: fjord/feedback/templates/feedback/fxos_feedback.html:203
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
 msgstr ""
+"Нещо ни попречи да изпратим обратната връзка. Текстът ще бъде запазен на "
+"устройството ви, за да опитате да го изпратите по-късно."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:208 fjord/feedback/templates/feedback/fxos_feedback.html:216 fjord/feedback/templates/feedback/fxos_feedback.html:227
 msgid "Try again"
@@ -691,6 +697,8 @@ msgstr "обратна връзка за {product}"
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr ""
+"За да оставите обратна връзка е необходим JavaScript. Моля, включете "
+"JavaScript в браузъра си и презаредете страницата."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
