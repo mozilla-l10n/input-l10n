@@ -11,8 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.8.1\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : "
+"4\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339
 #: fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
@@ -59,7 +59,7 @@ msgstr "Aitheantas an Fhreagra: {id}"
 
 #: fjord/analytics/views.py:281
 msgid "Bigram"
-msgstr ""
+msgstr "Déghram"
 
 #: fjord/analytics/views.py:345
 msgid "Sentiment"
@@ -77,7 +77,7 @@ msgstr "Leagan"
 
 #: fjord/analytics/views.py:370
 msgid "Select product to see version breakdown"
-msgstr ""
+msgstr "Roghnaigh táirge chun leaganacha éagsúla a fheiceáil"
 
 #: fjord/analytics/views.py:378
 #: fjord/analytics/templates/analytics/response.html:99
@@ -141,7 +141,7 @@ msgstr "Socraigh"
 
 #: fjord/analytics/templates/analytics/dashboard.html:136
 msgid "Note: All dates and times are in Pacific Time."
-msgstr ""
+msgstr "Nod: Taispeánaimid dátaí agus amanna sa chrios ama Pacific (SAM)."
 
 #: fjord/analytics/templates/analytics/dashboard.html:141
 msgid "Feedback"
@@ -153,7 +153,7 @@ msgstr "Cuardach de réir lorgfhocail"
 
 #: fjord/analytics/templates/analytics/dashboard.html:163
 msgid "No feedback matches that criteria."
-msgstr ""
+msgstr "Níl aon aiseolas ann a mheaitseálann na critéir."
 
 #: fjord/analytics/templates/analytics/dashboard.html:169
 msgid "Older Messages"
@@ -165,7 +165,7 @@ msgstr "Níos Nuaí"
 
 #: fjord/analytics/templates/analytics/dashboard.html:185
 msgid "Messages in specified time range"
-msgstr ""
+msgstr "Teachtaireachtaí ó raon ama áirithe"
 
 #: fjord/analytics/templates/analytics/es_down.html:12
 msgid "Dashboard unavailable"
@@ -229,15 +229,15 @@ msgstr "Feachtas"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "Brabhsálaí"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "Leagan"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "Ardán"
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -267,11 +267,11 @@ msgstr "Ríomhphost"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "Sonraí brabhsálaí"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "tá"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -351,26 +351,26 @@ msgstr "Dia Dhuit!"
 
 #: fjord/base/templates/about.html:11
 msgid ""
-"Firefox Input is Mozilla's primary feedback mechanism for products. It is "
-"set up to be a method of one-way communication about your experiences in "
-"using our products, the Internet you view it through, and what Mozilla can "
-"do to make that experience better. The system is available over a wide-"
-"variety of submission mechanisms and product builds."
+"Firefox Input is Mozilla's primary feedback mechanism for products. It is set "
+"up to be a method of one-way communication about your experiences in using "
+"our products, the Internet you view it through, and what Mozilla can do to "
+"make that experience better. The system is available over a wide-variety of "
+"submission mechanisms and product builds."
 msgstr ""
-"Is é Firefox Input príomhchóras aiseolais Mhozilla. Is éard "
-"atá ann ná modh cumarsáide aontreo maidir lenár dtáirgí, an tIdirlíon a "
-"bhrabhsálann tú tríd, agus na rudaí is féidir le Mozilla a dhéanamh le "
-"feabhas a chur ar do chuairt ar líne.  Tugann an córas bealaí éagsúla duit "
-"le haiseolas a sheoladh chugainn, agus is féidir aiseolas faoi na trí "
-"phríomhleagan atá againn a sheoladh."
+"Is é Firefox Input príomhchóras aiseolais Mhozilla. Is éard atá ann ná modh "
+"cumarsáide aontreo maidir lenár dtáirgí, an tIdirlíon a bhrabhsálann tú tríd, "
+"agus na rudaí is féidir le Mozilla a dhéanamh le feabhas a chur ar do chuairt "
+"ar líne.  Tugann an córas bealaí éagsúla duit le haiseolas a sheoladh "
+"chugainn, agus is féidir aiseolas faoi na trí phríomhleagan atá againn a "
+"sheoladh."
 
 #: fjord/base/templates/about.html:21
 msgid ""
 "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s"
 "\">the feedback submission page</a>!"
 msgstr ""
-"Le haiseolas faoi tháirge Mozilla a sheoladh chugainn, téigh go dtí <a "
-"href=\"%(url)s\">an leathanach aiseolais</a>!"
+"Le haiseolas faoi tháirge Mozilla a sheoladh chugainn, téigh go dtí <a href="
+"\"%(url)s\">an leathanach aiseolais</a>!"
 
 #: fjord/base/templates/about.html:27
 #: fjord/base/templates/includes/footer.html:7
@@ -379,37 +379,45 @@ msgstr "Polasaí Príobháideachta"
 
 #: fjord/base/templates/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
-msgstr ""
+msgstr "Cloímid le <a href=\"%(url)s\">Polasaí Príobháideachais Mhozilla</a>."
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Séanadh Dlí agus Teorainneacha"
 
 #: fjord/base/templates/about.html:36
 msgid ""
 "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
 "limitations</a> document."
 msgstr ""
+"Tá an suíomh seo faoi scáth na cáipéise <a href=\"%(url)s\">Séanadh Dlí agus "
+"Teorainneacha Mozilla</a>."
 
 #: fjord/base/templates/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Polasaí Coinneála Sonraí"
 
 #: fjord/base/templates/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Tá polasaí coinneála sonraí againn maidir le sonraí atá sábháilte ar an "
+"suíomh seo:"
 
 #: fjord/base/templates/about.html:51
 msgid ""
 "We keep feedback data forever, but only the last 6 months of data is "
 "available on the public dashboard."
 msgstr ""
+"Sábhálfaimid sonraí aiseolais go brách, cé nach bhfuil ach na sé mhí is "
+"déanaí ar fáil ar an bpainéal poiblí."
 
 #: fjord/base/templates/about.html:57
 msgid ""
-"We keep email addresses and contextual data associated with feedback data "
-"for 6 months and then delete it."
+"We keep email addresses and contextual data associated with feedback data for "
+"6 months and then delete it."
 msgstr ""
+"Sábhálaimid seoltaí ríomhphoist agus sonraí comhthéacsúla a bhaineann le "
+"sonraí aiseolais ar feadh sé mhí, ansin scriosaimid iad."
 
 # not a verb!
 #: fjord/base/templates/about.html:64
@@ -418,10 +426,14 @@ msgstr "Sonraí Oscailte"
 
 #: fjord/base/templates/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. "
-"So, we need requests from you on questions you'd like to see answered! If "
-"you would like to experiment with our data, please contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, "
+"we need requests from you on questions you'd like to see answered! If you "
+"would like to experiment with our data, please contact us!"
 msgstr ""
+"Ba bhreá linn tuilleadh turgnamh a dhéanamh leis na sonraí seo, ach níl go "
+"leor againn anseo. Mar sin, fearaimid fáilte roimh cheisteanna agus moltaí "
+"uaitse! Dá mba mhaith leat turgnamh a dhéanamh lenár gcuid sonraí, téigh i "
+"dteagmháil linn!"
 
 #: fjord/base/templates/about.html:74
 msgid "Source Code"
@@ -453,7 +465,7 @@ msgstr "Seol Aiseolas"
 
 #: fjord/base/templates/base.html:46
 msgid "Analytics"
-msgstr ""
+msgstr "Anailísíocht"
 
 #: fjord/base/templates/base.html:52
 msgid "Hello, {username}"
@@ -486,7 +498,7 @@ msgstr "Fáilte go Input!"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "Diúltaíodh d'aiseolas mar gheall ar dheimhniú slándála ar ár gcóras."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:8
 msgid ""
@@ -494,6 +506,9 @@ msgid ""
 "browser, refresh the page, fill out the form, and try submitting your "
 "feedback again."
 msgstr ""
+"Deimhnigh go bhfuil tú ag glacadh le fianáin, brúigh an cnaipe Siar i do "
+"bhrabhsálaí, athnuaigh an leathanach, líon an fhoirm isteach, agus bain "
+"triail eile as."
 
 #: fjord/base/templates/includes/footer.html:8
 msgid "Legal Notices"
@@ -506,11 +521,11 @@ msgstr "Drochúsáid Trádmharcanna"
 #: fjord/base/templates/includes/footer.html:13
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative "
-"Commons Attribution Share-Alike License v3.0</a> or any later version."
+"site is licensed under the <br/> <a href=\"%(license_url)s\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
-"Ach amháin in aon áit <a href=\"%(legal_url)s\">ina ndeirtear a mhalairt</"
-"a>, cuirtear an t-ábhar ar an suíomh seo ar fáil faoin<br/> <a href="
+"Ach amháin in aon áit <a href=\"%(legal_url)s\">ina ndeirtear a mhalairt</a>, "
+"cuirtear an t-ábhar ar an suíomh seo ar fáil faoin<br/> <a href="
 "\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</"
 "a>, nó aon leagan níos déanaí"
 
@@ -524,7 +539,7 @@ msgstr "Téigh"
 
 #: fjord/base/templates/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Theip ar logáil isteach trí Persona. Bain triail eile as."
 
 #: fjord/base/templates/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -535,10 +550,12 @@ msgid ""
 "The identity you just logged in to Persona with ties you to your account on "
 "Input. Please remember which Persona identity you used."
 msgstr ""
+"Úsáidtear an cuntas Persona seo chun tusa a cheangal le do chuntas ar an "
+"suíomh seo. Ba chóir duit meabhrú cé acu cuntas Persona a d'úsáid tú."
 
 #: fjord/base/templates/includes/new_user_text.html:10
 msgid "Continue"
-msgstr ""
+msgstr "Ar Aghaidh"
 
 #: fjord/feedback/config.py:10
 msgid "Colombia"
@@ -582,15 +599,15 @@ msgstr "Montainéagró"
 
 #: fjord/feedback/config.py:20
 msgid "Mexico"
-msgstr ""
+msgstr "Meicsiceo"
 
 #: fjord/feedback/config.py:21
 msgid "Peru"
-msgstr ""
+msgstr "Peiriú"
 
 #: fjord/feedback/config.py:22
 msgid "Uruguay"
-msgstr ""
+msgstr "Uragua"
 
 #: fjord/feedback/templates/feedback/download_firefox.html:14
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:7
@@ -607,8 +624,8 @@ msgid ""
 "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need "
 "to be on the latest version."
 msgstr ""
-"Má tá tú ag iarraidh aiseolas a thabhairt dúinn faoi Firefox, caithfidh tú "
-"an leagan is déanaí a úsáid."
+"Má tá tú ag iarraidh aiseolas a thabhairt dúinn faoi Firefox, caithfidh tú an "
+"leagan is déanaí a úsáid."
 
 #: fjord/feedback/templates/feedback/download_firefox.html:31
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:27
@@ -647,10 +664,12 @@ msgid ""
 "If you need help or have a problem with Firefox OS, please visit <a href="
 "\"%(support_url)s\">Mozilla Support</a>."
 msgstr ""
+"Má tá cabhair uait nó má tá fadhb agat le Firefox OS, tabhair cuairt ar <a "
+"href=\"%(support_url)s\">Tacaíocht Mozilla</a>."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:57
 msgid "In what country did you purchase your Firefox OS device?"
-msgstr ""
+msgstr "Cén tír inar cheannaigh tú do ghléas Firefox OS?"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:63
 #: fjord/feedback/templates/feedback/fxos_feedback.html:86
@@ -665,7 +684,7 @@ msgstr "Ar Aghaidh"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:80
 msgid "What Firefox OS device are you using?"
-msgstr ""
+msgstr "Cén gléas Firefox OS atá agat?"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:96
 #: fjord/feedback/templates/feedback/generic_feedback.html:107
@@ -678,13 +697,15 @@ msgstr "Cad é a thaitin leat?"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:105
 msgid "Please describe your problem below and be as specific as you can."
-msgstr ""
+msgstr "Déan miontuairisc ar d'fhadhb thíos."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:114
 msgid ""
-"The content of your feedback will be public, so please be sure not to "
-"include any personal information."
+"The content of your feedback will be public, so please be sure not to include "
+"any personal information."
 msgstr ""
+"Beidh do chuid aiseolais ar fáil go poiblí. Mar sin, bí cinnte nach bhfuil "
+"aon fhaisnéis phearsanta ann."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:127
 msgid "Can we contact you?"
@@ -693,6 +714,8 @@ msgstr "An bhfuil cead againn dul i dteagmháil leat?"
 #: fjord/feedback/templates/feedback/fxos_feedback.html:135
 msgid "Check here to let us contact you to follow up on your feedback."
 msgstr ""
+"Cuir tic anseo le cead a thabhairt dúinn dul i dteagmháil leat maidir le do "
+"chuid aiseolais."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:141
 msgid "Email address (optional):"
@@ -705,6 +728,7 @@ msgstr "Cuir isteach seoladh ríomhphoist bailí."
 #: fjord/feedback/templates/feedback/fxos_feedback.html:151
 msgid "Don't worry, your email will always be kept private."
 msgstr ""
+"Ná buair do cheann - beidh do sheoladh ríomhphoist príobháideach i gcónaí."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:155
 msgid "Send Feedback"
@@ -723,8 +747,8 @@ msgid ""
 "Thank you for your feedback! We will use it to help us create a better "
 "experience in future versions of Firefox OS."
 msgstr ""
-"Go raibh maith agat as do chuid aiseolais! Úsáidfear é chun feabhas a chur "
-"ar leaganacha Firefox OS amach anseo."
+"Go raibh maith agat as do chuid aiseolais! Úsáidfear é chun feabhas a chur ar "
+"leaganacha Firefox OS amach anseo."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:186
 msgid ""
@@ -742,6 +766,8 @@ msgid ""
 "Something has happened and we can't submit your feedback. Feedback will be "
 "saved on your device so you can try sending it again later."
 msgstr ""
+"Tharla earráid agus theip orainn do chuid aiseolais a sheoladh. Beidh sé "
+"sábháilte ar do ghléas agus is féidir leat iarracht eile a dhéanamh ar ball."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:208
 #: fjord/feedback/templates/feedback/fxos_feedback.html:216
@@ -756,9 +782,10 @@ msgstr "Cealaigh"
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:222
 msgid ""
-"You have unsubmitted feedback data. Would you like to try submitting it "
-"again?"
+"You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr ""
+"Tá roinnt aiseolais agat gan seoladh fós. An bhfuil fonn ort é a sheoladh "
+"anois?"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:44
 msgid "{product} feedback"
@@ -770,6 +797,8 @@ msgid ""
 "JavaScript is required to leave feedback. Please enable JavaScript in your "
 "browser and refresh this page."
 msgstr ""
+"Caithfidh tú JavaScript a chumasú chun aiseolas a thabhairt. Cumasaigh "
+"JavaScript i do bhrabhsálaí ansin athluchtaigh an leathanach seo."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -788,6 +817,8 @@ msgid ""
 "Is %(product)s not the product you want to give feedback on?<br /> <a href="
 "\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"Ar mhaith leat aiseolas a sheoladh faoi tháirge seachas %(product)s?<br /> <a "
+"href=\"%(url)s\">Roghnaigh táirge eile</a>."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:112
 msgid ""
@@ -795,13 +826,18 @@ msgid ""
 "so please be sure not to include personal information such as email address, "
 "passwords or phone number."
 msgstr ""
+"Déan cur síos ar na rudaí a thaitníonn leat. Beidh do chuid aiseolais ar fáil "
+"go poiblí, mar sin bí cinnte nach bhfuil faisnéis phearsanta ann, mar shampla "
+"seoladh ríomhphoist, focail fhaire, nó uimhir theileafóin."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:120
 msgid ""
-"Please describe your problem below and be as specific as you can. The "
-"content of your feedback will be public, so please be sure not to include "
-"personal information such as email address, passwords or phone number."
-msgstr ""
+"Please describe your problem below and be as specific as you can. The content "
+"of your feedback will be public, so please be sure not to include personal "
+"information such as email address, passwords or phone number."
+msgstr "Déan miontuairisc ar d'fhadhb thíos. Beidh do chuid aiseolais ar fáil "
+"go poiblí, mar sin bí cinnte nach bhfuil faisnéis phearsanta ann, mar shampla "
+"seoladh ríomhphoist, focail fhaire, nó uimhir theileafóin."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:137
 msgid "If your feedback is related to a website, you can include it here:"
@@ -812,13 +848,13 @@ msgid ""
 "Check here to provide technical information about your browser. This "
 "information helps us better understand our users and create better products. "
 "This information will be kept in accordance with our Privacy policy."
-msgstr ""
+msgstr "Cuir tic anseo chun mionsonraí teicniúla faoi do bhrabhsálaí a sholáthar. Cabhraíonn na mionsonraí seo linn tuiscint níos fearr a fháil ar ár n-úsáideoirí agus táirgí níos fearr a chruthú. Sábhálfar an fhaisnéis seo de réir ár bPolasaí Príobháideachais."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid ""
 "(Optional) Check here to let us contact you to follow up on your feedback. "
 "Your email address will be kept private."
-msgstr ""
+msgstr "(Roghnach) Cuir tic anseo le cead a thabhairt dúinn dul i dteagmháil leat maidir le do chuid aiseolais. Coinneoimid do sheoladh ríomhphoist príobháideach."
 
 #. Label on the submit button of the feedback form.
 #: fjord/feedback/templates/feedback/generic_feedback.html:187
@@ -839,7 +875,7 @@ msgstr "Níl aon táirgí ar fáil."
 
 #: fjord/feedback/templates/feedback/picker.html:43
 msgid "Select a product to leave feedback for."
-msgstr ""
+msgstr "Roghnaigh táirge chun aiseolas a thabhairt faoi."
 
 #: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks"
@@ -876,6 +912,8 @@ msgid ""
 "Go to our support forum where you can <a href=\"%(url)s\">get help and find "
 "answers</a>."
 msgstr ""
+"Déan cuairt ar ár bhfóram tacaíochta, áit ar féidir leat <a href=\"%(url)s"
+"\">cúnamh a fháil</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Contribute to Mozilla."
