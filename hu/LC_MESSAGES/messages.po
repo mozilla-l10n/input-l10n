@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-14 07:51-0700\n"
-"PO-Revision-Date: 2014-12-06 01:10+0100\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
+"PO-Revision-Date: 2015-04-13 09:17+0000\n"
+"Last-Translator: Gábor <kelemeng@ubuntu.com>\n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n !=1);\n"
-"X-Generator: Lokalize 1.4\n"
-"X-POOTLE-MTIME: 1382299008.0\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1428916671.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:339 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -206,15 +206,15 @@ msgstr "Kampány"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "Böngésző"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr ""
+msgstr "Böngésző Ver."
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
-msgstr ""
+msgstr "Böngésző Plat."
 
 #: fjord/analytics/templates/analytics/response.html:151
 msgid "Full URL"
@@ -242,11 +242,11 @@ msgstr "E-mail"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
-msgstr ""
+msgstr "Bröngésző adat"
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "igen"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -358,9 +358,9 @@ msgid "We keep feedback data forever, but only the last 6 months of data is avai
 msgstr "A visszajelzési adatokat örökre megtartjuk, de csak az utolsó 6 havi adatok láthatók a nyilvános vezérlőpulton."
 
 #: fjord/base/templates/about.html:57
-#, fuzzy
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr "Az e-mail címeket 6 hónapig tartjuk az adatokhoz társítva, utána töröljük."
+msgstr ""
+"Az e-mail címeket 6 hónapig tároljuk az adatokhoz társítva, utána töröljük."
 
 #: fjord/base/templates/about.html:64
 msgid "Open Data"
@@ -371,8 +371,11 @@ msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
 msgstr ""
-"Szeretnénk az adatokkal tovább kísérletezni, de csak néhányan vagyunk. Ezért olyan kérdéseket szeretnénk kapni, amelyekre ezekből az adatokból megválaszolhatunk. Amennyiben kísérletezni szeretne az "
-"adatainkkal, vegye fel velünk a kapcsolatot!"
+"További adatokat szeretnék Öntől begyűjteni, hogy az adatok alapján hibákra "
+"és egyes kérdésekre válaszokat kapjunk. Szeretnénk az adatokkal tovább "
+"kísérletezni, de csak néhányan vagyunk. Ezért olyan kérdéseket szeretnénk "
+"kapni, amelyekre ezekből az adatokból megválaszolhatunk. Amennyiben "
+"kísérletezni szeretne az adatainkkal, vegye fel velünk a kapcsolatot!"
 
 #: fjord/base/templates/about.html:74
 msgid "Source Code"
@@ -665,6 +668,8 @@ msgstr "{product} visszajelzés"
 #: fjord/feedback/templates/feedback/generic_feedback.html:49 fjord/feedback/templates/feedback/picker.html:37
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr ""
+"A JavaScript szükséges az oldal megtekintéséhez. Kérjük engedélyezze a "
+"JavaScriptet a böngészőjében és frissítsen."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:55
 msgid "How does %(product)s make you feel?"
@@ -704,6 +709,10 @@ msgid ""
 "Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
 "our Privacy policy."
 msgstr ""
+"Jelölje be, hogy a böngészője technikai információkat küldhessen magáról. Ez "
+"hozzásegít minket a felhasználói igények jobb megértéséhez és jobb termékek "
+"készítéséhez. Az információkat az adatvédelmi irányelveink szem előtt "
+"tartásával tároljuk."
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:170
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
@@ -711,9 +720,8 @@ msgstr "(elhagyható) Jelölje be, ha felvehetjük Önnel a kapcsolatot a vissza
 
 #. Label on the submit button of the feedback form.
 #: fjord/feedback/templates/feedback/generic_feedback.html:187
-#, fuzzy
 msgid "Submit"
-msgstr "Visszajelzés elküldése…"
+msgstr "Elküld"
 
 #: fjord/feedback/templates/feedback/picker.html:4
 msgid "Select A Product"
