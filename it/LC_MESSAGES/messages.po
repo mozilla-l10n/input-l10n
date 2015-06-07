@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-05 11:04-0700\n"
-"PO-Revision-Date: 2015-01-15 11:49+0000\n"
+"PO-Revision-Date: 2015-06-07 17:37+0000\n"
 "Last-Translator: Sara <sara.todaro@mozillaitalia.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1421322589.0\n"
+"X-POOTLE-MTIME: 1433698670.0\n"
 
 #: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
 msgid "Unknown"
@@ -70,7 +70,7 @@ msgstr "Piattaforma"
 
 #: fjord/analytics/views.py:405 fjord/analytics/templates/analytics/response.html:105
 msgid "Locale"
-msgstr "Locale"
+msgstr "Lingua"
 
 #: fjord/analytics/templates/analytics/dashboard.html:7
 msgid "Atom feed for this search"
@@ -208,7 +208,7 @@ msgstr "Browser"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
-msgstr "Ver. browser"
+msgstr "Versione"
 
 #: fjord/analytics/templates/analytics/response.html:143
 msgid "Browser Plat."
@@ -256,7 +256,7 @@ msgstr "Contesto"
 
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
-msgstr "Il pannello non è attualmente disponibile per i dispositivi mobili."
+msgstr "Il pannello non è attualmente disponibile per dispositivi mobile."
 
 #: fjord/base/models.py:56
 msgid "JSON Object"
@@ -326,9 +326,8 @@ msgstr ""
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
-"Firefox Input è il principale strumento utilizzato da Mozilla per raccogliere le opinioni e i suggerimenti degli utenti sui propri prodotti. Si tratta di un canale unidirezionale tramite cui puoi "
-"comunicarci le tue impressioni sull’utilizzo di tali prodotti e sull’esperienza internet che ne deriva; noi utilizzeremo queste informazioni per migliorare i nostri prodotti. Il sistema prevede "
-"un'ampia gamma di meccanismi attraverso cui inviare la tua opinione su svariate versioni dei prodotti Mozilla."
+"Per inserire un commento sui prodotti Mozilla visita <a href=\"%"
+"(url)s\">l’apposita pagina</a>."
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/common.html:20
 msgid "Privacy Policy"
@@ -443,13 +442,14 @@ msgid "Report Trademark Abuse"
 msgstr "Segnala un abuso dei marchi registrati"
 
 #: fjord/base/templates/includes/common.html:26
-#, fuzzy
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Eccetto dove diversamente <a href=\"%(legal_url)s\">indicato</a>, il contenuto di questo sito è distribuito sotto licenza <br/> <a href=\"%(license_url)s\">Creative Commons Attribuzione - Condividi "
-"allo stesso modo v3.0</a> o qualsiasi versione successiva."
+"Eccetto dove diversamente <a href=\"%(legal_url)s\">indicato</a>, il contenuto "
+"di questo sito è distribuito sotto licenza <a href=\"%"
+"(license_url)s\">Creative Commons Attribuzione – Condividi allo stesso modo "
+"v3.0</a> o qualsiasi versione successiva."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -730,9 +730,10 @@ msgid "Please Download Firefox!"
 msgstr "Scarica Firefox"
 
 #: fjord/suggest/providers/sumosuggest.py:160
-#, fuzzy
 msgid "Go to our support forum where you can get help and find answers."
-msgstr "Visita il nostro forum di supporto dove potrai <a href=\"%(url)s\">ricevere aiuto e trovare risposta</a>."
+msgstr ""
+"Visita il nostro forum di supporto dove riceverai assistenza e potrai "
+"trovare le risposte ai tuoi problemi."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Invia commento"
