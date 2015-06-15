@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 11:04-0700\n"
+"POT-Creation-Date: 2015-06-15 07:48-0700\n"
 "PO-Revision-Date: 2015-01-16 15:58+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1421423919.0\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "Bilinmiyor"
 
@@ -258,7 +258,7 @@ msgstr "Bağlam"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Pano henüz mobil aygıtlarda kullanılamamaktadır."
 
-#: fjord/base/models.py:56
+#: fjord/base/models.py:55
 msgid "JSON Object"
 msgstr "JSON nesnesi"
 
@@ -679,11 +679,11 @@ msgstr "Ürün yok."
 msgid "Select a product to leave feedback for."
 msgstr "Geri bildirimde bulunmak istediğiniz ürünü seçin."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
 msgid "Thanks"
 msgstr "Teşekkürler"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Geri bildiriminiz için teşekkürler"
 
@@ -691,42 +691,70 @@ msgstr "Geri bildiriminiz için teşekkürler"
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Ger bildiriminiz Firefox'un gelecek sürümlerinde daha iyi bir deneyim yaratmak için kullanılacaktır."
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Shape the future of Firefox."
-msgstr "Firefox'un geleceğini şekillendirin."
+#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#, fuzzy
+msgid "Suggestions from your feedback:"
+msgstr "Geri bildiriminiz paylaşın."
 
-#: fjord/feedback/templates/feedback/thanks.html:34
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "<a href=\"%(download_url)s\">Size en uygun sürümü</a> indirin."
-
-#: fjord/feedback/templates/feedback/thanks.html:42 fjord/suggest/providers/sumosuggest.py:159
+#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
 msgstr "Sorun mu yaşıyorsunuz? Yardım alın."
 
-#: fjord/feedback/templates/feedback/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "Yardım alabileceğiniz ve sorularınıza yanıt bulabileceğiniz <a href=\"%(url)s\">destek forumumuza gidin</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
+msgid "Shape the future of Firefox."
+msgstr "Firefox'un geleceğini şekillendirin."
+
+#: fjord/feedback/templates/feedback/thanks.html:62
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "<a href=\"%(download_url)s\">Size en uygun sürümü</a> indirin."
+
+#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
 msgid "Contribute to Mozilla."
 msgstr "Mozilla'ya katkıda bulunun."
 
-#: fjord/feedback/templates/feedback/thanks.html:54
+#: fjord/feedback/templates/feedback/thanks.html:72
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox'u ve Mozilla'yı nasıl iyileştirebileceğinizi</a> öğrenin."
 
-#: fjord/feedback/templates/feedback/thanks.html:61
+#: fjord/feedback/templates/feedback/thanks.html:79
 msgid "Find the latest news about Firefox."
+msgstr "Firefox hakkında son haberleri edinin."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "Ger bildiriminiz Firefox'un gelecek sürümlerinde daha iyi bir deneyim yaratmak için kullanılacaktır."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
+#, fuzzy
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "<a href=\"%(download_url)s\">Size en uygun sürümü</a> indirin."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "<a href=\"%(url)s\">Firefox'u ve Mozilla'yı nasıl iyileştirebileceğinizi</a> öğrenin."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#, fuzzy
+msgid "Find the latest news about %(product)s."
 msgstr "Firefox hakkında son haberleri edinin."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Lütfen Firefox'u indirin!"
 
-#: fjord/suggest/providers/sumosuggest.py:160
+#: fjord/suggest/providers/sumosuggest.py:180
+msgid "Ask a question in our support forum"
+msgstr ""
+
 #, fuzzy
-msgid "Go to our support forum where you can get help and find answers."
-msgstr "Yardım alabileceğiniz ve sorularınıza yanıt bulabileceğiniz <a href=\"%(url)s\">destek forumumuza gidin</a>."
+#~ msgid "Go to our support forum where you can get help and find answers."
+#~ msgstr "Yardım alabileceğiniz ve sorularınıza yanıt bulabileceğiniz <a href=\"%(url)s\">destek forumumuza gidin</a>."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Geri bildirim gönder"
@@ -867,9 +895,6 @@ msgstr "Yardım alabileceğiniz ve sorularınıza yanıt bulabileceğiniz <a hre
 
 #~ msgid "Submit Feedback"
 #~ msgstr "Geri Bildirimi Gönder"
-
-#~ msgid "Share your feedback."
-#~ msgstr "Geri bildiriminiz paylaşın."
 
 #~ msgid "Tweet feedback to your followers"
 #~ msgstr "Geri bildiriminizi takipçilerinize tweet'leyin"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 11:04-0700\n"
+"POT-Creation-Date: 2015-06-15 07:48-0700\n"
 "PO-Revision-Date: 2015-06-06 00:39+0000\n"
 "Last-Translator: yfdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1433551150.0\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "未知"
 
@@ -258,7 +258,7 @@ msgstr "上下文"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "仪表盘目前不能在移动设备上使用。"
 
-#: fjord/base/models.py:56
+#: fjord/base/models.py:55
 msgid "JSON Object"
 msgstr "JSON 对象"
 
@@ -440,9 +440,7 @@ msgstr "举报商标滥用"
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
-msgstr ""
-"除非特别<a href=\"%(legal_url)s\">指明</a>，本站的内容均采用<a href=\"%(license_url)s\">知识共享 "
-"署名-相同方式共享 许可证 3.0</a>或更新版授权。"
+msgstr "除非特别<a href=\"%(legal_url)s\">指明</a>，本站的内容均采用<a href=\"%(license_url)s\">知识共享 署名-相同方式共享 许可证 3.0</a>或更新版授权。"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -672,11 +670,11 @@ msgstr "没有产品可用。"
 msgid "Select a product to leave feedback for."
 msgstr "请选择您要留下反馈的产品"
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
 msgid "Thanks"
 msgstr "谢谢！"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
 msgid "Thanks for Your Feedback"
 msgstr "感谢您的反馈"
 
@@ -684,41 +682,69 @@ msgstr "感谢您的反馈"
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "您的反馈将被用来在未来的 Firefox 版本中打造更优秀的用户体验。"
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Shape the future of Firefox."
-msgstr "塑造 Firefox 的未来。"
+#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#, fuzzy
+msgid "Suggestions from your feedback:"
+msgstr "分享您的反馈。"
 
-#: fjord/feedback/templates/feedback/thanks.html:34
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "下载<a href=\"%(download_url)s\">适合您的版本</a>。"
-
-#: fjord/feedback/templates/feedback/thanks.html:42 fjord/suggest/providers/sumosuggest.py:159
+#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
 msgstr "遇到问题？取得帮助。"
 
-#: fjord/feedback/templates/feedback/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "请到我们的技术支持论坛<a href=\"%(url)s\">寻找答案并获得帮助</a>。"
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
+msgid "Shape the future of Firefox."
+msgstr "塑造 Firefox 的未来。"
+
+#: fjord/feedback/templates/feedback/thanks.html:62
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "下载<a href=\"%(download_url)s\">适合您的版本</a>。"
+
+#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
 msgid "Contribute to Mozilla."
 msgstr "贡献给 Mozilla。"
 
-#: fjord/feedback/templates/feedback/thanks.html:54
+#: fjord/feedback/templates/feedback/thanks.html:72
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "了解您能怎样 <a href=\"%(url)s\">让 Firefox 和 Mozilla 变得更好</a>。"
 
-#: fjord/feedback/templates/feedback/thanks.html:61
+#: fjord/feedback/templates/feedback/thanks.html:79
 msgid "Find the latest news about Firefox."
+msgstr "查看有关 Firefox 的最新消息。"
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "您的反馈将被用来在未来的 Firefox 版本中打造更优秀的用户体验。"
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
+#, fuzzy
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "下载<a href=\"%(download_url)s\">适合您的版本</a>。"
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "了解您能怎样 <a href=\"%(url)s\">让 Firefox 和 Mozilla 变得更好</a>。"
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#, fuzzy
+msgid "Find the latest news about %(product)s."
 msgstr "查看有关 Firefox 的最新消息。"
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "请下载 Firefox！"
 
-#: fjord/suggest/providers/sumosuggest.py:160
-msgid "Go to our support forum where you can get help and find answers."
-msgstr "请到我们的技术支持论坛寻找答案和获取帮助。"
+#: fjord/suggest/providers/sumosuggest.py:180
+msgid "Ask a question in our support forum"
+msgstr ""
+
+#~ msgid "Go to our support forum where you can get help and find answers."
+#~ msgstr "请到我们的技术支持论坛寻找答案和获取帮助。"
 
 #~ msgid "Submit feedback"
 #~ msgstr "提交反馈"
@@ -850,9 +876,6 @@ msgstr "请到我们的技术支持论坛寻找答案和获取帮助。"
 
 #~ msgid "Submit Feedback"
 #~ msgstr "提交反馈"
-
-#~ msgid "Share your feedback."
-#~ msgstr "分享您的反馈。"
 
 #~ msgid "Tweet feedback to your followers"
 #~ msgstr "把反馈推给您的关注者"

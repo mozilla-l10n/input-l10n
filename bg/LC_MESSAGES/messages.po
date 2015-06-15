@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 11:04-0700\n"
+"POT-Creation-Date: 2015-06-15 07:48-0700\n"
 "PO-Revision-Date: 2015-03-13 08:50+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1426236658.0\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "Непознат"
 
@@ -258,7 +258,7 @@ msgstr "Контекст"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Таблото, все още, не е достъпно за мобилни устройства."
 
-#: fjord/base/models.py:56
+#: fjord/base/models.py:55
 msgid "JSON Object"
 msgstr "JSON обект"
 
@@ -678,11 +678,11 @@ msgstr "Няма достъпни продукти."
 msgid "Select a product to leave feedback for."
 msgstr "Изберете продуктът, за който ще оставите обратна връзка."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
 msgid "Thanks"
 msgstr "Благодарим"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Благодарим за вашата обратна връзка"
 
@@ -690,42 +690,70 @@ msgstr "Благодарим за вашата обратна връзка"
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Вашата обратна връзка ще ми помогне да правим по-добри бъдещи версии на Firefox."
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Shape the future of Firefox."
-msgstr "Определете бъдещето на Firefox."
+#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#, fuzzy
+msgid "Suggestions from your feedback:"
+msgstr "Споделете обратната връзка."
 
-#: fjord/feedback/templates/feedback/thanks.html:34
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "Изтеглете <a href=\"%(download_url)s\">версията, подходяща за вас</a>."
-
-#: fjord/feedback/templates/feedback/thanks.html:42 fjord/suggest/providers/sumosuggest.py:159
+#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
 msgstr "Имате проблеми? Получете помощ."
 
-#: fjord/feedback/templates/feedback/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "Посетете нашият форум за поддръжка, в който може <a href=\"%(url)s\">да получите помощ и да намерите отговори</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
+msgid "Shape the future of Firefox."
+msgstr "Определете бъдещето на Firefox."
+
+#: fjord/feedback/templates/feedback/thanks.html:62
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "Изтеглете <a href=\"%(download_url)s\">версията, подходяща за вас</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
 msgid "Contribute to Mozilla."
 msgstr "Помогнете на Mozilla."
 
-#: fjord/feedback/templates/feedback/thanks.html:54
+#: fjord/feedback/templates/feedback/thanks.html:72
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Научете как можете <a href=\"%(url)s\">да направите Firefox и Mozilla по-добри</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:61
+#: fjord/feedback/templates/feedback/thanks.html:79
 msgid "Find the latest news about Firefox."
+msgstr "Научете последните новини за Firefox."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "Вашата обратна връзка ще ми помогне да правим по-добри бъдещи версии на Firefox."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
+#, fuzzy
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "Изтеглете <a href=\"%(download_url)s\">версията, подходяща за вас</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "Научете как можете <a href=\"%(url)s\">да направите Firefox и Mozilla по-добри</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#, fuzzy
+msgid "Find the latest news about %(product)s."
 msgstr "Научете последните новини за Firefox."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Моля, изтеглете Firefox!"
 
-#: fjord/suggest/providers/sumosuggest.py:160
+#: fjord/suggest/providers/sumosuggest.py:180
+msgid "Ask a question in our support forum"
+msgstr ""
+
 #, fuzzy
-msgid "Go to our support forum where you can get help and find answers."
-msgstr "Посетете нашият форум за поддръжка, в който може <a href=\"%(url)s\">да получите помощ и да намерите отговори</a>."
+#~ msgid "Go to our support forum where you can get help and find answers."
+#~ msgstr "Посетете нашият форум за поддръжка, в който може <a href=\"%(url)s\">да получите помощ и да намерите отговори</a>."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Изпращане на обратна връзка"
@@ -850,9 +878,6 @@ msgstr "Посетете нашият форум за поддръжка, в к�
 
 #~ msgid "Submit Feedback"
 #~ msgstr "Изпращане на обратна връзка"
-
-#~ msgid "Share your feedback."
-#~ msgstr "Споделете обратната връзка."
 
 #~ msgid "Tweet feedback to your followers"
 #~ msgstr "Споделете я с вашите последователи в Twitter"

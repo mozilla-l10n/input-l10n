@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 11:04-0700\n"
+"POT-Creation-Date: 2015-06-15 07:48-0700\n"
 "PO-Revision-Date: 2015-06-06 19:43+0100\n"
 "Last-Translator: Jørgen Rasmussen <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark <joergenr@stofanet.dk>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Poedit 1.8.1\n"
 "X-POOTLE-MTIME: 1421702044.0\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "Ukendt"
 
@@ -258,7 +258,7 @@ msgstr "Kontekst"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Kontrolpanelet er ikke tilgængeligt på mobile enheder endnu."
 
-#: fjord/base/models.py:56
+#: fjord/base/models.py:55
 msgid "JSON Object"
 msgstr "JSON-objekt"
 
@@ -678,11 +678,11 @@ msgstr "Ingen produkter er tilgængelige."
 msgid "Select a product to leave feedback for."
 msgstr "Vælg et produkt at give feedback på."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
 msgid "Thanks"
 msgstr "Tak"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Tak for din feedback"
 
@@ -690,41 +690,69 @@ msgstr "Tak for din feedback"
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Din feedback vil blive brugt til at give en bedre oplevelse ved fremtidige Firefox-udgivelser."
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Shape the future of Firefox."
-msgstr "Skab fremtidens Firefox."
+#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#, fuzzy
+msgid "Suggestions from your feedback:"
+msgstr "Del din feedback."
 
-#: fjord/feedback/templates/feedback/thanks.html:34
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "Hent <a href=\"%(download_url)s\">det rette build for dig</a>."
-
-#: fjord/feedback/templates/feedback/thanks.html:42 fjord/suggest/providers/sumosuggest.py:159
+#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
 msgstr "Har du problemer? Få hjælp."
 
-#: fjord/feedback/templates/feedback/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "Besøg vores supportforum, hvor du kan <a href=\"%(url)s\">få hjælp og finde svar</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
+msgid "Shape the future of Firefox."
+msgstr "Skab fremtidens Firefox."
+
+#: fjord/feedback/templates/feedback/thanks.html:62
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "Hent <a href=\"%(download_url)s\">det rette build for dig</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
 msgid "Contribute to Mozilla."
 msgstr "Bidrag til Mozilla."
 
-#: fjord/feedback/templates/feedback/thanks.html:54
+#: fjord/feedback/templates/feedback/thanks.html:72
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Læs, hvordan du kan <a href=\"%(url)s\">gøre Firefox og Mozilla bedre</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:61
+#: fjord/feedback/templates/feedback/thanks.html:79
 msgid "Find the latest news about Firefox."
+msgstr "Læs de seneste nyheder om Firefox."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "Din feedback vil blive brugt til at give en bedre oplevelse ved fremtidige Firefox-udgivelser."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
+#, fuzzy
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "Hent <a href=\"%(download_url)s\">det rette build for dig</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "Læs, hvordan du kan <a href=\"%(url)s\">gøre Firefox og Mozilla bedre</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#, fuzzy
+msgid "Find the latest news about %(product)s."
 msgstr "Læs de seneste nyheder om Firefox."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Download Firefox!"
 
-#: fjord/suggest/providers/sumosuggest.py:160
-msgid "Go to our support forum where you can get help and find answers."
-msgstr "Besøg vores supportforum, hvor du kan få hjælp og finde svar."
+#: fjord/suggest/providers/sumosuggest.py:180
+msgid "Ask a question in our support forum"
+msgstr ""
+
+#~ msgid "Go to our support forum where you can get help and find answers."
+#~ msgstr "Besøg vores supportforum, hvor du kan få hjælp og finde svar."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Send feedback"
@@ -848,9 +876,6 @@ msgstr "Besøg vores supportforum, hvor du kan få hjælp og finde svar."
 
 #~ msgid "Submit Feedback"
 #~ msgstr "Send feedback"
-
-#~ msgid "Share your feedback."
-#~ msgstr "Del din feedback."
 
 #~ msgid "Tweet feedback to your followers"
 #~ msgstr "Tweet feedback til dine følgere"

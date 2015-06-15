@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 11:04-0700\n"
+"POT-Creation-Date: 2015-06-15 07:48-0700\n"
 "PO-Revision-Date: 2015-06-05 20:06+0000\n"
 "Last-Translator: milupo <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,12 +10,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1433534797.0\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "Njeznaty"
 
@@ -259,7 +258,7 @@ msgstr "Kontekst"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Přehlad za mobilne graty k dispoziciji hišće njesteji."
 
-#: fjord/base/models.py:56
+#: fjord/base/models.py:55
 msgid "JSON Object"
 msgstr "JSON-objekt"
 
@@ -444,9 +443,7 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Jeli njeje ničo druhe <a href=\"%(legal_url)s\">podate</a>, steji wobsah na "
-"tutym sydle pod licencu <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike v3.0</a> abo pod nowšej."
+"Jeli njeje ničo druhe <a href=\"%(legal_url)s\">podate</a>, steji wobsah na tutym sydle pod licencu <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike v3.0</a> abo pod nowšej."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -682,11 +679,11 @@ msgstr "Žane produkty k dispoziciji."
 msgid "Select a product to leave feedback for."
 msgstr "Wubjerće produkt, kotryž chceće komentować."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
 msgid "Thanks"
 msgstr "Wulki dźak"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Dźakujemy so wam za waš komentar"
 
@@ -694,42 +691,69 @@ msgstr "Dźakujemy so wam za waš komentar"
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Waš komentar budźe so wužiwać, zo by w přichodnych wersijach Firefox lěpše dožiwjenje wutworił."
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Shape the future of Firefox."
-msgstr "Wuhotujće přichod Firefox."
+#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#, fuzzy
+msgid "Suggestions from your feedback:"
+msgstr "Dajće swój komentar dale."
 
-#: fjord/feedback/templates/feedback/thanks.html:34
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "Sćehńće <a href=\"%(download_url)s\">wersiju, kotraž hodźi so k wam</a>."
-
-#: fjord/feedback/templates/feedback/thanks.html:42 fjord/suggest/providers/sumosuggest.py:159
+#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
 msgstr "Maće problemy? Wobstarajće sej pomoc."
 
-#: fjord/feedback/templates/feedback/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "Dźiće k našemu forumej pomocy, hdźež móžeće <a href=\"%(url)s\">sej pomoc wobstarać a wotmołwy namakać</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
+msgid "Shape the future of Firefox."
+msgstr "Wuhotujće přichod Firefox."
+
+#: fjord/feedback/templates/feedback/thanks.html:62
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "Sćehńće <a href=\"%(download_url)s\">wersiju, kotraž hodźi so k wam</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
 msgid "Contribute to Mozilla."
 msgstr "Čińće pola Mozilla sobu."
 
-#: fjord/feedback/templates/feedback/thanks.html:54
+#: fjord/feedback/templates/feedback/thanks.html:72
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Zhońće, kak móžeće <a href=\"%(url)s\">Firefox a Mozilla polěpšić</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:61
+#: fjord/feedback/templates/feedback/thanks.html:79
 msgid "Find the latest news about Firefox."
+msgstr "Dóstańće najnowše powěsće wo Firefox."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "Waš komentar budźe so wužiwać, zo by w přichodnych wersijach Firefox lěpše dožiwjenje wutworił."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
+#, fuzzy
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "Sćehńće <a href=\"%(download_url)s\">wersiju, kotraž hodźi so k wam</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "Zhońće, kak móžeće <a href=\"%(url)s\">Firefox a Mozilla polěpšić</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#, fuzzy
+msgid "Find the latest news about %(product)s."
 msgstr "Dóstańće najnowše powěsće wo Firefox."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Prošu sćehńće Firefox!"
 
-#: fjord/suggest/providers/sumosuggest.py:160
-msgid "Go to our support forum where you can get help and find answers."
+#: fjord/suggest/providers/sumosuggest.py:180
+msgid "Ask a question in our support forum"
 msgstr ""
-"Dźiće k našemu forumej pomocy, hdźež móžeće pomoc dóstać a wotmołwy namakać."
+
+#~ msgid "Go to our support forum where you can get help and find answers."
+#~ msgstr "Dźiće k našemu forumej pomocy, hdźež móžeće pomoc dóstać a wotmołwy namakać."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Komentar wotpósłać"
@@ -861,9 +885,6 @@ msgstr ""
 
 #~ msgid "Submit Feedback"
 #~ msgstr "Komentar wotpósłać"
-
-#~ msgid "Share your feedback."
-#~ msgstr "Dajće swój komentar dale."
 
 #~ msgid "Tweet feedback to your followers"
 #~ msgstr "Ćikotajće swój komentar na swojich slědowarjow"

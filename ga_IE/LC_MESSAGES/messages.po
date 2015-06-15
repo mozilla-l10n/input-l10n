@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: firefoxinput\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 11:04-0700\n"
+"POT-Creation-Date: 2015-06-15 07:48-0700\n"
 "PO-Revision-Date: 2011-02-18 01:33+0200\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.8.1\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "Anaithnid"
 
@@ -257,7 +257,7 @@ msgstr "Comhthéacs"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Níl an Painéal Aiseolas ar fáil ar ghléasanna soghluaiste fós."
 
-#: fjord/base/models.py:56
+#: fjord/base/models.py:55
 msgid "JSON Object"
 msgstr "Réad JSON"
 
@@ -681,11 +681,11 @@ msgstr "Níl aon táirgí ar fáil."
 msgid "Select a product to leave feedback for."
 msgstr "Roghnaigh táirge chun aiseolas a thabhairt faoi."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
 msgid "Thanks"
 msgstr "Go raibh maith agat"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Go raibh maith agat as an aiseolas"
 
@@ -693,42 +693,70 @@ msgstr "Go raibh maith agat as an aiseolas"
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "Úsáidfear do chuid aiseolais chun feabhas a chur ar leaganach Firefox amach anseo."
 
-#: fjord/feedback/templates/feedback/thanks.html:32
-msgid "Shape the future of Firefox."
-msgstr "Téigh i bhfeidhm ar thodhchaí Firefox."
+#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#, fuzzy
+msgid "Suggestions from your feedback:"
+msgstr "Seol do chuid aiseolais chugainn."
 
-#: fjord/feedback/templates/feedback/thanks.html:34
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
-msgstr "Íosluchtaigh <a href=\"%(download_url)s\">an leagan is oiriúnaí duit</a>."
-
-#: fjord/feedback/templates/feedback/thanks.html:42 fjord/suggest/providers/sumosuggest.py:159
+#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
 msgstr "Fadhbanna? Faigh cúnamh."
 
-#: fjord/feedback/templates/feedback/thanks.html:44
+#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "Déan cuairt ar ár bhfóram tacaíochta, áit ar féidir leat <a href=\"%(url)s\">cúnamh a fháil</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
+msgid "Shape the future of Firefox."
+msgstr "Téigh i bhfeidhm ar thodhchaí Firefox."
+
+#: fjord/feedback/templates/feedback/thanks.html:62
+msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+msgstr "Íosluchtaigh <a href=\"%(download_url)s\">an leagan is oiriúnaí duit</a>."
+
+#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
 msgid "Contribute to Mozilla."
 msgstr "Cabhraigh le Mozilla."
 
-#: fjord/feedback/templates/feedback/thanks.html:54
+#: fjord/feedback/templates/feedback/thanks.html:72
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "Foghlaim conas is féidir <a href=\"%(url)s\">feabhas a chur ar Firefox agus Mozilla</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:61
+#: fjord/feedback/templates/feedback/thanks.html:79
 msgid "Find the latest news about Firefox."
+msgstr "Faigh an nuacht is déanaí maidir le Firefox."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "Úsáidfear do chuid aiseolais chun feabhas a chur ar leaganach Firefox amach anseo."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
+#, fuzzy
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "Íosluchtaigh <a href=\"%(download_url)s\">an leagan is oiriúnaí duit</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "Foghlaim conas is féidir <a href=\"%(url)s\">feabhas a chur ar Firefox agus Mozilla</a>."
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#, fuzzy
+msgid "Find the latest news about %(product)s."
 msgstr "Faigh an nuacht is déanaí maidir le Firefox."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Íosluchtaigh Firefox le do thoil!"
 
-#: fjord/suggest/providers/sumosuggest.py:160
+#: fjord/suggest/providers/sumosuggest.py:180
+msgid "Ask a question in our support forum"
+msgstr ""
+
 #, fuzzy
-msgid "Go to our support forum where you can get help and find answers."
-msgstr "Déan cuairt ar ár bhfóram tacaíochta, áit ar féidir leat <a href=\"%(url)s\">cúnamh a fháil</a>."
+#~ msgid "Go to our support forum where you can get help and find answers."
+#~ msgstr "Déan cuairt ar ár bhfóram tacaíochta, áit ar féidir leat <a href=\"%(url)s\">cúnamh a fháil</a>."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Seol aiseolas chugainn"
@@ -835,9 +863,6 @@ msgstr "Déan cuairt ar ár bhfóram tacaíochta, áit ar féidir leat <a href=\
 
 #~ msgid "Submit Feedback"
 #~ msgstr "Seol aiseolas chugainn"
-
-#~ msgid "Share your feedback."
-#~ msgstr "Seol do chuid aiseolais chugainn."
 
 #~ msgid "Tweet feedback to your followers"
 #~ msgstr "Postáil do chuid aiseolais ar Twitter"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-05 11:04-0700\n"
+"POT-Creation-Date: 2015-06-15 07:48-0700\n"
 "PO-Revision-Date: 2015-06-06 10:24-0400\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1415901272.0\n"
 
-#: fjord/analytics/helpers.py:9 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:8
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "不明"
 
@@ -259,7 +259,7 @@ msgstr "コンテキスト"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "モバイル端末では、まだダッシュボードを利用できません。"
 
-#: fjord/base/models.py:56
+#: fjord/base/models.py:55
 msgid "JSON Object"
 msgstr "JSON オブジェクト"
 
@@ -442,8 +442,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"<a href=\"%(legal_url)s\">他のライセンス</a>が明記されている場合を除き、このサイト上のコンテンツは <a href=\"%(license_url)s\">Creative Commons 表示-継承 ライセンス 3.0</a> またはそれ以降のバージョンの下で"
-"公開されます。"
+"<a href=\"%(legal_url)s\">他のライセンス</a>が明記されている場合を除き、このサイト上のコンテンツは <a href=\"%(license_url)s\">Creative Commons 表示-継承 ライセンス 3.0</a> またはそれ以降のバージョ"
+"ンの下で公開されます。"
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -678,11 +678,11 @@ msgstr "利用可能な製品はありません。"
 msgid "Select a product to leave feedback for."
 msgstr "フィードバックを残したい製品を選択してください。"
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
 msgid "Thanks"
 msgstr "ありがとうございます"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
 msgid "Thanks for Your Feedback"
 msgstr "フィードバックありがとうございます"
 
@@ -691,41 +691,72 @@ msgstr "フィードバックありがとうございます"
 msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 msgstr "将来の Firefox をより使いやすく、快適にするために利用されます。"
 
+#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#, fuzzy
+msgid "Suggestions from your feedback:"
+msgstr "フィードバックありがとうございます"
+
+#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
+msgid "Having problems? Get help."
+msgstr "何か問題を抱えていますか？ それならサポートを頼りましょう。"
+
+#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr "サポートフォーラムを訪れて、<a href=\"%(url)s\">他のユーザの助けを得て答えを見つけてください</a>。"
+
 # http://input.mozilla.org/ja/thanks で http://www.mozilla.org/firefox/channel へのリンクの前に書いてある。
-#: fjord/feedback/templates/feedback/thanks.html:32
+#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
 msgid "Shape the future of Firefox."
 msgstr "未来の Firefox を共に作りましょう。"
 
 # http://www.mozilla.org/firefox/channel へのリンク
-#: fjord/feedback/templates/feedback/thanks.html:34
+#: fjord/feedback/templates/feedback/thanks.html:62
 msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 msgstr "<a href=\"%(download_url)s\">ベータ版や開発版の Firefox</a> もダウンロードしていただけます。"
 
-#: fjord/feedback/templates/feedback/thanks.html:42 fjord/suggest/providers/sumosuggest.py:159
-msgid "Having problems? Get help."
-msgstr "何か問題を抱えていますか？ それならサポートを頼りましょう。"
-
-#: fjord/feedback/templates/feedback/thanks.html:44
-msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
-msgstr "サポートフォーラムを訪れて、<a href=\"%(url)s\">他のユーザの助けを得て答えを見つけてください</a>。"
-
-#: fjord/feedback/templates/feedback/thanks.html:52
+#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
 msgid "Contribute to Mozilla."
 msgstr "Mozilla に貢献しよう。"
 
 # http://mozilla.org/contribute/
-#: fjord/feedback/templates/feedback/thanks.html:54
+#: fjord/feedback/templates/feedback/thanks.html:72
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox と Mozilla をより良くするために</a> あなたにもできることがあります。"
 
-#: fjord/feedback/templates/feedback/thanks.html:61
+#: fjord/feedback/templates/feedback/thanks.html:79
 msgid "Find the latest news about Firefox."
+msgstr "Firefox についての最新情報はこちら。"
+
+# 上下に分割されている個所
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
+#, fuzzy
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "将来の Firefox をより使いやすく、快適にするために利用されます。"
+
+# http://www.mozilla.org/firefox/channel へのリンク
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
+#, fuzzy
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "<a href=\"%(download_url)s\">ベータ版や開発版の Firefox</a> もダウンロードしていただけます。"
+
+# http://mozilla.org/contribute/
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#, fuzzy
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "<a href=\"%(url)s\">Firefox と Mozilla をより良くするために</a> あなたにもできることがあります。"
+
+#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#, fuzzy
+msgid "Find the latest news about %(product)s."
 msgstr "Firefox についての最新情報はこちら。"
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Firefox をダウンロードしてください！"
 
-#: fjord/suggest/providers/sumosuggest.py:160
-msgid "Go to our support forum where you can get help and find answers."
-msgstr "サポートフォーラムを訪れて、他のユーザの助けを得て答えを見つけてください。"
+#: fjord/suggest/providers/sumosuggest.py:180
+msgid "Ask a question in our support forum"
+msgstr ""
+
+#~ msgid "Go to our support forum where you can get help and find answers."
+#~ msgstr "サポートフォーラムを訪れて、他のユーザの助けを得て答えを見つけてください。"
