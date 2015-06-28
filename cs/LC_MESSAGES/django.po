@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-15 07:48-0700\n"
-"PO-Revision-Date: 2015-01-17 09:38+0000\n"
+"PO-Revision-Date: 2015-06-28 11:40+0000\n"
 "Last-Translator: Michal <michal.stanke@mikk.cz>\n"
 "Language-Team: cs <info@mozilla.cz>\n"
 "Language: cs\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1421487493.0\n"
+"X-POOTLE-MTIME: 1435491606.0\n"
 
 #: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
@@ -437,13 +437,13 @@ msgid "Report Trademark Abuse"
 msgstr "Nahlásit zneužití ochranných známek"
 
 #: fjord/base/templates/includes/common.html:26
-#, fuzzy
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Pokud není <a href=\"%(legal_url)s\">uvedeno</a> jinak, je obsah tohoto webu pod <br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> či jakoukoliv novější "
-"verzí."
+"Pokud není <a href=\"%(legal_url)s\">řečeno jinak</a>, obsah této stránky je "
+"dostupný pod licencí <a href=\"%(license_url)s\">Creative Commons Attribution "
+"Share-Alike License v3.0</a> nebo jakoukoliv novější."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -690,9 +690,8 @@ msgid "Your feedback will be used to create a better experience in future releas
 msgstr "Vaše reakce bude použita pro vytvoření lepších verzí Firefoxu."
 
 #: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
-#, fuzzy
 msgid "Suggestions from your feedback:"
-msgstr "Sdílet svou reakci."
+msgstr "Návrhy z vaší reakce:"
 
 #: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
@@ -723,24 +722,24 @@ msgid "Find the latest news about Firefox."
 msgstr "Přečíst si poslední novinky o Firefoxu."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:25
-#, fuzzy
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
-msgstr "Vaše reakce bude použita pro vytvoření lepších verzí Firefoxu."
+msgstr ""
+"Vaše reakce bude použita pro vytvoření lepších budoucích verzí %(product)s."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:66
-#, fuzzy
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
-msgstr "Stáhněte si <a href=\"%(download_url)s\">verzi, která vám nejvíce vyhovuje</a>."
+msgstr ""
+"Stáhněte si <a href=\"%(download_url)s\">Firefox postavený právě pro vás</a>."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:76
-#, fuzzy
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
-msgstr "Přečtěte si, jak můžete <a href=\"%(url)s\">učinit Firefox a Mozillu lepšími</a>."
+msgstr ""
+"Přečtěte si, jak můžete <a href=\"%(url)s\">učinit %(product)s a Mozillu "
+"lepšími</a>."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:84
-#, fuzzy
 msgid "Find the latest news about %(product)s."
-msgstr "Přečíst si poslední novinky o Firefoxu."
+msgstr "Přečíst si poslední novinky o %(product)s."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
@@ -748,7 +747,7 @@ msgstr "Stáhněte si prosím Firefox!"
 
 #: fjord/suggest/providers/sumosuggest.py:180
 msgid "Ask a question in our support forum"
-msgstr ""
+msgstr "Zeptat se v našem fóru podpory"
 
 #, fuzzy
 #~ msgid "Go to our support forum where you can get help and find answers."
