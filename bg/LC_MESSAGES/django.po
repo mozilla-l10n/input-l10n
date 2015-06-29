@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-15 07:48-0700\n"
-"PO-Revision-Date: 2015-03-13 08:50+0000\n"
+"PO-Revision-Date: 2015-06-29 19:53+0000\n"
 "Last-Translator: Стоян <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: bg\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1426236658.0\n"
+"X-POOTLE-MTIME: 1435607623.0\n"
 
 #: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
@@ -439,13 +439,13 @@ msgid "Report Trademark Abuse"
 msgstr "Докладване за злоупотреба с търговска марка"
 
 #: fjord/base/templates/includes/common.html:26
-#, fuzzy
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Освен ако не е <a href=\"%(legal_url)s\">упоменато</a>, съдържанието на тази страница е лицензирано под<br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> "
-"или друга по-нова версия."
+"Освен ако не е <a href=\"%(legal_url)s\">упоменато</a>, съдържанието на тази "
+"страница е лицензирано под <a href=\"%(license_url)s\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> или друга по-нова версия."
 
 #: fjord/base/templates/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -652,7 +652,7 @@ msgstr "Имате неизпратена обратна връзка. Иска�
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:43
 msgid "How does %(product)s make you feel?"
-msgstr "Как %(product)s Ви кара да се чувствате?"
+msgstr "Как %(product)s ви кара да се чувствате?"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:140
 msgid ""
@@ -691,9 +691,8 @@ msgid "Your feedback will be used to create a better experience in future releas
 msgstr "Вашата обратна връзка ще ми помогне да правим по-добри бъдещи версии на Firefox."
 
 #: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
-#, fuzzy
 msgid "Suggestions from your feedback:"
-msgstr "Споделете обратната връзка."
+msgstr "Споделете обратната връзка:"
 
 #: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
 msgid "Having problems? Get help."
@@ -724,24 +723,26 @@ msgid "Find the latest news about Firefox."
 msgstr "Научете последните новини за Firefox."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:25
-#, fuzzy
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
-msgstr "Вашата обратна връзка ще ми помогне да правим по-добри бъдещи версии на Firefox."
+msgstr ""
+"Вашата обратна връзка ще ни помогне да направим бъдещите версии на %"
+"(product)s по-добри."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:66
-#, fuzzy
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
-msgstr "Изтеглете <a href=\"%(download_url)s\">версията, подходяща за вас</a>."
+msgstr ""
+"Изтеглете <a href=\"%(download_url)s\">подходящата за вас версия на "
+"Firefox</a>."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:76
-#, fuzzy
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
-msgstr "Научете как можете <a href=\"%(url)s\">да направите Firefox и Mozilla по-добри</a>."
+msgstr ""
+"Научете как можете <a href=\"%(url)s\">да направите %(product)s и Mozilla "
+"по-добри</a>."
 
 #: fjord/feedback/templates/feedback/thanks_l10nized.html:84
-#, fuzzy
 msgid "Find the latest news about %(product)s."
-msgstr "Научете последните новини за Firefox."
+msgstr "Научете последните новини за %(product)s."
 
 #: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
@@ -749,7 +750,7 @@ msgstr "Моля, изтеглете Firefox!"
 
 #: fjord/suggest/providers/sumosuggest.py:180
 msgid "Ask a question in our support forum"
-msgstr ""
+msgstr "Задайте въпрос във форума"
 
 #, fuzzy
 #~ msgid "Go to our support forum where you can get help and find answers."
