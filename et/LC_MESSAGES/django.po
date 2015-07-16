@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-06-15 07:48-0700\n"
-"PO-Revision-Date: 2014-05-24 18:04+0000\n"
+"PO-Revision-Date: 2015-07-16 17:59+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1400954640.0\n"
+"X-POOTLE-MTIME: 1437069577.0\n"
 
 #: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
-msgstr ""
+msgstr "Teadmata"
 
 #: fjord/analytics/views.py:123
 msgid "Firefox Input: {query}"
@@ -28,7 +28,7 @@ msgstr "Firefox Input"
 
 #: fjord/analytics/views.py:138
 msgid "Search Results From Firefox Input"
-msgstr ""
+msgstr "Firefox Input otsingutulemused"
 
 #: fjord/analytics/views.py:143 fjord/analytics/views.py:367 fjord/analytics/views.py:435 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
 #: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:344
@@ -54,11 +54,11 @@ msgstr "Meeleolu"
 
 #: fjord/analytics/views.py:373 fjord/analytics/templates/analytics/response.html:111
 msgid "Product"
-msgstr ""
+msgstr "Toode"
 
 #: fjord/analytics/views.py:384 fjord/analytics/views.py:390 fjord/analytics/templates/analytics/response.html:115
 msgid "Version"
-msgstr ""
+msgstr "Versioon"
 
 #: fjord/analytics/views.py:391
 msgid "Select product to see version breakdown"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: fjord/analytics/templates/analytics/dashboard.html:45 fjord/analytics/templates/analytics/analyzer/search.html:78 fjord/analytics/templates/analytics/mobile/response.html:40
 msgid "Permalink"
-msgstr ""
+msgstr "Püsiviide"
 
 #: fjord/analytics/templates/analytics/dashboard.html:100
 msgid "When"
@@ -110,11 +110,11 @@ msgstr "&raquo;"
 
 #: fjord/analytics/templates/analytics/dashboard.html:114
 msgid "Start"
-msgstr ""
+msgstr "Algus"
 
 #: fjord/analytics/templates/analytics/dashboard.html:116
 msgid "End"
-msgstr ""
+msgstr "Lõpp"
 
 #: fjord/analytics/templates/analytics/dashboard.html:117
 msgid "Set"
@@ -125,9 +125,8 @@ msgid "Note: All dates and times are in Pacific Time."
 msgstr ""
 
 #: fjord/analytics/templates/analytics/dashboard.html:141
-#, fuzzy
 msgid "Feedback"
-msgstr "Saada tagasiside"
+msgstr "Tagasiside"
 
 #: fjord/analytics/templates/analytics/dashboard.html:145
 msgid "Search by keyword"
@@ -189,7 +188,7 @@ msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:119
 msgid "Channel"
-msgstr ""
+msgstr "Kanal"
 
 #: fjord/analytics/templates/analytics/response.html:123
 msgid "URL Domain"
@@ -201,11 +200,11 @@ msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:131
 msgid "Campaign"
-msgstr ""
+msgstr "Kampaania"
 
 #: fjord/analytics/templates/analytics/response.html:135
 msgid "Browser"
-msgstr ""
+msgstr "Veebilehitseja"
 
 #: fjord/analytics/templates/analytics/response.html:139
 msgid "Browser Ver."
@@ -221,7 +220,7 @@ msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:155 fjord/feedback/templates/feedback/fxos_feedback.html:94
 msgid "Country"
-msgstr ""
+msgstr "Riik"
 
 #: fjord/analytics/templates/analytics/response.html:159
 msgid "Manufacturer"
@@ -229,7 +228,7 @@ msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:163 fjord/feedback/templates/feedback/fxos_feedback.html:116
 msgid "Device"
-msgstr ""
+msgstr "Seade"
 
 #: fjord/analytics/templates/analytics/response.html:167
 msgid "User agent"
@@ -237,7 +236,7 @@ msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:171
 msgid "Email"
-msgstr ""
+msgstr "E-posti aadress"
 
 #: fjord/analytics/templates/analytics/response.html:179
 msgid "Browser data"
@@ -245,7 +244,7 @@ msgstr ""
 
 #: fjord/analytics/templates/analytics/response.html:182
 msgid "yes"
-msgstr ""
+msgstr "jah"
 
 #: fjord/analytics/templates/analytics/response.html:187
 msgid "API version"
@@ -313,17 +312,24 @@ msgstr "Firefox Input'i teave"
 
 #: fjord/base/templates/about.html:9
 msgid "Hello!"
-msgstr ""
+msgstr "Tere!"
 
 #: fjord/base/templates/about.html:11
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
+"Firefox Input on Mozilla toodete peamine tagasiside allikas. See on mõeldud "
+"ühesuunaliseks suhtluseks, et saaksid anda tagasisidet oma kogemuste kohta "
+"meie toodete kasutamisel, kuidas internet sulle läbi nende paistab ning mida "
+"Mozilla saab teha sinu kasutuskogemuse paremaks muutmiseks. Süsteem on "
+"saadaval läbi mitmete saatmismehhanismide ning tooteversioonide."
 
 #: fjord/base/templates/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
+"Mozilla toote kohta tagasiside andmiseks mine palun <a href=\"%"
+"(url)s\">tagasiside saatmise lehele</a>!"
 
 #: fjord/base/templates/about.html:27 fjord/base/templates/includes/common.html:20
 msgid "Privacy Policy"
@@ -332,6 +338,8 @@ msgstr "Privaatsuspoliitika"
 #: fjord/base/templates/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr ""
+"Me peame kinni <a href=\"%(url)s\">Mozilla Privatsuspoliitika</a> "
+"põhimõtetest."
 
 #: fjord/base/templates/about.html:34
 msgid "Legal Disclaimers and Limitations"
