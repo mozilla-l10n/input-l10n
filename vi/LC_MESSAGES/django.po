@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-15 07:48-0700\n"
+"POT-Creation-Date: 2015-09-14 07:34-0700\n"
 "PO-Revision-Date: 2011-05-21 02:55+0200\n"
 "Last-Translator: Hùng. <loveleeyoungae@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,67 +13,67 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.1.6\n"
 
-#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:360 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
+#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:352 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
 msgstr "Không rõ"
 
-#: fjord/analytics/views.py:123
+#: fjord/analytics/views.py:115
 #, fuzzy
 msgid "Firefox Input: {query}"
 msgstr "Firefox Input: '{query}'"
 
-#: fjord/analytics/views.py:125 fjord/analytics/views.py:139 fjord/base/templates/500.html:8 fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/templates/500.html:8 fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
-#: fjord/analytics/views.py:138
+#: fjord/analytics/views.py:130
 #, fuzzy
 msgid "Search Results From Firefox Input"
 msgstr "Kết quả Tìm kiếm trong Phản hồi Firefox Beta."
 
-#: fjord/analytics/views.py:143 fjord/analytics/views.py:367 fjord/analytics/views.py:435 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:344
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:359 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
+#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:342
 #, fuzzy
 msgid "Happy"
 msgstr "vui"
 
-#: fjord/analytics/views.py:143 fjord/analytics/views.py:367 fjord/analytics/views.py:437 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:345
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:359 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
+#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:343
 #, fuzzy
 msgid "Sad"
 msgstr "buồn"
 
-#: fjord/analytics/views.py:153 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:145 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr ""
 
-#: fjord/analytics/views.py:281
+#: fjord/analytics/views.py:274
 msgid "Bigram"
 msgstr ""
 
-#: fjord/analytics/views.py:366
+#: fjord/analytics/views.py:358
 #, fuzzy
 msgid "Sentiment"
 msgstr "Cảm nghĩ:"
 
-#: fjord/analytics/views.py:373 fjord/analytics/templates/analytics/response.html:111
+#: fjord/analytics/views.py:365 fjord/analytics/templates/analytics/response.html:111
 msgid "Product"
 msgstr "Sản phẩm"
 
-#: fjord/analytics/views.py:384 fjord/analytics/views.py:390 fjord/analytics/templates/analytics/response.html:115
+#: fjord/analytics/views.py:376 fjord/analytics/views.py:382 fjord/analytics/templates/analytics/response.html:115
 #, fuzzy
 msgid "Version"
 msgstr "Phiên bản:"
 
-#: fjord/analytics/views.py:391
+#: fjord/analytics/views.py:383
 msgid "Select product to see version breakdown"
 msgstr ""
 
-#: fjord/analytics/views.py:399 fjord/analytics/templates/analytics/response.html:99
+#: fjord/analytics/views.py:391 fjord/analytics/templates/analytics/response.html:99
 msgid "Platform"
 msgstr "Nền tảng"
 
-#: fjord/analytics/views.py:405 fjord/analytics/templates/analytics/response.html:105
+#: fjord/analytics/views.py:397 fjord/analytics/templates/analytics/response.html:105
 msgid "Locale"
 msgstr "Bản địa"
 
@@ -129,34 +129,30 @@ msgstr ""
 msgid "Set"
 msgstr "Thiết lập"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136
-msgid "Note: All dates and times are in Pacific Time."
-msgstr ""
-
-#: fjord/analytics/templates/analytics/dashboard.html:141
+#: fjord/analytics/templates/analytics/dashboard.html:132
 msgid "Feedback"
 msgstr "Phản hồi"
 
-#: fjord/analytics/templates/analytics/dashboard.html:145
+#: fjord/analytics/templates/analytics/dashboard.html:136
 #, fuzzy
 msgid "Search by keyword"
 msgstr "Tìm kiếm theo từ khóa"
 
-#: fjord/analytics/templates/analytics/dashboard.html:163
+#: fjord/analytics/templates/analytics/dashboard.html:154
 msgid "No feedback matches that criteria."
 msgstr ""
 
-#: fjord/analytics/templates/analytics/dashboard.html:169
+#: fjord/analytics/templates/analytics/dashboard.html:160
 #, fuzzy
 msgid "Older Messages"
 msgstr "&laquo; Thông điệp Mới hơn"
 
-#: fjord/analytics/templates/analytics/dashboard.html:174
+#: fjord/analytics/templates/analytics/dashboard.html:165
 #, fuzzy
 msgid "Newer Messages"
 msgstr "Thông điệp Cũ &raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:185
+#: fjord/analytics/templates/analytics/dashboard.html:176
 msgid "Messages in specified time range"
 msgstr ""
 
@@ -275,11 +271,19 @@ msgstr "Phiên bản:"
 msgid "Context"
 msgstr ""
 
+#: fjord/analytics/templates/analytics/analyzer/search.html:152
+msgid "Note: All dates and times are in Pacific Time."
+msgstr ""
+
 #: fjord/analytics/templates/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr ""
 
-#: fjord/base/models.py:55
+#: fjord/base/models.py:22
+msgid "List of values"
+msgstr ""
+
+#: fjord/base/models.py:107
 msgid "JSON Object"
 msgstr ""
 
@@ -711,68 +715,51 @@ msgstr "Tìm kiếm Không hiện hữu"
 msgid "Select a product to leave feedback for."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:3 fjord/feedback/templates/feedback/thanks_l10nized.html:3
+#: fjord/feedback/templates/feedback/thanks.html:3
 msgid "Thanks"
 msgstr "Cảm ơn"
 
-#: fjord/feedback/templates/feedback/thanks.html:16 fjord/feedback/templates/feedback/thanks_l10nized.html:16
+#: fjord/feedback/templates/feedback/thanks.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Cảm ơn về Phản Hồi của Bạn"
 
 #: fjord/feedback/templates/feedback/thanks.html:25
 #, fuzzy
-msgid "Your feedback will be used to create a better experience in future releases of Firefox."
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
 
-#: fjord/feedback/templates/feedback/thanks.html:33 fjord/feedback/templates/feedback/thanks_l10nized.html:33
+#: fjord/feedback/templates/feedback/thanks.html:33
 #, fuzzy
 msgid "Suggestions from your feedback:"
 msgstr "Xem phản hồi của bạn đi đâu."
 
-#: fjord/feedback/templates/feedback/thanks.html:49 fjord/feedback/templates/feedback/thanks_l10nized.html:49
+#: fjord/feedback/templates/feedback/thanks.html:49
 msgid "Having problems? Get help."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:51 fjord/feedback/templates/feedback/thanks_l10nized.html:51
+#: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:60 fjord/feedback/templates/feedback/thanks_l10nized.html:64
+#: fjord/feedback/templates/feedback/thanks.html:64
 #, fuzzy
 msgid "Shape the future of Firefox."
 msgstr "Tìm hiểu tin tức mới nhất về Firefox."
 
-#: fjord/feedback/templates/feedback/thanks.html:62
-msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
+#: fjord/feedback/templates/feedback/thanks.html:66
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:70 fjord/feedback/templates/feedback/thanks_l10nized.html:74
+#: fjord/feedback/templates/feedback/thanks.html:74
 #, fuzzy
 msgid "Contribute to Mozilla."
 msgstr "Planet Mozilla"
 
-#: fjord/feedback/templates/feedback/thanks.html:72
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
-msgstr ""
-
-#: fjord/feedback/templates/feedback/thanks.html:79
-msgid "Find the latest news about Firefox."
-msgstr "Tìm hiểu tin tức mới nhất về Firefox."
-
-#: fjord/feedback/templates/feedback/thanks_l10nized.html:25
-#, fuzzy
-msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
-msgstr "trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
-
-#: fjord/feedback/templates/feedback/thanks_l10nized.html:66
-msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
-msgstr ""
-
-#: fjord/feedback/templates/feedback/thanks_l10nized.html:76
+#: fjord/feedback/templates/feedback/thanks.html:76
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks_l10nized.html:84
+#: fjord/feedback/templates/feedback/thanks.html:84
 #, fuzzy
 msgid "Find the latest news about %(product)s."
 msgstr "Tìm hiểu tin tức mới nhất về Firefox."
@@ -782,9 +769,16 @@ msgstr "Tìm hiểu tin tức mới nhất về Firefox."
 msgid "Please Download Firefox!"
 msgstr "Tải xuống Firefox"
 
-#: fjord/suggest/providers/sumosuggest.py:180
+#: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
+#~ msgstr "trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
+
+#~ msgid "Find the latest news about Firefox."
+#~ msgstr "Tìm hiểu tin tức mới nhất về Firefox."
 
 #, fuzzy
 #~ msgid "Submit feedback"
