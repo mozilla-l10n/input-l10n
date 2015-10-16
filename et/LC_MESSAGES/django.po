@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-14 07:34-0700\n"
-"PO-Revision-Date: 2015-08-23 11:51+0000\n"
+"PO-Revision-Date: 2015-10-16 16:09+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: et\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
-"X-POOTLE-MTIME: 1440330693.0\n"
+"X-POOTLE-MTIME: 1445011772.0\n"
 
 #: fjord/analytics/helpers.py:10 fjord/analytics/views.py:352 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
 msgid "Unknown"
@@ -567,6 +567,8 @@ msgstr "%(product)s kurvastas mind"
 #: fjord/feedback/templates/feedback/fxos_feedback.html:84 fjord/feedback/templates/feedback/generic_feedback.html:86
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"Sa ei soovi toote %(product)s kohta tagasisidet anda?<br /> <a href=\"%"
+"(url)s\">Vali teine toode</a>."
 
 #: fjord/feedback/templates/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
@@ -654,21 +656,24 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:43
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Kuidas %(product)s sulle tundub?"
 
 #: fjord/feedback/templates/feedback/generic_feedback.html:140
 msgid ""
 "Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
 "our Privacy policy."
 msgstr ""
+"Märgista see valik, kui soovid edastada veebilehitseja tehnilisi andmeid. "
+"See teave aitab meil kasutajaid paremini mõista ning paremaid tooteid luua. "
+"Seda infot käitletakse meie Privaatsuspoliitika reeglite kohaselt."
 
 #: fjord/feedback/templates/feedback/picker.html:3
 msgid "Select A Product"
-msgstr ""
+msgstr "Toote valimine"
 
 #: fjord/feedback/templates/feedback/picker.html:14
 msgid "Select a product"
-msgstr ""
+msgstr "Toote valimine"
 
 #: fjord/feedback/templates/feedback/picker.html:23
 msgid "No products available."
@@ -676,7 +681,7 @@ msgstr ""
 
 #: fjord/feedback/templates/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
-msgstr ""
+msgstr "Vali toode, millele soovid tagasisidet anda."
 
 #: fjord/feedback/templates/feedback/thanks.html:3
 msgid "Thanks"
@@ -696,11 +701,13 @@ msgstr "Soovitused sinu tagasiside põhjal:"
 
 #: fjord/feedback/templates/feedback/thanks.html:49
 msgid "Having problems? Get help."
-msgstr ""
+msgstr "Sul on probleeme? Otsi abi."
 
 #: fjord/feedback/templates/feedback/thanks.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr ""
+"Külasta meie kasutajatoe foorumit, kust <a href=\"%(url)s\">leiad abi ja "
+"vastuseid</a>."
 
 #: fjord/feedback/templates/feedback/thanks.html:64
 msgid "Shape the future of Firefox."
