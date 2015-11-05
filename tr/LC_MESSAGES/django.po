@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-14 07:34-0700\n"
+"POT-Creation-Date: 2015-11-05 06:50-0700\n"
 "PO-Revision-Date: 2015-09-22 16:43+0000\n"
 "Last-Translator: Selim <selim@sum.lu>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,15 +14,11 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1442940217.0\n"
 
-#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:352 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
-msgid "Unknown"
-msgstr "Bilinmiyor"
-
 #: fjord/analytics/views.py:115
 msgid "Firefox Input: {query}"
 msgstr "Firefox Input: {query}"
 
-#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/templates/500.html:8 fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
@@ -30,231 +26,231 @@ msgstr "Firefox Input"
 msgid "Search Results From Firefox Input"
 msgstr "Firefox Input Arama Sonuçları"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:342
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
 msgid "Happy"
 msgstr "Mutlu"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:343
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
 msgid "Sad"
 msgstr "Üzgün"
 
-#: fjord/analytics/views.py:145 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:145 fjord/analytics/jinja2/analytics/response.html:24 fjord/analytics/jinja2/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "Yanıt no: {id}"
 
-#: fjord/analytics/views.py:274
-msgid "Bigram"
-msgstr "Bigram"
+#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+msgid "Unknown"
+msgstr "Bilinmiyor"
 
-#: fjord/analytics/views.py:358
+#: fjord/analytics/views.py:343
 msgid "Sentiment"
 msgstr "Duygu"
 
-#: fjord/analytics/views.py:365 fjord/analytics/templates/analytics/response.html:111
+#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "Ürün"
 
-#: fjord/analytics/views.py:376 fjord/analytics/views.py:382 fjord/analytics/templates/analytics/response.html:115
+#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "Sürüm"
 
-#: fjord/analytics/views.py:383
+#: fjord/analytics/views.py:368
 msgid "Select product to see version breakdown"
 msgstr "Sürüm dağılımını görmek için ürün seçin"
 
-#: fjord/analytics/views.py:391 fjord/analytics/templates/analytics/response.html:99
+#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "Platform"
 
-#: fjord/analytics/views.py:397 fjord/analytics/templates/analytics/response.html:105
+#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "Dil"
 
-#: fjord/analytics/templates/analytics/dashboard.html:7
+#: fjord/analytics/jinja2/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "Bu aramanın Atom akışı"
 
-#: fjord/analytics/templates/analytics/dashboard.html:45 fjord/analytics/templates/analytics/analyzer/search.html:78 fjord/analytics/templates/analytics/mobile/response.html:40
+#: fjord/analytics/jinja2/analytics/dashboard.html:45 fjord/analytics/jinja2/analytics/analyzer/search.html:78 fjord/analytics/jinja2/analytics/mobile/response.html:39
 msgid "Permalink"
 msgstr "Kalıcı bağlantı"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100
+#: fjord/analytics/jinja2/analytics/dashboard.html:100
 msgid "When"
 msgstr "Zaman"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102
+#: fjord/analytics/jinja2/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1 g"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104
+#: fjord/analytics/jinja2/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7 g"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106
+#: fjord/analytics/jinja2/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30 g"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108
+#: fjord/analytics/jinja2/analytics/dashboard.html:108
 msgid "90d"
 msgstr "90 g"
 
-#: fjord/analytics/templates/analytics/dashboard.html:110
+#: fjord/analytics/jinja2/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114
+#: fjord/analytics/jinja2/analytics/dashboard.html:114
 msgid "Start"
 msgstr "Başlangıç"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116
+#: fjord/analytics/jinja2/analytics/dashboard.html:116
 msgid "End"
 msgstr "Bitiş"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117
+#: fjord/analytics/jinja2/analytics/dashboard.html:117
 msgid "Set"
 msgstr "Ayarla"
 
-#: fjord/analytics/templates/analytics/dashboard.html:132
+#: fjord/analytics/jinja2/analytics/dashboard.html:132
 msgid "Feedback"
 msgstr "Geri bildirim"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136
+#: fjord/analytics/jinja2/analytics/dashboard.html:136
 msgid "Search by keyword"
 msgstr "Anahtar kelime ile ara"
 
-#: fjord/analytics/templates/analytics/dashboard.html:154
+#: fjord/analytics/jinja2/analytics/dashboard.html:154
 msgid "No feedback matches that criteria."
 msgstr "Kriterlerle eşleşen geri bildirim bulunamadı."
 
-#: fjord/analytics/templates/analytics/dashboard.html:160
+#: fjord/analytics/jinja2/analytics/dashboard.html:160
 msgid "Older Messages"
 msgstr "Daha eski mesajlar"
 
-#: fjord/analytics/templates/analytics/dashboard.html:165
+#: fjord/analytics/jinja2/analytics/dashboard.html:165
 msgid "Newer Messages"
 msgstr "Daha yeni mesajlar"
 
-#: fjord/analytics/templates/analytics/dashboard.html:176
+#: fjord/analytics/jinja2/analytics/dashboard.html:176
 msgid "Messages in specified time range"
 msgstr "Belirtilen zaman aralığındaki mesajlar"
 
-#: fjord/analytics/templates/analytics/es_down.html:12
+#: fjord/analytics/jinja2/analytics/es_down.html:12
 msgid "Dashboard unavailable"
 msgstr "Pano kullanılamıyor"
 
-#: fjord/analytics/templates/analytics/es_down.html:14
+#: fjord/analytics/jinja2/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "Pano şu anda kullanılamıyor. Lütfen 10 dakika sonra tekrar deneyin."
 
-#: fjord/analytics/templates/analytics/response.html:45
+#: fjord/analytics/jinja2/analytics/response.html:45
 msgid "Category"
 msgstr "Kategori"
 
-#: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
-#: fjord/analytics/templates/analytics/response.html:133 fjord/analytics/templates/analytics/response.html:137 fjord/analytics/templates/analytics/response.html:141
-#: fjord/analytics/templates/analytics/response.html:145
+#: fjord/analytics/jinja2/analytics/response.html:47 fjord/analytics/jinja2/analytics/response.html:125 fjord/analytics/jinja2/analytics/response.html:129
+#: fjord/analytics/jinja2/analytics/response.html:133 fjord/analytics/jinja2/analytics/response.html:137 fjord/analytics/jinja2/analytics/response.html:141
+#: fjord/analytics/jinja2/analytics/response.html:145
 msgid "None"
 msgstr "Hiçbiri"
 
-#: fjord/analytics/templates/analytics/response.html:49
+#: fjord/analytics/jinja2/analytics/response.html:49
 msgid "Description"
 msgstr "Açıklama"
 
-#: fjord/analytics/templates/analytics/response.html:53
+#: fjord/analytics/jinja2/analytics/response.html:53
 msgid "Translated"
 msgstr "Çevrildi"
 
-#: fjord/analytics/templates/analytics/response.html:64
+#: fjord/analytics/jinja2/analytics/response.html:64
 msgid "Translate (machine)"
 msgstr "Çevir (makine)"
 
-#: fjord/analytics/templates/analytics/response.html:70
+#: fjord/analytics/jinja2/analytics/response.html:70
 msgid "Translate (human)"
 msgstr "Çevir (insan)"
 
-#: fjord/analytics/templates/analytics/response.html:85
+#: fjord/analytics/jinja2/analytics/response.html:85
 msgid "Created"
 msgstr "Oluşturma"
 
-#: fjord/analytics/templates/analytics/response.html:119
+#: fjord/analytics/jinja2/analytics/response.html:119
 msgid "Channel"
 msgstr "Kanal"
 
-#: fjord/analytics/templates/analytics/response.html:123
+#: fjord/analytics/jinja2/analytics/response.html:123
 msgid "URL Domain"
 msgstr "URL alan adı"
 
-#: fjord/analytics/templates/analytics/response.html:127
+#: fjord/analytics/jinja2/analytics/response.html:127
 msgid "Source"
 msgstr "Kaynak"
 
-#: fjord/analytics/templates/analytics/response.html:131
+#: fjord/analytics/jinja2/analytics/response.html:131
 msgid "Campaign"
 msgstr "Kampanya"
 
-#: fjord/analytics/templates/analytics/response.html:135
+#: fjord/analytics/jinja2/analytics/response.html:135
 msgid "Browser"
 msgstr "Tarayıcı"
 
-#: fjord/analytics/templates/analytics/response.html:139
+#: fjord/analytics/jinja2/analytics/response.html:139
 msgid "Browser Ver."
 msgstr "Tarayıcı sür."
 
-#: fjord/analytics/templates/analytics/response.html:143
+#: fjord/analytics/jinja2/analytics/response.html:143
 msgid "Browser Plat."
 msgstr "Tarayıcı plat."
 
-#: fjord/analytics/templates/analytics/response.html:151
+#: fjord/analytics/jinja2/analytics/response.html:151
 msgid "Full URL"
 msgstr "Tam URL"
 
-#: fjord/analytics/templates/analytics/response.html:155 fjord/feedback/templates/feedback/fxos_feedback.html:94
+#: fjord/analytics/jinja2/analytics/response.html:155 fjord/feedback/jinja2/feedback/fxos_feedback.html:94
 msgid "Country"
 msgstr "Ülke"
 
-#: fjord/analytics/templates/analytics/response.html:159
+#: fjord/analytics/jinja2/analytics/response.html:159
 msgid "Manufacturer"
 msgstr "Üretici"
 
-#: fjord/analytics/templates/analytics/response.html:163 fjord/feedback/templates/feedback/fxos_feedback.html:116
+#: fjord/analytics/jinja2/analytics/response.html:163 fjord/feedback/jinja2/feedback/fxos_feedback.html:116
 msgid "Device"
 msgstr "Cihaz"
 
-#: fjord/analytics/templates/analytics/response.html:167
+#: fjord/analytics/jinja2/analytics/response.html:167
 msgid "User agent"
 msgstr "Kullanıcı istemcisi"
 
-#: fjord/analytics/templates/analytics/response.html:171
+#: fjord/analytics/jinja2/analytics/response.html:171
 msgid "Email"
 msgstr "E-posta"
 
-#: fjord/analytics/templates/analytics/response.html:179
+#: fjord/analytics/jinja2/analytics/response.html:179
 msgid "Browser data"
 msgstr "Tarayıcı verileri"
 
-#: fjord/analytics/templates/analytics/response.html:182
+#: fjord/analytics/jinja2/analytics/response.html:182
 msgid "yes"
 msgstr "evet"
 
-#: fjord/analytics/templates/analytics/response.html:187
+#: fjord/analytics/jinja2/analytics/response.html:187
 msgid "API version"
 msgstr "API sürümü"
 
-#: fjord/analytics/templates/analytics/response.html:205
+#: fjord/analytics/jinja2/analytics/response.html:205
 msgid "Context"
 msgstr "Bağlam"
 
-#: fjord/analytics/templates/analytics/analyzer/search.html:152
+#: fjord/analytics/jinja2/analytics/analyzer/search.html:152
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "Not: Tüm tarih ve saatler Pasifik saat dilimindedir."
 
-#: fjord/analytics/templates/analytics/mobile/dashboard.html:4
+#: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Pano henüz mobil aygıtlarda kullanılamamaktadır."
 
@@ -266,59 +262,59 @@ msgstr "Değer listesi"
 msgid "JSON Object"
 msgstr "JSON nesnesi"
 
-#: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
+#: fjord/base/jinja2/403.html:3 fjord/base/jinja2/403.html:9
 msgid "Forbidden"
 msgstr "Yasak"
 
-#: fjord/base/templates/403.html:12
+#: fjord/base/jinja2/403.html:12
 msgid "You do not have access to this page."
 msgstr "Bu sayfaya erişim yetkiniz yok."
 
-#: fjord/base/templates/403.html:14
+#: fjord/base/jinja2/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
 msgstr "Bu sayfaya erişim yetkiniz yok. Hesabınız varsa giriş yapmayı deneyin."
 
-#: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
+#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14 fjord/base/jinja2/500.html:35 fjord/base/jinja2/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
 msgstr "Panoya dön."
 
-#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
+#: fjord/base/jinja2/404.html:3 fjord/base/jinja2/404.html:9
 msgid "Not Found"
 msgstr "Sayfa bulunamadı"
 
-#: fjord/base/templates/404.html:11
+#: fjord/base/jinja2/404.html:11
 msgid "The document could not be found."
 msgstr "Belge bulunamadı."
 
-#: fjord/base/templates/500.html:8
+#: fjord/base/jinja2/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "Yanlış giden bir şeyler var"
 
-#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:44 fjord/base/templates/mobile/base.html:29
+#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44 fjord/base/jinja2/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> Input"
 
-#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:50 fjord/base/templates/mobile/base.html:35
+#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50 fjord/base/jinja2/mobile/base.html:35
 msgid "Dashboard"
 msgstr "Pano"
 
-#: fjord/base/templates/500.html:33
+#: fjord/base/jinja2/500.html:33
 msgid "Something has gone horribly wrong."
 msgstr "Yanlış giden bir şeyler var."
 
-#: fjord/base/templates/500.html:34
+#: fjord/base/jinja2/500.html:34
 msgid "There was a problem on the server."
 msgstr "Sunucuda bir sorun oluştu."
 
-#: fjord/base/templates/about.html:3 fjord/base/templates/includes/common.html:23
+#: fjord/base/jinja2/about.html:3 fjord/base/jinja2/includes/common.html:23
 msgid "About Firefox Input"
 msgstr "Firefox Input Hakkında"
 
-#: fjord/base/templates/about.html:9
+#: fjord/base/jinja2/about.html:9
 msgid "Hello!"
 msgstr "Merhaba!"
 
-#: fjord/base/templates/about.html:11
+#: fjord/base/jinja2/about.html:11
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
@@ -326,47 +322,47 @@ msgstr ""
 "Firefox Input, Mozilla'nın ürünlerle ilgili birincil geri bildirim mekanizmasıdır. Ürünlerimizi kullanırken ve internette gezinirken yaşadığınız deneyimleri bizimle paylaşmanız, Mozilla'nın bu "
 "deneyimi daha iyi hâle getirmek için neler yapabileceğini anlatmanız için tek yönlü bir iletişim yöntemidir. Sistem, çeşitli ürünlerde çeşitli gönderi mekanizmaları sunmaktadır."
 
-#: fjord/base/templates/about.html:21
+#: fjord/base/jinja2/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "Bir Mozilla ürünüyle ilgili geri bildirimde bulunmak için lütfen <a href=\"%(url)s\">geri bildirim gönderim sayfasını</a> ziyaret edin!"
 
-#: fjord/base/templates/about.html:27 fjord/base/templates/includes/common.html:20
+#: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
 msgstr "Gizlilik İlkeleri"
 
-#: fjord/base/templates/about.html:29
+#: fjord/base/jinja2/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "<a href=\"%(url)s\">Mozilla Gizlilik İlkelerine</a> sadığız."
 
-#: fjord/base/templates/about.html:34
+#: fjord/base/jinja2/about.html:34
 msgid "Legal Disclaimers and Limitations"
 msgstr "Yasal uyarılar ve kısıtlamalar"
 
-#: fjord/base/templates/about.html:36
+#: fjord/base/jinja2/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr "<a href=\"%(url)s\">Mozilla yasal uyarıları ve kısıtlamaları</a> belgesi kapsamındayız."
 
-#: fjord/base/templates/about.html:42
+#: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
 msgstr "Veri Saklama İlkeleri"
 
-#: fjord/base/templates/about.html:44
+#: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr "Bu sitede depolanan verileri kapsayan bir veri saklama ilkemiz var:"
 
-#: fjord/base/templates/about.html:51
+#: fjord/base/jinja2/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr "Geri bildirim verilerini sonsuza dek saklıyoruz ama yalnızca son 6 ayı herkese açın panoda yayımlıyoruz."
 
-#: fjord/base/templates/about.html:57
+#: fjord/base/jinja2/about.html:57
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
 msgstr "Geri bildirim verileriyle ilişkili e-posta adreslerini ve bağlamsal verileri 6 ay sakladıktan sonra siliyoruz."
 
-#: fjord/base/templates/about.html:64
+#: fjord/base/jinja2/about.html:64
 msgid "Open Data"
 msgstr "Açık Veri"
 
-#: fjord/base/templates/about.html:66
+#: fjord/base/jinja2/about.html:66
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
@@ -374,75 +370,75 @@ msgstr ""
 "Elimizdeki verilerle daha fazla deney yapmak istiyoruz ama işgücümüz oldukça az. Bu yüzden, verilerin öncelikli olarak nasıl değerlendirilmesini istediğinizi bize yazın! Elimizdeki verileri "
 "kullanmak isterseniz de bizimle iletişime geçebilirsiniz."
 
-#: fjord/base/templates/about.html:74
+#: fjord/base/jinja2/about.html:74
 msgid "Source Code"
 msgstr "Kaynak Kodu"
 
-#: fjord/base/templates/about.html:76
+#: fjord/base/jinja2/about.html:76
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Firefox Input sitesinin kodlarını <a href=\"%(url)s\">GitHub'da bulabilirsiniz</a>."
 
-#: fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
+#: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
 msgstr "Hoş geldiniz"
 
-#: fjord/base/templates/base.html:32 fjord/base/templates/mobile/base.html:21
+#: fjord/base/jinja2/base.html:32 fjord/base/jinja2/mobile/base.html:21
 msgid "Proceed to main content"
 msgstr "Ana içeriğe devam et"
 
-#: fjord/base/templates/base.html:33 fjord/base/templates/mobile/base.html:22
+#: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
 msgstr "Alt bilgiye git"
 
-#: fjord/base/templates/base.html:51
+#: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
 msgstr "Geri bildirim gönder"
 
-#: fjord/base/templates/base.html:53
+#: fjord/base/jinja2/base.html:53
 msgid "Analytics"
 msgstr "İstatistikler"
 
-#: fjord/base/templates/base.html:59
+#: fjord/base/jinja2/base.html:59
 msgid "Hello, {username}"
 msgstr "Merhaba {username}"
 
-#: fjord/base/templates/base.html:63
+#: fjord/base/jinja2/base.html:63
 msgid "Sign out"
 msgstr "Oturumu kapat"
 
-#: fjord/base/templates/base.html:65
+#: fjord/base/jinja2/base.html:65
 msgid "Sign in"
 msgstr "Oturum aç"
 
-#: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
+#: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
 msgstr "CSRF hatası"
 
-#: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
+#: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Oturum Açma Hatası"
 
-#: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
+#: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
 msgstr "Input'a hoş geldiniz!"
 
-#: fjord/base/templates/includes/common.html:7
+#: fjord/base/jinja2/includes/common.html:7
 msgid "Other languages:"
 msgstr "Diğer diller:"
 
-#: fjord/base/templates/includes/common.html:15
+#: fjord/base/jinja2/includes/common.html:15
 msgid "Go"
 msgstr "Git:"
 
-#: fjord/base/templates/includes/common.html:21
+#: fjord/base/jinja2/includes/common.html:21
 msgid "Legal Notices"
 msgstr "Yasal Notlar"
 
-#: fjord/base/templates/includes/common.html:22
+#: fjord/base/jinja2/includes/common.html:22
 msgid "Report Trademark Abuse"
 msgstr "Marka İhlali Bildir"
 
-#: fjord/base/templates/includes/common.html:26
+#: fjord/base/jinja2/includes/common.html:26
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
@@ -450,27 +446,27 @@ msgstr ""
 "<a href=\"%(legal_url)s\">Aksi belirtilmedikçe</a> bu sitedeki içerikler <a href=\"%(license_url)s\">Creative Commons Attribution<br/>Share-Alike License v3.0</a> veya üstü bir sürümle "
 "lisanslanmıştır."
 
-#: fjord/base/templates/includes/csrf_failure_text.html:3
+#: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
 msgstr "Gönderiniz sistemdeki bir güvenlik kontrolünden geçemedi."
 
-#: fjord/base/templates/includes/csrf_failure_text.html:8
+#: fjord/base/jinja2/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr "Lütfen çerezlerin açık olduğundan emin olun, tarayıcınızdaki Geri düğmesine tıklayın, sayfayı tazeleyin, formu doldurun ve geri bildiriminizi yeniden göndermeyi deneyin."
 
-#: fjord/base/templates/includes/login_failure_text.html:3
+#: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
 msgstr "Persona ile kimlik doğrulama başarısız oldu. Lütfen yeniden deneyin."
 
-#: fjord/base/templates/includes/new_user_text.html:1
+#: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
 msgstr "Hoş geldiniz!"
 
-#: fjord/base/templates/includes/new_user_text.html:3
+#: fjord/base/jinja2/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr "Az önce Persona ile giriş yaptığınız kimlik sizi Input hesabınıza bağlıyor. Lütfen kullandığınız Persona kimliğini unutmayın."
 
-#: fjord/base/templates/includes/new_user_text.html:10
+#: fjord/base/jinja2/includes/new_user_text.html:10
 msgid "Continue"
 msgstr "Devam et"
 
@@ -526,75 +522,75 @@ msgstr "Peru"
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:10 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
 msgstr "Firefox'u indir"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/download_firefox.html:16
 msgid "Please Download Firefox"
 msgstr "Lütfen Firefox'u indirin"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:21 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
 msgstr "Firefox ile ilgili geri bildirimde bulunmak istemenize sevindik, ama bunun için son sürümü kullanmanız gerekiyor."
 
-#: fjord/feedback/templates/feedback/download_firefox.html:27 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "Lütfen indirme sayfamıza giderek <a href=\"%(url)s\">Firefox'un son sürümünü</a> yükleyin veya güncelleyin."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:7 fjord/feedback/templates/feedback/generic_feedback.html:7
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
 msgstr "Geri Bildiriminizi Gönderin"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:31 fjord/feedback/templates/feedback/generic_feedback.html:32
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
 msgstr "{product} geri bildirimi"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:36 fjord/feedback/templates/feedback/generic_feedback.html:37 fjord/feedback/templates/feedback/picker.html:28
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr "Geri bildirim için JavaScript gereklidir. Lütfen tarayıcınızda JavaScript'i etkinleştirip sayfayı tazeleyin."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:43
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
 msgstr "Geri bildiriminiz Firefox OS'i geliştirmemize yardımcı oluyor."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:58 fjord/feedback/templates/feedback/generic_feedback.html:60
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
 msgid "%(product)s makes me happy"
 msgstr "%(product)s beni mutlu etti"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:75 fjord/feedback/templates/feedback/generic_feedback.html:77
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
 msgid "%(product)s makes me sad"
 msgstr "%(product)s beni üzdü"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:84 fjord/feedback/templates/feedback/generic_feedback.html:86
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "Geri bildirimde bulunmak istediğiniz ürün %(product)s değil mi?<br /> <a href=\"%(url)s\">Başka bir ürün seçin</a>."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:98
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr "Firefox OS cihazınızı hangi ülkede satın aldınız?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:106 fjord/feedback/templates/feedback/fxos_feedback.html:128
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106 fjord/feedback/jinja2/feedback/fxos_feedback.html:128
 msgid "Other"
 msgstr "Diğer"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:110 fjord/feedback/templates/feedback/fxos_feedback.html:132
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110 fjord/feedback/jinja2/feedback/fxos_feedback.html:132
 msgid "Next"
 msgstr "İleri"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:120
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:120
 msgid "What Firefox OS device are you using?"
 msgstr "Hangi Firefox OS cihazını kullanıyorsunuz?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:137 fjord/feedback/templates/feedback/generic_feedback.html:95
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137 fjord/feedback/jinja2/feedback/generic_feedback.html:95
 msgid "Details"
 msgstr "Ayrıntılar"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:142 fjord/feedback/templates/feedback/generic_feedback.html:100
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "Lütfen neyi beğendiğinizi yazın. Geri bildiriminizin içeriği herkes tarafından görülebilecektir; o yüzden lütfen e-posta adresi, parola ve telefon numarası gibi kişisel bilgiler yazmayın."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:150 fjord/feedback/templates/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
@@ -602,63 +598,63 @@ msgstr ""
 "Lütfen sorununuzu olabildiğince açık bir şekilde anlatın. Geri bildiriminizin içeriği herkes tarafından görülebilecektir; o yüzden lütfen e-posta adresi, parola ve telefon numarası gibi kişisel "
 "bilgiler yazmayın."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:167 fjord/feedback/templates/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Geri bildiriminiz bir web sitesiyle ilgili ise onu buraya yazabilirsiniz:"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:181 fjord/feedback/templates/feedback/generic_feedback.html:156
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Tercihe bağlı) Geri bildiriminizle ilgili olarak sizinle iletişime geçmemize izin veriyorsanız burayı işaretleyin. E-posta adresiniz gizli tutulacaktır."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:192
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
 msgstr "Lütfen geçerli bir e-posta adresi girin."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:198 fjord/feedback/templates/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
 msgid "Submit"
 msgstr "Gönder"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:204
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:204
 msgid "Submitting...."
 msgstr "Gönderiliyor..."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:212
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:212
 msgid "Success!"
 msgstr "Tebrikler!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:216
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
 msgstr "Ger bildiriminiz için teşekkürler! Firefox OS'in gelecek sürümlerinde daha iyi bir deneyim yaratmak için çok işimize yarayacak."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:222
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox OS'i ve Mozilla'yı nasıl iyileştirebileceğinizi</a> öğrenin."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:231
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:231
 msgid "We're sorry!"
 msgstr "Özür dileriz!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:234
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
 msgstr "Ters giden bir şeyler yüzünden geri bildiriminizi gönderemedik. Geri bildiriminiz, daha sonra tekrar göndermeyi deneyebilmeniz için cihazınıza kaydedilecek."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:240 fjord/feedback/templates/feedback/fxos_feedback.html:246 fjord/feedback/templates/feedback/fxos_feedback.html:255
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240 fjord/feedback/jinja2/feedback/fxos_feedback.html:246 fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
 msgstr "Yeniden dene"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:241 fjord/feedback/templates/feedback/fxos_feedback.html:256
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241 fjord/feedback/jinja2/feedback/fxos_feedback.html:256
 msgid "Cancel"
 msgstr "İptal"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:249
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:249
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "Gönderilmemiş geri bildirim verileriniz var. Yeniden göndermeyi denemek ister misiniz?"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:43
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 msgid "How does %(product)s make you feel?"
 msgstr "%(product)s kullanırken kendinizi nasıl hissettiniz?"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
 msgid ""
 "Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
 "our Privacy policy."
@@ -666,73 +662,76 @@ msgstr ""
 "Tarayıcınızla ilgili teknik bilgileri paylaşmak için burayı işaretleyin. Bu bilgiler kullanıcılarımızı daha iyi anlamamızı ve daha iyi ürünler geliştirmemizi sağlar. Bu veriler Gizlilik İlkelerimiz "
 "kapsamında gizli tutulacaktır."
 
-#: fjord/feedback/templates/feedback/picker.html:3
+#: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
 msgstr "Bir ürün seçin"
 
-#: fjord/feedback/templates/feedback/picker.html:14
+#: fjord/feedback/jinja2/feedback/picker.html:14
 msgid "Select a product"
 msgstr "Bir ürün seçin"
 
-#: fjord/feedback/templates/feedback/picker.html:23
+#: fjord/feedback/jinja2/feedback/picker.html:23
 msgid "No products available."
 msgstr "Ürün yok."
 
-#: fjord/feedback/templates/feedback/picker.html:34
+#: fjord/feedback/jinja2/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
 msgstr "Geri bildirimde bulunmak istediğiniz ürünü seçin."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/jinja2/feedback/thanks.html:3
 msgid "Thanks"
 msgstr "Teşekkürler"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/jinja2/feedback/thanks.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Geri bildiriminiz için teşekkürler"
 
-#: fjord/feedback/templates/feedback/thanks.html:25
+#: fjord/feedback/jinja2/feedback/thanks.html:25
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "Ger bildiriminiz yeni %(product)s sürümlerinde daha iyi bir deneyim yaratmak için kullanılacaktır."
 
-#: fjord/feedback/templates/feedback/thanks.html:33
+#: fjord/feedback/jinja2/feedback/thanks.html:33
 msgid "Suggestions from your feedback:"
 msgstr "Geri bildiriminizden öneriler:"
 
-#: fjord/feedback/templates/feedback/thanks.html:49
+#: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
 msgstr "Sorun mu yaşıyorsunuz? Yardım alın."
 
-#: fjord/feedback/templates/feedback/thanks.html:51
+#: fjord/feedback/jinja2/feedback/thanks.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "Yardım alabileceğiniz ve sorularınıza yanıt bulabileceğiniz <a href=\"%(url)s\">destek forumumuza gidin</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:64
+#: fjord/feedback/jinja2/feedback/thanks.html:64
 msgid "Shape the future of Firefox."
 msgstr "Firefox'un geleceğini şekillendirin."
 
-#: fjord/feedback/templates/feedback/thanks.html:66
+#: fjord/feedback/jinja2/feedback/thanks.html:66
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr "<a href=\"%(download_url)s\">Size en uygun Firefox sürümünü</a> indirin."
 
-#: fjord/feedback/templates/feedback/thanks.html:74
+#: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
 msgstr "Mozilla'ya katkıda bulunun."
 
-#: fjord/feedback/templates/feedback/thanks.html:76
+#: fjord/feedback/jinja2/feedback/thanks.html:76
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">%(product)s ve Mozilla'yı nasıl iyileştirebileceğinizi</a> öğrenin."
 
-#: fjord/feedback/templates/feedback/thanks.html:84
+#: fjord/feedback/jinja2/feedback/thanks.html:84
 msgid "Find the latest news about %(product)s."
 msgstr "%(product)s hakkında son haberleri edinin."
 
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Lütfen Firefox'u indirin!"
 
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr "Destek forumumuzda soru sorun"
+
+#~ msgid "Bigram"
+#~ msgstr "Bigram"
 
 #~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 #~ msgstr "Ger bildiriminiz Firefox'un gelecek sürümlerinde daha iyi bir deneyim yaratmak için kullanılacaktır."

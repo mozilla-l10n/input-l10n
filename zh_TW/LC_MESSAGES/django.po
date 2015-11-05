@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-14 07:34-0700\n"
+"POT-Creation-Date: 2015-11-05 06:50-0700\n"
 "PO-Revision-Date: 2015-09-18 09:47+0000\n"
 "Last-Translator: Pin-guang Chen <petercpg@mail.moztw.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,18 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442569637.0\n"
 
-#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:352
-#: fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
-msgid "Unknown"
-msgstr "未知"
-
 #: fjord/analytics/views.py:115
 msgid "Firefox Input: {query}"
 msgstr "Firefox Input: {query}"
 
-#: fjord/analytics/views.py:117 fjord/analytics/views.py:131
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:5
-#: fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
@@ -34,251 +27,231 @@ msgstr "Firefox Input"
 msgid "Search Results From Firefox Input"
 msgstr "Firefox Input 的搜尋結果"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359
-#: fjord/analytics/templates/analytics/dashboard.html:13
-#: fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18
-#: fjord/feedback/models.py:342
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
 msgid "Happy"
 msgstr "開心"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359
-#: fjord/analytics/templates/analytics/dashboard.html:15
-#: fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20
-#: fjord/feedback/models.py:343
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
 msgid "Sad"
 msgstr "悲傷"
 
-#: fjord/analytics/views.py:145
-#: fjord/analytics/templates/analytics/response.html:24
-#: fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:145 fjord/analytics/jinja2/analytics/response.html:24 fjord/analytics/jinja2/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "回應 ID: {id}"
 
-#: fjord/analytics/views.py:274
-msgid "Bigram"
-msgstr "字母組"
+#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+msgid "Unknown"
+msgstr "未知"
 
-#: fjord/analytics/views.py:358
+#: fjord/analytics/views.py:343
 msgid "Sentiment"
 msgstr "心情"
 
-#: fjord/analytics/views.py:365
-#: fjord/analytics/templates/analytics/response.html:111
+#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "產品："
 
-#: fjord/analytics/views.py:376 fjord/analytics/views.py:382
-#: fjord/analytics/templates/analytics/response.html:115
+#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "版本"
 
-#: fjord/analytics/views.py:383
+#: fjord/analytics/views.py:368
 msgid "Select product to see version breakdown"
 msgstr "選擇產品以檢視版本清單"
 
-#: fjord/analytics/views.py:391
-#: fjord/analytics/templates/analytics/response.html:99
+#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "平台"
 
-#: fjord/analytics/views.py:397
-#: fjord/analytics/templates/analytics/response.html:105
+#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "地區語言"
 
-#: fjord/analytics/templates/analytics/dashboard.html:7
+#: fjord/analytics/jinja2/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "此搜尋的 ATOM 消息來源"
 
-#: fjord/analytics/templates/analytics/dashboard.html:45
-#: fjord/analytics/templates/analytics/analyzer/search.html:78
-#: fjord/analytics/templates/analytics/mobile/response.html:40
+#: fjord/analytics/jinja2/analytics/dashboard.html:45 fjord/analytics/jinja2/analytics/analyzer/search.html:78 fjord/analytics/jinja2/analytics/mobile/response.html:39
 msgid "Permalink"
 msgstr "永久鏈結"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100
+#: fjord/analytics/jinja2/analytics/dashboard.html:100
 msgid "When"
 msgstr "在"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102
+#: fjord/analytics/jinja2/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1 天"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104
+#: fjord/analytics/jinja2/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7 天"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106
+#: fjord/analytics/jinja2/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30 天"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108
+#: fjord/analytics/jinja2/analytics/dashboard.html:108
 msgid "90d"
 msgstr "90 天"
 
-#: fjord/analytics/templates/analytics/dashboard.html:110
+#: fjord/analytics/jinja2/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114
+#: fjord/analytics/jinja2/analytics/dashboard.html:114
 msgid "Start"
 msgstr "開始"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116
+#: fjord/analytics/jinja2/analytics/dashboard.html:116
 msgid "End"
 msgstr "結束"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117
+#: fjord/analytics/jinja2/analytics/dashboard.html:117
 msgid "Set"
 msgstr "設定"
 
-#: fjord/analytics/templates/analytics/dashboard.html:132
+#: fjord/analytics/jinja2/analytics/dashboard.html:132
 msgid "Feedback"
 msgstr "意見回饋"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136
+#: fjord/analytics/jinja2/analytics/dashboard.html:136
 msgid "Search by keyword"
 msgstr "使用關鍵字搜尋"
 
-#: fjord/analytics/templates/analytics/dashboard.html:154
+#: fjord/analytics/jinja2/analytics/dashboard.html:154
 msgid "No feedback matches that criteria."
 msgstr "沒有符合此條件的意見回饋"
 
-#: fjord/analytics/templates/analytics/dashboard.html:160
+#: fjord/analytics/jinja2/analytics/dashboard.html:160
 msgid "Older Messages"
 msgstr "更舊的訊息"
 
-#: fjord/analytics/templates/analytics/dashboard.html:165
+#: fjord/analytics/jinja2/analytics/dashboard.html:165
 msgid "Newer Messages"
 msgstr "更新的訊息"
 
-#: fjord/analytics/templates/analytics/dashboard.html:176
+#: fjord/analytics/jinja2/analytics/dashboard.html:176
 msgid "Messages in specified time range"
 msgstr "指定時間範圍內的訊息"
 
-#: fjord/analytics/templates/analytics/es_down.html:12
+#: fjord/analytics/jinja2/analytics/es_down.html:12
 msgid "Dashboard unavailable"
 msgstr "無法使用主控台"
 
-#: fjord/analytics/templates/analytics/es_down.html:14
+#: fjord/analytics/jinja2/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "目前無法使用主控台，請過十分鐘再試一次。"
 
-#: fjord/analytics/templates/analytics/response.html:45
+#: fjord/analytics/jinja2/analytics/response.html:45
 msgid "Category"
 msgstr "分類"
 
-#: fjord/analytics/templates/analytics/response.html:47
-#: fjord/analytics/templates/analytics/response.html:125
-#: fjord/analytics/templates/analytics/response.html:129
-#: fjord/analytics/templates/analytics/response.html:133
-#: fjord/analytics/templates/analytics/response.html:137
-#: fjord/analytics/templates/analytics/response.html:141
-#: fjord/analytics/templates/analytics/response.html:145
+#: fjord/analytics/jinja2/analytics/response.html:47 fjord/analytics/jinja2/analytics/response.html:125 fjord/analytics/jinja2/analytics/response.html:129
+#: fjord/analytics/jinja2/analytics/response.html:133 fjord/analytics/jinja2/analytics/response.html:137 fjord/analytics/jinja2/analytics/response.html:141
+#: fjord/analytics/jinja2/analytics/response.html:145
 msgid "None"
 msgstr "無"
 
-#: fjord/analytics/templates/analytics/response.html:49
+#: fjord/analytics/jinja2/analytics/response.html:49
 msgid "Description"
 msgstr "描述"
 
-#: fjord/analytics/templates/analytics/response.html:53
+#: fjord/analytics/jinja2/analytics/response.html:53
 msgid "Translated"
 msgstr "已翻譯"
 
-#: fjord/analytics/templates/analytics/response.html:64
+#: fjord/analytics/jinja2/analytics/response.html:64
 msgid "Translate (machine)"
 msgstr "機器翻譯"
 
-#: fjord/analytics/templates/analytics/response.html:70
+#: fjord/analytics/jinja2/analytics/response.html:70
 msgid "Translate (human)"
 msgstr "人工翻譯"
 
-#: fjord/analytics/templates/analytics/response.html:85
+#: fjord/analytics/jinja2/analytics/response.html:85
 msgid "Created"
 msgstr "建立於"
 
-#: fjord/analytics/templates/analytics/response.html:119
+#: fjord/analytics/jinja2/analytics/response.html:119
 msgid "Channel"
 msgstr "頻道"
 
-#: fjord/analytics/templates/analytics/response.html:123
+#: fjord/analytics/jinja2/analytics/response.html:123
 msgid "URL Domain"
 msgstr "網域"
 
-#: fjord/analytics/templates/analytics/response.html:127
+#: fjord/analytics/jinja2/analytics/response.html:127
 msgid "Source"
 msgstr "來源"
 
-#: fjord/analytics/templates/analytics/response.html:131
+#: fjord/analytics/jinja2/analytics/response.html:131
 msgid "Campaign"
 msgstr "Campaign"
 
-#: fjord/analytics/templates/analytics/response.html:135
+#: fjord/analytics/jinja2/analytics/response.html:135
 msgid "Browser"
 msgstr "瀏覽器"
 
-#: fjord/analytics/templates/analytics/response.html:139
+#: fjord/analytics/jinja2/analytics/response.html:139
 msgid "Browser Ver."
 msgstr "瀏覽器版本"
 
-#: fjord/analytics/templates/analytics/response.html:143
+#: fjord/analytics/jinja2/analytics/response.html:143
 msgid "Browser Plat."
 msgstr "瀏覽器平台"
 
-#: fjord/analytics/templates/analytics/response.html:151
+#: fjord/analytics/jinja2/analytics/response.html:151
 msgid "Full URL"
 msgstr "完整網址"
 
-#: fjord/analytics/templates/analytics/response.html:155
-#: fjord/feedback/templates/feedback/fxos_feedback.html:94
+#: fjord/analytics/jinja2/analytics/response.html:155 fjord/feedback/jinja2/feedback/fxos_feedback.html:94
 msgid "Country"
 msgstr "國家"
 
-#: fjord/analytics/templates/analytics/response.html:159
+#: fjord/analytics/jinja2/analytics/response.html:159
 msgid "Manufacturer"
 msgstr "製造商"
 
-#: fjord/analytics/templates/analytics/response.html:163
-#: fjord/feedback/templates/feedback/fxos_feedback.html:116
+#: fjord/analytics/jinja2/analytics/response.html:163 fjord/feedback/jinja2/feedback/fxos_feedback.html:116
 msgid "Device"
 msgstr "裝置"
 
-#: fjord/analytics/templates/analytics/response.html:167
+#: fjord/analytics/jinja2/analytics/response.html:167
 msgid "User agent"
 msgstr "使用者代理字串"
 
-#: fjord/analytics/templates/analytics/response.html:171
+#: fjord/analytics/jinja2/analytics/response.html:171
 msgid "Email"
 msgstr "電子郵件"
 
-#: fjord/analytics/templates/analytics/response.html:179
+#: fjord/analytics/jinja2/analytics/response.html:179
 msgid "Browser data"
 msgstr "瀏覽器資料"
 
-#: fjord/analytics/templates/analytics/response.html:182
+#: fjord/analytics/jinja2/analytics/response.html:182
 msgid "yes"
 msgstr "是"
 
-#: fjord/analytics/templates/analytics/response.html:187
+#: fjord/analytics/jinja2/analytics/response.html:187
 msgid "API version"
 msgstr "API 版本"
 
-#: fjord/analytics/templates/analytics/response.html:205
+#: fjord/analytics/jinja2/analytics/response.html:205
 msgid "Context"
 msgstr "環境"
 
-#: fjord/analytics/templates/analytics/analyzer/search.html:152
+#: fjord/analytics/jinja2/analytics/analyzer/search.html:152
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "注意: 所有日期時間皆為美國太平洋時間。"
 
-#: fjord/analytics/templates/analytics/mobile/dashboard.html:4
+#: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "目前主控台還無法在行動裝置中使用。"
 
@@ -290,242 +263,206 @@ msgstr "值清單"
 msgid "JSON Object"
 msgstr "JSON 物件"
 
-#: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
+#: fjord/base/jinja2/403.html:3 fjord/base/jinja2/403.html:9
 msgid "Forbidden"
 msgstr "被禁止"
 
-#: fjord/base/templates/403.html:12
+#: fjord/base/jinja2/403.html:12
 msgid "You do not have access to this page."
 msgstr "您無法存取此頁面。"
 
-#: fjord/base/templates/403.html:14
-msgid ""
-"You do not have access to this page. If you have an account, try signing in."
+#: fjord/base/jinja2/403.html:14
+msgid "You do not have access to this page. If you have an account, try signing in."
 msgstr "您無法存取此頁面。若您有帳號，請登入。"
 
-#: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14
-#: fjord/base/templates/500.html:35
-#: fjord/base/templates/includes/login_failure_text.html:8
+#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14 fjord/base/jinja2/500.html:35 fjord/base/jinja2/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
 msgstr "回到主控台。"
 
-#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
+#: fjord/base/jinja2/404.html:3 fjord/base/jinja2/404.html:9
 msgid "Not Found"
 msgstr "找不到"
 
-#: fjord/base/templates/404.html:11
+#: fjord/base/jinja2/404.html:11
 msgid "The document could not be found."
 msgstr "找不到文件。"
 
-#: fjord/base/templates/500.html:8
+#: fjord/base/jinja2/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "有些東西不對勁"
 
-#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:44
-#: fjord/base/templates/mobile/base.html:29
+#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44 fjord/base/jinja2/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> Input"
 
-#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:50
-#: fjord/base/templates/mobile/base.html:35
+#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50 fjord/base/jinja2/mobile/base.html:35
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: fjord/base/templates/500.html:33
+#: fjord/base/jinja2/500.html:33
 msgid "Something has gone horribly wrong."
 msgstr "有些東西不對勁。"
 
-#: fjord/base/templates/500.html:34
+#: fjord/base/jinja2/500.html:34
 msgid "There was a problem on the server."
 msgstr "伺服器有點問題。"
 
-#: fjord/base/templates/about.html:3
-#: fjord/base/templates/includes/common.html:23
+#: fjord/base/jinja2/about.html:3 fjord/base/jinja2/includes/common.html:23
 msgid "About Firefox Input"
 msgstr "關於 Firefox Input"
 
-#: fjord/base/templates/about.html:9
+#: fjord/base/jinja2/about.html:9
 msgid "Hello!"
 msgstr "哈囉！"
 
-#: fjord/base/templates/about.html:11
+#: fjord/base/jinja2/about.html:11
 msgid ""
-"Firefox Input is Mozilla's primary feedback mechanism for products. It is "
-"set up to be a method of one-way communication about your experiences in "
-"using our products, the Internet you view it through, and what Mozilla can "
-"do to make that experience better. The system is available over a wide-"
-"variety of submission mechanisms and product builds."
+"Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
+"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input 是 Mozilla 主要使用的使用者意見回饋機制。這是一種讓您可以回報產品使用過程當中的體驗，以及 Mozilla "
-"能如何改善這個體驗的單向溝通方式。此系統於不同的產品版本當中有多種不同的回報機制可用。"
+"Firefox Input 是 Mozilla 主要使用的使用者意見回饋機制。這是一種讓您可以回報產品使用過程當中的體驗，以及 Mozilla 能如何改善這個體驗的單向溝通方式。此系統於不同的產品版本當中有多種不同的回報機制可用。"
 
-#: fjord/base/templates/about.html:21
-msgid ""
-"To submit feedback for a Mozilla product, please go to <a "
-"href=\"%(url)s\">the feedback submission page</a>!"
+#: fjord/base/jinja2/about.html:21
+msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "要送出您所使用的 Mozilla 產品的意見回饋，請到 <a href=\"%(url)s\">送交回饋頁面</a>！"
 
-#: fjord/base/templates/about.html:27
-#: fjord/base/templates/includes/common.html:20
+#: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
 msgstr "隱私權政策"
 
-#: fjord/base/templates/about.html:29
+#: fjord/base/jinja2/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "我們會遵守 <a href=\"%(url)s\">Mozilla 隱私權保護政策</a>。"
 
-#: fjord/base/templates/about.html:34
+#: fjord/base/jinja2/about.html:34
 msgid "Legal Disclaimers and Limitations"
 msgstr "法律免責聲明與限制範圍"
 
-#: fjord/base/templates/about.html:36
-msgid ""
-"We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
-"limitations</a> document."
-msgstr ""
-"我們受 <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> 文件保護。"
+#: fjord/base/jinja2/about.html:36
+msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
+msgstr "我們受 <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> 文件保護。"
 
-#: fjord/base/templates/about.html:42
+#: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
 msgstr "資料保留政策"
 
-#: fjord/base/templates/about.html:44
+#: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr "我們對於此網站中儲存的資料有資料保留政策:"
 
-#: fjord/base/templates/about.html:51
-msgid ""
-"We keep feedback data forever, but only the last 6 months of data is "
-"available on the public dashboard."
+#: fjord/base/jinja2/about.html:51
+msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr "我們會永久保留意見回饋資料，但只會在主控台中公開最近六個月的資料。"
 
-#: fjord/base/templates/about.html:57
-msgid ""
-"We keep email addresses and contextual data associated with feedback data "
-"for 6 months and then delete it."
+#: fjord/base/jinja2/about.html:57
+msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
 msgstr "我們會保留每筆意見回饋當中的電子郵件地址與相關資料六個月，然後就會刪除這些地址。"
 
-#: fjord/base/templates/about.html:64
+#: fjord/base/jinja2/about.html:64
 msgid "Open Data"
 msgstr "開放式的資料"
 
-#: fjord/base/templates/about.html:66
+#: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. "
-"So, we need requests from you on questions you'd like to see answered! If "
-"you would like to experiment with our data, please contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr "我們想要對此系統上的資料做更多實驗，但我們只有一點點人。所以，我們需要你們提供在所有資料當中最想知道的問題！請聯絡我們！"
 
-#: fjord/base/templates/about.html:74
+#: fjord/base/jinja2/about.html:74
 msgid "Source Code"
 msgstr "原始碼"
 
-#: fjord/base/templates/about.html:76
-msgid ""
-"The code for the Firefox Input site can be <a href=\"%(url)s\">found on "
-"GitHub</a>!"
+#: fjord/base/jinja2/about.html:76
+msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "可以在 <a href=\"%(url)s\">GitHub</a> 找到 Firefox Input 網站的原始碼！"
 
-#: fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
+#: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
 msgstr "歡迎"
 
-#: fjord/base/templates/base.html:32 fjord/base/templates/mobile/base.html:21
+#: fjord/base/jinja2/base.html:32 fjord/base/jinja2/mobile/base.html:21
 msgid "Proceed to main content"
 msgstr "跳轉到主要內容"
 
-#: fjord/base/templates/base.html:33 fjord/base/templates/mobile/base.html:22
+#: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
 msgstr "跳轉到頁尾"
 
-#: fjord/base/templates/base.html:51
+#: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
 msgstr "提供意見回饋"
 
-#: fjord/base/templates/base.html:53
+#: fjord/base/jinja2/base.html:53
 msgid "Analytics"
 msgstr "統計"
 
-#: fjord/base/templates/base.html:59
+#: fjord/base/jinja2/base.html:59
 msgid "Hello, {username}"
 msgstr "嗨，{username}"
 
-#: fjord/base/templates/base.html:63
+#: fjord/base/jinja2/base.html:63
 msgid "Sign out"
 msgstr "登出"
 
-#: fjord/base/templates/base.html:65
+#: fjord/base/jinja2/base.html:65
 msgid "Sign in"
 msgstr "登入"
 
-#: fjord/base/templates/csrf_failure.html:3
-#: fjord/base/templates/includes/csrf_failure_text.html:1
-#: fjord/base/templates/mobile/csrf_failure.html:3
+#: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
 msgstr "CSRF 失敗"
 
-#: fjord/base/templates/login_failure.html:3
-#: fjord/base/templates/includes/login_failure_text.html:1
-#: fjord/base/templates/mobile/login_failure.html:3
+#: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "登入失敗"
 
-#: fjord/base/templates/new_user.html:3
-#: fjord/base/templates/mobile/new_user.html:3
+#: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
 msgstr "歡迎使用 Input！"
 
-#: fjord/base/templates/includes/common.html:7
+#: fjord/base/jinja2/includes/common.html:7
 msgid "Other languages:"
 msgstr "其他語言："
 
-#: fjord/base/templates/includes/common.html:15
+#: fjord/base/jinja2/includes/common.html:15
 msgid "Go"
 msgstr "前往"
 
-#: fjord/base/templates/includes/common.html:21
+#: fjord/base/jinja2/includes/common.html:21
 msgid "Legal Notices"
 msgstr "法律聲明"
 
-#: fjord/base/templates/includes/common.html:22
+#: fjord/base/jinja2/includes/common.html:22
 msgid "Report Trademark Abuse"
 msgstr "回報商標濫用"
 
-#: fjord/base/templates/includes/common.html:26
+#: fjord/base/jinja2/includes/common.html:26
 msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
-msgstr ""
-"除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<a href=\"%(license_url)s\">創用 CC "
-"姓名標示 - 相同方式分享條款 3.0</a> 或更新版本授權使用。"
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
+msgstr "除另有<a href=\"%(legal_url)s\">註明</a>，本站內容皆採<a href=\"%(license_url)s\">創用 CC 姓名標示 - 相同方式分享條款 3.0</a> 或更新版本授權使用。"
 
-#: fjord/base/templates/includes/csrf_failure_text.html:3
+#: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
 msgstr "您送出的資料無法通過我們系統上的安全檢查。"
 
-#: fjord/base/templates/includes/csrf_failure_text.html:8
-msgid ""
-"Please make sure you have cookies enabled, press the Back button in your "
-"browser, refresh the page, fill out the form, and try submitting your "
-"feedback again."
+#: fjord/base/jinja2/includes/csrf_failure_text.html:8
+msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr "請確定您開啟了 Cookie 功能，按下瀏覽器中的「上一頁」按鈕，然後重新整理頁面、重新填表、再試著送出看看。"
 
-#: fjord/base/templates/includes/login_failure_text.html:3
+#: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
 msgstr "您並未通過 Persona 的驗證，請稍候再試。"
 
-#: fjord/base/templates/includes/new_user_text.html:1
+#: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
 msgstr "歡迎！"
 
-#: fjord/base/templates/includes/new_user_text.html:3
-msgid ""
-"The identity you just logged in to Persona with ties you to your account on "
-"Input. Please remember which Persona identity you used."
+#: fjord/base/jinja2/includes/new_user_text.html:3
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr "您剛用來登入的 Persona 帳號會與您在 Input 裡的帳號綁定起來。請記住您剛用來登入的 Persona 帳號。"
 
-#: fjord/base/templates/includes/new_user_text.html:10
+#: fjord/base/jinja2/includes/new_user_text.html:10
 msgid "Continue"
 msgstr "繼續"
 
@@ -581,255 +518,203 @@ msgstr "祕魯"
 msgid "Uruguay"
 msgstr "烏拉圭"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:10
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
 msgstr "下載 Firefox"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/download_firefox.html:16
 msgid "Please Download Firefox"
 msgstr "請下載 Firefox"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:21
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:21
-msgid ""
-"Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
-" to be on the latest version."
+#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
 msgstr "喔，您似乎想要回報對 Firefox 的意見。感謝您的支持，但您必須使用最新版本才能回報。"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:27
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:27
-msgid ""
-"To do that, simply go to our download page and install/update to the <a "
-"href=\"%(url)s\">latest version of Firefox!</a>"
+#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox</a> 即可！"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:7
-#: fjord/feedback/templates/feedback/generic_feedback.html:7
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
 msgstr "傳送您的意見回饋"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:31
-#: fjord/feedback/templates/feedback/generic_feedback.html:32
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
 msgstr "{product} 意見回饋"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:36
-#: fjord/feedback/templates/feedback/generic_feedback.html:37
-#: fjord/feedback/templates/feedback/picker.html:28
-msgid ""
-"JavaScript is required to leave feedback. Please enable JavaScript in your "
-"browser and refresh this page."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
 msgstr "您需要開啟 JavaScript 才能留下意見回饋。請開啟您瀏覽器的 JavaScript 功能，並重新整理此頁。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:43
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
 msgstr "您所送出的回饋可以幫助我們改進 Firefox OS。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:58
-#: fjord/feedback/templates/feedback/generic_feedback.html:60
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
 msgid "%(product)s makes me happy"
 msgstr "%(product)s 讓我覺得滿意"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:75
-#: fjord/feedback/templates/feedback/generic_feedback.html:77
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
 msgid "%(product)s makes me sad"
 msgstr "%(product)s 讓我覺得不滿意"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:84
-#: fjord/feedback/templates/feedback/generic_feedback.html:86
-msgid ""
-"Is %(product)s not the product you want to give feedback on?<br /> <a "
-"href=\"%(url)s\">Pick a different product</a>."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
+msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "您不是要對 %(product)s 提供意見嗎？<br /><a href=\"%(url)s\">挑選另一套產品</a>。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:98
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr "您在哪個國家購買了您的 Firefox OS 裝置？"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:106
-#: fjord/feedback/templates/feedback/fxos_feedback.html:128
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106 fjord/feedback/jinja2/feedback/fxos_feedback.html:128
 msgid "Other"
 msgstr "其他"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:110
-#: fjord/feedback/templates/feedback/fxos_feedback.html:132
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110 fjord/feedback/jinja2/feedback/fxos_feedback.html:132
 msgid "Next"
 msgstr "下一步"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:120
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:120
 msgid "What Firefox OS device are you using?"
 msgstr "您使用的是哪台 Firefox OS 裝置？"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:137
-#: fjord/feedback/templates/feedback/generic_feedback.html:95
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137 fjord/feedback/jinja2/feedback/generic_feedback.html:95
 msgid "Details"
 msgstr "詳情"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:142
-#: fjord/feedback/templates/feedback/generic_feedback.html:100
-msgid ""
-"Please describe what you like. The content of your feedback will be public, "
-"so please be sure not to include personal information such as email address,"
-" passwords or phone number."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
+msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "請描述您喜歡的地方。您的意見回饋將會是公開的，請不要填入任何個人訊息，像是電子郵件地址、帳號、密碼、手機號碼等等。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:150
-#: fjord/feedback/templates/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
 msgid ""
-"Please describe your problem below and be as specific as you can. The "
-"content of your feedback will be public, so please be sure not to include "
-"personal information such as email address, passwords or phone number."
+"Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
+"or phone number."
 msgstr "請在下面描述您遇到的問題，越仔細越好。您的意見回饋將會是公開的，請不要填入任何個人訊息，像是電子郵件地址、帳號、密碼、手機號碼等等。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:167
-#: fjord/feedback/templates/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "若您的意見回饋與某個網站有關，您可以在此處列出:"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:181
-#: fjord/feedback/templates/feedback/generic_feedback.html:156
-msgid ""
-"(Optional) Check here to let us contact you to follow up on your feedback. "
-"Your email address will be kept private."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
+msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "（非必要）勾選這裡，讓我們在有關於您的意見的相關後續處理情況時連絡您。您的電子郵件地址將會被保密。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:192
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
 msgstr "請輸入有效的電子郵件地址。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:198
-#: fjord/feedback/templates/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
 msgid "Submit"
 msgstr "送出"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:204
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:204
 msgid "Submitting...."
 msgstr "正在傳送意見回饋…"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:212
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:212
 msgid "Success!"
 msgstr "成功！"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:216
-msgid ""
-"Thank you for your feedback! We will use it to help us create a better "
-"experience in future versions of Firefox OS."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
 msgstr "感謝您的意見回饋！我們將會使用您的意見在未來的 Firefox OS 中打造更優秀的體驗。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:222
-msgid ""
-"Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla "
-"better</a>."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "了解您能如何 <a href=\"%(url)s\">讓 Firefox OS 與 Mozilla 變得更好</a>"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:231
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:231
 msgid "We're sorry!"
 msgstr "很抱歉！"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:234
-msgid ""
-"Something has happened and we can't submit your feedback. Feedback will be "
-"saved on your device so you can try sending it again later."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
 msgstr "發生一些錯誤使我們無法傳送意見回饋，您剛填寫的回饋將會儲存於您的裝置中，可以在稍後傳送。"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:240
-#: fjord/feedback/templates/feedback/fxos_feedback.html:246
-#: fjord/feedback/templates/feedback/fxos_feedback.html:255
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240 fjord/feedback/jinja2/feedback/fxos_feedback.html:246 fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
 msgstr "重試"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:241
-#: fjord/feedback/templates/feedback/fxos_feedback.html:256
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241 fjord/feedback/jinja2/feedback/fxos_feedback.html:256
 msgid "Cancel"
 msgstr "取消"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:249
-msgid ""
-"You have unsubmitted feedback data. Would you like to try submitting it "
-"again?"
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:249
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "已取消傳送意見回饋資料。您想要試著再傳一次嗎？"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:43
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 msgid "How does %(product)s make you feel?"
 msgstr "%(product)s 讓您覺得如何？"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
 msgid ""
-"Check here to provide technical information about your browser. This "
-"information helps us better understand our users and create better products."
-" This information will be kept in accordance with our Privacy policy."
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr "點擊此處以提供關於您的瀏覽器的技術資訊。此資訊可幫助我們更加了解使用者，並建立更好的產品。我們將依照隱私權保護政策儲存此資訊。"
 
-#: fjord/feedback/templates/feedback/picker.html:3
+#: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
 msgstr "選擇產品"
 
-#: fjord/feedback/templates/feedback/picker.html:14
+#: fjord/feedback/jinja2/feedback/picker.html:14
 msgid "Select a product"
 msgstr "選擇產品"
 
-#: fjord/feedback/templates/feedback/picker.html:23
+#: fjord/feedback/jinja2/feedback/picker.html:23
 msgid "No products available."
 msgstr "沒有產品可以使用。"
 
-#: fjord/feedback/templates/feedback/picker.html:34
+#: fjord/feedback/jinja2/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
 msgstr "選擇要提供意見的產品。"
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/jinja2/feedback/thanks.html:3
 msgid "Thanks"
 msgstr "感謝"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/jinja2/feedback/thanks.html:16
 msgid "Thanks for Your Feedback"
 msgstr "感謝您的回饋"
 
-#: fjord/feedback/templates/feedback/thanks.html:25
-msgid ""
-"Your feedback will be used to create a better experience in future releases "
-"of %(product)s."
+#: fjord/feedback/jinja2/feedback/thanks.html:25
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "您的意見回饋將被用來在未來的 %(product)s 中打造更優秀的體驗。"
 
-#: fjord/feedback/templates/feedback/thanks.html:33
+#: fjord/feedback/jinja2/feedback/thanks.html:33
 msgid "Suggestions from your feedback:"
 msgstr "您回饋的意見:"
 
-#: fjord/feedback/templates/feedback/thanks.html:49
+#: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
 msgstr "有問題嗎？取得幫助。"
 
-#: fjord/feedback/templates/feedback/thanks.html:51
-msgid ""
-"Go to our support forum where you can <a href=\"%(url)s\">get help and find "
-"answers</a>."
+#: fjord/feedback/jinja2/feedback/thanks.html:51
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "到我們的技術支援討論區 <a href=\"%(url)s\">尋找答案並得到幫助</a>。"
 
-#: fjord/feedback/templates/feedback/thanks.html:64
+#: fjord/feedback/jinja2/feedback/thanks.html:64
 msgid "Shape the future of Firefox."
 msgstr "打造未來的 Firefox。"
 
-#: fjord/feedback/templates/feedback/thanks.html:66
-msgid ""
-"Download <a href=\"%(download_url)s\">the Firefox build that is right for "
-"you</a>."
+#: fjord/feedback/jinja2/feedback/thanks.html:66
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr "下載 <a href=\"%(download_url)s\">適合您的 Firefox 版本</a>。"
 
-#: fjord/feedback/templates/feedback/thanks.html:74
+#: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
 msgstr "貢獻給 Mozilla。"
 
-#: fjord/feedback/templates/feedback/thanks.html:76
-msgid ""
-"Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla "
-"better</a>."
+#: fjord/feedback/jinja2/feedback/thanks.html:76
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr "了解您能如何 <a href=\"%(url)s\">讓 %(product)s 與 Mozilla 變得更好</a>。"
 
-#: fjord/feedback/templates/feedback/thanks.html:84
+#: fjord/feedback/jinja2/feedback/thanks.html:84
 msgid "Find the latest news about %(product)s."
 msgstr "取得 %(product)s 的最新消息。"
 
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "請下載 Firefox！"
 
@@ -837,9 +722,10 @@ msgstr "請下載 Firefox！"
 msgid "Ask a question in our support forum"
 msgstr "在我們的技術支援討論區問問題"
 
-#~ msgid ""
-#~ "Your feedback will be used to create a better experience in future releases "
-#~ "of Firefox."
+#~ msgid "Bigram"
+#~ msgstr "字母組"
+
+#~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 #~ msgstr "您的意見回饋將被用來在未來的 Firefox 中打造更優秀的體驗。"
 
 #~ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
@@ -863,11 +749,8 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Firefox OS made me sad"
 #~ msgstr "Firefox OS 讓我覺得不高興"
 
-#~ msgid ""
-#~ "If you need help or have a problem with Firefox OS, please visit <a "
-#~ "href=\"%(support_url)s\">Mozilla Support</a>."
-#~ msgstr ""
-#~ "若您有 Firefox OS 的相關問題需要幫助，請看看 <a href=\"%(support_url)s\">Mozilla 技術支援</a>。"
+#~ msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
+#~ msgstr "若您有 Firefox OS 的相關問題需要幫助，請看看 <a href=\"%(support_url)s\">Mozilla 技術支援</a>。"
 
 #~ msgid "Please describe what you liked."
 #~ msgstr "請描述您喜歡什麼地方。"
@@ -875,9 +758,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Please describe your problem below and be as specific as you can."
 #~ msgstr "請在下面描述您的問題。"
 
-#~ msgid ""
-#~ "The content of your feedback will be public, so please be sure not to "
-#~ "include any personal information."
+#~ msgid "The content of your feedback will be public, so please be sure not to include any personal information."
 #~ msgstr "您的意見回饋將會是公開的，請不要填入任何個人訊息。"
 
 #~ msgid "Can we contact you?"
@@ -895,10 +776,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Send Feedback"
 #~ msgstr "送出意見回饋"
 
-#~ msgid ""
-#~ "(Optional) Check here to provide technical information about your browser. "
-#~ "This will help us diagnose problems more quickly. This data will be kept "
-#~ "private."
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
 #~ msgstr "（非必要）點擊此處以提供關於您的瀏覽器的技術資訊。此資訊可讓我們更快找出問題。此資訊將被保密。"
 
 #~ msgid "Your feedback helps us improve Firefox."
@@ -910,9 +788,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Firefox made me sad"
 #~ msgstr "Firefox 讓我覺得不高興"
 
-#~ msgid ""
-#~ "If you need help or have a problem with Firefox, please visit <a "
-#~ "href=\"%(support_url)s\">Firefox Support</a>."
+#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
 #~ msgstr "若您有 Firefox 的相關問題需要幫助，請看看 <a href=\"%(support_url)s\"> Firefox 技術支援</a>。"
 
 #~ msgid "Please describe your problem below."
@@ -924,24 +800,16 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "If your feedback is related to a website, you can include it here."
 #~ msgstr "若您的意見回饋與某個網站有關，您可以在此處列出。"
 
-#~ msgid ""
-#~ "While your feedback will be publicly visible, email addresses are kept "
-#~ "private. We understand your privacy is important."
+#~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 #~ msgstr "雖然您的回饋內容是公開可見的，但您的電子郵件地址將會被保密。我們知道您的隱私是最重要的。"
 
 #~ msgid "Unknown product"
 #~ msgstr "未知產品"
 
-#~ msgid ""
-#~ "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an "
-#~ "error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-#~ msgstr ""
-#~ "Input 不知道「<em>%(product)s</em>」這個產品是什麼。若您覺得這是個錯誤，請 <a href=\"%(url)s\">回報 "
-#~ "Bug</a> 讓我們知道。"
+#~ msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
+#~ msgstr "Input 不知道「<em>%(product)s</em>」這個產品是什麼。若您覺得這是個錯誤，請 <a href=\"%(url)s\">回報 Bug</a> 讓我們知道。"
 
-#~ msgid ""
-#~ "If you are here by mistake and want to leave feedback, you can do so <a "
-#~ "href=\"%(url)s\">on our feedback form</a>."
+#~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
 #~ msgstr "若您原本沒有要來這個網站，想要留下意見，請使用 <a href=\"%(url)s\">我們的意見回饋表單</a>。"
 
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
@@ -950,9 +818,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Input Services Monitor"
 #~ msgstr "Input 服務監控器"
 
-#~ msgid ""
-#~ "List of components that Input uses and whether they are functioning "
-#~ "correctly."
+#~ msgid "List of components that Input uses and whether they are functioning correctly."
 #~ msgstr "Inter 所使用的元件清單，以及他們是否正常執行中。"
 
 #~ msgid "Latest Feedback"
@@ -961,14 +827,10 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Messages"
 #~ msgstr "訊息"
 
-#~ msgid ""
-#~ "Either you don't have an account here or you used the wrong Persona account "
-#~ "to log in."
+#~ msgid "Either you don't have an account here or you used the wrong Persona account to log in."
 #~ msgstr "您不是還沒有帳號，就是使用了錯誤的 Persona 帳號登入。"
 
-#~ msgid ""
-#~ "Please enter a valid email address, or uncheck the box allowing us to "
-#~ "contact you."
+#~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "請輸入有效的電子郵件地址，或取消選擇下面的選取框允許我們聯絡您。"
 
 #~ msgid "This field is required."
@@ -983,32 +845,23 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Super! It's great to hear that you like our browser."
 #~ msgstr "太棒了！真高興您喜歡我們的瀏覽器。"
 
-#~ msgid ""
-#~ "We are sorry that you have not had a good experience with our browser. "
-#~ "Please tell us why, so we can fix it."
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
 #~ msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
 #~ msgid "Go Back"
 #~ msgstr "回到上一頁"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you "
-#~ "are giving feedback about slowness, please tell us about relevant websites, "
-#~ "if you notice it at the beginning or later in the browsing session and if "
-#~ "there are any actions that you perform in Firefox that are particularly "
-#~ "problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "請在下列空白把您的意見填寫清楚。例如如果您想提供關於軟體執行緩慢的回饋，請告訴我們是在哪些網站上會發生這些問題。若可以提供我們是一開啟 Firefox "
-#~ "就出現問題或是執行一段時間後才出現，以及什麼步驟可以讓問題重現就更好了。"
+#~ "請在下列空白把您的意見填寫清楚。例如如果您想提供關於軟體執行緩慢的回饋，請告訴我們是在哪些網站上會發生這些問題。若可以提供我們是一開啟 Firefox 就出現問題或是執行一段時間後才出現，以及什麼步驟可以"
+#~ "讓問題重現就更好了。"
 
-#~ msgid ""
-#~ "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> "
-#~ "instead."
+#~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "如果需要技術支援，請到 <a href=\"%(url)s\">Mozilla 技術支援</a> 網站。"
 
-#~ msgid ""
-#~ "To protect your privacy, please ensure that no personally identifiable "
-#~ "information is included in your feedback."
+#~ msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 #~ msgstr "為了保護您的隱私，請確定您要送出的回饋當中沒有可供識別的個人資訊。"
 
 #~ msgid "Submitting Feedback"
@@ -1023,22 +876,16 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Want to see where your feedback goes?"
 #~ msgstr "想看看您所回饋的東西跑到哪了嗎？"
 
-#~ msgid ""
-#~ "For support requests, please go to <a href=\"%(support_url)s\">Mozilla "
-#~ "Support</a> instead."
+#~ msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
 #~ msgstr "若您有技術支援請求，請到 <a href=\"%(support_url)s\">Mozilla 技術支援</a>。"
 
 #~ msgid "Thank you for your feedback!"
 #~ msgstr "感謝您的回饋！"
 
-#~ msgid ""
-#~ "Thanks for the feedback! We will use it to help create a better experience "
-#~ "in future releases of Firefox."
+#~ msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
 #~ msgstr "感謝您的意見回饋！我們將會使用您的意見在未來的 Firefox 中打造更優秀的體驗。"
 
-#~ msgid ""
-#~ "Want to know what's going on with Firefox? We have many ways of staying in "
-#~ "touch:"
+#~ msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
 #~ msgstr "想要知道 Firefox 接下來會怎樣嗎？我們有些方式可以讓您保持聯繫:"
 
 #~ msgid "Download the build that is right for you"
@@ -1083,38 +930,28 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Issue"
 #~ msgstr "有問題"
 
-#~ msgid ""
-#~ "Your comment contains swear words (%s). In order to help us improve our "
-#~ "products, please use words that help us create an action or to-do from your "
-#~ "constructive feedback. Thanks!"
+#~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 #~ msgstr "您的意見包含不雅字詞（%s）。為了協助改進產品，請回饋建設性的內容，以利我們採取行動或歸納待完成項目。感謝！"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "回饋內容不得包含 HTML。"
 
-#~ msgid ""
-#~ "Your feedback seems to contain an email address. Please remove this and "
-#~ "similar personal data from the text, then try again. Thanks!"
+#~ msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 #~ msgstr "您的回饋內容似乎包含電子郵件地址。請將電子郵件地址和其他類似的個人資訊從內容中移除，然後再試一次。感謝！"
 
 #~ msgid "URLs with IP addresses must contain public IP addresses."
 #~ msgstr "必須使用公開的 IP 位置作為網址使用。"
 
-#~ msgid ""
-#~ "Your feedback seems to contain a URL. Please remove this and similar "
-#~ "personal data from the text, then try again. Thanks!"
+#~ msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 #~ msgstr "您的回饋內容似乎包含網址。請將包含網址的所有個人資訊從內容中移除，然後再試一次。感謝！"
 
 #~ msgid "User-Agent request header must be set."
 #~ msgstr "Request Header 中需設定 User-Agent。"
 
-#~ msgid ""
-#~ "It's great to hear you want to help Mozilla make your experience better!"
+#~ msgid "It's great to hear you want to help Mozilla make your experience better!"
 #~ msgstr "能聽到您想要幫助 Mozilla 讓您的體驗變得更好，這真棒！"
 
-#~ msgid ""
-#~ "Please choose one of the following types of feedback that you would like to "
-#~ "submit to us:"
+#~ msgid "Please choose one of the following types of feedback that you would like to submit to us:"
 #~ msgstr "請從下列的使用者回饋類型當中挑出一個您想要回報給我們的種類："
 
 #~ msgid "Firefox makes me happy because ..."
@@ -1126,9 +963,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Firefox Logo"
 #~ msgstr "Firefox 圖示"
 
-#~ msgid ""
-#~ "If you need help or have a problem with Firefox, please visit our <a "
-#~ "href=\"%(support_url)s\">support page</a>."
+#~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "若您有跟 Firefox 有關的問題需要幫助，請看看我們的 <a href=\"%(support_url)s\">技術支援頁面</a>。"
 
 #~ msgid "I Have an Idea for Firefox"
@@ -1149,38 +984,25 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "suggestion box"
 #~ msgstr "意見箱"
 
-#~ msgid ""
-#~ "Super! It's great to hear that you like our browser. Please explain what you"
-#~ " specifically like!"
+#~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
 #~ msgstr "太棒了！真高興您喜歡我們的瀏覽器。請寫下您特別喜愛的地方吧！"
 
-#~ msgid ""
-#~ "We are sorry that you have not had a good experience with our browser. "
-#~ "Please tell us why, so we can fix it!"
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 #~ msgstr "很抱歉，我們的瀏覽器沒有帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
-#~ msgid ""
-#~ "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! "
-#~ "Please enter your idea below:"
+#~ msgid "So, you'd like to make a suggestion on how to enhance Firefox? Awesome! Please enter your idea below:"
 #~ msgstr "所以您想要給我們一些關於怎麼讓 Firefox 變得更好的建議？真棒！請在下面列出要給我們的建議:"
 
-#~ msgid ""
-#~ "Know of a website that works better in this beta than it did in earlier "
-#~ "versions of Firefox? Please add the URL, so we can keep track!"
+#~ msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
 #~ msgstr "您知道哪個網站在這個版本中表現得比之前的版本更好嗎？請附上網址，這樣我們就能繼續追蹤！"
 
-#~ msgid ""
-#~ "Had an issue with a specific website? Please add the URL, so we can find the"
-#~ " issue faster!"
+#~ msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
 #~ msgstr "在特定網站上出現問題？請填寫網址，讓我們更快發現問題！"
 
-#~ msgid ""
-#~ "Please ensure that there is no personally identifiable information here."
+#~ msgid "Please ensure that there is no personally identifiable information here."
 #~ msgstr "請確定內容中沒有可供識別的個人資訊。"
 
-#~ msgid ""
-#~ "If you have an idea to offer us instead, please send it to us through our <a"
-#~ " href=\"%(url_idea)s\">idea box</a>!"
+#~ msgid "If you have an idea to offer us instead, please send it to us through our <a href=\"%(url_idea)s\">idea box</a>!"
 #~ msgstr "若您如果有什麼點子可以提供給我們，請直接透過 <a href=\"%(url_idea)s\">意見箱</a> 告訴我們！"
 
 #~ msgid "Your feedback will be used to create a"
@@ -1189,8 +1011,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Thanks for helping Mozilla make your experience better!"
 #~ msgstr "感謝您幫助 Mozilla 讓您的使用體驗變得更好！"
 
-#~ msgid ""
-#~ "Please choose the type of feedback that you would like to submit to us:"
+#~ msgid "Please choose the type of feedback that you would like to submit to us:"
 #~ msgstr "請選擇您想要回報給我們的種類："
 
 #~ msgid "Firefox makes me sad ..."
@@ -1199,23 +1020,16 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Download Beta"
 #~ msgstr "下載 Beta 版"
 
-#~ msgid ""
-#~ "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head "
-#~ "over to our beta page and <a href=\"%(url)s\">download it!</a>"
-#~ msgstr ""
-#~ "喔，您似乎想要給我們一些回應，但您需要最新的 Beta 測試版！請直接到我們的 Beta 頁面並且 <a "
-#~ "href=\"%(url)s\">下載安裝！</a>"
+#~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
+#~ msgstr "喔，您似乎想要給我們一些回應，但您需要最新的 Beta 測試版！請直接到我們的 Beta 頁面並且 <a href=\"%(url)s\">下載安裝！</a>"
 
 #~ msgid "Back to Dashboard"
 #~ msgstr "回到 Dashboard"
 
-#~ msgid ""
-#~ "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
+#~ msgid "We're glad Firefox for Mobile made you happy! Please tell us what you liked."
 #~ msgstr "真高興 Firefox 行動版讓您覺得高興！請告訴我們您喜歡什麼東西。"
 
-#~ msgid ""
-#~ "We're sorry Firefox for Mobile made you sad. Please tell us what happened so"
-#~ " we can fix it."
+#~ msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
 #~ msgstr "很抱歉，Firefox 行動版沒能帶給您良好的體驗。請告訴我們原因，以利未來的改進！"
 
 #~ msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
@@ -1227,9 +1041,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Include your last visited site?"
 #~ msgstr "包含最後開啟網頁的網址？"
 
-#~ msgid ""
-#~ "For your privacy, please don't include any personally identifiable "
-#~ "information in your feedback."
+#~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
 #~ msgstr "為了保護您的隱私，請確定您要送出的回饋當中沒有可供識別的個人資訊。"
 
 #~ msgid "Super! Please tell us more!"
@@ -1247,19 +1059,14 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Or submit your ideas with our <a href=\"%(url_idea)s\">idea box</a>!"
 #~ msgstr "或是透過我們的 <a href=\"%(url_idea)s\">意見箱</a> 送出您的點子！"
 
-#~ msgid ""
-#~ "We love feedback about Firefox for Mobile! What would you like to tell us?"
+#~ msgid "We love feedback about Firefox for Mobile! What would you like to tell us?"
 #~ msgstr "我們喜歡聽到關於 Firefox 行動版的意見回饋！您想要告訴我們什麼東西？"
 
 #~ msgid "I have an idea for Firefox"
 #~ msgstr "我有個關於 Firefox 的點子"
 
-#~ msgid ""
-#~ "If you need help or have a problem with Firefox, please visit <a id=\"sumo-"
-#~ "url\" href=\"%(url)s/\">Firefox Support</a>."
-#~ msgstr ""
-#~ "若您有 Firefox 的相關問題需要幫助，請看看 <a id=\"sumo-url\" href=\"%(url)s/\">Firefox "
-#~ "技術支援</a>。"
+#~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
+#~ msgstr "若您有 Firefox 的相關問題需要幫助，請看看 <a id=\"sumo-url\" href=\"%(url)s/\">Firefox 技術支援</a>。"
 
 #~ msgid "Tweet This"
 #~ msgstr "推一下"
@@ -1403,9 +1210,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "No search results found."
 #~ msgstr "沒有搜尋結果。"
 
-#~ msgid ""
-#~ "You can adjust your search criteria or use fewer filters to find more "
-#~ "opinions."
+#~ msgid "You can adjust your search criteria or use fewer filters to find more opinions."
 #~ msgstr "您可以調整您的搜尋條件，或使用更少的過濾器來找到更多意見。"
 
 #~ msgid "Note: Recently released versions of Firefox may have less feedback."
@@ -1432,14 +1237,10 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "I'm sorry, there was an error with your search."
 #~ msgstr "很抱歉，搜尋時發生錯誤。"
 
-#~ msgid ""
-#~ "Our search engine might be currently unavailable. You may start over on the "
-#~ "<a href=\"%(url)s\">dashboard</a> and try again later."
+#~ msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
 #~ msgstr "我們的搜尋引擎目前可能暫時無法使用。您可以從 <a href=\"%(url)s\">Dashboard</a> 重新開始，並稍候再試一次。"
 
-#~ msgid ""
-#~ "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
-#~ "mentioning the URL you were accessing."
+#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
 #~ msgstr "如果問題持續發生，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>，並附上您欲瀏覽的網址。"
 
 #~ msgid "Include the following error message in your bug report:"
@@ -1622,22 +1423,16 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 #~ msgstr "請從 <a href=\"%(dashboard_url)s\">dashboard</a> 重新開始。"
 
-#~ msgid ""
-#~ "If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
-#~ "bug.</a> Thanks!"
+#~ msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 #~ msgstr "如果您是從損壞的頁面鏈結連到此頁，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
 
 #~ msgid "Internal Server Error"
 #~ msgstr "伺服器內部錯誤"
 
-#~ msgid ""
-#~ "An unhandled error occurred in the application. The error has been logged "
-#~ "and an administrator was notified. We apologize for the inconvenience!"
+#~ msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
 #~ msgstr "應用程式發生一個未知的錯誤。這個錯誤已被記錄，管理員將收到通知。抱歉造成您的不便！"
 
-#~ msgid ""
-#~ "If you have additional information how to reproduce this problem, please <a "
-#~ "href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
 #~ msgstr "如果您擁有重現問題的相關資訊，請 <a href=\"%(bug_url)s\">送交一份臭蟲報告</a>。感謝！"
 
 #~ msgid "Input Dashboard"
@@ -1646,19 +1441,13 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "CSRF Protection Error"
 #~ msgstr "CSRF 保護錯誤"
 
-#~ msgid ""
-#~ "There was an error verifying your CSRF token. Your request could not be "
-#~ "processed. We apologize for the inconvenience!"
+#~ msgid "There was an error verifying your CSRF token. Your request could not be processed. We apologize for the inconvenience!"
 #~ msgstr "驗證您的 CSRF token 時發生錯誤。無法執行您的請求。抱歉造成您的不便！"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up "
-#~ "<strong>not to accept cookies</strong> from us. Please follow <a "
-#~ "href=\"%(cookies_url)s\">these instructions</a> to enable cookies in "
-#~ "Firefox, then try again."
-#~ msgstr ""
-#~ "通常最可能造成此問題的原因是您的瀏覽器設定了 <strong>不接受我們的 Cookies</strong>。請看看 <a "
-#~ "href=\"%(cookies_url)s\">以下步驟</a> 以在 Firefox 啟用 Cookies，然後再試一次。"
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
+#~ msgstr "通常最可能造成此問題的原因是您的瀏覽器設定了 <strong>不接受我們的 Cookies</strong>。請看看 <a href=\"%(cookies_url)s\">以下步驟</a> 以在 Firefox 啟用 Cookies，然後再試一次。"
 
 #~ msgid "Not Implemented"
 #~ msgstr "尚未實作"
@@ -1675,12 +1464,8 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Close"
 #~ msgstr "關閉"
 
-#~ msgid ""
-#~ "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user "
-#~ "feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
-#~ msgstr ""
-#~ "<strong>歡迎使用 Firefox Input！</strong> 這是 Mozilla 主要使用的使用者回饋機制。 <a "
-#~ "href=\"%(about_url)s\">了解更多資訊…</a>"
+#~ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
+#~ msgstr "<strong>歡迎使用 Firefox Input！</strong> 這是 Mozilla 主要使用的使用者回饋機制。 <a href=\"%(about_url)s\">了解更多資訊…</a>"
 
 #~ msgid "Have more to say?"
 #~ msgstr "還有東西想告訴我們嗎？"
@@ -1715,9 +1500,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Describe the problem with the website."
 #~ msgstr "請描述網站的問題。"
 
-#~ msgid ""
-#~ "Does a website look or behave incorrectly in Firefox for Mobile? Provide us "
-#~ "some details about the problem and we'll try to fix it."
+#~ msgid "Does a website look or behave incorrectly in Firefox for Mobile? Provide us some details about the problem and we'll try to fix it."
 #~ msgstr "您常用的網站在 Firefox for Mobile 當中也能正常運作嗎？請提供我們一些關於問題的詳情，我們會試著修復。"
 
 #~ msgid "Does a website look or behave incorrectly in Firefox?"
@@ -1786,9 +1569,7 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Nightly Channel"
 #~ msgstr "Nightly Channel"
 
-#~ msgid ""
-#~ "Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
-#~ "you, but you'll need to be on our latest beta."
+#~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 #~ msgstr "喔，您似乎想要回報對下一版 Firefox 的意見。感謝您的支持，但您必須參與 Beta 計畫才能回報。"
 
 #~ msgid "Page Load Time"
@@ -1824,11 +1605,8 @@ msgstr "在我們的技術支援討論區問問題"
 #~ msgid "Start-Up Time"
 #~ msgstr "啟動時間"
 
-#~ msgid ""
-#~ "To do that, simply go to our download page and install/update to the <a "
-#~ "href=\"%(url)s\">latest Firefox Beta!</a>"
-#~ msgstr ""
-#~ "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox Beta 測試版本</a>即可！"
+#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
+#~ msgstr "要加入 Beta 計畫，只要到我們的下載頁面安裝或更新<a href=\"%(url)s\">最新的 Firefox Beta 測試版本</a>即可！"
 
 #~ msgid "What is the URL of the broken site?"
 #~ msgstr "壞掉的網站的網址是什麼？"

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-14 07:34-0700\n"
+"POT-Creation-Date: 2015-11-05 06:50-0700\n"
 "PO-Revision-Date: 2015-10-15 10:08+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,18 +15,11 @@ msgstr ""
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1442255916.0\n"
 
-#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:352
-#: fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
-msgid "Unknown"
-msgstr "Njeznaty"
-
 #: fjord/analytics/views.py:115
 msgid "Firefox Input: {query}"
 msgstr "Firefox Input: {query}"
 
-#: fjord/analytics/views.py:117 fjord/analytics/views.py:131
-#: fjord/base/templates/500.html:8 fjord/base/templates/base.html:5
-#: fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox Input"
 
@@ -34,253 +27,231 @@ msgstr "Firefox Input"
 msgid "Search Results From Firefox Input"
 msgstr "Pytanske wuslědki z Firefox Input"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359
-#: fjord/analytics/templates/analytics/dashboard.html:13
-#: fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18
-#: fjord/feedback/models.py:342
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
 msgid "Happy"
 msgstr "Zbožowny"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359
-#: fjord/analytics/templates/analytics/dashboard.html:15
-#: fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20
-#: fjord/feedback/models.py:343
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
 msgid "Sad"
 msgstr "Zrudny"
 
-#: fjord/analytics/views.py:145
-#: fjord/analytics/templates/analytics/response.html:24
-#: fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:145 fjord/analytics/jinja2/analytics/response.html:24 fjord/analytics/jinja2/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "ID wotmołwy: {id}"
 
-#: fjord/analytics/views.py:274
-msgid "Bigram"
-msgstr "Bigram"
+#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+msgid "Unknown"
+msgstr "Njeznaty"
 
-#: fjord/analytics/views.py:358
+#: fjord/analytics/views.py:343
 msgid "Sentiment"
 msgstr "Začuće"
 
-#: fjord/analytics/views.py:365
-#: fjord/analytics/templates/analytics/response.html:111
+#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "Produkt"
 
-#: fjord/analytics/views.py:376 fjord/analytics/views.py:382
-#: fjord/analytics/templates/analytics/response.html:115
+#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "Wersija"
 
-#: fjord/analytics/views.py:383
+#: fjord/analytics/views.py:368
 msgid "Select product to see version breakdown"
 msgstr "Wubjerće produkt, zo byšće sej wersijowy přehlad wobhladał"
 
-#: fjord/analytics/views.py:391
-#: fjord/analytics/templates/analytics/response.html:99
+#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "Platforma"
 
-#: fjord/analytics/views.py:397
-#: fjord/analytics/templates/analytics/response.html:105
+#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "Rěč"
 
-#: fjord/analytics/templates/analytics/dashboard.html:7
+#: fjord/analytics/jinja2/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "Atom-kanal za tute pytanje"
 
-#: fjord/analytics/templates/analytics/dashboard.html:45
-#: fjord/analytics/templates/analytics/analyzer/search.html:78
-#: fjord/analytics/templates/analytics/mobile/response.html:40
+#: fjord/analytics/jinja2/analytics/dashboard.html:45 fjord/analytics/jinja2/analytics/analyzer/search.html:78 fjord/analytics/jinja2/analytics/mobile/response.html:39
 msgid "Permalink"
 msgstr "Trajny wotkaz"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100
+#: fjord/analytics/jinja2/analytics/dashboard.html:100
 msgid "When"
 msgstr "Doba"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102
+#: fjord/analytics/jinja2/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1 dź."
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104
+#: fjord/analytics/jinja2/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7 dnj."
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106
+#: fjord/analytics/jinja2/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30 dnj."
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108
+#: fjord/analytics/jinja2/analytics/dashboard.html:108
 msgid "90d"
 msgstr "90 dnj."
 
-#: fjord/analytics/templates/analytics/dashboard.html:110
+#: fjord/analytics/jinja2/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114
+#: fjord/analytics/jinja2/analytics/dashboard.html:114
 msgid "Start"
 msgstr "Spočatk"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116
+#: fjord/analytics/jinja2/analytics/dashboard.html:116
 msgid "End"
 msgstr "Kónc"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117
+#: fjord/analytics/jinja2/analytics/dashboard.html:117
 msgid "Set"
 msgstr "Postajić"
 
-#: fjord/analytics/templates/analytics/dashboard.html:132
+#: fjord/analytics/jinja2/analytics/dashboard.html:132
 msgid "Feedback"
 msgstr "Komentar"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136
+#: fjord/analytics/jinja2/analytics/dashboard.html:136
 msgid "Search by keyword"
 msgstr "Po klučowym słowje pytać"
 
-#: fjord/analytics/templates/analytics/dashboard.html:154
+#: fjord/analytics/jinja2/analytics/dashboard.html:154
 msgid "No feedback matches that criteria."
 msgstr "Žadyn komentar kriterijam njewotpowěduje."
 
-#: fjord/analytics/templates/analytics/dashboard.html:160
+#: fjord/analytics/jinja2/analytics/dashboard.html:160
 msgid "Older Messages"
 msgstr "Starše powěsće"
 
-#: fjord/analytics/templates/analytics/dashboard.html:165
+#: fjord/analytics/jinja2/analytics/dashboard.html:165
 msgid "Newer Messages"
 msgstr "Nowše powěsće"
 
-#: fjord/analytics/templates/analytics/dashboard.html:176
+#: fjord/analytics/jinja2/analytics/dashboard.html:176
 msgid "Messages in specified time range"
 msgstr "Powěsće w postajenym časowym wobłuku"
 
-#: fjord/analytics/templates/analytics/es_down.html:12
+#: fjord/analytics/jinja2/analytics/es_down.html:12
 msgid "Dashboard unavailable"
 msgstr "Přehlad k dispoziciji njesteji"
 
-#: fjord/analytics/templates/analytics/es_down.html:14
+#: fjord/analytics/jinja2/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
-msgstr ""
-"Přehlad tuchwilu k dispoziciji njesteji. Prošu spytajće za 10 mjeńšin hišće "
-"raz."
+msgstr "Přehlad tuchwilu k dispoziciji njesteji. Prošu spytajće za 10 mjeńšin hišće raz."
 
-#: fjord/analytics/templates/analytics/response.html:45
+#: fjord/analytics/jinja2/analytics/response.html:45
 msgid "Category"
 msgstr "Kategorija"
 
-#: fjord/analytics/templates/analytics/response.html:47
-#: fjord/analytics/templates/analytics/response.html:125
-#: fjord/analytics/templates/analytics/response.html:129
-#: fjord/analytics/templates/analytics/response.html:133
-#: fjord/analytics/templates/analytics/response.html:137
-#: fjord/analytics/templates/analytics/response.html:141
-#: fjord/analytics/templates/analytics/response.html:145
+#: fjord/analytics/jinja2/analytics/response.html:47 fjord/analytics/jinja2/analytics/response.html:125 fjord/analytics/jinja2/analytics/response.html:129
+#: fjord/analytics/jinja2/analytics/response.html:133 fjord/analytics/jinja2/analytics/response.html:137 fjord/analytics/jinja2/analytics/response.html:141
+#: fjord/analytics/jinja2/analytics/response.html:145
 msgid "None"
 msgstr "Žana"
 
-#: fjord/analytics/templates/analytics/response.html:49
+#: fjord/analytics/jinja2/analytics/response.html:49
 msgid "Description"
 msgstr "Wopisanje"
 
-#: fjord/analytics/templates/analytics/response.html:53
+#: fjord/analytics/jinja2/analytics/response.html:53
 msgid "Translated"
 msgstr "Přełoženy"
 
-#: fjord/analytics/templates/analytics/response.html:64
+#: fjord/analytics/jinja2/analytics/response.html:64
 msgid "Translate (machine)"
 msgstr "Přełožić (mašinelnje)"
 
-#: fjord/analytics/templates/analytics/response.html:70
+#: fjord/analytics/jinja2/analytics/response.html:70
 msgid "Translate (human)"
 msgstr "Přełožić (wot čłowjeka)"
 
-#: fjord/analytics/templates/analytics/response.html:85
+#: fjord/analytics/jinja2/analytics/response.html:85
 msgid "Created"
 msgstr "Wutworjeny"
 
-#: fjord/analytics/templates/analytics/response.html:119
+#: fjord/analytics/jinja2/analytics/response.html:119
 msgid "Channel"
 msgstr "Kanal"
 
-#: fjord/analytics/templates/analytics/response.html:123
+#: fjord/analytics/jinja2/analytics/response.html:123
 msgid "URL Domain"
 msgstr "URL-domena"
 
-#: fjord/analytics/templates/analytics/response.html:127
+#: fjord/analytics/jinja2/analytics/response.html:127
 msgid "Source"
 msgstr "Žórło"
 
-#: fjord/analytics/templates/analytics/response.html:131
+#: fjord/analytics/jinja2/analytics/response.html:131
 msgid "Campaign"
 msgstr "Kampanja"
 
-#: fjord/analytics/templates/analytics/response.html:135
+#: fjord/analytics/jinja2/analytics/response.html:135
 msgid "Browser"
 msgstr "Wobhladowak"
 
-#: fjord/analytics/templates/analytics/response.html:139
+#: fjord/analytics/jinja2/analytics/response.html:139
 msgid "Browser Ver."
 msgstr "Wersija wobhladowaka"
 
-#: fjord/analytics/templates/analytics/response.html:143
+#: fjord/analytics/jinja2/analytics/response.html:143
 msgid "Browser Plat."
 msgstr "Platforma wobhladowaka"
 
-#: fjord/analytics/templates/analytics/response.html:151
+#: fjord/analytics/jinja2/analytics/response.html:151
 msgid "Full URL"
 msgstr "Dospołny URL"
 
-#: fjord/analytics/templates/analytics/response.html:155
-#: fjord/feedback/templates/feedback/fxos_feedback.html:94
+#: fjord/analytics/jinja2/analytics/response.html:155 fjord/feedback/jinja2/feedback/fxos_feedback.html:94
 msgid "Country"
 msgstr "Kraj"
 
-#: fjord/analytics/templates/analytics/response.html:159
+#: fjord/analytics/jinja2/analytics/response.html:159
 msgid "Manufacturer"
 msgstr "Zhotowjer"
 
-#: fjord/analytics/templates/analytics/response.html:163
-#: fjord/feedback/templates/feedback/fxos_feedback.html:116
+#: fjord/analytics/jinja2/analytics/response.html:163 fjord/feedback/jinja2/feedback/fxos_feedback.html:116
 msgid "Device"
 msgstr "Grat"
 
-#: fjord/analytics/templates/analytics/response.html:167
+#: fjord/analytics/jinja2/analytics/response.html:167
 msgid "User agent"
 msgstr "User-agent"
 
-#: fjord/analytics/templates/analytics/response.html:171
+#: fjord/analytics/jinja2/analytics/response.html:171
 msgid "Email"
 msgstr "E-mejlowa adresa"
 
-#: fjord/analytics/templates/analytics/response.html:179
+#: fjord/analytics/jinja2/analytics/response.html:179
 msgid "Browser data"
 msgstr "Daty wobhladowaka"
 
-#: fjord/analytics/templates/analytics/response.html:182
+#: fjord/analytics/jinja2/analytics/response.html:182
 msgid "yes"
 msgstr "haj"
 
-#: fjord/analytics/templates/analytics/response.html:187
+#: fjord/analytics/jinja2/analytics/response.html:187
 msgid "API version"
 msgstr "API-wersija"
 
-#: fjord/analytics/templates/analytics/response.html:205
+#: fjord/analytics/jinja2/analytics/response.html:205
 msgid "Context"
 msgstr "Kontekst"
 
-#: fjord/analytics/templates/analytics/analyzer/search.html:152
+#: fjord/analytics/jinja2/analytics/analyzer/search.html:152
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "Kedźbu: Wšě datumowe a časowe podaća poćahuja so na pacifiski čas."
 
-#: fjord/analytics/templates/analytics/mobile/dashboard.html:4
+#: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Přehlad za mobilne graty k dispoziciji hišće njesteji."
 
@@ -292,270 +263,210 @@ msgstr "Lisćina hódnotow"
 msgid "JSON Object"
 msgstr "JSON-objekt"
 
-#: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
+#: fjord/base/jinja2/403.html:3 fjord/base/jinja2/403.html:9
 msgid "Forbidden"
 msgstr "Zakazany"
 
-#: fjord/base/templates/403.html:12
+#: fjord/base/jinja2/403.html:12
 msgid "You do not have access to this page."
 msgstr "Nimaće přistup na tutu stronu."
 
-#: fjord/base/templates/403.html:14
-msgid ""
-"You do not have access to this page. If you have an account, try signing in."
-msgstr ""
-"Nimaće přistup na tutu stronu. Jeli maće konto, spytajće so přizjewić."
+#: fjord/base/jinja2/403.html:14
+msgid "You do not have access to this page. If you have an account, try signing in."
+msgstr "Nimaće přistup na tutu stronu. Jeli maće konto, spytajće so přizjewić."
 
-#: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14
-#: fjord/base/templates/500.html:35
-#: fjord/base/templates/includes/login_failure_text.html:8
+#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14 fjord/base/jinja2/500.html:35 fjord/base/jinja2/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
 msgstr "Wróćo k přehladej."
 
-#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
+#: fjord/base/jinja2/404.html:3 fjord/base/jinja2/404.html:9
 msgid "Not Found"
 msgstr "Njenamakany"
 
-#: fjord/base/templates/404.html:11
+#: fjord/base/jinja2/404.html:11
 msgid "The document could not be found."
 msgstr "Dokument njeda so namakać."
 
-#: fjord/base/templates/500.html:8
+#: fjord/base/jinja2/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "Něšto je so čisće nimokuliło"
 
-#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:44
-#: fjord/base/templates/mobile/base.html:29
+#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44 fjord/base/jinja2/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> Input"
 
-#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:50
-#: fjord/base/templates/mobile/base.html:35
+#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50 fjord/base/jinja2/mobile/base.html:35
 msgid "Dashboard"
 msgstr "Přehlad"
 
-#: fjord/base/templates/500.html:33
+#: fjord/base/jinja2/500.html:33
 msgid "Something has gone horribly wrong."
 msgstr "Něšto je so čisće nimokuliło."
 
-#: fjord/base/templates/500.html:34
+#: fjord/base/jinja2/500.html:34
 msgid "There was a problem on the server."
 msgstr "Problem ze serwerom je wustupił."
 
-#: fjord/base/templates/about.html:3
-#: fjord/base/templates/includes/common.html:23
+#: fjord/base/jinja2/about.html:3 fjord/base/jinja2/includes/common.html:23
 msgid "About Firefox Input"
 msgstr "Wo Firefox Input"
 
-#: fjord/base/templates/about.html:9
+#: fjord/base/jinja2/about.html:9
 msgid "Hello!"
 msgstr "Halo!"
 
-#: fjord/base/templates/about.html:11
+#: fjord/base/jinja2/about.html:11
 msgid ""
-"Firefox Input is Mozilla's primary feedback mechanism for products. It is "
-"set up to be a method of one-way communication about your experiences in "
-"using our products, the Internet you view it through, and what Mozilla can "
-"do to make that experience better. The system is available over a wide-"
-"variety of submission mechanisms and product builds."
+"Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
+"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input je hłowny komentarowy system Mozilla. Je so jako jednosměrowa "
-"komunikaciska móžnosć wutworił, zo byšće móhł swoje nazhonjenja z wužiwanjom"
-" našich produktow a z internetom, kaž jón dožiwjeće, zdźělić, a štož Mozilla"
-" móže činić, zo by dožiwjenje polěpšił. System steji přez šěroku wšelakorosć"
-" zapodawanskich mechanizmow a produktowych wersijow k dispoziciji."
+"Firefox Input je hłowny komentarowy system Mozilla. Je so jako jednosměrowa komunikaciska móžnosć wutworił, zo byšće móhł swoje nazhonjenja z wužiwanjom našich produktow a z internetom, kaž jón "
+"dožiwjeće, zdźělić, a štož Mozilla móže činić, zo by dožiwjenje polěpšił. System steji přez šěroku wšelakorosć zapodawanskich mechanizmow a produktowych wersijow k dispoziciji."
 
-#: fjord/base/templates/about.html:21
-msgid ""
-"To submit feedback for a Mozilla product, please go to <a "
-"href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Zo byšće komentar za produkt Mozilla pósłał, wopytajće prošu <a "
-"href=\"%(url)s\">stronu za rozposyłanje komentarow</a>!"
+#: fjord/base/jinja2/about.html:21
+msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgstr "Zo byšće komentar za produkt Mozilla pósłał, wopytajće prošu <a href=\"%(url)s\">stronu za rozposyłanje komentarow</a>!"
 
-#: fjord/base/templates/about.html:27
-#: fjord/base/templates/includes/common.html:20
+#: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
 msgstr "Prawidła priwatnosće"
 
-#: fjord/base/templates/about.html:29
+#: fjord/base/jinja2/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "Dźeržimy so <a href=\"%(url)s\">prawidłow priwatnosće Mozilla</a>."
 
-#: fjord/base/templates/about.html:34
+#: fjord/base/jinja2/about.html:34
 msgid "Legal Disclaimers and Limitations"
 msgstr "Prawniske rukowanske wuzamknjenja a wobmjezowanja"
 
-#: fjord/base/templates/about.html:36
-msgid ""
-"We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
-"limitations</a> document."
-msgstr ""
-"Podležimy dokumentej <a href=\"%(url)s\">prawniskich rukowanskich a "
-"wobmjezowanjow</a>."
+#: fjord/base/jinja2/about.html:36
+msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
+msgstr "Podležimy dokumentej <a href=\"%(url)s\">prawniskich rukowanskich a wobmjezowanjow</a>."
 
-#: fjord/base/templates/about.html:42
+#: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
 msgstr "Prawidła k składowanju datow"
 
-#: fjord/base/templates/about.html:44
+#: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
-"Mamy prawidła k składowanju datow, kotrež daty wobjednawaja, kotrež su so "
-"přez tute websydło składowali:"
+msgstr "Mamy prawidła k składowanju datow, kotrež daty wobjednawaja, kotrež su so přez tute websydło składowali:"
 
-#: fjord/base/templates/about.html:51
-msgid ""
-"We keep feedback data forever, but only the last 6 months of data is "
-"available on the public dashboard."
-msgstr ""
-"Wobchowamy komentarowe daty na přeco, ale jenož daty zańdźenych 6 měsacow su"
-" zjawnje w přehledźe k dispoziciji."
+#: fjord/base/jinja2/about.html:51
+msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
+msgstr "Wobchowamy komentarowe daty na přeco, ale jenož daty zańdźenych 6 měsacow su zjawnje w přehledźe k dispoziciji."
 
-#: fjord/base/templates/about.html:57
-msgid ""
-"We keep email addresses and contextual data associated with feedback data "
-"for 6 months and then delete it."
-msgstr ""
-"Wobchowamy zwisk e-mejlowych adresow a kontekstowych datow z komentarowymi "
-"datami za 6 měsacow a zhašamy je potom."
+#: fjord/base/jinja2/about.html:57
+msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
+msgstr "Wobchowamy zwisk e-mejlowych adresow a kontekstowych datow z komentarowymi datami za 6 měsacow a zhašamy je potom."
 
-#: fjord/base/templates/about.html:64
+#: fjord/base/jinja2/about.html:64
 msgid "Open Data"
 msgstr "Wotewrjene daty"
 
-#: fjord/base/templates/about.html:66
+#: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. "
-"So, we need requests from you on questions you'd like to see answered! If "
-"you would like to experiment with our data, please contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
-"Bychmy rady z tutymi datami eksperimentowali, ale smy jenož mało ludźi. "
-"Tohodla trjebamy waše naprašowanja, zo bychmy widźeli, za kotre prašenja wy "
-"byšće rady wotmołwy měł! Jeli byšće rady z našimi datami eksperimentował, "
-"stajće so z nami do zwiska!"
+"Bychmy rady z tutymi datami eksperimentowali, ale smy jenož mało ludźi. Tohodla trjebamy waše naprašowanja, zo bychmy widźeli, za kotre prašenja wy byšće rady wotmołwy měł! Jeli byšće rady z našimi "
+"datami eksperimentował, stajće so z nami do zwiska!"
 
-#: fjord/base/templates/about.html:74
+#: fjord/base/jinja2/about.html:74
 msgid "Source Code"
 msgstr "Žórłowy tekst"
 
-#: fjord/base/templates/about.html:76
-msgid ""
-"The code for the Firefox Input site can be <a href=\"%(url)s\">found on "
-"GitHub</a>!"
-msgstr ""
-"Žórłowy tekst za websydło Firefox Input hodźi so <a href=\"%(url)s\">na "
-"GitHub namakać</a>!"
+#: fjord/base/jinja2/about.html:76
+msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgstr "Žórłowy tekst za websydło Firefox Input hodźi so <a href=\"%(url)s\">na GitHub namakać</a>!"
 
-#: fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
+#: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
 msgstr "Witajće"
 
-#: fjord/base/templates/base.html:32 fjord/base/templates/mobile/base.html:21
+#: fjord/base/jinja2/base.html:32 fjord/base/jinja2/mobile/base.html:21
 msgid "Proceed to main content"
 msgstr "Dale k hłownemu wobsahej"
 
-#: fjord/base/templates/base.html:33 fjord/base/templates/mobile/base.html:22
+#: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
 msgstr "Dale k nohowej lince"
 
-#: fjord/base/templates/base.html:51
+#: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
 msgstr "Komentar pósłać"
 
-#: fjord/base/templates/base.html:53
+#: fjord/base/jinja2/base.html:53
 msgid "Analytics"
 msgstr "Analytika"
 
-#: fjord/base/templates/base.html:59
+#: fjord/base/jinja2/base.html:59
 msgid "Hello, {username}"
 msgstr "Halo {username}"
 
-#: fjord/base/templates/base.html:63
+#: fjord/base/jinja2/base.html:63
 msgid "Sign out"
 msgstr "Wotzjewić"
 
-#: fjord/base/templates/base.html:65
+#: fjord/base/jinja2/base.html:65
 msgid "Sign in"
 msgstr "Přizjewić"
 
-#: fjord/base/templates/csrf_failure.html:3
-#: fjord/base/templates/includes/csrf_failure_text.html:1
-#: fjord/base/templates/mobile/csrf_failure.html:3
+#: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
 msgstr "CSRF-zmylk"
 
-#: fjord/base/templates/login_failure.html:3
-#: fjord/base/templates/includes/login_failure_text.html:1
-#: fjord/base/templates/mobile/login_failure.html:3
+#: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "Přizjewjenje je so nimokuliło"
 
-#: fjord/base/templates/new_user.html:3
-#: fjord/base/templates/mobile/new_user.html:3
+#: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
 msgstr "Witajće do Input!"
 
-#: fjord/base/templates/includes/common.html:7
+#: fjord/base/jinja2/includes/common.html:7
 msgid "Other languages:"
 msgstr "Dalše rěče:"
 
-#: fjord/base/templates/includes/common.html:15
+#: fjord/base/jinja2/includes/common.html:15
 msgid "Go"
 msgstr "Dalej"
 
-#: fjord/base/templates/includes/common.html:21
+#: fjord/base/jinja2/includes/common.html:21
 msgid "Legal Notices"
 msgstr "Prawniske pokazy"
 
-#: fjord/base/templates/includes/common.html:22
+#: fjord/base/jinja2/includes/common.html:22
 msgid "Report Trademark Abuse"
 msgstr "Znjewužiwanje tworowych znamjenjow zdźělić"
 
-#: fjord/base/templates/includes/common.html:26
+#: fjord/base/jinja2/includes/common.html:26
 msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
 msgstr ""
-"Jeli njeje ničo druhe <a href=\"%(legal_url)s\">podate</a>, steji wobsah na "
-"tutym sydle pod licencu <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike v3.0</a> abo pod nowšej."
+"Jeli njeje ničo druhe <a href=\"%(legal_url)s\">podate</a>, steji wobsah na tutym sydle pod licencu <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike v3.0</a> abo pod nowšej."
 
-#: fjord/base/templates/includes/csrf_failure_text.html:3
+#: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
 msgstr "Waše zapodaće njeje wěstotnu kontrolu na našim systemje wobstało."
 
-#: fjord/base/templates/includes/csrf_failure_text.html:8
-msgid ""
-"Please make sure you have cookies enabled, press the Back button in your "
-"browser, refresh the page, fill out the form, and try submitting your "
-"feedback again."
-msgstr ""
-"Prošu zawěsćće, zo sće cookije zmóžnił, klikńće na tłóčatko Wróćo w swojim "
-"wobhladowaku, aktualizujće stronu, wupjelńće formular a spytajće, swój "
-"komentar znowa wotpósłać."
+#: fjord/base/jinja2/includes/csrf_failure_text.html:8
+msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
+msgstr "Prošu zawěsćće, zo sće cookije zmóžnił, klikńće na tłóčatko Wróćo w swojim wobhladowaku, aktualizujće stronu, wupjelńće formular a spytajće, swój komentar znowa wotpósłać."
 
-#: fjord/base/templates/includes/login_failure_text.html:3
+#: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
-"Njeje so wam poradźiło, so z Persona awtentifikować. Prošu spytajće hišće "
-"raz."
+msgstr "Njeje so wam poradźiło, so z Persona awtentifikować. Prošu spytajće hišće raz."
 
-#: fjord/base/templates/includes/new_user_text.html:1
+#: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
 msgstr "Witajće!"
 
-#: fjord/base/templates/includes/new_user_text.html:3
-msgid ""
-"The identity you just logged in to Persona with ties you to your account on "
-"Input. Please remember which Persona identity you used."
-msgstr ""
-"Identita, z kotrejž sće so runje pola Persona přizjewił, zwjazuje was z "
-"wašim kontom na Input. Prošu spomjatkujće sej, kotru identitu Persona sće "
-"wužił."
+#: fjord/base/jinja2/includes/new_user_text.html:3
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
+msgstr "Identita, z kotrejž sće so runje pola Persona přizjewił, zwjazuje was z wašim kontom na Input. Prošu spomjatkujće sej, kotru identitu Persona sće wužił."
 
-#: fjord/base/templates/includes/new_user_text.html:10
+#: fjord/base/jinja2/includes/new_user_text.html:10
 msgid "Continue"
 msgstr "Dale"
 
@@ -611,288 +522,209 @@ msgstr "Peru"
 msgid "Uruguay"
 msgstr "Uruguay"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:10
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
 msgstr "Firefox sćahnyć"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/download_firefox.html:16
 msgid "Please Download Firefox"
 msgstr "Prošu sćehńće Firefox"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:21
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:21
-msgid ""
-"Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
-" to be on the latest version."
-msgstr ""
-"Ow! Chceće nam komentary wo Firefox pósłać? Wulki dźak, ale dyrbiće za to "
-"najnowšu wersiju wužiwać."
+#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Ow! Chceće nam komentary wo Firefox pósłać? Wulki dźak, ale dyrbiće za to najnowšu wersiju wužiwać."
 
-#: fjord/feedback/templates/feedback/download_firefox.html:27
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:27
-msgid ""
-"To do that, simply go to our download page and install/update to the <a "
-"href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr ""
-"Zo byšće to činił, dźiće k našej sćehnjenskej stronje a "
-"instalujće/zaktualizujće <a href=\"%(url)s\">najnowšu wersiju Firefox!</a>"
+#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Zo byšće to činił, dźiće k našej sćehnjenskej stronje a instalujće/zaktualizujće <a href=\"%(url)s\">najnowšu wersiju Firefox!</a>"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:7
-#: fjord/feedback/templates/feedback/generic_feedback.html:7
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
 msgstr "Waš komentar wotposłać"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:31
-#: fjord/feedback/templates/feedback/generic_feedback.html:32
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
 msgstr "Komentar wo {product}"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:36
-#: fjord/feedback/templates/feedback/generic_feedback.html:37
-#: fjord/feedback/templates/feedback/picker.html:28
-msgid ""
-"JavaScript is required to leave feedback. Please enable JavaScript in your "
-"browser and refresh this page."
-msgstr ""
-"JavaScript je trěbny, zo byšće móhł komentary zawostajić. Prošu zmóžńće "
-"JavaScript w swojim wobhladowaku a zaktualizujće tutu stronu."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr "JavaScript je trěbny, zo byšće móhł komentary zawostajić. Prošu zmóžńće JavaScript w swojim wobhladowaku a zaktualizujće tutu stronu."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:43
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
 msgstr "Waš komentar nam pomha, Firefox OS polěpšić."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:58
-#: fjord/feedback/templates/feedback/generic_feedback.html:60
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
 msgid "%(product)s makes me happy"
 msgstr "%(product)s mje wozbožuje"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:75
-#: fjord/feedback/templates/feedback/generic_feedback.html:77
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
 msgid "%(product)s makes me sad"
 msgstr "%(product)s mje rudni"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:84
-#: fjord/feedback/templates/feedback/generic_feedback.html:86
-msgid ""
-"Is %(product)s not the product you want to give feedback on?<br /> <a "
-"href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
-"Njeje %(product)s produkt, ke kotremuž chceće swoje měnjenje prajić?<br /><a"
-" href=\"%(url)s\">Wubjerće druhi produkt</a>."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
+msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
+msgstr "Njeje %(product)s produkt, ke kotremuž chceće swoje měnjenje prajić?<br /><a href=\"%(url)s\">Wubjerće druhi produkt</a>."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:98
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr "W kotrym kraju sće swój grat z Firefox OS kupił?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:106
-#: fjord/feedback/templates/feedback/fxos_feedback.html:128
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106 fjord/feedback/jinja2/feedback/fxos_feedback.html:128
 msgid "Other"
 msgstr "Druhe"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:110
-#: fjord/feedback/templates/feedback/fxos_feedback.html:132
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110 fjord/feedback/jinja2/feedback/fxos_feedback.html:132
 msgid "Next"
 msgstr "Přichodny"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:120
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:120
 msgid "What Firefox OS device are you using?"
 msgstr "Kotry grat z Firefox OS wužiwaće?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:137
-#: fjord/feedback/templates/feedback/generic_feedback.html:95
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137 fjord/feedback/jinja2/feedback/generic_feedback.html:95
 msgid "Details"
 msgstr "Podrobnosće"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:142
-#: fjord/feedback/templates/feedback/generic_feedback.html:100
-msgid ""
-"Please describe what you like. The content of your feedback will be public, "
-"so please be sure not to include personal information such as email address,"
-" passwords or phone number."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
+msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr ""
-"Prošu wopisajće, štož wam so spodoba. Wobsah wašego komentara budźe zjawnje "
-"widźomny, potajkim njepodawajće prošu wosobinske informacije kaž swoju "
-"e-mejlowu adresu, swoje hesła abo swoje telefonowe čisło."
-
-#: fjord/feedback/templates/feedback/fxos_feedback.html:150
-#: fjord/feedback/templates/feedback/generic_feedback.html:108
-msgid ""
-"Please describe your problem below and be as specific as you can. The "
-"content of your feedback will be public, so please be sure not to include "
-"personal information such as email address, passwords or phone number."
-msgstr ""
-"Prošu wopisajće deleka swój problem tak dokładnje kaž móžno. Wobsah wašego "
-"komentara budźe zjawnje widźomny, potajkim njepodawajće prošu wosobinske "
-"informacije kaž swoju e-mejlowu adresu, swoje hesła abo swoje telefonowe "
+"Prošu wopisajće, štož wam so spodoba. Wobsah wašego komentara budźe zjawnje widźomny, potajkim njepodawajće prošu wosobinske informacije kaž swoju e-mejlowu adresu, swoje hesła abo swoje telefonowe "
 "čisło."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:167
-#: fjord/feedback/templates/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
+msgid ""
+"Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
+"or phone number."
+msgstr ""
+"Prošu wopisajće deleka swój problem tak dokładnje kaž móžno. Wobsah wašego komentara budźe zjawnje widźomny, potajkim njepodawajće prošu wosobinske informacije kaž swoju e-mejlowu adresu, swoje "
+"hesła abo swoje telefonowe čisło."
+
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Jeli so waš komentar na websydło poćahuje, móžeće jo tu podać."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:181
-#: fjord/feedback/templates/feedback/generic_feedback.html:156
-msgid ""
-"(Optional) Check here to let us contact you to follow up on your feedback. "
-"Your email address will be kept private."
-msgstr ""
-"(a přeće) Aktiwizujće tutón kontrolny kašćik, zo bychmy móhli so nastupajo "
-"waš komentar z wami do zwiska stajić. Waša e-mejlowa adresa wobchadźa so z "
-"dowěrliwosću."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
+msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
+msgstr "(a přeće) Aktiwizujće tutón kontrolny kašćik, zo bychmy móhli so nastupajo waš komentar z wami do zwiska stajić. Waša e-mejlowa adresa wobchadźa so z dowěrliwosću."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:192
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
 msgstr "Prošu zapodajće płaćiwu e-mejlowu adresu."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:198
-#: fjord/feedback/templates/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
 msgid "Submit"
 msgstr "Wotpósłać"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:204
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:204
 msgid "Submitting...."
 msgstr "Sćele so…"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:212
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:212
 msgid "Success!"
 msgstr "Je so poradźiło!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:216
-msgid ""
-"Thank you for your feedback! We will use it to help us create a better "
-"experience in future versions of Firefox OS."
-msgstr ""
-"Dźakujemy so za waš komentar! Budźe nam pomhać, lěpše dožiwjenje w "
-"přichodnych wersijach Firefox OS wutworić."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
+msgstr "Dźakujemy so za waš komentar! Budźe nam pomhać, lěpše dožiwjenje w přichodnych wersijach Firefox OS wutworić."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:222
-msgid ""
-"Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla "
-"better</a>."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "Zhońće, kak móžeće <a href=\"%(url)s\">Firefox OS a Mozilla polěpšić</a>."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:231
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:231
 msgid "We're sorry!"
 msgstr "Je nam žel!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:234
-msgid ""
-"Something has happened and we can't submit your feedback. Feedback will be "
-"saved on your device so you can try sending it again later."
-msgstr ""
-"Něšto je so nimokuliło a njemóžemy waš komentar wotpósłać. Komentar budźe so"
-" na wašim graće składować, zo byšće móhł spytać, jón pozdźišo słać."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
+msgstr "Něšto je so nimokuliło a njemóžemy waš komentar wotpósłać. Komentar budźe so na wašim graće składować, zo byšće móhł spytać, jón pozdźišo słać."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:240
-#: fjord/feedback/templates/feedback/fxos_feedback.html:246
-#: fjord/feedback/templates/feedback/fxos_feedback.html:255
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240 fjord/feedback/jinja2/feedback/fxos_feedback.html:246 fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
 msgstr "Hišće raz spytać"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:241
-#: fjord/feedback/templates/feedback/fxos_feedback.html:256
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241 fjord/feedback/jinja2/feedback/fxos_feedback.html:256
 msgid "Cancel"
 msgstr "Přetorhnyć"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:249
-msgid ""
-"You have unsubmitted feedback data. Would you like to try submitting it "
-"again?"
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:249
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "Maće njewotpósłane daty. Chceće hišće raz pospytować, jón wotpósłać?"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:43
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 msgid "How does %(product)s make you feel?"
 msgstr "Kotre začuće je %(product)s we was wubudźił?"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
 msgid ""
-"Check here to provide technical information about your browser. This "
-"information helps us better understand our users and create better products."
-" This information will be kept in accordance with our Privacy policy."
+"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
+"our Privacy policy."
 msgstr ""
-"Wubjerće to, zo byšće techniske informacije wo swojim wobhladowaku podał. "
-"Tute informacije pomhaja nam, našich wužiwarjow lěpje rozumić a lěpše "
-"produkty wutworić. Tute daty so wotpowědujo našim prawidłam priwatnosće "
-"wobchowaja."
+"Wubjerće to, zo byšće techniske informacije wo swojim wobhladowaku podał. Tute informacije pomhaja nam, našich wužiwarjow lěpje rozumić a lěpše produkty wutworić. Tute daty so wotpowědujo našim "
+"prawidłam priwatnosće wobchowaja."
 
-#: fjord/feedback/templates/feedback/picker.html:3
+#: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
 msgstr "Wubjerće produkt"
 
-#: fjord/feedback/templates/feedback/picker.html:14
+#: fjord/feedback/jinja2/feedback/picker.html:14
 msgid "Select a product"
 msgstr "Wubjerće produkt"
 
-#: fjord/feedback/templates/feedback/picker.html:23
+#: fjord/feedback/jinja2/feedback/picker.html:23
 msgid "No products available."
 msgstr "Žane produkty k dispoziciji."
 
-#: fjord/feedback/templates/feedback/picker.html:34
+#: fjord/feedback/jinja2/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
 msgstr "Wubjerće produkt, kotryž chceće komentować."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/jinja2/feedback/thanks.html:3
 msgid "Thanks"
 msgstr "Wulki dźak"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/jinja2/feedback/thanks.html:16
 msgid "Thanks for Your Feedback"
 msgstr "Dźakujemy so wam za waš komentar"
 
-#: fjord/feedback/templates/feedback/thanks.html:25
-msgid ""
-"Your feedback will be used to create a better experience in future releases "
-"of %(product)s."
-msgstr ""
-"Waš komentar budźe so wužiwać, zo by w přichodnych wersijach %(product)s "
-"lěpše dožiwjenje wutworił."
+#: fjord/feedback/jinja2/feedback/thanks.html:25
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "Waš komentar budźe so wužiwać, zo by w přichodnych wersijach %(product)s lěpše dožiwjenje wutworił."
 
-#: fjord/feedback/templates/feedback/thanks.html:33
+#: fjord/feedback/jinja2/feedback/thanks.html:33
 msgid "Suggestions from your feedback:"
 msgstr "Namjety z wašeho komentara:"
 
-#: fjord/feedback/templates/feedback/thanks.html:49
+#: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
 msgstr "Maće problemy? Wobstarajće sej pomoc."
 
-#: fjord/feedback/templates/feedback/thanks.html:51
-msgid ""
-"Go to our support forum where you can <a href=\"%(url)s\">get help and find "
-"answers</a>."
-msgstr ""
-"Dźiće k našemu forumej pomocy, hdźež móžeće <a href=\"%(url)s\">sej pomoc "
-"wobstarać a wotmołwy namakać</a>."
+#: fjord/feedback/jinja2/feedback/thanks.html:51
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr "Dźiće k našemu forumej pomocy, hdźež móžeće <a href=\"%(url)s\">sej pomoc wobstarać a wotmołwy namakać</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:64
+#: fjord/feedback/jinja2/feedback/thanks.html:64
 msgid "Shape the future of Firefox."
 msgstr "Wuhotujće přichod Firefox."
 
-#: fjord/feedback/templates/feedback/thanks.html:66
-msgid ""
-"Download <a href=\"%(download_url)s\">the Firefox build that is right for "
-"you</a>."
-msgstr ""
-"Sćehńće <a href=\"%(download_url)s\">wersiju Firefox, kotraž hodźi so k "
-"wam</a>."
+#: fjord/feedback/jinja2/feedback/thanks.html:66
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgstr "Sćehńće <a href=\"%(download_url)s\">wersiju Firefox, kotraž hodźi so k wam</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:74
+#: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
 msgstr "Čińće pola Mozilla sobu."
 
-#: fjord/feedback/templates/feedback/thanks.html:76
-msgid ""
-"Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla "
-"better</a>."
-msgstr ""
-"Zhońće, kak móžeće <a href=\"%(url)s\">%(product)s a Mozilla polěpšić</a>."
+#: fjord/feedback/jinja2/feedback/thanks.html:76
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgstr "Zhońće, kak móžeće <a href=\"%(url)s\">%(product)s a Mozilla polěpšić</a>."
 
-#: fjord/feedback/templates/feedback/thanks.html:84
+#: fjord/feedback/jinja2/feedback/thanks.html:84
 msgid "Find the latest news about %(product)s."
 msgstr "Namakajće najnowše powěsće wo %(product)s."
 
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Prošu sćehńće Firefox!"
 
@@ -900,12 +732,11 @@ msgstr "Prošu sćehńće Firefox!"
 msgid "Ask a question in our support forum"
 msgstr "Prašejće so w našim forumje pomocy"
 
-#~ msgid ""
-#~ "Your feedback will be used to create a better experience in future releases "
-#~ "of Firefox."
-#~ msgstr ""
-#~ "Waš komentar budźe so wužiwać, zo by w přichodnych wersijach Firefox lěpše "
-#~ "dožiwjenje wutworił."
+#~ msgid "Bigram"
+#~ msgstr "Bigram"
+
+#~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
+#~ msgstr "Waš komentar budźe so wužiwać, zo by w přichodnych wersijach Firefox lěpše dožiwjenje wutworił."
 
 #~ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 #~ msgstr "Sćehńće <a href=\"%(download_url)s\">wersiju, kotraž hodźi so k wam</a>."
@@ -917,8 +748,7 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgstr "Dóstańće najnowše powěsće wo Firefox."
 
 #~ msgid "Go to our support forum where you can get help and find answers."
-#~ msgstr ""
-#~ "Dźiće k našemu forumej pomocy, hdźež móžeće pomoc dóstać a wotmołwy namakać."
+#~ msgstr "Dźiće k našemu forumej pomocy, hdźež móžeće pomoc dóstać a wotmołwy namakać."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Komentar wotpósłać"
@@ -929,12 +759,8 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Firefox OS made me sad"
 #~ msgstr "Firefox OS je mje zrudnił"
 
-#~ msgid ""
-#~ "If you need help or have a problem with Firefox OS, please visit <a "
-#~ "href=\"%(support_url)s\">Mozilla Support</a>."
-#~ msgstr ""
-#~ "Jeli trjebaće pomoc abo maće problem z Firefox OS, wopytajće <a "
-#~ "href=\"%(support_url)s\">pomoc Mozilla</a>."
+#~ msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
+#~ msgstr "Jeli trjebaće pomoc abo maće problem z Firefox OS, wopytajće <a href=\"%(support_url)s\">pomoc Mozilla</a>."
 
 #~ msgid "Please describe what you liked."
 #~ msgstr "Prošu wopisajće, štož so wam spodoba."
@@ -942,20 +768,14 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Please describe your problem below and be as specific as you can."
 #~ msgstr "Prošu wopisajće deleka swój problem tak dokładnje kaž móžno."
 
-#~ msgid ""
-#~ "The content of your feedback will be public, so please be sure not to "
-#~ "include any personal information."
-#~ msgstr ""
-#~ "Wobsah wašeho komentara je zjawnje widźomny, njepodawajće potajkim žane "
-#~ "wosobinske daty."
+#~ msgid "The content of your feedback will be public, so please be sure not to include any personal information."
+#~ msgstr "Wobsah wašeho komentara je zjawnje widźomny, njepodawajće potajkim žane wosobinske daty."
 
 #~ msgid "Can we contact you?"
 #~ msgstr "Směmy so z wami do zwiska stajić?"
 
 #~ msgid "Check here to let us contact you to follow up on your feedback."
-#~ msgstr ""
-#~ "Aktiwizujće tutón kontrolny kašćik, zo bychmy móhli so nastupajo waš "
-#~ "komentar do zwiska stajić."
+#~ msgstr "Aktiwizujće tutón kontrolny kašćik, zo bychmy móhli so nastupajo waš komentar do zwiska stajić."
 
 #~ msgid "Email address (optional):"
 #~ msgstr "E-mailowa adresa (opcionalna):"
@@ -966,14 +786,8 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Send Feedback"
 #~ msgstr "Komentar pósłać"
 
-#~ msgid ""
-#~ "(Optional) Check here to provide technical information about your browser. "
-#~ "This will help us diagnose problems more quickly. This data will be kept "
-#~ "private."
-#~ msgstr ""
-#~ "(Na přeće) Wubjerće to, zo byšće techniske informacije wo swojim "
-#~ "wobhladowaku podał. To budźe nam pomhać, problemy spěšnišo diagnosticěrować."
-#~ " Tute daty wostanu priwatne."
+#~ msgid "(Optional) Check here to provide technical information about your browser. This will help us diagnose problems more quickly. This data will be kept private."
+#~ msgstr "(Na přeće) Wubjerće to, zo byšće techniske informacije wo swojim wobhladowaku podał. To budźe nam pomhać, problemy spěšnišo diagnosticěrować. Tute daty wostanu priwatne."
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Waš komentar nam pomha, Firefox polěpšić."
@@ -984,12 +798,8 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Firefox made me sad"
 #~ msgstr "Firefox je mje zrudnił"
 
-#~ msgid ""
-#~ "If you need help or have a problem with Firefox, please visit <a "
-#~ "href=\"%(support_url)s\">Firefox Support</a>."
-#~ msgstr ""
-#~ "Jeli pomoc trjebaće abo problem z Firefox maće, wopytajće prošu <a "
-#~ "href=\"%(support_url)s\">Pomoc Firefox</a>."
+#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
+#~ msgstr "Jeli pomoc trjebaće abo problem z Firefox maće, wopytajće prošu <a href=\"%(support_url)s\">Pomoc Firefox</a>."
 
 #~ msgid "Please describe your problem below."
 #~ msgstr "Prošu wopisajće swój problem."
@@ -1000,29 +810,17 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "If your feedback is related to a website, you can include it here."
 #~ msgstr "Jeli so waš komentar na websydło poćahuje, móžeće jo tu podać."
 
-#~ msgid ""
-#~ "While your feedback will be publicly visible, email addresses are kept "
-#~ "private. We understand your privacy is important."
-#~ msgstr ""
-#~ "Waš komentar drje je zjawnje widźomny, e-mejlowe adresy wšak wostanu "
-#~ "priwatne. Smy sej wažnosće wašeje priwantosće wědomi."
+#~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
+#~ msgstr "Waš komentar drje je zjawnje widźomny, e-mejlowe adresy wšak wostanu priwatne. Smy sej wažnosće wašeje priwantosće wědomi."
 
 #~ msgid "Unknown product"
 #~ msgstr "Njeznaty produkt"
 
-#~ msgid ""
-#~ "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an "
-#~ "error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
-#~ msgstr ""
-#~ "Input njeznaje \"<em>%(product)s</em>\". Jeli maće to za zmylk <a "
-#~ "href=\"%(url)s\">pisajće prošu rozprawu zmylka</a>."
+#~ msgid "Input doesn't know about \"<em>%(product)s</em>\". If you think this is an error, please let us know by <a href=\"%(url)s\">writing up a bug</a>."
+#~ msgstr "Input njeznaje \"<em>%(product)s</em>\". Jeli maće to za zmylk <a href=\"%(url)s\">pisajće prošu rozprawu zmylka</a>."
 
-#~ msgid ""
-#~ "If you are here by mistake and want to leave feedback, you can do so <a "
-#~ "href=\"%(url)s\">on our feedback form</a>."
-#~ msgstr ""
-#~ "Jeli sće so mylnje sem dóstał a chceće swój komentar zawostajić, móžeće to "
-#~ "<a href=\"%(url)s\">na našim komentarowym formularje</a> činić."
+#~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
+#~ msgstr "Jeli sće so mylnje sem dóstał a chceće swój komentar zawostajić, móžeće to <a href=\"%(url)s\">na našim komentarowym formularje</a> činić."
 
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Wopytajće <a href=\"%(dash_url)s\">hłownu stronu za komentary Firefox</a>"
@@ -1030,11 +828,8 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Input Services Monitor"
 #~ msgstr "Statusowe zwobraznjenje za zapodawanske słužby"
 
-#~ msgid ""
-#~ "List of components that Input uses and whether they are functioning "
-#~ "correctly."
-#~ msgstr ""
-#~ "Lisćina komponentow, kotrež Input wužiwa, a hač wone korektnje funguja."
+#~ msgid "List of components that Input uses and whether they are functioning correctly."
+#~ msgstr "Lisćina komponentow, kotrež Input wužiwa, a hač wone korektnje funguja."
 
 #~ msgid "Latest Feedback"
 #~ msgstr "Najnowši komentar"
@@ -1042,19 +837,11 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Messages"
 #~ msgstr "Powěsće"
 
-#~ msgid ""
-#~ "Either you don't have an account here or you used the wrong Persona account "
-#~ "to log in."
-#~ msgstr ""
-#~ "Pak nimaće wužiwarske konto pak sće wopačne konto Persona za přizjewjenje "
-#~ "wužił."
+#~ msgid "Either you don't have an account here or you used the wrong Persona account to log in."
+#~ msgstr "Pak nimaće wužiwarske konto pak sće wopačne konto Persona za přizjewjenje wužił."
 
-#~ msgid ""
-#~ "Please enter a valid email address, or uncheck the box allowing us to "
-#~ "contact you."
-#~ msgstr ""
-#~ "Prošu zapodajće płaćiwu e-mejlowu adresu abo wotstrońće hóčku z kontrolneho "
-#~ "kašćika, přez kotruž nam dowoleće, zo bychmy so z wami do zwiska stajili."
+#~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
+#~ msgstr "Prošu zapodajće płaćiwu e-mejlowu adresu abo wotstrońće hóčku z kontrolneho kašćika, přez kotruž nam dowoleće, zo bychmy so z wami do zwiska stajili."
 
 #~ msgid "This field is required."
 #~ msgstr "Tute polo dyrbi wupjelnjene być."
@@ -1068,41 +855,24 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Super! It's great to hear that you like our browser."
 #~ msgstr "Super! Wjeselimy so, zo maće naš wobhladowak rady."
 
-#~ msgid ""
-#~ "We are sorry that you have not had a good experience with our browser. "
-#~ "Please tell us why, so we can fix it."
-#~ msgstr ""
-#~ "Je nam žel, zo njeměješće dobre nazhonjenje z našim wobhladowakom. Prošu "
-#~ "zdźelće nam čehodla, zo bychmy móhli to polěpšić."
+#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
+#~ msgstr "Je nam žel, zo njeměješće dobre nazhonjenje z našim wobhladowakom. Prošu zdźelće nam čehodla, zo bychmy móhli to polěpšić."
 
 #~ msgid "Go Back"
 #~ msgstr "Wróćo"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you "
-#~ "are giving feedback about slowness, please tell us about relevant websites, "
-#~ "if you notice it at the beginning or later in the browsing session and if "
-#~ "there are any actions that you perform in Firefox that are particularly "
-#~ "problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Prošu budźće tak dokładny kaž móžno w datym wobłuku. Jeli na přikład "
-#~ "komentar wo pomałosći wotedaće, zdźělće nam prošu relewantne websydła, jeli "
-#~ "pytnjeće je na spočatku posedźenja abo pozdźišo, a jeli su akcije, kotrež w "
-#~ "Firefox wuwjedźeće, kotrež su wosebje problematiske."
+#~ "Prošu budźće tak dokładny kaž móžno w datym wobłuku. Jeli na přikład komentar wo pomałosći wotedaće, zdźělće nam prošu relewantne websydła, jeli pytnjeće je na spočatku posedźenja abo pozdźišo, "
+#~ "a jeli su akcije, kotrež w Firefox wuwjedźeće, kotrež su wosebje problematiske."
 
-#~ msgid ""
-#~ "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> "
-#~ "instead."
-#~ msgstr ""
-#~ "Jeli pomoc trjebaće, wopytajće město toho <a href=\"%(url)s\">Pomoc "
-#~ "Mozilla</a>."
+#~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
+#~ msgstr "Jeli pomoc trjebaće, wopytajće město toho <a href=\"%(url)s\">Pomoc Mozilla</a>."
 
-#~ msgid ""
-#~ "To protect your privacy, please ensure that no personally identifiable "
-#~ "information is included in your feedback."
-#~ msgstr ""
-#~ "Zo byšće swoju priwatnosć škitał, přeswědčće so, zo žane sensibelne "
-#~ "wosobinske daty we wašim komentarje wobsahowane njejsu."
+#~ msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+#~ msgstr "Zo byšće swoju priwatnosć škitał, přeswědčće so, zo žane sensibelne wosobinske daty we wašim komentarje wobsahowane njejsu."
 
 #~ msgid "Submitting Feedback"
 #~ msgstr "Komentar so wotesćele"
@@ -1116,29 +886,17 @@ msgstr "Prašejće so w našim forumje pomocy"
 #~ msgid "Want to see where your feedback goes?"
 #~ msgstr "Chceće widźeć, hdźež waš komentar dóńdźe?"
 
-#~ msgid ""
-#~ "For support requests, please go to <a href=\"%(support_url)s\">Mozilla "
-#~ "Support</a> instead."
-#~ msgstr ""
-#~ "Jeli pomoc trjebaće, wopytajće prošu město toho <a "
-#~ "href=\"%(support_url)s\">pomoc Mozilla</a>."
+#~ msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
+#~ msgstr "Jeli pomoc trjebaće, wopytajće prošu město toho <a href=\"%(support_url)s\">pomoc Mozilla</a>."
 
 #~ msgid "Thank you for your feedback!"
 #~ msgstr "Dźakujemy so za waš komentar!"
 
-#~ msgid ""
-#~ "Thanks for the feedback! We will use it to help create a better experience "
-#~ "in future releases of Firefox."
-#~ msgstr ""
-#~ "Dźakujemy so za waš komentar! Budźe so wužiwać, zo by w přichodnych "
-#~ "wersijach Firefox lěpše dožiwjenje wutworił."
+#~ msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
+#~ msgstr "Dźakujemy so za waš komentar! Budźe so wužiwać, zo by w přichodnych wersijach Firefox lěpše dožiwjenje wutworił."
 
-#~ msgid ""
-#~ "Want to know what's going on with Firefox? We have many ways of staying in "
-#~ "touch:"
-#~ msgstr ""
-#~ "Chceće wědźeć, štož je z Firefox? Je wjele móžnosćow, z nami w zwisku "
-#~ "wostać:"
+#~ msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
+#~ msgstr "Chceće wědźeć, štož je z Firefox? Je wjele móžnosćow, z nami w zwisku wostać:"
 
 #~ msgid "Download the build that is right for you"
 #~ msgstr "Sćehńće wersiju, kotraž hodźi so k wam"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-14 07:34-0700\n"
+"POT-Creation-Date: 2015-11-05 06:50-0700\n"
 "PO-Revision-Date: 2015-10-12 02:25+0000\n"
 "Last-Translator: r4k0nb4k0n <chj6097@gmail.com>\n"
 "Language-Team: Korean\n"
@@ -14,15 +14,11 @@ msgstr ""
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1444616731.0\n"
 
-#: fjord/analytics/helpers.py:10 fjord/analytics/views.py:352 fjord/base/helpers.py:106 fjord/feedback/helpers.py:9
-msgid "Unknown"
-msgstr "알 수 없음"
-
 #: fjord/analytics/views.py:115
 msgid "Firefox Input: {query}"
 msgstr "Firefox 사용자 평가: '{query}'"
 
-#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/templates/500.html:8 fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
+#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox 사용자 평가"
 
@@ -30,231 +26,231 @@ msgstr "Firefox 사용자 평가"
 msgid "Search Results From Firefox Input"
 msgstr "Firefox 사용자 평가 검색 결과"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359 fjord/analytics/templates/analytics/dashboard.html:13 fjord/analytics/templates/analytics/response.html:29
-#: fjord/analytics/templates/analytics/mobile/response.html:18 fjord/feedback/models.py:342
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
 msgid "Happy"
 msgstr "행복"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:359 fjord/analytics/templates/analytics/dashboard.html:15 fjord/analytics/templates/analytics/response.html:31
-#: fjord/analytics/templates/analytics/mobile/response.html:20 fjord/feedback/models.py:343
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
 msgid "Sad"
 msgstr "슬픔"
 
-#: fjord/analytics/views.py:145 fjord/analytics/templates/analytics/response.html:24 fjord/analytics/templates/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:145 fjord/analytics/jinja2/analytics/response.html:24 fjord/analytics/jinja2/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "응답 아이디: {id}"
 
-#: fjord/analytics/views.py:274
-msgid "Bigram"
-msgstr ""
+#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+msgid "Unknown"
+msgstr "알 수 없음"
 
-#: fjord/analytics/views.py:358
+#: fjord/analytics/views.py:343
 msgid "Sentiment"
 msgstr "느낌"
 
-#: fjord/analytics/views.py:365 fjord/analytics/templates/analytics/response.html:111
+#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "제품 이름:"
 
-#: fjord/analytics/views.py:376 fjord/analytics/views.py:382 fjord/analytics/templates/analytics/response.html:115
+#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "버전:"
 
-#: fjord/analytics/views.py:383
+#: fjord/analytics/views.py:368
 msgid "Select product to see version breakdown"
 msgstr ""
 
-#: fjord/analytics/views.py:391 fjord/analytics/templates/analytics/response.html:99
+#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "플랫폼"
 
-#: fjord/analytics/views.py:397 fjord/analytics/templates/analytics/response.html:105
+#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "언어별"
 
-#: fjord/analytics/templates/analytics/dashboard.html:7
+#: fjord/analytics/jinja2/analytics/dashboard.html:7
 msgid "Atom feed for this search"
 msgstr "검색 결과 ATOM 피드"
 
-#: fjord/analytics/templates/analytics/dashboard.html:45 fjord/analytics/templates/analytics/analyzer/search.html:78 fjord/analytics/templates/analytics/mobile/response.html:40
+#: fjord/analytics/jinja2/analytics/dashboard.html:45 fjord/analytics/jinja2/analytics/analyzer/search.html:78 fjord/analytics/jinja2/analytics/mobile/response.html:39
 msgid "Permalink"
 msgstr "영구링크"
 
-#: fjord/analytics/templates/analytics/dashboard.html:100
+#: fjord/analytics/jinja2/analytics/dashboard.html:100
 msgid "When"
 msgstr "일시"
 
 #. Short for 1 day.
-#: fjord/analytics/templates/analytics/dashboard.html:102
+#: fjord/analytics/jinja2/analytics/dashboard.html:102
 msgid "1d"
 msgstr "1일"
 
 #. Short for 7 days.
-#: fjord/analytics/templates/analytics/dashboard.html:104
+#: fjord/analytics/jinja2/analytics/dashboard.html:104
 msgid "7d"
 msgstr "7일"
 
 #. Short for 30 days.
-#: fjord/analytics/templates/analytics/dashboard.html:106
+#: fjord/analytics/jinja2/analytics/dashboard.html:106
 msgid "30d"
 msgstr "30일"
 
 #. Short for 90 days.
-#: fjord/analytics/templates/analytics/dashboard.html:108
+#: fjord/analytics/jinja2/analytics/dashboard.html:108
 msgid "90d"
 msgstr "90일"
 
-#: fjord/analytics/templates/analytics/dashboard.html:110
+#: fjord/analytics/jinja2/analytics/dashboard.html:110
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: fjord/analytics/templates/analytics/dashboard.html:114
+#: fjord/analytics/jinja2/analytics/dashboard.html:114
 msgid "Start"
 msgstr "시작"
 
-#: fjord/analytics/templates/analytics/dashboard.html:116
+#: fjord/analytics/jinja2/analytics/dashboard.html:116
 msgid "End"
 msgstr "끝"
 
-#: fjord/analytics/templates/analytics/dashboard.html:117
+#: fjord/analytics/jinja2/analytics/dashboard.html:117
 msgid "Set"
 msgstr "설정"
 
-#: fjord/analytics/templates/analytics/dashboard.html:132
+#: fjord/analytics/jinja2/analytics/dashboard.html:132
 msgid "Feedback"
 msgstr "사용자 의견"
 
-#: fjord/analytics/templates/analytics/dashboard.html:136
+#: fjord/analytics/jinja2/analytics/dashboard.html:136
 msgid "Search by keyword"
 msgstr "키워드 검색"
 
-#: fjord/analytics/templates/analytics/dashboard.html:154
+#: fjord/analytics/jinja2/analytics/dashboard.html:154
 msgid "No feedback matches that criteria."
 msgstr "기준에 맞는 의견이 없습니다."
 
-#: fjord/analytics/templates/analytics/dashboard.html:160
+#: fjord/analytics/jinja2/analytics/dashboard.html:160
 msgid "Older Messages"
 msgstr "이전 메시지"
 
-#: fjord/analytics/templates/analytics/dashboard.html:165
+#: fjord/analytics/jinja2/analytics/dashboard.html:165
 msgid "Newer Messages"
 msgstr "다음 메시지"
 
-#: fjord/analytics/templates/analytics/dashboard.html:176
+#: fjord/analytics/jinja2/analytics/dashboard.html:176
 msgid "Messages in specified time range"
 msgstr "특정 시간 범위 안의 메시지"
 
-#: fjord/analytics/templates/analytics/es_down.html:12
+#: fjord/analytics/jinja2/analytics/es_down.html:12
 msgid "Dashboard unavailable"
 msgstr "현황판 없음"
 
-#: fjord/analytics/templates/analytics/es_down.html:14
+#: fjord/analytics/jinja2/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr "대시보드를 현재 사용할 수 없습니다. 10분 뒤에 다시 시도해주세요."
 
-#: fjord/analytics/templates/analytics/response.html:45
+#: fjord/analytics/jinja2/analytics/response.html:45
 msgid "Category"
 msgstr "카테고리"
 
-#: fjord/analytics/templates/analytics/response.html:47 fjord/analytics/templates/analytics/response.html:125 fjord/analytics/templates/analytics/response.html:129
-#: fjord/analytics/templates/analytics/response.html:133 fjord/analytics/templates/analytics/response.html:137 fjord/analytics/templates/analytics/response.html:141
-#: fjord/analytics/templates/analytics/response.html:145
+#: fjord/analytics/jinja2/analytics/response.html:47 fjord/analytics/jinja2/analytics/response.html:125 fjord/analytics/jinja2/analytics/response.html:129
+#: fjord/analytics/jinja2/analytics/response.html:133 fjord/analytics/jinja2/analytics/response.html:137 fjord/analytics/jinja2/analytics/response.html:141
+#: fjord/analytics/jinja2/analytics/response.html:145
 msgid "None"
 msgstr "없음"
 
-#: fjord/analytics/templates/analytics/response.html:49
+#: fjord/analytics/jinja2/analytics/response.html:49
 msgid "Description"
 msgstr "성세설명"
 
-#: fjord/analytics/templates/analytics/response.html:53
+#: fjord/analytics/jinja2/analytics/response.html:53
 msgid "Translated"
 msgstr "번역됨"
 
-#: fjord/analytics/templates/analytics/response.html:64
+#: fjord/analytics/jinja2/analytics/response.html:64
 msgid "Translate (machine)"
 msgstr "번역하기(기계)"
 
-#: fjord/analytics/templates/analytics/response.html:70
+#: fjord/analytics/jinja2/analytics/response.html:70
 msgid "Translate (human)"
 msgstr "번역하기(사람)"
 
-#: fjord/analytics/templates/analytics/response.html:85
+#: fjord/analytics/jinja2/analytics/response.html:85
 msgid "Created"
 msgstr "생성됨"
 
-#: fjord/analytics/templates/analytics/response.html:119
+#: fjord/analytics/jinja2/analytics/response.html:119
 msgid "Channel"
 msgstr "채널"
 
-#: fjord/analytics/templates/analytics/response.html:123
+#: fjord/analytics/jinja2/analytics/response.html:123
 msgid "URL Domain"
 msgstr "URL 도메인"
 
-#: fjord/analytics/templates/analytics/response.html:127
+#: fjord/analytics/jinja2/analytics/response.html:127
 msgid "Source"
 msgstr "소스"
 
-#: fjord/analytics/templates/analytics/response.html:131
+#: fjord/analytics/jinja2/analytics/response.html:131
 msgid "Campaign"
 msgstr "캠페인"
 
-#: fjord/analytics/templates/analytics/response.html:135
+#: fjord/analytics/jinja2/analytics/response.html:135
 msgid "Browser"
 msgstr "브라우저"
 
-#: fjord/analytics/templates/analytics/response.html:139
+#: fjord/analytics/jinja2/analytics/response.html:139
 msgid "Browser Ver."
 msgstr "브라우저 버전"
 
-#: fjord/analytics/templates/analytics/response.html:143
+#: fjord/analytics/jinja2/analytics/response.html:143
 msgid "Browser Plat."
 msgstr "브라우저 플랫폼"
 
-#: fjord/analytics/templates/analytics/response.html:151
+#: fjord/analytics/jinja2/analytics/response.html:151
 msgid "Full URL"
 msgstr "전체 URL"
 
-#: fjord/analytics/templates/analytics/response.html:155 fjord/feedback/templates/feedback/fxos_feedback.html:94
+#: fjord/analytics/jinja2/analytics/response.html:155 fjord/feedback/jinja2/feedback/fxos_feedback.html:94
 msgid "Country"
 msgstr "국가"
 
-#: fjord/analytics/templates/analytics/response.html:159
+#: fjord/analytics/jinja2/analytics/response.html:159
 msgid "Manufacturer"
 msgstr "제조사"
 
-#: fjord/analytics/templates/analytics/response.html:163 fjord/feedback/templates/feedback/fxos_feedback.html:116
+#: fjord/analytics/jinja2/analytics/response.html:163 fjord/feedback/jinja2/feedback/fxos_feedback.html:116
 msgid "Device"
 msgstr "기기"
 
-#: fjord/analytics/templates/analytics/response.html:167
+#: fjord/analytics/jinja2/analytics/response.html:167
 msgid "User agent"
 msgstr "사용자 도구"
 
-#: fjord/analytics/templates/analytics/response.html:171
+#: fjord/analytics/jinja2/analytics/response.html:171
 msgid "Email"
 msgstr "이메일"
 
-#: fjord/analytics/templates/analytics/response.html:179
+#: fjord/analytics/jinja2/analytics/response.html:179
 msgid "Browser data"
 msgstr "브라우저 데이타"
 
-#: fjord/analytics/templates/analytics/response.html:182
+#: fjord/analytics/jinja2/analytics/response.html:182
 msgid "yes"
 msgstr "예"
 
-#: fjord/analytics/templates/analytics/response.html:187
+#: fjord/analytics/jinja2/analytics/response.html:187
 msgid "API version"
 msgstr "API 버전"
 
-#: fjord/analytics/templates/analytics/response.html:205
+#: fjord/analytics/jinja2/analytics/response.html:205
 msgid "Context"
 msgstr "문맥"
 
-#: fjord/analytics/templates/analytics/analyzer/search.html:152
+#: fjord/analytics/jinja2/analytics/analyzer/search.html:152
 msgid "Note: All dates and times are in Pacific Time."
 msgstr "주의: 모든 날짜와 시간은 태평양 표준시로 표시됩니다."
 
-#: fjord/analytics/templates/analytics/mobile/dashboard.html:4
+#: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "대시보드는 아직 모바일 기기에서 사용할 수 없습니다."
 
@@ -266,59 +262,59 @@ msgstr ""
 msgid "JSON Object"
 msgstr "JSON 객체"
 
-#: fjord/base/templates/403.html:3 fjord/base/templates/403.html:9
+#: fjord/base/jinja2/403.html:3 fjord/base/jinja2/403.html:9
 msgid "Forbidden"
 msgstr "금지됨"
 
-#: fjord/base/templates/403.html:12
+#: fjord/base/jinja2/403.html:12
 msgid "You do not have access to this page."
 msgstr "페이지 접근 권한이 없습니다."
 
-#: fjord/base/templates/403.html:14
+#: fjord/base/jinja2/403.html:14
 msgid "You do not have access to this page. If you have an account, try signing in."
 msgstr "페이지 접근 권한이 없습니다. 계정이 있으면 로그인해 주세요."
 
-#: fjord/base/templates/403.html:18 fjord/base/templates/404.html:14 fjord/base/templates/500.html:35 fjord/base/templates/includes/login_failure_text.html:8
+#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14 fjord/base/jinja2/500.html:35 fjord/base/jinja2/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
 msgstr "대시보드로 돌아가기."
 
-#: fjord/base/templates/404.html:3 fjord/base/templates/404.html:9
+#: fjord/base/jinja2/404.html:3 fjord/base/jinja2/404.html:9
 msgid "Not Found"
 msgstr "검색 결과가 없음"
 
-#: fjord/base/templates/404.html:11
+#: fjord/base/jinja2/404.html:11
 msgid "The document could not be found."
 msgstr "문서를 찾지 못했습니다."
 
-#: fjord/base/templates/500.html:8
+#: fjord/base/jinja2/500.html:8
 msgid "Something has gone horribly wrong"
 msgstr "무엇인가 심하게 잘못되었습니다"
 
-#: fjord/base/templates/500.html:19 fjord/base/templates/base.html:44 fjord/base/templates/mobile/base.html:29
+#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44 fjord/base/jinja2/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> Input"
 
-#: fjord/base/templates/500.html:25 fjord/base/templates/base.html:50 fjord/base/templates/mobile/base.html:35
+#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50 fjord/base/jinja2/mobile/base.html:35
 msgid "Dashboard"
 msgstr "사용자 평가 서비스"
 
-#: fjord/base/templates/500.html:33
+#: fjord/base/jinja2/500.html:33
 msgid "Something has gone horribly wrong."
 msgstr "무엇인가 심하게 잘못되었습니다."
 
-#: fjord/base/templates/500.html:34
+#: fjord/base/jinja2/500.html:34
 msgid "There was a problem on the server."
 msgstr "웹 서버에 문제가 있었습니다."
 
-#: fjord/base/templates/about.html:3 fjord/base/templates/includes/common.html:23
+#: fjord/base/jinja2/about.html:3 fjord/base/jinja2/includes/common.html:23
 msgid "About Firefox Input"
 msgstr "Firefox 사용자 평가 소개"
 
-#: fjord/base/templates/about.html:9
+#: fjord/base/jinja2/about.html:9
 msgid "Hello!"
 msgstr "안녕하세요!"
 
-#: fjord/base/templates/about.html:11
+#: fjord/base/jinja2/about.html:11
 #, fuzzy
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
@@ -327,47 +323,47 @@ msgstr ""
 "Firefox Input은 Mozilla 제품 의견 서비스입니다. 여러분이 제공해 주신 의견은 Firefox를 좀 더 나은 제품으로 만드는 데 도움을 줄 것 입니다. 사용자 인터페이스, 프로그램 버그, 웹 사이트 문제 등 다양한 의"
 "견을 보내 주십시오."
 
-#: fjord/base/templates/about.html:21
+#: fjord/base/jinja2/about.html:21
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "Mozilla 제품에 대한 의견을 보내려면 <a href=\"%(url)s\">의견 보내기</a>를 이용해 주십시오!"
 
-#: fjord/base/templates/about.html:27 fjord/base/templates/includes/common.html:20
+#: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
 msgstr "개인 정보 정책"
 
-#: fjord/base/templates/about.html:29
+#: fjord/base/jinja2/about.html:29
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "우리는 <a href=\"%(url)s\">Mozilla 개인정보 보호정책</a>을 준수합니다."
 
-#: fjord/base/templates/about.html:34
+#: fjord/base/jinja2/about.html:34
 msgid "Legal Disclaimers and Limitations"
 msgstr "법적 고지와 한계"
 
-#: fjord/base/templates/about.html:36
+#: fjord/base/jinja2/about.html:36
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr "우리는 <a href=\"%(url)s\">Mozilla 법적 고지와 한계</a> 문서를 준수합니다."
 
-#: fjord/base/templates/about.html:42
+#: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
 msgstr "데이타 저장 정책"
 
-#: fjord/base/templates/about.html:44
+#: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr "우리는 사이트에 저장되는 데이타에 대한 데이터 저장 정책을 가지고 있습니다:"
 
-#: fjord/base/templates/about.html:51
+#: fjord/base/jinja2/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
 msgstr "모든 의견 데이터를 저장하고 있지만 최근 6개월 데이터만 대시보드에 표시됩니다."
 
-#: fjord/base/templates/about.html:57
+#: fjord/base/jinja2/about.html:57
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
 msgstr "의견과 관련된 이메일 주소와 관련 정보는 6개월 이후에 삭제합니다."
 
-#: fjord/base/templates/about.html:64
+#: fjord/base/jinja2/about.html:64
 msgid "Open Data"
 msgstr "데이터 열기"
 
-#: fjord/base/templates/about.html:66
+#: fjord/base/jinja2/about.html:66
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
 "please contact us!"
@@ -375,75 +371,75 @@ msgstr ""
 "이 데이터를 이용해 좀 더 많은 실험을 해보고 싶지만 사람이 많지 않습니다. 그래서 여러분이 알고 싶은 내용을 요청해주시면 도움이 많이 될 것 같습니다. 이 데이터를 가지고 직접 실험을 해보고 싶다면 저희에"
 "게 연락해 주세요."
 
-#: fjord/base/templates/about.html:74
+#: fjord/base/jinja2/about.html:74
 msgid "Source Code"
 msgstr "소스 코드"
 
-#: fjord/base/templates/about.html:76
+#: fjord/base/jinja2/about.html:76
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Firefox Input의 소스 코드는 <a href=\"%(url)s\">GitHub</a>에서 보실 수 있습니다!"
 
-#: fjord/base/templates/base.html:5 fjord/base/templates/mobile/base.html:4
+#: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
 msgstr "어서오세요!"
 
-#: fjord/base/templates/base.html:32 fjord/base/templates/mobile/base.html:21
+#: fjord/base/jinja2/base.html:32 fjord/base/jinja2/mobile/base.html:21
 msgid "Proceed to main content"
 msgstr "콘텐츠로 가기"
 
-#: fjord/base/templates/base.html:33 fjord/base/templates/mobile/base.html:22
+#: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
 msgstr "마지막으로 가기"
 
-#: fjord/base/templates/base.html:51
+#: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
 msgstr "의견 제시하기"
 
-#: fjord/base/templates/base.html:53
+#: fjord/base/jinja2/base.html:53
 msgid "Analytics"
 msgstr "분석"
 
-#: fjord/base/templates/base.html:59
+#: fjord/base/jinja2/base.html:59
 msgid "Hello, {username}"
 msgstr "안녕하세요, {username}님"
 
-#: fjord/base/templates/base.html:63
+#: fjord/base/jinja2/base.html:63
 msgid "Sign out"
 msgstr "로그아웃"
 
-#: fjord/base/templates/base.html:65
+#: fjord/base/jinja2/base.html:65
 msgid "Sign in"
 msgstr "로그 인"
 
-#: fjord/base/templates/csrf_failure.html:3 fjord/base/templates/includes/csrf_failure_text.html:1 fjord/base/templates/mobile/csrf_failure.html:3
+#: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
 msgstr "CSRF 실패"
 
-#: fjord/base/templates/login_failure.html:3 fjord/base/templates/includes/login_failure_text.html:1 fjord/base/templates/mobile/login_failure.html:3
+#: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr "로그인 실패"
 
-#: fjord/base/templates/new_user.html:3 fjord/base/templates/mobile/new_user.html:3
+#: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
 msgstr "어서오세요!"
 
-#: fjord/base/templates/includes/common.html:7
+#: fjord/base/jinja2/includes/common.html:7
 msgid "Other languages:"
 msgstr "기타 언어:"
 
-#: fjord/base/templates/includes/common.html:15
+#: fjord/base/jinja2/includes/common.html:15
 msgid "Go"
 msgstr "이동"
 
-#: fjord/base/templates/includes/common.html:21
+#: fjord/base/jinja2/includes/common.html:21
 msgid "Legal Notices"
 msgstr "법적 고지"
 
-#: fjord/base/templates/includes/common.html:22
+#: fjord/base/jinja2/includes/common.html:22
 msgid "Report Trademark Abuse"
 msgstr "상표권 침해 신고"
 
-#: fjord/base/templates/includes/common.html:26
+#: fjord/base/jinja2/includes/common.html:26
 #, fuzzy
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
@@ -451,27 +447,27 @@ msgid ""
 msgstr ""
 "특별한 <a href=\"%(legal_url)s\">법적 고지</a>가 없는 한 본 사이트의 모든 정보는 <br/><a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> 이후 버전을 따릅니다."
 
-#: fjord/base/templates/includes/csrf_failure_text.html:3
+#: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
 msgstr "보안 검증에 실패하였습니다."
 
-#: fjord/base/templates/includes/csrf_failure_text.html:8
+#: fjord/base/jinja2/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr "쿠키가 활성화되어 있는지 확인하고 브라우저의 뒤로 가기 버튼을 누른 다음에 페이지를 새로고침하고 서식을 작성한 후 다시 의견을 보내주세요."
 
-#: fjord/base/templates/includes/login_failure_text.html:3
+#: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
 msgstr "Persona 인증에 실패하였습니다. 다시 시도해 주세요."
 
-#: fjord/base/templates/includes/new_user_text.html:1
+#: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
 msgstr "어서오세요!"
 
-#: fjord/base/templates/includes/new_user_text.html:3
+#: fjord/base/jinja2/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
 
-#: fjord/base/templates/includes/new_user_text.html:10
+#: fjord/base/jinja2/includes/new_user_text.html:10
 msgid "Continue"
 msgstr "계속"
 
@@ -527,221 +523,218 @@ msgstr "페루"
 msgid "Uruguay"
 msgstr "우루과이"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:10 fjord/feedback/templates/feedback/mobile/download_firefox.html:7
+#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
 msgstr "Firefox 다운로드"
 
-#: fjord/feedback/templates/feedback/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/download_firefox.html:16
 msgid "Please Download Firefox"
 msgstr "Firefox를 다운로드 해주세요."
 
-#: fjord/feedback/templates/feedback/download_firefox.html:21 fjord/feedback/templates/feedback/mobile/download_firefox.html:21
+#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
 msgstr "Firefox 에 대한 의견을 제공해 주셔서 감사합니다. 제안 사항은 다음 번 출시에서 확인해 주십시오."
 
-#: fjord/feedback/templates/feedback/download_firefox.html:27 fjord/feedback/templates/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "다운로드 페이지에서 최신 <a href=\"%(url)s\">Firefox 정식</a>버전을 받아 설치 및 업데이트 하시기 바랍니다."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:7 fjord/feedback/templates/feedback/generic_feedback.html:7
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
 msgstr "의견 보내기"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:31 fjord/feedback/templates/feedback/generic_feedback.html:32
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 #, fuzzy
 msgid "{product} feedback"
 msgstr "의견 보내기"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:36 fjord/feedback/templates/feedback/generic_feedback.html:37 fjord/feedback/templates/feedback/picker.html:28
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
-"의견을 남기시려면 JavaScript가 필요합니다. 여러분의 브라우저에서 JavaScript 기능을 활성화하신 다음에 이 페이지를 "
-"새로고침해주세요."
+msgstr "의견을 남기시려면 JavaScript가 필요합니다. 여러분의 브라우저에서 JavaScript 기능을 활성화하신 다음에 이 페이지를 새로고침해주세요."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:43
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
 msgstr "여러분의 의견이 Firefox OS를 더 멋지게 만듭니다."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:58 fjord/feedback/templates/feedback/generic_feedback.html:60
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
 msgid "%(product)s makes me happy"
 msgstr "%(product)s 너무 좋아요!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:75 fjord/feedback/templates/feedback/generic_feedback.html:77
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
 #, fuzzy
 msgid "%(product)s makes me sad"
 msgstr "메시지 %(count)s개"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:84 fjord/feedback/templates/feedback/generic_feedback.html:86
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
-msgstr ""
-"당신이 의견을 낼 제품이 %(product)s 아니에요?<br /> <a href=\"%(url)s\">다른 제품을 고르세요.</a>."
+msgstr "당신이 의견을 낼 제품이 %(product)s 아니에요?<br /> <a href=\"%(url)s\">다른 제품을 고르세요.</a>."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:98
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr "어느 나라에서 Firefox OS 기기를 구입하셨나요?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:106 fjord/feedback/templates/feedback/fxos_feedback.html:128
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106 fjord/feedback/jinja2/feedback/fxos_feedback.html:128
 msgid "Other"
 msgstr "기타"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:110 fjord/feedback/templates/feedback/fxos_feedback.html:132
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110 fjord/feedback/jinja2/feedback/fxos_feedback.html:132
 msgid "Next"
 msgstr "다음"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:120
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:120
 msgid "What Firefox OS device are you using?"
 msgstr "어떤 Firefox OS 기기를 사용하고 계신가요?"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:137 fjord/feedback/templates/feedback/generic_feedback.html:95
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137 fjord/feedback/jinja2/feedback/generic_feedback.html:95
 msgid "Details"
 msgstr "상세"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:142 fjord/feedback/templates/feedback/generic_feedback.html:100
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
 #, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "의견의 내용은 공개됩니다. 이곳에 개인정보는 입력하지 마세요."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:150 fjord/feedback/templates/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
 #, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
 msgstr "의견의 내용은 공개됩니다. 이곳에 개인정보는 입력하지 마세요."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:167 fjord/feedback/templates/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
 #, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "웹사이트에 대한 피드백이 있을 경우, 여기에 입력하시면 됩니다."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:181 fjord/feedback/templates/feedback/generic_feedback.html:156
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
 #, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "우리가 의견에 대한 조치를 취하기 위해 여기를 확인해주세요."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:192
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
 msgstr "이메일 주소를 입력해 주세요."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:198 fjord/feedback/templates/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
 #, fuzzy
 msgid "Submit"
 msgstr "의견 보내는 중..."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:204
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:204
 msgid "Submitting...."
 msgstr "의견 보내는 중..."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:212
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:212
 msgid "Success!"
 msgstr "성공!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:216
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
 msgstr "의견 주셔서 감사합니다. 더 나은 다음 버전의 Firefox OS 개발에 도움이 될 것입니다."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:222
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox OS와 Mozilla</a>에 도움 주는 방법을 살펴보세요."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:231
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:231
 msgid "We're sorry!"
 msgstr "죄송합니다!"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:234
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
 msgstr "문제가 발생해서 의견을 전송하지 못했습니다. 작성된 의견은 나중에 다시 보낼 수 있도록 기기에 저장되었습니다."
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:240 fjord/feedback/templates/feedback/fxos_feedback.html:246 fjord/feedback/templates/feedback/fxos_feedback.html:255
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240 fjord/feedback/jinja2/feedback/fxos_feedback.html:246 fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
 msgstr "다시 시도"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:241 fjord/feedback/templates/feedback/fxos_feedback.html:256
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241 fjord/feedback/jinja2/feedback/fxos_feedback.html:256
 msgid "Cancel"
 msgstr "취소"
 
-#: fjord/feedback/templates/feedback/fxos_feedback.html:249
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:249
 msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr "전송되지 않은 의견이 있습니다. 다시 보내시겠습니까?"
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:43
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 msgid "How does %(product)s make you feel?"
 msgstr ""
 
-#: fjord/feedback/templates/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
 msgid ""
 "Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
 "our Privacy policy."
 msgstr ""
-"당신의 브라우저에 대한 기술적인 정보를 제공받으려면 여기를 확인해주세요. 이 정보는 저희가 사용자들을 잘 이해할 수 있고 더 나은 "
-"제품들을 만들수 있도록 도와줍니다. 이 정보는 저희 개인정보보호정책에 준거하여 보관될 것입니다. "
+"당신의 브라우저에 대한 기술적인 정보를 제공받으려면 여기를 확인해주세요. 이 정보는 저희가 사용자들을 잘 이해할 수 있고 더 나은 제품들을 만들수 있도록 도와줍니다. 이 정보는 저희 개인정보보호정책에 준"
+"거하여 보관될 것입니다. "
 
-#: fjord/feedback/templates/feedback/picker.html:3
+#: fjord/feedback/jinja2/feedback/picker.html:3
 #, fuzzy
 msgid "Select A Product"
 msgstr "제품 이름:"
 
-#: fjord/feedback/templates/feedback/picker.html:14
+#: fjord/feedback/jinja2/feedback/picker.html:14
 msgid "Select a product"
 msgstr "제품 이름:"
 
-#: fjord/feedback/templates/feedback/picker.html:23
+#: fjord/feedback/jinja2/feedback/picker.html:23
 #, fuzzy
 msgid "No products available."
 msgstr "현황판 없음"
 
-#: fjord/feedback/templates/feedback/picker.html:34
+#: fjord/feedback/jinja2/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
 msgstr "의견을 남기실 제품을 선택하세요."
 
-#: fjord/feedback/templates/feedback/thanks.html:3
+#: fjord/feedback/jinja2/feedback/thanks.html:3
 msgid "Thanks"
 msgstr "감사합니다!"
 
-#: fjord/feedback/templates/feedback/thanks.html:16
+#: fjord/feedback/jinja2/feedback/thanks.html:16
 msgid "Thanks for Your Feedback"
 msgstr "의견 주셔서 감사합니다."
 
-#: fjord/feedback/templates/feedback/thanks.html:25
+#: fjord/feedback/jinja2/feedback/thanks.html:25
 #, fuzzy
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "여러분의 의견을 토대로 더 나은 경험을 줄 수 있는 Firefox를 만들 수 있습니다."
 
-#: fjord/feedback/templates/feedback/thanks.html:33
+#: fjord/feedback/jinja2/feedback/thanks.html:33
 #, fuzzy
 msgid "Suggestions from your feedback:"
 msgstr "의견을 공유해주세요."
 
-#: fjord/feedback/templates/feedback/thanks.html:49
+#: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
 msgstr "문제가 있나요? 도움받으세요!"
 
-#: fjord/feedback/templates/feedback/thanks.html:51
+#: fjord/feedback/jinja2/feedback/thanks.html:51
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr ""
 
-#: fjord/feedback/templates/feedback/thanks.html:64
+#: fjord/feedback/jinja2/feedback/thanks.html:64
 msgid "Shape the future of Firefox."
 msgstr "Firefox 최근 소식 보기."
 
-#: fjord/feedback/templates/feedback/thanks.html:66
+#: fjord/feedback/jinja2/feedback/thanks.html:66
 #, fuzzy
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr "<a href=\"%(download_url)s\">현재 버전</a>을 다운로드합니다."
 
-#: fjord/feedback/templates/feedback/thanks.html:74
+#: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
 msgstr "Mozilla에 공헌하기"
 
-#: fjord/feedback/templates/feedback/thanks.html:76
+#: fjord/feedback/jinja2/feedback/thanks.html:76
 #, fuzzy
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox와 Mozilla</a>에 도움 주는 방법"
 
-#: fjord/feedback/templates/feedback/thanks.html:84
+#: fjord/feedback/jinja2/feedback/thanks.html:84
 msgid "Find the latest news about %(product)s."
 msgstr "%(product)s의 최근 소식을 찾습니다."
 
-#: fjord/feedback/templates/feedback/mobile/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Firefox를 다운로드 해주십시오!"
 
