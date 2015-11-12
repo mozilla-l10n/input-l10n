@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-05 06:50-0700\n"
+"Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
+"POT-Creation-Date: 2015-11-12 12:14-0800\n"
 "PO-Revision-Date: 2015-10-12 02:25+0000\n"
 "Last-Translator: r4k0nb4k0n <chj6097@gmail.com>\n"
 "Language-Team: Korean\n"
@@ -26,13 +26,13 @@ msgstr "Firefox 사용자 평가"
 msgid "Search Results From Firefox Input"
 msgstr "Firefox 사용자 평가 검색 결과"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:351
 msgid "Happy"
 msgstr "행복"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:352
 msgid "Sad"
 msgstr "슬픔"
 
@@ -40,31 +40,31 @@ msgstr "슬픔"
 msgid "Response id: {id}"
 msgstr "응답 아이디: {id}"
 
-#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
 msgid "Unknown"
 msgstr "알 수 없음"
 
-#: fjord/analytics/views.py:343
+#: fjord/analytics/views.py:344
 msgid "Sentiment"
 msgstr "느낌"
 
-#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
+#: fjord/analytics/views.py:351 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "제품 이름:"
 
-#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
+#: fjord/analytics/views.py:362 fjord/analytics/views.py:368 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "버전:"
 
-#: fjord/analytics/views.py:368
+#: fjord/analytics/views.py:369
 msgid "Select product to see version breakdown"
 msgstr ""
 
-#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
+#: fjord/analytics/views.py:377 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "플랫폼"
 
-#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
+#: fjord/analytics/views.py:383 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "언어별"
 
@@ -254,6 +254,35 @@ msgstr "주의: 모든 날짜와 시간은 태평양 표준시로 표시됩니�
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "대시보드는 아직 모바일 기기에서 사용할 수 없습니다."
 
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:19
+msgid "Firefox"
+msgstr "Firefox"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:21
+#, fuzzy
+msgid "Firefox for Android"
+msgstr "Firefox 로고"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:23
+#, fuzzy
+msgid "Firefox OS"
+msgstr "Firefox"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:25
+#, fuzzy
+msgid "Firefox Developer"
+msgstr "Firefox 로고"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:27
+#, fuzzy
+msgid "Firefox for iOS"
+msgstr "Firefox 로고"
+
 #: fjord/base/models.py:22
 msgid "List of values"
 msgstr ""
@@ -324,6 +353,7 @@ msgstr ""
 "견을 보내 주십시오."
 
 #: fjord/base/jinja2/about.html:21
+#, python-format
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "Mozilla 제품에 대한 의견을 보내려면 <a href=\"%(url)s\">의견 보내기</a>를 이용해 주십시오!"
 
@@ -332,6 +362,7 @@ msgid "Privacy Policy"
 msgstr "개인 정보 정책"
 
 #: fjord/base/jinja2/about.html:29
+#, python-format
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "우리는 <a href=\"%(url)s\">Mozilla 개인정보 보호정책</a>을 준수합니다."
 
@@ -340,6 +371,7 @@ msgid "Legal Disclaimers and Limitations"
 msgstr "법적 고지와 한계"
 
 #: fjord/base/jinja2/about.html:36
+#, python-format
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr "우리는 <a href=\"%(url)s\">Mozilla 법적 고지와 한계</a> 문서를 준수합니다."
 
@@ -376,6 +408,7 @@ msgid "Source Code"
 msgstr "소스 코드"
 
 #: fjord/base/jinja2/about.html:76
+#, python-format
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Firefox Input의 소스 코드는 <a href=\"%(url)s\">GitHub</a>에서 보실 수 있습니다!"
 
@@ -440,7 +473,7 @@ msgid "Report Trademark Abuse"
 msgstr "상표권 침해 신고"
 
 #: fjord/base/jinja2/includes/common.html:26
-#, fuzzy
+#, fuzzy, python-format
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
@@ -471,55 +504,55 @@ msgstr ""
 msgid "Continue"
 msgstr "계속"
 
-#: fjord/feedback/config.py:10
+#: fjord/feedback/config.py:21
 msgid "Colombia"
 msgstr "콜롬비아"
 
-#: fjord/feedback/config.py:11
+#: fjord/feedback/config.py:22
 msgid "Venezuela"
 msgstr "베네주엘라"
 
-#: fjord/feedback/config.py:12
+#: fjord/feedback/config.py:23
 msgid "Poland"
 msgstr "폴란드"
 
-#: fjord/feedback/config.py:13
+#: fjord/feedback/config.py:24
 msgid "Spain"
 msgstr "스페인"
 
-#: fjord/feedback/config.py:14
+#: fjord/feedback/config.py:25
 msgid "Brazil"
 msgstr "브라질"
 
-#: fjord/feedback/config.py:15
+#: fjord/feedback/config.py:26
 msgid "Germany"
 msgstr "독일"
 
-#: fjord/feedback/config.py:16
+#: fjord/feedback/config.py:27
 msgid "Greece"
 msgstr "그리스"
 
-#: fjord/feedback/config.py:17
+#: fjord/feedback/config.py:28
 msgid "Hungary"
 msgstr "헝가리"
 
-#: fjord/feedback/config.py:18
+#: fjord/feedback/config.py:29
 msgid "Serbia"
 msgstr "세르비아"
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:30
 msgid "Montenegro"
 msgstr "몬테네그로"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:31
 msgid "Mexico"
 msgstr "멕시코"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:32
 msgid "Peru"
 msgstr "페루"
 
-#: fjord/feedback/config.py:22
+#: fjord/feedback/config.py:33
 msgid "Uruguay"
 msgstr "우루과이"
 
@@ -536,6 +569,7 @@ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll n
 msgstr "Firefox 에 대한 의견을 제공해 주셔서 감사합니다. 제안 사항은 다음 번 출시에서 확인해 주십시오."
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "다운로드 페이지에서 최신 <a href=\"%(url)s\">Firefox 정식</a>버전을 받아 설치 및 업데이트 하시기 바랍니다."
 
@@ -557,15 +591,17 @@ msgid "Your feedback helps us improve Firefox OS."
 msgstr "여러분의 의견이 Firefox OS를 더 멋지게 만듭니다."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
+#, python-format
 msgid "%(product)s makes me happy"
 msgstr "%(product)s 너무 좋아요!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
-#, fuzzy
+#, fuzzy, python-format
 msgid "%(product)s makes me sad"
 msgstr "메시지 %(count)s개"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
+#, python-format
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "당신이 의견을 낼 제품이 %(product)s 아니에요?<br /> <a href=\"%(url)s\">다른 제품을 고르세요.</a>."
 
@@ -633,6 +669,7 @@ msgid "Thank you for your feedback! We will use it to help us create a better ex
 msgstr "의견 주셔서 감사합니다. 더 나은 다음 버전의 Firefox OS 개발에 도움이 될 것입니다."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
+#, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox OS와 Mozilla</a>에 도움 주는 방법을 살펴보세요."
 
@@ -657,6 +694,7 @@ msgid "You have unsubmitted feedback data. Would you like to try submitting it a
 msgstr "전송되지 않은 의견이 있습니다. 다시 보내시겠습니까?"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
+#, python-format
 msgid "How does %(product)s make you feel?"
 msgstr ""
 
@@ -695,7 +733,7 @@ msgid "Thanks for Your Feedback"
 msgstr "의견 주셔서 감사합니다."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
-#, fuzzy
+#, fuzzy, python-format
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "여러분의 의견을 토대로 더 나은 경험을 줄 수 있는 Firefox를 만들 수 있습니다."
 
@@ -709,6 +747,7 @@ msgid "Having problems? Get help."
 msgstr "문제가 있나요? 도움받으세요!"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
+#, python-format
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr ""
 
@@ -717,7 +756,7 @@ msgid "Shape the future of Firefox."
 msgstr "Firefox 최근 소식 보기."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
-#, fuzzy
+#, fuzzy, python-format
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr "<a href=\"%(download_url)s\">현재 버전</a>을 다운로드합니다."
 
@@ -726,11 +765,12 @@ msgid "Contribute to Mozilla."
 msgstr "Mozilla에 공헌하기"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
-#, fuzzy
+#, fuzzy, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox와 Mozilla</a>에 도움 주는 방법"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
+#, python-format
 msgid "Find the latest news about %(product)s."
 msgstr "%(product)s의 최근 소식을 찾습니다."
 
@@ -969,9 +1009,6 @@ msgstr "저희 서포트 포럼에 질문을 올리세요."
 #~ msgid "Firefox makes me sad because ..."
 #~ msgstr "Firefox가 좋지 않은 이유..."
 
-#~ msgid "Firefox Logo"
-#~ msgstr "Firefox 로고"
-
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "Firefox 사용에 문제가 있으시면 <a href=\"%(support_url)s\">사용자 지원</a>페이지를 참고하십시오."
 
@@ -1112,9 +1149,6 @@ msgstr "저희 서포트 포럼에 질문을 올리세요."
 
 #~ msgid "Broken Website"
 #~ msgstr "문제 웹 사이트"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
 
 #~ msgid "Mobile"
 #~ msgstr "모바일"

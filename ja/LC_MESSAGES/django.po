@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-05 06:50-0700\n"
+"Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
+"POT-Creation-Date: 2015-11-12 12:14-0800\n"
 "PO-Revision-Date: 2015-10-14 14:54-0700\n"
 "Last-Translator: Kohei Yoshino <kohei.yoshino@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -26,13 +26,13 @@ msgstr "Firefox Input"
 msgid "Search Results From Firefox Input"
 msgstr "Firefox Input からの検索結果"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:351
 msgid "Happy"
 msgstr "良いところ"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:352
 msgid "Sad"
 msgstr "悪いところ"
 
@@ -40,31 +40,31 @@ msgstr "悪いところ"
 msgid "Response id: {id}"
 msgstr "レスポンス ID: {id}"
 
-#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
 msgid "Unknown"
 msgstr "不明"
 
-#: fjord/analytics/views.py:343
+#: fjord/analytics/views.py:344
 msgid "Sentiment"
 msgstr "評価"
 
-#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
+#: fjord/analytics/views.py:351 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "製品"
 
-#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
+#: fjord/analytics/views.py:362 fjord/analytics/views.py:368 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "バージョン"
 
-#: fjord/analytics/views.py:368
+#: fjord/analytics/views.py:369
 msgid "Select product to see version breakdown"
 msgstr "バージョンの詳細を見る製品を選択"
 
-#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
+#: fjord/analytics/views.py:377 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "プラットフォーム"
 
-#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
+#: fjord/analytics/views.py:383 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "言語"
 
@@ -255,6 +255,34 @@ msgstr "注記: 日付と時刻はすべて太平洋標準時で表示されて�
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "モバイル端末では、まだダッシュボードを利用できません。"
 
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:19
+#, fuzzy
+msgid "Firefox"
+msgstr "Firefox Input"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:21
+msgid "Firefox for Android"
+msgstr ""
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:23
+#, fuzzy
+msgid "Firefox OS"
+msgstr "Firefox Input"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:25
+#, fuzzy
+msgid "Firefox Developer"
+msgstr "Firefox Input"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:27
+msgid "Firefox for iOS"
+msgstr ""
+
 #: fjord/base/models.py:22
 msgid "List of values"
 msgstr "値のリスト"
@@ -324,6 +352,7 @@ msgstr ""
 "見を投稿できる一方向のコミュニケーション手段として用意されています。このシステムは様々な投稿方法や製品ビルドを通じて利用可能となっています。"
 
 #: fjord/base/jinja2/about.html:21
+#, python-format
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "Mozilla 製品へのフィードバック送信は、こちらの <a href=\"%(url)s\">フィードバック投稿ページ</a> からお願いします！"
 
@@ -332,6 +361,7 @@ msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
 #: fjord/base/jinja2/about.html:29
+#, python-format
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "私たちは <a href=\"%(url)s\">Mozilla プライバシーポリシー</a> を遵守しています。"
 
@@ -340,6 +370,7 @@ msgid "Legal Disclaimers and Limitations"
 msgstr "法的免責事項と責任制限"
 
 #: fjord/base/jinja2/about.html:36
+#, python-format
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr "当サイトには <a href=\"%(url)s\">Mozilla 法的免責事項と責任制限</a> ドキュメントが適用されます。"
 
@@ -374,6 +405,7 @@ msgid "Source Code"
 msgstr "ソースコード"
 
 #: fjord/base/jinja2/about.html:76
+#, python-format
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Firefox Input サイトのコードは <a href=\"%(url)s\">GitHub</a> にあります！"
 
@@ -438,6 +470,7 @@ msgid "Report Trademark Abuse"
 msgstr "商標の不正利用を報告"
 
 #: fjord/base/jinja2/includes/common.html:26
+#, python-format
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
@@ -469,55 +502,55 @@ msgstr "今 Persona へログインしたあなたのアカウントは Input �
 msgid "Continue"
 msgstr "続ける"
 
-#: fjord/feedback/config.py:10
+#: fjord/feedback/config.py:21
 msgid "Colombia"
 msgstr "コロンビア"
 
-#: fjord/feedback/config.py:11
+#: fjord/feedback/config.py:22
 msgid "Venezuela"
 msgstr "ベネズエラ"
 
-#: fjord/feedback/config.py:12
+#: fjord/feedback/config.py:23
 msgid "Poland"
 msgstr "ポーランド"
 
-#: fjord/feedback/config.py:13
+#: fjord/feedback/config.py:24
 msgid "Spain"
 msgstr "スペイン"
 
-#: fjord/feedback/config.py:14
+#: fjord/feedback/config.py:25
 msgid "Brazil"
 msgstr "ブラジル"
 
-#: fjord/feedback/config.py:15
+#: fjord/feedback/config.py:26
 msgid "Germany"
 msgstr "ドイツ"
 
-#: fjord/feedback/config.py:16
+#: fjord/feedback/config.py:27
 msgid "Greece"
 msgstr "ギリシャ"
 
-#: fjord/feedback/config.py:17
+#: fjord/feedback/config.py:28
 msgid "Hungary"
 msgstr "ハンガリー"
 
-#: fjord/feedback/config.py:18
+#: fjord/feedback/config.py:29
 msgid "Serbia"
 msgstr "セルビア"
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:30
 msgid "Montenegro"
 msgstr "モンテネグロ"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:31
 msgid "Mexico"
 msgstr "メキシコ"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:32
 msgid "Peru"
 msgstr "ペルー"
 
-#: fjord/feedback/config.py:22
+#: fjord/feedback/config.py:33
 msgid "Uruguay"
 msgstr "ウルグアイ"
 
@@ -534,6 +567,7 @@ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll n
 msgstr "ありがとうございます。Firefox についての意見をお持ちの場合は、最新バージョンの Firefox からフィードバックを送信してください。"
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "そのためには、ダウンロードページから <a href=\"%(url)s\">最新バージョンの Firefox をダウンロード</a> してインストールしてください！"
 
@@ -555,14 +589,17 @@ msgid "Your feedback helps us improve Firefox OS."
 msgstr "あなたのフィードバックが Firefox OS の改善に役立ちます。"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
+#, python-format
 msgid "%(product)s makes me happy"
 msgstr "%(product)s を使って良かった"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
+#, python-format
 msgid "%(product)s makes me sad"
 msgstr "%(product)s を使って問題があった"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
+#, python-format
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "あなたがフィードバックを提供したい製品は %(product)s ではありませんか？<br />それなら <a href=\"%(url)s\">別の製品を選択してください</a>。"
 
@@ -627,6 +664,7 @@ msgstr "フィードバックありがとうございます。あなたのフィ
 
 # http://mozilla.org/contribute/
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
+#, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">Firefox OS と Mozilla をより良くするために</a> あなたにもできることがあります。"
 
@@ -651,6 +689,7 @@ msgid "You have unsubmitted feedback data. Would you like to try submitting it a
 msgstr "フィードバックデータを送信しませんでした。再度送信してみますか？"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
+#, python-format
 msgid "How does %(product)s make you feel?"
 msgstr "%(product)s を使った感想は？"
 
@@ -688,6 +727,7 @@ msgstr "フィードバックありがとうございます"
 
 # 上下に分割されている個所
 #: fjord/feedback/jinja2/feedback/thanks.html:25
+#, python-format
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "お寄せいただいたフィードバックは、今後 %(product)s のユーザ体験を改善するために役立てられます。"
 
@@ -700,6 +740,7 @@ msgid "Having problems? Get help."
 msgstr "何か問題を抱えていますか？ それならサポートを頼りましょう。"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
+#, python-format
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "サポートフォーラムを訪れて、<a href=\"%(url)s\">他のユーザの助けを得て答えを見つけてください</a>。"
 
@@ -710,6 +751,7 @@ msgstr "未来の Firefox を共に作りましょう。"
 
 # http://www.mozilla.org/firefox/channel へのリンク
 #: fjord/feedback/jinja2/feedback/thanks.html:66
+#, python-format
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr "<a href=\"%(download_url)s\">あなたに最適な Firefox のバージョン</a> をダウンロードできます。"
 
@@ -719,10 +761,12 @@ msgstr "Mozilla に貢献しよう。"
 
 # http://mozilla.org/contribute/
 #: fjord/feedback/jinja2/feedback/thanks.html:76
+#, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr "<a href=\"%(url)s\">%(product)s と Mozilla をより良くするために</a> あなたにもできることがあります。"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
+#, python-format
 msgid "Find the latest news about %(product)s."
 msgstr "%(product)s についての最新情報はこちら。"
 

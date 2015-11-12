@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-05 06:50-0700\n"
+"Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
+"POT-Creation-Date: 2015-11-12 12:14-0800\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en_US\n"
@@ -25,13 +25,13 @@ msgstr "Firefox Input"
 msgid "Search Results From Firefox Input"
 msgstr "Search Results in Firefox Beta Feedback."
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:351
 msgid "Happy"
 msgstr "Happy"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:352
 msgid "Sad"
 msgstr "Sad"
 
@@ -39,35 +39,35 @@ msgstr "Sad"
 msgid "Response id: {id}"
 msgstr "Response id: {id}"
 
-#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
 #, fuzzy
 msgid "Unknown"
 msgstr "unknown"
 
-#: fjord/analytics/views.py:343
+#: fjord/analytics/views.py:344
 #, fuzzy
 msgid "Sentiment"
 msgstr "Sentiment:"
 
-#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
+#: fjord/analytics/views.py:351 fjord/analytics/jinja2/analytics/response.html:111
 #, fuzzy
 msgid "Product"
 msgstr "Product:"
 
-#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
+#: fjord/analytics/views.py:362 fjord/analytics/views.py:368 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "Version"
 
-#: fjord/analytics/views.py:368
+#: fjord/analytics/views.py:369
 #, fuzzy
 msgid "Select product to see version breakdown"
 msgstr "Select product to see version facet"
 
-#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
+#: fjord/analytics/views.py:377 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "Platform"
 
-#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
+#: fjord/analytics/views.py:383 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "Locale"
 
@@ -272,6 +272,34 @@ msgstr "Note: All dates and times are in Pacific Time."
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Dashboard is not available on mobile devices, yet."
 
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:19
+msgid "Firefox"
+msgstr "Firefox"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:21
+msgid "Firefox for Android"
+msgstr "Firefox for Android"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:23
+#, fuzzy
+msgid "Firefox OS"
+msgstr "Firefox"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:25
+#, fuzzy
+msgid "Firefox Developer"
+msgstr "Firefox Input"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:27
+#, fuzzy
+msgid "Firefox for iOS"
+msgstr "Firefox"
+
 #: fjord/base/models.py:22
 msgid "List of values"
 msgstr "List of values"
@@ -348,7 +376,7 @@ msgstr ""
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms over all three major channels of builds."
 
 #: fjord/base/jinja2/about.html:21
-#, fuzzy
+#, fuzzy, python-format
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "To submit feedback for your version of Firefox, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 
@@ -357,6 +385,7 @@ msgid "Privacy Policy"
 msgstr "Privacy Policy"
 
 #: fjord/base/jinja2/about.html:29
+#, python-format
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 
@@ -365,6 +394,7 @@ msgid "Legal Disclaimers and Limitations"
 msgstr "Legal Disclaimers and Limitations"
 
 #: fjord/base/jinja2/about.html:36
+#, python-format
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 
@@ -403,7 +433,7 @@ msgid "Source Code"
 msgstr "Source Code"
 
 #: fjord/base/jinja2/about.html:76
-#, fuzzy
+#, fuzzy, python-format
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "The code for the Firefox Input web application can be <a href=\"%(url)s\">found on GitHub</a>!"
 
@@ -471,7 +501,7 @@ msgid "Report Trademark Abuse"
 msgstr "Report Trademark Abuse"
 
 #: fjord/base/jinja2/includes/common.html:26
-#, fuzzy
+#, fuzzy, python-format
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
@@ -505,56 +535,56 @@ msgstr "The identity you just logged into Persona with ties you to your account 
 msgid "Continue"
 msgstr "Context"
 
-#: fjord/feedback/config.py:10
+#: fjord/feedback/config.py:21
 msgid "Colombia"
 msgstr "Colombia"
 
-#: fjord/feedback/config.py:11
+#: fjord/feedback/config.py:22
 msgid "Venezuela"
 msgstr "Venezuela"
 
-#: fjord/feedback/config.py:12
+#: fjord/feedback/config.py:23
 msgid "Poland"
 msgstr "Poland"
 
-#: fjord/feedback/config.py:13
+#: fjord/feedback/config.py:24
 msgid "Spain"
 msgstr "Spain"
 
-#: fjord/feedback/config.py:14
+#: fjord/feedback/config.py:25
 msgid "Brazil"
 msgstr "Brazil"
 
-#: fjord/feedback/config.py:15
+#: fjord/feedback/config.py:26
 #, fuzzy
 msgid "Germany"
 msgstr "Permalink"
 
-#: fjord/feedback/config.py:16
+#: fjord/feedback/config.py:27
 msgid "Greece"
 msgstr "Greece"
 
-#: fjord/feedback/config.py:17
+#: fjord/feedback/config.py:28
 msgid "Hungary"
 msgstr "Hungary"
 
-#: fjord/feedback/config.py:18
+#: fjord/feedback/config.py:29
 msgid "Serbia"
 msgstr "Serbia"
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:30
 msgid "Montenegro"
 msgstr "Montenegro"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:31
 msgid "Mexico"
 msgstr "Mexico"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:32
 msgid "Peru"
 msgstr "Peru"
 
-#: fjord/feedback/config.py:22
+#: fjord/feedback/config.py:33
 msgid "Uruguay"
 msgstr "Uruguay"
 
@@ -573,7 +603,7 @@ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll n
 msgstr "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
-#, fuzzy
+#, fuzzy, python-format
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 
@@ -597,16 +627,17 @@ msgid "Your feedback helps us improve Firefox OS."
 msgstr "Your feedback helps us improve Firefox."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
-#, fuzzy
+#, fuzzy, python-format
 msgid "%(product)s makes me happy"
 msgstr "Firefox makes me happy ..."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
-#, fuzzy
+#, fuzzy, python-format
 msgid "%(product)s makes me sad"
 msgstr "%(count)s message"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
+#, python-format
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 
@@ -676,7 +707,7 @@ msgid "Thank you for your feedback! We will use it to help us create a better ex
 msgstr "Your feedback will be used to create a better experience in future releases of Firefox."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
-#, fuzzy
+#, fuzzy, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
 
@@ -701,6 +732,7 @@ msgid "You have unsubmitted feedback data. Would you like to try submitting it a
 msgstr "You have unsubmitted feedback data. Would you like to try submitting it again?"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
+#, python-format
 msgid "How does %(product)s make you feel?"
 msgstr "How does %(product)s make you feel?"
 
@@ -740,7 +772,7 @@ msgid "Thanks for Your Feedback"
 msgstr "Thanks for Your Feedback"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
-#, fuzzy
+#, fuzzy, python-format
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "Your feedback will be used to create a better experience in future releases of Firefox."
 
@@ -754,6 +786,7 @@ msgid "Having problems? Get help."
 msgstr "Having problems? Get help."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
+#, python-format
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 
@@ -763,7 +796,7 @@ msgid "Shape the future of Firefox."
 msgstr "Find out the latest news from Mozilla:"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
-#, fuzzy
+#, fuzzy, python-format
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 
@@ -773,12 +806,12 @@ msgid "Contribute to Mozilla."
 msgstr "Planet Mozilla"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
-#, fuzzy
+#, fuzzy, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
-#, fuzzy
+#, fuzzy, python-format
 msgid "Find the latest news about %(product)s."
 msgstr "Find out the latest news from Mozilla:"
 
@@ -1238,9 +1271,6 @@ msgstr "Ask a question in our support forum"
 
 #~ msgid "Broken Website"
 #~ msgstr "Broken Website"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
 
 #~ msgid "Mobile"
 #~ msgstr "Mobile"

@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-05 06:50-0700\n"
+"Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
+"POT-Creation-Date: 2015-11-12 12:14-0800\n"
 "PO-Revision-Date: 2015-09-14 17:51+0000\n"
 "Last-Translator: YFdyh000 <yfdyh000@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,13 +27,13 @@ msgstr "Firefox Input"
 msgid "Search Results From Firefox Input"
 msgstr "Firefox Input 的搜索结果"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:345
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:351
 msgid "Happy"
 msgstr "开心"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:344 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:346
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:352
 msgid "Sad"
 msgstr "不满"
 
@@ -41,31 +41,31 @@ msgstr "不满"
 msgid "Response id: {id}"
 msgstr "响应 ID: {id}"
 
-#: fjord/analytics/views.py:337 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
 msgid "Unknown"
 msgstr "未知"
 
-#: fjord/analytics/views.py:343
+#: fjord/analytics/views.py:344
 msgid "Sentiment"
 msgstr "心情"
 
-#: fjord/analytics/views.py:350 fjord/analytics/jinja2/analytics/response.html:111
+#: fjord/analytics/views.py:351 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "产品"
 
-#: fjord/analytics/views.py:361 fjord/analytics/views.py:367 fjord/analytics/jinja2/analytics/response.html:115
+#: fjord/analytics/views.py:362 fjord/analytics/views.py:368 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "版本"
 
-#: fjord/analytics/views.py:368
+#: fjord/analytics/views.py:369
 msgid "Select product to see version breakdown"
 msgstr "选择产品以查看版本概要"
 
-#: fjord/analytics/views.py:376 fjord/analytics/jinja2/analytics/response.html:99
+#: fjord/analytics/views.py:377 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "平台"
 
-#: fjord/analytics/views.py:382 fjord/analytics/jinja2/analytics/response.html:105
+#: fjord/analytics/views.py:383 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "地区语言"
 
@@ -255,6 +255,35 @@ msgstr "提示：所有日期和时间都基于太平洋时间。"
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "仪表盘目前不能在移动设备上使用。"
 
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:19
+msgid "Firefox"
+msgstr "Firefox"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:21
+#, fuzzy
+msgid "Firefox for Android"
+msgstr "Firefox 标志"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:23
+#, fuzzy
+msgid "Firefox OS"
+msgstr "Firefox"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:25
+#, fuzzy
+msgid "Firefox Developer"
+msgstr "Firefox 标志"
+
+#. l10n: This is a product name
+#: fjord/base/db_strings.py:27
+#, fuzzy
+msgid "Firefox for iOS"
+msgstr "Firefox 标志"
+
 #: fjord/base/models.py:22
 msgid "List of values"
 msgstr "值的列表"
@@ -324,6 +353,7 @@ msgstr ""
 "品之上。"
 
 #: fjord/base/jinja2/about.html:21
+#, python-format
 msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
 msgstr "要针对 Mozilla 的某一产品提交反馈，请到<a href=\"%(url)s\">反馈提交页面</a>！"
 
@@ -332,6 +362,7 @@ msgid "Privacy Policy"
 msgstr "隐私政策"
 
 #: fjord/base/jinja2/about.html:29
+#, python-format
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
 msgstr "我们遵守 <a href=\"%(url)s\">Mozilla 隐私政策</a>。"
 
@@ -340,6 +371,7 @@ msgid "Legal Disclaimers and Limitations"
 msgstr "法律免责声明和限制范围"
 
 #: fjord/base/jinja2/about.html:36
+#, python-format
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
 msgstr "我们受 <a href=\"%(url)s\">Mozilla 法律免责声明和限制范围</a>文件的保护。"
 
@@ -374,6 +406,7 @@ msgid "Source Code"
 msgstr "源代码"
 
 #: fjord/base/jinja2/about.html:76
+#, python-format
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
 msgstr "Firefox Input 网站的代码可以在 <a href=\"%(url)s\">GitHub</a> 上找到！"
 
@@ -438,6 +471,7 @@ msgid "Report Trademark Abuse"
 msgstr "举报商标滥用"
 
 #: fjord/base/jinja2/includes/common.html:26
+#, python-format
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
@@ -467,55 +501,55 @@ msgstr "您只需在 Input 上用 Persona 登录到您的身份。请记住您�
 msgid "Continue"
 msgstr "继续"
 
-#: fjord/feedback/config.py:10
+#: fjord/feedback/config.py:21
 msgid "Colombia"
 msgstr "哥伦比亚"
 
-#: fjord/feedback/config.py:11
+#: fjord/feedback/config.py:22
 msgid "Venezuela"
 msgstr "委内瑞拉"
 
-#: fjord/feedback/config.py:12
+#: fjord/feedback/config.py:23
 msgid "Poland"
 msgstr "波兰"
 
-#: fjord/feedback/config.py:13
+#: fjord/feedback/config.py:24
 msgid "Spain"
 msgstr "西班牙"
 
-#: fjord/feedback/config.py:14
+#: fjord/feedback/config.py:25
 msgid "Brazil"
 msgstr "巴西"
 
-#: fjord/feedback/config.py:15
+#: fjord/feedback/config.py:26
 msgid "Germany"
 msgstr "德国"
 
-#: fjord/feedback/config.py:16
+#: fjord/feedback/config.py:27
 msgid "Greece"
 msgstr "希腊"
 
-#: fjord/feedback/config.py:17
+#: fjord/feedback/config.py:28
 msgid "Hungary"
 msgstr "匈牙利"
 
-#: fjord/feedback/config.py:18
+#: fjord/feedback/config.py:29
 msgid "Serbia"
 msgstr "塞尔维亚"
 
-#: fjord/feedback/config.py:19
+#: fjord/feedback/config.py:30
 msgid "Montenegro"
 msgstr "黑山"
 
-#: fjord/feedback/config.py:20
+#: fjord/feedback/config.py:31
 msgid "Mexico"
 msgstr "墨西哥"
 
-#: fjord/feedback/config.py:21
+#: fjord/feedback/config.py:32
 msgid "Peru"
 msgstr "秘鲁"
 
-#: fjord/feedback/config.py:22
+#: fjord/feedback/config.py:33
 msgid "Uruguay"
 msgstr "乌拉圭"
 
@@ -532,6 +566,7 @@ msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll n
 msgstr "噢！看来您想要对 Firefox 提供反馈。感谢您的支持，但您需要使用最新版本才能反馈。"
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
 msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr "您只需访问我们的下载页面，并安装或更新至 <a href=\"%(url)s\">Firefox 最新版本！</a>"
 
@@ -552,14 +587,17 @@ msgid "Your feedback helps us improve Firefox OS."
 msgstr "您的反馈可以帮助我们改进 Firefox OS。"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
+#, python-format
 msgid "%(product)s makes me happy"
 msgstr "%(product)s 让我高兴"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
+#, python-format
 msgid "%(product)s makes me sad"
 msgstr "%(product)s 让我不满"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
+#, python-format
 msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr "%(product)s 不是您想提出意见的产品？<br /> <a href=\"%(url)s\">选择另一个产品</a>。"
 
@@ -622,6 +660,7 @@ msgid "Thank you for your feedback! We will use it to help us create a better ex
 msgstr "感谢您的反馈！您的反馈将被用来在未来的 Firefox OS 版本中打造更优秀的用户体验。"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
+#, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr "了解您能怎样 <a href=\"%(url)s\">让 Firefox OS 和 Mozilla 变得更好</a>。"
 
@@ -646,6 +685,7 @@ msgid "You have unsubmitted feedback data. Would you like to try submitting it a
 msgstr "您有尚未提交的反馈数据，现在尝试再次提交吗？"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
+#, python-format
 msgid "How does %(product)s make you feel?"
 msgstr "%(product)s 给您的感觉如何？"
 
@@ -680,6 +720,7 @@ msgid "Thanks for Your Feedback"
 msgstr "感谢您的反馈"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
+#, python-format
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
 msgstr "您的反馈将被用来在未来的 %(product)s 中打造更优秀的用户体验。"
 
@@ -692,6 +733,7 @@ msgid "Having problems? Get help."
 msgstr "遇到问题？取得帮助。"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
+#, python-format
 msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
 msgstr "请到我们的技术支持论坛<a href=\"%(url)s\">寻找答案并获得帮助</a>。"
 
@@ -700,6 +742,7 @@ msgid "Shape the future of Firefox."
 msgstr "塑造 Firefox 的未来。"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
+#, python-format
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr "下载<a href=\"%(download_url)s\">适合您的 Firefox 版本</a>。"
 
@@ -708,10 +751,12 @@ msgid "Contribute to Mozilla."
 msgstr "贡献给 Mozilla。"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
+#, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr "了解您能怎样 <a href=\"%(url)s\">让 %(product)s 和 Mozilla 变得更好</a>。"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
+#, python-format
 msgid "Find the latest news about %(product)s."
 msgstr "查看有关 %(product)s 的最新消息。"
 
@@ -961,9 +1006,6 @@ msgstr "在我们的支持论坛中提问"
 #~ msgid "Firefox makes me sad because ..."
 #~ msgstr "Firefox 让我难过，因为..."
 
-#~ msgid "Firefox Logo"
-#~ msgstr "Firefox 标志"
-
 #~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
 #~ msgstr "如果您需要帮助或者有什么 Firefox 的问题，请访问我们的 <a href=\"%(support_url)s\">技术支持页面</a>。"
 
@@ -1101,9 +1143,6 @@ msgstr "在我们的支持论坛中提问"
 
 #~ msgid "Broken Website"
 #~ msgstr "坏掉的网站"
-
-#~ msgid "Firefox"
-#~ msgstr "Firefox"
 
 #~ msgid "Mobile"
 #~ msgstr "移动版"
