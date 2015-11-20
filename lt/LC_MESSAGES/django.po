@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-12 12:14-0800\n"
+"POT-Creation-Date: 2015-11-20 07:28-0800\n"
 "PO-Revision-Date: 2015-06-07 11:32+0000\n"
 "Last-Translator: Marius <marius.gricius@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,12 +27,12 @@ msgid "Search Results From Firefox Input"
 msgstr "„Firefox“ atsiliepimų paieškos rezultatai"
 
 #: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:351
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:356
 msgid "Happy"
 msgstr "Nudžiugino"
 
 #: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:352
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:357
 msgid "Sad"
 msgstr "Nuliūdino"
 
@@ -254,34 +254,6 @@ msgstr "Pastaba: visos datos ir laikai yra Ramiojo vandenyno laiko juostoje."
 #: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Skydelis kol kas neveikia mobiliuosiuose įrenginiuose."
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:19
-#, fuzzy
-msgid "Firefox"
-msgstr "„Firefox“ atsiliepimai"
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:21
-msgid "Firefox for Android"
-msgstr ""
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:23
-#, fuzzy
-msgid "Firefox OS"
-msgstr "„Firefox“ atsiliepimai"
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:25
-#, fuzzy
-msgid "Firefox Developer"
-msgstr "„Firefox“ atsiliepimai"
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:27
-msgid "Firefox for iOS"
-msgstr ""
 
 #: fjord/base/models.py:22
 msgid "List of values"
@@ -558,6 +530,40 @@ msgstr "Peru"
 #: fjord/feedback/config.py:33
 msgid "Uruguay"
 msgstr "Urugvajus"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:19
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox"
+msgstr "„Firefox“ atsiliepimai"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:21
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox for Android"
+msgstr ""
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:23
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox OS"
+msgstr "„Firefox“ atsiliepimai"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:25
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox Developer"
+msgstr "„Firefox“ atsiliepimai"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:27
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox for iOS"
+msgstr "„Firefox“ atsiliepimai"
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"

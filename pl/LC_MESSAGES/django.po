@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-12 12:14-0800\n"
+"POT-Creation-Date: 2015-11-20 07:28-0800\n"
 "PO-Revision-Date: 2015-09-28 22:35+0000\n"
 "Last-Translator: Leszek <leszekz@gmail.com>\n"
 "Language-Team: PL <leszekz@gmail.com>\n"
@@ -27,12 +27,12 @@ msgid "Search Results From Firefox Input"
 msgstr "Wyniki wyszukiwania w Firefox Input"
 
 #: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:351
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:356
 msgid "Happy"
 msgstr "Zadowolony"
 
 #: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:352
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:357
 msgid "Sad"
 msgstr "Niezadowolony"
 
@@ -253,34 +253,6 @@ msgstr "Uwaga! Wszystkie daty i czas są podane wg czasu pacyficznego."
 #: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
 msgstr "Panel jest jeszcze niedostępny na urządzeniach mobilnych."
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:19
-#, fuzzy
-msgid "Firefox"
-msgstr "Firefox Input"
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:21
-msgid "Firefox for Android"
-msgstr ""
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:23
-#, fuzzy
-msgid "Firefox OS"
-msgstr "Firefox Input"
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:25
-#, fuzzy
-msgid "Firefox Developer"
-msgstr "Firefox Input"
-
-#. l10n: This is a product name
-#: fjord/base/db_strings.py:27
-msgid "Firefox for iOS"
-msgstr ""
 
 #: fjord/base/models.py:22
 msgid "List of values"
@@ -555,6 +527,40 @@ msgstr "Peru"
 #: fjord/feedback/config.py:33
 msgid "Uruguay"
 msgstr "Urugwaj"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:19
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox"
+msgstr "Firefox Input"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:21
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox for Android"
+msgstr ""
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:23
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox OS"
+msgstr "Firefox Input"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:25
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox Developer"
+msgstr "Firefox Input"
+
+#. l10n: This is a product name
+#: fjord/feedback/db_strings.py:27
+#, fuzzy
+msgctxt "DB: feedback.Product.display_name"
+msgid "Firefox for iOS"
+msgstr "Firefox Input"
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
