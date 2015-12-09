@@ -1,24 +1,27 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2015-11-20 07:28-0800\n"
-"PO-Revision-Date: 2010-11-11 16:13+0200\n"
-"Last-Translator: Anas <linux.anas@gmail.com>\n"
+"PO-Revision-Date: 2015-12-09 21:37+0000\n"
+"Last-Translator: Matjaž Horvat <matjaz.horvat@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Pootle 2.1.2\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"X-Generator: Pontoon\n"
 
 #: fjord/analytics/views.py:115
 #, fuzzy
 msgid "Firefox Input: {query}"
 msgstr "آراء في فَيَرفُكس: '{query}'"
 
-#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
+#: fjord/analytics/views.py:117 fjord/analytics/views.py:131
+#: fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5
+#: fjord/base/jinja2/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "آراء في فَيَرفُكس"
 
@@ -27,23 +30,33 @@ msgstr "آراء في فَيَرفُكس"
 msgid "Search Results From Firefox Input"
 msgstr "نتائج البحث في تعليقات فَيَرفُكس بيتا"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:356
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345
+#: fjord/analytics/jinja2/analytics/dashboard.html:13
+#: fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18
+#: fjord/feedback/models.py:356
 #, fuzzy
 msgid "Happy"
 msgstr "سعيد"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:357
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345
+#: fjord/analytics/jinja2/analytics/dashboard.html:15
+#: fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20
+#: fjord/feedback/models.py:357
 #, fuzzy
 msgid "Sad"
 msgstr "تعيس"
 
-#: fjord/analytics/views.py:145 fjord/analytics/jinja2/analytics/response.html:24 fjord/analytics/jinja2/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:145
+#: fjord/analytics/jinja2/analytics/response.html:24
+#: fjord/analytics/jinja2/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr ""
 
-#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
+#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20
+#: fjord/base/templatetags/jinja_helpers.py:78
+#: fjord/feedback/templatetags/jinja_helpers.py:9
 #, fuzzy
 msgid "Unknown"
 msgstr "مجهول"
@@ -53,11 +66,13 @@ msgstr "مجهول"
 msgid "Sentiment"
 msgstr "الإحساس:"
 
-#: fjord/analytics/views.py:351 fjord/analytics/jinja2/analytics/response.html:111
+#: fjord/analytics/views.py:351
+#: fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "المنتج"
 
-#: fjord/analytics/views.py:362 fjord/analytics/views.py:368 fjord/analytics/jinja2/analytics/response.html:115
+#: fjord/analytics/views.py:362 fjord/analytics/views.py:368
+#: fjord/analytics/jinja2/analytics/response.html:115
 #, fuzzy
 msgid "Version"
 msgstr "النسخة:"
@@ -66,11 +81,13 @@ msgstr "النسخة:"
 msgid "Select product to see version breakdown"
 msgstr ""
 
-#: fjord/analytics/views.py:377 fjord/analytics/jinja2/analytics/response.html:99
+#: fjord/analytics/views.py:377
+#: fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "المنصة"
 
-#: fjord/analytics/views.py:383 fjord/analytics/jinja2/analytics/response.html:105
+#: fjord/analytics/views.py:383
+#: fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "اللغة"
 
@@ -79,7 +96,9 @@ msgstr "اللغة"
 msgid "Atom feed for this search"
 msgstr "تلقيم ATOM لهذا البحث"
 
-#: fjord/analytics/jinja2/analytics/dashboard.html:45 fjord/analytics/jinja2/analytics/analyzer/search.html:78 fjord/analytics/jinja2/analytics/mobile/response.html:39
+#: fjord/analytics/jinja2/analytics/dashboard.html:45
+#: fjord/analytics/jinja2/analytics/analyzer/search.html:78
+#: fjord/analytics/jinja2/analytics/mobile/response.html:39
 msgid "Permalink"
 msgstr ""
 
@@ -166,11 +185,15 @@ msgstr ""
 msgid "Category"
 msgstr ""
 
-#: fjord/analytics/jinja2/analytics/response.html:47 fjord/analytics/jinja2/analytics/response.html:125 fjord/analytics/jinja2/analytics/response.html:129
-#: fjord/analytics/jinja2/analytics/response.html:133 fjord/analytics/jinja2/analytics/response.html:137 fjord/analytics/jinja2/analytics/response.html:141
+#: fjord/analytics/jinja2/analytics/response.html:47
+#: fjord/analytics/jinja2/analytics/response.html:125
+#: fjord/analytics/jinja2/analytics/response.html:129
+#: fjord/analytics/jinja2/analytics/response.html:133
+#: fjord/analytics/jinja2/analytics/response.html:137
+#: fjord/analytics/jinja2/analytics/response.html:141
 #: fjord/analytics/jinja2/analytics/response.html:145
 msgid "None"
-msgstr ""
+msgstr "dasdas"
 
 #: fjord/analytics/jinja2/analytics/response.html:49
 msgid "Description"
@@ -227,7 +250,8 @@ msgstr ""
 msgid "Full URL"
 msgstr ""
 
-#: fjord/analytics/jinja2/analytics/response.html:155 fjord/feedback/jinja2/feedback/fxos_feedback.html:94
+#: fjord/analytics/jinja2/analytics/response.html:155
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:94
 msgid "Country"
 msgstr ""
 
@@ -235,7 +259,8 @@ msgstr ""
 msgid "Manufacturer"
 msgstr ""
 
-#: fjord/analytics/jinja2/analytics/response.html:163 fjord/feedback/jinja2/feedback/fxos_feedback.html:116
+#: fjord/analytics/jinja2/analytics/response.html:163
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:116
 msgid "Device"
 msgstr ""
 
@@ -290,10 +315,13 @@ msgid "You do not have access to this page."
 msgstr ""
 
 #: fjord/base/jinja2/403.html:14
-msgid "You do not have access to this page. If you have an account, try signing in."
+msgid ""
+"You do not have access to this page. If you have an account, try signing in."
 msgstr ""
 
-#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14 fjord/base/jinja2/500.html:35 fjord/base/jinja2/includes/login_failure_text.html:8
+#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14
+#: fjord/base/jinja2/500.html:35
+#: fjord/base/jinja2/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
 msgstr ""
 
@@ -310,12 +338,14 @@ msgstr ""
 msgid "Something has gone horribly wrong"
 msgstr ""
 
-#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44 fjord/base/jinja2/mobile/base.html:29
+#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44
+#: fjord/base/jinja2/mobile/base.html:29
 #, fuzzy
 msgid "<strong>Firefox</strong> Input"
 msgstr "آراء في فَيَرفُكس"
 
-#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50 fjord/base/jinja2/mobile/base.html:35
+#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50
+#: fjord/base/jinja2/mobile/base.html:35
 msgid "Dashboard"
 msgstr "لوحة التحكم"
 
@@ -338,13 +368,18 @@ msgstr ""
 
 #: fjord/base/jinja2/about.html:11
 msgid ""
-"Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
-"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
+"Firefox Input is Mozilla's primary feedback mechanism for products. It is "
+"set up to be a method of one-way communication about your experiences in "
+"using our products, the Internet you view it through, and what Mozilla can "
+"do to make that experience better. The system is available over a wide-"
+"variety of submission mechanisms and product builds."
 msgstr ""
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
-msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgid ""
+"To submit feedback for a Mozilla product, please go to <a "
+"href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
 
 #: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
@@ -362,7 +397,9 @@ msgstr ""
 
 #: fjord/base/jinja2/about.html:36
 #, python-format
-msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
+msgid ""
+"We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
+"limitations</a> document."
 msgstr ""
 
 #: fjord/base/jinja2/about.html:42
@@ -374,11 +411,15 @@ msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
 
 #: fjord/base/jinja2/about.html:51
-msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
+msgid ""
+"We keep feedback data forever, but only the last 6 months of data is "
+"available on the public dashboard."
 msgstr ""
 
 #: fjord/base/jinja2/about.html:57
-msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
+msgid ""
+"We keep email addresses and contextual data associated with feedback data "
+"for 6 months and then delete it."
 msgstr ""
 
 #: fjord/base/jinja2/about.html:64
@@ -387,8 +428,9 @@ msgstr ""
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-"please contact us!"
+"We'd love to experiment more with this data, but we're only a few people. "
+"So, we need requests from you on questions you'd like to see answered! If "
+"you would like to experiment with our data, please contact us!"
 msgstr ""
 
 #: fjord/base/jinja2/about.html:74
@@ -397,7 +439,9 @@ msgstr ""
 
 #: fjord/base/jinja2/about.html:76
 #, python-format
-msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgid ""
+"The code for the Firefox Input site can be <a href=\"%(url)s\">found on "
+"GitHub</a>!"
 msgstr ""
 
 #: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
@@ -433,11 +477,15 @@ msgstr ""
 msgid "Sign in"
 msgstr ""
 
-#: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
+#: fjord/base/jinja2/csrf_failure.html:3
+#: fjord/base/jinja2/includes/csrf_failure_text.html:1
+#: fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
 msgstr ""
 
-#: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
+#: fjord/base/jinja2/login_failure.html:3
+#: fjord/base/jinja2/includes/login_failure_text.html:1
+#: fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
 msgstr ""
 
@@ -465,16 +513,23 @@ msgstr "بلّغ عن إساءة استخدام للعلامات التجاري�
 #: fjord/base/jinja2/includes/common.html:26
 #, fuzzy, python-format
 msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
-"later version."
-msgstr "باستثناء ما <a href=\"%(legal_url)s\">ذُكِر</a> أنه ليس كذلك، محتوى هذا الموقع يخضع <br/><a href=\"%(license_url)s\">لرخصة Creative Commons Attribution Share-Alike v3.0</a> أو أي إصدارة أحدث."
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
+"site is licensed under the <a href=\"%(license_url)s\">Creative Commons "
+"Attribution Share-Alike License v3.0</a> or any later version."
+msgstr ""
+"باستثناء ما <a href=\"%(legal_url)s\">ذُكِر</a> أنه ليس كذلك، محتوى هذا "
+"الموقع يخضع <br/><a href=\"%(license_url)s\">لرخصة Creative Commons "
+"Attribution Share-Alike v3.0</a> أو أي إصدارة أحدث."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
 msgstr ""
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:8
-msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
+msgid ""
+"Please make sure you have cookies enabled, press the Back button in your "
+"browser, refresh the page, fill out the form, and try submitting your "
+"feedback again."
 msgstr ""
 
 #: fjord/base/jinja2/includes/login_failure_text.html:3
@@ -486,7 +541,9 @@ msgid "Welcome!"
 msgstr "مرحبًا!"
 
 #: fjord/base/jinja2/includes/new_user_text.html:3
-msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
+msgid ""
+"The identity you just logged in to Persona with ties you to your account on "
+"Input. Please remember which Persona identity you used."
 msgstr ""
 
 #: fjord/base/jinja2/includes/new_user_text.html:10
@@ -580,7 +637,8 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "شعار فَيَرفُكس"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+#: fjord/feedback/jinja2/feedback/download_firefox.html:10
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 #, fuzzy
 msgid "Download Firefox"
 msgstr "نزّل بيتا"
@@ -590,58 +648,81 @@ msgstr "نزّل بيتا"
 msgid "Please Download Firefox"
 msgstr "نزّل بيتا"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+#: fjord/feedback/jinja2/feedback/download_firefox.html:21
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
 #, fuzzy
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "أوه! تريد إذًا منحنا تعليقاتك عن الإصدارة المقبلة من فَيَرفُكس. شكرًا لك، ولكن يتطلب ذلك منك أن تنزل آخر بيتا."
+msgid ""
+"Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
+" to be on the latest version."
+msgstr ""
+"أوه! تريد إذًا منحنا تعليقاتك عن الإصدارة المقبلة من فَيَرفُكس. شكرًا لك، "
+"ولكن يتطلب ذلك منك أن تنزل آخر بيتا."
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
 #, fuzzy, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "لفعل ذلك، اذهب ببساطة إلى صفحة التنزيل ونزّل <a href=\"%(url)s\">آخر فَيَرفُكس بيتا!</a>"
+msgid ""
+"To do that, simply go to our download page and install/update to the <a "
+"href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr ""
+"لفعل ذلك، اذهب ببساطة إلى صفحة التنزيل ونزّل <a href=\"%(url)s\">آخر "
+"فَيَرفُكس بيتا!</a>"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:7
 #, fuzzy
 msgid "Submit Your Feedback"
 msgstr "أرسِل التعليق"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:32
 #, fuzzy
 msgid "{product} feedback"
 msgstr "أرسِل التعليق"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid ""
+"JavaScript is required to leave feedback. Please enable JavaScript in your "
+"browser and refresh this page."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:60
 #, fuzzy, python-format
 msgid "%(product)s makes me happy"
 msgstr "فَيَرفُكس أسعدني..."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:77
 #, fuzzy, python-format
 msgid "%(product)s makes me sad"
 msgstr "رسالة واحدة"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:86
 #, python-format
-msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
+msgid ""
+"Is %(product)s not the product you want to give feedback on?<br /> <a "
+"href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106 fjord/feedback/jinja2/feedback/fxos_feedback.html:128
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:128
 msgid "Other"
 msgstr "غير ذلك"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110 fjord/feedback/jinja2/feedback/fxos_feedback.html:132
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:132
 msgid "Next"
 msgstr ""
 
@@ -649,33 +730,45 @@ msgstr ""
 msgid "What Firefox OS device are you using?"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137 fjord/feedback/jinja2/feedback/generic_feedback.html:95
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:95
 msgid "Details"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
-msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
-msgstr ""
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid ""
-"Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
-"or phone number."
+"Please describe what you like. The content of your feedback will be public, "
+"so please be sure not to include personal information such as email address,"
+" passwords or phone number."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:108
+msgid ""
+"Please describe your problem below and be as specific as you can. The "
+"content of your feedback will be public, so please be sure not to include "
+"personal information such as email address, passwords or phone number."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:125
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
-msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:156
+msgid ""
+"(Optional) Check here to let us contact you to follow up on your feedback. "
+"Your email address will be kept private."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:170
 #, fuzzy
 msgid "Submit"
 msgstr "أرسِل التعليق"
@@ -690,12 +783,16 @@ msgid "Success!"
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
-msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
+msgid ""
+"Thank you for your feedback! We will use it to help us create a better "
+"experience in future versions of Firefox OS."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
 #, python-format
-msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
+msgid ""
+"Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla "
+"better</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:231
@@ -703,19 +800,26 @@ msgid "We're sorry!"
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
-msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
+msgid ""
+"Something has happened and we can't submit your feedback. Feedback will be "
+"saved on your device so you can try sending it again later."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240 fjord/feedback/jinja2/feedback/fxos_feedback.html:246 fjord/feedback/jinja2/feedback/fxos_feedback.html:255
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:246
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241 fjord/feedback/jinja2/feedback/fxos_feedback.html:256
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:256
 msgid "Cancel"
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:249
-msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
+msgid ""
+"You have unsubmitted feedback data. Would you like to try submitting it "
+"again?"
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
@@ -725,8 +829,9 @@ msgstr ""
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:140
 msgid ""
-"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
-"our Privacy policy."
+"Check here to provide technical information about your browser. This "
+"information helps us better understand our users and create better products."
+" This information will be kept in accordance with our Privacy policy."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
@@ -758,7 +863,9 @@ msgstr "شكرًا على تعليقك"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
 #, python-format
-msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgid ""
+"Your feedback will be used to create a better experience in future releases "
+"of %(product)s."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:33
@@ -772,7 +879,9 @@ msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
 #, python-format
-msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgid ""
+"Go to our support forum where you can <a href=\"%(url)s\">get help and find "
+"answers</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:64
@@ -782,7 +891,9 @@ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
 #, python-format
-msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
+msgid ""
+"Download <a href=\"%(download_url)s\">the Firefox build that is right for "
+"you</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:74
@@ -791,7 +902,9 @@ msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
 #, python-format
-msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
+msgid ""
+"Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla "
+"better</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
@@ -808,51 +921,51 @@ msgstr "نزّل بيتا"
 msgid "Ask a question in our support forum"
 msgstr ""
 
-#, fuzzy
 #~ msgid "Find the latest news about Firefox."
 #~ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
-#, fuzzy
 #~ msgid "Submit feedback"
 #~ msgstr "أرسِل التعليق"
 
-#, fuzzy
 #~ msgid "Firefox OS made me happy"
 #~ msgstr "فَيَرفُكس أسعدني..."
 
-#, fuzzy
 #~ msgid "Firefox OS made me sad"
 #~ msgstr "فَيَرفُكس أحزنني..."
 
-#, fuzzy
-#~ msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
-#~ msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(support_url)s\">صفحة الدعم</a>."
+#~ msgid ""
+#~ "If you need help or have a problem with Firefox OS, please visit <a "
+#~ "href=\"%(support_url)s\">Mozilla Support</a>."
+#~ msgstr ""
+#~ "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a "
+#~ "href=\"%(support_url)s\">صفحة الدعم</a>."
 
-#, fuzzy
 #~ msgid "Send Feedback"
 #~ msgstr "التعليق"
 
-#, fuzzy
 #~ msgid "Firefox made me happy"
 #~ msgstr "فَيَرفُكس أسعدني..."
 
-#, fuzzy
 #~ msgid "Firefox made me sad"
 #~ msgstr "فَيَرفُكس أحزنني..."
 
-#, fuzzy
-#~ msgid "If you need help or have a problem with Firefox, please visit <a href=\"%(support_url)s\">Firefox Support</a>."
-#~ msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(support_url)s\">صفحة الدعم</a>."
+#~ msgid ""
+#~ "If you need help or have a problem with Firefox, please visit <a "
+#~ "href=\"%(support_url)s\">Firefox Support</a>."
+#~ msgstr ""
+#~ "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a "
+#~ "href=\"%(support_url)s\">صفحة الدعم</a>."
 
-#, fuzzy
 #~ msgid "Unknown product"
 #~ msgstr "مجهول"
 
-#, fuzzy
-#~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
-#~ msgstr "إن كنت تريد أن تعرف إلى أين ذهب تعليقك، ألقِ نظرة على <a href=\"%(url)s\">لوحة تحكم تعليقات فَيَرفُكس</a>."
+#~ msgid ""
+#~ "If you are here by mistake and want to leave feedback, you can do so <a "
+#~ "href=\"%(url)s\">on our feedback form</a>."
+#~ msgstr ""
+#~ "إن كنت تريد أن تعرف إلى أين ذهب تعليقك، ألقِ نظرة على <a "
+#~ "href=\"%(url)s\">لوحة تحكم تعليقات فَيَرفُكس</a>."
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(dash_url)s\">لوحة التحكم</a>."
 
@@ -862,54 +975,54 @@ msgstr ""
 #~ msgid "Messages"
 #~ msgstr "الرسائل"
 
-#, fuzzy
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "فَيَرفُكس أسعدني..."
 
-#, fuzzy
 #~ msgid "Firefox Made Me Sad"
 #~ msgstr "فَيَرفُكس أحزنني..."
 
-#, fuzzy
 #~ msgid "Super! It's great to hear that you like our browser."
-#~ msgstr "رائع! جيد أنك أُعجبت بنسخة ما قبل الإصدار من متصفحنا. اشرح لنا رجاءً ما الذي أعجبك بالضبط!"
+#~ msgstr ""
+#~ "رائع! جيد أنك أُعجبت بنسخة ما قبل الإصدار من متصفحنا. اشرح لنا رجاءً ما الذي"
+#~ " أعجبك بالضبط!"
 
-#, fuzzy
-#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it."
-#~ msgstr "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة. أخبرنا بالسبب رجاءً لكي نستطيع تحسينه!"
+#~ msgid ""
+#~ "We are sorry that you have not had a good experience with our browser. "
+#~ "Please tell us why, so we can fix it."
+#~ msgstr ""
+#~ "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة. أخبرنا بالسبب رجاءً لكي نستطيع "
+#~ "تحسينه!"
 
-#, fuzzy
-#~ msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
+#~ msgid ""
+#~ "To protect your privacy, please ensure that no personally identifiable "
+#~ "information is included in your feedback."
 #~ msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
 
-#, fuzzy
 #~ msgid "Submitting Feedback"
 #~ msgstr "أرسِل التعليق"
 
 #~ msgid "Submit Feedback"
 #~ msgstr "أرسِل التعليق"
 
-#, fuzzy
 #~ msgid "Want to see where your feedback goes?"
 #~ msgstr "أدخِل تعليقك هنا."
 
-#, fuzzy
-#~ msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
-#~ msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(support_url)s\">صفحة الدعم</a>."
+#~ msgid ""
+#~ "For support requests, please go to <a href=\"%(support_url)s\">Mozilla "
+#~ "Support</a> instead."
+#~ msgstr ""
+#~ "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a "
+#~ "href=\"%(support_url)s\">صفحة الدعم</a>."
 
-#, fuzzy
 #~ msgid "Thank you for your feedback!"
 #~ msgstr "شكرًا على تعليقك"
 
-#, fuzzy
 #~ msgid "Find the latest news about Mozilla."
 #~ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
-#, fuzzy
 #~ msgid "Page not found"
 #~ msgstr "غير موجود"
 
-#, fuzzy
 #~ msgid "Sorry, but we couldn't find the page you're looking for."
 #~ msgstr "آسف، لم أعثر على ما تبحث عنه."
 
@@ -922,25 +1035,41 @@ msgstr ""
 #~ msgid "Issue"
 #~ msgstr "المشكلة"
 
-#~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-#~ msgstr "تعليقك يحتوي على كلمات بذيئة (%s). لمساعدتنا على تحسين منتجاتنا، نرجو منك كتابة نقد بنـّاء واستخدام كلمات تحفزنا على اتخاذ الخطوات الصحيحة. شكرًا!"
+#~ msgid ""
+#~ "Your comment contains swear words (%s). In order to help us improve our "
+#~ "products, please use words that help us create an action or to-do from your "
+#~ "constructive feedback. Thanks!"
+#~ msgstr ""
+#~ "تعليقك يحتوي على كلمات بذيئة (%s). لمساعدتنا على تحسين منتجاتنا، نرجو منك "
+#~ "كتابة نقد بنـّاء واستخدام كلمات تحفزنا على اتخاذ الخطوات الصحيحة. شكرًا!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "لا يمكن للتعليق أن يحتوي على HTML."
 
-#~ msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
-#~ msgstr "يبدو أن تعليقك يحتوي على عنوان بريد إلكتروني. أزله رجاء هو وأي معلومات شخصية ثم حاول مجددًا. شكرًا لك!"
+#~ msgid ""
+#~ "Your feedback seems to contain an email address. Please remove this and "
+#~ "similar personal data from the text, then try again. Thanks!"
+#~ msgstr ""
+#~ "يبدو أن تعليقك يحتوي على عنوان بريد إلكتروني. أزله رجاء هو وأي معلومات شخصية"
+#~ " ثم حاول مجددًا. شكرًا لك!"
 
-#~ msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
-#~ msgstr "يبدو أن تعليقك يحتوي على وصلة موقع. أزلها رجاء هي وأي معلومات شخصية ثم حاول مجددًا. شكرًا لك!"
+#~ msgid ""
+#~ "Your feedback seems to contain a URL. Please remove this and similar "
+#~ "personal data from the text, then try again. Thanks!"
+#~ msgstr ""
+#~ "يبدو أن تعليقك يحتوي على وصلة موقع. أزلها رجاء هي وأي معلومات شخصية ثم حاول "
+#~ "مجددًا. شكرًا لك!"
 
 #~ msgid "User-Agent request header must be set."
 #~ msgstr "يجب أن تكون ترويسة طلب عميل المستخدم مضبوطة."
 
-#~ msgid "It's great to hear you want to help Mozilla make your experience better!"
+#~ msgid ""
+#~ "It's great to hear you want to help Mozilla make your experience better!"
 #~ msgstr "سعيدون لمعرفة أنك تريد مساعدة موزيلا لجعل تعاملك مع الوب أفضل!"
 
-#~ msgid "Please choose one of the following types of feedback that you would like to submit to us:"
+#~ msgid ""
+#~ "Please choose one of the following types of feedback that you would like to "
+#~ "submit to us:"
 #~ msgstr "اختر رجاءً أحد الأنواع التالية من التعليقات التي تود إرسالها إلينا:"
 
 #~ msgid "Firefox makes me happy because ..."
@@ -949,29 +1078,49 @@ msgstr ""
 #~ msgid "Firefox makes me sad because ..."
 #~ msgstr "فَيَرفُكس أحزنني لأنه..."
 
-#~ msgid "If you need help or have a problem with Firefox, please visit our <a href=\"%(support_url)s\">support page</a>."
-#~ msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(support_url)s\">صفحة الدعم</a>."
+#~ msgid ""
+#~ "If you need help or have a problem with Firefox, please visit our <a "
+#~ "href=\"%(support_url)s\">support page</a>."
+#~ msgstr ""
+#~ "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a "
+#~ "href=\"%(support_url)s\">صفحة الدعم</a>."
 
-#, fuzzy
-#~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
-#~ msgstr "رائع! جيد أنك أُعجبت بنسخة ما قبل الإصدار من متصفحنا. اشرح لنا رجاءً ما الذي أعجبك بالضبط!"
+#~ msgid ""
+#~ "Super! It's great to hear that you like our browser. Please explain what you"
+#~ " specifically like!"
+#~ msgstr ""
+#~ "رائع! جيد أنك أُعجبت بنسخة ما قبل الإصدار من متصفحنا. اشرح لنا رجاءً ما الذي"
+#~ " أعجبك بالضبط!"
 
-#~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
-#~ msgstr "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة. أخبرنا بالسبب رجاءً لكي نستطيع تحسينه!"
+#~ msgid ""
+#~ "We are sorry that you have not had a good experience with our browser. "
+#~ "Please tell us why, so we can fix it!"
+#~ msgstr ""
+#~ "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة. أخبرنا بالسبب رجاءً لكي نستطيع "
+#~ "تحسينه!"
 
-#~ msgid "Know of a website that works better in this beta than it did in earlier versions of Firefox? Please add the URL, so we can keep track!"
-#~ msgstr "تعرف موقعًا يعمل في إصدارة البيتا أفضل مما كان يعمل في الإصدارات السابقة؟ أضِف عنوانه لكي نتتبعه!"
+#~ msgid ""
+#~ "Know of a website that works better in this beta than it did in earlier "
+#~ "versions of Firefox? Please add the URL, so we can keep track!"
+#~ msgstr ""
+#~ "تعرف موقعًا يعمل في إصدارة البيتا أفضل مما كان يعمل في الإصدارات السابقة؟ "
+#~ "أضِف عنوانه لكي نتتبعه!"
 
-#~ msgid "Had an issue with a specific website? Please add the URL, so we can find the issue faster!"
-#~ msgstr "تواجه مشكلة مع موقع وب معيّن؟ أضف عنوان الموقع كي نجد المشكلة ونحلها بسرعة!"
+#~ msgid ""
+#~ "Had an issue with a specific website? Please add the URL, so we can find the"
+#~ " issue faster!"
+#~ msgstr ""
+#~ "تواجه مشكلة مع موقع وب معيّن؟ أضف عنوان الموقع كي نجد المشكلة ونحلها بسرعة!"
 
-#~ msgid "Please ensure that there is no personally identifiable information here."
+#~ msgid ""
+#~ "Please ensure that there is no personally identifiable information here."
 #~ msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
 
 #~ msgid "Thanks for helping Mozilla make your experience better!"
 #~ msgstr "شكرًا لمساعدة موزيلا على جعل تعاملك مع الوب أفضل!"
 
-#~ msgid "Please choose the type of feedback that you would like to submit to us:"
+#~ msgid ""
+#~ "Please choose the type of feedback that you would like to submit to us:"
 #~ msgstr "اختر رجاءً نوع التعليق الذي تود إرساله إلينا:"
 
 #~ msgid "Firefox makes me sad ..."
@@ -980,27 +1129,32 @@ msgstr ""
 #~ msgid "Download Beta"
 #~ msgstr "نزّل بيتا"
 
-#~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
-#~ msgstr "حسنًا إذًا! تريدنا إخبارنا بتعليقاتك. ستحتاج إلى تنزيل آخر بيتا. اذهب إلى صفحة البيتا <a href=\"%(url)s\">ونزلها!</a>"
+#~ msgid ""
+#~ "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head "
+#~ "over to our beta page and <a href=\"%(url)s\">download it!</a>"
+#~ msgstr ""
+#~ "حسنًا إذًا! تريدنا إخبارنا بتعليقاتك. ستحتاج إلى تنزيل آخر بيتا. اذهب إلى "
+#~ "صفحة البيتا <a href=\"%(url)s\">ونزلها!</a>"
 
-#, fuzzy
 #~ msgid "Back to Dashboard"
 #~ msgstr "لوحة التحكم"
 
-#, fuzzy
-#~ msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
-#~ msgstr "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة. أخبرنا بالسبب رجاءً لكي نستطيع تحسينه!"
+#~ msgid ""
+#~ "We're sorry Firefox for Mobile made you sad. Please tell us what happened so"
+#~ " we can fix it."
+#~ msgstr ""
+#~ "نعتذر لأن تجربتك مع متصفحنا لم تكن جيدة. أخبرنا بالسبب رجاءً لكي نستطيع "
+#~ "تحسينه!"
 
-#, fuzzy
 #~ msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
 #~ msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(url)s\">لوحة التحكم</a>."
 
-#, fuzzy
 #~ msgid "Include your last visited site?"
 #~ msgstr "تريد إضافة عنوان آخر صفحة زرتها؟"
 
-#, fuzzy
-#~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
+#~ msgid ""
+#~ "For your privacy, please don't include any personally identifiable "
+#~ "information in your feedback."
 #~ msgstr "تحقق رجاءً من عدم وجود معلومات شخصية هنا."
 
 #~ msgid "Super! Please tell us more!"
@@ -1012,30 +1166,28 @@ msgstr ""
 #~ msgid "Add URL of last visited page?"
 #~ msgstr "تريد إضافة عنوان آخر صفحة زرتها؟"
 
-#, fuzzy
-#~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
-#~ msgstr "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(url)s\">صفحة الدعم</a>."
+#~ msgid ""
+#~ "If you need help or have a problem with Firefox, please visit <a id=\"sumo-"
+#~ "url\" href=\"%(url)s/\">Firefox Support</a>."
+#~ msgstr ""
+#~ "إن أردت المساعدة أو واجهت مشكلة في فَيَرفُكس، زُر <a href=\"%(url)s\">صفحة "
+#~ "الدعم</a>."
 
 #~ msgid "Tweet This"
 #~ msgstr "أضف هذا إلى تويتر"
 
-#, fuzzy
 #~ msgid "Thanks for sharing your feedback!"
 #~ msgstr "شكرًا على إرسال تعليقك إلينا!"
 
-#, fuzzy
 #~ msgid "See where your feedback goes."
 #~ msgstr "أدخِل تعليقك هنا."
 
-#, fuzzy
 #~ msgid "Feedback Dashboard"
 #~ msgstr "لوحة التحكم"
 
-#, fuzzy
 #~ msgid "Firefox on Facebook"
 #~ msgstr "شعار فَيَرفُكس"
 
-#, fuzzy
 #~ msgid "Get the latest news on Firefox."
 #~ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
@@ -1110,7 +1262,6 @@ msgstr ""
 #~ msgid "Issues"
 #~ msgstr "المشاكل"
 
-#, fuzzy
 #~ msgctxt "platform_choice"
 #~ msgid "-- all --"
 #~ msgstr "-- الكل --"
@@ -1140,7 +1291,6 @@ msgstr ""
 #~ msgid "Toggle"
 #~ msgstr "بدّل"
 
-#, fuzzy
 #~ msgid "More Locales"
 #~ msgstr "اللغة"
 
@@ -1174,11 +1324,19 @@ msgstr ""
 #~ msgid "I'm sorry, there was an error with your search."
 #~ msgstr "آسف، هناك خطأ في بحثك."
 
-#~ msgid "Our search engine might be currently unavailable. You may start over on the <a href=\"%(url)s\">dashboard</a> and try again later."
-#~ msgstr "قد لا يكون محرك البحث لدينا متاحًا حاليًا. يمكنك العودة إلى <a href=\"%(url)s\">لوحة التحكم</a> والمحاولة من جديد لاحقًا."
+#~ msgid ""
+#~ "Our search engine might be currently unavailable. You may start over on the "
+#~ "<a href=\"%(url)s\">dashboard</a> and try again later."
+#~ msgstr ""
+#~ "قد لا يكون محرك البحث لدينا متاحًا حاليًا. يمكنك العودة إلى <a "
+#~ "href=\"%(url)s\">لوحة التحكم</a> والمحاولة من جديد لاحقًا."
 
-#~ msgid "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, mentioning the URL you were accessing."
-#~ msgstr "إن استمرت المشكلة بالظهور، <a href=\"%(bug_url)s\">بلّغ عن العلة</a> رجاءً، مع ذكر عنوان الموقع الذي كنت تزوره."
+#~ msgid ""
+#~ "If the problem persists, please <a href=\"%(bug_url)s\">file a bug</a>, "
+#~ "mentioning the URL you were accessing."
+#~ msgstr ""
+#~ "إن استمرت المشكلة بالظهور، <a href=\"%(bug_url)s\">بلّغ عن العلة</a> رجاءً، "
+#~ "مع ذكر عنوان الموقع الذي كنت تزوره."
 
 #~ msgid "Include the following error message in your bug report:"
 #~ msgstr "ضمِّن رسالة الخطأ التالية في تقرير البلاغ عن العلة:"
@@ -1195,18 +1353,15 @@ msgstr ""
 #~ msgid "{num} opinions on {day}"
 #~ msgstr "{num} رأيًا/آراء في {day}"
 
-# %e for day number; %B for full month name
 #~ msgid "%e %B %Y"
 #~ msgstr "%e %B %Y"
 
-# %e for day number; %b for short month name
 #~ msgid "%e %b"
 #~ msgstr "%e %b"
 
 #~ msgid "Loading feedback history..."
 #~ msgstr "يحمّل تأريخ التعليقات..."
 
-#, fuzzy
 #~ msgid "Loading ratings history..."
 #~ msgstr "يحمّل تأريخ التعليقات..."
 
@@ -1219,7 +1374,6 @@ msgstr ""
 #~ msgid "Last 30 days"
 #~ msgstr "آخر 30 يومًا"
 
-#, fuzzy
 #~ msgid "Show More Locales"
 #~ msgstr "اللغة"
 
@@ -1232,11 +1386,9 @@ msgstr ""
 #~ msgstr[4] "<strong>%(cnt)s</strong> رسالة"
 #~ msgstr[5] "لا رسائل"
 
-#, fuzzy
 #~ msgid "Show More Platforms"
 #~ msgstr "المنصات"
 
-#, fuzzy
 #~ msgid "Clear Search"
 #~ msgstr "ابحث"
 
@@ -1267,7 +1419,6 @@ msgstr ""
 #~ msgid "Issues only"
 #~ msgstr "المشاكل فقط"
 
-#, fuzzy
 #~ msgid "Ideas only"
 #~ msgstr "المشاكل فقط"
 
@@ -1283,7 +1434,6 @@ msgstr ""
 #~ msgid "Theme"
 #~ msgstr "السمة"
 
-#, fuzzy
 #~ msgid "Back to all themes &raquo;"
 #~ msgstr "عُد إلى كل المواقع &raquo;"
 
@@ -1306,7 +1456,6 @@ msgstr ""
 #~ msgid "Search for domain"
 #~ msgstr "ابحث عن النطاق"
 
-#, fuzzy
 #~ msgid "Broken Sites"
 #~ msgstr "المواقع غير الشائعة"
 
@@ -1336,7 +1485,6 @@ msgstr ""
 #~ msgid "Back to {domain} &raquo;"
 #~ msgstr "عُد إلى {domain} &raquo;"
 
-#, fuzzy
 #~ msgid "Theme for {domain}"
 #~ msgstr "ابحث عن النطاق"
 
@@ -1370,17 +1518,29 @@ msgstr ""
 #~ msgid "Please start over on the <a href=\"%(dashboard_url)s\">dashboard</a>."
 #~ msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(dashboard_url)s\">لوحة التحكم</a>."
 
-#~ msgid "If you were following a broken link, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr "إن اتبعت رابطًا غير صحيح، <a href=\"%(bug_url)s\">بلّغ عن هذه العلة</a>. شكرًا!"
+#~ msgid ""
+#~ "If you were following a broken link, please <a href=\"%(bug_url)s\">file a "
+#~ "bug.</a> Thanks!"
+#~ msgstr ""
+#~ "إن اتبعت رابطًا غير صحيح، <a href=\"%(bug_url)s\">بلّغ عن هذه العلة</a>. "
+#~ "شكرًا!"
 
 #~ msgid "Internal Server Error"
 #~ msgstr "خطأ داخلي في الخادوم"
 
-#~ msgid "An unhandled error occurred in the application. The error has been logged and an administrator was notified. We apologize for the inconvenience!"
-#~ msgstr "حصل خطأ تعذر التعامل معه في التطبيق. سيُسجَّل الخطأ ويُنبَّه أحد المديرين. نعتذر عن هذا الإزعاج!"
+#~ msgid ""
+#~ "An unhandled error occurred in the application. The error has been logged "
+#~ "and an administrator was notified. We apologize for the inconvenience!"
+#~ msgstr ""
+#~ "حصل خطأ تعذر التعامل معه في التطبيق. سيُسجَّل الخطأ ويُنبَّه أحد المديرين. "
+#~ "نعتذر عن هذا الإزعاج!"
 
-#~ msgid "If you have additional information how to reproduce this problem, please <a href=\"%(bug_url)s\">file a bug.</a> Thanks!"
-#~ msgstr "إن كان لديك معلومات إضافية عن كيفية حصول هذه المشكلة من جديد، يُرجى منك <a href=\"%(bug_url)s\">التبليغ عن هذه العلة</a>. شكرًا!"
+#~ msgid ""
+#~ "If you have additional information how to reproduce this problem, please <a "
+#~ "href=\"%(bug_url)s\">file a bug.</a> Thanks!"
+#~ msgstr ""
+#~ "إن كان لديك معلومات إضافية عن كيفية حصول هذه المشكلة من جديد، يُرجى منك <a "
+#~ "href=\"%(bug_url)s\">التبليغ عن هذه العلة</a>. شكرًا!"
 
 #~ msgid "Input Dashboard"
 #~ msgstr "لوحة تحكم التعليقات"
@@ -1388,7 +1548,6 @@ msgstr ""
 #~ msgid "Clusters"
 #~ msgstr "العناقيد"
 
-#, fuzzy
 #~ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
 #~ msgstr "يُرجى أن تبدأ من جديد في <a href=\"%(fb_url)s\">لوحة التحكم</a>."
 
@@ -1398,39 +1557,41 @@ msgstr ""
 #~ msgid "Older Messages &raquo;"
 #~ msgstr "رسائل أقدم &raquo;"
 
-#, fuzzy
 #~ msgid "Back to Feedback"
 #~ msgstr "أحدث تعليق"
 
-#, fuzzy
 #~ msgid "Invalid feedback type"
 #~ msgstr "كل التعليق"
 
 #~ msgid "Find out the latest news from Mozilla:"
 #~ msgstr "استكشف آخر الأخبار عن موزيلا:"
 
-#, fuzzy
 #~ msgid "@MozMobile"
 #~ msgstr "الجوّال"
 
 #~ msgid "Enter your feedback here."
 #~ msgstr "أدخِل تعليقك هنا."
 
-#, fuzzy
 #~ msgid "Enter your ideas here."
 #~ msgstr "أدخِل تعليقك هنا."
 
-#~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
-#~ msgstr "أوه! تريد إذًا منحنا تعليقاتك عن الإصدارة المقبلة من فَيَرفُكس. شكرًا لك، ولكن يتطلب ذلك منك أن تنزل آخر بيتا."
+#~ msgid ""
+#~ "Oh! So, you want to offer us feedback on the next version of Firefox. Thank "
+#~ "you, but you'll need to be on our latest beta."
+#~ msgstr ""
+#~ "أوه! تريد إذًا منحنا تعليقاتك عن الإصدارة المقبلة من فَيَرفُكس. شكرًا لك، "
+#~ "ولكن يتطلب ذلك منك أن تنزل آخر بيتا."
 
-#, fuzzy
 #~ msgid "Report a Site Issue"
 #~ msgstr "بلّغ عن إساءة استخدام للعلامات التجارية"
 
-#~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
-#~ msgstr "لفعل ذلك، اذهب ببساطة إلى صفحة التنزيل ونزّل <a href=\"%(url)s\">آخر فَيَرفُكس بيتا!</a>"
+#~ msgid ""
+#~ "To do that, simply go to our download page and install/update to the <a "
+#~ "href=\"%(url)s\">latest Firefox Beta!</a>"
+#~ msgstr ""
+#~ "لفعل ذلك، اذهب ببساطة إلى صفحة التنزيل ونزّل <a href=\"%(url)s\">آخر "
+#~ "فَيَرفُكس بيتا!</a>"
 
-#, fuzzy
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; سابق"
 
@@ -1453,7 +1614,6 @@ msgstr ""
 #~ msgid "1 week"
 #~ msgstr "أسبوع واحد"
 
-#, fuzzy
 #~ msgctxt "version_choice"
 #~ msgid "7d"
 #~ msgstr "7 أيام"
@@ -1476,10 +1636,12 @@ msgstr ""
 #~ msgid "Description: <span class=\"opt\">\"%(query)s\"</span>;"
 #~ msgstr "الوصف: <span class=\"opt\">\"%(query)s\"</span>;"
 
-#~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
-#~ msgstr "بسبب قيود في البرنامج، يمكننا فقط إظهار آخر 1000 رسالة لاستعلام البحث هذا."
+#~ msgid ""
+#~ "Due to software constraints, we can only show the last 1000 messages for "
+#~ "this search query."
+#~ msgstr ""
+#~ "بسبب قيود في البرنامج، يمكننا فقط إظهار آخر 1000 رسالة لاستعلام البحث هذا."
 
-#, fuzzy
 #~ msgid "Enter your suggestions here."
 #~ msgstr "أدخِل تعليقك هنا."
 
