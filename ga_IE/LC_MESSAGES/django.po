@@ -255,7 +255,7 @@ msgstr "Níl an Painéal Aiseolas ar fáil ar ghléasanna soghluaiste fós."
 
 #: fjord/base/models.py:22
 msgid "List of values"
-msgstr ""
+msgstr "Liosta luachanna"
 
 #: fjord/base/models.py:107
 msgid "JSON Object"
@@ -443,13 +443,12 @@ msgid "Report Trademark Abuse"
 msgstr "Drochúsáid Trádmharcanna"
 
 #: fjord/base/jinja2/includes/common.html:26
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Ach amháin in aon áit <a href=\"%(legal_url)s\">ina ndeirtear a mhalairt</a>, cuirtear an t-ábhar ar an suíomh seo ar fáil faoin<br/> <a href=\"%(license_url)s\">Creative Commons Attribution Share-"
-"Alike License v3.0</a>, nó aon leagan níos déanaí"
+"Ach amháin in aon áit <a href=\"%(legal_url)s\">ina ndeirtear a mhalairt</a>, cuirtear an t-ábhar ar an suíomh seo ar fáil faoin <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a>, nó aon leagan níos déanaí."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -529,38 +528,33 @@ msgstr "Uragua"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:19
-#, fuzzy
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox"
 msgstr "Firefox"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:21
-#, fuzzy
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for Android"
-msgstr "Lógó Firefox"
+msgstr "Firefox ar Android"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:23
-#, fuzzy
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox OS"
-msgstr "Firefox"
+msgstr "Firefox OS"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:25
-#, fuzzy
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox Developer"
-msgstr "Lógó Firefox"
+msgstr "Forbróir Firefox"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:27
-#, fuzzy
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
-msgstr "Lógó Firefox"
+msgstr "Firefox ar iOS"
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -735,14 +729,13 @@ msgid "Thanks for Your Feedback"
 msgstr "Go raibh maith agat as an aiseolas"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
-#, fuzzy, python-format
+#, python-format
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
-msgstr "Úsáidfear do chuid aiseolais chun feabhas a chur ar leaganach Firefox amach anseo."
+msgstr "Úsáidfear do chuid aiseolais chun feabhas a chur ar leaganacha de %(product)s amach anseo."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:33
-#, fuzzy
 msgid "Suggestions from your feedback:"
-msgstr "Seol do chuid aiseolais chugainn."
+msgstr "Moltaí ó do chuid aiseolais:"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
@@ -758,23 +751,23 @@ msgid "Shape the future of Firefox."
 msgstr "Téigh i bhfeidhm ar thodhchaí Firefox."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
-#, fuzzy, python-format
+#, python-format
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
-msgstr "Íosluchtaigh <a href=\"%(download_url)s\">an leagan is oiriúnaí duit</a>."
+msgstr "Íosluchtaigh <a href=\"%(download_url)s\">an Firefox is oiriúnaí duit</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
 msgstr "Cabhraigh le Mozilla."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
-#, fuzzy, python-format
+#, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
-msgstr "Foghlaim conas is féidir <a href=\"%(url)s\">feabhas a chur ar Firefox agus Mozilla</a>."
+msgstr "Foghlaim conas is féidir <a href=\"%(url)s\">feabhas a chur ar %(product)s agus ar Mhozilla</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
-#, fuzzy, python-format
+#, python-format
 msgid "Find the latest news about %(product)s."
-msgstr "Faigh an nuacht is déanaí maidir le Firefox."
+msgstr "Faigh na scéalta is déanaí maidir le %(product)s."
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
@@ -782,7 +775,7 @@ msgstr "Íosluchtaigh Firefox le do thoil!"
 
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
-msgstr ""
+msgstr "Cuir ceist orainn san fhóram tacaíochta"
 
 #~ msgid "Bigram"
 #~ msgstr "Déghram"
@@ -798,10 +791,6 @@ msgstr ""
 
 #~ msgid "Find the latest news about Firefox."
 #~ msgstr "Faigh an nuacht is déanaí maidir le Firefox."
-
-#, fuzzy
-#~ msgid "Go to our support forum where you can get help and find answers."
-#~ msgstr "Déan cuairt ar ár bhfóram tacaíochta, áit ar féidir leat <a href=\"%(url)s\">cúnamh a fháil</a>."
 
 #~ msgid "Submit feedback"
 #~ msgstr "Seol aiseolas chugainn"
