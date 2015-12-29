@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2015-11-20 07:28-0800\n"
-"PO-Revision-Date: 2015-12-29 16:13+0000\n"
+"PO-Revision-Date: 2015-12-29 17:07+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: none\n"
 "Language: sv_SE\n"
@@ -59,7 +59,7 @@ msgstr "Okänd"
 
 #: fjord/analytics/views.py:344
 msgid "Sentiment"
-msgstr ""
+msgstr "Känsla"
 
 #: fjord/analytics/views.py:351
 #: fjord/analytics/jinja2/analytics/response.html:111
@@ -73,7 +73,7 @@ msgstr "Version"
 
 #: fjord/analytics/views.py:369
 msgid "Select product to see version breakdown"
-msgstr ""
+msgstr "Välj en produkt för att se versionsuppdelning"
 
 #: fjord/analytics/views.py:377
 #: fjord/analytics/jinja2/analytics/response.html:99
@@ -97,27 +97,27 @@ msgstr "Permalänk"
 
 #: fjord/analytics/jinja2/analytics/dashboard.html:100
 msgid "When"
-msgstr ""
+msgstr "När"
 
 #. Short for 1 day.
 #: fjord/analytics/jinja2/analytics/dashboard.html:102
 msgid "1d"
-msgstr ""
+msgstr "1d"
 
 #. Short for 7 days.
 #: fjord/analytics/jinja2/analytics/dashboard.html:104
 msgid "7d"
-msgstr ""
+msgstr "7d"
 
 #. Short for 30 days.
 #: fjord/analytics/jinja2/analytics/dashboard.html:106
 msgid "30d"
-msgstr ""
+msgstr "30d"
 
 #. Short for 90 days.
 #: fjord/analytics/jinja2/analytics/dashboard.html:108
 msgid "90d"
-msgstr ""
+msgstr "90d"
 
 #: fjord/analytics/jinja2/analytics/dashboard.html:110
 msgid "&raquo;"
@@ -157,15 +157,15 @@ msgstr "Nyare meddelanden"
 
 #: fjord/analytics/jinja2/analytics/dashboard.html:176
 msgid "Messages in specified time range"
-msgstr ""
+msgstr "Meddelanden i det angivna tidsintervallet"
 
 #: fjord/analytics/jinja2/analytics/es_down.html:12
 msgid "Dashboard unavailable"
-msgstr ""
+msgstr "Översikten inte tillgänglig"
 
 #: fjord/analytics/jinja2/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
-msgstr ""
+msgstr "Översikten är inte tillgänglig. Försök igen om 10 minuter."
 
 #: fjord/analytics/jinja2/analytics/response.html:45
 msgid "Category"
@@ -269,7 +269,7 @@ msgstr "API-version"
 
 #: fjord/analytics/jinja2/analytics/response.html:205
 msgid "Context"
-msgstr ""
+msgstr "Innehåll"
 
 #: fjord/analytics/jinja2/analytics/analyzer/search.html:152
 msgid "Note: All dates and times are in Pacific Time."
@@ -289,7 +289,7 @@ msgstr ""
 
 #: fjord/base/jinja2/403.html:3 fjord/base/jinja2/403.html:9
 msgid "Forbidden"
-msgstr ""
+msgstr "Förbjuden"
 
 #: fjord/base/jinja2/403.html:12
 msgid "You do not have access to this page."
@@ -308,7 +308,7 @@ msgstr ""
 
 #: fjord/base/jinja2/404.html:3 fjord/base/jinja2/404.html:9
 msgid "Not Found"
-msgstr ""
+msgstr "Hittades inte"
 
 #: fjord/base/jinja2/404.html:11
 msgid "The document could not be found."
@@ -321,7 +321,7 @@ msgstr ""
 #: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44
 #: fjord/base/jinja2/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
-msgstr ""
+msgstr "<strong>Firefox</strong> Input"
 
 #: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50
 #: fjord/base/jinja2/mobile/base.html:35
@@ -421,6 +421,8 @@ msgid ""
 "The code for the Firefox Input site can be <a href=\"%(url)s\">found on "
 "GitHub</a>!"
 msgstr ""
+"Koden för webbplatsen Firefox Input kan <a href=\"%(url)s\">hittas på "
+"GitHub</a>!"
 
 #: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
@@ -428,11 +430,11 @@ msgstr "Välkommen"
 
 #: fjord/base/jinja2/base.html:32 fjord/base/jinja2/mobile/base.html:21
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Gå till huvudinnehåll"
 
 #: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Gå till sidfot"
 
 #: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
@@ -464,7 +466,7 @@ msgstr ""
 #: fjord/base/jinja2/includes/login_failure_text.html:1
 #: fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
-msgstr ""
+msgstr "Inloggning misslyckades"
 
 #: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
@@ -620,6 +622,8 @@ msgid ""
 "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
 " to be on the latest version."
 msgstr ""
+"Åh! Så vill du ge oss återkoppling för Firefox. Tack, men du måste du ha den"
+" senaste versionen."
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:27
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
@@ -628,6 +632,8 @@ msgid ""
 "To do that, simply go to our download page and install/update to the <a "
 "href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr ""
+"För att göra det, gå till vår nedladdningssida och installera/uppdatera till"
+" <a href=\"%(url)s\">den senaste versionen av Firefox!</a>"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:7
@@ -786,7 +792,7 @@ msgstr ""
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 #, python-format
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Vad känner du för %(product)s?"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:140
 msgid ""
@@ -797,27 +803,27 @@ msgstr ""
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
-msgstr ""
+msgstr "Välj en produkt"
 
 #: fjord/feedback/jinja2/feedback/picker.html:14
 msgid "Select a product"
-msgstr ""
+msgstr "Välj en produkt"
 
 #: fjord/feedback/jinja2/feedback/picker.html:23
 msgid "No products available."
-msgstr ""
+msgstr "Inga produkter tillgängliga."
 
 #: fjord/feedback/jinja2/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
-msgstr ""
+msgstr "Välj en produkt att ge återkoppling för."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:3
 msgid "Thanks"
-msgstr ""
+msgstr "Tack"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:16
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "Tack för din återkoppling"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
 #, python-format
@@ -825,14 +831,16 @@ msgid ""
 "Your feedback will be used to create a better experience in future releases "
 "of %(product)s."
 msgstr ""
+"Din återkoppling kommer att användas för att skapa en bättre upplevelse i "
+"framtida versioner av %(product)s."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:33
 msgid "Suggestions from your feedback:"
-msgstr ""
+msgstr "Förslag från din återkoppling:"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
-msgstr ""
+msgstr "Har du problem? Få hjälp."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
 #, python-format
