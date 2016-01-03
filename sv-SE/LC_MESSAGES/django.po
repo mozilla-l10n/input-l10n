@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2015-11-20 07:28-0800\n"
-"PO-Revision-Date: 2016-01-02 23:36+0000\n"
-"Last-Translator: Luna Jernberg <bittin@cafe8bitar.se>\n"
+"PO-Revision-Date: 2016-01-03 13:03+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: none\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -353,11 +353,12 @@ msgid ""
 "do to make that experience better. The system is available over a wide-"
 "variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox är Mozillas primära återkopplingsmekanism för produkter. Det är "
-"uppsat för att vara en metod för envägskommunikation om dina erfarenheter "
-"med våra produkter, det Internet du visar det igenom, och vad Mozilla kan "
-"göra för att göra erfarenheten bättre. Systemet är tillgängligt över flera "
-"olika mekanismer för inlämning och produkt versioner."
+"Firefox Input är Mozillas främsta återkopplingsmekanism för produkter. Det "
+"är inställd på att vara en metod för envägskommunikation om dina "
+"erfarenheter av att använda våra produkter, det Internet du visar det igenom"
+" och vad Mozilla kan göra för att göra erfarenheten bättre. Systemet är "
+"tillgängligt via ett brett utbud av mekanismer för inlämning och "
+"produktversioner."
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -365,8 +366,8 @@ msgid ""
 "To submit feedback for a Mozilla product, please go to <a "
 "href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
-"För att skicka in feedback för en Mozilla produkt, vänligen gå till <a "
-"href=\"%(url)s\">feedback inlämning sidan</a>!"
+"För att skicka in återkoppling för en produkt från Mozilla, vänligen gå till"
+" <a href=\"%(url)s\">sidan för att skicka in återkoppling</a>!"
 
 #: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
@@ -387,38 +388,37 @@ msgid ""
 "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
 "limitations</a> document."
 msgstr ""
-"Vi omfattas av <a href=\"%(url)s\">Mozilla rättsliga friskrivningar och "
-"begränsningar</a> dokumentet."
+"Vi omfattas av dokumentet <a href=\"%(url)s\">Mozilla rättsliga "
+"friskrivningar och begränsningar</a>."
 
 #: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
-msgstr "Lagring av data policy"
+msgstr "Policy för datalagring"
 
 #: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
-"Vi har en datalagrings policy som täcker informationen som lagras på denna "
-"webbplats:"
+"Vi har en datalagringspolicy som täcker data som lagras på denna webbplats:"
 
 #: fjord/base/jinja2/about.html:51
 msgid ""
 "We keep feedback data forever, but only the last 6 months of data is "
 "available on the public dashboard."
 msgstr ""
-"Vi sparar feedbackinformation för evigt, men bara de senaste 6 månaderna av "
-"data är tillgängliga på den offentliga instrumentpanelen."
+"Vi sparar återkopplingsuppgifter för evigt, men bara de senaste 6 månaderna "
+"av data finns tillgängliga på den offentliga översikten."
 
 #: fjord/base/jinja2/about.html:57
 msgid ""
 "We keep email addresses and contextual data associated with feedback data "
 "for 6 months and then delete it."
 msgstr ""
-"Vi sparar e-postadresser och kontextuella uppgifter associerade till "
-"feedback data i 6 månader och tar sen bort infon."
+"Vi sparar e-postadresser och kontextuella uppgifter associerade med "
+"återkopplingsuppgifter för 6 månader och tar sedan bort den."
 
 #: fjord/base/jinja2/about.html:64
 msgid "Open Data"
-msgstr "Öppna data"
+msgstr "Öppna uppgifter"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
@@ -427,9 +427,9 @@ msgid ""
 "you would like to experiment with our data, please contact us!"
 msgstr ""
 "Vi vill gärna experimentera mer med dessa uppgifter, men vi är bara ett "
-"fåtal personer. Därför behöver vi ansökningar från er om just de frågor som "
-"du skulle vilja se besvarade! Om du vill experimentera med våra uppgifter, "
-"vänligen kontakta oss!"
+"fåtal personer. Därför behöver vi förfrågningar från er på de frågor som du "
+"vill ha svar på! Om du vill experimentera med våra uppgifter, vänligen "
+"kontakta oss!"
 
 #: fjord/base/jinja2/about.html:74
 msgid "Source Code"
@@ -521,7 +521,7 @@ msgstr ""
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr "Din inlämning misslyckades med en säkerhetskontroll på vårt system."
+msgstr "Ditt bidrag missade en säkerhetskontroll i vårt system."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:8
 msgid ""
@@ -529,12 +529,14 @@ msgid ""
 "browser, refresh the page, fill out the form, and try submitting your "
 "feedback again."
 msgstr ""
-"Se till att du har cookies aktiverat, tryck på knappen bakåt i webbläsaren, "
-"uppdatera sidan, fyll i formuläret och prova att skicka din feedback igen."
+"Kontrollera att du har kakor aktiverade, tryck på knappen Bakåt i "
+"webbläsaren, uppdatera sidan, fyll i formuläret och försöka skicka in "
+"återkoppling igen."
 
 #: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr "Du har misslyckats att autentisera med Persona. Försök igen."
+msgstr ""
+"Du har misslyckats med att autentisera med Persona. Var god försök igen."
 
 #: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -545,8 +547,8 @@ msgid ""
 "The identity you just logged in to Persona with ties you to your account on "
 "Input. Please remember which Persona identity you used."
 msgstr ""
-"Identiteten du just loggat in med på Persona binder dig till ditt konto på "
-"indata. Kom ihåg vilken Persona identitet du använt. "
+"Identiteten du just loggat in till Persona med kopplar dina synpunkter till "
+"ditt konto. Kom ihåg vilken Persona identitet du använt."
 
 #: fjord/base/jinja2/includes/new_user_text.html:10
 msgid "Continue"
@@ -649,7 +651,7 @@ msgid ""
 "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
 " to be on the latest version."
 msgstr ""
-"Åh! Så vill du ge oss återkoppling för Firefox. Tack, men du måste du ha den"
+"Åh! Så du vill ge oss återkoppling för Firefox. Tack, men du måste du ha den"
 " senaste versionen."
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:27
@@ -738,9 +740,9 @@ msgid ""
 "so please be sure not to include personal information such as email address,"
 " passwords or phone number."
 msgstr ""
-"Beskriv vad du gillar. Innehållet i din feedback kommer att vara offentligt,"
-" så var noga med att inte inkludera personlig information såsom "
-"e-postadress, lösenord eller telefon nummer."
+"Beskriv vad du gillar. Innehållet i din återkoppling kommer att vara "
+"offentlig, så var noga med att inte inkludera personlig information såsom "
+"e-postadress, lösenord eller telefonnummer."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:150
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:108
@@ -750,14 +752,16 @@ msgid ""
 "personal information such as email address, passwords or phone number."
 msgstr ""
 "Beskriv ditt problem nedan och vara så specifik som möjligt. Innehållet i "
-"din feedback kommer att vara offentligt, så var noga med att inte inkludera "
-"personlig information såsom e-postadress, lösenord eller telefon nummer."
+"din återkoppling kommer att vara offentlig, så var noga med att inte "
+"inkludera personlig information såsom e-postadress, lösenord eller "
+"telefonnummer."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:167
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:125
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr ""
-"Om din feedback är relaterad till en webbplats, kan du inkludera den här:"
+"Om din återkoppling är relaterad till en webbplats, kan du inkludera den "
+"här:"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:181
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:156
@@ -765,8 +769,8 @@ msgid ""
 "(Optional) Check here to let us contact you to follow up on your feedback. "
 "Your email address will be kept private."
 msgstr ""
-"(Valfritt) Kolla här för att låta oss kontakta dig för att följa upp på din "
-"feedback. Din e-postadress kommer att hållas privat."
+"(Valfritt) Markera här för att låta oss kontakta dig för en uppföljning på "
+"dina synpunkter. Din e-postadress kommer att hållas privat."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
@@ -811,8 +815,8 @@ msgid ""
 "Something has happened and we can't submit your feedback. Feedback will be "
 "saved on your device so you can try sending it again later."
 msgstr ""
-"Något har hänt och vi kan inte skicka din feedback. Din feedback kommer att "
-"sparas på din enhet så att du kan skicka den igen senare."
+"Något har hänt och vi kan inte skicka in din återkoppling. Din återkoppling "
+"kommer att sparas på din enhet så att du kan skicka in den igen senare."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:240
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:246
@@ -830,7 +834,7 @@ msgid ""
 "You have unsubmitted feedback data. Would you like to try submitting it "
 "again?"
 msgstr ""
-"Du har ej inskickade feedback data. Vill du prova att skicka det igen?"
+"Du har ej inskickad återkopplingsdata. Vill du försöka skicka in det igen?"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 #, python-format
@@ -843,10 +847,10 @@ msgid ""
 "information helps us better understand our users and create better products."
 " This information will be kept in accordance with our Privacy policy."
 msgstr ""
-"Kolla här för att tillhandahålla teknisk information om din webbläsare. "
-"Denna information hjälper oss att bättre förstå våra användare och skapa "
-"bättre produkter. Denna information kommer att hållas i enlighet med vår "
-"integritetspolicy."
+"Markera här för att ge teknisk information om din webbläsare. Denna "
+"information hjälper oss att bättre förstå våra användare och skapa bättre "
+"produkter. Denna information kommer att hållas i enlighet med vår "
+"sekretesspolicy."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -908,7 +912,7 @@ msgid ""
 "Download <a href=\"%(download_url)s\">the Firefox build that is right for "
 "you</a>."
 msgstr ""
-"Ladda ner <a href=\"%(download_url)s\">den Firefox version som är rätt för "
+"Hämta <a href=\"%(download_url)s\">den version av Firefox som är rätt för "
 "dig</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:74
