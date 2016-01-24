@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2015-11-20 07:28-0800\n"
-"PO-Revision-Date: 2016-01-21 01:59+0000\n"
+"PO-Revision-Date: 2016-01-24 18:52+0000\n"
 "Last-Translator: ravmn <ravmn@ravmn.cl>\n"
 "Language-Team: none\n"
 "Language: es_CL\n"
@@ -356,6 +356,12 @@ msgid ""
 "do to make that experience better. The system is available over a wide-"
 "variety of submission mechanisms and product builds."
 msgstr ""
+"Firefox Input es el principal mecanismo de Mozilla para recibir comentarios "
+"sobre los productos. Está diseñado para ser un método comunicativo en una "
+"sola dirección sobre tus experiencias al utilizar nuestros productos, tu "
+"visión de Internet y lo que Mozilla puede hacer para mejorar esa "
+"experiencia. El sistema está habilitado para una gran variedad de mecanismos"
+" de presentación y productos."
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -363,6 +369,8 @@ msgid ""
 "To submit feedback for a Mozilla product, please go to <a "
 "href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
+"Para enviar comentarios sobre un producto de Mozilla, ¡por favor visita <a "
+"href=\"%(url)s\">la página de envío de comentarios</a>!"
 
 #: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
@@ -375,7 +383,7 @@ msgstr "Adherimos a la <a href=\"%(url)s\">política de privacidad de Mozilla</a
 
 #: fjord/base/jinja2/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Limitaciones y aviso de responsabilidad legal"
 
 #: fjord/base/jinja2/about.html:36
 #, python-format
@@ -383,26 +391,34 @@ msgid ""
 "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
 "limitations</a> document."
 msgstr ""
+"Estamos cubiertos por el documento <a href=\"%(url)s\">Limitaciones y aviso "
+"de responsabilidad legal de Mozilla</a>."
 
 #: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Política de retención de datos"
 
 #: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Tenemos una política de retención de datos que cubre los datos almacenados "
+"en este sitio:"
 
 #: fjord/base/jinja2/about.html:51
 msgid ""
 "We keep feedback data forever, but only the last 6 months of data is "
 "available on the public dashboard."
 msgstr ""
+"Mantenemos los comentarios para siempre, pero solo los últimos 6 meses están"
+" disponibles para el público en el panel."
 
 #: fjord/base/jinja2/about.html:57
 msgid ""
 "We keep email addresses and contextual data associated with feedback data "
 "for 6 months and then delete it."
 msgstr ""
+"Mantenemos las direcciones de correo y datos contextuales asociados a los "
+"comentarios por 6 meses y luego los eliminamos."
 
 #: fjord/base/jinja2/about.html:64
 msgid "Open Data"
@@ -414,6 +430,10 @@ msgid ""
 "So, we need requests from you on questions you'd like to see answered! If "
 "you would like to experiment with our data, please contact us!"
 msgstr ""
+"Nos encantaría experimentar más con estos datos, pero solo somos unas pocas "
+"personas. Por lo tanto, ¡necesitamos que nos digas que preguntas te gustaría"
+" ver respondidas! Si te gustaría experimentar con nuestros datos, ¡por favor"
+" comunícate con nosotros!"
 
 #: fjord/base/jinja2/about.html:74
 msgid "Source Code"
@@ -425,6 +445,8 @@ msgid ""
 "The code for the Firefox Input site can be <a href=\"%(url)s\">found on "
 "GitHub</a>!"
 msgstr ""
+"¡El código del sitio Firefox Input <a href=\"%(url)s\">se encuentra en "
+"GitHub</a>!"
 
 #: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
@@ -497,10 +519,14 @@ msgid ""
 "site is licensed under the <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"A menos que se <a href=\"%(legal_url)s\">indique</a> lo contrario, el "
+"contenido de este sitio está bajo la <a href=\"%(license_url)s\">licencia "
+"Creative Commons Attribution Share-Alike v3.0</a> o cualquier versión "
+"posterior."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "Tu envío no ha pasado la evaluación de seguridad en nuestro sistema."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:8
 msgid ""
@@ -508,10 +534,13 @@ msgid ""
 "browser, refresh the page, fill out the form, and try submitting your "
 "feedback again."
 msgstr ""
+"Por favor, asegúrate de tener las cookies habilitadas, presiona en tu "
+"navegador el botón para retroceder a la página anterior, rellena el "
+"formulario y trata de enviar tu comentario nuevamente."
 
 #: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Fallaste al identificarte en Persona. Por favor, inténtalo de nuevo."
 
 #: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -627,6 +656,8 @@ msgid ""
 "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
 " to be on the latest version."
 msgstr ""
+"¡Chuta! Así que quieres enviarnos un comentario sobre Firefox. Gracias, pero"
+" necesitas tener la última versión."
 
 #: fjord/feedback/jinja2/feedback/download_firefox.html:27
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
@@ -635,6 +666,8 @@ msgid ""
 "To do that, simply go to our download page and install/update to the <a "
 "href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr ""
+"Para hacerlo, ¡solo tienes que ir a nuestra página de descargas e instalar o"
+" actualizar a la <a href=\"%(url)s\">última versión de Firefox</a>!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:7
@@ -653,10 +686,12 @@ msgid ""
 "JavaScript is required to leave feedback. Please enable JavaScript in your "
 "browser and refresh this page."
 msgstr ""
+"JavaScript es requerido para dejar comentarios. Por favor, habilita "
+"JavaScript en tu navegador y actualiza la página."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
-msgstr ""
+msgstr "Tu comentario nos ayuda a mejorar Firefox OS."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:58
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:60
@@ -710,6 +745,9 @@ msgid ""
 "so please be sure not to include personal information such as email address,"
 " passwords or phone number."
 msgstr ""
+"Por favor, dilo como tú quieras. El contenido de tu comentario será público,"
+" así que asegúrate de no incluir información personal, como tu dirección "
+"correo electrónico, contraseñas o número telefónico."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:150
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:108
@@ -718,11 +756,16 @@ msgid ""
 "content of your feedback will be public, so please be sure not to include "
 "personal information such as email address, passwords or phone number."
 msgstr ""
+"Por favor, describe tu problema a continuación y sé lo más específico que "
+"puedas. El contenido de tu comentario será público, así que asegúrate de no "
+"incluir información personal, como dirección de tu correo electrónico, "
+"contraseña o número telefónico."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:167
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:125
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr ""
+"Si tu comentario está relacionado con un sitio web, puedes incluirlo aquí:"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:181
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:156
@@ -730,6 +773,9 @@ msgid ""
 "(Optional) Check here to let us contact you to follow up on your feedback. "
 "Your email address will be kept private."
 msgstr ""
+"(Opcional) Marca aquí para permitirnos que nos contactemos contigo y "
+"profundicemos sobre tu comentario. Tu dirección de correo electrónico se "
+"mantendrá en privado."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
@@ -806,6 +852,10 @@ msgid ""
 "information helps us better understand our users and create better products."
 " This information will be kept in accordance with our Privacy policy."
 msgstr ""
+"Revisa aquí para entregarnos información técnica sobre tu navegador. Esta "
+"información nos ayuda a entender aún más a nuestros usuarios y crear mejores"
+" productos. Esta información será tratada de acuerdo a nuestra política de "
+"privacidad."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
