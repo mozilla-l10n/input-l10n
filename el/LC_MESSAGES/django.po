@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-20 07:28-0800\n"
+"POT-Creation-Date: 2016-02-25 12:19-0800\n"
 "PO-Revision-Date: 2015-01-23 19:57+0000\n"
 "Last-Translator: Joseph <sirios2222@yahoo.gr>\n"
 "Language-Team: LANGUAGE <fiotakis@otenet.gr>\n"
@@ -573,22 +573,97 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Λογότυπο Firefox"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
-msgid "Download Firefox"
-msgstr "Λήψη του Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
+msgid "Firefox Feedback"
+msgstr "Firefox Feedback"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:16
-msgid "Please Download Firefox"
-msgstr "Λήψη του Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:42
+msgid "Have a minute?"
+msgstr "Have a minute?"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Σας ευχαριστούμε που θέλετε να μας προσφέρετε τα σχόλια σας για τον Firefox, αλλά για να το κάνετε αυτό, θα πρέπει να χρησιμοποιείτε την πιο πρόσφατη έκδοση του."
+#: fjord/feedback/jinja2/feedback/android_feedback.html:47
+#, fuzzy, python-format
+msgid "Tell us what you think about %(product)s so far."
+msgstr "Tell us what you think about Firefox for Android so far."
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr "Απαιτείται η χρήση JavaScript για να υποβάλετε το σχόλιό σας. Παρακαλούμε ενεργοποιήστε τη JavaScript στον περιηγητή σας και κάντε ανανέωση της σελίδας."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:62
+msgid "I love it"
+msgstr "I love it"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:70
+msgid "I ran into some problems"
+msgstr "I ran into some problems"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:83
+msgid "That's great to hear!"
+msgstr "That's great to hear!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:90
+msgid "Want to share the love by giving us a 5 star rating on Google Play?"
+msgstr "Want to share the love by giving us a 5 star rating on Google Play?"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:96
+msgid "It takes less than a minute and feels great."
+msgstr "It takes less than a minute and feels great."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:113
+msgid "Yes, go to Google Play"
+msgstr "Yes, go to Google Play"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:122
+msgid "Oh no!"
+msgstr "Oh no!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:131
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:142
+msgid "Include last visited site"
+msgstr "Include last visited site"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:156
+#, fuzzy
+msgid "Send Feedback"
+msgstr ""
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Send Feedback\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Αποστολή σχολίου"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:161
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr "For your privacy, please do not include any personal information in your feedback."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:179
+msgid "Maybe later"
+msgstr "Maybe later"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:184
+msgid "No thanks"
+msgstr "No thanks"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Για να το κάνετε αυτό, απλά πηγαίνετε στη σελίδα λήψεων και εγκαταστήστε/ενημερώστε την <a href=\"%(url)s\">πιο πρόσφατη έκδοση του Firefox!</a>"
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:34
+msgid "Thank you."
+msgstr "Thank you."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:42
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:49
+msgid "Or else."
+msgstr "Or else."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
@@ -597,10 +672,6 @@ msgstr "Υποβολή σχολίου"
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
 msgstr "Υποβολή σχολίου για {product}"
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr "Απαιτείται η χρήση JavaScript για να υποβάλετε το σχόλιό σας. Παρακαλούμε ενεργοποιήστε τη JavaScript στον περιηγητή σας και κάντε ανανέωση της σελίδας."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
@@ -786,13 +857,44 @@ msgstr "Μάθετε πώς μπορείτε <a href=\"%(url)s\">να κάνετ
 msgid "Find the latest news about %(product)s."
 msgstr "Δείτε τα πιο πρόσφατα νέα του Firefox:"
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Λήψη του Firefox"
+
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Λήψη του Firefox"
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Σας ευχαριστούμε που θέλετε να μας προσφέρετε τα σχόλια σας για τον Firefox, αλλά για να το κάνετε αυτό, θα πρέπει να χρησιμοποιείτε την πιο πρόσφατη έκδοση του."
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Για να το κάνετε αυτό, απλά πηγαίνετε στη σελίδα λήψεων και εγκαταστήστε/ενημερώστε την <a href=\"%(url)s\">πιο πρόσφατη έκδοση του Firefox!</a>"
+
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr ""
+
+#~ msgid "Please Download Firefox"
+#~ msgstr "Λήψη του Firefox"
+
+#~ msgid "to get answers for common issues."
+#~ msgstr "to get answers for common issues."
+
+#~ msgid "Support Site"
+#~ msgstr "Support Site"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Enter your feedback here"
+#~ msgstr "Enter your feedback here"
+
+#~ msgid "Visit our"
+#~ msgstr "Visit our"
 
 #~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 #~ msgstr "Τα σχόλιά σας θα βοηθήσουν στη δημιουργία μιας καλύτερης εμπειρίας σε επόμενες εκδόσεις του Firefox."
@@ -806,7 +908,6 @@ msgstr ""
 #~ msgid "Find the latest news about Firefox."
 #~ msgstr "Δείτε τα πιο πρόσφατα νέα του Firefox:"
 
-#, fuzzy
 #~ msgid "Go to our support forum where you can get help and find answers."
 #~ msgstr "Επισκεφτείτε το φόρουμ υποστήριξης όπου μπορείτε να  <a href=\"%(url)s\">λάβετε βοήθεια και να βρείτε απαντήσεις</a>."
 
@@ -843,9 +944,6 @@ msgstr ""
 #~ msgid "Don't worry, your email will always be kept private."
 #~ msgstr "Μην ανησυχείτε, το email σας θα μείνει πάντα ιδιωτικό."
 
-#~ msgid "Send Feedback"
-#~ msgstr "Αποστολή σχολίου"
-
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Τα σχόλιά σας μας βοηθούν να βελτιώσουμε τον Firefox."
 
@@ -870,11 +968,9 @@ msgstr ""
 #~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 #~ msgstr "Αν και τα σχόλιά σας θα είναι δημόσια διαθέσιμα, οι διευθύνσεις ηλεκτρονικού ταχυδρομείου είναι εμπιστευτικές. Σεβόμαστε τα προσωπικά σας δεδομένα."
 
-#, fuzzy
 #~ msgid "Unknown product"
 #~ msgstr "Άγνωστη"
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Επισκεφθείτε το <a href=\"%(dash_url)s\">ταμπλό υποβολής σχολίων για τον Firefox</a>"
 

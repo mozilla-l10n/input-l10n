@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-20 07:28-0800\n"
+"POT-Creation-Date: 2016-02-25 12:19-0800\n"
 "PO-Revision-Date: 2015-09-23 09:40+0000\n"
 "Last-Translator: Wim <fryskefirefox@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -562,22 +563,92 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Firefox-logo"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
-msgid "Download Firefox"
-msgstr "Firefox ynlade"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
+msgid "Firefox Feedback"
+msgstr "Firefox-kommentaar"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:16
-msgid "Please Download Firefox"
-msgstr "Firefox ynlade"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:42
+msgid "Have a minute?"
+msgstr "Hawwe jo efkes?"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Oh! Dus jo wolle ús kommentaar jaan oer Firefox. Tank, mar jo moatte de meast resinte bèta-ferzje brûke."
+#: fjord/feedback/jinja2/feedback/android_feedback.html:47
+#, fuzzy, python-format
+msgid "Tell us what you think about %(product)s so far."
+msgstr "Fertel ús wat jo oant no ta fan Firefox foar Android fine."
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr "Om feedback achter te litten is JavaScript fereaske. Skeakel JavaScript yn jo browser yn en fernij dizze side."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:62
+msgid "I love it"
+msgstr "Fantastysk"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:70
+msgid "I ran into some problems"
+msgstr "Der binne wat probleemkes"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:83
+msgid "That's great to hear!"
+msgstr "Da’s goed om te hearren!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:90
+msgid "Want to share the love by giving us a 5 star rating on Google Play?"
+msgstr "Wolle jo jo entûsiasme diele troch ús 5 stjerren te jaan yn Google Play?"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:96
+msgid "It takes less than a minute and feels great."
+msgstr "It kostet minder as in minút en jout in goed gefoel."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:113
+msgid "Yes, go to Google Play"
+msgstr "Ja, nei Google Play"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:122
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:131
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr "It spyt ús dat Firefox jo teloarsteld hat. Fertel ús wat der mis gie, sadat wy hjir wat oan dwaan kinne."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:142
+msgid "Include last visited site"
+msgstr "Lêst besochte website meijaan"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:156
+msgid "Send Feedback"
+msgstr "Kommentaar ferstjoere"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:161
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr "Soargje der om reden fan jo privacy foar dat jo gjin persoanlike gegevens yn jo kommentaar opnimme."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:179
+msgid "Maybe later"
+msgstr "Miskien letter"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:184
+msgid "No thanks"
+msgstr "Nee, tankewol"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Gean nei ús ynlaadside en ynstallearje <a href=\"%(url)s\">de meast resinte Firefox-ferzje</a> of wurkje by nei dizze ferzje om mei te dwaan!"
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:34
+msgid "Thank you."
+msgstr "Tankewol."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:42
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr "Wy binne kontinu dwaande om Firefox te ferbetterjen. Fertrou derop dat wy jo kommentaar lêze en ús úterste bêst dwaan om jo probleem op te lossen."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:49
+msgid "Or else."
+msgstr "Wat der ek foar nedich is."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
@@ -586,10 +657,6 @@ msgstr "Kommentaar yntsjinje"
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
 msgstr "Kommentaar  oer {product}"
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr "Om feedback achter te litten is JavaScript fereaske. Skeakel JavaScript yn jo browser yn en fernij dizze side."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
@@ -774,13 +841,44 @@ msgstr "Lês hoe't jo <a href=\"%(url)s\">%(product)s en Mozilla ferbetterje kin
 msgid "Find the latest news about %(product)s."
 msgstr "Lês it lêste nijs oer %(product)s."
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Firefox ynlade"
+
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Firefox ynlade!"
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Oh! Dus jo wolle ús kommentaar jaan oer Firefox. Tank, mar jo moatte de meast resinte bèta-ferzje brûke."
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Gean nei ús ynlaadside en ynstallearje <a href=\"%(url)s\">de meast resinte Firefox-ferzje</a> of wurkje by nei dizze ferzje om mei te dwaan!"
+
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr "Stel in fraach yn ús stipefoarum"
+
+#~ msgid "Please Download Firefox"
+#~ msgstr "Firefox ynlade"
+
+#~ msgid "to get answers for common issues."
+#~ msgstr "om antwurden te krijen op algemiene fragen"
+
+#~ msgid "Support Site"
+#~ msgstr "stipewebsite"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Enter your feedback here"
+#~ msgstr "Fier jo kommentaar hjir yn"
+
+#~ msgid "Visit our"
+#~ msgstr "Besykje ús"
 
 #~ msgid "Bigram"
 #~ msgstr "Bigram"
@@ -833,9 +931,6 @@ msgstr "Stel in fraach yn ús stipefoarum"
 #~ msgid "Don't worry, your email will always be kept private."
 #~ msgstr "Gjin soargen, jo e-mailadres sil altyd prive hâlden wurde."
 
-#~ msgid "Send Feedback"
-#~ msgstr "Kommentaar ferstjoere"
-
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Jo kommentaar helpt ús Firefox te ferbetterjen."
 
@@ -860,15 +955,12 @@ msgstr "Stel in fraach yn ús stipefoarum"
 #~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 #~ msgstr "Hoewol jo kommentaar iepenbier sichtber is, wurde e-mailadressen privee hâlden. Wy begripe dat jo privacy wichtich is."
 
-#, fuzzy
 #~ msgid "Unknown product"
 #~ msgstr "Unbekend"
 
-#, fuzzy
 #~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
 #~ msgstr "As jo sjen wolle wêr't jo kommentaar nei ta stjoerd is, sjoch dan op ús <a href=\"%(url)s\">Firefox-ynfierdashboard</a>."
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Besykje it <a href=\"%(dash_url)s\">Firefox-kommentaardashboerd</a>"
 
@@ -1121,7 +1213,6 @@ msgstr "Stel in fraach yn ús stipefoarum"
 #~ msgid "I have an idea for Firefox"
 #~ msgstr "Ik haw in idee foar Firefox"
 
-#, fuzzy
 #~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
 #~ msgstr "As jo help nedich of in probleem mei Firefox hawwe, besykje dan <a href=\"%(url)s\">Firefox-stipe</a>."
 
@@ -1538,7 +1629,6 @@ msgstr "Stel in fraach yn ús stipefoarum"
 #~ msgid "Older Messages &raquo;"
 #~ msgstr "Aldere berjochten &raquo;"
 
-#, fuzzy
 #~ msgid "Back to Feedback"
 #~ msgstr "Meast resinte kommentaar"
 

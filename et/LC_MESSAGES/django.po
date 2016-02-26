@@ -1,9 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: "
-"https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-20 07:28-0800\n"
+"Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
+"POT-Creation-Date: 2016-02-25 12:19-0800\n"
 "PO-Revision-Date: 2015-11-28 15:07+0000\n"
 "Last-Translator: Merike <merike.sell@eesti.ee>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -556,22 +556,92 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Firefox iOS-ile"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
-msgid "Download Firefox"
-msgstr "Firefoxi allalaadimine"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
+msgid "Firefox Feedback"
+msgstr "Firefoxi tagasiside"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:16
-msgid "Please Download Firefox"
-msgstr "Palun laadi Firefox alla"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:42
+msgid "Have a minute?"
+msgstr "On sul veidi aega?"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Ohh! Paistab, et soovid Firefoxi kohta tagasisidet anda. Oleme tänulikud, kuid selleks peaksid kasutama uusimat versiooni."
+#: fjord/feedback/jinja2/feedback/android_feedback.html:47
+#, fuzzy, python-format
+msgid "Tell us what you think about %(product)s so far."
+msgstr "Ütle meile, mida arvad Firefoxist Androidile."
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr "JavaScript on tagasiside andmiseks nõutud. Palun luba JavaScript oma veebilehitsejas ja värskenda seda lehte."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:62
+msgid "I love it"
+msgstr "See meeldib mulle väga"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:70
+msgid "I ran into some problems"
+msgstr "Esines mõningaid probleeme"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:83
+msgid "That's great to hear!"
+msgstr "Seda on hea teada!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:90
+msgid "Want to share the love by giving us a 5 star rating on Google Play?"
+msgstr "Kas soovid oma rõõmu jagada ja anda meile 5 tärni hinnang Google Plays?"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:96
+msgid "It takes less than a minute and feels great."
+msgstr "See võtab vähem kui minuti ja annab hea tunde."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:113
+msgid "Yes, go to Google Play"
+msgstr "Jah, lähen Google Playsse"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:122
+msgid "Oh no!"
+msgstr "Oh ei!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:131
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr "Meil on kahju, et kogesid Firefoxiga probleeme. Palun anna meile teada, mis juhtus, et me saaks vea parandada."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:142
+msgid "Include last visited site"
+msgstr "Kaasatakse viimati külastatud saidi aadress"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:156
+msgid "Send Feedback"
+msgstr "Saada tagasiside"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:161
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr "Privaatsuse säilitamiseks palume tagasisidesse identifitseerivat infot mitte lisada."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:179
+msgid "Maybe later"
+msgstr "Võib-olla hiljem"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:184
+msgid "No thanks"
+msgstr "Tänan, ei soovi"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Selleks mine lihtsalt meie allalaadimiste lehele ning paigalda <a href=\"%(url)s\">uusim Firefoxi versioon!</a>"
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:34
+msgid "Thank you."
+msgstr "Täname!"
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:42
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr "Me töötame alati selle nimel, et teha Firefox paremaks. Võid kindel olla, et päris inimesed loevad sinu tagasisidet ja annavad endast parima, et lahendada sinu probleem."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:49
+msgid "Or else."
+msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
@@ -580,10 +650,6 @@ msgstr "Tagasiside andmine"
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
 msgstr "{product} tagasiside"
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr "JavaScript on tagasiside andmiseks nõutud. Palun luba JavaScript oma veebilehitsejas ja värskenda seda lehte."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
@@ -767,13 +833,44 @@ msgstr "Vaata, kuidas saad <a href=\"%(url)s\">%(product)s ja Mozilla veel parem
 msgid "Find the latest news about %(product)s."
 msgstr "Leia värskeimad %(product)s uudised."
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Firefoxi allalaadimine"
+
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Palun laadi Firefox alla!"
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Ohh! Paistab, et soovid Firefoxi kohta tagasisidet anda. Oleme tänulikud, kuid selleks peaksid kasutama uusimat versiooni."
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Selleks mine lihtsalt meie allalaadimiste lehele ning paigalda <a href=\"%(url)s\">uusim Firefoxi versioon!</a>"
+
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr "Esita küsimus meie kasutajatoe foorumis"
+
+#~ msgid "Please Download Firefox"
+#~ msgstr "Palun laadi Firefox alla"
+
+#~ msgid "to get answers for common issues."
+#~ msgstr "."
+
+#~ msgid "Support Site"
+#~ msgstr "tugiveebi"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Enter your feedback here"
+#~ msgstr "Sisesta oma tagasiside siia"
+
+#~ msgid "Visit our"
+#~ msgstr "Vastuste saamiseks enamlevinud probleemide kohta külasta meie"
 
 #~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 #~ msgstr "Sinu tagasisidet kasutatakse Firefoxi väljalasete paremaks muutmiseks."
@@ -820,9 +917,6 @@ msgstr "Esita küsimus meie kasutajatoe foorumis"
 #~ msgid "Don't worry, your email will always be kept private."
 #~ msgstr "Ära muretse, sinu e-posti aadressi ei avaldata."
 
-#~ msgid "Send Feedback"
-#~ msgstr "Saada tagasiside"
-
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Sinu tagasiside aitab meil Firefoxi paremaks muuta."
 
@@ -847,7 +941,6 @@ msgstr "Esita küsimus meie kasutajatoe foorumis"
 #~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 #~ msgstr "Kuigi sinu tagasiside on avalik, ei avalda me e-posti aadressi. Mõistame sinu privaatsuse olulisust."
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Külasta <a href=\"%(dash_url)s\">Firefoxi tagasiside ülevaadet</a>"
 

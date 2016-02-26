@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-20 07:28-0800\n"
+"POT-Creation-Date: 2016-02-25 12:19-0800\n"
 "PO-Revision-Date: 2013-11-09 18:11+0000\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -585,23 +586,97 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Logotip del Firefox"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
-msgid "Download Firefox"
-msgstr "Baixa el Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
+msgid "Firefox Feedback"
+msgstr "Comentaris del Firefox"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:16
+#: fjord/feedback/jinja2/feedback/android_feedback.html:42
+msgid "Have a minute?"
+msgstr "Teniu un minut?"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:47
+#, fuzzy, python-format
+msgid "Tell us what you think about %(product)s so far."
+msgstr "Digueu-nos què en penseu del Firefox per a l'Android de moment."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:62
+msgid "I love it"
+msgstr "M'agrada"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:70
+msgid "I ran into some problems"
+msgstr "He tingut alguns problemes"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:83
+msgid "That's great to hear!"
+msgstr "Això és bo!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:90
+msgid "Want to share the love by giving us a 5 star rating on Google Play?"
+msgstr "Voleu compartir la vostra satisfacció donant-nos una puntuació de 5 estrelles al Google Play?"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:96
+msgid "It takes less than a minute and feels great."
+msgstr "Es triga menys d'un minut i us farà sentir molt bé."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:113
+msgid "Yes, go to Google Play"
+msgstr "Si, vés al Google Play"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:122
+msgid "Oh no!"
+msgstr "Vaja."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:131
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr "Sentim que hàgiu tingut problemes amb el Firefox. Digueu-nos què ha passat perquè puguem solucionar-ho."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:142
+msgid "Include last visited site"
+msgstr "Inclou el darrer lloc visitat"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:156
 #, fuzzy
-msgid "Please Download Firefox"
-msgstr "Baixa el Firefox"
+msgid "Send Feedback"
+msgstr ""
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Envia el comentari\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Opinió"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Oh! Així que voleu donar-nos la vostra opinió del Firefox. Gràcies, però només ho podeu fer emprant la darrera versió."
+#: fjord/feedback/jinja2/feedback/android_feedback.html:161
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr "Per a la vostra privadesa, no inclogueu informació personal en el comentari."
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/android_feedback.html:179
+msgid "Maybe later"
+msgstr "Potser més tard"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:184
+msgid "No thanks"
+msgstr "No, gràcies"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Per poder fer-ho, només heu d'anar a la nostra pàgina de baixades i instal·lar-vos / actualitzar-vos la <a href=\"%(url)s\">darrera versió del Firefox!</a>"
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:34
+msgid "Thank you."
+msgstr "Gràcies."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:42
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr "Treballem contínuament per fer el Firefox millor. Tingueu clar que hi ha gent real mirant els vostres comentaris i que farà tot el possible per resoldre el problema."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:49
+msgid "Or else."
+msgstr "No importa com."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
@@ -611,10 +686,6 @@ msgstr "Tramet l'opinió"
 #, fuzzy
 msgid "{product} feedback"
 msgstr "Tramet el comentari"
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 #, fuzzy
@@ -802,14 +873,46 @@ msgstr "Descobriu com podeu <a href=\"%(url)s\">millorar el Firefox i Mozilla</a
 msgid "Find the latest news about %(product)s."
 msgstr "Descobriu les darreres notícies del Firefox."
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Baixa el Firefox"
+
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 #, fuzzy
 msgid "Please Download Firefox!"
 msgstr "Baixa el Firefox"
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Oh! Així que voleu donar-nos la vostra opinió del Firefox. Gràcies, però només ho podeu fer emprant la darrera versió."
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Per poder fer-ho, només heu d'anar a la nostra pàgina de baixades i instal·lar-vos / actualitzar-vos la <a href=\"%(url)s\">darrera versió del Firefox!</a>"
+
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Please Download Firefox"
+#~ msgstr "Baixa el Firefox"
+
+#~ msgid "to get answers for common issues."
+#~ msgstr "per obtenir respostes als problemes més comuns."
+
+#~ msgid "Support Site"
+#~ msgstr "lloc d'assistència"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Enter your feedback here"
+#~ msgstr "Introduïu aquí el vostre comentari"
+
+#~ msgid "Visit our"
+#~ msgstr "Visiteu el"
 
 #~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 #~ msgstr "Els vostres comentaris s'utilitzaran per a crear millors experiències en properes versions del Firefox."
@@ -817,39 +920,29 @@ msgstr ""
 #~ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 #~ msgstr "Baixeu <a href=\"%(download_url)s\">la versió que més us convingui/a>.                "
 
-#, fuzzy
 #~ msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 #~ msgstr "Descobriu com podeu <a href=\"%(url)s\">millorar el Firefox i Mozilla</a>"
 
 #~ msgid "Find the latest news about Firefox."
 #~ msgstr "Descobriu les darreres notícies del Firefox."
 
-#, fuzzy
 #~ msgid "Submit feedback"
 #~ msgstr "Tramet el comentari"
 
-#, fuzzy
 #~ msgid "Firefox OS made me happy"
 #~ msgstr "El Firefox em fa feliç"
 
-#, fuzzy
 #~ msgid "Firefox OS made me sad"
 #~ msgstr "El Firefox m'entristeix"
 
-#, fuzzy
 #~ msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
 #~ msgstr "Si necessiteu ajuda o teniu cap problema amb el Firefox, visiteu la <a href=\"%(support_url)s\">pàgina d'assistència del Firefox</a>."
 
 #~ msgid "Please describe what you liked."
 #~ msgstr "Descriviu què us ha agradat."
 
-#, fuzzy
 #~ msgid "Please describe your problem below and be as specific as you can."
 #~ msgstr "Descriviu el vostre problema a sota."
-
-#, fuzzy
-#~ msgid "Send Feedback"
-#~ msgstr "Opinió"
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Les vostres opinions ens ajuden a millorar el Firefox."
@@ -869,15 +962,12 @@ msgstr ""
 #~ msgid "If your feedback is related to a website, you can include it here."
 #~ msgstr "Si el vostre comentari és referent a un lloc web, podeu incloure'l aquí."
 
-#, fuzzy
 #~ msgid "Unknown product"
 #~ msgstr "Desconegut"
 
-#, fuzzy
 #~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
 #~ msgstr "Si voleu saber on s'ha enviat el vostre comentari, feu una ullada al <a href=\"%(url)s\">tauler de comentaris del Firefox</a>."
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Visiteu el <a href=\"%(dash_url)s\">tauler de comentaris del Firefox</a>"
 
@@ -930,23 +1020,18 @@ msgstr ""
 #~ msgid "Want to see where your feedback goes?"
 #~ msgstr "Voleu saber on va la vostra opinió?"
 
-#, fuzzy
 #~ msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
 #~ msgstr "Si necessiteu ajuda o teniu cap problema amb el Firefox, visiteu la <a href=\"%(support_url)s\">pàgina d'assistència del Firefox</a>."
 
-#, fuzzy
 #~ msgid "Thank you for your feedback!"
 #~ msgstr "Gràcies pel vostre comentari"
 
-#, fuzzy
 #~ msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
 #~ msgstr " millorar l'experiència en properes versions del Firefox."
 
-#, fuzzy
 #~ msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
 #~ msgstr "Voleu saber què passa amb el Firefox per mòbils? Tenim diverses maneres d'estar en contacte:"
 
-#, fuzzy
 #~ msgid "Find the latest news about Mozilla."
 #~ msgstr "Descobriu les darreres notícies del Firefox."
 
@@ -959,11 +1044,9 @@ msgstr ""
 #~ msgid "Planet Mozilla"
 #~ msgstr "Planeta Mozilla"
 
-#, fuzzy
 #~ msgid "Page not found"
 #~ msgstr "No s'ha trobat"
 
-#, fuzzy
 #~ msgid "Sorry, but we couldn't find the page you're looking for."
 #~ msgstr "No ha estat possible trobar què cercàveu."
 
@@ -1029,7 +1112,6 @@ msgstr ""
 #~ msgid "suggestion box"
 #~ msgstr " la bústia de suggeriments"
 
-#, fuzzy
 #~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
 #~ msgstr "Fantàstic! És genial sentir que us agrada la versió preliminar del nostre navegador. Expliqueu-nos què us agrada concretament!"
 
@@ -1069,7 +1151,6 @@ msgstr ""
 #~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 #~ msgstr "Per compartir amb nosaltres la vostra experiència amb la nova versió del Firefox, necessiteu la darrera versió beta. <a href=\"%(url)s\">Baixeu-la!</a>"
 
-#, fuzzy
 #~ msgid "Back to Dashboard"
 #~ msgstr "Tauler d'opinions"
 
@@ -1082,7 +1163,6 @@ msgstr ""
 #~ msgid "We love ideas for Firefox for Mobile! Please descibe your idea below."
 #~ msgstr "Ens encanten les idees pel Firefox per mòbils! Descriviu la vostra a sota."
 
-#, fuzzy
 #~ msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
 #~ msgstr "Teniu una idea? <a href=\"%(url)s\">Envieu-la</a>"
 
@@ -1113,7 +1193,6 @@ msgstr ""
 #~ msgid "I have an idea for Firefox"
 #~ msgstr "Tinc una idea pel Firefox"
 
-#, fuzzy
 #~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
 #~ msgstr "Si necessiteu ajuda o teniu cap problema amb el Firefox, visiteu la <a href=\"%(url)s\">pàgina d'assistència del Firefox</a>."
 
@@ -1325,7 +1404,6 @@ msgstr ""
 #~ msgid "&infin;"
 #~ msgstr "&infin;"
 
-#, fuzzy
 #~ msgid "Show More Locales"
 #~ msgstr "Més llengües"
 
@@ -1334,11 +1412,9 @@ msgstr ""
 #~ msgstr[0] "<strong>%(cnt)s</strong> missatge"
 #~ msgstr[1] "<strong>%(cnt)s</strong> missatges"
 
-#, fuzzy
 #~ msgid "Show More Platforms"
 #~ msgstr "Plataformes"
 
-#, fuzzy
 #~ msgid "Clear Search"
 #~ msgstr "Cerca"
 
@@ -1656,7 +1732,6 @@ msgstr ""
 #~ msgid "{day}<br/>Average of {num}"
 #~ msgstr "{day}<br/>Mitja de {num}"
 
-#, fuzzy
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; anterior"
 
@@ -1679,7 +1754,6 @@ msgstr ""
 #~ msgid "1 week"
 #~ msgstr "1 setmana"
 
-#, fuzzy
 #~ msgctxt "version_choice"
 #~ msgid "7d"
 #~ msgstr "7d"

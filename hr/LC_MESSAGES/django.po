@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-20 07:28-0800\n"
+"POT-Creation-Date: 2016-02-25 12:19-0800\n"
 "PO-Revision-Date: 2013-10-30 20:13+0000\n"
 "Last-Translator: Mihovil <mihovil.stanic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -572,22 +573,92 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Firefox Logo"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
-msgid "Download Firefox"
-msgstr "Preuzmite Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
+msgid "Firefox Feedback"
+msgstr "Firefox povratna informacija"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:16
-msgid "Please Download Firefox"
-msgstr "Molimo Preuzmite Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:42
+msgid "Have a minute?"
+msgstr "Imate li trenutak?"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Uh! Ddakle, želite nam ponuditi povratne informacije za Firefox. Hvala, ali trebate koristiti najnoviju inačicu."
+#: fjord/feedback/jinja2/feedback/android_feedback.html:47
+#, fuzzy, python-format
+msgid "Tell us what you think about %(product)s so far."
+msgstr "Recite nam što mislite o Firefox za Android do sada."
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:62
+msgid "I love it"
+msgstr "Sviđa mi se"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:70
+msgid "I ran into some problems"
+msgstr "Naišao sam na neke probleme"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:83
+msgid "That's great to hear!"
+msgstr "Drago nam je to čuti!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:90
+msgid "Want to share the love by giving us a 5 star rating on Google Play?"
+msgstr "Želite li dijeliti ljubav tako da nam date ocjenu sa 5 zvjezdica na Google Play?"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:96
+msgid "It takes less than a minute and feels great."
+msgstr "Traje manje od minute i budi dobre osjećaje."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:113
+msgid "Yes, go to Google Play"
+msgstr "Da, idi na Google Play"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:122
+msgid "Oh no!"
+msgstr "O ne!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:131
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr "Žao nam je da ste imali problema sa Firefox. Recite nam šta se desilo tako da možemo isto ispraviti."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:142
+msgid "Include last visited site"
+msgstr "Unesite zadnje posjećenu stranicu"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:156
+msgid "Send Feedback"
+msgstr "Pošalji povratnu informaciju"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:161
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr "Zbog vaše privatnosti, ne uključujte osobne podatke u vašu povratnu informaciju."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:179
+msgid "Maybe later"
+msgstr "Možda kasnije"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:184
+msgid "No thanks"
+msgstr "Ne hvala"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Da biste to uradili, jednostavno posjetite našu stranicu preuzimanja i instalirajte/ažurirajte na <a href=\"%(url)s\">najnoviju inačicu Firefoxa!</a>"
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:34
+msgid "Thank you."
+msgstr "Hvala vam."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:42
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr "Uvijek radimo na toma da poboljšamo Firefox. Budite sigurni da će stvarni ljudi pregledati vašu povratnu informaciju i učiniti najbolje što mogu kako bi riješili vaš problem."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:49
+msgid "Or else."
+msgstr "Bez obzira na sve."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
@@ -597,10 +668,6 @@ msgstr "Pošaljite vašu povratnu informaciju"
 #, fuzzy
 msgid "{product} feedback"
 msgstr "Pošaljite povratnu informaciju"
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
@@ -788,13 +855,44 @@ msgstr "Saznajte kako možete <a href=\"%(url)s\">učiniti Mozillu i Firefox bol
 msgid "Find the latest news about %(product)s."
 msgstr "Saznajte najnovije vijesti vezane za Firefox."
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Preuzmite Firefox"
+
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Molimo Preuzmite Firefox!"
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Uh! Ddakle, želite nam ponuditi povratne informacije za Firefox. Hvala, ali trebate koristiti najnoviju inačicu."
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Da biste to uradili, jednostavno posjetite našu stranicu preuzimanja i instalirajte/ažurirajte na <a href=\"%(url)s\">najnoviju inačicu Firefoxa!</a>"
+
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr ""
+
+#~ msgid "Please Download Firefox"
+#~ msgstr "Molimo Preuzmite Firefox"
+
+#~ msgid "to get answers for common issues."
+#~ msgstr " kako biste dobili odgovore na uobičajene probleme."
+
+#~ msgid "Support Site"
+#~ msgstr "Stranicu za podršku"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Enter your feedback here"
+#~ msgstr "Unesite svoju povratnu informaciju ovdje"
+
+#~ msgid "Visit our"
+#~ msgstr "Posjetite našu "
 
 #~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 #~ msgstr "Vaša povratna informacija bit će iskorištena za stvaranje boljeg iskustva u budućim izdanjima Firefoxa."
@@ -802,7 +900,6 @@ msgstr ""
 #~ msgid "Download <a href=\"%(download_url)s\">the build that is right for you</a>."
 #~ msgstr "Preuzmite <a href=\"%(download_url)s\">izdanje koje vam najbolje odgovara</a>."
 
-#, fuzzy
 #~ msgid "Learn how you can <a href=\"%(url)s\">make Firefox and Mozilla better</a>."
 #~ msgstr "Saznajte kako možete <a href=\"%(url)s\">učiniti Mozillu i Firefox boljim</a>"
 
@@ -842,9 +939,6 @@ msgstr ""
 #~ msgid "Don't worry, your email will always be kept private."
 #~ msgstr "Ne brinite, vaša email adresa neće biti objavljena."
 
-#~ msgid "Send Feedback"
-#~ msgstr "Pošalji povratnu informaciju"
-
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Vaše povratne informacije pomažu nam da unaprijedimo Firefox."
 
@@ -869,15 +963,12 @@ msgstr ""
 #~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 #~ msgstr "Usprkos tomu što će Vaša povratna informacija biti javno dostupna, email adrese držimo privatnima. Razumijemo da Vam je Vaša privatnost važna."
 
-#, fuzzy
 #~ msgid "Unknown product"
 #~ msgstr "Nepoznat"
 
-#, fuzzy
 #~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
 #~ msgstr "Ukoliko želite vidjeti gdje je vaš komentar, pogledajte našu <a href=\"%(url)s\">Firefox nadzornu ploču ulaza</a>."
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Posjetite <a href=\"%(dash_url)s\">nadzornu ploču Firefox povratnih informacija</a>"
 
@@ -975,11 +1066,9 @@ msgstr ""
 #~ msgid "Planet Mozilla"
 #~ msgstr "Planet Mozilla"
 
-#, fuzzy
 #~ msgid "Page not found"
 #~ msgstr "Nije pronađeno"
 
-#, fuzzy
 #~ msgid "Sorry, but we couldn't find the page you're looking for."
 #~ msgstr "Žao nam je, nije moguće pronaći ono što ste tražili."
 
@@ -1542,7 +1631,6 @@ msgstr ""
 #~ msgid "<strong>Welcome to Firefox Input!</strong> This is Mozilla's primary user feedback application. <a href=\"%(about_url)s\">Learn more...</a>"
 #~ msgstr "<strong>Dobrodošli na Firefox Input!</strong> Ovo je Mozillina primarna aplikacija za povratne informacije korisnika. <a href=\"%(about_url)s\">Saznajte više...</a>"
 
-#, fuzzy
 #~ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
 #~ msgstr "Posjetite <a href=\"%(fb_url)s\">nadzornu ploču Firefox povratnih informacija</a>"
 
@@ -1552,7 +1640,6 @@ msgstr ""
 #~ msgid "Older Messages &raquo;"
 #~ msgstr "Starije poruke &raquo;"
 
-#, fuzzy
 #~ msgid "Back to Feedback"
 #~ msgstr "Najnovija povratna informacija"
 

@@ -1,8 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-20 07:28-0800\n"
+"POT-Creation-Date: 2016-02-25 12:19-0800\n"
 "PO-Revision-Date: 2011-05-21 02:55+0200\n"
 "Last-Translator: Hùng. <loveleeyoungae@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -586,23 +587,92 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Biểu trưng Firefox"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
-msgid "Download Firefox"
-msgstr "Tải xuống Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
+msgid "Firefox Feedback"
+msgstr ""
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:16
-#, fuzzy
-msgid "Please Download Firefox"
-msgstr "Tải xuống Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:42
+msgid "Have a minute?"
+msgstr ""
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Ồ! Vậy là bạn muốn cung cấp phản hồi cho chúng tôi về Firefox. Cảm ơn, nhưng bạn sẽ cần dùng phiên bản mới nhất."
-
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/android_feedback.html:47
 #, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "Để làm việc đó, chỉ cần vào trang tải xuống của chúng tôi và cài đặt/cập nhật <a href=\"%(url)s\">phiên bản Firefox mới nhất!</a>"
+msgid "Tell us what you think about %(product)s so far."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:62
+msgid "I love it"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:70
+msgid "I ran into some problems"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:83
+msgid "That's great to hear!"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:90
+msgid "Want to share the love by giving us a 5 star rating on Google Play?"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:96
+msgid "It takes less than a minute and feels great."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:113
+msgid "Yes, go to Google Play"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:122
+msgid "Oh no!"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:131
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:142
+msgid "Include last visited site"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:156
+msgid "Send Feedback"
+msgstr "Gửi phản hồi"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:161
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:179
+msgid "Maybe later"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:184
+msgid "No thanks"
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
+#, python-format
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:34
+msgid "Thank you."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:42
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:49
+msgid "Or else."
+msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
@@ -612,10 +682,6 @@ msgstr "Gửi Phản Hồi của Bạn"
 #, fuzzy
 msgid "{product} feedback"
 msgstr "Gửi Phản Hồi"
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 #, fuzzy
@@ -804,47 +870,55 @@ msgstr ""
 msgid "Find the latest news about %(product)s."
 msgstr "Tìm hiểu tin tức mới nhất về Firefox."
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Tải xuống Firefox"
+
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 #, fuzzy
 msgid "Please Download Firefox!"
 msgstr "Tải xuống Firefox"
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Ồ! Vậy là bạn muốn cung cấp phản hồi cho chúng tôi về Firefox. Cảm ơn, nhưng bạn sẽ cần dùng phiên bản mới nhất."
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "Để làm việc đó, chỉ cần vào trang tải xuống của chúng tôi và cài đặt/cập nhật <a href=\"%(url)s\">phiên bản Firefox mới nhất!</a>"
 
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr ""
 
 #, fuzzy
+#~ msgid "Please Download Firefox"
+#~ msgstr "Tải xuống Firefox"
+
 #~ msgid "Your feedback will be used to create a better experience in future releases of Firefox."
 #~ msgstr "trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
 
 #~ msgid "Find the latest news about Firefox."
 #~ msgstr "Tìm hiểu tin tức mới nhất về Firefox."
 
-#, fuzzy
 #~ msgid "Submit feedback"
 #~ msgstr "Gửi Phản Hồi"
 
-#, fuzzy
 #~ msgid "Firefox OS made me happy"
 #~ msgstr "Firefox làm tôi vui"
 
-#, fuzzy
 #~ msgid "Firefox OS made me sad"
 #~ msgstr "Firefox làm tôi thất vọng"
 
-#, fuzzy
 #~ msgid "If you need help or have a problem with Firefox OS, please visit <a href=\"%(support_url)s\">Mozilla Support</a>."
 #~ msgstr "Nếu bạn cần trợ giúp hoặc có vấn đề với Firefox, vui lòng vào <a href=\"%(support_url)s\">Hỗ Trợ Firefox</a>."
 
 #~ msgid "Please describe what you liked."
 #~ msgstr "Vui lòng mô tả những điều bạn thích."
 
-#, fuzzy
 #~ msgid "Please describe your problem below and be as specific as you can."
 #~ msgstr "Vui lòng mô tả vấn đề của bạn bên dưới."
-
-#~ msgid "Send Feedback"
-#~ msgstr "Gửi phản hồi"
 
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Phản hồi của bạn giúp chúng tôi cải tiến Firefox."
@@ -861,15 +935,12 @@ msgstr ""
 #~ msgid "Please describe your problem below."
 #~ msgstr "Vui lòng mô tả vấn đề của bạn bên dưới."
 
-#, fuzzy
 #~ msgid "Unknown product"
 #~ msgstr "Không rõ"
 
-#, fuzzy
 #~ msgid "If you are here by mistake and want to leave feedback, you can do so <a href=\"%(url)s\">on our feedback form</a>."
 #~ msgstr "Nếu bạn muốn biết góp ý của mình được gửi tới đâu, hãy nhìn trang <a href=\"%(url)s\">Bảng thống kê Firefox Input</a> của chúng tôi."
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Vào <a href=\"%(dash_url)s\">Bảng thống kê Phản hồi Firefox</a>"
 
@@ -885,7 +956,6 @@ msgstr ""
 #~ msgid "Firefox Made Me Sad"
 #~ msgstr "Firefox Làm Tôi Thất Vọng"
 
-#, fuzzy
 #~ msgid "Super! It's great to hear that you like our browser."
 #~ msgstr "Tuyệt! Thật vui khi biết rằng bạn thích trình duyệt thử nghiệm của chúng tôi."
 
@@ -907,23 +977,18 @@ msgstr ""
 #~ msgid "Want to see where your feedback goes?"
 #~ msgstr "Muốn xem phản hồi của bạn đi đâu?"
 
-#, fuzzy
 #~ msgid "For support requests, please go to <a href=\"%(support_url)s\">Mozilla Support</a> instead."
 #~ msgstr "Nếu bạn cần trợ giúp hoặc có vấn đề với Firefox, vui lòng vào <a href=\"%(support_url)s\">Hỗ Trợ Firefox</a>."
 
-#, fuzzy
 #~ msgid "Thank you for your feedback!"
 #~ msgstr "Cảm ơn về Phản Hồi của Bạn"
 
-#, fuzzy
 #~ msgid "Thanks for the feedback! We will use it to help create a better experience in future releases of Firefox."
 #~ msgstr "trải nghiệm tốt hơn trong các bản phát hành tương lai của Firefox."
 
-#, fuzzy
 #~ msgid "Want to know what's going on with Firefox? We have many ways of staying in touch:"
 #~ msgstr "Muốn biết những gì đang diễn ra với Firefox cho Di động? Chúng tôi có nhiều cách để giữ kết nối:"
 
-#, fuzzy
 #~ msgid "Find the latest news about Mozilla."
 #~ msgstr "Tìm hiểu tin tức mới nhất về Firefox."
 
@@ -936,11 +1001,9 @@ msgstr ""
 #~ msgid "Planet Mozilla"
 #~ msgstr "Planet Mozilla"
 
-#, fuzzy
 #~ msgid "Page not found"
 #~ msgstr "Không tìm thấy"
 
-#, fuzzy
 #~ msgid "Sorry, but we couldn't find the page you're looking for."
 #~ msgstr "Xin lỗi, tôi không thể tìm thấy cái bạn muốn."
 
@@ -1006,7 +1069,6 @@ msgstr ""
 #~ msgid "suggestion box"
 #~ msgstr "hộp đề xuất"
 
-#, fuzzy
 #~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
 #~ msgstr "Tuyệt! Thật vui khi biết rằng bạn thích trình duyệt thử nghiệm của chúng tôi. Vui lòng nêu lí do cho những điểm mà bạn đặc biệt thích nhé!"
 
@@ -1046,7 +1108,6 @@ msgstr ""
 #~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 #~ msgstr "Ồ! Vậy là bạn muốn cung cấp phản hồi cho chúng tôi. Bạn sẽ cần bản Beta mới nhất! Hãy tới trang beta của chúng tôi và <a href=\"%(url)s\">tải xuống!</a>"
 
-#, fuzzy
 #~ msgid "Back to Dashboard"
 #~ msgstr "Bảng thống kê Phản hồi"
 
@@ -1089,7 +1150,6 @@ msgstr ""
 #~ msgid "I have an idea for Firefox"
 #~ msgstr "Tôi có một ý kiến cho Firefox"
 
-#, fuzzy
 #~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
 #~ msgstr "Nếu bạn cần trợ giúp hoặc có vấn đề với Firefox, vui lòng vào <a href=\"%(url)s\">Hỗ Trợ Firefox</a>."
 
@@ -1292,7 +1352,6 @@ msgstr ""
 #~ msgid "&infin;"
 #~ msgstr "&infin;"
 
-#, fuzzy
 #~ msgid "Show More Locales"
 #~ msgstr "Bản địa Khác"
 
@@ -1300,11 +1359,9 @@ msgstr ""
 #~ msgid_plural "<strong>%(cnt)s</strong> messages"
 #~ msgstr[0] "<strong>%(cnt)s</strong> thông điệp"
 
-#, fuzzy
 #~ msgid "Show More Platforms"
 #~ msgstr "Nền tảng"
 
-#, fuzzy
 #~ msgid "Clear Search"
 #~ msgstr "Tìm kiếm"
 
@@ -1620,7 +1677,6 @@ msgstr ""
 #~ msgid "{day}<br/>Average of {num}"
 #~ msgstr "{day}<br/>Trung bình {num}"
 
-#, fuzzy
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; trước"
 
@@ -1631,17 +1687,14 @@ msgstr ""
 #~ msgid "-- all --"
 #~ msgstr "-- tất cả --"
 
-#, fuzzy
 #~ msgctxt "dashboard_period"
 #~ msgid "1 day"
 #~ msgstr "1 ngày"
 
-#, fuzzy
 #~ msgctxt "dashboard_period"
 #~ msgid "1 month"
 #~ msgstr "1 tháng"
 
-#, fuzzy
 #~ msgctxt "dashboard_period"
 #~ msgid "1 week"
 #~ msgstr "1 tuần"
@@ -1712,7 +1765,6 @@ msgstr ""
 #~ msgid "all"
 #~ msgstr "tất cả"
 
-#, fuzzy
 #~ msgctxt "dashboard_period"
 #~ msgid "all"
 #~ msgstr "tất cả"

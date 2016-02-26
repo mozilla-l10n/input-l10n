@@ -1,9 +1,9 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Firefox Input\n"
-"Report-Msgid-Bugs-To: "
-"https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2015-11-20 07:28-0800\n"
+"Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
+"POT-Creation-Date: 2016-02-25 12:19-0800\n"
 "PO-Revision-Date: 2015-11-21 18:52+0000\n"
 "Last-Translator: Jørgen   <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark <joergenr@stofanet.dk>\n"
@@ -558,22 +558,92 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Firefox til iOS"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:10 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
-msgid "Download Firefox"
-msgstr "Hent Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
+msgid "Firefox Feedback"
+msgstr "Firefox feedback"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:16
-msgid "Please Download Firefox"
-msgstr "Hent Firefox"
+#: fjord/feedback/jinja2/feedback/android_feedback.html:42
+msgid "Have a minute?"
+msgstr "Kan du undvære et minut?"
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:21 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
-msgstr "Åh! Så du vil gerne give os feedback på Firefox. Tak, men du er nødt til at bruge vores seneste version for at kunne gøre det."
+#: fjord/feedback/jinja2/feedback/android_feedback.html:47
+#, fuzzy, python-format
+msgid "Tell us what you think about %(product)s so far."
+msgstr "Fortæl os, hvad du synes om Firefox til Android."
 
-#: fjord/feedback/jinja2/feedback/download_firefox.html:27 fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/picker.html:28
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr "JavaScript er nødvendig for at give feedback. Aktivér JavaScript i din browser, og genindlæs denne side."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:62
+msgid "I love it"
+msgstr "Jeg elsker den"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:70
+msgid "I ran into some problems"
+msgstr "Jeg løb ind i nogle problemer"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:83
+msgid "That's great to hear!"
+msgstr "Det er fantastisk at høre!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:90
+msgid "Want to share the love by giving us a 5 star rating on Google Play?"
+msgstr "Vil du dele din begejstring ved at give os fem stjerner på Google Play?"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:96
+msgid "It takes less than a minute and feels great."
+msgstr "Det tager mindre end et minut, og det føles fantastisk."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:113
+msgid "Yes, go to Google Play"
+msgstr "Ja, gå til Google Play"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:122
+msgid "Oh no!"
+msgstr "Åh nej!"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:131
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr "Vi beklager, at du har haft nogle problemer med Firefox. Fortæl os, hvad der skete, så vi kan løse dem."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:142
+msgid "Include last visited site"
+msgstr "Inkluder seneste besøgte websted (valgfrit)"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:156
+msgid "Send Feedback"
+msgstr "Send feedback"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:161
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr "Beskyt dit privatliv. Lad være med at angive personlige oplysninger i din feedback."
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:179
+msgid "Maybe later"
+msgstr "Måske senere"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:184
+msgid "No thanks"
+msgstr "Nej tak"
+
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
-msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
-msgstr "For at kunne gøre dette skal du besøge vores download-side og installere eller opdatere til den <a href=\"%(url)s\">seneste version af Firefox!</a>"
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:34
+msgid "Thank you."
+msgstr "Tak!"
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:42
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr "Vi arbejder hele tiden på at gøre Firefox bedre. Vær forvisset om, at rigtige mennesker vil se din feedback og gøre deres bedste for at løse problemet."
+
+#: fjord/feedback/jinja2/feedback/android_thanks.html:49
+msgid "Or else."
+msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
@@ -582,10 +652,6 @@ msgstr "Indsend din feedback"
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
 msgstr "{product} feedback"
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37 fjord/feedback/jinja2/feedback/picker.html:28
-msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr "JavaScript er nødvendig for at give feedback. Aktivér JavaScript i din browser, og genindlæs denne side."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
@@ -769,13 +835,44 @@ msgstr "Læs, hvordan du kan <a href=\"%(url)s\">gøre %(product)s og Mozilla be
 msgid "Find the latest news about %(product)s."
 msgstr "Læs de seneste nyheder om %(product)s."
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
+msgid "Download Firefox"
+msgstr "Hent Firefox"
+
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
 msgstr "Download Firefox!"
 
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
+msgstr "Åh! Så du vil gerne give os feedback på Firefox. Tak, men du er nødt til at bruge vores seneste version for at kunne gøre det."
+
+#: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
+#, python-format
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
+msgstr "For at kunne gøre dette skal du besøge vores download-side og installere eller opdatere til den <a href=\"%(url)s\">seneste version af Firefox!</a>"
+
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
 msgstr "Stil et spørgsmål i vores supportforum"
+
+#~ msgid "Please Download Firefox"
+#~ msgstr "Hent Firefox"
+
+#~ msgid "to get answers for common issues."
+#~ msgstr "for at finde løsninger på almindeligt forekommende problemer."
+
+#~ msgid "Support Site"
+#~ msgstr "supportwebsted"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Enter your feedback here"
+#~ msgstr "Indtast din feedback her"
+
+#~ msgid "Visit our"
+#~ msgstr "Besøg vores"
 
 #~ msgid "Bigram"
 #~ msgstr "Bigram"
@@ -828,9 +925,6 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "Don't worry, your email will always be kept private."
 #~ msgstr "Ingen grund til bekymring, din mailadresse vil altid blive opbevaret privat."
 
-#~ msgid "Send Feedback"
-#~ msgstr "Send feedback"
-
 #~ msgid "Your feedback helps us improve Firefox."
 #~ msgstr "Din feedback hjælper os med at forbedre Firefox."
 
@@ -855,11 +949,9 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "While your feedback will be publicly visible, email addresses are kept private. We understand your privacy is important."
 #~ msgstr "Selvom din feedback bliver offentlig tilgængelig, bliver din mailadresse opbevaret privat. Vi forstår, at dit privatliv er vigtigt."
 
-#, fuzzy
 #~ msgid "Unknown product"
 #~ msgstr "Ukendt"
 
-#, fuzzy
 #~ msgid "<a href=\"%(feedback_url)s\">I want to give feedback about Firefox</a>"
 #~ msgstr "Besøg <a href=\"%(dash_url)s\">Firefox feedback kontrolpanel</a>"
 
@@ -972,7 +1064,6 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "Praise"
 #~ msgstr "Ros"
 
-#, fuzzy
 #~ msgid "Issue"
 #~ msgstr "Problemer"
 
@@ -991,11 +1082,9 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "User-Agent request header must be set."
 #~ msgstr "User-Agent Request Header skal være sat."
 
-#, fuzzy
 #~ msgid "Super! It's great to hear that you like our browser. Please explain what you specifically like!"
 #~ msgstr "Fantastisk! Det er godt at høre at du kan lide vores kommende browser. Forklar hvad det er du kan lide!"
 
-#, fuzzy
 #~ msgid "We are sorry that you have not had a good experience with our browser. Please tell us why, so we can fix it!"
 #~ msgstr "Vi er kede af at du ikke har haft en god oplevelse med vores browser. Fortæl os hvorfor, så vi kan forbedre den!"
 
@@ -1014,57 +1103,45 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 #~ msgstr "Ups! Sp du vil gerne give os feedback. Så skal du bruge den seneste beta! Gå til vores beta-side og <a href=\"%(url)s\">hent den!</a>"
 
-#, fuzzy
 #~ msgid "Back to Dashboard"
 #~ msgstr "Input-kontrolpanel"
 
-#, fuzzy
 #~ msgid "We're sorry Firefox for Mobile made you sad. Please tell us what happened so we can fix it."
 #~ msgstr "Vi er kede af at du ikke har haft en god oplevelse med vores browser. Fortæl os hvorfor, så vi kan forbedre den!"
 
-#, fuzzy
 #~ msgid "Got an idea? <a href=\"%(url)s\">Submit it instead.</a>"
 #~ msgstr "Start forfra i <a href=\"%(url)s\">kontrolpanelet</a>."
 
-#, fuzzy
 #~ msgid "Include your last visited site?"
 #~ msgstr "Tilføj sidst besøge sides URL-adresse?"
 
-#, fuzzy
 #~ msgid "For your privacy, please don't include any personally identifiable information in your feedback."
 #~ msgstr "Sørg for at der ikke er nogen personidentificerbare informationer her."
 
 #~ msgid "Super! Please tell us more!"
 #~ msgstr "Fantastisk! Fortæl os mere!"
 
-#, fuzzy
 #~ msgid "Ack! Please tell us what to fix!"
 #~ msgstr "Vi beklager! Fortæl os mere!"
 
 #~ msgid "Add URL of last visited page?"
 #~ msgstr "Tilføj sidst besøge sides URL-adresse?"
 
-#, fuzzy
 #~ msgid "If you need help or have a problem with Firefox, please visit <a id=\"sumo-url\" href=\"%(url)s/\">Firefox Support</a>."
 #~ msgstr "Hvis du vil se hvor din feedback blev sendt til, så tag et kig på vores <a href=\"%(url)s\">Firefox Input-kontrolpanel</a>."
 
-#, fuzzy
 #~ msgid "Thanks for sharing your feedback!"
 #~ msgstr "Tak fordi du sendte os din feedback!"
 
-#, fuzzy
 #~ msgid "See where your feedback goes."
 #~ msgstr "Skriv din feedback her."
 
-#, fuzzy
 #~ msgid "Feedback Dashboard"
 #~ msgstr "Input-kontrolpanel"
 
-#, fuzzy
 #~ msgid "Firefox on Facebook"
 #~ msgstr "Firefox"
 
-#, fuzzy
 #~ msgid "Get the latest news on Firefox."
 #~ msgstr "Se de seneste nyheder fra Mozilla:"
 
@@ -1103,7 +1180,6 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "Issues"
 #~ msgstr "Problemer"
 
-#, fuzzy
 #~ msgctxt "platform_choice"
 #~ msgid "-- all --"
 #~ msgstr "-- alle --"
@@ -1127,14 +1203,12 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "to"
 #~ msgstr "til"
 
-#, fuzzy
 #~ msgid "More Locales"
 #~ msgstr "Sprog"
 
 #~ msgid "No search results found."
 #~ msgstr "Ingen søgeresultater fundet."
 
-#, fuzzy
 #~ msgid "Type of Feedback"
 #~ msgstr "Tak for din feedback"
 
@@ -1162,73 +1236,57 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "Thanks!"
 #~ msgstr "Tak!"
 
-#, fuzzy
 #~ msgid "All"
 #~ msgstr "alle"
 
-#, fuzzy
 #~ msgid "Last day"
 #~ msgstr "1 dag"
 
-#, fuzzy
 #~ msgid "Show More Locales"
 #~ msgstr "Sprog"
 
-#, fuzzy
 #~ msgid "Clear Search"
 #~ msgstr "Søg"
 
-#, fuzzy
 #~ msgid "Feed"
 #~ msgstr "Send feedback"
 
 #~ msgid "Trends"
 #~ msgstr "Tendenser"
 
-#, fuzzy
 #~ msgid "&laquo; Newer Feedback"
 #~ msgstr "&laquo; forrige"
 
-#, fuzzy
 #~ msgid "Older Feedback &raquo;"
 #~ msgstr "næste &raquo;"
 
-#, fuzzy
 #~ msgid "Praise only"
 #~ msgstr "Ros"
 
-#, fuzzy
 #~ msgid "Issues only"
 #~ msgstr "Problemer"
 
-#, fuzzy
 #~ msgid "Ideas only"
 #~ msgstr "Problemer"
 
-#, fuzzy
 #~ msgid "&laquo; Previous Page"
 #~ msgstr "&laquo; forrige"
 
-#, fuzzy
 #~ msgid "Next Page &raquo;"
 #~ msgstr "næste &raquo;"
 
-#, fuzzy
 #~ msgctxt "website_issues_search"
 #~ msgid "Search for domain"
 #~ msgstr "Søgeord"
 
-#, fuzzy
 #~ msgctxt "sites_search_all_feedback"
 #~ msgid "All"
 #~ msgstr "alle"
 
-#, fuzzy
 #~ msgctxt "sites_search_all_platforms"
 #~ msgid "All"
 #~ msgstr "alle"
 
-#, fuzzy
 #~ msgid "No results found!"
 #~ msgstr "Ingen søgeresultater fundet."
 
@@ -1253,47 +1311,39 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "Clusters"
 #~ msgstr "Klynger"
 
-#, fuzzy
 #~ msgid "Feel free to <a href=\"%(fb_url)s\">submit more feedback</a>"
 #~ msgstr "Start forfra i <a href=\"%(fb_url)s\">kontrolpanelet</a>."
 
-#, fuzzy
 #~ msgid "&laquo; Newer Messages"
 #~ msgstr "&laquo; forrige"
 
-#, fuzzy
 #~ msgid "Older Messages &raquo;"
 #~ msgstr "næste &raquo;"
 
-#, fuzzy
 #~ msgid "Back to Feedback"
 #~ msgstr "Send feedback"
 
 #~ msgid "Find out the latest news from Mozilla:"
 #~ msgstr "Se de seneste nyheder fra Mozilla:"
 
-#, fuzzy
 #~ msgid "@MozMobile"
 #~ msgstr "Mobilen"
 
 #~ msgid "Enter your feedback here."
 #~ msgstr "Skriv din feedback her."
 
-#, fuzzy
 #~ msgid "Enter your ideas here."
 #~ msgstr "Skriv din feedback her."
 
 #~ msgid "Oh! So, you want to offer us feedback on the next version of Firefox. Thank you, but you'll need to be on our latest beta."
 #~ msgstr "Ups! Så du vil gerne give os feedback på næste version af Firefox. Tak, men du er nødt til at bruge vores seneste beta for at gøre det."
 
-#, fuzzy
 #~ msgid "Report a Site Issue"
 #~ msgstr "Rapporter misbrug af varemærker"
 
 #~ msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest Firefox Beta!</a>"
 #~ msgstr "For at gøre dette, gå til vores download-side og installer eller opdater til den <a href=\"%(url)s\">seneste Firefox beta!</a>"
 
-#, fuzzy
 #~ msgid "&laquo; Previous Page;"
 #~ msgstr "&laquo; forrige"
 
@@ -1334,7 +1384,6 @@ msgstr "Stil et spørgsmål i vores supportforum"
 #~ msgid "Due to software constraints, we can only show the last 1000 messages for this search query."
 #~ msgstr "På grund af softwarebegrænsninger kan vi kun vise de seneste 1000 indlæg i denne søgeforespørgsel."
 
-#, fuzzy
 #~ msgid "Enter your suggestions here."
 #~ msgstr "Skriv din feedback her."
 
