@@ -3,9 +3,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2016-02-25 12:19-0800\n"
+"POT-Creation-Date: 2016-03-08 09:40-0800\n"
 "PO-Revision-Date: 2016-02-26 09:09+0100\n"
 "Last-Translator: Francesco Lodolo [:flod] <flod@lodolo.net>\n"
+"Language-Team: \n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,7 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.7\n"
 "X-POOTLE-MTIME: 1442406094.0\n"
-"Language-Team: \n"
 
 #: fjord/analytics/views.py:115
 msgid "Firefox Input: {query}"
@@ -697,13 +697,13 @@ msgstr "Quale dispositivo Firefox OS stai utilizzando?"
 msgid "Details"
 msgstr "Dettagli"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:110
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr ""
 "Descrivi che cosa hai trovato soddisfacente. I commenti saranno pubblici, quindi ti preghiamo di non includere informazioni personali di alcun genere, come indirizzo email, password o numero di "
 "telefono."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:118
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
@@ -711,11 +711,11 @@ msgstr ""
 "Descrivi i problemi che hai riscontrato nel modo più dettagliato possibile. I commenti saranno pubblici, quindi ti preghiamo di non includere informazioni personali di alcun genere, come indirizzo "
 "email, password o numero di telefono."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:135
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Se il tuo commento riguarda un sito web puoi inserire il link qui:"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:171
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Facoltativo) Seleziona questa casella per consentirci di contattarti e dare seguito ai tuoi suggerimenti. L’indirizzo email non verrà reso pubblico."
 
@@ -723,7 +723,7 @@ msgstr "(Facoltativo) Seleziona questa casella per consentirci di contattarti e 
 msgid "Please enter a valid email address."
 msgstr "devi inserire un indirizzo email valido."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:185
 msgid "Submit"
 msgstr "Invia"
 
@@ -769,10 +769,17 @@ msgstr "Hai dei commenti in sospeso. Vuoi provare a inviarli adesso?"
 msgid "How does %(product)s make you feel?"
 msgstr "Sei soddisfatto o deluso di %(product)s?"
 
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid ""
-"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
-"our Privacy policy."
+"To help us understand your input, we need more information. By hitting submit below, you will provide us with technical information about your browser, along with any feedback you provide on this "
+"page."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:150
+#, fuzzy, python-format
+msgid ""
+"Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
+"installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
 "Seleziona questa opzione per inviarci informazioni tecniche sul tuo browser. Le informazioni che riceviamo vengono utilizzate per comprendere meglio le esigenze degli utenti e sviluppare prodotti "
 "sempre più validi. I dati inviati sono soggetti all’Informativa sulla privacy di Mozilla."

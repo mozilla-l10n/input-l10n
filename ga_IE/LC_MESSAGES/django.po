@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: firefoxinput\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2016-02-26 10:41-0800\n"
+"POT-Creation-Date: 2016-03-08 09:40-0800\n"
 "PO-Revision-Date: 2011-02-18 01:33+0200\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish\n"
@@ -701,13 +701,13 @@ msgstr "Cén gléas Firefox OS atá agat?"
 msgid "Details"
 msgstr "Mionsonraí"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:110
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr ""
 "Déan cur síos ar na rudaí a thaitníonn leat. Beidh do chuid aiseolais ar fáil go poiblí, mar sin bí cinnte nach bhfuil faisnéis phearsanta ann, mar shampla seoladh ríomhphoist, focail fhaire, nó "
 "uimhir theileafóin."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:118
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
@@ -715,11 +715,11 @@ msgstr ""
 "Déan miontuairisc ar d'fhadhb thíos. Beidh do chuid aiseolais ar fáil go poiblí, mar sin bí cinnte nach bhfuil faisnéis phearsanta ann, mar shampla seoladh ríomhphoist, focail fhaire, nó uimhir "
 "theileafóin."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:135
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Má bhaineann do chuid aiseolais le suíomh Gréasáin, cuir anseo é:"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:171
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Roghnach) Cuir tic anseo le cead a thabhairt dúinn dul i dteagmháil leat maidir le do chuid aiseolais. Coinneoimid do sheoladh ríomhphoist príobháideach."
 
@@ -727,7 +727,7 @@ msgstr "(Roghnach) Cuir tic anseo le cead a thabhairt dúinn dul i dteagmháil l
 msgid "Please enter a valid email address."
 msgstr "Cuir isteach seoladh ríomhphoist bailí."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:185
 msgid "Submit"
 msgstr "Seol"
 
@@ -773,10 +773,17 @@ msgstr "Tá roinnt aiseolais agat gan seoladh fós. An bhfuil fonn ort é a sheo
 msgid "How does %(product)s make you feel?"
 msgstr "Cén chaoi a n-airíonn tú faoi %(product)s?"
 
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid ""
-"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
-"our Privacy policy."
+"To help us understand your input, we need more information. By hitting submit below, you will provide us with technical information about your browser, along with any feedback you provide on this "
+"page."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:150
+#, fuzzy, python-format
+msgid ""
+"Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
+"installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
 "Cuir tic anseo chun mionsonraí teicniúla faoi do bhrabhsálaí a sholáthar. Cabhraíonn na mionsonraí seo linn tuiscint níos fearr a fháil ar ár n-úsáideoirí agus táirgí níos fearr a chruthú. "
 "Sábhálfar an fhaisnéis seo de réir ár bPolasaí Príobháideachais."

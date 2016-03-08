@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2016-02-26 10:41-0800\n"
+"POT-Creation-Date: 2016-03-08 09:40-0800\n"
 "PO-Revision-Date: 2015-11-24 15:25+0000\n"
 "Last-Translator: stoyan <stoyan@gmx.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -697,22 +697,22 @@ msgstr "Какво е Вашето Firefox OS устройство?"
 msgid "Details"
 msgstr "Подробности"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:110
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "Опишете, каквото смятате за добре. Съдържанието на обратната връзка е публично, за това се уверете, че не включвате лична информация като адрес на ел. поща, пароли или телефонен номер."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:118
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
 msgstr ""
 "Моля, опишете възможно най-подробно проблема си. Съдържанието на обратната връзка е публично, за това се уверете, че не включвате лична информация като адрес на ел. поща, пароли или телефонен номер."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:135
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Ако вашата обратна връзка се отнася за Интернет страница, може да добавите адресът ѝ тук:"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:171
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "(Незадължително) Изберете, за да ни позволите да коментираме с вас обратната връзка. Адресът на вашата ел. поща се пази в тайна."
 
@@ -720,7 +720,7 @@ msgstr "(Незадължително) Изберете, за да ни позв
 msgid "Please enter a valid email address."
 msgstr "Моля, въведете валиден адрес на ел. поща."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:185
 msgid "Submit"
 msgstr "Изпращане"
 
@@ -766,10 +766,17 @@ msgstr "Имате неизпратена обратна връзка. Иска�
 msgid "How does %(product)s make you feel?"
 msgstr "Как %(product)s ви кара да се чувствате?"
 
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid ""
-"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
-"our Privacy policy."
+"To help us understand your input, we need more information. By hitting submit below, you will provide us with technical information about your browser, along with any feedback you provide on this "
+"page."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:150
+#, fuzzy, python-format
+msgid ""
+"Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
+"installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
 "Изберете, за да предоставите техническа информация за браузъра си. Тя ще ни помогне да разберем по-добре потребителите си и да подобрим продуктите си. Тази информация ще бъде запазена в "
 "съответствие с вашата Декларация за поверителност."

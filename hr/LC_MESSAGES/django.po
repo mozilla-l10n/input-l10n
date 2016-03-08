@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
-"POT-Creation-Date: 2016-02-26 10:41-0800\n"
+"POT-Creation-Date: 2016-03-08 09:40-0800\n"
 "PO-Revision-Date: 2013-10-30 20:13+0000\n"
 "Last-Translator: Mihovil <mihovil.stanic@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -712,24 +712,24 @@ msgstr "Koji Firefox OS uređaj koristite?"
 msgid "Details"
 msgstr "Detalji"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:100
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:110
 #, fuzzy
 msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr "Sadržaj vaše povratne informacije bit će javan, stoga molimo da ne unosite nikakve osobne podatke."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:108
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:118
 #, fuzzy
 msgid ""
 "Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
 "or phone number."
 msgstr "Sadržaj vaše povratne informacije bit će javan, stoga molimo da ne unosite nikakve osobne podatke."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:125
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:135
 #, fuzzy
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr "Ukoliko se Vaša povratna informacija odnosi na web stranicu, možete ju ovdje unijeti."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:156
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:171
 #, fuzzy
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr "Označite ovo da biste nam omogućili da Vam odgovorimo na Vašu povratnu informaciju."
@@ -738,7 +738,7 @@ msgstr "Označite ovo da biste nam omogućili da Vam odgovorimo na Vašu povratn
 msgid "Please enter a valid email address."
 msgstr "Unesite ispravnu adresu e-pošte."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:170
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:185
 #, fuzzy
 msgid "Submit"
 msgstr "Slanje...."
@@ -785,10 +785,17 @@ msgstr "Imate neposlane povratne informacije. Želite li ih pokušati ponovno po
 msgid "How does %(product)s make you feel?"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:140
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid ""
-"Check here to provide technical information about your browser. This information helps us better understand our users and create better products. This information will be kept in accordance with "
-"our Privacy policy."
+"To help us understand your input, we need more information. By hitting submit below, you will provide us with technical information about your browser, along with any feedback you provide on this "
+"page."
+msgstr ""
+
+#: fjord/feedback/jinja2/feedback/generic_feedback.html:150
+#, python-format
+msgid ""
+"Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
+"installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
