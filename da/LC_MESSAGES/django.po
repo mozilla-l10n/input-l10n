@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Firefox Input\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2016-03-08 09:40-0800\n"
-"PO-Revision-Date: 2016-03-11 12:10+0000\n"
+"PO-Revision-Date: 2016-03-12 16:10+0000\n"
 "Last-Translator: joergenr <joergenr@stofanet.dk>\n"
 "Language-Team: MozillaDanmark <joergenr@stofanet.dk>\n"
 "Language: da\n"
@@ -932,7 +932,7 @@ msgstr ""
 "browser sammen med den feedback, du giver os på denne side."
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Check here to provide <a href=\"%(technical_url)s\">technical "
 "information</a> about your browser, such as basic information about your "
@@ -941,10 +941,12 @@ msgid ""
 "products. This information will be kept in accordance with our <a "
 "href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
-"Sæt flueben her for at afgive tekniske informationer om din browser. "
+"Sæt flueben her for at afgive <a href=\"%(technical_url)s\">tekniske "
+"informationer</a> om din browser, som fx grundlæggende informationer om din "
+"computer, din Firefox-version og de udvidelser, du har installeret. "
 "Informationerne hjælper os med bedre at forstå vores brugere og lave bedre "
-"produkter. Informationen vil blive opbevaret i overensstemmelse med vores "
-"privatlivspolitik."
+"produkter. Informationen vil blive opbevaret i overensstemmelse med vores <a"
+" href=\"%(privacy_url)s\">privatlivspolitik</a>."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
