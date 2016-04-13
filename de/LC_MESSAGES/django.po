@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2016-03-08 09:40-0800\n"
-"PO-Revision-Date: 2016-04-06 18:42+0000\n"
+"PO-Revision-Date: 2016-04-13 16:09+0000\n"
 "Last-Translator: paul.trevor <paul.trevor@gmx.de>\n"
 "Language-Team: none\n"
 "Language: de\n"
@@ -145,7 +145,7 @@ msgstr "Nach Schlüsselwort suchen"
 
 #: fjord/analytics/jinja2/analytics/dashboard.html:154
 msgid "No feedback matches that criteria."
-msgstr "Auf diese Kriterien passt kein Feedback."
+msgstr "Kein Feedback erfüllt diese Kriterien."
 
 #: fjord/analytics/jinja2/analytics/dashboard.html:160
 msgid "Older Messages"
@@ -275,7 +275,9 @@ msgstr "Kontext"
 
 #: fjord/analytics/jinja2/analytics/analyzer/search.html:152
 msgid "Note: All dates and times are in Pacific Time."
-msgstr "Hinweis: Alle Daten und Zeiten beziehen sich auf die Pacific Time."
+msgstr ""
+"Hinweis: Alle Datumsangaben und Zeiten beziehen sich auf die Zeitzone "
+"Pacific Time."
 
 #: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
@@ -338,7 +340,7 @@ msgstr "Etwas ist völlig schiefgegangen."
 
 #: fjord/base/jinja2/500.html:34
 msgid "There was a problem on the server."
-msgstr "Es ist ein Problem mit dem Server aufgetreten."
+msgstr "Es gab ein Server-Problem."
 
 #: fjord/base/jinja2/about.html:3 fjord/base/jinja2/includes/common.html:23
 msgid "About Firefox Input"
@@ -356,12 +358,12 @@ msgid ""
 "do to make that experience better. The system is available over a wide-"
 "variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox Input ist Mozillas Haupt-Feedback-System. Es wurde als Einweg-"
-"Kommunikationsmöglichkeit geschaffen, damit Sie Ihre Erfahrungen mit der "
-"Nutzung von unserer Produkte und mit dem Internet, so wie Sie es durch das "
-"Produkt erleben, mitteilen und auch vorschlagen können, was Mozilla tun "
-"kann, um Ihr Nutzererlebnis zu verbessern. Das System ist über eine breite "
-"Vielfalt an Einreichungsmechanismen und Produkt-Builds verfügbar."
+"Firefox Input ist Mozillas wichtigstes Feedback-System. Es ist ein "
+"einseitiges Übermittlungssystem, mit dem Sie uns Ihre Erfahrungen bei der "
+"Verwendung unserer Produkte berichten können und wie Sie das Internet "
+"mithilfe unserer Produkte erleben. Sie können uns damit auch Ihre Vorschläge"
+" unterbreiten, wie Mozilla dazu beitragen kann, Ihr Nutzererlebnis zu "
+"verbessern."
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -369,8 +371,8 @@ msgid ""
 "To submit feedback for a Mozilla product, please go to <a "
 "href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
-"Um Feedback für ein Mozilla-Produkt abzugeben, gehen Sie bitte auf unsere <a"
-" href=\"%(url)s\">Feedback-Seite</a>!"
+"Um uns Feedback für ein Mozilla-Produkt zu geben, gehen Sie bitte auf unsere"
+" <a href=\"%(url)s\">Feedback-Seite</a>!"
 
 #: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
@@ -689,7 +691,7 @@ msgstr ""
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:96
 msgid "It takes less than a minute and feels great."
-msgstr "Es dauert weniger als eine Minute und tut nicht weh ;)."
+msgstr "Es dauert keine Minute und tut nicht weh ;)."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:113
 msgid "Yes, go to Google Play"
@@ -718,7 +720,7 @@ msgstr "Zuletzt besuchte Seite mitteilen"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:156
 msgid "Send Feedback"
-msgstr "Feedback abgesendet"
+msgstr "Feedback senden"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:161
 msgid ""
