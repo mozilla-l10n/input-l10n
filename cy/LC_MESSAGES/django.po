@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2016-03-08 09:40-0800\n"
-"PO-Revision-Date: 2016-05-20 13:03+0000\n"
+"PO-Revision-Date: 2016-05-20 14:02+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: none\n"
 "Language: cy\n"
@@ -161,12 +161,12 @@ msgstr "Negeseuon o gyfnod penodedig"
 
 #: fjord/analytics/jinja2/analytics/es_down.html:12
 msgid "Dashboard unavailable"
-msgstr "Nid yw'r Bwrdd Rheoli ar gael"
+msgstr "Nid yw'r Bwrdd Dangos ar gael"
 
 #: fjord/analytics/jinja2/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
 msgstr ""
-"Nid yw'r Bwrdd Rheoli ar gael ar hyn o bryd. Rhowch gynnig arni eto mewn 10 "
+"Nid yw'r Bwrdd Dangos ar gael ar hyn o bryd. Rhowch gynnig arni eto mewn 10 "
 "munud."
 
 #: fjord/analytics/jinja2/analytics/response.html:45
@@ -279,7 +279,7 @@ msgstr "Sylw: Mae'r holl ddyddiadau ac amseroedd yn Amser y Môr Tawel."
 
 #: fjord/analytics/jinja2/analytics/mobile/dashboard.html:4
 msgid "Dashboard is not available on mobile devices, yet."
-msgstr "Nid yw'r bwrdd rheoli ar gael ar ddyfeisiau symudol, eto."
+msgstr "Nid yw'r bwrdd dangos ar gael ar ddyfeisiau symudol, eto."
 
 #: fjord/base/models.py:22
 msgid "List of values"
@@ -308,7 +308,7 @@ msgstr ""
 #: fjord/base/jinja2/500.html:35
 #: fjord/base/jinja2/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
-msgstr "Dychwelyd i'r bwrdd rheoli."
+msgstr "Dychwelyd i'r bwrdd dangos."
 
 #: fjord/base/jinja2/404.html:3 fjord/base/jinja2/404.html:9
 msgid "Not Found"
@@ -330,7 +330,7 @@ msgstr "<strong>Firefox</strong> Input"
 #: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50
 #: fjord/base/jinja2/mobile/base.html:35
 msgid "Dashboard"
-msgstr "Bwrdd Rheoli"
+msgstr "Bwrdd Dangos"
 
 #: fjord/base/jinja2/500.html:33
 msgid "Something has gone horribly wrong."
@@ -338,15 +338,15 @@ msgstr "Mae rhywbeth wedi mynd o'i le"
 
 #: fjord/base/jinja2/500.html:34
 msgid "There was a problem on the server."
-msgstr ""
+msgstr "Bu anhawster gyda'r gweinydd."
 
 #: fjord/base/jinja2/about.html:3 fjord/base/jinja2/includes/common.html:23
 msgid "About Firefox Input"
-msgstr ""
+msgstr "Ynghylch Firefox Input"
 
 #: fjord/base/jinja2/about.html:9
 msgid "Hello!"
-msgstr ""
+msgstr "Helo!"
 
 #: fjord/base/jinja2/about.html:11
 msgid ""
@@ -356,6 +356,11 @@ msgid ""
 "do to make that experience better. The system is available over a wide-"
 "variety of submission mechanisms and product builds."
 msgstr ""
+"Firefox Input yw'r prif ffordd mae Mozilla'n casglu adborth ar ei gynnyrch. "
+"Mae wedi ei greu fel dull cyfathrebu unffordd am eich profiadau wrth "
+"ddefnyddio ein cynnyrch, y rhyngrwyd y byddwch yn ei weld drwyddo, a beth "
+"all Mozilla wneud i wneud y profiad hwnnw'n well. Mae'r system ar gael dros "
+"amrywiaeth eang o ddulliau cyflwyno a fersiynau o'r cynnyrch."
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -363,19 +368,21 @@ msgid ""
 "To submit feedback for a Mozilla product, please go to <a "
 "href=\"%(url)s\">the feedback submission page</a>!"
 msgstr ""
+"I gyflwyno adborth am gynnyrch Mozilla, ewch <a href=\"%(url)s\">i'r dudalen"
+" cyflwyno adborth</a>!"
 
 #: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Polisi Preifatrwydd"
 
 #: fjord/base/jinja2/about.html:29
 #, python-format
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
-msgstr ""
+msgstr "Rydym yn cadw at <a href=\"%(url)s\">Bolisi Preifatrwydd Mozilla</a>."
 
 #: fjord/base/jinja2/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Gwadiad a Chyfyngiad Cyfreithiol"
 
 #: fjord/base/jinja2/about.html:36
 #, python-format
@@ -383,30 +390,38 @@ msgid ""
 "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
 "limitations</a> document."
 msgstr ""
+"Yn gynwysedig o fewn ddogfen <a href=\"%(url)s\">gwadiad a chyfyngiad "
+"cyfreithiol Mozilla</a>."
 
 #: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Polisi Cadw Data"
 
 #: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
 msgstr ""
+"Mae gennym bolisi cadw data sy'n cynnwys y data sy'n cael ei gadw ar y wefan"
+" hon:"
 
 #: fjord/base/jinja2/about.html:51
 msgid ""
 "We keep feedback data forever, but only the last 6 months of data is "
 "available on the public dashboard."
 msgstr ""
+"Rydym y cadw data adborth am byth, ond dim ond data adborth y 6 mis diwethaf"
+" sydd ar gael ar y bwrdd dangos cyhoeddus."
 
 #: fjord/base/jinja2/about.html:57
 msgid ""
 "We keep email addresses and contextual data associated with feedback data "
 "for 6 months and then delete it."
 msgstr ""
+"Rydym yn cadw cyfeiriadau e-bost a ddata cysylltiedig ag adborth am 6 mis ac"
+" yna yn ei ddileu."
 
 #: fjord/base/jinja2/about.html:64
 msgid "Open Data"
-msgstr ""
+msgstr "Data Agored"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
@@ -414,81 +429,84 @@ msgid ""
 "So, we need requests from you on questions you'd like to see answered! If "
 "you would like to experiment with our data, please contact us!"
 msgstr ""
+"Byddwn yn hoffi arbrofi mwy gyda'r data hwn, ond nifer fach ohonom sydd. "
+"Felly hoffwn dderbyn ceisiadau gennych ar gwestiynau'r hoffech gael eu "
+"hateb! Os hoffech chi arbrofi gyda'n data, cysylltwch â ni!"
 
 #: fjord/base/jinja2/about.html:74
 msgid "Source Code"
-msgstr ""
+msgstr "Cod Ffynhonnell"
 
 #: fjord/base/jinja2/about.html:76
 #, python-format
 msgid ""
 "The code for the Firefox Input site can be <a href=\"%(url)s\">found on "
 "GitHub</a>!"
-msgstr ""
+msgstr "Mae cod gwefan Firefox Input <a href=\"%(url)s\">ar gael ar GitHub</a>!"
 
 #: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
-msgstr ""
+msgstr "Croeso"
 
 #: fjord/base/jinja2/base.html:32 fjord/base/jinja2/mobile/base.html:21
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Ewch i'r prif gynnwys"
 
 #: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Ewch i'r troedyn"
 
 #: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
-msgstr ""
+msgstr "Rhowch Adborth"
 
 #: fjord/base/jinja2/base.html:53
 msgid "Analytics"
-msgstr ""
+msgstr "Dadansoddiad"
 
 #: fjord/base/jinja2/base.html:59
 msgid "Hello, {username}"
-msgstr ""
+msgstr "Helo, {username}"
 
 #: fjord/base/jinja2/base.html:63
 msgid "Sign out"
-msgstr ""
+msgstr "Allgofnodi"
 
 #: fjord/base/jinja2/base.html:65
 msgid "Sign in"
-msgstr ""
+msgstr "Mewngofnodi"
 
 #: fjord/base/jinja2/csrf_failure.html:3
 #: fjord/base/jinja2/includes/csrf_failure_text.html:1
 #: fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
-msgstr ""
+msgstr "Methiant CSRF"
 
 #: fjord/base/jinja2/login_failure.html:3
 #: fjord/base/jinja2/includes/login_failure_text.html:1
 #: fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
-msgstr ""
+msgstr "Methiant Mewngofnodi"
 
 #: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
-msgstr ""
+msgstr "Croeso i Input!"
 
 #: fjord/base/jinja2/includes/common.html:7
 msgid "Other languages:"
-msgstr ""
+msgstr "Ieithoedd eraill:"
 
 #: fjord/base/jinja2/includes/common.html:15
 msgid "Go"
-msgstr ""
+msgstr "Mynd"
 
 #: fjord/base/jinja2/includes/common.html:21
 msgid "Legal Notices"
-msgstr ""
+msgstr "Hysbysiadau Cyfreithiol"
 
 #: fjord/base/jinja2/includes/common.html:22
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Adrodd ar Gamddefnydd o Nodau Masnach"
 
 #: fjord/base/jinja2/includes/common.html:26
 #, python-format
@@ -497,10 +515,14 @@ msgid ""
 "site is licensed under the <a href=\"%(license_url)s\">Creative Commons "
 "Attribution Share-Alike License v3.0</a> or any later version."
 msgstr ""
+"Ar wahân i lle fydd yn cael ei <a href=\"%(legal_url)s\">nodi</a>, mae "
+"cynnwys ar y wefan hon wedi ei drwyddedu o dan drwydded <a "
+"href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License "
+"v3.0</a> neu unrhyw fersiwn diweddarach."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "Mae eich mewnbwn wedi methu gwiriad diogelwch ar ein system."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:8
 msgid ""
@@ -508,120 +530,126 @@ msgid ""
 "browser, refresh the page, fill out the form, and try submitting your "
 "feedback again."
 msgstr ""
+"Gwnewch yn siŵr fod wedi galluogi cwcis, pwyswch y botwm Nôl ar eich porwr, "
+"adnewyddwch y dudalen, llanwch y ffurflen, a cheisiwch gyflwyno eich adborth"
+" unwaith eto."
 
 #: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Rydych wedi methu dilysu gyda Persona. Ceisiwch eto."
 
 #: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
-msgstr ""
+msgstr "Croeso!"
 
 #: fjord/base/jinja2/includes/new_user_text.html:3
 msgid ""
 "The identity you just logged in to Persona with ties you to your account on "
 "Input. Please remember which Persona identity you used."
 msgstr ""
+"Mae'r manylion personol rydych wedi eu mewngofnodi i Persona y cysylltu "
+"gyda'ch cyfrif ar Input. Cofiwch pa hunaniaeth Persona rydych wedi ei "
+"ddefnyddio."
 
 #: fjord/base/jinja2/includes/new_user_text.html:10
 msgid "Continue"
-msgstr ""
+msgstr "Parhau"
 
 #: fjord/feedback/config.py:21
 msgid "Colombia"
-msgstr ""
+msgstr "Colombia"
 
 #: fjord/feedback/config.py:22
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela                             "
 
 #: fjord/feedback/config.py:23
 msgid "Poland"
-msgstr ""
+msgstr "Gwlad Pwyl"
 
 #: fjord/feedback/config.py:24
 msgid "Spain"
-msgstr ""
+msgstr "Sbaen"
 
 #: fjord/feedback/config.py:25
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 #: fjord/feedback/config.py:26
 msgid "Germany"
-msgstr ""
+msgstr "Yr Almaen"
 
 #: fjord/feedback/config.py:27
 msgid "Greece"
-msgstr ""
+msgstr "Groeg"
 
 #: fjord/feedback/config.py:28
 msgid "Hungary"
-msgstr ""
+msgstr "Hwngari"
 
 #: fjord/feedback/config.py:29
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #: fjord/feedback/config.py:30
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegro"
 
 #: fjord/feedback/config.py:31
 msgid "Mexico"
-msgstr ""
+msgstr "Mecsico"
 
 #: fjord/feedback/config.py:32
 msgid "Peru"
-msgstr ""
+msgstr "Periw"
 
 #: fjord/feedback/config.py:33
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:19
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:21
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox Android"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:23
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox OS"
-msgstr ""
+msgstr "Firefox OS"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:25
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox Developer"
-msgstr ""
+msgstr "Firefox Developer"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:27
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
-msgstr ""
+msgstr "Firefox iOS"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:20
 #: fjord/feedback/jinja2/feedback/android_thanks.html:20
 msgid "Firefox Feedback"
-msgstr "Adborth Firefox"
+msgstr "Rhowch Adborth"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:42
 msgid "Have a minute?"
 msgstr "Munud yn sbâr?"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:47
-#, fuzzy, python-format
+#, python-format
 msgid "Tell us what you think about %(product)s so far."
-msgstr "Rhannwch eich barn am Firefox ar gyfer Android hyd yma."
+msgstr "Rhannwch eich barn am %(product)s hyd yma."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:54
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:36
@@ -631,6 +659,8 @@ msgid ""
 "JavaScript is required to leave feedback. Please enable JavaScript in your "
 "browser and refresh this page."
 msgstr ""
+"Mae angen JavaScript ar gyfer gadael adborth. Galluogwch JavaScript yn eich "
+"porwr ac adnewyddu'r dudalen."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:62
 msgid "I love it"
@@ -647,11 +677,11 @@ msgstr "Mae hynny'n dda ei glywed!"
 #: fjord/feedback/jinja2/feedback/android_feedback.html:90
 msgid "Want to share the love by giving us a 5 star rating on Google Play?"
 msgstr ""
-"Eisiau rhannu eich gwerthfawrogiad drwy rhoi 5 seren i ni yn Google Play?"
+"Hoffech chi rannu eich gwerthfawrogiad drwy roi 5 seren i ni yn Google Play?"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:96
 msgid "It takes less than a minute and feels great."
-msgstr "Mae'n cymryd llai na munud ac mae'n teimlo'n dda."
+msgstr "Mae'n cymryd llai na munud a bydd yn gadael teimlad braf."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:113
 msgid "Yes, go to Google Play"
@@ -704,6 +734,8 @@ msgid ""
 "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for "
 "common issues."
 msgstr ""
+"Ewch i <a href=\"%(support_url)s\">Gwefan Cymorth</a> i dderbyn atebion i "
+"anawsterau cyffredin."
 
 #: fjord/feedback/jinja2/feedback/android_thanks.html:34
 msgid "Thank you."
@@ -724,28 +756,28 @@ msgstr "Neu fel arall."
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:7
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
-msgstr ""
+msgstr "CYflwyno eich Adborth"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:31
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
-msgstr ""
+msgstr "Adborth {product}"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
-msgstr ""
+msgstr "Mae eich adborth yn ein cynorthwyo i wella Firefox OS."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:58
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:60
 #, python-format
 msgid "%(product)s makes me happy"
-msgstr ""
+msgstr "Mae %(product)s yn fy ngwneud yn hapus"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:75
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:77
 #, python-format
 msgid "%(product)s makes me sad"
-msgstr ""
+msgstr "Mae %(product)s yn fy ngwneud yn drist"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:84
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:86
@@ -754,29 +786,31 @@ msgid ""
 "Is %(product)s not the product you want to give feedback on?<br /> <a "
 "href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
+"Ai %(product)s yw'r cynnyrch yr hoffech chi rannu eich adborth?<br /> <a "
+"href=\"%(url)s\">Dewis cynnyrch arall</a>."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
-msgstr ""
+msgstr "Ym mha wlad wnaethoch chi brynu eich dyfais Firefox OS?"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:106
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:128
 msgid "Other"
-msgstr ""
+msgstr "Arall"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:110
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:132
 msgid "Next"
-msgstr ""
+msgstr "Nesaf"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:120
 msgid "What Firefox OS device are you using?"
-msgstr ""
+msgstr "Pa ddyfais Firefox OS rydych yn ei ddefnyddio?"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:137
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:95
 msgid "Details"
-msgstr ""
+msgstr "Manylion"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:142
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:110
@@ -785,6 +819,9 @@ msgid ""
 "so please be sure not to include personal information such as email address,"
 " passwords or phone number."
 msgstr ""
+"Disgrifiwch beth rydych yn ei hoffi. Bydd cynnwys eich adborth yn gyhoeddus,"
+" felly peidiwch gynnwys manylion personol fel cyfeiriad e-bost, cyfrineiriau"
+" neu rif ffôn."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:150
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:118
@@ -793,11 +830,15 @@ msgid ""
 "content of your feedback will be public, so please be sure not to include "
 "personal information such as email address, passwords or phone number."
 msgstr ""
+"Disgrifiwch beth yw eich anhawster gan fod mor fanwl ag y mae modd. Bydd "
+"cynnwys eich adborth yn gyhoeddus, felly peidiwch gynnwys manylion personol "
+"fel cyfeiriad e-bost, cyfrineiriau neu rif ffôn."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:167
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:135
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr ""
+"Os yw eich adborth sy'n gysylltiedig â gwefan, gallwch ei gynnwys yma:"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:181
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:171
@@ -805,29 +846,33 @@ msgid ""
 "(Optional) Check here to let us contact you to follow up on your feedback. "
 "Your email address will be kept private."
 msgstr ""
+"(Dewisol) Ticiwch yma i adael i ni gysylltu â chi i fynd ar ôl eich adborth."
+" Bydd eich cyfeiriad e-bost yn cael ei gadw'n breifat."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
-msgstr ""
+msgstr "Rhowch gyfeiriad e-bost dilys."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:198
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:185
 msgid "Submit"
-msgstr ""
+msgstr "Cyflwyno"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:204
 msgid "Submitting...."
-msgstr ""
+msgstr "Wrthi'n cyflwyno...."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:212
 msgid "Success!"
-msgstr ""
+msgstr "Llwyddiant!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
 msgid ""
 "Thank you for your feedback! We will use it to help us create a better "
 "experience in future versions of Firefox OS."
 msgstr ""
+"Diolch i chi am eich adborth! Byddwn yn ei ddefnyddio i'n helpu i sicrhau "
+"gwell profiad yn fersiynau'r dyfodol o Firefox OS."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
 #, python-format
@@ -835,38 +880,44 @@ msgid ""
 "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla "
 "better</a>."
 msgstr ""
+"Dysgwch sut y gallwch <a href=\"%(url)s\">wneud Firefox OS a Mozilla yn "
+"well</a>."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:231
 msgid "We're sorry!"
-msgstr ""
+msgstr "Mae'n ddrwg gennym!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
 msgid ""
 "Something has happened and we can't submit your feedback. Feedback will be "
 "saved on your device so you can try sending it again later."
 msgstr ""
+"Mae rhywbeth wedi digwydd, ac allwn ni ddim cyflwyno eich adborth. Bydd yr "
+"adborth yn cael eu cadw ar eich dyfais felly gallwch geisio ei anfon rywbryd"
+" eto."
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:240
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:246
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
-msgstr ""
+msgstr "Ceisiwch eto"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:241
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:256
 msgid "Cancel"
-msgstr ""
+msgstr "Diddymu"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:249
 msgid ""
 "You have unsubmitted feedback data. Would you like to try submitting it "
 "again?"
 msgstr ""
+"Mae gennych ddata heb ei gyflwyno. Hoffech chi geisio ei gyflwyno eto?"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 #, python-format
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Sut mae %(product)s yn gwneud i chi deimlo?"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid ""
@@ -874,6 +925,10 @@ msgid ""
 "submit below, you will provide us with technical information about your "
 "browser, along with any feedback you provide on this page."
 msgstr ""
+"I'n cynorthwyo i ddeall eich mewnbwn chi, mae angen inni gael rhagor o "
+"wybodaeth. Drwy glicio Cyflwyno isod, byddwch yn ein darparu â gwybodaeth "
+"dechnegol am eich porwr, ynghyd ag unrhyw adborth rydych wedi ei ddarparu ar"
+" y dudalen hon."
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
@@ -885,30 +940,36 @@ msgid ""
 "products. This information will be kept in accordance with our <a "
 "href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
+"Ticiwch ym i ddarparu <a href=\"%(technical_url)s\">manylion technegol</a> "
+"am eich porwr, megis gwybodaeth sylfaenol am y cyfrifiadur, eich fersiwn o "
+"Firefox, a'r estyniadau rydych chi wedi'u gosod. Mae'r wybodaeth yma'n helpu"
+" inni ddeall ein defnyddwyr yn well a creu gwell cynnyrch. Mae'r gwybodaeth "
+"yma'n cael ei gadw'n unol â 'n <a href=\"%(privacy_url)s\">polisi "
+"preifatrwydd</a>."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
-msgstr ""
+msgstr "Dewiswch Gynnyrch"
 
 #: fjord/feedback/jinja2/feedback/picker.html:14
 msgid "Select a product"
-msgstr ""
+msgstr "Dewiswch gynnyrch"
 
 #: fjord/feedback/jinja2/feedback/picker.html:23
 msgid "No products available."
-msgstr ""
+msgstr "Dim cynnyrch ar gael."
 
 #: fjord/feedback/jinja2/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
-msgstr ""
+msgstr "Dewiswch gynnyrch i adael adborth arno."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:3
 msgid "Thanks"
-msgstr ""
+msgstr "Diolch"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:16
 msgid "Thanks for Your Feedback"
-msgstr ""
+msgstr "Diolch am eich Adborth"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
 #, python-format
@@ -916,14 +977,16 @@ msgid ""
 "Your feedback will be used to create a better experience in future releases "
 "of %(product)s."
 msgstr ""
+"Bydd eich adborth y cael ei ddefnyddio i greu gwell profiad mewn fersiynau'r"
+" dyfodol o %(product)s."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:33
 msgid "Suggestions from your feedback:"
-msgstr ""
+msgstr "Awgrymiadau o'ch adborth:"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
-msgstr ""
+msgstr "Yn cael anhawster? Mae cymorth ar gael."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
 #, python-format
@@ -931,10 +994,12 @@ msgid ""
 "Go to our support forum where you can <a href=\"%(url)s\">get help and find "
 "answers</a>."
 msgstr ""
+"Ewch i'n fforwm cymorth lle gallwch <a href=\"%(url)s\">gael cymorth a dod o"
+" hyd i atebion</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:64
 msgid "Shape the future of Firefox."
-msgstr ""
+msgstr "Lunio dyfodol Firefox."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
 #, python-format
@@ -942,10 +1007,12 @@ msgid ""
 "Download <a href=\"%(download_url)s\">the Firefox build that is right for "
 "you</a>."
 msgstr ""
+"Llwythwch i lawr <a href=\"%(download_url)s\">y fersiwn o Firefox sy'n iawn "
+"i chi</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
-msgstr ""
+msgstr "Cyfrannu at Mozilla."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
 #, python-format
@@ -953,25 +1020,29 @@ msgid ""
 "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla "
 "better</a>."
 msgstr ""
+"Dysgwch sut y gallwch <a href=\"%(url)s\">wneud %(product)s a Mozilla yn "
+"well</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
 #, python-format
 msgid "Find the latest news about %(product)s."
-msgstr ""
+msgstr "Derbyn y newyddion diweddaraf am %(product)s."
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
-msgstr ""
+msgstr "Llwytho Firefox i Lawr"
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
-msgstr ""
+msgstr "Llwythwch Firefox i Lawr!"
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
 msgid ""
 "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
 " to be on the latest version."
 msgstr ""
+"A! Fe hoffech chi gynnig adborth ar Firefox. Diolch, ond mae angen i chi fod"
+" ar y fersiwn diweddaraf."
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
 #, python-format
@@ -979,10 +1050,12 @@ msgid ""
 "To do that, simply go to our download page and install/update to the <a "
 "href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr ""
+"I wneud hynny, ewch i'n tudalen llwytho i lawr a gosod/diweddaru i'r <a "
+"href=\"%(url)s\">fersiwn diweddaraf Firefox!</a>"
 
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
-msgstr ""
+msgstr "Gofynnwch gwestiwn yn ein fforwm cymorth"
 
 #~ msgid "to get answers for common issues."
 #~ msgstr "i gael atebion i anawsterau cyffredin."
