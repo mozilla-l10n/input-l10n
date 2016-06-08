@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2016-03-08 09:40-0800\n"
-"PO-Revision-Date: 2016-06-04 21:25+0000\n"
+"PO-Revision-Date: 2016-06-08 08:02+0000\n"
 "Last-Translator: bjorn.svindseth <bjorn.svindseth@online.no>\n"
 "Language-Team: none\n"
 "Language: nn_NO\n"
@@ -30,7 +30,7 @@ msgstr "Søkjeresultat frå Firefox Input"
 #: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
 #: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:356
 msgid "Happy"
-msgstr "Lukkeleg"
+msgstr "Lykkeleg"
 
 #: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
 #: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:357
@@ -43,7 +43,7 @@ msgstr "Svar-id: {id}"
 
 #: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
 msgid "Unknown"
-msgstr "Ukjend"
+msgstr "Ukjent"
 
 #: fjord/analytics/views.py:344
 msgid "Sentiment"
@@ -335,42 +335,44 @@ msgstr "Personvernpraksis"
 #: fjord/base/jinja2/about.html:29
 #, python-format
 msgid "We adhere to the <a href=\"%(url)s\">Mozilla Privacy Policy</a>."
-msgstr ""
+msgstr "Vi følgjer <a href=\"%(url)s\">Mozilla sin personvernpraksis</a>."
 
 #: fjord/base/jinja2/about.html:34
 msgid "Legal Disclaimers and Limitations"
-msgstr ""
+msgstr "Juridiske ansvarsfråskrivingar og avgrensingar"
 
 #: fjord/base/jinja2/about.html:36
 #, python-format
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
+msgstr "Vi er dekte av dokumentet <a href=\"%(url)s\">Mozillas juridiske ansvarsfråskriving og avgrensingar</a>."
 
 #: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
-msgstr ""
+msgstr "Datalagringspraksis"
 
 #: fjord/base/jinja2/about.html:44
 msgid "We have a data retention policy that covers data stored on this site:"
-msgstr ""
+msgstr "Vi har ein datalagringspraksis som dekkjer data som er lagra på denne nettstaden:"
 
 #: fjord/base/jinja2/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
+msgstr "Vi oppbevarar tilbakemeldingsdata for alltid, men berre data frå dei siste 6 månadane er tilgjengelege på det offentlige dashbordet."
 
 #: fjord/base/jinja2/about.html:57
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr ""
+msgstr "Vi tek vare på e-postadresser og kontekstuelle data knytta til tilbakemeldingsdata i 6 månadar, før dei vert sletta."
 
 #: fjord/base/jinja2/about.html:64
 msgid "Open Data"
-msgstr ""
+msgstr "Opne data"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
 "We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
 " contact us!"
 msgstr ""
+"Vi kunne gjerne tenkja oss å eksperimentera meir med desse dataa, men vi er berre nokre få personar her. Difor treng vi tilbakemeldingar frå deg om spørsmål som du gjerne kunne tenke deg å få svar "
+"på. Dersom du ønskjer å eksperimentera med våre data, kontakt oss!"
 
 #: fjord/base/jinja2/about.html:74
 msgid "Source Code"
@@ -379,7 +381,7 @@ msgstr "Kjeldekode"
 #: fjord/base/jinja2/about.html:76
 #, python-format
 msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
-msgstr ""
+msgstr "Koden for nettstaden Firefox Input <a href=\"%(url)s\">finn du på GitHub</a>!"
 
 #: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
@@ -387,11 +389,11 @@ msgstr "Velkomen"
 
 #: fjord/base/jinja2/base.html:32 fjord/base/jinja2/mobile/base.html:21
 msgid "Proceed to main content"
-msgstr ""
+msgstr "Gå til hovedinnhaldet"
 
 #: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Gå til fotnotar"
 
 #: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
@@ -399,7 +401,7 @@ msgstr "Gje tilbakemelding"
 
 #: fjord/base/jinja2/base.html:53
 msgid "Analytics"
-msgstr ""
+msgstr "Analyse"
 
 #: fjord/base/jinja2/base.html:59
 msgid "Hello, {username}"
@@ -415,15 +417,15 @@ msgstr "Logg inn"
 
 #: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
-msgstr ""
+msgstr "CSRF-feil"
 
 #: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
-msgstr ""
+msgstr "Innloggingsfeil"
 
 #: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
-msgstr ""
+msgstr "Velkomen til Input!"
 
 #: fjord/base/jinja2/includes/common.html:7
 msgid "Other languages:"
@@ -431,15 +433,15 @@ msgstr "Andre språk:"
 
 #: fjord/base/jinja2/includes/common.html:15
 msgid "Go"
-msgstr ""
+msgstr "Gå"
 
 #: fjord/base/jinja2/includes/common.html:21
 msgid "Legal Notices"
-msgstr ""
+msgstr "Juridisk informasjon"
 
 #: fjord/base/jinja2/includes/common.html:22
 msgid "Report Trademark Abuse"
-msgstr ""
+msgstr "Rapporter misbruk av varemerke"
 
 #: fjord/base/jinja2/includes/common.html:26
 #, python-format
@@ -724,7 +726,7 @@ msgstr "Sender inn …"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:212
 msgid "Success!"
-msgstr ""
+msgstr "Vellykka!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
 msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
@@ -836,7 +838,7 @@ msgstr ""
 #: fjord/feedback/jinja2/feedback/thanks.html:84
 #, python-format
 msgid "Find the latest news about %(product)s."
-msgstr ""
+msgstr "Finn siste nytt om %(product)s."
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -844,7 +846,7 @@ msgstr "Last ned Firefox"
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
-msgstr ""
+msgstr "Last ned Firefox!"
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
 msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
