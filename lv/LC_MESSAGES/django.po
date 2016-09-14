@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2016-03-08 09:40-0800\n"
-"PO-Revision-Date: 2016-05-25 16:00+0000\n"
-"Last-Translator: Jānis Marks Gailis - Jean-Marc <jm-gailis@fai-vianet.fr>\n"
+"PO-Revision-Date: 2016-09-14 13:39+0000\n"
+"Last-Translator: orvils <orvils@gmail.com>\n"
 "Language-Team: none\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -19,9 +19,7 @@ msgstr ""
 msgid "Firefox Input: {query}"
 msgstr "Firefox ievade: {query}"
 
-#: fjord/analytics/views.py:117 fjord/analytics/views.py:131
-#: fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5
-#: fjord/base/jinja2/mobile/base.html:4
+#: fjord/analytics/views.py:117 fjord/analytics/views.py:131 fjord/base/jinja2/500.html:8 fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Firefox Input"
 msgstr "Firefox ievade"
 
@@ -29,31 +27,21 @@ msgstr "Firefox ievade"
 msgid "Search Results From Firefox Input"
 msgstr "Meklēšanas rezultāt no Firefox ievades"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:345
-#: fjord/analytics/jinja2/analytics/dashboard.html:13
-#: fjord/analytics/jinja2/analytics/response.html:29
-#: fjord/analytics/jinja2/analytics/mobile/response.html:18
-#: fjord/feedback/models.py:356
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:13 fjord/analytics/jinja2/analytics/response.html:29
+#: fjord/analytics/jinja2/analytics/mobile/response.html:18 fjord/feedback/models.py:356
 msgid "Happy"
 msgstr "Priecīgs"
 
-#: fjord/analytics/views.py:135 fjord/analytics/views.py:345
-#: fjord/analytics/jinja2/analytics/dashboard.html:15
-#: fjord/analytics/jinja2/analytics/response.html:31
-#: fjord/analytics/jinja2/analytics/mobile/response.html:20
-#: fjord/feedback/models.py:357
+#: fjord/analytics/views.py:135 fjord/analytics/views.py:345 fjord/analytics/jinja2/analytics/dashboard.html:15 fjord/analytics/jinja2/analytics/response.html:31
+#: fjord/analytics/jinja2/analytics/mobile/response.html:20 fjord/feedback/models.py:357
 msgid "Sad"
 msgstr "Bēdīgs"
 
-#: fjord/analytics/views.py:145
-#: fjord/analytics/jinja2/analytics/response.html:24
-#: fjord/analytics/jinja2/analytics/mobile/response.html:13
+#: fjord/analytics/views.py:145 fjord/analytics/jinja2/analytics/response.html:24 fjord/analytics/jinja2/analytics/mobile/response.html:13
 msgid "Response id: {id}"
 msgstr "Atbildes id: {id}"
 
-#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20
-#: fjord/base/templatetags/jinja_helpers.py:78
-#: fjord/feedback/templatetags/jinja_helpers.py:9
+#: fjord/analytics/views.py:338 fjord/base/templatetags/jinja_helpers.py:20 fjord/base/templatetags/jinja_helpers.py:78 fjord/feedback/templatetags/jinja_helpers.py:9
 msgid "Unknown"
 msgstr "Nezināms"
 
@@ -61,13 +49,11 @@ msgstr "Nezināms"
 msgid "Sentiment"
 msgstr "Sentiments"
 
-#: fjord/analytics/views.py:351
-#: fjord/analytics/jinja2/analytics/response.html:111
+#: fjord/analytics/views.py:351 fjord/analytics/jinja2/analytics/response.html:111
 msgid "Product"
 msgstr "Produkts"
 
-#: fjord/analytics/views.py:362 fjord/analytics/views.py:368
-#: fjord/analytics/jinja2/analytics/response.html:115
+#: fjord/analytics/views.py:362 fjord/analytics/views.py:368 fjord/analytics/jinja2/analytics/response.html:115
 msgid "Version"
 msgstr "Versija"
 
@@ -75,13 +61,11 @@ msgstr "Versija"
 msgid "Select product to see version breakdown"
 msgstr "Izvēlieties produktu, lai redzētu pieejamas versijas"
 
-#: fjord/analytics/views.py:377
-#: fjord/analytics/jinja2/analytics/response.html:99
+#: fjord/analytics/views.py:377 fjord/analytics/jinja2/analytics/response.html:99
 msgid "Platform"
 msgstr "Platforma"
 
-#: fjord/analytics/views.py:383
-#: fjord/analytics/jinja2/analytics/response.html:105
+#: fjord/analytics/views.py:383 fjord/analytics/jinja2/analytics/response.html:105
 msgid "Locale"
 msgstr "Valoda"
 
@@ -89,9 +73,7 @@ msgstr "Valoda"
 msgid "Atom feed for this search"
 msgstr "Šī meklēšanas skata Atom barotne"
 
-#: fjord/analytics/jinja2/analytics/dashboard.html:45
-#: fjord/analytics/jinja2/analytics/analyzer/search.html:78
-#: fjord/analytics/jinja2/analytics/mobile/response.html:39
+#: fjord/analytics/jinja2/analytics/dashboard.html:45 fjord/analytics/jinja2/analytics/analyzer/search.html:78 fjord/analytics/jinja2/analytics/mobile/response.html:39
 msgid "Permalink"
 msgstr "Pastāvīgā saite"
 
@@ -165,20 +147,14 @@ msgstr "Panelis nav pieejams"
 
 #: fjord/analytics/jinja2/analytics/es_down.html:14
 msgid "Dashboard is currently unavailable. Please try again in 10 minutes."
-msgstr ""
-"Informācijas panelis ir pašlaik nav pieejams. Lūdzu, mēģiniet vēlreiz pēc 10"
-" minūtēm."
+msgstr "Informācijas panelis ir pašlaik nav pieejams. Lūdzu, mēģiniet vēlreiz pēc 10 minūtēm."
 
 #: fjord/analytics/jinja2/analytics/response.html:45
 msgid "Category"
 msgstr "Kategorija"
 
-#: fjord/analytics/jinja2/analytics/response.html:47
-#: fjord/analytics/jinja2/analytics/response.html:125
-#: fjord/analytics/jinja2/analytics/response.html:129
-#: fjord/analytics/jinja2/analytics/response.html:133
-#: fjord/analytics/jinja2/analytics/response.html:137
-#: fjord/analytics/jinja2/analytics/response.html:141
+#: fjord/analytics/jinja2/analytics/response.html:47 fjord/analytics/jinja2/analytics/response.html:125 fjord/analytics/jinja2/analytics/response.html:129
+#: fjord/analytics/jinja2/analytics/response.html:133 fjord/analytics/jinja2/analytics/response.html:137 fjord/analytics/jinja2/analytics/response.html:141
 #: fjord/analytics/jinja2/analytics/response.html:145
 msgid "None"
 msgstr "Neviens"
@@ -235,8 +211,7 @@ msgstr "Pārlūka plat."
 msgid "Full URL"
 msgstr "Pilns URL"
 
-#: fjord/analytics/jinja2/analytics/response.html:155
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:94
+#: fjord/analytics/jinja2/analytics/response.html:155 fjord/feedback/jinja2/feedback/fxos_feedback.html:94
 msgid "Country"
 msgstr "Valsts"
 
@@ -244,8 +219,7 @@ msgstr "Valsts"
 msgid "Manufacturer"
 msgstr "Ražotājs"
 
-#: fjord/analytics/jinja2/analytics/response.html:163
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:116
+#: fjord/analytics/jinja2/analytics/response.html:163 fjord/feedback/jinja2/feedback/fxos_feedback.html:116
 msgid "Device"
 msgstr "Ierīces"
 
@@ -298,15 +272,10 @@ msgid "You do not have access to this page."
 msgstr "Jums nav pieeja šai lapai."
 
 #: fjord/base/jinja2/403.html:14
-msgid ""
-"You do not have access to this page. If you have an account, try signing in."
-msgstr ""
-"Jums nav piekļuves tiesību šai lapai. Ja jums ir konts, mēģiniet "
-"pierakstīties."
+msgid "You do not have access to this page. If you have an account, try signing in."
+msgstr "Jums nav piekļuves tiesību šai lapai. Ja jums ir konts, mēģiniet pierakstīties."
 
-#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14
-#: fjord/base/jinja2/500.html:35
-#: fjord/base/jinja2/includes/login_failure_text.html:8
+#: fjord/base/jinja2/403.html:18 fjord/base/jinja2/404.html:14 fjord/base/jinja2/500.html:35 fjord/base/jinja2/includes/login_failure_text.html:8
 msgid "Return to the dashboard."
 msgstr "Atgriezties uz paneli."
 
@@ -322,13 +291,11 @@ msgstr "Nevarēja atrast šo dokumentu."
 msgid "Something has gone horribly wrong"
 msgstr "Kaut kas ir nogājis ļoti, ļoti greizi"
 
-#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44
-#: fjord/base/jinja2/mobile/base.html:29
+#: fjord/base/jinja2/500.html:19 fjord/base/jinja2/base.html:44 fjord/base/jinja2/mobile/base.html:29
 msgid "<strong>Firefox</strong> Input"
 msgstr "<strong>Firefox</strong> Ievade"
 
-#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50
-#: fjord/base/jinja2/mobile/base.html:35
+#: fjord/base/jinja2/500.html:25 fjord/base/jinja2/base.html:50 fjord/base/jinja2/mobile/base.html:35
 msgid "Dashboard"
 msgstr "Informācijas panelis"
 
@@ -350,27 +317,16 @@ msgstr "Sveiki!"
 
 #: fjord/base/jinja2/about.html:11
 msgid ""
-"Firefox Input is Mozilla's primary feedback mechanism for products. It is "
-"set up to be a method of one-way communication about your experiences in "
-"using our products, the Internet you view it through, and what Mozilla can "
-"do to make that experience better. The system is available over a wide-"
-"variety of submission mechanisms and product builds."
+"Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
+"through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"Firefox ievade ir Mozilla galvenais Mozilla produktu atgriezeniskās saites "
-"mehānisms. Tas ir veidots kā vienvirziena komunikācijas kanāls par, par jūsu"
-" pieredzi, izmantojot mūsu produktus, internetu, ko jūs skatāties caur tiem "
-"un lietām, ko Mozilla var darīt, lai uzlabotu jūsu lietošanas pieredzi. "
-"Sistēma ir pieejama dažādiem iesniegšanas mehānismiem un produktu "
-"būvējumiem."
+"Firefox ievade ir Mozilla galvenais Mozilla produktu atgriezeniskās saites mehānisms. Tas ir veidots kā vienvirziena komunikācijas kanāls par, par jūsu pieredzi, izmantojot mūsu produktus, "
+"internetu, ko jūs skatāties caur tiem un lietām, ko Mozilla var darīt, lai uzlabotu jūsu lietošanas pieredzi. Sistēma ir pieejama dažādiem iesniegšanas mehānismiem un produktu būvējumiem."
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
-msgid ""
-"To submit feedback for a Mozilla product, please go to <a "
-"href=\"%(url)s\">the feedback submission page</a>!"
-msgstr ""
-"Lai iesniegtu atsauksmes par Mozilla produktu, lūdzu, dodieties uz <a "
-"href=\"%(url)s\">lappusi atsauksmes iesniegšanai</a>!"
+msgid "To submit feedback for a Mozilla product, please go to <a href=\"%(url)s\">the feedback submission page</a>!"
+msgstr "Lai iesniegtu atsauksmes par Mozilla produktu, lūdzu, dodieties uz <a href=\"%(url)s\">lappusi atsauksmes iesniegšanai</a>!"
 
 #: fjord/base/jinja2/about.html:27 fjord/base/jinja2/includes/common.html:20
 msgid "Privacy Policy"
@@ -387,12 +343,8 @@ msgstr "Juridisko saistību atrunas un ierobežojumus"
 
 #: fjord/base/jinja2/about.html:36
 #, python-format
-msgid ""
-"We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and "
-"limitations</a> document."
-msgstr ""
-"Mēs darbojamies pēc <a href=\"%(url)s\">Mozilla juridisko saistību atrunu un"
-" ierobežojumu</a> dokumenta principiem."
+msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
+msgstr "Mēs darbojamies pēc <a href=\"%(url)s\">Mozilla juridisko saistību atrunu un ierobežojumu</a> dokumenta principiem."
 
 #: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
@@ -403,20 +355,12 @@ msgid "We have a data retention policy that covers data stored on this site:"
 msgstr "Šajā lapā apkopoto informāciju nosaka lapas datu glabāšanas politika:"
 
 #: fjord/base/jinja2/about.html:51
-msgid ""
-"We keep feedback data forever, but only the last 6 months of data is "
-"available on the public dashboard."
-msgstr ""
-"Saņemtās atsauksmes tiek glabātas mūžīgi, taču tikai pēdējo 6 mēnešu dati ir"
-" pieejami publiskajā informācijas panelī."
+msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
+msgstr "Saņemtās atsauksmes tiek glabātas mūžīgi, taču tikai pēdējo 6 mēnešu dati ir pieejami publiskajā informācijas panelī."
 
 #: fjord/base/jinja2/about.html:57
-msgid ""
-"We keep email addresses and contextual data associated with feedback data "
-"for 6 months and then delete it."
-msgstr ""
-"Epastu adreses un konteksta datus, kas saistīti ar atgriezenisko saiti mēs "
-"glabājam 6 mēnešus, pēc tam tie tiek izdzēsti."
+msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
+msgstr "Epastu adreses un konteksta datus, kas saistīti ar atgriezenisko saiti mēs glabājam 6 mēnešus, pēc tam tie tiek izdzēsti."
 
 #: fjord/base/jinja2/about.html:64
 msgid "Open Data"
@@ -424,14 +368,11 @@ msgstr "Atvērti dati"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. "
-"So, we need requests from you on questions you'd like to see answered! If "
-"you would like to experiment with our data, please contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
+" contact us!"
 msgstr ""
-"Mēs labprāt eksperimentētu vairāk ar šiem datiem, taču esam tikai daži "
-"cilvēki. Tāpēc, mums nepieciešami jūsu jautājumi, ko vēlaties redzēt "
-"atbildētus! Ja vēlaties eksperimentēt ar mūsu datiem, lūdzu, sazinieties ar "
-"mums!"
+"Mēs labprāt eksperimentētu vairāk ar šiem datiem, taču esam tikai daži cilvēki. Tāpēc, mums nepieciešami jūsu jautājumi, ko vēlaties redzēt atbildētus! Ja vēlaties eksperimentēt ar mūsu datiem, "
+"lūdzu, sazinieties ar mums!"
 
 #: fjord/base/jinja2/about.html:74
 msgid "Source Code"
@@ -439,10 +380,8 @@ msgstr "Pirmkods"
 
 #: fjord/base/jinja2/about.html:76
 #, python-format
-msgid ""
-"The code for the Firefox Input site can be <a href=\"%(url)s\">found on "
-"GitHub</a>!"
-msgstr ""
+msgid "The code for the Firefox Input site can be <a href=\"%(url)s\">found on GitHub</a>!"
+msgstr "Firefox Input saites kods var būt <a href=\"%(url)s\">atrasts GitHub</a>!"
 
 #: fjord/base/jinja2/base.html:5 fjord/base/jinja2/mobile/base.html:4
 msgid "Welcome"
@@ -454,15 +393,15 @@ msgstr "Doties uz galveno saturu"
 
 #: fjord/base/jinja2/base.html:33 fjord/base/jinja2/mobile/base.html:22
 msgid "Proceed to footer"
-msgstr ""
+msgstr "Dodies uz lapas apakšu"
 
 #: fjord/base/jinja2/base.html:51
 msgid "Give Feedback"
-msgstr ""
+msgstr "Nodot atsauksmi"
 
 #: fjord/base/jinja2/base.html:53
 msgid "Analytics"
-msgstr ""
+msgstr "Analītika"
 
 #: fjord/base/jinja2/base.html:59
 msgid "Hello, {username}"
@@ -476,21 +415,17 @@ msgstr "Izrakstīties"
 msgid "Sign in"
 msgstr "Ieiet"
 
-#: fjord/base/jinja2/csrf_failure.html:3
-#: fjord/base/jinja2/includes/csrf_failure_text.html:1
-#: fjord/base/jinja2/mobile/csrf_failure.html:3
+#: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
 msgid "CSRF Failure"
-msgstr ""
+msgstr "CSRF neveiksme"
 
-#: fjord/base/jinja2/login_failure.html:3
-#: fjord/base/jinja2/includes/login_failure_text.html:1
-#: fjord/base/jinja2/mobile/login_failure.html:3
+#: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
-msgstr ""
+msgstr "Neizdevās pieslēgties"
 
 #: fjord/base/jinja2/new_user.html:3 fjord/base/jinja2/mobile/new_user.html:3
 msgid "Welcome to Input!"
-msgstr ""
+msgstr "Sveicināti Input!"
 
 #: fjord/base/jinja2/includes/common.html:7
 msgid "Other languages:"
@@ -511,34 +446,28 @@ msgstr "Ziņot par preču zīmes pārkāpumu"
 #: fjord/base/jinja2/includes/common.html:26
 #, python-format
 msgid ""
-"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this "
-"site is licensed under the <a href=\"%(license_url)s\">Creative Commons "
-"Attribution Share-Alike License v3.0</a> or any later version."
+"Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
+"later version."
 msgstr ""
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
-msgstr ""
+msgstr "Tavs pieprasījums neizturēja drošības pārbaudi mūsu sistēmā."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:8
-msgid ""
-"Please make sure you have cookies enabled, press the Back button in your "
-"browser, refresh the page, fill out the form, and try submitting your "
-"feedback again."
+msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
 msgstr ""
 
 #: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "Jums neizdevās autentificēties ar Persona. Lūdzu mēģiniet vēlreiz."
 
 #: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
 msgstr "Laipni lūdzam!"
 
 #: fjord/base/jinja2/includes/new_user_text.html:3
-msgid ""
-"The identity you just logged in to Persona with ties you to your account on "
-"Input. Please remember which Persona identity you used."
+msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
 msgstr ""
 
 #: fjord/base/jinja2/includes/new_user_text.html:10
@@ -627,8 +556,7 @@ msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
 msgstr "Firefox iOS ierīcēm"
 
-#: fjord/feedback/jinja2/feedback/android_feedback.html:20
-#: fjord/feedback/jinja2/feedback/android_thanks.html:20
+#: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
 msgid "Firefox Feedback"
 msgstr ""
 
@@ -641,16 +569,10 @@ msgstr ""
 msgid "Tell us what you think about %(product)s so far."
 msgstr "Pastāsti, ko tu domā par Firefox Android iekārtām."
 
-#: fjord/feedback/jinja2/feedback/android_feedback.html:54
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:36
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:37
+#: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
 #: fjord/feedback/jinja2/feedback/picker.html:28
-msgid ""
-"JavaScript is required to leave feedback. Please enable JavaScript in your "
-"browser and refresh this page."
-msgstr ""
-"JavaScript ir nepieciešams lai atstāt atsauksmi. Lūdzu aktivizējiet "
-"JavaScript savā pārlūkprogrammā un atsvaidziniet šo lapu."
+msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
+msgstr "JavaScript ir nepieciešams lai atstāt atsauksmi. Lūdzu aktivizējiet JavaScript savā pārlūkprogrammā un atsvaidziniet šo lapu."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:62
 msgid "I love it"
@@ -666,8 +588,7 @@ msgstr "Prieks dzirdēt!"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:90
 msgid "Want to share the love by giving us a 5 star rating on Google Play?"
-msgstr ""
-"Pastāstīsi arī citiem, novērtējot mūs ar 5 zvaigznītēm Google Play veikalā?"
+msgstr "Pastāstīsi arī citiem, novērtējot mūs ar 5 zvaigznītēm Google Play veikalā?"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:96
 msgid "It takes less than a minute and feels great."
@@ -682,12 +603,8 @@ msgid "Oh no!"
 msgstr "Ak, nē!"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:131
-msgid ""
-"We're sorry that you had some problems with Firefox. Please tell us what "
-"happened so that we can fix it."
-msgstr ""
-"Mums žēl, ka tev gadījās ķibele ar Firefox. Lūdzu, pastāsti, kas notika, lai"
-" mēs varētu to salabot."
+msgid "We're sorry that you had some problems with Firefox. Please tell us what happened so that we can fix it."
+msgstr "Mums žēl, ka tev gadījās ķibele ar Firefox. Lūdzu, pastāsti, kas notika, lai mēs varētu to salabot."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:137
 msgid "Enter your feedback here"
@@ -702,12 +619,8 @@ msgid "Send Feedback"
 msgstr "Nosūtīt atsauksmi"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:161
-msgid ""
-"For your privacy, please do not include any personal information in your "
-"feedback."
-msgstr ""
-"Lai pasargātu savu privātumu, lūdzu, nenorādiet personisku informāciju šajā "
-"atsauksmē."
+msgid "For your privacy, please do not include any personal information in your feedback."
+msgstr "Lai pasargātu savu privātumu, lūdzu, nenorādiet personisku informāciju šajā atsauksmē."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:179
 msgid "Maybe later"
@@ -717,12 +630,9 @@ msgstr "Varbūt vēlāk"
 msgid "No thanks"
 msgstr "Nē, paldies"
 
-#: fjord/feedback/jinja2/feedback/android_feedback.html:200
-#: fjord/feedback/jinja2/feedback/android_thanks.html:71
+#: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
-msgid ""
-"Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for "
-"common issues."
+msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/android_thanks.html:34
@@ -730,62 +640,49 @@ msgid "Thank you."
 msgstr "Paldies par ziņojumu."
 
 #: fjord/feedback/jinja2/feedback/android_thanks.html:42
-msgid ""
-"We're always working to make Firefox better. Rest assured that real people "
-"will look at your feedback and do their very best to resolve your issue."
-msgstr ""
-"Mēs nemitīgi strādājam, lai padarītu Firefox labāku. Tavu ziņojumu izlasīs "
-"īsti cilvēki, un viņi no sirds centīsies atrisināt aprakstīto problēmu."
+msgid "We're always working to make Firefox better. Rest assured that real people will look at your feedback and do their very best to resolve your issue."
+msgstr "Mēs nemitīgi strādājam, lai padarītu Firefox labāku. Tavu ziņojumu izlasīs īsti cilvēki, un viņi no sirds centīsies atrisināt aprakstīto problēmu."
 
 #: fjord/feedback/jinja2/feedback/android_thanks.html:49
 msgid "Or else."
 msgstr "Vai arī."
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:7
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:7 fjord/feedback/jinja2/feedback/generic_feedback.html:7
 msgid "Submit Your Feedback"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:32
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:31 fjord/feedback/jinja2/feedback/generic_feedback.html:32
 msgid "{product} feedback"
-msgstr ""
+msgstr "{product} atsauksmes"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:43
 msgid "Your feedback helps us improve Firefox OS."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:60
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:58 fjord/feedback/jinja2/feedback/generic_feedback.html:60
 #, python-format
 msgid "%(product)s makes me happy"
-msgstr ""
+msgstr "%(product)s padara mani priecīgu"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:77
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:75 fjord/feedback/jinja2/feedback/generic_feedback.html:77
 #, python-format
 msgid "%(product)s makes me sad"
-msgstr ""
+msgstr "%(product)s padara mani bēdīgu"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:86
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:84 fjord/feedback/jinja2/feedback/generic_feedback.html:86
 #, python-format
-msgid ""
-"Is %(product)s not the product you want to give feedback on?<br /> <a "
-"href=\"%(url)s\">Pick a different product</a>."
+msgid "Is %(product)s not the product you want to give feedback on?<br /> <a href=\"%(url)s\">Pick a different product</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:98
 msgid "In what country did you purchase your Firefox OS device?"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:128
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:106 fjord/feedback/jinja2/feedback/fxos_feedback.html:128
 msgid "Other"
-msgstr ""
+msgstr "Cits"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:132
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:110 fjord/feedback/jinja2/feedback/fxos_feedback.html:132
 msgid "Next"
 msgstr "Nākamais"
 
@@ -793,45 +690,33 @@ msgstr "Nākamais"
 msgid "What Firefox OS device are you using?"
 msgstr "Kādu Firefox OS ierīci jūs izmantojat?"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:95
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:137 fjord/feedback/jinja2/feedback/generic_feedback.html:95
 msgid "Details"
+msgstr "Detaļas"
+
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142 fjord/feedback/jinja2/feedback/generic_feedback.html:110
+msgid "Please describe what you like. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords or phone number."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:142
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:110
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150 fjord/feedback/jinja2/feedback/generic_feedback.html:118
 msgid ""
-"Please describe what you like. The content of your feedback will be public, "
-"so please be sure not to include personal information such as email address,"
-" passwords or phone number."
+"Please describe your problem below and be as specific as you can. The content of your feedback will be public, so please be sure not to include personal information such as email address, passwords "
+"or phone number."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:150
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:118
-msgid ""
-"Please describe your problem below and be as specific as you can. The "
-"content of your feedback will be public, so please be sure not to include "
-"personal information such as email address, passwords or phone number."
-msgstr ""
-
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:135
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:167 fjord/feedback/jinja2/feedback/generic_feedback.html:135
 msgid "If your feedback is related to a website, you can include it here:"
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:171
-msgid ""
-"(Optional) Check here to let us contact you to follow up on your feedback. "
-"Your email address will be kept private."
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:171
+msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198
-#: fjord/feedback/jinja2/feedback/generic_feedback.html:185
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:198 fjord/feedback/jinja2/feedback/generic_feedback.html:185
 msgid "Submit"
 msgstr "Iesniegt"
 
@@ -844,16 +729,12 @@ msgid "Success!"
 msgstr "Izdevās!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:216
-msgid ""
-"Thank you for your feedback! We will use it to help us create a better "
-"experience in future versions of Firefox OS."
+msgid "Thank you for your feedback! We will use it to help us create a better experience in future versions of Firefox OS."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:222
 #, python-format
-msgid ""
-"Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla "
-"better</a>."
+msgid "Learn how you can <a href=\"%(url)s\">make Firefox OS and Mozilla better</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:231
@@ -861,66 +742,59 @@ msgid "We're sorry!"
 msgstr "Piedodiet!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
-msgid ""
-"Something has happened and we can't submit your feedback. Feedback will be "
-"saved on your device so you can try sending it again later."
+msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
 msgstr ""
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:246
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:255
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:240 fjord/feedback/jinja2/feedback/fxos_feedback.html:246 fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
 msgstr "Mēģināt vēlreiz"
 
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241
-#: fjord/feedback/jinja2/feedback/fxos_feedback.html:256
+#: fjord/feedback/jinja2/feedback/fxos_feedback.html:241 fjord/feedback/jinja2/feedback/fxos_feedback.html:256
 msgid "Cancel"
 msgstr "Atcelt"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:249
-msgid ""
-"You have unsubmitted feedback data. Would you like to try submitting it "
-"again?"
+msgid "You have unsubmitted feedback data. Would you like to try submitting it again?"
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:43
 #, python-format
 msgid "How does %(product)s make you feel?"
-msgstr ""
+msgstr "Kā šis %(product)s liek jums justies?"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:100
 msgid ""
-"To help us understand your input, we need more information. By hitting "
-"submit below, you will provide us with technical information about your "
-"browser, along with any feedback you provide on this page."
+"To help us understand your input, we need more information. By hitting submit below, you will provide us with technical information about your browser, along with any feedback you provide on this "
+"page."
 msgstr ""
+"Lai palīdzētu mums saprast jūsu atsauksmi, mums vajag vairāk informācijas. Klikšķinot Nosūtīt apakšā, jūs mums sniegsiet informāciju par jūsu pārlūku, kopā ar jebkuru no jūsu atsauksmēm kuras ir "
+"šajā lapā."
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
-"Check here to provide <a href=\"%(technical_url)s\">technical "
-"information</a> about your browser, such as basic information about your "
-"computer, your version of Firefox, and the extensions you have installed. "
-"This information helps us better understand our users and create better "
-"products. This information will be kept in accordance with our <a "
-"href=\"%(privacy_url)s\">Privacy policy</a>."
+"Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
+"installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
+"Pārbaudi šeit lai sniegtu mums <a href=\"%(technical_url)s\">tehnisko informāciju </a> par jūsu interneta pārlūku, kā piemēram parastu informāciju par jūsu datoru, jūsu Firefox versiju un "
+"papildinājumiem kurus esat instalējis. Šī informācija palīdzēs mums labāk saprast mūsu lietotājus un izveidot labākus produktus. Šī informācija tiks saglabāta saskaņā ar mūsu <a "
+"href=\"%(privacy_url)s\">Privātuma politiku </a>."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
-msgstr ""
+msgstr "Izvēlies produktu"
 
 #: fjord/feedback/jinja2/feedback/picker.html:14
 msgid "Select a product"
-msgstr ""
+msgstr "Izvēlies produktu"
 
 #: fjord/feedback/jinja2/feedback/picker.html:23
 msgid "No products available."
-msgstr ""
+msgstr "Nav pieejams neviens produkts."
 
 #: fjord/feedback/jinja2/feedback/picker.html:34
 msgid "Select a product to leave feedback for."
-msgstr ""
+msgstr "Izvēlies produktu lai atstātu mums atsauksmi."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:3
 msgid "Thanks"
@@ -932,25 +806,21 @@ msgstr "Paldies par jūsu atsauksmi"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
 #, python-format
-msgid ""
-"Your feedback will be used to create a better experience in future releases "
-"of %(product)s."
-msgstr ""
+msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
+msgstr "Jūsu atsauksme tiks lietota lai uzlabotu pieredzi jaunam %(product)s."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:33
 msgid "Suggestions from your feedback:"
-msgstr ""
+msgstr "Ieteikumi no jūsu atsauksmes:"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
-msgstr ""
+msgstr "Rodas problēmas? Saņem palīdzību."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:51
 #, python-format
-msgid ""
-"Go to our support forum where you can <a href=\"%(url)s\">get help and find "
-"answers</a>."
-msgstr ""
+msgid "Go to our support forum where you can <a href=\"%(url)s\">get help and find answers</a>."
+msgstr "Dodies uz mūsu atbalsta forumu kur jūs varat <a href=\"%(url)s\">saņemt palīdzību atrast atbildes </a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:64
 msgid "Shape the future of Firefox."
@@ -958,20 +828,16 @@ msgstr "Izveidojiet Firefox nākotni."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
 #, python-format
-msgid ""
-"Download <a href=\"%(download_url)s\">the Firefox build that is right for "
-"you</a>."
+msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
-msgstr ""
+msgstr "Nosūtīt Mozilla kompānijai."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
 #, python-format
-msgid ""
-"Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla "
-"better</a>."
+msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
@@ -985,24 +851,20 @@ msgstr "Lejupielādēt Firefox"
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:16
 msgid "Please Download Firefox!"
-msgstr ""
+msgstr "Lūdzu lejupielādē Firefox!"
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:21
-msgid ""
-"Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need"
-" to be on the latest version."
+msgid "Oh! So, you want to offer us feedback on Firefox. Thank you, but you'll need to be on the latest version."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:27
 #, python-format
-msgid ""
-"To do that, simply go to our download page and install/update to the <a "
-"href=\"%(url)s\">latest version of Firefox!</a>"
+msgid "To do that, simply go to our download page and install/update to the <a href=\"%(url)s\">latest version of Firefox!</a>"
 msgstr ""
 
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
-msgstr ""
+msgstr "Uzdod jautājumus mūsu atbalsta forumā"
 
 #~ msgid "to get answers for common issues."
 #~ msgstr ", lai atrastu atbildes uz tipiskākajām problēmām."
