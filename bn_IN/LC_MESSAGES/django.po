@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2016-03-08 09:40-0800\n"
-"PO-Revision-Date: 2016-11-07 09:56+0000\n"
+"PO-Revision-Date: 2016-11-10 05:21+0000\n"
 "Last-Translator: Ayan Choudhury <ping2ayan@gmail.com>\n"
 "Language-Team: none\n"
 "Language: bn_IN\n"
@@ -342,7 +342,7 @@ msgstr "আইনগত দাবিত্যাগ এবং সীমাবদ
 #: fjord/base/jinja2/about.html:36
 #, python-format
 msgid "We are covered by the <a href=\"%(url)s\">Mozilla legal disclaimers and limitations</a> document."
-msgstr ""
+msgstr "আমরা <a href=\"%(url)s\">Mozilla আইনি দাবি পরিত্যাগ এবং সীমাবদ্ধতা</a> দলিল দ্বারা পরিবেষ্টিত।"
 
 #: fjord/base/jinja2/about.html:42
 msgid "Data Retention Policy"
@@ -354,11 +354,11 @@ msgstr "আমাদের একটি ডেটা ধারণ নীতি �
 
 #: fjord/base/jinja2/about.html:51
 msgid "We keep feedback data forever, but only the last 6 months of data is available on the public dashboard."
-msgstr ""
+msgstr "আমরা প্রতিক্রিয়া ডেটা চিরতরে রেখে দিয়ে থাকি, কিন্তু শুধুমাত্র গত 6 মাসের ডেটা পাবলিক ড্যাশবোর্ড পাওয়া যাবে।"
 
 #: fjord/base/jinja2/about.html:57
 msgid "We keep email addresses and contextual data associated with feedback data for 6 months and then delete it."
-msgstr ""
+msgstr "আমরা ই-মেইল আইডি এবং 6 মাসের প্রতিক্রিয়ার ডেটা প্রাসঙ্গিক তথ্য হিসেবে রেখে দিই, এবং তারপর তা মুছে দেওয়া হয়।"
 
 #: fjord/base/jinja2/about.html:64
 msgid "Open Data"
@@ -452,11 +452,11 @@ msgstr "আপনার জমা আমাদের সিস্টেমে �
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:8
 msgid "Please make sure you have cookies enabled, press the Back button in your browser, refresh the page, fill out the form, and try submitting your feedback again."
-msgstr ""
+msgstr "দয়া করে নিশ্চিত করুন যে আপনি কুকিজ সক্ষম করেছেন, আপনার ব্রাউজারে ব্যাক বোতাম টিপুন, পৃষ্ঠাটি রিফ্রেশ করে ফর্মটি পূরণ করুন, এবং আবার আপনার প্রতিক্রিয়া জমা দেওয়ার চেষ্টা করুন।"
 
 #: fjord/base/jinja2/includes/login_failure_text.html:3
 msgid "You've failed to authenticate with Persona. Please try again."
-msgstr ""
+msgstr "আপনি Persona প্রত্যয়নে ব্যর্থ হয়েছেন। অনুগ্রহপূর্বক আবার চেষ্টা করুন।"
 
 #: fjord/base/jinja2/includes/new_user_text.html:1
 msgid "Welcome!"
@@ -464,7 +464,7 @@ msgstr "স্বাগতম!"
 
 #: fjord/base/jinja2/includes/new_user_text.html:3
 msgid "The identity you just logged in to Persona with ties you to your account on Input. Please remember which Persona identity you used."
-msgstr ""
+msgstr "আপনার যে পরিচয়ে আপনি আপনার Persona অ্যাকাউন্টে লগইন করেছেন যা আপনার অ্যাকাউন্ট এর সঙ্গে সংজুক্ত। দয়া করে সেই পারসোনা পরিচয় মনে রাখবেন।"
 
 #: fjord/base/jinja2/includes/new_user_text.html:10
 msgid "Continue"
@@ -568,7 +568,7 @@ msgstr "আপনি আজ অবধি %(product)s সম্পর্কে �
 #: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
 #: fjord/feedback/jinja2/feedback/picker.html:28
 msgid "JavaScript is required to leave feedback. Please enable JavaScript in your browser and refresh this page."
-msgstr ""
+msgstr "প্রতিক্রিয়া জানাতে JavaScript ব্যবহার করা হয়। অনুগ্রহ করে আপনার ব্রাউজারে JavaScript সক্রিয় করুন এবং এই পৃষ্ঠাটি রিফ্রেশ করুন।"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:62
 msgid "I love it"
@@ -629,7 +629,7 @@ msgstr "না, ধন্যবাদ"
 #: fjord/feedback/jinja2/feedback/android_feedback.html:200 fjord/feedback/jinja2/feedback/android_thanks.html:71
 #, python-format
 msgid "Visit our <a href=\"%(support_url)s\">Support Site</a> to get answers for common issues."
-msgstr ""
+msgstr "সাধারণ সমস্যাগুলোর উত্তর পেতে আমাদের<a href=\"%(support_url)s\"> সাপোর্ট সাইটে যান </a>।"
 
 #: fjord/feedback/jinja2/feedback/android_thanks.html:34
 msgid "Thank you."
@@ -708,7 +708,7 @@ msgstr "আপনার প্রতিক্রিয়া যদি একট
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:181 fjord/feedback/jinja2/feedback/generic_feedback.html:171
 msgid "(Optional) Check here to let us contact you to follow up on your feedback. Your email address will be kept private."
-msgstr ""
+msgstr "(ঐচ্ছিক) আপনার প্রতিক্রিয়ার উপর নজর রাখতে আপনার সঙ্গে যোগাযোগ করতে দিন। আপনার ই-মেল আইডি গোপন রাখা হবে।"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:192
 msgid "Please enter a valid email address."
@@ -741,7 +741,7 @@ msgstr "আমরা দুঃখিত!"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:234
 msgid "Something has happened and we can't submit your feedback. Feedback will be saved on your device so you can try sending it again later."
-msgstr ""
+msgstr "কিছু ঘটেছে এবং আমরা আপনার প্রতিক্রিয়া জমা দিতে পারিনি। ফিডব্যাক আপনার ডিভাইসে সংরক্ষিত করা হবে যাতে আপনি পরে এটা আবার পাঠানোর চেষ্টা করতে পারেন।"
 
 #: fjord/feedback/jinja2/feedback/fxos_feedback.html:240 fjord/feedback/jinja2/feedback/fxos_feedback.html:246 fjord/feedback/jinja2/feedback/fxos_feedback.html:255
 msgid "Try again"
@@ -822,7 +822,7 @@ msgstr "Firefox এর ভবিষ্যৎ গড়ুন।"
 #: fjord/feedback/jinja2/feedback/thanks.html:66
 #, python-format
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
-msgstr ""
+msgstr "আপনার <a href=\"%(download_url)s\">জন্য যথার্থ এবং সঠিক Firefox build টি ডাউনলোড করুন</a>।"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
@@ -831,7 +831,7 @@ msgstr "Mozilla তে অবদান করুন।"
 #: fjord/feedback/jinja2/feedback/thanks.html:76
 #, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
-msgstr ""
+msgstr "জানুন আপনি কিভাবে<a href=\"%(url)s\">Mozilla এবং %(product)s কে আরও উন্নাত করতে পারেন</a>।"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
 #, python-format
