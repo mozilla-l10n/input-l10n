@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -319,7 +319,9 @@ msgstr "您好！"
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
-msgstr "Firefox Input 是 Mozilla 对产品的初步反馈机制。它被设定为单向通信的一种方法，反馈有关您使用我们产品以及访问互联网的体验，以及告诉 Mozilla 如何能让这种体验变得更好。系统能工作在很宽的范围提交机制和产品之上。"
+msgstr ""
+"Firefox Input 是 Mozilla 对产品的初步反馈机制。它被设定为单向通信的一种方法，反馈有关您使用我们产品以及访问互联网的体验，以及告诉 Mozilla 如何能让这种体验变得更好。系统能工作在很宽的范围提交机制和产"
+"品之上。"
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -366,8 +368,8 @@ msgstr "开放数据"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr "我们乐意对这些数据进行更多实验，可是我们的人手有限。所以我们需要您提供最想得到答案的具体的问题和要求！如果您想根据我们的数据进行实验，不要犹豫，立即联系我们！"
 
 #: fjord/base/jinja2/about.html:74
@@ -764,12 +766,17 @@ msgid ""
 "page."
 msgstr "为了帮助我们理解您的反馈，我们需要更多信息。点击下面的提交时，您将在提交反馈时向我们提供您的浏览器的相关技术信息。"
 
+msgid "To help us understand your input, we need more information."
+msgstr "为了帮助我们理解您的反馈，我们需要更多信息。"
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
 "Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
-msgstr "选中此项提供有关您的浏览器的<a href=\"%(technical_url)s\">技术信息</a>，例如您的计算机的基本信息、您的 Firefox 版本，以及您已安装的扩展。此信息有助于我们更好地了解我们的用户和创建更好的产品。此信息将遵循我们的<a href=\"%(privacy_url)s\">隐私政策</a>保存。"
+msgstr ""
+"选中此项提供有关您的浏览器的<a href=\"%(technical_url)s\">技术信息</a>，例如您的计算机的基本信息、您的 Firefox 版本，以及您已安装的扩展。此信息有助于我们更好地了解我们的用户和创建更好的产品。此信息"
+"将遵循我们的<a href=\"%(privacy_url)s\">隐私政策</a>保存。"
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -857,8 +864,17 @@ msgstr "您只需访问我们的下载页面，并安装或更新至 <a href=\"%
 msgid "Ask a question in our support forum"
 msgstr "在我们的支持论坛中提问"
 
-msgid "To help us understand your input, we need more information."
-msgstr "为了帮助我们理解您的反馈，我们需要更多信息。"
+#, fuzzy
+msgid "This question is required."
+msgstr "这个项目必填。"
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "请下载 Firefox"
@@ -983,9 +999,6 @@ msgstr "为了帮助我们理解您的反馈，我们需要更多信息。"
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "请输入有效的电子邮件地址，或者选空允许我们联系你的复选框。"
 
-#~ msgid "This field is required."
-#~ msgstr "这个项目必填。"
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "Firefox 让我开心"
 
@@ -1002,9 +1015,11 @@ msgstr "为了帮助我们理解您的反馈，我们需要更多信息。"
 #~ msgstr "返回"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
-#~ msgstr "请在空白处将您的意见尽量填写清楚。例如，如果您想提供软件运行缓慢的反馈，请告诉我们您在哪个网站会遇到这种情况。如果可能，请向我们提供是刚启动 Firefox 就出现问题，还是执行某些特定操作后才出现，提供什么步骤能让问题重现是最好的。"
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ msgstr ""
+#~ "请在空白处将您的意见尽量填写清楚。例如，如果您想提供软件运行缓慢的反馈，请告诉我们您在哪个网站会遇到这种情况。如果可能，请向我们提供是刚启动 Firefox 就出现问题，还是执行某些特定操作后才出现，提供"
+#~ "什么步骤能让问题重现是最好的。"
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "要获得技术支持，请改用 <a href=\"%(url)s\">Mozilla 支持网站</a> 。"
@@ -1578,8 +1593,8 @@ msgstr "为了帮助我们理解您的反馈，我们需要更多信息。"
 #~ msgstr "验证您的CSRF令牌时发生错误。您的请求不能被处理。对此带来的不便，我们深表歉意！"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr "该错误最有可能的原因是您的浏览器被设置为 <strong>不接受我们的 Cookie</strong>。请按 <a href=\"%(cookies_url)s\">以下步骤</a> 在 Firefox 中启用 Cookie，然后重试。"
 
 #~ msgid "Not Implemented"

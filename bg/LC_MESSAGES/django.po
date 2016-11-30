@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -368,8 +368,8 @@ msgstr "Отворени данни"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Ще се радваме да експериментираме повече с тези данни, но ние сме само няколко човека. Така, че имаме нужда от вашите въпроси, на който търсите отговор. Ако искате да експериментирате с нашите "
 "данни, моля свържете с нас!"
@@ -774,6 +774,9 @@ msgstr ""
 "За да разберем вашата обратна връзка, се нуждаем от повече информация. С натискането на „изпращане“ по-долу,  ще ни дадете техническа информация за вашия браузър, заедно с обратната връзка от тази "
 "страница."
 
+msgid "To help us understand your input, we need more information."
+msgstr "За да разберем вашата обратна връзка, се нуждаем от повече информация."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -869,8 +872,17 @@ msgstr "За да направите това, просто отидете на 
 msgid "Ask a question in our support forum"
 msgstr "Задайте въпрос във форума"
 
-msgid "To help us understand your input, we need more information."
-msgstr "За да разберем вашата обратна връзка, се нуждаем от повече информация."
+# Error message when the user does not answer a required question on the feedback form.
+msgid "This question is required."
+msgstr ""
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Моля, изтеглете Firefox"
@@ -993,11 +1005,11 @@ msgstr "За да разберем вашата обратна връзка, с�
 #~ msgstr "Връщане назад"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Моля, дайте колкото повече подробности можете. Например, ако давате обратна връзка за бавността на браузъра, споменете на кои уеб-сайтове това се случва, дали е в момента след стартиране на браузъра"
-#~ " или не. "
+#~ "Моля, дайте колкото повече подробности можете. Например, ако давате обратна връзка за бавността на браузъра, споменете на кои уеб-сайтове това се случва, дали е в момента след стартиране на "
+#~ "браузъра или не. "
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "Ако проблемът продължава, моля посетете <a href=\"%(url)s\">сайта за поддръжка</a>"
@@ -1069,7 +1081,8 @@ msgstr "За да разберем вашата обратна връзка, с�
 #~ msgstr "Проблем"
 
 #~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-#~ msgstr "Вашият коментар съдържа нецензурни думи (%s). За да подобрим нашия продукт, моля изразявайте се така, че да предприемем действие или отбележим задача от вашата обратна връзка. Благодарим Ви!"
+#~ msgstr ""
+#~ "Вашият коментар съдържа нецензурни думи (%s). За да подобрим нашия продукт, моля изразявайте се така, че да предприемем действие или отбележим задача от вашата обратна връзка. Благодарим Ви!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "Обратната връзка не трябва да съдържа HTML."
@@ -1582,11 +1595,11 @@ msgstr "За да разберем вашата обратна връзка, с�
 #~ msgstr "Възникна грешка при проверка на CSRF. Вашата заявка не може да се обработи. Извиняваме се за причиненото неудобство!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr ""
-#~ "Най-вероятната причина за тази грешка е, че вашият браузър е настроен така, че <strong>а не приема бисквитки</strong> от нас. Моля, следвайте <a href=\"%(cookies_url)s\">тези инструкции</a>, за да "
-#~ "активирате приемането на бисквитки от Firefox, и оптайте отново."
+#~ "Най-вероятната причина за тази грешка е, че вашият браузър е настроен така, че <strong>а не приема бисквитки</strong> от нас. Моля, следвайте <a href=\"%(cookies_url)s\">тези инструкции</a>, за "
+#~ "да активирате приемането на бисквитки от Firefox, и оптайте отново."
 
 #~ msgid "Not Implemented"
 #~ msgstr "Не е разработено"

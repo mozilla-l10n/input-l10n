@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: input 1.6\n"
@@ -319,7 +319,9 @@ msgstr "안녕하세요!"
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
-msgstr "Firefox Input은 Mozilla의 주요 제품 의견 서비스입니다. 여러분의 경험하는 제품과 인터넷은 어떤 모습인지, 그리고 Mozilla가 더 나은 경험을 만들 수는 것은 무엇인지에 대해 소통하는 채널입니다. 이 시스템은 매우 다양한 의견 제출 메커니즘과 제품 빌드들에 대해 사용 가능합니다."
+msgstr ""
+"Firefox Input은 Mozilla의 주요 제품 의견 서비스입니다. 여러분의 경험하는 제품과 인터넷은 어떤 모습인지, 그리고 Mozilla가 더 나은 경험을 만들 수는 것은 무엇인지에 대해 소통하는 채널입니다. 이 시스템"
+"은 매우 다양한 의견 제출 메커니즘과 제품 빌드들에 대해 사용 가능합니다."
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -366,9 +368,11 @@ msgstr "데이터 열기"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
-msgstr "이 데이터를 이용해 좀 더 많은 실험을 해보고 싶지만 사람이 많지 않습니다. 그래서 여러분이 알고 싶은 내용을 요청해주시면 도움이 많이 될 것 같습니다. 이 데이터를 가지고 직접 실험을 해보고 싶다면 저희에게 연락해 주세요."
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
+msgstr ""
+"이 데이터를 이용해 좀 더 많은 실험을 해보고 싶지만 사람이 많지 않습니다. 그래서 여러분이 알고 싶은 내용을 요청해주시면 도움이 많이 될 것 같습니다. 이 데이터를 가지고 직접 실험을 해보고 싶다면 저희에"
+"게 연락해 주세요."
 
 #: fjord/base/jinja2/about.html:74
 msgid "Source Code"
@@ -764,14 +768,17 @@ msgid ""
 "page."
 msgstr "요청을 이해하기 위해, 더 많은 정보가 필요합니다. 아래에 있는 제출을 눌러, 사용 중인 브라우저의 기술적 정보와 함께 피드백을 제공해주실 수 있습니다."
 
+msgid "To help us understand your input, we need more information."
+msgstr "요청을 이해하기 위해, 더 많은 정보가 필요합니다."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
 "Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
-"사용 중인 컴퓨터에 대한 기본 정보, 버전, 설치된 확장 기능과 같은 브라우저와 관련된 <a href=\"%(technical_url)s\">기술 정보</a>를 제공하기 위해 여기를 클릭해주세요. 이 정보는 사용자에 대해 더 자세히 이해하고 더 나은 제품을 만드는데 도움이 될 것입니다. 이 정보는 <a href=\"%(privacy_url)s\">개인 "
-"정보 보호 정책</a>에 준거하여 보관됩니다."
+"사용 중인 컴퓨터에 대한 기본 정보, 버전, 설치된 확장 기능과 같은 브라우저와 관련된 <a href=\"%(technical_url)s\">기술 정보</a>를 제공하기 위해 여기를 클릭해주세요. 이 정보는 사용자에 대해 더 자세히 "
+"이해하고 더 나은 제품을 만드는데 도움이 될 것입니다. 이 정보는 <a href=\"%(privacy_url)s\">개인 정보 보호 정책</a>에 준거하여 보관됩니다."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -859,8 +866,17 @@ msgstr "다운로드 페이지에서 최신 <a href=\"%(url)s\">Firefox 정식</
 msgid "Ask a question in our support forum"
 msgstr "저희 서포트 포럼에 질문을 올리세요."
 
-msgid "To help us understand your input, we need more information."
-msgstr "요청을 이해하기 위해, 더 많은 정보가 필요합니다."
+#, fuzzy
+msgid "This question is required."
+msgstr "필수 항목 입니다."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Firefox를 다운로드 해주세요."
@@ -973,9 +989,6 @@ msgstr "요청을 이해하기 위해, 더 많은 정보가 필요합니다."
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "올바른 이메일 주소를 넣거나 연락 가능 옵션을 체크하지 마세요."
 
-#~ msgid "This field is required."
-#~ msgstr "필수 항목 입니다."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "Firefox 좋음"
 
@@ -992,8 +1005,8 @@ msgstr "요청을 이해하기 위해, 더 많은 정보가 필요합니다."
 #~ msgstr "이전으로"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr "가능한 한 최대한 자세하게 검색해 주세요. 예를 들면, 속도 저하에 관한 feedback일 경우 속도 저하가 나타나는 웹사이트를, "
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
@@ -1571,8 +1584,8 @@ msgstr "요청을 이해하기 위해, 더 많은 정보가 필요합니다."
 #~ msgstr "CSRF 토큰을 확인하는 데 오류가 있습니다. 요청이 처리되지 못했습니다. 죄송합니다!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr "현재 오류의 대부분은 웹 브라우저에서 <strong>쿠키를 설정하지 않음</strong>으로 생기고 있습니다. 아래 항목을 참고하여 <a href=\"%(cookies_url)s\">쿠키 설정</a>을 켜시기 바랍니다."
 
 #~ msgid "Not Implemented"

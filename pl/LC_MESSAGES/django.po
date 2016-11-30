@@ -7,10 +7,10 @@ msgstr ""
 "PO-Revision-Date: 2016-03-13 17:12+0000\n"
 "Last-Translator: Teo Życzkowski <leszekz@gmail.com>\n"
 "Language-Team: PL <leszekz@gmail.com>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1443479725.0\n"
@@ -321,8 +321,8 @@ msgid ""
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
 "Firefox Input jest podstawowym narzędziem – systemem Mozilli służącym zbieraniu opinii użytkowników. Jest nastawione na jednokierunkową komunikację z użytkownikami produktów Mozilli w celu "
-"przekazania ich opinii o swoich wrażeniach z używania tych produktów, oraz jak internet jest przez nich postrzegany i co Mozilla może zrobić, by te wrażenia udoskonalić. System jest dostępny poprzez"
-" różnorodne mechanizmy przesyłania informacji i mechanizmy wbudowane w produktach."
+"przekazania ich opinii o swoich wrażeniach z używania tych produktów, oraz jak internet jest przez nich postrzegany i co Mozilla może zrobić, by te wrażenia udoskonalić. System jest dostępny "
+"poprzez różnorodne mechanizmy przesyłania informacji i mechanizmy wbudowane w produktach."
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -369,8 +369,8 @@ msgstr "Otwarty kod źródłowy"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Chcielibyśmy więcej eksperymentować z tymi danymi, ale jest nas tylko kilka osób, tak więc przekaż nam pytania, na które chcesz otrzymać odpowiedzi! Jeśli chcesz eksperymentować z naszymi danymi, "
 "skontaktuj się z nami!"
@@ -773,6 +773,9 @@ msgstr ""
 "Aby lepiej zrozumieć podane przez ciebie dane, potrzebujemy więcej informacji. Wysyłając poniższe dane dostarczysz nam informacje techniczne o swojej przeglądarce, a także wszystkie komentarze "
 "zamieszczone na tej stronie."
 
+msgid "To help us understand your input, we need more information."
+msgstr "Aby lepiej zrozumieć podane przez ciebie dane, potrzebujemy więcej informacji."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -780,8 +783,8 @@ msgid ""
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
 "Zaznacz tę opcję, aby dostarczyć <a href=\"%(technical_url)s\">informacje techniczne </a> o swojej przeglądarce, takie jak podstawowe informacje o twoim komputerze, jakie wersji Firefoksa używasz i "
-"jakie masz zainstalowane rozszerzenia. Informacje te pomagają nam lepiej zrozumieć naszych użytkowników i tworzyć lepsze produkty. Dane te będą przechowywane zgodnie z naszymi <a "
-"href=\"%(privacy_url)s\">zasadami ochrony prywatności</a>."
+"jakie masz zainstalowane rozszerzenia. Informacje te pomagają nam lepiej zrozumieć naszych użytkowników i tworzyć lepsze produkty. Dane te będą przechowywane zgodnie z naszymi <a href="
+"\"%(privacy_url)s\">zasadami ochrony prywatności</a>."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -869,8 +872,17 @@ msgstr "Aby to zrobić, przejdź do naszej strony pobierania i zainstaluj lub za
 msgid "Ask a question in our support forum"
 msgstr "Zapytaj na naszym forum pomocy"
 
-msgid "To help us understand your input, we need more information."
-msgstr "Aby lepiej zrozumieć podane przez ciebie dane, potrzebujemy więcej informacji."
+#, fuzzy
+msgid "This question is required."
+msgstr "To pole jest wymagane"
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Pobierz Firefoksa"
@@ -995,9 +1007,6 @@ msgstr "Aby lepiej zrozumieć podane przez ciebie dane, potrzebujemy więcej inf
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Podaj swój aktywny adres e-mail lub odznacz zgodę na kontakt z tobą."
 
-#~ msgid "This field is required."
-#~ msgstr "To pole jest wymagane"
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "Firefox wywołuje u mnie zadowolenie"
 
@@ -1014,11 +1023,11 @@ msgstr "Aby lepiej zrozumieć podane przez ciebie dane, potrzebujemy więcej inf
 #~ msgstr "Wróć"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Podaj możliwie, jak najbardziej dokładne informacje dotyczące danego zagadnienia. Na przykład jeśli przekazujesz informacje dotyczące wolnego działania przeglądarki, podaj adresy stron, na jakich "
-#~ "takie działanie występuje. Czy uwidoczniły się one na początku przeglądania, czy w późniejszym czasie, czy też po wykonaniu jakiś szczególnie problematycznych czynności."
+#~ "Podaj możliwie, jak najbardziej dokładne informacje dotyczące danego zagadnienia. Na przykład jeśli przekazujesz informacje dotyczące wolnego działania przeglądarki, podaj adresy stron, na "
+#~ "jakich takie działanie występuje. Czy uwidoczniły się one na początku przeglądania, czy w późniejszym czasie, czy też po wykonaniu jakiś szczególnie problematycznych czynności."
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "Aby uzyskać pomoc, przejdź na stronę <a href=\"%(url)s\">Mozilla Support</a>."

@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: support.mozilla.com\n"
@@ -368,8 +368,8 @@ msgstr "Odpri podatke"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "S temi podatki  bi rade volje eksperimentirali sami, vendar nas je za to premalo. Zato si želimo od vas v prvi vrsti vprašanja, na katere bi želeli dobiti odgovor! Če bi hoteli z našimi podatki "
 "eksperimentirati sami, se prosim obrnite na nas!"
@@ -449,8 +449,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Razen če ni <a href=\"%(legal_url)s\">navedeno</a> drugače, je vsebina te spletne strani na voljo pod dovoljenjem <a href=\"%(license_url)s\">Creative Commons Attribution-Share Alike License "
-"v3.0</a> ali katerokoli novejšo različico."
+"Razen če ni <a href=\"%(legal_url)s\">navedeno</a> drugače, je vsebina te spletne strani na voljo pod dovoljenjem <a href=\"%(license_url)s\">Creative Commons Attribution-Share Alike License v3.0</"
+"a> ali katerokoli novejšo različico."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -772,6 +772,9 @@ msgstr ""
 "Da bi bolje razumeli vaše povratne informacije, potrebujemo več podatkov. S klikom na spodnji gumb Pošlji nam boste skupaj s podatki, ki ste jih vnesli na tej strani, poslali tehnične podatke o "
 "svojem brskalniku."
 
+msgid "To help us understand your input, we need more information."
+msgstr "Da bi bolje razumeli vaše povratne informacije, potrebujemo več podatkov."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -867,8 +870,17 @@ msgstr "V ta namen obiščite preprosto našo stran za prenos in namestite/posod
 msgid "Ask a question in our support forum"
 msgstr "Postavite vprašanje v forumu za podporo"
 
-msgid "To help us understand your input, we need more information."
-msgstr "Da bi bolje razumeli vaše povratne informacije, potrebujemo več podatkov."
+#, fuzzy
+msgid "This question is required."
+msgstr "To polje je obvezno."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Prenesi Firefox"
@@ -993,9 +1005,6 @@ msgstr "Da bi bolje razumeli vaše povratne informacije, potrebujemo več podatk
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Vnesite veljaven poštni naslov, ali pa zbrišite kljuko na polju za kontakt z vami."
 
-#~ msgid "This field is required."
-#~ msgstr "To polje je obvezno."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "Firefox me je razveselil"
 
@@ -1012,11 +1021,11 @@ msgstr "Da bi bolje razumeli vaše povratne informacije, potrebujemo več podatk
 #~ msgstr "Pojdi nazaj"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Bodite čim bolj natančni. Na primer, če posredujete povratno informacijo o počasnem delovanju, navedite konkretne spletne strani in nam sporočite ali ste na težavo naleteli med nalaganjem strani ali"
-#~ " brskanjem po njej ter ali so posamezne zmogljivosti Firefoxa še posebej problematične."
+#~ "Bodite čim bolj natančni. Na primer, če posredujete povratno informacijo o počasnem delovanju, navedite konkretne spletne strani in nam sporočite ali ste na težavo naleteli med nalaganjem strani "
+#~ "ali brskanjem po njej ter ali so posamezne zmogljivosti Firefoxa še posebej problematične."
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "Za podporo se prosim obrnite na <a href=\"%(url)s\">Podporo Mozilla.</a>."
@@ -1092,8 +1101,8 @@ msgstr "Da bi bolje razumeli vaše povratne informacije, potrebujemo več podatk
 
 #~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 #~ msgstr ""
-#~ "Vaš komentar vsebuje psovke (%s). Da bi nam pomagali izboljšati naše izdelke, vas prosimo, da uporabljajte besede, ki nam v obliki vaše konstruktivne povratne informacije pomagajo ustvariti dejanja "
-#~ "ali opravila. Hvala!"
+#~ "Vaš komentar vsebuje psovke (%s). Da bi nam pomagali izboljšati naše izdelke, vas prosimo, da uporabljajte besede, ki nam v obliki vaše konstruktivne povratne informacije pomagajo ustvariti "
+#~ "dejanja ali opravila. Hvala!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "Povratne informacije ne smejo vsebovati HTML."
@@ -1592,11 +1601,11 @@ msgstr "Da bi bolje razumeli vaše povratne informacije, potrebujemo več podatk
 #~ msgstr "Pri preverjanju vašega CSRF žetona je prišlo do napake. Vaše zahteve ni bilo mogoče obdelati. Opravičujemo se za nevšečnosti!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr ""
-#~ "Najverjetnejši vzrok za to napako je, da je vaš brskalnik nastavljen tako, da <strong>ne sprejema piškotkov</strong> od nas. Sledite prosim <a href=\"%(cookies_url)s\">tem navodilom</a>, da piškotke"
-#~ " v Firefoxu omogočite, nato pa poizkusite znova."
+#~ "Najverjetnejši vzrok za to napako je, da je vaš brskalnik nastavljen tako, da <strong>ne sprejema piškotkov</strong> od nas. Sledite prosim <a href=\"%(cookies_url)s\">tem navodilom</a>, da "
+#~ "piškotke v Firefoxu omogočite, nato pa poizkusite znova."
 
 #~ msgid "Clusters"
 #~ msgstr "Grozdi"

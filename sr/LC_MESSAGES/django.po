@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -368,8 +368,8 @@ msgstr "Јавни подаци"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Волели бисмо да експериментишемо са овим подацима, али ми смо само неколико људи. Због тога нам требају захтеви на питања која желите да видите одговоре! Ако желите да ескпериментишете са нашим "
 "подацима, контактирајте нас!"
@@ -772,6 +772,9 @@ msgstr ""
 "Како бисмо протумачили ваш упит, потребно нам је више информација. Када кликнете доле на Пошаљи, доставићете нам техничке информације о вашем прегледачу заједно са било каквим повратним "
 "информацијама које сте доставили на овој страни."
 
+msgid "To help us understand your input, we need more information."
+msgstr "Како бисмо протумачили ваш упит, потребно нам је више информација."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -867,8 +870,17 @@ msgstr "Да бисте то урадили, једноставно идите �
 msgid "Ask a question in our support forum"
 msgstr "Поставите питање у нашем форуму за подршку"
 
-msgid "To help us understand your input, we need more information."
-msgstr "Како бисмо протумачили ваш упит, потребно нам је више информација."
+#, fuzzy
+msgid "This question is required."
+msgstr "Ово поље је обавезно."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Преузмите Firefox"
@@ -993,9 +1005,6 @@ msgstr "Како бисмо протумачили ваш упит, потреб
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Молимо Вас унесите важећу адресу е-поште , или опозовите избор у пољу омогућавајући нам да Вас контактира."
 
-#~ msgid "This field is required."
-#~ msgstr "Ово поље је обавезно."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "Firefox ме је усрећио"
 
@@ -1012,11 +1021,11 @@ msgstr "Како бисмо протумачили ваш упит, потреб
 #~ msgstr "Назад"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Молимо Вас будите прецизнији што више можете у задатом простору. На пример, ако имате примедбу на брзину рада Firefox-а, молимо Вас да нам кажете који сајтови споро раде, да ли сте то приметили на "
-#~ "почетку или крају сурфовања и да ли радите одређене ствари за које сумњате да успоравају рад Firefox-а."
+#~ "Молимо Вас будите прецизнији што више можете у задатом простору. На пример, ако имате примедбу на брзину рада Firefox-а, молимо Вас да нам кажете који сајтови споро раде, да ли сте то приметили "
+#~ "на почетку или крају сурфовања и да ли радите одређене ствари за које сумњате да успоравају рад Firefox-а."
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "За захтеве за подршку, идите на <a href=\"%(url)s\">Mozilla подршку</a>."

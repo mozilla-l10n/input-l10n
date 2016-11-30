@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.0.0.1\n"
@@ -334,8 +334,8 @@ msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
 msgstr ""
-"<strong>Firefox Input</strong> הוא מנגנון המשוב הראשי של Mozilla. המערכת הוקמה בתור אמצעי תקשורת חד־כיווני שדרכו אפשר לספר על החוויה שלך בעת שימוש ב־Firefox, על האינטרנט כפי הוא שנראה דרכו, ולומר מה"
-" Mozilla יכולים לעשות כדי לעשות את החוויה לטובה יותר. המערכת זמינה עם מרחב גדול של אמצעי שליחה בשלושת ערוצי הפרסום העיקריים."
+"<strong>Firefox Input</strong> הוא מנגנון המשוב הראשי של Mozilla. המערכת הוקמה בתור אמצעי תקשורת חד־כיווני שדרכו אפשר לספר על החוויה שלך בעת שימוש ב־Firefox, על האינטרנט כפי הוא שנראה דרכו, ולומר "
+"מה Mozilla יכולים לעשות כדי לעשות את החוויה לטובה יותר. המערכת זמינה עם מרחב גדול של אמצעי שליחה בשלושת ערוצי הפרסום העיקריים."
 
 #: fjord/base/jinja2/about.html:21
 #, fuzzy, python-format
@@ -382,8 +382,8 @@ msgstr "נתונים פתוחים"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 
 #: fjord/base/jinja2/about.html:74
@@ -790,6 +790,9 @@ msgid ""
 "page."
 msgstr ""
 
+msgid "To help us understand your input, we need more information."
+msgstr ""
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -885,8 +888,16 @@ msgstr "כדי להצטרף, יש לעבור לדף ההורדה ולהתקין 
 msgid "Ask a question in our support forum"
 msgstr ""
 
-#, fuzzy
-msgid "To help us understand your input, we need more information."
+# Error message when the user does not answer a required question on the feedback form.
+msgid "This question is required."
+msgstr ""
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
 msgstr ""
 
 #~ msgid "Please Download Firefox"
@@ -1531,9 +1542,10 @@ msgstr ""
 #~ msgstr "הייתה שגיאה באימות אסימון CSRF. לא היה אפשר לעבד את הבקשה שלך. אנו מתנצלים על התקלה."
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
-#~ msgstr "הסיבה הסבירה ביותר לשגיאה הזאת היא שהדפדפן שלך מוגדר <strong>לא לקבל עוגיות</strong> מאתנו. נא לעקוב אחר <a href=\"%(cookies_url)s\">ההוראות הללו</a> כדי להפעיל עוגיות ב־Firefox ואז נסו שוב."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
+#~ msgstr ""
+#~ "הסיבה הסבירה ביותר לשגיאה הזאת היא שהדפדפן שלך מוגדר <strong>לא לקבל עוגיות</strong> מאתנו. נא לעקוב אחר <a href=\"%(cookies_url)s\">ההוראות הללו</a> כדי להפעיל עוגיות ב־Firefox ואז נסו שוב."
 
 #~ msgid "Not Implemented"
 #~ msgstr "לא ממומש"

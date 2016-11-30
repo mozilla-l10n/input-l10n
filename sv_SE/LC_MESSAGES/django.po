@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Mozilla Input 1.0\n"
@@ -368,11 +368,11 @@ msgstr "Öppna uppgifter"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
-"Vi vill gärna experimentera mer med dessa uppgifter, men vi är bara ett fåtal personer. Därför behöver vi förfrågningar från er på de frågor som du vill ha svar på! Om du vill experimentera med våra"
-" uppgifter, vänligen kontakta oss!"
+"Vi vill gärna experimentera mer med dessa uppgifter, men vi är bara ett fåtal personer. Därför behöver vi förfrågningar från er på de frågor som du vill ha svar på! Om du vill experimentera med "
+"våra uppgifter, vänligen kontakta oss!"
 
 #: fjord/base/jinja2/about.html:74
 msgid "Source Code"
@@ -774,6 +774,9 @@ msgstr ""
 "För att hjälpa oss att förstå din åsikt, behöver vi mera information. Genom att trycka skicka nedan, kommer du förse oss med teknisk information om din webbläsare, inkluderat med all feedback du "
 "anger på denna sida."
 
+msgid "To help us understand your input, we need more information."
+msgstr "För att hjälpa oss att förstå din åsikt, behöver vi mer information."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -781,8 +784,8 @@ msgid ""
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
 "Kolla här för ange <a href=\"%(technical_url)s\">teknisk information</a> om din webbläsare, till exempel grundläggande information om din dator, din version av Firefox, och de tillägg du har "
-"installerat. Denna information hjälper oss att bättre förstå våra användare och skapa bättre produkter. Denna information kommer att hållas i enlighet med vår <a "
-"href=\"%(privacy_url)s\">Integritetpolicy</a>."
+"installerat. Denna information hjälper oss att bättre förstå våra användare och skapa bättre produkter. Denna information kommer att hållas i enlighet med vår <a href=\"%(privacy_url)s"
+"\">Integritetpolicy</a>."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -870,8 +873,17 @@ msgstr "För att göra det, gå till vår nedladdningssida och installera/uppdat
 msgid "Ask a question in our support forum"
 msgstr "Ställ en fråga i vårt supportforum"
 
-msgid "To help us understand your input, we need more information."
-msgstr "För att hjälpa oss att förstå din åsikt, behöver vi mer information."
+# Error message when the user does not answer a required question on the feedback form.
+msgid "This question is required."
+msgstr ""
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Vänligen hämta Firefox"

@@ -7,10 +7,10 @@ msgstr ""
 "PO-Revision-Date: 2016-04-23 15:57+0000\n"
 "Last-Translator: Cristian Silaghi <cristian.silaghi@mozilla.ro>\n"
 "Language-Team: Romanian <LL@li.org>\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1443743024.0\n"
@@ -371,8 +371,8 @@ msgstr "Date deschise"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Ne-ar plăcea să experimentăm mai multe cu aceste date, dar noi suntem doar câțiva oameni. Așadar avem nevoie de solicitări din partea ta cu privire la problemele la care dorești să primești "
 "răspunsuri! Dacă dorești să experimentezi cu datele noastre, te rugăm să ne contactezi!"
@@ -777,6 +777,12 @@ msgstr ""
 "Pentru a ne ajuta să înțelegem opinia ta, avem nevoie de mai multe informații. Apăsând butonul de trimitere de mai jos, ne vei furniza informații tehnice despre browserul tău, împreună cu orice "
 "feedback pe care îl oferi pe această pagină."
 
+#, fuzzy
+msgid "To help us understand your input, we need more information."
+msgstr ""
+"Pentru a ne ajuta să înțelegem opinia ta, avem nevoie de mai multe informații. Apăsând butonul de trimitere de mai jos, ne vei furniza informații tehnice despre browserul tău, împreună cu orice "
+"feedback pe care îl oferi pe această pagină."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -784,8 +790,8 @@ msgid ""
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
 "Bifează aici pentru a ne oferi <a href=\"%(technical_url)s\">informații tehnice</a> despre browserul tău, precum informații de bază privind calculatorul, versiunea Firefox și extensiile pe care le "
-"ai instalate. Aceste informații ne ajută să înțelegem mai bine utilizatorii noștri și să creăm produse mai bune. Aceste informații vor fi păstrate în conformitate cu <a "
-"href=\"%(privacy_url)s\">politica noastră de confidențialitate</a>."
+"ai instalate. Aceste informații ne ajută să înțelegem mai bine utilizatorii noștri și să creăm produse mai bune. Aceste informații vor fi păstrate în conformitate cu <a href=\"%(privacy_url)s"
+"\">politica noastră de confidențialitate</a>."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -874,10 +880,16 @@ msgid "Ask a question in our support forum"
 msgstr "Adresează o întrebare pe forumul nostru de suport"
 
 #, fuzzy
-msgid "To help us understand your input, we need more information."
+msgid "This question is required."
+msgstr "Acest câmp este necesar."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
 msgstr ""
-"Pentru a ne ajuta să înțelegem opinia ta, avem nevoie de mai multe informații. Apăsând butonul de trimitere de mai jos, ne vei furniza informații tehnice despre browserul tău, împreună cu orice "
-"feedback pe care îl oferi pe această pagină."
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Te rugăm să descarci Firefox"
@@ -993,9 +1005,6 @@ msgstr ""
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Vă rugăm introduceți o adresă de email validă sau debifați caseta pentru permisiunea de contactare."
 
-#~ msgid "This field is required."
-#~ msgstr "Acest câmp este necesar."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "Firefox mă face fericit"
 
@@ -1012,11 +1021,11 @@ msgstr ""
 #~ msgstr "Mergi înapoi"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Vă rugăm să fiți cât de precis puteți în spațiul alocat. De exemplu, dacă oferiți feedback despre viteza redusă, vă rugăm să ne spuneți despre saiturile relevante, dacă se observă la începutul sau "
-#~ "în cursul sesiunii de navigare, iar în cazul în care există orice acțiuni pe care le efectuează în Firefox, care sunt particularitățile problematice."
+#~ "Vă rugăm să fiți cât de precis puteți în spațiul alocat. De exemplu, dacă oferiți feedback despre viteza redusă, vă rugăm să ne spuneți despre saiturile relevante, dacă se observă la începutul "
+#~ "sau în cursul sesiunii de navigare, iar în cazul în care există orice acțiuni pe care le efectuează în Firefox, care sunt particularitățile problematice."
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "Pentru solicitări de ajutor, vă rugăm să vizitați <a href=\"%(url)s\">Suport Mozilla</a> în schimb."

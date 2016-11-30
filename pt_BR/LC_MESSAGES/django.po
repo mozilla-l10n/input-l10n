@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -368,8 +368,8 @@ msgstr "Dados públicos"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Gostaríamos poder fazer muito mais com esses dados, mas somos um grupo pequeno de pessoas. Por isso, precisamos que nos diga que perguntas gostaria que fossem respondidas! Se quiser realizar "
 "experimentos usando nossos dados, por favor, entre em contato!"
@@ -449,8 +449,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Exceto onde <a href=\"%(legal_url)s\">especificado</a>, o conteúdo deste site é licenciado sob a <a href=\"%(license_url)s\">Licença Creative Commons Atribuição-CompartilhaIgual v3.0</a> ou qualquer"
-" versão posterior."
+"Exceto onde <a href=\"%(legal_url)s\">especificado</a>, o conteúdo deste site é licenciado sob a <a href=\"%(license_url)s\">Licença Creative Commons Atribuição-CompartilhaIgual v3.0</a> ou "
+"qualquer versão posterior."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -774,6 +774,9 @@ msgstr ""
 "Para nos ajudar a melhor entender seu pedido, precisamos de mais informações. Ao clicar no botão enviar, você vai nos fornecer informações técnicas sobre o seu navegador, juntamente com qualquer "
 "feedback que você fornecer nesta página."
 
+msgid "To help us understand your input, we need more information."
+msgstr "Para ajudar-nos a entender o seu comentário, necessitamos de mais informação."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -870,8 +873,17 @@ msgstr "Para fazer isso, basta ir até a página de download e instalar/atualiza
 msgid "Ask a question in our support forum"
 msgstr "Faça uma pergunta no nosso fórum de suporte"
 
-msgid "To help us understand your input, we need more information."
-msgstr "Para ajudar-nos a entender o seu comentário, necessitamos de mais informação."
+#, fuzzy
+msgid "This question is required."
+msgstr "Esse campo é obrigatório."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Por favor, baixe o Firefox"
@@ -996,9 +1008,6 @@ msgstr "Para ajudar-nos a entender o seu comentário, necessitamos de mais infor
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Insira um endereço de email válido ou desmarque a caixa que nos permite entrar em contato com você."
 
-#~ msgid "This field is required."
-#~ msgstr "Esse campo é obrigatório."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "O Firefox me deixou feliz"
 
@@ -1015,8 +1024,8 @@ msgstr "Para ajudar-nos a entender o seu comentário, necessitamos de mais infor
 #~ msgstr "Voltar"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
 #~ "Por favor, seja bastante específico. Por exemplo, se você estiver enviando uma opinião sobre lentidão, por favor, informe sobre sites relevantes, se você percebeu no começo ou no fim da sua "
 #~ "navegação e se há alguma ação que você executa no Firefox que é particularmente problemática."
@@ -1607,11 +1616,11 @@ msgstr "Para ajudar-nos a entender o seu comentário, necessitamos de mais infor
 #~ msgstr "Houve um erro ao verificar seu passe CSRF. Sua solicitação não pôde ser processada. Pedimos desculpas pela inconveniência!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr ""
-#~ "A causa mais provável deste erro é o seu navegador estar configurado para <strong>não aceitar cookies</strong> de nós. Por favor, siga <a href=\"%(cookies_url)s\">estas instruções</a> para ativar "
-#~ "cookies no Firefox, e então tente novamente."
+#~ "A causa mais provável deste erro é o seu navegador estar configurado para <strong>não aceitar cookies</strong> de nós. Por favor, siga <a href=\"%(cookies_url)s\">estas instruções</a> para "
+#~ "ativar cookies no Firefox, e então tente novamente."
 
 #~ msgid "Not Implemented"
 #~ msgstr "Não implementado"

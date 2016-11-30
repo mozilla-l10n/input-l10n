@@ -7,10 +7,10 @@ msgstr ""
 "PO-Revision-Date: 2014-08-12 16:37+0000\n"
 "Last-Translator: Enrique <eu@keko.me>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1407861428.0\n"
@@ -375,8 +375,8 @@ msgstr "Datos abertos"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Encantaríanos experimentar máis con estes datos, pero tan só somos unhas poucas persoas. Entón, precisamos saber que preguntas vos gustaría ver contestadas! Se vostede quere experimentar cos nosos "
 "datos, contacte connosco!"
@@ -458,8 +458,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Excepto onde <a href=\"%(legal_url)s\">se indique</a> o contrario, autorizase o contido deste sitio pola <br/> <a href=\"%(license_url)s\">licenza Creative Commons Atribución-CompartirIgual v3.0</a>"
-" ou calquera versión posterior."
+"Excepto onde <a href=\"%(legal_url)s\">se indique</a> o contrario, autorizase o contido deste sitio pola <br/> <a href=\"%(license_url)s\">licenza Creative Commons Atribución-CompartirIgual v3.0</"
+"a> ou calquera versión posterior."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -790,6 +790,9 @@ msgid ""
 "page."
 msgstr ""
 
+msgid "To help us understand your input, we need more information."
+msgstr ""
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -887,7 +890,15 @@ msgid "Ask a question in our support forum"
 msgstr ""
 
 #, fuzzy
-msgid "To help us understand your input, we need more information."
+msgid "This question is required."
+msgstr "Requírese o campo."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
 msgstr ""
 
 #~ msgid "Please Download Firefox"
@@ -998,9 +1009,6 @@ msgstr ""
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Escriba un enderezo de correo correcto, ou desmarque a caixa permitíndonos contactar con vostede."
 
-#~ msgid "This field is required."
-#~ msgstr "Requírese o campo."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "O Firefox faime feliz"
 
@@ -1017,8 +1025,8 @@ msgstr ""
 #~ msgstr "Retroceder"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
 #~ "Sexa tan específico como poida no espazo dispoñíbel. Por exemplo, se dá unha opinión sobre un problema de lentitude, indique sitios web relevantes, se os observa ao principio ou no transcurso da "
 #~ "sesión e se hai algunhas accións que realiza no Firefox que son particularmente problemáticas."
@@ -1093,7 +1101,8 @@ msgstr ""
 #~ msgstr "Incidencia"
 
 #~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
-#~ msgstr "Os seus comentarios conteñen palabras ofensivas (%s). Co fin de axudarnos a mellorar os nosos produtos, use palabras que nos axuden a tomar accións a partir dunha opinión construtiva. Grazas!"
+#~ msgstr ""
+#~ "Os seus comentarios conteñen palabras ofensivas (%s). Co fin de axudarnos a mellorar os nosos produtos, use palabras que nos axuden a tomar accións a partir dunha opinión construtiva. Grazas!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "A súa opinión non debe conter código HTML."
@@ -1607,11 +1616,11 @@ msgstr ""
 #~ msgstr "Produciuse un erro ao verificar o seu token CSRF. Non foi posíbel procesar a súa solicitude. Pedímoslle desculpas polos inconvenientes!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr ""
-#~ "A causa máis probábel deste erro é que o seu navegador está configurado <strong>para non aceptar cookies</strong> deste sitio. Por favor siga <a href=\"%(cookies_url)s\">estas instrucións</a> para "
-#~ "habilitar as cookies no Firefox, e volva a intentalo."
+#~ "A causa máis probábel deste erro é que o seu navegador está configurado <strong>para non aceptar cookies</strong> deste sitio. Por favor siga <a href=\"%(cookies_url)s\">estas instrucións</a> "
+#~ "para habilitar as cookies no Firefox, e volva a intentalo."
 
 #~ msgid "Not Implemented"
 #~ msgstr "Sen implementar"

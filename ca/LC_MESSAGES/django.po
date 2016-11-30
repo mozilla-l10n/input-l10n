@@ -7,10 +7,10 @@ msgstr ""
 "PO-Revision-Date: 2013-11-09 18:11+0000\n"
 "Last-Translator: Toni <toniher@softcatala.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.0\n"
 "X-POOTLE-MTIME: 1384020712.0\n"
@@ -390,8 +390,8 @@ msgstr "Dades obertes"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 
 #: fjord/base/jinja2/about.html:74
@@ -472,8 +472,8 @@ msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Excepte si <a href=\"%(legal_url)s\">s'indica</a> el contrari, el contingut d'aquest lloc està sota una <br/> <a href=\"%(license_url)s\">llicència Creative Commons Atribució-Compartir igual "
-"v3.0</a> o qualsevol altra versió posterior."
+"Excepte si <a href=\"%(legal_url)s\">s'indica</a> el contrari, el contingut d'aquest lloc està sota una <br/> <a href=\"%(license_url)s\">llicència Creative Commons Atribució-Compartir igual v3.0</"
+"a> o qualsevol altra versió posterior."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -809,6 +809,9 @@ msgid ""
 "page."
 msgstr ""
 
+msgid "To help us understand your input, we need more information."
+msgstr ""
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -906,8 +909,16 @@ msgstr "Per poder fer-ho, només heu d'anar a la nostra pàgina de baixades i in
 msgid "Ask a question in our support forum"
 msgstr ""
 
-#, fuzzy
-msgid "To help us understand your input, we need more information."
+# Error message when the user does not answer a required question on the feedback form.
+msgid "This question is required."
+msgstr ""
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
 msgstr ""
 
 #~ msgid "Please Download Firefox"
@@ -1010,11 +1021,11 @@ msgstr ""
 #~ msgstr "Vés enrere"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Si us plau sigueu el més específic possible en l'espai assignat. Per exemple, si el vostre comentari és sobre lentitud, digueu-nos llocs web rellevants; si ho noteu al principi, o més tard, en la "
-#~ "sessió de navegació; i si hi ha algunes accions que realitzeu en Firefox que siguin particularment problemàtiques."
+#~ "Si us plau sigueu el més específic possible en l'espai assignat. Per exemple, si el vostre comentari és sobre lentitud, digueu-nos llocs web rellevants; si ho noteu al principi, o més tard, en "
+#~ "la sessió de navegació; i si hi ha algunes accions que realitzeu en Firefox que siguin particularment problemàtiques."
 
 #~ msgid "To protect your privacy, please ensure that no personally identifiable information is included in your feedback."
 #~ msgstr "Per garantir la vostra privadesa, assegureu-vos que no inclogueu cap informació personal que pugui revelar la vostra identitat."
@@ -1572,8 +1583,8 @@ msgstr ""
 #~ msgstr "S'ha produït un error en verificar el vostre testimoni CSRF. No s'ha pogut processar la vostra sol·licitud. Disculpes pels inconvenients!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr ""
 #~ "La causa més probable de l'error és que el navegador està configurat per <strong>no acceptar galetes</strong> d'aquest lloc. Seguiu <a href=\"%(cookies_url)s\">aquestes instruccions</a> per "
 #~ "habilitar les galetes al Firefox, i torneu-ho a provar."

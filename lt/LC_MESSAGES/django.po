@@ -7,10 +7,10 @@ msgstr ""
 "PO-Revision-Date: 2016-05-15 15:48+0000\n"
 "Last-Translator: rimas <rimas@mozilla.lt>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: lt\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pontoon\n"
 "X-POOTLE-MTIME: 1433676778.0\n"
@@ -370,8 +370,8 @@ msgstr "Atviri duomenys"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Mes norėtume eksperimentuoti su šiais duomenimis kuo daugiau, tačiau esame tik keleto žmonių komanda. Todėl mums reikia Jūsų nuomonės apie tai, kokius klausimus norėtumėte matyti atsakytus! Jeigu "
 "norėtumėte paeksperimentuoti su mūsų duomenimis, prašome susisiekti!"
@@ -783,6 +783,9 @@ msgid ""
 "page."
 msgstr ""
 
+msgid "To help us understand your input, we need more information."
+msgstr ""
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -880,7 +883,15 @@ msgid "Ask a question in our support forum"
 msgstr "Pateikite klausimą mūsų pagalbos forume"
 
 #, fuzzy
-msgid "To help us understand your input, we need more information."
+msgid "This question is required."
+msgstr "Šis laukas yra privalomas."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
 msgstr ""
 
 #~ msgid "Please Download Firefox"
@@ -994,9 +1005,6 @@ msgstr ""
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Prašome įvesti tikrą el. pašto adresą arba nuimti varnelę žyminčią, jog leidžiate mums su Jumis susisiekti."
 
-#~ msgid "This field is required."
-#~ msgstr "Šis laukas yra privalomas."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "„Firefox“ mane nudžiugino"
 
@@ -1013,11 +1021,11 @@ msgstr ""
 #~ msgstr "Grįžti"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Prašome rašyti kiek įmanoma konkrečiau. Pavyzdžiui, jeigu rašote atsiliepimą apie veikimo sulėtėjimą, paminėkite susijusias svetaines, aprašykite ar problemą pastebite naršymo pradžioje, ar vėliau, "
-#~ "o gal ji pasireiškia po tam tikrų veiksmų, kuriuos atliekate su „Firefox“."
+#~ "Prašome rašyti kiek įmanoma konkrečiau. Pavyzdžiui, jeigu rašote atsiliepimą apie veikimo sulėtėjimą, paminėkite susijusias svetaines, aprašykite ar problemą pastebite naršymo pradžioje, ar "
+#~ "vėliau, o gal ji pasireiškia po tam tikrų veiksmų, kuriuos atliekate su „Firefox“."
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "Dėl pagalbos klausimų prašome eiti į <a href=\"%(url)s\">„Mozillos“ pagalbą</a>."

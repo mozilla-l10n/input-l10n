@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -320,7 +320,9 @@ msgstr "ようこそ！"
 msgid ""
 "Firefox Input is Mozilla's primary feedback mechanism for products. It is set up to be a method of one-way communication about your experiences in using our products, the Internet you view it "
 "through, and what Mozilla can do to make that experience better. The system is available over a wide-variety of submission mechanisms and product builds."
-msgstr "Firefox Input は Mozilla 製品の主要なフィードバック窓口です。Mozilla 製品を使っての感想や、製品を通じてあなたが得たインターネット体験、そして Mozilla がそれらを改善するために何ができるかについて、意見を投稿できる一方向のコミュニケーション手段として用意されています。このシステムは様々な投稿方法や製品ビルドを通じて利用可能となっています。"
+msgstr ""
+"Firefox Input は Mozilla 製品の主要なフィードバック窓口です。Mozilla 製品を使っての感想や、製品を通じてあなたが得たインターネット体験、そして Mozilla がそれらを改善するために何ができるかについて、意"
+"見を投稿できる一方向のコミュニケーション手段として用意されています。このシステムは様々な投稿方法や製品ビルドを通じて利用可能となっています。"
 
 #: fjord/base/jinja2/about.html:21
 #, python-format
@@ -367,8 +369,8 @@ msgstr "Open Data"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr "この情報からより多くを理解しようとしたいところですが、我々は少人数です。あなたが回答を見てみたい項目についてご意見があればお寄せください！ もし興味があれば、ご連絡ください！"
 
 #: fjord/base/jinja2/about.html:74
@@ -445,7 +447,9 @@ msgstr "商標の不正利用を報告"
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
-msgstr "<a href=\"%(legal_url)s\">他のライセンス</a>が明記されている場合を除き、このサイト上のコンテンツは <a href=\"%(license_url)s\">Creative Commons 表示-継承 ライセンス 3.0</a> またはそれ以降のバージョンの下で公開されます。"
+msgstr ""
+"<a href=\"%(legal_url)s\">他のライセンス</a>が明記されている場合を除き、このサイト上のコンテンツは <a href=\"%(license_url)s\">Creative Commons 表示-継承 ライセンス 3.0</a> またはそれ以降のバージョ"
+"ンの下で公開されます。"
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -766,7 +770,11 @@ msgstr "%(product)s を使った感想は？"
 msgid ""
 "To help us understand your input, we need more information. By hitting submit below, you will provide us with technical information about your browser, along with any feedback you provide on this "
 "page."
-msgstr "あなたのフィードバックに関する理解を深めるため、より詳しい情報が必要です。以下の送信ボタンを押すことで、このページ上であなたが入力した内容とともに、お使いのブラウザーに関する技術情報が提供されます。"
+msgstr ""
+"あなたのフィードバックに関する理解を深めるため、より詳しい情報が必要です。以下の送信ボタンを押すことで、このページ上であなたが入力した内容とともに、お使いのブラウザーに関する技術情報が提供されます。"
+
+msgid "To help us understand your input, we need more information."
+msgstr "あなたのフィードバックに関する理解を深めるため、より詳しい情報が必要です。"
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
@@ -774,8 +782,8 @@ msgid ""
 "Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
-"コンピュータの基本情報、Firefox のバージョン、インストールされている拡張機能など、お使いのブラウザーに関する <a href=\"%(technical_url)s\">技術情報</a> を提供する場合は、ここにチェックを入れてください。提供された情報は、ユーザーに関する理解を深め、より良い製品を作るために役立てられます。また、情報は Mozilla の <a "
-"href=\"%(privacy_url)s\">プライバシーポリシー</a> に従って保存されます。"
+"コンピュータの基本情報、Firefox のバージョン、インストールされている拡張機能など、お使いのブラウザーに関する <a href=\"%(technical_url)s\">技術情報</a> を提供する場合は、ここにチェックを入れてくださ"
+"い。提供された情報は、ユーザーに関する理解を深め、より良い製品を作るために役立てられます。また、情報は Mozilla の <a href=\"%(privacy_url)s\">プライバシーポリシー</a> に従って保存されます。"
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -868,8 +876,17 @@ msgstr "そのためには、ダウンロードページから <a href=\"%(url)s
 msgid "Ask a question in our support forum"
 msgstr "サポートフォーラムで質問する"
 
-msgid "To help us understand your input, we need more information."
-msgstr "あなたのフィードバックに関する理解を深めるため、より詳しい情報が必要です。"
+# Error message when the user does not answer a required question on the feedback form.
+msgid "This question is required."
+msgstr ""
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Firefox をダウンロードしてください"

@@ -7,10 +7,10 @@ msgstr ""
 "PO-Revision-Date: 2011-05-21 02:55+0200\n"
 "Last-Translator: Hùng. <loveleeyoungae@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Pootle 2.1.6\n"
 
@@ -393,8 +393,8 @@ msgstr "Dữ liệu Mở"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 
 #: fjord/base/jinja2/about.html:74
@@ -805,6 +805,9 @@ msgid ""
 "page."
 msgstr ""
 
+msgid "To help us understand your input, we need more information."
+msgstr ""
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
@@ -904,8 +907,16 @@ msgstr "Để làm việc đó, chỉ cần vào trang tải xuống của chún
 msgid "Ask a question in our support forum"
 msgstr ""
 
-#, fuzzy
-msgid "To help us understand your input, we need more information."
+# Error message when the user does not answer a required question on the feedback form.
+msgid "This question is required."
+msgstr ""
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
 msgstr ""
 
 #~ msgid "Please Download Firefox"
@@ -1036,8 +1047,8 @@ msgstr ""
 
 #~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 #~ msgstr ""
-#~ "Bình luận của bạn có chứa từ ngữ chửi thề (%s). Để giúp chúng tôi cải tiến sản phẩm của mình, vui lòng dùng những lời lẽ có thể giúp chúng tôi tạo ra hành động cần thiết từ những phản hồi có tính "
-#~ "xây dựng của bạn. Cảm ơn!"
+#~ "Bình luận của bạn có chứa từ ngữ chửi thề (%s). Để giúp chúng tôi cải tiến sản phẩm của mình, vui lòng dùng những lời lẽ có thể giúp chúng tôi tạo ra hành động cần thiết từ những phản hồi có "
+#~ "tính xây dựng của bạn. Cảm ơn!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "Phản hồi không được chứa HTML."
@@ -1521,11 +1532,11 @@ msgstr ""
 #~ msgstr "Có lỗi khi đang xác minh token CSRF của bạn. Yêu cầu của bạn không thể xử lí được. Chúng tôi xin lỗi vì sự bất tiện này!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
-#~ "in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
+#~ "cookies in Firefox, then try again."
 #~ msgstr ""
-#~ "Nhiều khả năng nguyên nhân của lỗi này do trình duyệt của bạn được thiết lập là <strong>không chấp nhận cookie</strong> từ chúng tôi. Vui lòng làm theo <a href=\"%(cookies_url)s\">những hướng dẫn "
-#~ "này</a> để bật cookie trong Firefox, rồi thử lại."
+#~ "Nhiều khả năng nguyên nhân của lỗi này do trình duyệt của bạn được thiết lập là <strong>không chấp nhận cookie</strong> từ chúng tôi. Vui lòng làm theo <a href=\"%(cookies_url)s\">những hướng "
+#~ "dẫn này</a> để bật cookie trong Firefox, rồi thử lại."
 
 #~ msgid "Clusters"
 #~ msgstr "Clusters"

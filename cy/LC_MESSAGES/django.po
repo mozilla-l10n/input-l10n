@@ -7,10 +7,10 @@ msgstr ""
 "PO-Revision-Date: 2016-05-20 14:02+0000\n"
 "Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: none\n"
+"Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cy\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
 "Generated-By: Babel 2.1.1\n"
 "X-Generator: Pontoon\n"
@@ -368,8 +368,8 @@ msgstr "Data Agored"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Byddwn yn hoffi arbrofi mwy gyda'r data hwn, ond nifer fach ohonom sydd. Felly hoffwn dderbyn ceisiadau gennych ar gwestiynau'r hoffech gael eu hateb! Os hoffech chi arbrofi gyda'n data, cysylltwch "
 "â ni!"
@@ -773,14 +773,20 @@ msgstr ""
 "I'n cynorthwyo i ddeall eich mewnbwn chi, mae angen inni gael rhagor o wybodaeth. Drwy glicio Cyflwyno isod, byddwch yn ein darparu â gwybodaeth dechnegol am eich porwr, ynghyd ag unrhyw adborth "
 "rydych wedi ei ddarparu ar y dudalen hon."
 
+#, fuzzy
+msgid "To help us understand your input, we need more information."
+msgstr ""
+"I'n cynorthwyo i ddeall eich mewnbwn chi, mae angen inni gael rhagor o wybodaeth. Drwy glicio Cyflwyno isod, byddwch yn ein darparu â gwybodaeth dechnegol am eich porwr, ynghyd ag unrhyw adborth "
+"rydych wedi ei ddarparu ar y dudalen hon."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
 "Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
-"Ticiwch ym i ddarparu <a href=\"%(technical_url)s\">manylion technegol</a> am eich porwr, megis gwybodaeth sylfaenol am y cyfrifiadur, eich fersiwn o Firefox, a'r estyniadau rydych chi wedi'u gosod."
-" Mae'r wybodaeth yma'n helpu inni ddeall ein defnyddwyr yn well a creu gwell cynnyrch. Mae'r gwybodaeth yma'n cael ei gadw'n unol â 'n <a href=\"%(privacy_url)s\">polisi preifatrwydd</a>."
+"Ticiwch ym i ddarparu <a href=\"%(technical_url)s\">manylion technegol</a> am eich porwr, megis gwybodaeth sylfaenol am y cyfrifiadur, eich fersiwn o Firefox, a'r estyniadau rydych chi wedi'u "
+"gosod. Mae'r wybodaeth yma'n helpu inni ddeall ein defnyddwyr yn well a creu gwell cynnyrch. Mae'r gwybodaeth yma'n cael ei gadw'n unol â 'n <a href=\"%(privacy_url)s\">polisi preifatrwydd</a>."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -868,11 +874,17 @@ msgstr "I wneud hynny, ewch i'n tudalen llwytho i lawr a gosod/diweddaru i'r <a 
 msgid "Ask a question in our support forum"
 msgstr "Gofynnwch gwestiwn yn ein fforwm cymorth"
 
-#, fuzzy
-msgid "To help us understand your input, we need more information."
+# Error message when the user does not answer a required question on the feedback form.
+msgid "This question is required."
 msgstr ""
-"I'n cynorthwyo i ddeall eich mewnbwn chi, mae angen inni gael rhagor o wybodaeth. Drwy glicio Cyflwyno isod, byddwch yn ein darparu â gwybodaeth dechnegol am eich porwr, ynghyd ag unrhyw adborth "
-"rydych wedi ei ddarparu ar y dudalen hon."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "to get answers for common issues."
 #~ msgstr "i gael atebion i anawsterau cyffredin."

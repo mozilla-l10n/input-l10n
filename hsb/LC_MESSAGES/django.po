@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -368,8 +368,8 @@ msgstr "Wotewrjene daty"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
-" contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
+"please contact us!"
 msgstr ""
 "Bychmy rady z tutymi datami eksperimentowali, ale smy jenož mało ludźi. Tohodla trjebamy waše naprašowanja, zo bychmy widźeli, za kotre prašenja wy byšće rady wotmołwy měł! Jeli byšće rady z našimi "
 "datami eksperimentował, stajće so z nami do zwiska!"
@@ -448,7 +448,8 @@ msgstr "Znjewužiwanje tworowych znamjenjow zdźělić"
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
-msgstr "Jeli njeje ničo druhe <a href=\"%(legal_url)s\">podate</a>, steji wobsah na tutym sydle pod licencu <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike v3.0</a> abo pod nowšej."
+msgstr ""
+"Jeli njeje ničo druhe <a href=\"%(legal_url)s\">podate</a>, steji wobsah na tutym sydle pod licencu <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike v3.0</a> abo pod nowšej."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -774,15 +775,18 @@ msgstr ""
 "Zo byšće nam pomhał, waše zapodaće rozumić, trjebamy dalše informacije. Hdyž na „Wotpósłać“ kliknjeće, přeposćeleće nam techniske informacije wo swojim wobhladowaku, hromadźe z komentarami, kotrež "
 "nam na tutej stronje zawostajeće."
 
+msgid "To help us understand your input, we need more information."
+msgstr "Zo byšće nam pomhał, waše zapodaće rozumić, trjebamy dalše informacije."
+
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
 #, python-format
 msgid ""
 "Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
-"Wubjerće to, zo byšće <a href=\"%(technical_url)s\">techniske informacije</a> wo swojim wobhladowaku podał, kaž na přikład zakładne informacije wo swojim ličaku, swoju wersiju Firefox a rozšěrjenja,"
-" kotrež sće instalował. Tute informacije pomhaja nam, našich wužiwarjow lěpje rozumić a lěpše produkty wutworić. Tute daty so wotpowědujo našim <a href=\"%(privacy_url)s\">prawidłam priwatnosće</a> "
-"wobchowaja."
+"Wubjerće to, zo byšće <a href=\"%(technical_url)s\">techniske informacije</a> wo swojim wobhladowaku podał, kaž na přikład zakładne informacije wo swojim ličaku, swoju wersiju Firefox a "
+"rozšěrjenja, kotrež sće instalował. Tute informacije pomhaja nam, našich wužiwarjow lěpje rozumić a lěpše produkty wutworić. Tute daty so wotpowědujo našim <a href=\"%(privacy_url)s\">prawidłam "
+"priwatnosće</a> wobchowaja."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -870,8 +874,17 @@ msgstr "Zo byšće to činił, dźiće k našej sćehnjenskej stronje a instaluj
 msgid "Ask a question in our support forum"
 msgstr "Prašejće so w našim forumje pomocy"
 
-msgid "To help us understand your input, we need more information."
-msgstr "Zo byšće nam pomhał, waše zapodaće rozumić, trjebamy dalše informacije."
+#, fuzzy
+msgid "This question is required."
+msgstr "Tute polo dyrbi wupjelnjene być."
+
+# Error message when the user fills out a form incorrectly.
+msgid "There was an error on your page. Please correct any required fields and submit again."
+msgstr ""
+
+# Used in a link to an error in the feedback form
+msgid "Go to the first error"
+msgstr ""
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Prošu sćehńće Firefox"
@@ -996,9 +1009,6 @@ msgstr "Zo byšće nam pomhał, waše zapodaće rozumić, trjebamy dalše inform
 #~ msgid "Please enter a valid email address, or uncheck the box allowing us to contact you."
 #~ msgstr "Prošu zapodajće płaćiwu e-mejlowu adresu abo wotstrońće hóčku z kontrolneho kašćika, přez kotruž nam dowoleće, zo bychmy so z wami do zwiska stajili."
 
-#~ msgid "This field is required."
-#~ msgstr "Tute polo dyrbi wupjelnjene być."
-
 #~ msgid "Firefox Made Me Happy"
 #~ msgstr "Firefox je mje wozbožił"
 
@@ -1015,11 +1025,11 @@ msgstr "Zo byšće nam pomhał, waše zapodaće rozumić, trjebamy dalše inform
 #~ msgstr "Wróćo"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
-#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
+#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
-#~ "Prošu budźće tak dokładny kaž móžno w datym wobłuku. Jeli na přikład komentar wo pomałosći wotedaće, zdźělće nam prošu relewantne websydła, jeli pytnjeće je na spočatku posedźenja abo pozdźišo, a "
-#~ "jeli su akcije, kotrež w Firefox wuwjedźeće, kotrež su wosebje problematiske."
+#~ "Prošu budźće tak dokładny kaž móžno w datym wobłuku. Jeli na přikład komentar wo pomałosći wotedaće, zdźělće nam prošu relewantne websydła, jeli pytnjeće je na spočatku posedźenja abo pozdźišo, "
+#~ "a jeli su akcije, kotrež w Firefox wuwjedźeće, kotrež su wosebje problematiske."
 
 #~ msgid "For support requests, please go to <a href=\"%(url)s\">Mozilla Support</a> instead."
 #~ msgstr "Jeli pomoc trjebaće, wopytajće město toho <a href=\"%(url)s\">Pomoc Mozilla</a>."
