@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugzilla.mozilla.org/enter_bug.cgi?product=Input\n"
 "POT-Creation-Date: 2016-03-08 09:40-0800\n"
-"PO-Revision-Date: 2016-08-12 18:52+0000\n"
+"PO-Revision-Date: 2016-12-11 15:09+0000\n"
 "Last-Translator: Jim Spentzos <jamesspentzos@hotmail.com>\n"
 "Language-Team: LANGUAGE <fiotakis@otenet.gr>\n"
 "Language: el\n"
@@ -165,19 +165,16 @@ msgid "Description"
 msgstr "Περιγραφή"
 
 #: fjord/analytics/jinja2/analytics/response.html:53
-#, fuzzy
 msgid "Translated"
-msgstr "Μετάφραση μηνύματος"
+msgstr "Μεταφράστηκε"
 
 #: fjord/analytics/jinja2/analytics/response.html:64
-#, fuzzy
 msgid "Translate (machine)"
-msgstr "Μετάφραση μηνύματος"
+msgstr "Μετάφραση (μηχανή)"
 
 #: fjord/analytics/jinja2/analytics/response.html:70
-#, fuzzy
 msgid "Translate (human)"
-msgstr "Μετάφραση μηνύματος"
+msgstr "Μετάφραση (άνθρωπος)"
 
 #: fjord/analytics/jinja2/analytics/response.html:85
 msgid "Created"
@@ -250,7 +247,7 @@ msgstr "Έκδοση API"
 
 #: fjord/analytics/jinja2/analytics/response.html:205
 msgid "Context"
-msgstr ""
+msgstr "Περιεχόμενο"
 
 #: fjord/analytics/jinja2/analytics/analyzer/search.html:152
 msgid "Note: All dates and times are in Pacific Time."
@@ -376,8 +373,8 @@ msgstr "Ανοικτά δεδομένα"
 
 #: fjord/base/jinja2/about.html:66
 msgid ""
-"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, "
-"please contact us!"
+"We'd love to experiment more with this data, but we're only a few people. So, we need requests from you on questions you'd like to see answered! If you would like to experiment with our data, please"
+" contact us!"
 msgstr ""
 "Θα θέλαμε να πειραματιστούμε περισσότερο με αυτά τα δεδομένα, αλλά η ομάδα μας είναι μικρή. Χρειαζόμαστε τα δικά σας αιτήματα για ερωτήσεις που θα θέλατε να δείτε απαντημένες. Αν θέλετε να "
 "πειραματιστείτε με τα δεδομένα μας, σας παρακαλούμε να έρθετε σε επαφή μαζί μας!"
@@ -425,9 +422,8 @@ msgid "Sign in"
 msgstr "Σύνδεση"
 
 #: fjord/base/jinja2/csrf_failure.html:3 fjord/base/jinja2/includes/csrf_failure_text.html:1 fjord/base/jinja2/mobile/csrf_failure.html:3
-#, fuzzy
 msgid "CSRF Failure"
-msgstr "Αποτυχία σύνδεσης"
+msgstr "Αποτυχία CSRF"
 
 #: fjord/base/jinja2/login_failure.html:3 fjord/base/jinja2/includes/login_failure_text.html:1 fjord/base/jinja2/mobile/login_failure.html:3
 msgid "Login Failure"
@@ -454,13 +450,13 @@ msgid "Report Trademark Abuse"
 msgstr "Αναφορά παραβίασης εμπορικών σημάτων"
 
 #: fjord/base/jinja2/includes/common.html:26
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Except where otherwise <a href=\"%(legal_url)s\">noted</a>, content on this site is licensed under the <a href=\"%(license_url)s\">Creative Commons Attribution Share-Alike License v3.0</a> or any "
 "later version."
 msgstr ""
-"Εκτός από όπου <a href=\"%(legal_url)s\">ορίζεται</a> διαφορετικά, το περιεχόμενο του ιστότοπου παρέχεται σύμφωνα με την άδεια <br/> <a href=\"%(license_url)s\">Creative Commons αναφορά προέλευσης "
-"- παρόμοια διανομή 3.0</a> ή μεταγενέστερη."
+"Εκτός απ' όπου <a href=\"%(legal_url)s\">αναγράφεται</a> διαφορετικά, το περιεχόμενο σε αυτή την ιστοσελίδα υπάγεται στην άδεια<a href=\"%(license_url)s\">Creative Commons Αναφορά Δημιουργού - "
+"Παρόμοια Διανομή 3.0</a> ή μεταγενέστερη."
 
 #: fjord/base/jinja2/includes/csrf_failure_text.html:3
 msgid "Your submission failed a security check on our system."
@@ -558,17 +554,15 @@ msgstr "Firefox OS"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:25
-#, fuzzy
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox Developer"
-msgstr "Λογότυπο Firefox"
+msgstr "Firefox για Προγραμματιστές"
 
 #. l10n: This is a product name
 #: fjord/feedback/db_strings.py:27
-#, fuzzy
 msgctxt "DB: feedback.Product.display_name"
 msgid "Firefox for iOS"
-msgstr "Λογότυπο Firefox"
+msgstr "Firefox για iOS"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:20 fjord/feedback/jinja2/feedback/android_thanks.html:20
 msgid "Firefox Feedback"
@@ -579,9 +573,9 @@ msgid "Have a minute?"
 msgstr "Have a minute?"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:47
-#, fuzzy, python-format
+#, python-format
 msgid "Tell us what you think about %(product)s so far."
-msgstr "Tell us what you think about Firefox for Android so far."
+msgstr "Πείτε μάς τη γνώμη σας σχετικά με το %(product)s μέχρι τώρα."
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:54 fjord/feedback/jinja2/feedback/fxos_feedback.html:36 fjord/feedback/jinja2/feedback/generic_feedback.html:37
 #: fjord/feedback/jinja2/feedback/picker.html:28
@@ -629,13 +623,8 @@ msgid "Include last visited site"
 msgstr "Include last visited site"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:156
-#, fuzzy
 msgid "Send Feedback"
-msgstr ""
-"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Send Feedback\n"
-"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Αποστολή σχολίου"
+msgstr "Αποστολή σχολίων"
 
 #: fjord/feedback/jinja2/feedback/android_feedback.html:161
 msgid "For your privacy, please do not include any personal information in your feedback."
@@ -793,13 +782,14 @@ msgid "To help us understand your input, we need more information."
 msgstr ""
 
 #: fjord/feedback/jinja2/feedback/generic_feedback.html:150
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Check here to provide <a href=\"%(technical_url)s\">technical information</a> about your browser, such as basic information about your computer, your version of Firefox, and the extensions you have "
 "installed. This information helps us better understand our users and create better products. This information will be kept in accordance with our <a href=\"%(privacy_url)s\">Privacy policy</a>."
 msgstr ""
-"Επιλέξτε το κουτάκι για να μας παρέχετε τεχνικές πληροφορίες για τον περιηγητή σας. Αυτές οι πληροφορίες θα μας βοηθήσουν να κατανοήσουμε καλύτερα τους χρήστες μας και να δημιουργούμε καλύτερα "
-"προϊόντα. Οι πληροφορίες θα αποθηκευτούν σύμφωνα με την πολιτική απορρήτου μας."
+"Επιλέξτε αυτό για να παραθέσετε <a href=\"%(technical_url)s\">τεχνικές πληροφορίες</a> σχετικά με το πρόγραμμα περιήγησής σας, όπως βασικές πληροφορίες για τον υπολογιστή σας, την έκδοση του Firefox"
+" σας και τις επεκτάσεις που έχετε εγκαταστήσει. Αυτές οι πληροφορίες θα μάς βοηθήσουν να κατανοήσουμε καλύτερα τους χρήστες μας και να δημιουργήσουμε καλύτερα προϊόντα. Αυτές οι πληροφορίες θα "
+"διατηρηθούν σύμφωνα με την <a href=\"%(privacy_url)s\">Πολιτική απορρήτου</a> μας."
 
 #: fjord/feedback/jinja2/feedback/picker.html:3
 msgid "Select A Product"
@@ -827,14 +817,13 @@ msgid "Thanks for Your Feedback"
 msgstr "Σας ευχαριστούμε για τα σχόλιά σας"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:25
-#, fuzzy, python-format
+#, python-format
 msgid "Your feedback will be used to create a better experience in future releases of %(product)s."
-msgstr "Τα σχόλιά σας θα βοηθήσουν στη δημιουργία μιας καλύτερης εμπειρίας σε επόμενες εκδόσεις του Firefox."
+msgstr "Τα σχόλιά σας θα χρησιμοποιηθούν για τη δημιουργία μιας καλύτερης εμπειρίας στις μελλοντικές εκδόσεις του %(product)s."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:33
-#, fuzzy
 msgid "Suggestions from your feedback:"
-msgstr "Μοιραστείτε τα σχόλιά σας."
+msgstr "Προτάσεις από τα σχόλιά σας:"
 
 #: fjord/feedback/jinja2/feedback/thanks.html:49
 msgid "Having problems? Get help."
@@ -850,23 +839,23 @@ msgid "Shape the future of Firefox."
 msgstr "Διαμορφώστε το μέλλον του Firefox."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:66
-#, fuzzy, python-format
+#, python-format
 msgid "Download <a href=\"%(download_url)s\">the Firefox build that is right for you</a>."
-msgstr "Λήψη <a href=\"%(download_url)s\"> της έκδοσης που προτιμάτε</a>."
+msgstr "Λήψη <a href=\"%(download_url)s\">της έκδοσης του Firefox που σάς ταιριάζει</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:74
 msgid "Contribute to Mozilla."
 msgstr "Συνεισφέρετε στο Mozilla."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:76
-#, fuzzy, python-format
+#, python-format
 msgid "Learn how you can <a href=\"%(url)s\">make %(product)s and Mozilla better</a>."
-msgstr "Μάθετε πώς μπορείτε <a href=\"%(url)s\">να κάνετε τον Firefox και το έργο Mozilla καλύτερο</a>"
+msgstr "Μάθετε πώς μπορείτε να <a href=\"%(url)s\">βελτιώσετε το %(product)s και τη Mozilla</a>."
 
 #: fjord/feedback/jinja2/feedback/thanks.html:84
-#, fuzzy, python-format
+#, python-format
 msgid "Find the latest news about %(product)s."
-msgstr "Δείτε τα πιο πρόσφατα νέα του Firefox:"
+msgstr "Μάθετε τα τελευταία νέα σχετικά με το %(product)s."
 
 #: fjord/feedback/jinja2/feedback/mobile/download_firefox.html:7
 msgid "Download Firefox"
@@ -887,11 +876,10 @@ msgstr "Για να το κάνετε αυτό, απλά πηγαίνετε στ
 
 #: fjord/suggest/providers/sumo/provider.py:162
 msgid "Ask a question in our support forum"
-msgstr ""
+msgstr "Υποβολή ερώτησης στο φόρουμ υποστήριξής μας"
 
-#, fuzzy
 msgid "This question is required."
-msgstr "Αυτό το πεδίο είναι υποχρεωτικό."
+msgstr "Αυτή η ερώτηση απαιτείται."
 
 # Error message when the user fills out a form incorrectly.
 msgid "There was an error on your page. Please correct any required fields and submit again."
@@ -899,7 +887,7 @@ msgstr ""
 
 # Used in a link to an error in the feedback form
 msgid "Go to the first error"
-msgstr ""
+msgstr "Μετάβαση στο πρώτο σφάλμα"
 
 #~ msgid "Please Download Firefox"
 #~ msgstr "Λήψη του Firefox"
@@ -1028,8 +1016,8 @@ msgstr ""
 #~ msgstr "Μετάβαση πίσω"
 
 #~ msgid ""
-#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later "
-#~ "in the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
+#~ "Please be as specific as you can in the allotted space. For example, if you are giving feedback about slowness, please tell us about relevant websites, if you notice it at the beginning or later in "
+#~ "the browsing session and if there are any actions that you perform in Firefox that are particularly problematic."
 #~ msgstr ""
 #~ "Παρακαλούμε να είστε όσο πιο συγκεκριμένοι μπορείτε στον καθορισμένο χώρο. Αν για παράδειγμα τα σχόλια σας είναι για καθυστέρηση φόρτωσης ιστοσελίδας, πείτε τις σχετικές σελίδες, αν παρατηρείτε "
 #~ "καθυστέρηση στην αρχή της συνεδρίας ή αργότερα και αν κάποιες λειτουργίες είναι ιδιαίτερα προβληματικές στον Firefox"
@@ -1105,16 +1093,16 @@ msgstr ""
 
 #~ msgid "Your comment contains swear words (%s). In order to help us improve our products, please use words that help us create an action or to-do from your constructive feedback. Thanks!"
 #~ msgstr ""
-#~ "Το σχόλιο σας περιέχει υβριστικές εκφράσεις (%s). Για να μας βοηθήσετε να βελτιώσουμε τα προϊόντα μας, σας παρακαλούμε να χρησιμοποιείτε εκφράσεις που να μας επιτρέπουν να προβούμε σε ενέργειες "
-#~ "ή στο σχεδιασμό ενεργειών με βάση τα σχόλια σας. Σας ευχαριστούμε!"
+#~ "Το σχόλιο σας περιέχει υβριστικές εκφράσεις (%s). Για να μας βοηθήσετε να βελτιώσουμε τα προϊόντα μας, σας παρακαλούμε να χρησιμοποιείτε εκφράσεις που να μας επιτρέπουν να προβούμε σε ενέργειες ή "
+#~ "στο σχεδιασμό ενεργειών με βάση τα σχόλια σας. Σας ευχαριστούμε!"
 
 #~ msgid "Feedback must not contain HTML."
 #~ msgstr "Τα σχόλια δεν μπορούν να περιέχουν κώδικα HTML."
 
 #~ msgid "Your feedback seems to contain an email address. Please remove this and similar personal data from the text, then try again. Thanks!"
 #~ msgstr ""
-#~ "Το σχόλιο σας μάλλον περιέχει μια διεύθυνση ηλεκτρονικού ταχυδρομείου. Σας παρακαλούμε να την αφαιρέσετε καθώς και όσα άλλα προσωπικά δεδομένα έχετε εισάγει στο κείμενο και να προσπαθήσετε ξανά. "
-#~ "Σας ευχαριστούμε!"
+#~ "Το σχόλιο σας μάλλον περιέχει μια διεύθυνση ηλεκτρονικού ταχυδρομείου. Σας παρακαλούμε να την αφαιρέσετε καθώς και όσα άλλα προσωπικά δεδομένα έχετε εισάγει στο κείμενο και να προσπαθήσετε ξανά. Σας"
+#~ " ευχαριστούμε!"
 
 #~ msgid "Your feedback seems to contain a URL. Please remove this and similar personal data from the text, then try again. Thanks!"
 #~ msgstr "Το σχόλιο σας περιέχει ένα URL. Σας παρακαλούμε να το αφαιρέσετε καθώς και όσα άλλα προσωπικά δεδομένα έχετε εισάγει στο κείμενο και να προσπαθήσετε ξανά. Σας ευχαριστούμε!"
@@ -1190,8 +1178,8 @@ msgstr ""
 
 #~ msgid "Oh! So, you want to offer us feedback. You'll need the latest Beta! Head over to our beta page and <a href=\"%(url)s\">download it!</a>"
 #~ msgstr ""
-#~ "Θέλετε λοιπόν να μας προσφέρετε τα σχόλια σας, θαυμάσια! Θα χρειαστείτε όμως την πιο πρόσφατη δοκιμαστική έκδοση. Απλά <a href=\"%(url)s\">κάντε λήψη</a> από τη σελίδα των δοκιμαστικών μας "
-#~ "εκδόσεων. "
+#~ "Θέλετε λοιπόν να μας προσφέρετε τα σχόλια σας, θαυμάσια! Θα χρειαστείτε όμως την πιο πρόσφατη δοκιμαστική έκδοση. Απλά <a href=\"%(url)s\">κάντε λήψη</a> από τη σελίδα των δοκιμαστικών μας εκδόσεων."
+#~ " "
 
 #~ msgid "Back to Dashboard"
 #~ msgstr "Ταμπλό σχολίων"
@@ -1590,11 +1578,11 @@ msgstr ""
 #~ msgstr "Παρουσιάστηκε σφάλμα κατά την επαλήθευση του CSRF token. Δεν ήταν δυνατή η επεξεργασία του αιτήματος σας. Λυπούμαστε για την ταλαιπωρία!"
 
 #~ msgid ""
-#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable "
-#~ "cookies in Firefox, then try again."
+#~ "The most likely cause of this error is that your browser is set up <strong>not to accept cookies</strong> from us. Please follow <a href=\"%(cookies_url)s\">these instructions</a> to enable cookies "
+#~ "in Firefox, then try again."
 #~ msgstr ""
-#~ "Η πιο πιθανή αιτία στην οποία οφείλεται αυτό το σφάλμα, είναι το ότι ο περιηγητής σας <strong>δεν μας επιτρέπει την αποθήκευση cookie</strong>. Σας παρακαλούμε να ακολουθήσετε <a href="
-#~ "\"%(cookies_url)s\">αυτές τις οδηγίες</a> για να ενεργοποιήσετε την αποδοχή cookies στον Firefox και να προσπαθήσετε ξανά."
+#~ "Η πιο πιθανή αιτία στην οποία οφείλεται αυτό το σφάλμα, είναι το ότι ο περιηγητής σας <strong>δεν μας επιτρέπει την αποθήκευση cookie</strong>. Σας παρακαλούμε να ακολουθήσετε <a "
+#~ "href=\"%(cookies_url)s\">αυτές τις οδηγίες</a> για να ενεργοποιήσετε την αποδοχή cookies στον Firefox και να προσπαθήσετε ξανά."
 
 #~ msgid "Clusters"
 #~ msgstr "Ομαδοποίηση"
